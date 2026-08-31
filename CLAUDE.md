@@ -1,6 +1,10 @@
-# violin-course — project guide
+# from-zero-to-mozart — project guide
 
 @AGENTS.md
+
+> Repo: `github.com/parthtiwari-dev/from-zero-to-mozart` · lives at
+> `C:\great learning self paced\z Final Projects\from-zero-to-mozart` (outside OneDrive).
+> Deploys to Vercel (static). Run `npm run dev`.
 
 ## What this is
 
@@ -86,9 +90,11 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 | `docs/DECISIONS.md` | locked decisions + rationale |
 | `docs/OPEN-QUESTIONS.md` | to discuss before/while building (next session) |
 | `docs/PDF-MAP.md` | every section of the original PDF → its target stage/lesson |
-| `docs/source/` | the original PDF + its extracted text |
+| `docs/source/` | the original PDF + text extract, the Vivaldi *Spring* arrangement, the Mozart K.216 score & violin part (`docs/source/README.md`) |
 
 ## Status
 
-Phase 0, just scaffolded. Next session: discuss `docs/OPEN-QUESTIONS.md`, then lock the design
-and build one lesson end-to-end as the feel prototype before mass-producing Stages 0–5.
+Phase 0 — scaffolded, moved into its GitHub repo, source PDFs in place. **Next session:** work
+through `docs/OPEN-QUESTIONS.md` with the user first, then install `taste-skill`, lock the
+design (→ `DESIGN_LOCK.md`), and build one lesson end-to-end as the feel prototype before
+mass-producing Stages 0–5.

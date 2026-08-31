@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "violin-course",
+  title: "From Zero to Mozart",
   description:
-    "Learning the violin, from Ode to Joy to Mozart's Violin Concerto No. 3.",
+    "Learning to read and play the violin, properly — from Ode to Joy to the first page of Mozart's Violin Concerto No. 3.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

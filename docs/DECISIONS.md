@@ -6,11 +6,19 @@ Locked decisions and the reasoning behind them. Add new ones at the top with a d
 
 ## 2026-09-01 — Project setup
 
-- **Project lives at `C:\Users\workf\violin-course\` (outside OneDrive).**
+- **Repo name: `from-zero-to-mozart`.** GitHub: `github.com/parthtiwari-dev/from-zero-to-mozart`
+  (MIT, © 2026 Parth Tiwari). Lives at
+  `C:\great learning self paced\z Final Projects\from-zero-to-mozart` — the user's regular
+  projects folder, **outside OneDrive**.
   Reason: `node_modules` / `.next` in a OneDrive-synced folder causes constant sync churn and
-  slowdowns on Windows. Backup/versioning is via **git + GitHub** (which we need anyway for
-  Vercel), not OneDrive. The original PDF stays in its OneDrive location; a copy is in
-  `docs/source/`.
+  slowdowns on Windows. Backup/versioning is via **git + GitHub** (needed for Vercel anyway),
+  not OneDrive.
+
+- **Source PDFs in `docs/source/`:** `original-violin-book.pdf` (+ `.txt` extract) — the
+  193-page course being rebuilt; `vivaldi-spring-easy.pdf` — the user's Vivaldi *Spring* easy
+  arrangement (Stage 8 / Vivaldi module, Phase 2); `mozart-k216-violin-part.pdf` and
+  `mozart-k216-full-score.pdf` — the destination score (Mozart module, Phase 3). See
+  `docs/source/README.md`.
 
 - **Framework: Next.js 16 (App Router) + TypeScript + Tailwind v4, deployed on Vercel.
   Fully static (SSG). No database, no accounts, no auth in v1.**

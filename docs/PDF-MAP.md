@@ -154,16 +154,20 @@ Legend for target stage: see `CURRICULUM.md`.
 
 ## Part VIII — Your Vivaldi *Spring* Line (p167–172) → **Vivaldi module (Phase 2)**
 
+Source: `docs/source/vivaldi-spring-easy.pdf` (the easy arrangement with tabs).
+
 | PDF page | Section | → target | Status |
 |---|---|---|---|
 | 167 | Part VIII divider | — | — |
-| 168 | §87 Original screenshot | Vivaldi module (needs user's screenshot; PD excerpt otherwise) | todo |
+| 168 | §87 Original screenshot | Vivaldi module — rebuild from `source/vivaldi-spring-easy.pdf` | todo |
 | 169 | §88 Annotated screenshot | Vivaldi module (real legend this time) | todo |
 | 170 | §89 How to decode one Vivaldi group | Vivaldi module | todo |
 | 171 | §90 Vivaldi practice worksheet | Vivaldi module | todo |
 | 172 | §90A What success looks like | Vivaldi module | todo |
 
 ## Part IX — Mozart K.216 (p173–184) → **Mozart module (Phase 3)**
+
+Source: `docs/source/mozart-k216-violin-part.pdf` (solo part) + `mozart-k216-full-score.pdf`.
 
 | PDF page | Section | → target | Status |
 |---|---|---|---|

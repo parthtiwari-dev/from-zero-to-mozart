@@ -1,4 +1,4 @@
-# violin-course
+# from-zero-to-mozart
 
 An interactive violin-learning website — from *Ode to Joy* to **Mozart Violin Concerto No. 3 in
 G major, K.216**. A rebuild of a 193-page PDF course as something calm, readable, and usable

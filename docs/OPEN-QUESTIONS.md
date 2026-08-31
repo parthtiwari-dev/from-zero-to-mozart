@@ -7,9 +7,9 @@ This is the list to work through before/while building. Grouped, roughly in prio
 
 ## 1. Feel & identity
 
-- **Name.** "violin-course" is a placeholder. What is this thing called? (It's the title bar,
-  the domain, the feeling.) Ideas to react to: *The Practice Room* · *From Zero* · *Ground Up* ·
-  *The Violin Room* · *Sarangi* (no) · *Cantabile* · *First Position* · keep it plain.
+- **Repo name is `from-zero-to-mozart`** (settled). Still open: is that also the *product* name
+  shown in the title bar / header, or is there a nicer display name over the same repo?
+  (e.g. *From Zero* · *The Practice Room* · *Ground Up* · or just "from zero to mozart".)
 - **Domain.** Custom domain on Vercel, or `*.vercel.app` for now?
 - **The teacher persona.** Is there an implied single teacher voice (consistent "I"), or is it
   voiceless-but-warm? Does the lineage (Leopold Mozart, Galamian, Suzuki, Hahn) show up as
@@ -64,11 +64,11 @@ This is the list to work through before/while building. Grouped, roughly in prio
 - How much does each lesson get checked against sources before it ships vs. a QA pass at the
   end?
 
-## 7. The two source files
+## 7. The source files — ✅ have them
 
-- Does the user still have the **Vivaldi *Spring* screenshot** and the **Mozart K.216 PDF**
-  from the original ChatGPT project? Needed for Stages 8–9 (Phase 2–3, not v1) — but good to
-  locate now.
+In `docs/source/`: `vivaldi-spring-easy.pdf` (the easy arrangement with tabs — Vivaldi module),
+`mozart-k216-violin-part.pdf` and `mozart-k216-full-score.pdf` (Mozart module). Not needed for
+v1; check which edition the Mozart part is (for fingerings/bowings) when we reach Phase 3.
 
 ## 8. Later / not-v1 (park these)
 
