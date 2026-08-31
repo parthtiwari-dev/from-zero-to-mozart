@@ -1,0 +1,2657 @@
+        THE VIOLIN READING BOOK
+
+               Expanded Year-One Course + Visual Workbook + Technique Encyclopedia
+
+Edition 2 - an expansion of the 60-page book you already liked. The original learning spine is
+preserved, but every weak jump is filled with visual explanation, drills, answer pages,
+repertoire and later-technique reference material.
+Primary destination: you should be able to open beginner/intermediate violin music, decode what the symbols
+mean, map written pitches to strings and fingers, and eventually look at the first page of Mozart's Violin
+Concerto No. 3 in G major, K.216 and understand what the score is asking - even before you have the
+technique to perform all of it.
+
+This is not a promise that reading alone makes every concerto playable. Reading, intonation, bow control, shifting, speed, musical
+style and interpretation are separate skills. The book tells you which layer you are learning and which layers can wait.
+
+The Violin Reading Book - Expanded Year-One Edition                                                                                 1
+Contents - the course path
+
+Section                          What you learn
+Front matter
+Part I - The Violin as a Map     how to use the book; accuracy rules; Hahn-inspired learning principles; year-one plan
+Part II - Reading Pitch
+Part III - Rhythm                strings, fingers, low/high placements, every first-position string map, ambiguous pitches, intonation
+Part IV - Score Symbols
+Part V - Scales & Theory         staff, treble clef, lines/spaces, ledger lines, G-major notation, accidentals, key signatures, octave
+Part VI - Skills Atlas           labels, worksheets + answers
+Part VII - Sight-reading Course
+Part VIII - Vivaldi Spring       note values, beams, rests, dots, ties/slurs, time signatures, common time, Vivaldi visual problem,
+Part IX - Mozart K.216           rhythm worksheets + answers
+Reference
+                                 tempo, dynamics, articulations, bow marks, pizz/arco, ornaments, repeats, double stops, tremolo,
+                                 harmonics, quiz
+
+                                 what major/minor mean, whole/half steps, circle of fifths, all 12 major and natural-minor reference
+                                 scales, scale order, arpeggios
+
+                                 bow physics, six core strokes, 25-technique atlas, double stops/chords, trills, pizzicato, vibrato,
+                                 positions, études
+
+                                 pre-read method, scaffold removal, 8 graded sight-reading cards + answers, Twinkle/Ode fragments,
+                                 Hahn-inspired repertoire, 50 popular targets + 40 classical goals
+
+                                 your actual screenshot, annotation, decoding order, worksheet
+
+                                 your actual destination score: score anatomy, first-system decoder, reading milestones, technique
+                                 triage
+
+                                 sources, videos/QR links, copyright note, next 14 practice sessions
+
+Use this as a course, not as a book to binge-read. The fastest path is often: learn one concept -> do its
+worksheet -> check answer -> apply it to a real line.
+
+The Violin Reading Book - Expanded Year-One Edition                                                                                     2
+When you get confused, jump here
+
+Your question                                        Go to
+Which finger/string plays this pitch?                Part I string maps + Part II pitch worksheets
+Which B or C is this?                                Part I "Which B? Which C?" + ledger-line pages
+What does the curly sign mean?                       Part II treble-clef page
+What does # / b / natural mean?                      Part II accidentals/key signature
+What do one/two beams mean?                          Part III beams + Vivaldi screenshot
+Is this two fast notes or two notes together?        Part III beamed-vs-double-stop visual
+What does this curve mean?                           Part III tie vs slur
+What do p, f, Allegro, staccato, tr mean?            Part IV
+What is G major vs G minor?                          Part V
+Which scales should I actually practice this year?   Part V scale order
+How do I learn vibrato?                              Part VI vibrato readiness + arm/wrist pages
+What are all these bow-stroke names?                 Part VI 25-technique atlas + video QR
+How do I practice sight-reading?                     Part VII
+How do I decode my Spring screenshot?                Part VIII
+How do I read Mozart without pretending I can
+perform it yet?                                      Part IX
+
+The Violin Reading Book - Expanded Year-One Edition                                                  3
+How to use this book without getting overwhelmed
+
+Every page uses one of four tags: NOW = practice this in your current stage; NEXT = learn after first-position
+reading is comfortable; LATER = keep as a reference; REFERENCE = recognize the term, but do not drill it yet.
+
+Tag        Meaning
+NOW        Do the exercise; you are building this skill now.
+NEXT       Add after your current reading/fingering becomes stable.
+LATER      Useful for Mozart and serious repertoire, but premature today.
+REFERENCE  Know what the word/symbol means; no need to perform it yet.
+
+Answer-page rule: almost every reading exercise is followed by an answer page. Try first. Then check. If you
+miss more than about 20%, repeat the same level instead of advancing.
+
+Scaffold removal: early examples show note name + string + finger. Then one cue disappears at a time until
+you are reading normal notation. This mirrors the beginner tab scaffolding described by Violinspiration, where
+string letters may appear below notes and finger numbers above them.
+
+           Violinspiration: How to Read Sheet Music
+           Use this beside Part III. The book is designed to make the video less abstract, not replace it.
+           Open link
+
+The Violin Reading Book - Expanded Year-One Edition                                                             4
+Accuracy policy for this edition
+
+Violin fingering is contextual. A written pitch can sometimes be played on more than one string or in more
+than one position. Whenever that is true, this book labels the default beginner / first-position choice instead of
+pretending there is only one legal fingering.
+
+Open-string pitch checks used here are exact same-pitch relationships in normal first position: G-string 4 =
+open D; D-string 4 = open A; A-string 4 = open E. A D-string 3rd-finger G is an octave above open G, not the
+same pitch.
+
+Bow-direction symbols are also stated explicitly: down-bow = frog toward tip; up-bow = tip toward frog. The
+V-shaped bow mark means up-bow.
+
+For advanced techniques, teachers may differ on sequence and physical approach. The book marks those
+areas as teacher-dependent and gives vetted video/article references instead of presenting one school as
+universal.
+
+The Violin Reading Book - Expanded Year-One Edition                                                                 5
+What "learn like Hilary Hahn started" can
+realistically mean
+
+We cannot reconstruct every day of Hilary Hahn's childhood practice. What is documented is useful: she
+began with Suzuki; she has said that every note she plays began with the Twinkle Variations; she credits
+Suzuki with a lifelong habit of listening to recordings. At age five she began five years with Klara Berkovich,
+who taught bowing, double stops, vibrato, pizzicato and phrasing, and Hahn said she did many études,
+especially Wohlfahrt.
+
+So this book borrows the principles, not a fantasy copy of a prodigy schedule: listen daily; master small
+motions; use simple pieces to plant future rhythms; revisit fundamentals; do études; add technique in layers;
+keep musical phrasing present from early on.
+
+Suzuki Volume 1 repertoire sequence (reference, not reproduced here)
+
+Twinkle Variations -> Lightly Row -> Song of the Wind -> Go Tell Aunt Rhody -> O Come, Little Children ->
+May Song -> Long, Long Ago -> Allegro -> Perpetual Motion -> Allegretto -> Andantino -> Etude -> three
+Minuets -> The Happy Farmer -> Gavotte.
+
+The current international Suzuki Volume 1 recording features Hilary Hahn with pianist Natalie Zhu. Use a
+licensed Suzuki book/recording if you want to follow the exact method; this PDF uses public-domain/original
+drills and does not reproduce copyrighted Suzuki notation.
+
+The Violin Reading Book - Expanded Year-One Edition                                                              6
+Your year-one map - ambitious, but ordered
+
+Phase        Main work                                                                 Do not rush into
+Weeks 1-4
+Weeks 5-10   Open strings, bow path, G/D/A/E note map, quarter/eighth rhythms, G       Vibrato, shifting, fast spiccato
+Weeks 11-20  major
+Weeks 21-32
+Weeks 33-52  First-position notes, low/high fingers, D/A/C scales, slurs, dotted       High positions
+             rhythms, easy pieces
+
+             Sight-reading, key signatures, arpeggios, Wohlfahrt/Sevcík-style drills,  Concerto tempo
+             legato/staccato/martelé
+
+             More first-position fluency, two-octave G, basic double stops, phrasing,  Wide/fast vibrato
+             vibrato preparation if intonation is stable
+
+             Third position + shifting if ready, arm/wrist vibrato development,        Trying to brute-force Mozart 3
+             spiccato introduction, longer repertoire
+
+This is a flexible map, not a deadline. A good year can be slower or faster. Physical ease and intonation matter
+more than checking boxes.
+
+The Violin Reading Book - Expanded Year-One Edition                                                                      7
+A 30-minute practice architecture
+
+Minutes  Work
+5        Tone: open strings, straight bow, relaxed sound
+7        Reading: 5-10 notes; name -> string -> finger
+7        Scale/arpeggio of the week; listen for pitch
+7        Piece / étude: 1-4 measures, not the whole song
+4        Review: one weak rhythm or bowing pattern
+
+When you have 45-60 minutes, do not simply double everything. Add a second short repertoire block and a
+dedicated rhythm/ear block.
+
+         Violinspiration: Free 1-hour beginner course
+         You already know much of this material; keep it as a posture/bow/string-crossing reference.
+         Open link
+
+The Violin Reading Book - Expanded Year-One Edition                                                      8
+PART I - THE VIOLIN AS A MAP
+
+      Before reading a score, know what the four strings and four fingers can physically do.
+
+Goal: if I say "A-string low 2," you know where to go; if I say "C natural," you understand
+that the exact string/finger depends on register and context.
+
+The Violin Reading Book - Expanded Year-One Edition                                           9
+1. Strings: G - D - A - E
+
+From lowest to highest, the open strings are G, D, A, E. "Open" means the left hand does not stop the string.
+In beginner annotations, open string is usually finger 0.
+
+String  Sound/register                               Open finger  Useful same-pitch check
+G       lowest                                       0            G-string 4 = open D
+D       low-middle                                   0            D-string 4 = open A
+A       upper-middle                                 0            A-string 4 = open E
+E       highest                                      0            no higher open string to match
+
+NOW: bow G-D-A-E and back E-A-D-G with 4 slow bows each. Do not involve the left hand yet. Listen for a
+clean start and no accidental neighboring string.
+
+The Violin Reading Book - Expanded Year-One Edition                                                            10
+2. Finger numbers: they mean fingers, not pitches
+
+Symbol  Finger
+0       open string
+1       index
+2       middle
+3       ring
+4       pinky
+
+The same finger gives different notes on different strings. This is the rule that prevents the "2 means C-sharp"
+mistake. Always pair a finger number with a string.
+
+Say: "A string, 2." Better: "A string, high 2, C-sharp."
+
+The Violin Reading Book - Expanded Year-One Edition  11
+3. Low and high fingers: why one finger can mean
+two notes
+
+The violin has no frets. A finger can move a semitone. Beginners most often meet low 2 and high 2, but low 1
+and high 3 also occur.
+
+String  Low 1  Normal 1                              Low 2  High 2  3  High 3                        4
+G       G      A                                     B
+D       E      E                                     F      B       C  C                             D
+A       B      B                                     C
+E       F      F                                     G      F       G  G                             A
+
+                                                            C       D  D                             E
+
+                                                            G       A  A                             B
+
+NOW: only drill the notes needed by the key you are playing. Do not try to memorize every chromatic
+placement in one night.
+
+The Violin Reading Book - Expanded Year-One Edition                                                           12
+4. First-position pitch order - visual reference
+
+   First-position schematic (not to physical scale)
+
+G
+
+   G  A  B                                           B  C  C                                     D
+
+D
+
+   D  E  E                                           F  F  G                                     G  A
+
+A
+
+   A  B  B                                           C  C  D                                     D  E
+
+E
+
+   E  F  F                                           G  G  A                                     A  B
+
+Exact low/high finger labels are taught string-by-string; this diagram is only the pitch order.
+
+This schematic shows pitch order, not exact millimetres. Tapes can help initial geography, but intonation
+ultimately comes from listening. A tuner/drone can check you; it should not replace your ear.
+
+The Violin Reading Book - Expanded Year-One Edition                                                        13
+5. G string - every common first-position note
+
+Written pitch name  Beginner fingering                         Placement
+G                   0                                          open
+A                   1                                          normal 1
+B                   low 2                                      low 2
+B                   high 2                                     high 2
+C                   3                                          3
+C                   high 3                                     high 3
+D                   4                                          4
+
+  G-string natural-note ladder
+
+
+
+  G                 A                                B                    C                           D
+  G str             G str                            G str                G str                       G str
+  f0                f1                               f high 2             f3                          f4
+
+NOW: play each note slowly, say its name, then return to the open string. Stop if the hand squeezes.
+
+The Violin Reading Book - Expanded Year-One Edition                                                          14
+G string reading drill - try before looking at answers
+
+            Stage B: staff + finger number only
+
+
+
+  f0  f1  f high 2                                   f1  f3  f high 2  f4  f3  f1             f0
+
+Write the letter name below every note. Then say the string and finger aloud before playing.
+
+The Violin Reading Book - Expanded Year-One Edition                                               15
+G string drill - answers
+
+            Answer: note + string + finger
+
+
+
+  G                     A      B                     A      C      B         D      C      A      G
+
+  G str                 G str  G str                 G str  G str  G str     G str  G str  G str  G str
+
+  f0                    f1     f high 2              f1     f3     f high 2  f4     f3     f1     f0
+
+If you missed two or more, repeat the previous page tomorrow. Do not memorize the visual sequence;
+
+reshuffle it yourself.
+
+The Violin Reading Book - Expanded Year-One Edition                                                      16
+5. D string - every common first-position note
+
+Written pitch name  Beginner fingering                        Placement
+D                   0                                         open
+E                   low 1                                     low 1
+E                   1                                         1
+F                   low 2                                     low 2
+F                   high 2                                    high 2
+G                   3                                         3
+G                   high 3                                    high 3
+A                   4                                         4
+
+  D-string natural-note ladder
+
+
+
+  D                 E                                F                   G                            A
+  D str             D str                            D str               D str                        D str
+  f0                f1                               f low 2             f3                           f4
+
+NOW: play each note slowly, say its name, then return to the open string. Stop if the hand squeezes.
+
+The Violin Reading Book - Expanded Year-One Edition                                                          17
+D string reading drill - try before looking at answers
+
+            Stage B: staff + finger number only
+
+
+
+  f0  f1  f low 2                                    f1  f3  f low 2  f4  f3  f1              f0
+
+Write the letter name below every note. Then say the string and finger aloud before playing.
+
+The Violin Reading Book - Expanded Year-One Edition                                               18
+D string drill - answers
+
+            Answer: note + string + finger
+
+
+
+  D                     E      F                     E      G      F        A      G      E      D
+
+  D str                 D str  D str                 D str  D str  D str    D str  D str  D str  D str
+
+  f0                    f1     f low 2               f1     f3     f low 2  f4     f3     f1     f0
+
+If you missed two or more, repeat the previous page tomorrow. Do not memorize the visual sequence;
+
+reshuffle it yourself.
+
+The Violin Reading Book - Expanded Year-One Edition                                                     19
+5. A string - every common first-position note
+
+Written pitch name  Beginner fingering                        Placement
+A                   0                                         open
+B                   low 1                                     low 1
+B                   1                                         1
+C                   low 2                                     low 2
+C                   high 2                                    high 2
+D                   3                                         3
+D                   high 3                                    high 3
+E                   4                                         4
+
+  A-string natural-note ladder
+
+
+
+  A                 B                                C                   D                            E
+  A str             A str                            A str               A str                        A str
+  f0                f1                               f low 2             f3                           f4
+
+NOW: play each note slowly, say its name, then return to the open string. Stop if the hand squeezes.
+
+The Violin Reading Book - Expanded Year-One Edition                                                          20
+A string reading drill - try before looking at answers
+
+            Stage B: staff + finger number only
+
+
+
+  f0  f1  f low 2                                    f1  f3  f low 2  f4  f3  f1              f0
+
+Write the letter name below every note. Then say the string and finger aloud before playing.
+
+The Violin Reading Book - Expanded Year-One Edition                                               21
+A string drill - answers
+
+            Answer: note + string + finger
+
+
+
+  A                     B      C                     B      D      C        E      D      B      A
+
+  A str                 A str  A str                 A str  A str  A str    A str  A str  A str  A str
+
+  f0                    f1     f low 2               f1     f3     f low 2  f4     f3     f1     f0
+
+If you missed two or more, repeat the previous page tomorrow. Do not memorize the visual sequence;
+
+reshuffle it yourself.
+
+The Violin Reading Book - Expanded Year-One Edition                                                     22
+5. E string - every common first-position note
+
+Written pitch name  Beginner fingering                        Placement
+E                   0                                         open
+F                   low 1                                     low 1
+F                   1                                         1
+G                   low 2                                     low 2
+G                   high 2                                    high 2
+A                   3                                         3
+A                   high 3                                    high 3
+B                   4                                         4
+
+  E-string natural-note ladder
+
+
+
+  E                 F                                G                   A                            B
+  E str             E str                            E str               E str                        E str
+  f0                f low 1                          f low 2             f3                           f4
+
+NOW: play each note slowly, say its name, then return to the open string. Stop if the hand squeezes.
+
+The Violin Reading Book - Expanded Year-One Edition                                                          23
+E string reading drill - try before looking at answers
+
+            Stage B: staff + finger number only
+
+
+
+  f0  f low 1  f low 2                               f low 1  f3  f low 2  f4  f3  f low 1    f0
+
+Write the letter name below every note. Then say the string and finger aloud before playing.
+
+The Violin Reading Book - Expanded Year-One Edition                                               24
+E string drill - answers
+
+            Answer: note + string + finger
+
+
+
+  E                     F        G                   F        A      G        B      A      F        E
+
+  E str                 E str    E str               E str    E str  E str    E str  E str  E str    E str
+
+  f0                    f low 1  f low 2             f low 1  f3     f low 2  f4     f3     f low 1  f0
+
+If you missed two or more, repeat the previous page tomorrow. Do not memorize the visual sequence;
+
+reshuffle it yourself.
+
+The Violin Reading Book - Expanded Year-One Edition                                                         25
+6. Same written pitch, more than one fingering
+
+Violin scores normally specify pitch, not always the string. As you advance, the same pitch can be played on
+different strings/positions for tone color, legato or convenience. Beginner editions may add finger
+numbers/string letters.
+
+Pitch     Default beginner choice                    Common alternative
+D         open D                                     G-string 4
+A         open A                                     D-string 4
+E         open E                                     A-string 4
+Higher D  A-string 3                                 other strings in higher positions later
+
+This is why a plain text exercise like "D, B, G, F-sharp, C..." is incomplete unless the octave/register or staff
+position is specified. Sheet music solves that ambiguity by vertical placement.
+
+The Violin Reading Book - Expanded Year-One Edition                                                                26
+7. The exact problem you noticed: "Which B? Which
+C?"
+
+            Three different Bs - the staff tells you which register
+
+
+
+  B                                                  B        B
+  G str                                              A str    E str
+  f high 2                                           f1       f4
+
+  Three different Cs
+
+
+
+  C                                                  C        C
+
+  G str                                              A str    E str
+
+  f3                                                 f low 2  f later / higher position
+
+You do not need to think "B3/B4/B5" every time yet. Learn the shape and height on the staff. Octave numbers
+
+are precise labels we add later.
+
+The Violin Reading Book - Expanded Year-One Edition                  27
+8. Intonation: knowing the finger is not the same as
+landing in tune
+
+A score tells you the target pitch, but the violin has no fret to enforce it. Build three checks: ear (hear target),
+resonance/open-string relationships, and external check (tuner/drone/teacher).
+
+Practice rule: play the note cleanly without vibrato while learning its location. Vibrato can hide small pitch
+errors from your own perception.
+
+NOW: use your G major scale slowly. Before each note, silently hear its direction (up/down) and then land. Do
+not slide around searching unless you are deliberately doing an intonation exercise.
+
+The Violin Reading Book - Expanded Year-One Edition  28
+PART II - READING PITCH ON THE STAFF
+
+                             Now we connect the violin map to the written language.
+
+Goal: stop reading only finger numbers. See a symbol, name the pitch, choose a string/finger,
+then play.
+
+The Violin Reading Book - Expanded Year-One Edition  29
+9. What is the five-line thing? The staff
+
+The staff has five lines and four spaces. Each step upward - line to space or space to line - moves to the next
+letter name: A, B, C, D, E, F, G, then repeats.
+
+            Bottom line E -> top line F
+
+
+
+  E  F  G                                            A  B  C  D  E  F
+
+Higher on the page usually means higher pitch. The shape of the note tells duration; its vertical position tells
+pitch.
+
+The Violin Reading Book - Expanded Year-One Edition                                                               30
+10. What is the curly "goal-goal thing"? The treble
+clef
+
+The symbol  is the treble clef, also called the G clef. It curls around the second line, defining that line as G.
+Violin music is normally written in treble clef.
+
+A clef is not a note to play. It is the coordinate system that tells you what the staff positions mean.
+
+NOW: when you open a violin score, point to the clef and say: "treble clef; second line is G."
+
+The Violin Reading Book - Expanded Year-One Edition                                                                31
+11. Lines and spaces - a better method than
+mnemonics alone
+
+Staff position                                       Pitch letter
+bottom line                                          E
+1st space                                            F
+2nd line                                             G
+2nd space                                            A
+middle line                                          B
+3rd space                                            C
+4th line                                             D
+4th space                                            E
+top line                                             F
+
+Mnemonics can help, but fluent readers eventually recognize landmarks and intervals. Your best landmarks
+are open strings G-D-A-E, because they connect directly to the instrument.
+
+The Violin Reading Book - Expanded Year-One Edition                                                       32
+12. The four open strings written on the staff
+
+            Memorize these four landmarks first
+
+
+
+  G                                                  D      A      E
+
+  G str                                              D str  A str  E str
+
+  f0                                                 f0     f0     f0
+
+This is the first sight-reading drill recommended by many beginner methods: recognize open strings before
+
+adding fingers.
+
+The Violin Reading Book - Expanded Year-One Edition                                                        33
+13. Ledger lines - notes do not stop at the staff
+
+A ledger line is a short line added for pitches above or below the five-line staff. The low G string lives below
+the staff, so violinists meet lower ledger lines immediately.
+
+            G-string territory climbs toward the main staff
+
+                               A                     B         C      D
+                               G str                 G str     G str  D str
+                      G        f1                    f high 2  f3     f0
+                        G str
+                        f0
+
+The Violin Reading Book - Expanded Year-One Edition                                                               34
+14. Note-reading scaffold - Stage A
+
+At Stage A, every note is heavily annotated. This is training-wheel notation: pitch name + string + finger. Use
+it until the mapping makes sense, then remove help.
+
+            Your one-octave G-major scale, fully annotated
+
+                                                                          
+
+       G      A      B                               C      D      E      F         G
+
+       G str  G str  G str                           G str  D str  D str  D str     D str
+
+       f0     f1     f high 2                        f3     f0     f1     f high 2  f3
+
+NOW: play this exactly as the scale you already know physically. The new job is to watch the staff while you
+
+play.
+
+The Violin Reading Book - Expanded Year-One Edition                                                           35
+15. G-major scale - Stage B
+
+            Finger cue remains; note name/string are removed
+
+                                                                                   
+
+  f0  f1  f high 2                                   f3  f0   f1                   f high 2  f3
+
+Before playing, point to each note and name it. If you cannot, return to Stage A.
+
+The Violin Reading Book - Expanded Year-One Edition                                              36
+16. G-major scale - Stage C
+
+            Only the normal staff remains
+
+                                                     
+
+This is what ordinary sheet music starts to look like. Your hand should derive the fingering from the written
+pitch and key.
+
+The Violin Reading Book - Expanded Year-One Edition                                                            37
+17. Exercise: read eight G-major notes
+
+            Write: note name | string | finger
+
+                                                     
+
+This is the corrected version of the earlier "D B G F-sharp C A E G" exercise: the staff positions now tell you
+exactly which D/B/G/C/A/E.
+
+The Violin Reading Book - Expanded Year-One Edition                                                              38
+17A. Answers: eight G-major notes
+
+            Answer key
+
+                               B         G                      C      A      E      G
+                               G str     D str                  G str  G str  D str  G str
+                      D        f high 2  f3           F         f3     f1     f1     f0
+                        D str                         D str
+                        f0                            f high 2
+
+The Violin Reading Book - Expanded Year-One Edition                                         39
+18. Sharps, flats and naturals - the three signs
+
+Sign  Name                                           Meaning
+      sharp                                          raise the written pitch by one semitone
+      flat                                           lower by one semitone
+      natural                                        cancel a sharp/flat in force and use the natural pitch
+
+On violin, the sign often means a finger moves. Example: on the D string, F is low 2; F-sharp is high 2. On the
+A string, C is low 2; C-sharp is high 2.
+
+The Violin Reading Book - Expanded Year-One Edition                                                              40
+19. What is the # beside the clef? A key signature
+
+A sharp or flat immediately after the clef is usually part of the key signature. It applies to every matching
+letter in every octave unless cancelled by an accidental.
+
+Mozart K.216 is in G major. Its key signature contains one sharp: F-sharp. So an F written with no accidental is
+normally F-sharp in that key.
+
+Do not confuse a key-signature sharp with an accidental printed directly beside one note. The visual sign is
+the same; its position/function differs.
+
+The Violin Reading Book - Expanded Year-One Edition  41
+20. Accidentals inside a measure
+
+An accidental written before a note changes that pitch for the remainder of the measure in the same staff
+position, unless cancelled or overridden. Bar lines usually reset ordinary accidentals back to the key
+signature.
+
+This is why you must scan a measure before playing: a C-sharp may remain active later in the same bar even
+if the sharp sign is not repeated.
+
+NOW: when reading, say "key signature first; then local accidentals."
+
+The Violin Reading Book - Expanded Year-One Edition  42
+21. Octave numbers - useful reference, not your first
+reading language
+
+Scientific pitch notation adds a number so text can distinguish multiple Cs or Bs. For example, the lower C you
+play with G-string 3 is C4; the higher C with A-string low 2 is C5.
+
+You do not need to verbalize "C4" while sight-reading. The staff already shows the register. Use octave
+numbers when discussing a pitch outside the staff or when text would otherwise be ambiguous.
+
+The Violin Reading Book - Expanded Year-One Edition  43
+22.1 Sight-reading worksheet - Open strings only
+
+            No answers on this page
+
+
+
+For each note, write: letter name -> string -> finger. Then play each as a separate slow bow. If an accidental
+appears, say it aloud.
+
+The Violin Reading Book - Expanded Year-One Edition                                                             44
+22.1 Answer page - Open strings only
+
+            Check your decoding
+
+
+
+  G      A      G      A                             G      A      D      E      D      E      D      E
+  G str  A str  G str  A str                         G str  A str  D str  E str  D str  E str  D str  E str
+  f0     f0     f0     f0                            f0     f0     f0     f0     f0     f0     f0     f0
+
+The Violin Reading Book - Expanded Year-One Edition                                                          45
+22.2 Sight-reading worksheet - G + D natural notes
+
+            No answers on this page
+
+
+
+For each note, write: letter name -> string -> finger. Then play each as a separate slow bow. If an accidental
+appears, say it aloud.
+
+The Violin Reading Book - Expanded Year-One Edition                                                             46
+22.2 Answer page - G + D natural notes
+
+            Check your decoding
+
+
+
+  G      B         D      G                          A      C      A      C      E      G      B         D
+  G str  G str     D str  D str                      G str  G str  G str  G str  D str  G str  G str     D str
+  f0     f high 2  f0     f3                         f1     f3     f1     f3     f1     f0     f high 2  f0
+
+The Violin Reading Book - Expanded Year-One Edition                                                             47
+22.3 Sight-reading worksheet - G major including
+F-sharp
+
+            No answers on this page
+
+  
+
+For each note, write: letter name -> string -> finger. Then play each as a separate slow bow. If an accidental
+appears, say it aloud.
+
+The Violin Reading Book - Expanded Year-One Edition                                                             48
+22.3 Answer page - G major including F-sharp
+
+            Check your decoding
+
+                          
+
+  G      B         D      F                          G      B         A      C      E      G      A      C
+  G str  G str     D str  D str                      G str  G str     G str  G str  D str  D str  G str  G str
+  f0     f high 2  f0     f high 2                   f0     f high 2  f1     f3     f1     f3     f1     f3
+
+The Violin Reading Book - Expanded Year-One Edition                                                             49
+22.4 Sight-reading worksheet - D + A strings
+
+            No answers on this page
+
+    
+
+                                                     
+
+For each note, write: letter name -> string -> finger. Then play each as a separate slow bow. If an accidental
+appears, say it aloud.
+
+The Violin Reading Book - Expanded Year-One Edition                                                             50
+22.4 Answer page - D + A strings
+
+            Check your decoding
+
+                          
+
+                                                            
+
+  D      F         A      C                          D      F         E      G      B      D      E      G
+  D str  D str     A str  A str                      D str  D str     D str  D str  A str  A str  D str  D str
+  f0     f high 2  f0     f high 2                   f0     f high 2  f1     f3     f1     f3     f1     f3
+
+The Violin Reading Book - Expanded Year-One Edition                                                             51
+22.5 Sight-reading worksheet - All first-position
+landmark notes
+
+            No answers on this page
+
+                                                     
+
+For each note, write: letter name -> string -> finger. Then play each as a separate slow bow. If an accidental
+appears, say it aloud.
+
+The Violin Reading Book - Expanded Year-One Edition                                                             52
+22.5 Answer page - All first-position landmark notes
+
+            Check your decoding
+
+                                                                                
+
+  G      D      A      E                             A      B         B         F         C        G        G      D
+  G str  D str  A str  E str                         E str  G str     G str     D str     A str    E str    G str  D str
+  f0     f0     f0     f0                            f3     f high 2  f high 2  f high 2  f low 2  f low 2  f0     f0
+
+The Violin Reading Book - Expanded Year-One Edition                                                                       53
+PART III - RHYTHM: WHEN AND HOW LONG
+
+                              Pitch answers "what note?" Rhythm answers "when?"
+
+Goal: be able to tell the difference between a quick pair of notes, a double stop, a slur and
+vibrato - the exact confusion that came up in Vivaldi Spring.
+
+The Violin Reading Book - Expanded Year-One Edition                                            54
+23. Note anatomy: head, stem, flag, beam
+
+The notehead sits at the pitch position. A stem is the vertical line. A flag marks shorter values on isolated
+notes. A beam can replace flags when short notes are grouped.
+
+Value in 4/4  Common name                            Visual idea
+4 beats       whole note                             open notehead, no stem
+2 beats       half note                              open notehead + stem
+1 beat        quarter note                           filled notehead + stem
+1/2 beat      eighth note                            one flag / one beam
+1/4 beat      sixteenth note                         two flags / two beams
+
+The Violin Reading Book - Expanded Year-One Edition                                                            55
+24. Beamed notes versus double stops - visual
+
+    BEAMS connect sequential notes; STACKS mean simultaneous notes
+
+    one after the other                               two pitches together
+Example: B then A                                    double stop / chord texture
+
+Vibrato is neither of these: vibrato is an expressive pitch oscillation on a sustained stopped note.
+
+Rule: if noteheads are side-by-side in time and connected horizontally by a beam, play them sequentially. If
+two noteheads are vertically aligned at the same rhythmic position, they are intended to sound together (a
+double stop/chord texture).
+
+The Violin Reading Book - Expanded Year-One Edition                                                           56
+25. The Vivaldi screenshot: what the "double things"
+actually are
+
+In this line, the little tightly grouped notes are short rhythmic values - not vibrato. The beams tell you
+subdivision. Fingering numbers above them are left-hand cues in the beginner arrangement.
+Your first job is to separate three layers: pitch (which note?), rhythm (how long?), and bowing (one bow or
+separate bows?).
+
+The Violin Reading Book - Expanded Year-One Edition  57
+26. One beam: eighth notes
+
+An eighth note is usually half a beat in 4/4. Two eighth notes therefore fit into one quarter-note beat. Count 1
+&, then 2 &.
+
+A beam by itself does not mean "same bow." A curved slur is the usual notation that groups multiple pitches
+into one bow.
+
+The Violin Reading Book - Expanded Year-One Edition                                                               58
+27. Two beams: sixteenth notes
+
+A sixteenth note is one quarter of a beat in 4/4. Four fit in one quarter-note beat. A common counting system
+is 1 e & a. Two adjacent sixteenths may appear as a quick pair inside a larger beat pattern.
+NOW: clap four even taps per metronome beat at 50-60 BPM before asking your fingers to do it.
+
+                                   Violinspiration: How to Read Rhythms
+                                   Use this when the visual shapes make sense but counting still feels abstract.
+                                   Open link
+
+The Violin Reading Book - Expanded Year-One Edition                                                               59
+28. Rests: silence has duration too
+
+Rest type                                            Duration in 4/4
+whole rest                                           4 beats
+half rest                                            2 beats
+quarter rest                                         1 beat
+eighth rest                                          1/2 beat
+sixteenth rest                                       1/4 beat
+
+A rest is not "nothing to read." You must keep the pulse and prepare the next bow/finger during the silence.
+
+The Violin Reading Book - Expanded Year-One Edition                                                           60
+29. Dots after notes
+
+A dot after a note adds half of that note's original value. A dotted quarter is 1 + 1/2 = 1.5 beats. A dotted half
+is 2 + 1 = 3 beats.
+
+Do not confuse a duration dot beside a note with a staccato dot above/below a note. Same small dot shape;
+different placement and meaning.
+
+The Violin Reading Book - Expanded Year-One Edition  61
+30. Tie vs slur - same curve, different job
+
+Mark  What it connects                               What to do
+Tie   two notes of the SAME pitch
+Slur  different pitches (or a phrase group)          hold as one longer sound; do not re-articulate
+
+                                                     on violin, commonly play the grouped notes in
+                                                     one bow
+
+Context tells you which it is. If the curved line joins identical pitches across a bar line, it is almost certainly a
+tie.
+
+The Violin Reading Book - Expanded Year-One Edition                                                                    62
+31. Time signatures: the numbers after the key
+signature
+
+Meter  Beginner reading idea
+4/4    four quarter-note beats per bar
+3/4    three quarter-note beats per bar
+2/4    two quarter-note beats per bar
+6/8    six eighth-note subdivisions, commonly felt as two big beats
+
+The top number tells how many notated beats/subdivisions are grouped in a measure; the lower number
+identifies the notated beat unit. Compound meters such as 6/8 are felt differently from six independent beats.
+
+The Violin Reading Book - Expanded Year-One Edition                  63
+32. Common time: the C symbol
+
+A large C where you expect a time signature usually means common time, equivalent to 4/4. You will see this
+on many classical scores, including editions of Mozart K.216.
+
+Do not read the C as the pitch C. Its position - immediately after clef/key signature - tells you it is a meter
+symbol.
+
+The Violin Reading Book - Expanded Year-One Edition  64
+33. Bar lines, measures and pickups
+
+Vertical bar lines divide music into measures. A pickup/anacrusis is an incomplete opening measure that leads
+into the first full strong beat. This changes how you count the phrase but not the pitch.
+NOW: before playing any line, count bars visually and find where beat 1 of each measure sits.
+
+The Violin Reading Book - Expanded Year-One Edition  65
+34.1 Rhythm worksheet - Quarter and eighth
+
+            Tap first, then play
+
+                                                     
+
+Step 1: tap only the rhythm. Step 2: say the note names in rhythm. Step 3: air-bow. Step 4: play.
+
+The Violin Reading Book - Expanded Year-One Edition                                                66
+34.1 Answer / practice hints - Quarter and eighth
+
+            Pitch answers shown; rhythm values remain visible
+
+                                                     
+
+  D                     E                            F         G      A
+
+  D str                 D str                        D str     D str  A str
+
+  f0                    f1                           f high 2  f3     f0
+
+If pitch was correct but rhythm collapsed, isolate rhythm. If rhythm was correct but fingers hesitated, go back
+
+to pitch-only reading.
+
+The Violin Reading Book - Expanded Year-One Edition                          67
+34.2 Rhythm worksheet - Eighth + sixteenth
+
+            Tap first, then play
+
+                                                     
+
+Step 1: tap only the rhythm. Step 2: say the note names in rhythm. Step 3: air-bow. Step 4: play.
+
+The Violin Reading Book - Expanded Year-One Edition                                                68
+34.2 Answer / practice hints - Eighth + sixteenth
+
+            Pitch answers shown; rhythm values remain visible
+
+                                                     
+
+  D                     E                            F         G      A      G
+
+  D str                 D str                        D str     D str  A str  D str
+
+  f0                    f1                           f high 2  f3     f0     f3
+
+If pitch was correct but rhythm collapsed, isolate rhythm. If rhythm was correct but fingers hesitated, go back
+
+to pitch-only reading.
+
+The Violin Reading Book - Expanded Year-One Edition                                 69
+34.3 Rhythm worksheet - Dotted feel
+
+            Tap first, then play
+
+                                                     
+
+Step 1: tap only the rhythm. Step 2: say the note names in rhythm. Step 3: air-bow. Step 4: play.
+
+The Violin Reading Book - Expanded Year-One Edition                                                70
+34.3 Answer / practice hints - Dotted feel
+
+            Pitch answers shown; rhythm values remain visible
+
+                                                     
+
+  D                     E                            F         G      A
+
+  D str                 D str                        D str     D str  A str
+
+  f0                    f1                           f high 2  f3     f0
+
+If pitch was correct but rhythm collapsed, isolate rhythm. If rhythm was correct but fingers hesitated, go back
+
+to pitch-only reading.
+
+The Violin Reading Book - Expanded Year-One Edition                          71
+34.4 Rhythm worksheet - Mixed
+
+            Tap first, then play
+
+                                                                                                   
+
+Step 1: tap only the rhythm. Step 2: say the note names in rhythm. Step 3: air-bow. Step 4: play.
+
+The Violin Reading Book - Expanded Year-One Edition                                                  72
+34.4 Answer / practice hints - Mixed
+
+            Pitch answers shown; rhythm values remain visible
+
+                                                                                    
+
+  D                     E                            F         G      A      G      F
+
+  D str                 D str                        D str     D str  A str  D str  D str
+
+  f0                    f1                           f high 2  f3     f0     f3     f high 2
+
+If pitch was correct but rhythm collapsed, isolate rhythm. If rhythm was correct but fingers hesitated, go back
+
+to pitch-only reading.
+
+The Violin Reading Book - Expanded Year-One Edition                                           73
+PART IV - EVERYTHING ELSE WRITTEN ON A
+VIOLIN SCORE
+
+                                          A score is more than pitch and rhythm.
+
+Goal: recognize the most common instructions so a page stops looking like random dots,
+curves and Italian words.
+
+The Violin Reading Book - Expanded Year-One Edition                                     74
+35. Tempo words
+
+· Largo - very broad/slow
+· Adagio - slow
+· Andante - walking/moderate
+· Moderato - moderate
+· Allegro - fast/lively
+· Presto - very fast
+· rit./rall. - gradually slow
+· a tempo - return to prior tempo
+
+The Violin Reading Book - Expanded Year-One Edition  75
+36. Dynamics
+
+· ppp/pp/p - very soft to soft
+· mp - moderately soft
+· mf - moderately loud
+· f/ff/fff - loud to very loud
+· cresc. or hairpin opening - grow louder
+· dim./decresc. or closing hairpin - grow softer
+· subito - suddenly
+
+The Violin Reading Book - Expanded Year-One Edition  76
+37. Articulation
+
+· staccato dot - shortened/separated
+· tenuto line - sustain full value / weight
+· accent > - emphasize attack
+· marcato ^ - strongly marked
+· fermata - hold longer than written value, context/style decides how long
+
+The Violin Reading Book - Expanded Year-One Edition                         77
+38. Bow-direction marks
+
+· down-bow bracket-like mark - frog toward tip
+· up-bow V-shaped mark - tip toward frog
+· no mark - use written/learned bowing or a sensible alternating stroke
+
+The Violin Reading Book - Expanded Year-One Edition                      78
+39. String-instrument words
+
+· arco - use the bow
+· pizz. - pluck
+· con sordino - mute on
+· senza sordino - mute off
+· sul G / sul D etc. - play on specified string
+· sul ponticello - near bridge
+· sul tasto - over fingerboard
+
+The Violin Reading Book - Expanded Year-One Edition  79
+40. Repeats and navigation
+
+· repeat barlines :|| / ||: - repeat section
+· 1st/2nd endings - different endings on repeats
+· D.C. - go back to beginning
+· D.S. - return to sign
+· Fine - end
+· coda - jump to coda when instructed
+· rehearsal letters/numbers - location markers, not notes
+
+The Violin Reading Book - Expanded Year-One Edition        80
+41. Ornaments
+
+· tr - trill: rapid alternation with neighboring note; execution depends on style/context
+· grace note - small printed note leading into/around main note
+· turn/mordent - ornament patterns; exact realization can be stylistic
+· Do not improvise ornaments from the symbol until you know the period/style.
+
+The Violin Reading Book - Expanded Year-One Edition                                        81
+42. Double stops and chords
+
+A double stop means two pitches at once on two strings. In notation, the noteheads are vertically stacked at
+the same rhythmic position. Three/four-note stacks are chords or multiple stops; violinists may roll/break
+some chords depending on style, tempo and physical feasibility.
+
+    BEAMS connect sequential notes; STACKS mean simultaneous notes
+
+    one after the other                               two pitches together
+Example: B then A                                    double stop / chord texture
+
+      Vibrato is neither of these: vibrato is an expressive pitch oscillation on a sustained stopped note.
+
+NEXT: begin with open-string double stops only after single-string bow levels are stable.
+
+The Violin Reading Book - Expanded Year-One Edition                                                           82
+43. Tremolo: two completely different visual
+situations
+
+A single-note tremolo uses short diagonal strokes on a stem to indicate rapid repeated bowing. A two-note
+tremolo uses beam-like strokes between two notes and means rapid alternation between them. This is
+another reason "multiple lines" cannot be interpreted without context.
+
+REFERENCE: do not confuse tremolo beams with ordinary rhythmic beams. Check whether the strokes
+connect stems as a tremolo notation and whether the note values indicate measured/unmeasured tremolo.
+
+The Violin Reading Book - Expanded Year-One Edition                                                        83
+44. Harmonics
+
+A small circle above a note often indicates a harmonic. Natural harmonics use very light finger contact at a
+node instead of pressing the string fully to the fingerboard. Artificial harmonics combine a stopped note with a
+lightly touched note.
+
+LATER: recognize the symbol now; do not make harmonics a first-month priority.
+
+The Violin Reading Book - Expanded Year-One Edition  84
+45. Finger numbers and string indications in edited
+music
+
+Numbers 1-4 printed near notes are editorial fingering suggestions unless the musical context clearly uses
+numbers for something else. A 0 means open string. String indications may be written as G/D/A/E, Roman
+numerals, or "sul G" style directions depending on edition.
+
+Professional editions may give fewer finger numbers because choosing fingerings is part of musicianship.
+
+The Violin Reading Book - Expanded Year-One Edition                                                         85
+46. Position numbers are NOT finger numbers
+
+"III position" or similar text refers to the location of the whole left hand. Your first finger can play different
+pitches in first, second, third, fourth position, etc. Finger number alone is therefore never a complete pitch
+address.
+
+LATER: Part VII teaches third/fourth position and why Mozart 3 eventually uses them.
+
+The Violin Reading Book - Expanded Year-One Edition                                                                 86
+47. Score-language quiz
+
+1. = ____________________
+2.  after clef = ____________________
+3. C after key signature = ____________________
+4. p = ____________________
+5. f = ____________________
+6. V-shaped bow sign = ____________________
+7. two vertically stacked notes = ____________________
+8. curved line over several different pitches = ____________________
+9. dot beside a note = ____________________
+10. dot above/below a note = ____________________
+11. tr = ____________________
+12. pizz. = ____________________
+13. arco = ____________________
+
+The Violin Reading Book - Expanded Year-One Edition                   87
+47A. Score-language answers
+
+1. treble/G clef
+2. key-signature sharp (context dependent)
+3. common time = 4/4
+4. soft
+5. loud
+6. up-bow
+7. double stop/chord texture
+8. slur (commonly one bow on violin)
+9. duration dot: add half the note value
+10. staccato articulation
+11. trill
+12. pluck
+13. return to bowing
+
+The Violin Reading Book - Expanded Year-One Edition  88
+PART V - SCALES, KEYS, MAJOR AND MINOR
+
+                          Now the key signature becomes logical instead of arbitrary.
+
+Goal: understand what "G major" and "G minor" actually mean, what scales you should
+practice, and what belongs in the long-term reference library.
+
+The Violin Reading Book - Expanded Year-One Edition                                    89
+48. What is a scale?
+
+A scale is an ordered collection of pitches, usually heard from a tonal center (the tonic) upward/downward. A
+scale is not just a finger exercise; it teaches the pitch vocabulary of a key.
+Your G-major scale is G A B C D E F-sharp G. The last G is the tonic one octave higher.
+
+The Violin Reading Book - Expanded Year-One Edition                                                            90
+49. Whole steps and half steps
+
+A half step / semitone is the smallest standard step in ordinary Western chromatic notation. Two semitones
+make a whole step. On violin, half steps are physically close fingers; whole steps are farther apart.
+The major-scale interval pattern is whole - whole - half - whole - whole - whole - half.
+
+The Violin Reading Book - Expanded Year-One Edition                                                         91
+50. Why G major is major
+
+Starting on G and applying the major pattern gives: G-A (W), A-B (W), B-C (H), C-D (W), D-E (W), E-F-sharp (W),
+F-sharp-G (H). That F-sharp is why G major has one sharp in the key signature.
+
+Major does not literally mean "happy." It describes an interval/key structure. Emotional effect depends on
+melody, harmony, rhythm, register, articulation and context.
+
+The Violin Reading Book - Expanded Year-One Edition  92
+51. What is G minor? Parallel minor
+
+G minor shares the same tonic G but uses a different scale structure. The natural minor form is G A B-flat C D
+E-flat F G. That is why G minor has a different key signature from G major.
+G major and G minor are parallel keys: same tonic, different mode.
+
+The Violin Reading Book - Expanded Year-One Edition                                                             93
+52. Relative minor: same key signature, different
+tonic
+
+Every major key has a relative natural minor that uses the same key signature. G major's relative minor is E
+minor. The pitch collection overlaps, but the tonal center and harmonic behavior change.
+
+                                                         C
+
+                                                     F   Am           G
+
+                                                     Dm               Em
+
+    B                                                                     D
+
+    Gm                                                                    Bm
+
+E                                                        clockwise            A
+
+Cm                                                       adds sharps          Fm
+
+    A                                                                     E
+
+    Fm                                                                    Cm
+
+                                                     D   F/G          B
+                                                     Bm  Em           Gm
+
+Each major key has a relative minor with the same key signature. Parallel major/minor (G major vs G minor) do NOT share the same signature.
+
+The Violin Reading Book - Expanded Year-One Edition                                                           94
+53. Natural, harmonic and melodic minor
+
+Natural minor is the basic minor collection. Harmonic minor raises scale degree 7 to create a stronger leading
+tone. Melodic minor in classical teaching usually raises 6 and 7 ascending and returns to natural minor
+descending; real repertoire can use these notes flexibly.
+
+Do not attempt to memorize 36 minor scales now. Learn the concept, then drill the specific keys in your
+repertoire.
+
+The Violin Reading Book - Expanded Year-One Edition  95
+54. The 12 practical major-key reference spellings
+(1/2)
+
+Key  Scale
+C    CDEFGABC
+G    G A B C D E F G
+D    D E F G A B C D
+A    A B C D E F G A
+E    E F G A B C D E
+B    B C D E F G A B
+
+REFERENCE: enharmonic keys can be spelled differently (for example F-sharp/G-flat). "12 pitch classes" does
+not mean music notation has only 12 possible key signatures.
+
+The Violin Reading Book - Expanded Year-One Edition                                                          96
+54. The 12 practical major-key reference spellings
+(2/2)
+
+Key  Scale
+F    F G A B C D E F
+D    D E F G A B C D
+A    A B C D E F G A
+E    E F G A B C D E
+B    B C D E F G A B
+F    F G A B C D E F
+
+REFERENCE: enharmonic keys can be spelled differently (for example F-sharp/G-flat). "12 pitch classes" does
+not mean music notation has only 12 possible key signatures.
+
+The Violin Reading Book - Expanded Year-One Edition                                                          97
+55. Natural minor reference (1/2)
+
+Key  Natural minor scale
+A    ABCDEFGA
+E    E F G A B C D E
+B    B C D E F G A B
+F    F G A B C D E F
+C    C D E F G A B C
+G    G A B C D E F G
+
+Harmonic and melodic forms change degrees 7, or 6+7, as explained on the previous page.
+
+The Violin Reading Book - Expanded Year-One Edition                                      98
+55. Natural minor reference (2/2)
+
+Key  Natural minor scale
+D    D E F G A B C D
+B    B C D E F G A B
+F    F G A B C D E F
+C    C D E F G A B C
+G    G A B C D E F G
+D    D E F G A B C D
+
+Harmonic and melodic forms change degrees 7, or 6+7, as explained on the previous page.
+
+The Violin Reading Book - Expanded Year-One Edition                                      99
+56. Other scale families - know they exist
+
+Scale family          Basic idea                                                      Priority
+Chromatic             all 12 semitones                                                NEXT/LATER
+Major pentatonic      5-note major-derived collection                                 REFERENCE/useful for popular
+                                                                                      music
+Minor pentatonic      5-note minor-derived collection                                 REFERENCE/useful for popular
+                                                                                      music
+Blues                 minor pentatonic + altered "blue" note(s)                       REFERENCE
+Modes                 Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, Locrian  LATER theory
+Whole-tone            all whole steps                                                 LATER
+Diminished/octatonic  alternating step patterns                                       ADVANCED/REFERENCE
+
+There is no finite list called "all scales" in all musical traditions. This section covers the standard Western
+tonal families most relevant to violin study.
+
+The Violin Reading Book - Expanded Year-One Edition                                                                 100
+57. Arpeggios: scales are stepwise; arpeggios outline
+chords
+
+A basic G-major arpeggio uses G-B-D-G. Instead of every scale degree, you play chord tones. Arpeggios train
+string crossing, hand geography, ear recognition of harmony and later shifting.
+
+NOW: start G, D and A major arpeggios only after you can name the scale notes comfortably.
+
+The Violin Reading Book - Expanded Year-One Edition  101
+58. Your scale order - what to actually practice now
+
+Stage     Scales
+NOW       G major 1 octave; then D major 1 octave; A major 1 octave; C major 1 octave
+NEXT      E natural minor; G major 2 octaves; F major; B-flat major as fingering expands
+LATER     full major/minor set, 2-3 octaves, faster bowings, broken thirds, chromatic
+ADVANCED  3-octave scales/arpeggios, double-stop scales, sophisticated bowings
+
+ABRSM is only one external benchmark, not your curriculum; its practical system also treats scales/arpeggios
+and sight-reading as separate skills, which is a useful reminder not to replace one with the other.
+
+The Violin Reading Book - Expanded Year-One Edition                                       102
+59. Scale-reading page - G major
+
+            G major: read before playing
+
+                                                     
+
+Write the note names first. Then find a comfortable first-position fingering. Scale spelling: G A B C D E F G.
+
+The Violin Reading Book - Expanded Year-One Edition                                                             103
+59A. G major - beginner fingering answer
+
+            One practical first-position solution
+
+                                                                          
+
+  G                      A      B                    C      D      E      F                          G
+
+  G str                  G str  G str                G str  D str  D str  D str                      D str
+
+  f0                     f1     f high 2             f3     f0     f1     f high 2                   f3
+
+Some pitches can have alternative fingerings. This answer chooses a beginner solution, not the only
+
+professional fingering.
+
+The Violin Reading Book - Expanded Year-One Edition                                                         104
+59. Scale-reading page - D major
+
+            D major: read before playing
+
+                                                     
+
+  
+
+Write the note names first. Then find a comfortable first-position fingering. Scale spelling: D E F G A B C D.
+
+The Violin Reading Book - Expanded Year-One Edition                                                             105
+59A. D major - beginner fingering answer
+
+            One practical first-position solution
+
+                                                                          
+
+                                
+
+  D                      E      F                    G      A      B      C                          D
+
+  D str                  D str  D str                D str  A str  A str  A str                      A str
+
+  f0                     f1     f high 2             f3     f0     f1     f high 2                   f3
+
+Some pitches can have alternative fingerings. This answer chooses a beginner solution, not the only
+
+professional fingering.
+
+The Violin Reading Book - Expanded Year-One Edition                                                         106
+59. Scale-reading page - A major
+
+  A major: read before playing
+
+                                                       
+
+  
+
+Write the note names first. Then find a comfortable first-position fingering. Scale spelling: A B C D E F G A.
+
+The Violin Reading Book - Expanded Year-One Edition      107
+59A. A major - beginner fingering answer
+
+  One practical first-position solution
+
+                                                                          
+
+                                
+
+  A                      B      C                    D      E      F      G                          A
+
+  A str                  A str  A str                A str  E str  E str  E str                      E str
+
+  f0                     f1     f high 2             f3     f0     f1     f high 2                   f3
+
+Some pitches can have alternative fingerings. This answer chooses a beginner solution, not the only
+
+professional fingering.
+
+The Violin Reading Book - Expanded Year-One Edition                                                         108
+59. Scale-reading page - C major
+
+            C major: read before playing
+
+
+
+Write the note names first. Then find a comfortable first-position fingering. Scale spelling: C D E F G A B C.
+
+The Violin Reading Book - Expanded Year-One Edition                                                             109
+59A. C major - beginner fingering answer
+
+            One practical first-position solution
+
+
+
+  C                      D      E                    F        G      A      B                        C
+
+  G str                  D str  D str                D str    D str  A str  A str                    A str
+
+  f3                     f0     f1                   f low 2  f3     f0     f1                       f low 2
+
+Some pitches can have alternative fingerings. This answer chooses a beginner solution, not the only
+
+professional fingering.
+
+The Violin Reading Book - Expanded Year-One Edition                                                           110
+PART VI - VIOLIN SKILLS ATLAS
+
+              Everything you asked to have in one place - but ranked by when it matters.
+
+Goal: know the landscape of violin technique without confusing "I have heard of it" with "I
+should drill it today."
+
+The Violin Reading Book - Expanded Year-One Edition                                          111
+60. The skill tree
+
+Layer            Skills
+Foundation       posture, instrument support, bow hold, bow lane, open strings, tone, left-hand frame, intonation
+Reading          staff, rhythm, key signatures, bow/finger marks, sight-reading
+Core bowing      détaché, legato/slurs, staccato, martelé, portato, basic spiccato
+Core left hand   low/high fingers, 4th finger, extensions, trill prep, double stops, chords
+Expressive       dynamics, phrasing, vibrato, tone color, bow speed/weight/contact point
+Mobility         shifting, 3rd/2nd/4th/5th+ positions
+Advanced bowing  sautillé, ricochet, flying staccato/spiccato, collé, fouetté, jeté, jumping arpeggios
+Effects          tremolo, sul ponticello, sul tasto/flautando, col legno, harmonics, left-hand pizzicato
+
+The Violin Reading Book - Expanded Year-One Edition                                                                112
+61. Bow physics in plain language
+
+Tone changes mainly with bow speed, bow weight/pressure, contact point, amount of hair and straightness.
+Moving closer to the bridge generally requires a different speed/weight balance than playing near the
+fingerboard.
+
+NOW: before collecting fancy bow-stroke names, make one open string sound steady from frog to tip and
+back.
+
+The Violin Reading Book - Expanded Year-One Edition                                                       113
+62. Core bow stroke: Détaché [NOW]
+
+separate bow per note, generally full value, default stroke when nothing else is marked
+Notation: No special symbol is necessary.
+Practice: start on open A or D. Use 4 repetitions of a simple rhythm, listen for consistent attack, then apply to
+a scale. Stop when the right shoulder/hand stiffens.
+
+The Violin Reading Book - Expanded Year-One Edition  114
+62. Core bow stroke: Legato / slurred bowing [NOW]
+
+smoothly connected; on violin a slur commonly means multiple pitches in one bow
+Notation: Curved slur over notes.
+Practice: start on open A or D. Use 4 repetitions of a simple rhythm, listen for consistent attack, then apply to
+a scale. Stop when the right shoulder/hand stiffens.
+
+The Violin Reading Book - Expanded Year-One Edition  115
+62. Core bow stroke: Staccato [NEXT]
+
+short/separated articulation; can be separate-bow or multiple notes in one bow depending notation/context
+Notation: Dots; with slur may indicate one-bow staccato.
+Practice: start on open A or D. Use 4 repetitions of a simple rhythm, listen for consistent attack, then apply to
+a scale. Stop when the right shoulder/hand stiffens.
+
+The Violin Reading Book - Expanded Year-One Edition  116
+62. Core bow stroke: Martelé [NEXT]
+
+accented "hammered" attack with bow staying on string
+Notation: accent/wedge context; terms may overlap in notation
+Practice: start on open A or D. Use 4 repetitions of a simple rhythm, listen for consistent attack, then apply to
+a scale. Stop when the right shoulder/hand stiffens.
+
+The Violin Reading Book - Expanded Year-One Edition  117
+62. Core bow stroke: Portato [NEXT]
+
+gently pulsed notes under one bow
+Notation: tenuto-like marks under a slur
+Practice: start on open A or D. Use 4 repetitions of a simple rhythm, listen for consistent attack, then apply to
+a scale. Stop when the right shoulder/hand stiffens.
+
+The Violin Reading Book - Expanded Year-One Edition  118
+62. Core bow stroke: Spiccato [NEXT/LATER]
+
+controlled off-string bouncing stroke
+Notation: often inferred from style/dots/tempo rather than one unique symbol
+Practice: start on open A or D. Use 4 repetitions of a simple rhythm, listen for consistent attack, then apply to
+a scale. Stop when the right shoulder/hand stiffens.
+
+The Violin Reading Book - Expanded Year-One Edition  119
+63. Bowing atlas - 25 useful terms
+
+Technique             Stage                          One-line meaning
+Détaché               core                           on-string separate bows
+Legato                core                           smooth/connected
+Tenuto                core                           full length/held
+Portato               core                           pulsed notes in one bow
+Double stops          core later                     two strings at once
+Chords                later                          3-4 note multiple-stop texture
+Staccato              core                           short/separated
+Up/down-bow staccato  later                          multiple staccato notes in one bow direction
+Martelé               core next                      accented on-string attack
+Sustained martelé     later                          accent then sustain
+Spiccato              next/later                     off-string bounce
+Ricochet              advanced                       natural multiple bounce in one bow
+Collé                 later                          pinched attack from air
+
+Technique             Stage                          One-line meaning
+Sautillé              advanced                       fast springing stroke
+Fouetté               advanced                       whipped stroke
+Jeté                  advanced                       thrown/bounced stroke
+Chop                  special                        percussive bow effect
+Pizzicato             core next                      pluck string
+Tremolo               later                          rapid repeated bow/alternation
+Sul ponticello        effect                         bow near bridge
+Sul tasto             effect                         bow over fingerboard
+Col legno             effect                         wood of bow contacts string
+Au talon              term                           at frog/heel
+Arco                  term                           return to bow after pizz.
+Marcato               articulation                   strongly marked/emphasized
+
+                      Violin Lounge: 24 bowing techniques
+                      Use as a visual encyclopedia. You are NOT supposed to master all 24 in year one.
+                      Open link
+
+The Violin Reading Book - Expanded Year-One Edition                                                     120
+64. Double stops - first safe progression [NEXT]
+
+1) Bow two open adjacent strings. 2) Play one open + one stopped note. 3) Two stopped notes only after each
+pitch is individually secure. 4) Listen to both voices, not just the top one.
+The notation is a vertical stack. The challenge is both left-hand intonation and right-arm bow level.
+
+The Violin Reading Book - Expanded Year-One Edition  121
+65. Chords and rolled chords [LATER]
+
+Three- and four-note violin chords are written as vertical stacks. Depending on period, tempo and shape, the
+violinist may break/roll them because the curved bridge makes sustained four-string contact impractical.
+Exact execution is style- and passage-dependent.
+
+Do not infer "all four notes must be sustained perfectly simultaneously" from the visual stack.
+
+The Violin Reading Book - Expanded Year-One Edition  122
+66. Trills and finger action [NEXT]
+
+A trill rapidly alternates a written note and an adjacent note. Before speed, train a relaxed finger lift/drop and
+accurate base pitch. Classical ornament conventions can differ by period; use a score/teacher/reference for
+exact realization.
+
+The Violin Reading Book - Expanded Year-One Edition  123
+67. Pizzicato [NEXT]
+
+Pizz. tells you to pluck instead of bow. Arco tells you to resume bowing. Right-hand pizzicato is standard;
+left-hand pizzicato is a later virtuoso technique.
+
+The Violin Reading Book - Expanded Year-One Edition                                                          124
+68. Vibrato - readiness gate [LATER, but learn what it
+is now]
+
+Vibrato is a controlled oscillation around a stopped pitch for expression. Violinspiration recommends that
+beginners first be able to play in tune in first position without tension. That is the gate used in this book.
+Do not use vibrato as a way to make an uncertain note "sound musical." First learn the center of the pitch.
+
+                                   Violinspiration: Vibrato guide
+                                   Covers arm, wrist and finger vibrato plus preparatory exercises. Use when the readiness gate is met.
+                                   Open link
+
+The Violin Reading Book - Expanded Year-One Edition  125
+69. Arm vibrato [LATER]
+
+In arm vibrato, the impulse comes mainly from forearm/elbow motion and the hand/finger responds as a unit.
+Start with deliberately large, slow movement away from performance tempo; keep the thumb/hand free of
+squeezing.
+
+Practice concept: stopped note -> rock backward to a slightly flatter pitch -> return to the target. Begin with
+slow metronome pulses. The target pitch must remain identifiable.
+
+The Violin Reading Book - Expanded Year-One Edition  126
+70. Wrist vibrato [LATER]
+
+In wrist vibrato, the hand rocks from the wrist while the forearm remains comparatively stable. The fingertip
+stays in contact and the finger joints remain supple.
+
+Teachers differ on whether arm or wrist should be learned first. Violinspiration explicitly presents both as
+reasonable starting types; this book does not force one anatomy on every player.
+
+The Violin Reading Book - Expanded Year-One Edition                                                            127
+71. Finger vibrato [ADVANCED REFERENCE]
+
+Finger vibrato uses very small impulses and is typically a later refinement requiring loose finger joints. It is not
+the next step simply because your wrist vibrato feels difficult.
+
+The Violin Reading Book - Expanded Year-One Edition  128
+72. A 6-week vibrato micro-plan - only after
+readiness
+
+Week  Focus
+1     loosen hand/finger joints away from instrument; silent rocking
+2     slow arm motion, 1 oscillation per metronome beat
+3     slow wrist motion, same control goal
+4     2-4 oscillations per beat; all strong fingers, no speed race
+5     sustained notes; start/stop vibrato deliberately
+6     add to selected long notes in an easy melody; keep intonation center
+
+If tension or pitch-center loss increases, go backward. Vibrato development often takes months, not six
+weeks; this is a sequence, not a guarantee.
+
+The Violin Reading Book - Expanded Year-One Edition                                                      129
+73. What is a "position"? [NEXT/LATER]
+
+A position describes where the whole left hand is located. First position is your current home. In third position,
+first finger moves to where third finger was in first position on the same string.
+Example A string: first-position 3rd finger D -> shift hand -> third-position 1st finger D.
+
+The Violin Reading Book - Expanded Year-One Edition  130
+74. Third position [NEXT when first position is stable]
+
+String  1st finger in 3rd position
+G       C
+D       G
+A       D
+E       A
+
+Learn the destination pitch, release thumb pressure, shift the hand as a unit, then check intonation. Sliding
+noise is a practice tool at first; polished shifts become much more discreet.
+
+        Violinspiration: Third position
+        Use after first-position pitch and hand shape are reliable.
+        Open link
+
+The Violin Reading Book - Expanded Year-One Edition                                                            131
+75. Fourth position - why it matters to your Mozart
+goal [LATER]
+
+String  1st finger in 4th position
+G       D
+D       A
+A       E
+E       B
+
+Violinspiration specifically uses a quick passage from Mozart Concerto No.3 to show why fourth position can
+keep a rapid line smooth instead of making awkward position changes. This is a future bridge to your target,
+not a skill to practice this week.
+
+The Violin Reading Book - Expanded Year-One Edition  132
+76. Sevcík, Wohlfahrt and Kayser - why études exist
+
+A song asks many skills at once. An étude isolates patterns long enough for the body to learn them.
+Public-domain resources give you serious historical practice material without forcing every exercise to be a
+nursery tune.
+
+Method                  Useful stage                 What it contains
+Sevcík Op.1 Book 1      first position               systematic first-position exercises
+Wohlfahrt Op.45 Book I  early/intermediate beginner  30 easy first-position studies
+Kayser Op.20 Book I     after early études           easy studies in first position; later books expand positions
+Hímalý Scale Studies    later scale work             systematic scale/technical practice
+
+Links are in the source section. Start with small selections, not page marathons.
+
+The Violin Reading Book - Expanded Year-One Edition                                                                133
+PART VII - SIGHT-READING COURSE
+
+            This is the practical bridge between knowing facts and actually reading music.
+
+Goal: read progressively harder material without depending forever on finger numbers.
+
+The Violin Reading Book - Expanded Year-One Edition                                         134
+77. The 20-second pre-read
+
+Before playing an unseen line, scan: clef -> key signature -> time signature -> tempo -> lowest/highest pitch
+-> accidentals -> rhythm traps -> slurs/bow marks -> repeats. Then silently hear/count the first beat before
+moving the bow.
+
+Sight-reading is not "play immediately without thinking." Good readers preview patterns very quickly.
+
+The Violin Reading Book - Expanded Year-One Edition  135
+78. The four-layer rescue method
+
+Layer      Do this alone
+Pitch      say note names, no rhythm
+Rhythm     clap/tap, ignore pitches
+Left hand  finger silently / pizzicato slowly
+Bow        air-bow rhythm/slurs, then combine
+
+If a line fails, identify the layer. Do not mindlessly replay the whole line ten times.
+
+The Violin Reading Book - Expanded Year-One Edition                                      136
+79. Progressive scaffold removal
+
+Stage  What the page shows
+A      note name + string + finger + staff
+B      finger + staff
+C      staff + occasional string cue
+D      normal notation; finger only where non-obvious
+E      normal score; you choose fingering/bowing where editorially open
+
+The point is to remove help before it becomes a crutch, but not so early that you practice wrong notes.
+
+The Violin Reading Book - Expanded Year-One Edition                                                      137
+80.1 Sight-reading card - Open strings
+
+            Try once without stopping. Then diagnose.
+
+
+
+Pass condition: keep a steady slow pulse, correct at least 8/10 pitches, no panic pause longer than one beat. If
+not, slow the metronome and repeat tomorrow.
+
+The Violin Reading Book - Expanded Year-One Edition  138
+80.1 Answer card - Open strings
+
+            Answer: one beginner fingering
+
+                               A      E              G      D      A      E      G      D      A
+                               A str  E str          G str  D str  A str  E str  G str  D str  A str
+                      D        f0     f0             f0     f0     f0     f0     f0     f0     f0
+                        D str
+                        f0
+
+The Violin Reading Book - Expanded Year-One Edition                                                   139
+80.2 Sight-reading card - G string
+
+            Try once without stopping. Then diagnose.
+
+
+
+Pass condition: keep a steady slow pulse, correct at least 8/10 pitches, no panic pause longer than one beat. If
+not, slow the metronome and repeat tomorrow.
+
+The Violin Reading Book - Expanded Year-One Edition  140
+80.2 Answer card - G string
+
+            Answer: one beginner fingering
+
+
+
+  B         C      G                                 A      B         C      G      A      B         C
+  G str     G str  G str                             G str  G str     G str  G str  G str  G str     G str
+  f high 2  f3     f0                                f1     f high 2  f3     f0     f1     f high 2  f3
+
+The Violin Reading Book - Expanded Year-One Edition                                                         141
+80.3 Sight-reading card - D string
+
+            Try once without stopping. Then diagnose.
+
+                                                       
+
+Pass condition: keep a steady slow pulse, correct at least 8/10 pitches, no panic pause longer than one beat. If
+not, slow the metronome and repeat tomorrow.
+
+The Violin Reading Book - Expanded Year-One Edition      142
+80.3 Answer card - D string
+
+            Answer: one beginner fingering
+
+                                                                                    
+
+                      G        D      E              F         G      D      E      F         G      D
+                        D str  D str  D str          D str     D str  D str  D str  D str     D str  D str
+                        f3     f0     f1             f high 2  f3     f0     f1     f high 2  f3     f0
+
+The Violin Reading Book - Expanded Year-One Edition                                                         143
+80.4 Sight-reading card - G + D
+
+            Try once without stopping. Then diagnose.
+
+  
+
+Pass condition: keep a steady slow pulse, correct at least 8/10 pitches, no panic pause longer than one beat. If
+not, slow the metronome and repeat tomorrow.
+
+The Violin Reading Book - Expanded Year-One Edition    144
+80.4 Answer card - G + D
+
+            Answer: one beginner fingering
+
+                                      
+
+                      D        E      F              G      G      A      B         C      G      A
+                        D str  D str  D str          D str  G str  G str  G str     G str  G str  G str
+                        f0     f1     f high 2       f3     f0     f1     f high 2  f3     f0     f1
+
+The Violin Reading Book - Expanded Year-One Edition                                                      145
+80.5 Sight-reading card - D + A
+
+            Try once without stopping. Then diagnose.
+
+  
+
+                                                       
+
+Pass condition: keep a steady slow pulse, correct at least 8/10 pitches, no panic pause longer than one beat. If
+not, slow the metronome and repeat tomorrow.
+
+The Violin Reading Book - Expanded Year-One Edition      146
+80.5 Answer card - D + A
+
+            Answer: one beginner fingering
+
+         
+
+                                                                                                  
+
+  B      C         D                                 D      E      F         G      D      E       F
+  A str  A str     A str                             D str  D str  D str     D str  D str  D str   D str
+  f1     f high 2  f3                                f0     f1     f high 2  f3     f0     f1      f high 2
+
+The Violin Reading Book - Expanded Year-One Edition                                                          147
+80.6 Sight-reading card - Natural low-2 contrast
+
+            Try once without stopping. Then diagnose.
+
+
+
+Pass condition: keep a steady slow pulse, correct at least 8/10 pitches, no panic pause longer than one beat. If
+not, slow the metronome and repeat tomorrow.
+
+The Violin Reading Book - Expanded Year-One Edition  148
+80.6 Answer card - Natural low-2 contrast
+
+            Answer: one beginner fingering
+
+                               F        G            B      C        D      E      F        G      B
+                               D str    D str        A str  A str    A str  D str  D str    D str  A str
+                      E        f low 2  f3           f1     f low 2  f3     f1     f low 2  f3     f1
+                        D str
+                        f1
+
+The Violin Reading Book - Expanded Year-One Edition                                                       149
+80.7 Sight-reading card - Accidentals
+
+Try once without stopping. Then diagnose.
+
+                                                     
+
+                                                                           
+                                                       
+
+Pass condition: keep a steady slow pulse, correct at least 8/10 pitches, no panic pause longer than one beat. If
+not, slow the metronome and repeat tomorrow.
+
+The Violin Reading Book - Expanded Year-One Edition                          150
+80.7 Answer card - Accidentals
+
+Answer: one beginner fingering
+
+                                                              
+
+                                                                                                     
+
+F         C        C                                 G        G         F                   C         C         G
+D str     A str    A str                             E str    E str     D str               A str     A str     E str
+f high 2  f low 2  f high 2                          f low 2  f high 2  f low 2   F         f low 2   f high 2  f low 2
+                                                                                  D str
+                                                                                  f high 2
+
+The Violin Reading Book - Expanded Year-One Edition                                                                      151
+80.8 Sight-reading card - Full first-position
+landmarks
+
+            Try once without stopping. Then diagnose.
+
+                                                     
+
+Pass condition: keep a steady slow pulse, correct at least 8/10 pitches, no panic pause longer than one beat. If
+not, slow the metronome and repeat tomorrow.
+
+The Violin Reading Book - Expanded Year-One Edition    152
+80.8 Answer card - Full first-position landmarks
+
+            Answer: one beginner fingering
+
+                                                                                    
+
+                      A        G      B              D      G      B         D      F         A      C
+                        E str  G str  G str          D str  G str  G str     D str  D str     A str  A str
+                        f3     f0     f high 2       f0     f0     f high 2  f0     f high 2  f0     f low 2
+
+The Violin Reading Book - Expanded Year-One Edition                                                           153
+81. Public-domain mini-piece: Twinkle theme in A
+major
+
+Why it is pedagogically useful: it stays mostly on A/E strings, drills A-major finger spacing and creates room to
+vary bow rhythms - exactly the kind of "future skill planted early" that Hahn praised in Suzuki training. The
+exact Suzuki variations are copyrighted; this page uses only the public-domain tune.
+
+            Phrase 1 - annotated
+
+                                                                                
+
+
+
+  A      A                                           E         E         F      F      E
+  A str  A str                                       E str     E str     E str  E str  E str
+  f0     f0                                          f0        f0        f1     f1     f0
+
+  Phrase 2 - less help
+
+                                                               
+
+  f3     f3                                          f high 2  f high 2  f1     f1     f0
+
+The Violin Reading Book - Expanded Year-One Edition                                           154
+82. Public-domain mini-piece: Ode to Joy fragment in
+G major
+
+            Read phrase 1
+
+                                                       
+
+            Read phrase 2
+
+
+
+This is a reading drill, not a claim that every published beginner arrangement uses this exact
+register/fingering.
+
+The Violin Reading Book - Expanded Year-One Edition                                             155
+83. Original melody drill: "G-major steps and skips"
+
+            All original: no memorized song to rescue you
+
+                                                     
+
+Sight-read slowly. This tests actual symbol-to-finger decoding because you cannot rely on knowing the tune in
+advance.
+
+The Violin Reading Book - Expanded Year-One Edition        156
+84. A Hahn-inspired repertoire spine
+
+Documented facts first: Hahn began with Suzuki, retained daily listening habits, and later did substantial
+technique/étude work with Klara Berkovich, especially Wohlfahrt. That suggests a balanced spine:
+ear/listening + simple repertoire + technical studies + progressively serious music.
+
+Stage                      Repertoire/technical idea
+Start                      Suzuki Vol.1 sequence (licensed book), Twinkle rhythm work, open-string tone
+Early first position       Ode to Joy, folk/public-domain melodies, original sight-reading drills
+Technique base             selected Wohlfahrt Op.45 Book I + Sevcík Op.1 first-position patterns
+Student concerto stage     Rieding/Küchler/Seitz type concertos depending teacher/edition
+Early concerto repertoire  Vivaldi A minor/G minor; Bach Double; Handel sonatas
+Pre-Mozart bridge          Accolay, Bach A minor/E major, Haydn G, Fiocco/other étude-repertoire as appropriate
+Destination                Mozart K.216 when shifting, intonation, Classical bowing/style and speed are ready
+
+This is a possible ladder, not a universal exam ranking. Teachers legitimately sequence these works
+differently.
+
+The Violin Reading Book - Expanded Year-One Edition                                                              157
+85. Popular / viral repertoire targets (1/5)
+
+Title                                                Why it is here      How to use it
+Earrings - Malcolm Todd                              current 2026 chart
+Loser - Tame Impala                                  current 2026 chart  Find a licensed beginner arrangement; difficulty depends
+Dai Dai - Shakira & Burna Boy                        current 2026 chart  on arrangement.
+Beauty and a Beat - Justin Bieber/Nicki Minaj        current 2026 chart
+The One That Got Away - Katy Perry                   current 2026 chart  Find a licensed beginner arrangement; difficulty depends
+Babydoll - Dominic Fike                              current 2026 chart  on arrangement.
+SWIM - BTS                                           current 2026 chart
+Billie Jean - Michael Jackson                        current/evergreen   Find a licensed beginner arrangement; difficulty depends
+Iris - Goo Goo Dolls                                 current/evergreen   on arrangement.
+back to friends - sombr                              current 2026 chart
+                                                                         Find a licensed beginner arrangement; difficulty depends
+                                                                         on arrangement.
+
+                                                                         Find a licensed beginner arrangement; difficulty depends
+                                                                         on arrangement.
+
+                                                                         Find a licensed beginner arrangement; difficulty depends
+                                                                         on arrangement.
+
+                                                                         Find a licensed beginner arrangement; difficulty depends
+                                                                         on arrangement.
+
+                                                                         Find a licensed beginner arrangement; difficulty depends
+                                                                         on arrangement.
+
+                                                                         Find a licensed beginner arrangement; difficulty depends
+                                                                         on arrangement.
+
+                                                                         Find a licensed beginner arrangement; difficulty depends
+                                                                         on arrangement.
+
+The current-chart entries are drawn from late-August 2026 Spotify/TikTok trend sources. Popularity changes
+quickly. No copyrighted notation is reproduced here.
+
+The Violin Reading Book - Expanded Year-One Edition                                                         158
+85. Popular / viral repertoire targets (2/5)
+
+Title                                                Why it is here      How to use it
+Sunflower - Post Malone & Swae Lee                   current/evergreen
+Wonderwall - Oasis                                   current/evergreen   Find a licensed beginner arrangement; difficulty depends
+Love Me Not - Ravyn Lenae                            current 2026 chart  on arrangement.
+Treat You Better - Shawn Mendes                      current 2026 chart
+Animal - KATSEYE                                     current 2026 chart  Find a licensed beginner arrangement; difficulty depends
+Die With A Smile - Lady Gaga & Bruno Mars            current/evergreen   on arrangement.
+End of Beginning - Djo                               current 2026 chart
+Ordinary - Alex Warren                               current 2026 chart  Find a licensed beginner arrangement; difficulty depends
+Heaven Baby - Ayra Starr feat. ZAYN                  TikTok 2026         on arrangement.
+Where Is My Husband! - RAYE                          TikTok 2026
+                                                                         Find a licensed beginner arrangement; difficulty depends
+                                                                         on arrangement.
+
+                                                                         Find a licensed beginner arrangement; difficulty depends
+                                                                         on arrangement.
+
+                                                                         Find a licensed beginner arrangement; difficulty depends
+                                                                         on arrangement.
+
+                                                                         Find a licensed beginner arrangement; difficulty depends
+                                                                         on arrangement.
+
+                                                                         Find a licensed beginner arrangement; difficulty depends
+                                                                         on arrangement.
+
+                                                                         Find a licensed beginner arrangement; difficulty depends
+                                                                         on arrangement.
+
+                                                                         Find a licensed beginner arrangement; difficulty depends
+                                                                         on arrangement.
+
+The Violin Reading Book - Expanded Year-One Edition                      159
+85. Popular / viral repertoire targets (3/5)
+
+Title                                                Why it is here           How to use it
+Copines - Aya Nakamura                               TikTok 2026
+Can't Get You Out of My Head - Kylie Minogue         TikTok/evergreen         Find a licensed beginner arrangement; difficulty depends
+Way Down We Go - KALEO                               TikTok/evergreen         on arrangement.
+Life Goes On - Oliver Tree                           TikTok 2026
+Birds of a Feather - Billie Eilish                   tutorial/popular target  Find a licensed beginner arrangement; difficulty depends
+Believer - Imagine Dragons                           tutorial/popular target  on arrangement.
+Blank Space - Taylor Swift                           tutorial/popular target
+Can't Help Falling in Love - Elvis Presley           tutorial/evergreen       Find a licensed beginner arrangement; difficulty depends
+City of Stars - La La Land                           film target              on arrangement.
+A Million Dreams - The Greatest Showman              film target
+                                                                              Find a licensed beginner arrangement; difficulty depends
+                                                                              on arrangement.
+
+                                                                              Find a licensed beginner arrangement; difficulty depends
+                                                                              on arrangement.
+
+                                                                              Find a licensed beginner arrangement; difficulty depends
+                                                                              on arrangement.
+
+                                                                              Find a licensed beginner arrangement; difficulty depends
+                                                                              on arrangement.
+
+                                                                              Find a licensed beginner arrangement; difficulty depends
+                                                                              on arrangement.
+
+                                                                              Find a licensed beginner arrangement; difficulty depends
+                                                                              on arrangement.
+
+                                                                              Find a licensed beginner arrangement; difficulty depends
+                                                                              on arrangement.
+
+The Violin Reading Book - Expanded Year-One Edition                           160
+85. Popular / viral repertoire targets (4/5)
+
+Title                                                Why it is here        How to use it
+A Whole New World - Aladdin                          film target
+Stand By Me - Ben E. King                            evergreen             Find a licensed beginner arrangement; difficulty depends
+Bitter Sweet Symphony - The Verve                    tutorial/evergreen    on arrangement.
+Colors of the Wind - Pocahontas                      film target
+Across the Stars - Star Wars                         film target           Find a licensed beginner arrangement; difficulty depends
+Concerning Hobbits - The Lord of the Rings           film target           on arrangement.
+A Romantic Flight - How to Train Your Dragon         film target
+Autumn Leaves                                        jazz standard target  Find a licensed beginner arrangement; difficulty depends
+Mr. Brightside - The Killers                         popular target        on arrangement.
+Unwritten - Natasha Bedingfield                      popular target
+                                                                           Find a licensed beginner arrangement; difficulty depends
+                                                                           on arrangement.
+
+                                                                           Find a licensed beginner arrangement; difficulty depends
+                                                                           on arrangement.
+
+                                                                           Find a licensed beginner arrangement; difficulty depends
+                                                                           on arrangement.
+
+                                                                           Find a licensed beginner arrangement; difficulty depends
+                                                                           on arrangement.
+
+                                                                           Find a licensed beginner arrangement; difficulty depends
+                                                                           on arrangement.
+
+                                                                           Find a licensed beginner arrangement; difficulty depends
+                                                                           on arrangement.
+
+                                                                           Find a licensed beginner arrangement; difficulty depends
+                                                                           on arrangement.
+
+The Violin Reading Book - Expanded Year-One Edition                        161
+85. Popular / viral repertoire targets (5/5)
+
+Title                                                Why it is here       How to use it
+Sweater Weather - The Neighbourhood                  popular target
+Viva La Vida - Coldplay                              popular target       Find a licensed beginner arrangement; difficulty depends
+Perfect - Ed Sheeran                                 popular target       on arrangement.
+Someone You Loved - Lewis Capaldi                    popular target
+Until I Found You - Stephen Sanchez                  popular target       Find a licensed beginner arrangement; difficulty depends
+Sailor Song - Gigi Perez                             popular target       on arrangement.
+Lovely - Billie Eilish/Khalid                        popular target
+Golden Hour - JVKE                                   popular target       Find a licensed beginner arrangement; difficulty depends
+Experience - Ludovico Einaudi                        instrumental target  on arrangement.
+Interstellar theme - Hans Zimmer                     film target
+                                                                          Find a licensed beginner arrangement; difficulty depends
+                                                                          on arrangement.
+
+                                                                          Find a licensed beginner arrangement; difficulty depends
+                                                                          on arrangement.
+
+                                                                          Find a licensed beginner arrangement; difficulty depends
+                                                                          on arrangement.
+
+                                                                          Find a licensed beginner arrangement; difficulty depends
+                                                                          on arrangement.
+
+                                                                          Find a licensed beginner arrangement; difficulty depends
+                                                                          on arrangement.
+
+                                                                          Find a licensed beginner arrangement; difficulty depends
+                                                                          on arrangement.
+
+                                                                          Find a licensed beginner arrangement; difficulty depends
+                                                                          on arrangement.
+
+The Violin Reading Book - Expanded Year-One Edition                       162
+86. Classical ladder before/around Mozart (1/4)
+
+#   Piece / study                                    Stage note
+                                                     early
+1   Twinkle theme / variations as assigned           early
+                                                     early
+2   Lightly Row                                      early
+                                                     early
+3   Song of the Wind                                 early
+                                                     early
+4   Go Tell Aunt Rhody                               early
+                                                     early
+5   O Come, Little Children                          early
+
+6   May Song
+
+7   Long, Long Ago
+
+8   Allegro (Suzuki repertoire)
+
+9   Perpetual Motion
+
+10  Bach/Suzuki Minuets
+
+Sequence is intentionally approximate: repertoire difficulty depends on movement, edition, tempo, cadenza
+and individual strengths.
+
+The Violin Reading Book - Expanded Year-One Edition                                                        163
+86. Classical ladder before/around Mozart (2/4)
+
+#   Piece / study                                    Stage note
+                                                     early
+11  Schumann - The Happy Farmer                      early
+                                                     developing
+12  Gossec - Gavotte                                 developing
+                                                     developing
+13  Wohlfahrt Op.45 selected studies                 developing
+                                                     developing
+14  Sevcík Op.1 first-position exercises             developing
+                                                     developing
+15  Kayser Op.20 selected studies                    developing
+
+16  Rieding Concerto in B minor Op.35
+
+17  Küchler student concerto in D major
+
+18  Seitz Student Concerto No.2
+
+19  Seitz Student Concerto No.5
+
+20  Vivaldi Concerto in A minor Op.3 No.6
+
+Sequence is intentionally approximate: repertoire difficulty depends on movement, edition, tempo, cadenza
+and individual strengths.
+
+The Violin Reading Book - Expanded Year-One Edition                                                        164
+86. Classical ladder before/around Mozart (3/4)
+
+#   Piece / study                                             Stage note
+                                                              developing
+21  Bach Double Concerto (student part/sections as assigned)  developing
+                                                              developing
+22  Handel Sonata in F major                                  developing
+                                                              intermediate
+23  Handel Sonata in D major                                  intermediate
+                                                              intermediate
+24  Vivaldi Concerto in G minor                               intermediate
+                                                              intermediate
+25  Fiocco - Allegro                                          intermediate
+
+26  Accolay Concerto No.1 in A minor
+
+27  Bach Concerto in A minor
+
+28  Haydn Concerto in G major
+
+29  Dvoák Sonatina (selected movements)
+
+30  Beethoven Romance in F
+
+Sequence is intentionally approximate: repertoire difficulty depends on movement, edition, tempo, cadenza
+and individual strengths.
+
+The Violin Reading Book - Expanded Year-One Edition                                                        165
+86. Classical ladder before/around Mozart (4/4)
+
+#   Piece / study                                      Stage note
+                                                       intermediate
+31  Monti - Czardas                                    intermediate
+                                                       intermediate
+32  Bach Concerto in E major                           intermediate
+                                                       later/pre-Mozart
+33  Vivaldi Four Seasons - selected passages           later/pre-Mozart
+                                                       later/pre-Mozart
+34  Viotti Concerto No.23 (teacher-dependent)          later/pre-Mozart
+                                                       later/pre-Mozart
+35  Kreutzer selected études (later)                   later/pre-Mozart
+
+36  Mazas selected études
+
+37  Dont selected studies (later)
+
+38  Mozart Rondo / easier Classical works as assigned
+
+39  Mozart Violin Concerto No.3 K.216 - slow study
+
+40  Mozart K.216 - performance project
+
+Sequence is intentionally approximate: repertoire difficulty depends on movement, edition, tempo, cadenza
+and individual strengths.
+
+The Violin Reading Book - Expanded Year-One Edition                                                        166
+PART VIII - YOUR VIVALDI SPRING LINE
+
+                       Use a real line you have already struggled with as the test case.
+
+Goal: look at the screenshot and separate staff position, finger number, rhythm beams, bow
+marks and expressive choices.
+
+The Violin Reading Book - Expanded Year-One Edition  167
+87. Original screenshot
+
+Do not listen to the teacher's vibrato and try to "copy the wobble" as if it were extra notes. The staff is the
+authority for the written pitch sequence; performance effects are a separate layer.
+
+The Violin Reading Book - Expanded Year-One Edition                                                              168
+88. Annotated screenshot
+
+Use the annotations to locate: key signature, time signature, finger numbers, single-beam eighth-note groups,
+two-beam sixteenth-note groups, dotted values, and bow marks. Then return to the original page and see
+whether your eye can find them without arrows.
+
+The Violin Reading Book - Expanded Year-One Edition  169
+89. How to decode one Vivaldi group
+
+Use this order every time: 1) read the staff pitch; 2) apply key signature; 3) choose string/finger; 4) read
+duration from note/beam; 5) check slur/bow mark; 6) only then add dynamics/vibrato/style.
+
+If the written finger number and your expected finger conflict, stop and ask why: the edition may be
+suggesting another string/position, or your key-signature reading may be wrong.
+
+The Violin Reading Book - Expanded Year-One Edition                                                           170
+90. Vivaldi practice worksheet
+
+On a printed copy of the screenshot, mark every item with a different letter: K = key signature, T = time
+signature, F = fingering number, B1 = one beam, B2 = two beams, D = duration dot, U/D = bow direction, S =
+slur.
+
+Then choose only one measure. Write the pitch names under it. Do not play until you can say them in rhythm.
+
+The Violin Reading Book - Expanded Year-One Edition  171
+90A. What success looks like on the Vivaldi line
+
+You can explain why a fast pair contains two real pitches; you can distinguish beam from slur; you can say
+whether a note is sharpened by the key signature; you know which finger the editor suggests; you can play
+the line slowly without needing vibrato. That is a successful reading milestone.
+
+The Violin Reading Book - Expanded Year-One Edition                                                         172
+PART IX - MOZART K.216: READ THE PAGE
+BEFORE YOU CAN PLAY THE PAGE
+
+                               This is the destination score, not a day-one exercise.
+
+Goal: understand the language of the first page now; acquire the physical technique over
+time.
+
+The Violin Reading Book - Expanded Year-One Edition                                       173
+91. Mozart Violin Concerto No.3 - factual map
+
+Mozart's Violin Concerto No.3, K.216, is in G major and dates from 1775. The three movements are Allegro,
+Adagio and Rondeau: Allegro. Your uploaded violin PDF has 15 pages; we use its first page as the visual
+destination.
+
+The score is public-domain repertoire. Different editions can have different fingerings, bowings, cadenzas and
+editorial markings, so always identify your edition before comparing instructions.
+
+The Violin Reading Book - Expanded Year-One Edition  174
+92. First system - original visual
+
+Do not try to perform it yet. First perform a visual scan: locate treble clef, one-sharp key signature,
+common-time C, Allegro, metronome suggestion, Tutti, dynamics, slurs, rests, vertical stacks and beamed
+groups.
+
+The Violin Reading Book - Expanded Year-One Edition                                                      175
+93. First system - annotated decoder
+
+Some markings belong to the historical/editorial part rather than "notes your left hand plays." The crucial
+reading skill is categorization: pitch instruction, rhythm instruction, bow/articulation, dynamic, navigation, or
+editorial text.
+
+The Violin Reading Book - Expanded Year-One Edition  176
+94. What the beginning literally tells you before the
+first note
+
+Item                         Meaning                            Your response
+Allegro                      fast/lively tempo character        do NOT practice at final tempo yet
+quarter-note  126 (edition)  metronome suggestion               practice much slower
+treble clef                  violin pitch coordinate system     use treble staff mapping
+one sharp                    G-major key signature: F-sharp     apply F-sharp to written Fs
+C                            common time = 4/4                  count four quarter beats per measure
+Tutti                        ensemble/tutti passage indication  not a finger instruction
+p/f                          dynamic level                      shape bow speed/weight later
+
+The Violin Reading Book - Expanded Year-One Edition                                                   177
+95. Why the first Mozart line looks much harder than
+your G-major scale
+
+It layers skills: multiple stops/chords, rests, faster subdivisions, slurs/articulations, dynamic changes and
+phrasing. Later solo passages also require position choices and fast coordination. The pitch language is not a
+different alphabet - it is the same staff system under higher technical density.
+
+That is encouraging: your current G-major scale is not unrelated to Mozart. It is the same tonal vocabulary at
+a much simpler density.
+
+The Violin Reading Book - Expanded Year-One Edition  178
+96. Mozart reading milestone 1 - no violin required
+
+Take the first system and point to each symbol. Say only its category: clef / key / meter / note / rest / beam /
+slur / dynamic / articulation / text. Do this until the page stops looking like one undifferentiated drawing.
+
+The Violin Reading Book - Expanded Year-One Edition  179
+97. Mozart reading milestone 2 - pitch landmarks
+
+Circle every open-string landmark you can identify from staff position. Then name neighboring notes by step.
+Apply F-sharp from the key signature. Do not assign advanced fingerings yet.
+
+If you cannot confidently name a pitch, return to Part II. That is not failure; it tells you exactly which layer is
+missing.
+
+The Violin Reading Book - Expanded Year-One Edition  180
+98. Mozart reading milestone 3 - rhythm only
+
+Ignore pitch. Clap one measure at a time. Identify quarter/eighth/sixteenth values, rests and dots. If chords
+are stacked, clap them as one rhythmic event, not multiple sequential beats.
+
+The Violin Reading Book - Expanded Year-One Edition                                                            181
+99. Mozart reading milestone 4 - technique triage
+
+Mark/passage type              Can you read it now?               Can you perform it now?
+single first-position pitch    yes                                often yes, slowly
+eighth/sixteenth group         yes after rhythm work              slowly, then build speed
+double stop/chord stack        yes                                NEXT/LATER
+slur                           yes                                basic slurs NEXT/NOW depending comfort
+trill/ornament                 yes as symbol                      LATER/style-dependent
+third/fourth position passage  yes conceptually                   LATER
+vibrato on long note           not required by ordinary notehead  LATER expressive choice/edition/style
+
+The Violin Reading Book - Expanded Year-One Edition                                                       182
+100. Mozart fourth-position bridge [LATER]
+
+When you eventually encounter a quick passage where staying on one string/position is smoother than
+constant shifts, fourth position becomes a practical tool. Violinspiration explicitly demonstrates fourth position
+using a Mozart Concerto No.3 passage and notes how it can smooth the rapid line.
+
+This is exactly why the book teaches score reading before demanding every technique: you can understand
+the destination years before every physical solution is automatic.
+
+The Violin Reading Book - Expanded Year-One Edition  183
+101. The end-of-year test
+
+Open an unfamiliar first-position violin page. Without playing, you should be able to identify: clef, key
+signature, meter, note names in your learned range, basic rhythm values/rests, slurs/ties, dynamics, common
+articulations, bow direction marks and repeats. Then you should be able to sight-read a simple line slowly
+while keeping pulse.
+
+Open Mozart K.216. You may not be able to perform it yet, but you should be able to explain why it is hard
+and identify most of the written instructions. That is real progress.
+
+The Violin Reading Book - Expanded Year-One Edition  184
+REFERENCE - SOURCES, VIDEOS AND WHAT
+TO USE NEXT
+
+                                Research links used to design the expanded edition.
+
+These sources disagree on some sequencing details. When that happens, this book labels the
+choice as teacher-dependent rather than pretending there is one universal violin method.
+
+The Violin Reading Book - Expanded Year-One Edition  185
+Sources (1)
+
+Violinspiration - Violin Note Reading for Beginners
+staff, clef, open strings, fingering, rhythm, incremental reading
+https://violinspiration.com/violin-notes-for-beginners/
+
+Violin Lounge - How to Read Violin Sheet Music
+score scan, strings/fingers, meter, dynamics
+https://www.violinlounge.com/blog/how-to-read-violin-sheet-music-easy-guide-for-beginner-violinists
+
+Angeles Academy - Violin String Notes Explained
+string-note/finger mapping and notation basics
+https://www.angelesacademyofmusic.com/news/violin-string-notes-explained
+
+Violinspiration - All Violin Notes
+first-position notes and charts
+https://violinspiration.com/all-violin-notes-for-beginners-with-easy-pdf-charts/
+
+Violinspiration - 25 Bowing Techniques
+bowing names, notation and definitions
+https://violinspiration.com/violin-bowing-techniques-terms-symbols-and-definitions/
+
+Violin Lounge - 24 Bowing Techniques
+visual demonstrations of bow strokes
+https://www.youtube.com/watch?v=cEBN2UkJavk
+
+The Violin Reading Book - Expanded Year-One Edition                                                  186
+Sources (2)
+
+Violinspiration - Vibrato Guide
+arm/wrist/finger vibrato and readiness
+https://violinspiration.com/violin-vibrato/
+
+Violinspiration - Third Position
+third position and shifting
+https://violinspiration.com/third-position-violin/
+
+Violinspiration - Violin Positions
+position map; Mozart 3 fourth-position example
+https://violinspiration.com/the-ultimate-guide-to-the-violin-positions-with-free-pdf-charts/
+
+Hilary Hahn - Violin Channel Suzuki interview
+Suzuki start/listening/Twinkle connection
+https://theviolinchannel.com/vc-interview-hilary-hahn-recording-the-suzuki-pieces/
+
+Hilary Hahn - Strings Magazine interview
+Klara Berkovich, bowing, double stops, vibrato, pizzicato, phrasing, Wohlfahrt
+https://stringsmagazine.com/a-conversation-with-hilary-hahn/
+
+Hilary Hahn - Violinist.com Suzuki interview
+Twinkle rhythm/skill-seeding discussion
+https://www.violinist.com/blog/laurie/202010/28517/
+
+The Violin Reading Book - Expanded Year-One Edition                                           187
+Sources (3)
+
+Alfred - Suzuki Violin School Volume 1
+official repertoire list; Hahn/Zhu recording
+https://www.alfred.com/products/suzuki-violin-school-volume-1-00-48722
+
+Wohlfahrt Op.45 - IMSLP
+public-domain studies; Book I first position
+https://imslp.org/wiki/60_Studies_for_the_Violin%2C_Op.45_%28Wohlfahrt%2C_Franz%29
+
+Sevcík Op.1 - IMSLP
+first position, positions, shifting, double stops
+https://imslp.org/wiki/School_of_Violin_Technique%2C_Op.1_%28%C5%A0ev%C4%8D%C3%ADk%2C_Otakar%29
+
+Kayser Op.20 - IMSLP
+progressive studies; Book I first position
+https://imslp.org/wiki/36_Studies_Op.20_for_Violin_%28Kayser%2C_Heinrich_Ernst%29
+
+ABRSM Music Theory Grade 1 outline
+note values, staff, accidentals, simple meter, major-scale construction
+https://www.abrsm.org/sites/default/files/2023-09/music-theory-syllabus-outline-grades-1-5-from-2020.pdf
+
+ABRSM Violin syllabus
+external benchmark for pieces/scales/sight-reading
+https://www.abrsm.org/en-gb/instruments/bowed-strings/violin
+
+The Violin Reading Book - Expanded Year-One Edition                                                       188
+Sources (4)
+
+Mozart K.216 - violin sheet music page
+user-provided end-goal score page
+https://violinsheetmusic.org/classical/work/mozart-violin-concerto-3/
+
+Mozart K.216 - IMSLP
+public-domain score/parts and work metadata
+https://imslp.org/wiki/Violin_Concerto_No.3%2C_K.216_%28Mozart%2C_Wolfgang_Amadeus%29
+
+Spotify global chart - late Aug 2026
+current popular-song target list; popularity changes
+https://soundcharts.com/en/charts/spotify/global
+
+TikTok viral chart playlist - Aug 2026
+current viral-song target ideas; popularity changes
+https://smartlinksapp.com/playlists/aad7de37-b61a-4bc4-9dac-ef88f9c20ad5
+
+The Violin Reading Book - Expanded Year-One Edition                                    189
+Five videos/pages worth bookmarking
+
+                                   1-hour Violinspiration beginner course
+                                   Bow hold, first notes, crossings, G major, rhythm, Ode to Joy.
+                                   Open link
+
+                                   Violinspiration note-reading video
+                                   Staff, open strings, finger numbers, rhythm and bowing symbols.
+                                   Open link
+
+                                   Violinspiration rhythm lesson
+                                   Use with the rhythm worksheets.
+                                   Open link
+
+                                   Violin Lounge bowing encyclopedia
+                                   See advanced bow strokes rather than imagining them from words.
+                                   Open link
+
+                                   Violinspiration vibrato guide
+                                   Do later when intonation/relaxation meet the readiness gate.
+                                   Open link
+
+The Violin Reading Book - Expanded Year-One Edition                                                 190
+Copyright / sheet-music note
+
+Public-domain melodies and original drills can be printed directly in this workbook. Modern pop songs and the
+Suzuki method editions are copyrighted; the book lists them as practice targets and points you toward
+licensed/tutorial sources instead of reproducing unlicensed full notation.
+
+The Mozart score and older étude sources listed via IMSLP/your provided score are public-domain repertoire,
+though particular modern editions, fingerings, bowings and cadenzas can still carry editorial rights.
+
+The Violin Reading Book - Expanded Year-One Edition  191
+Your immediate next 14 practice sessions
+
+· 1: G string reading + G-major Stage A
+· 2: D string reading + G-major Stage B
+· 3: Open-string landmark quiz + G-major Stage C
+· 4: mixed G/D worksheet + answer
+· 5: eighth-note rhythm + Ode to Joy fragment
+· 6: A-string notes + D-major scale preview
+· 7: review only; record yourself for 60 seconds
+· 8: low/high 2 contrast F/F-sharp and C/C-sharp
+· 9: key signature worksheet + G major
+· 10: Vivaldi screenshot: label symbols only
+· 11: Vivaldi: decode one measure without vibrato
+· 12: basic slurs + détaché contrast
+· 13: first Wohlfahrt/Sevcík-style short pattern from a legal source
+· 14: open Mozart page: identify symbols, do NOT force performance
+After session 14, repeat the cycle with slightly harder reading rather than jumping straight into shifting.
+
+The Violin Reading Book - Expanded Year-One Edition                                                          192
+Final principle
+
+Reading tells you what the music asks. Technique gives your body ways to execute it. Listening tells you
+whether the result is musical. Train all three, but do not confuse them.
+
+Your first victory is not "I can imitate a fingering video." It is: I can look at a note, know what it is, know where
+it lives on the violin, understand how long it lasts, and explain the other marks around it.
+
+The Violin Reading Book - Expanded Year-One Edition  193
+
