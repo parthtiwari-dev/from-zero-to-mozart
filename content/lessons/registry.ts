@@ -84,4 +84,21 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "editions-and-editorial-marks": () =>
     import("./editions-and-editorial-marks.mdx"),
   "the-score-language-quiz": () => import("./the-score-language-quiz.mdx"),
+
+  // Stage 4 — Scales & musicianship
+  "what-a-scale-is": () => import("./what-a-scale-is.mdx"),
+  "whole-steps-and-half-steps": () => import("./whole-steps-and-half-steps.mdx"),
+  "why-g-major-has-one-sharp": () => import("./why-g-major-has-one-sharp.mdx"),
+  "the-circle-of-fifths": () => import("./the-circle-of-fifths.mdx"),
+  "major-and-minor": () => import("./major-and-minor.mdx"),
+  "the-three-minors": () => import("./the-three-minors.mdx"),
+  "parallel-and-relative": () => import("./parallel-and-relative.mdx"),
+  "the-twelve-keys": () => import("./the-twelve-keys.mdx"),
+  intervals: () => import("./intervals.mdx"),
+  triads: () => import("./triads.mdx"),
+  cadences: () => import("./cadences.mdx"),
+  arpeggios: () => import("./arpeggios.mdx"),
+  "other-scales": () => import("./other-scales.mdx"),
+  "the-harmonic-series": () => import("./the-harmonic-series.mdx"),
+  "your-scale-practice-order": () => import("./your-scale-practice-order.mdx"),
 };

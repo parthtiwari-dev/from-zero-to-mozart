@@ -4,6 +4,7 @@ import type {
   AnchorHTMLAttributes,
   TableHTMLAttributes,
 } from "react";
+import { CircleOfFifths } from "@/components/CircleOfFifths";
 import { NotatedExample } from "@/components/NotatedExample";
 import { Quiz } from "@/components/Quiz";
 import { TryThis } from "@/components/TryThis";
@@ -22,6 +23,7 @@ const components: MDXComponents = {
     </div>
   ),
   // components lessons can drop straight into their prose
+  CircleOfFifths,
   NotatedExample,
   Quiz,
   TryThis,

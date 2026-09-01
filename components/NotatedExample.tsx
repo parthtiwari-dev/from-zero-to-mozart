@@ -69,7 +69,7 @@ export function NotatedExample({
       // With labels, give each note enough room for a 3-line stack (name /
       // string / finger) so they never crowd their neighbours. With no
       // labels, notes can sit close together, so a fixed width is enough.
-      const staffwidth = labelCount > 0 ? Math.max(300, labelCount * 70) : 460;
+      const staffwidth = labelCount > 0 ? Math.max(340, labelCount * 100) : 460;
       const [tune] = mod.renderAbc(paperRef.current, abc, {
         add_classes: true,
         staffwidth,
