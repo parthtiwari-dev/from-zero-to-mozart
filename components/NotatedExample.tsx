@@ -79,7 +79,7 @@ export function NotatedExample({
       // With labels, give each note enough room for a 3-line stack (name /
       // string / finger) so they never crowd their neighbours. With no
       // labels, notes can sit close together, so a fixed width is enough.
-      const staffwidth = labelCount > 0 ? Math.max(340, labelCount * 100) : 460;
+      const staffwidth = labelCount > 0 ? Math.max(360, labelCount * 108) : 460;
       const [tune] = mod.renderAbc(paperRef.current, abc, {
         add_classes: true,
         staffwidth,
@@ -156,7 +156,10 @@ export function NotatedExample({
       <div className="relative rounded-[3px] border border-hairline bg-well px-6 pb-9 pt-6 shadow-[inset_0_1px_2px_rgba(0,0,0,0.06)]">
         <div className="overflow-x-auto">
           <div className="relative inline-block min-w-full">
-            <div ref={paperRef} className="notation" />
+            <div
+              ref={paperRef}
+              className={labelCount > 6 ? "notation notation--wide" : "notation"}
+            />
             {hasLabels && (
               <div
                 className="relative mt-1 h-[3.4rem]"

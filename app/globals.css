@@ -179,6 +179,8 @@ body {
 /* ---- the reading column: applied to rendered MDX ---- */
 .prose {
   max-width: var(--measure-prose);
+  /* contain the floated .margin-note children so they don't leak past the column */
+  display: flow-root;
 }
 .prose > * + * {
   margin-top: 1rem;
@@ -271,6 +273,11 @@ body {
   color: var(--ink);
   max-width: 100%;
   height: auto;
+}
+/* labelled examples keep their natural width and scroll inside the well, so the
+   name / string / finger stack under each note never gets compressed. */
+.notation--wide svg {
+  max-width: none;
 }
 .notation svg path:not([fill="none"]) {
   fill: var(--ink);

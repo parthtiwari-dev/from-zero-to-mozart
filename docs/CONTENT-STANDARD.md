@@ -129,19 +129,39 @@ public-domain line of music, gone through completely.
 decide the cadence.
 
 1. ~~Write this standard.~~ ✔ (this doc)
-2. Build `AnnotatedScore` (or extend `NotatedExample`) + the moving-cursor playback.
-3. Start `docs/LINEAGE-QUOTES.md`.
-4. Rewrite to standard: **all of Stage 0 (10)** + the **Stage 1 reading spine** —
-   `the-staff`, `the-treble-clef`, `lines-and-spaces`, `ledger-lines`, `the-g-string`,
-   `the-d-string`, `the-a-string`, `the-e-string`, `reading-g-major`. (~19 lessons.)
-5. Build annotated lines **1 and 2** (Ode to Joy, G-major scale).
-6. **User reviews on the live preview** and says whether it now feels like a teacher.
-7. Decide: continue the retrofit stage by stage, or adjust the standard first.
+2. ~~Build the margin components (`<Margin>`, `<Cite>`) + the gutter.~~ ✔ (Direction A commit)
+3. ~~Prove the pattern on a cross-section~~ ✔ — `meet-the-violin` (Stage 0 opener, concept),
+   `the-g-string` (Stage 1, atom), `why-g-major-has-one-sharp` (Stage 4, concept),
+   `detache` (Stage 5, concept). These are the reference examples of the six beats + the
+   margin voice. **User reviews these on the live preview.**
+4. Build `AnnotatedScore` (or extend `NotatedExample`) + moving-cursor playback.
+5. Start `docs/LINEAGE-QUOTES.md`.
+6. Rewrite the contiguous set to standard: **all of Stage 0 (10)** + the **Stage 1 reading
+   spine** — `the-staff`, `the-treble-clef`, `lines-and-spaces`, `ledger-lines`,
+   `the-{g,d,a,e}-string`, `reading-g-major`. (~19 lessons; ~3 already done.)
+7. Build annotated lines **1 and 2** (Ode to Joy, G-major scale).
+8. Decide: continue the retrofit stage by stage, or adjust the standard first.
 
 Everything after that — Stages 2–5 retrofit, Stages 6–9, the full annotated repertoire — comes
 once the pattern is confirmed. This phase is **Phase 1.5** in `PLAN.md`.
 
 ---
+
+## 6a. Authoring the margin and the examples (learned while building the pattern)
+
+- **One or two margin notes per screenful, not more.** They float in a 10rem gutter; if you
+  stack three or four with little prose between them they run past the text and leave a gap.
+  If a point needs a paragraph, put it in the body — the margin is for a short aside, a
+  citation, or a figure pointer.
+- **`<Cite source="…">…</Cite>`** puts beat 6 in the margin: source name (small caps) + one or
+  two sentences. **`<Margin>…</Margin>`** is the "watch for this" / cross-reference aside.
+- **Single-string `NotatedExample`s: don't repeat the string under every note.** Say "All on
+  the G string" in the caption and give each label just `{name, finger}`. Repeating "G string"
+  eight times crowds the labels. Use per-note `string` only when the example actually crosses
+  strings.
+- Examples with **more than ~6 labelled notes** scroll horizontally inside the well by design
+  (they keep full size rather than compressing) — keep teaching examples shorter than that
+  where you can.
 
 ## 7. "Done to standard" — the review checklist
 

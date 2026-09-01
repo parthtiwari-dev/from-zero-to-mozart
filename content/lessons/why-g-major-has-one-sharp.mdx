@@ -1,20 +1,68 @@
-Apply the W-W-H-W-W-W-H recipe starting on G, one step at a time:
+A major scale is not a set of notes you memorise — it's a **fixed pattern of steps**, the same
+shape wherever you start it. Start that shape on G and exactly one note has to be bent to
+fit. That note is F♯, and that's the entire reason G major's key signature has one sharp and
+nothing else.
 
-- G → A: whole step
-- A → B: whole step
-- B → C: **half** step (that's naturally close — no adjustment needed)
-- C → D: whole step
-- D → E: whole step
-- E → F♯: whole step — but E → F is only a *half* step naturally, so F has to be **raised** to
-  F♯ to make it a whole step
-- F♯ → G: half step (which checks out — F♯ to G naturally is a half step)
+## Walk the pattern from G
 
-That one raised note is the whole story: **G major needs exactly one sharp, F♯, and nothing
-else**, because that's the only place the natural notes didn't already fit the pattern.
+The major-scale pattern is **whole–whole–half–whole–whole–whole–half** (W-W-H-W-W-W-H). Lay it
+over the natural notes starting on G and check each step against what the letters give you
+naturally:
 
-This is the derivation behind the key signature you met back in Stage 1 — it's not an arbitrary
-fact to memorise, it falls straight out of the major-scale formula applied to G.
+| Step | Needs | Natural notes give | Fix? |
+|---|---|---|---|
+| G → A | whole | whole | — |
+| A → B | whole | whole | — |
+| B → C | half | half | — |
+| C → D | whole | whole | — |
+| D → E | whole | whole | — |
+| E → F | whole | **half** | raise F → **F♯** |
+| F♯ → G | half | half | — |
 
-One thing major does **not** mean: "happy." It describes this specific interval structure.
-Whether a piece in G major sounds bright, sad, tense or calm depends on melody, harmony,
-tempo, register and how it's played — the key alone doesn't decide the mood.
+Every step already fits except **E → F**. Naturally E to F is a half step, but the pattern
+needs a whole step there — so F is raised to F♯, which also makes the last step (F♯ → G) a
+half step, exactly as the pattern wants. One adjustment, and the shape is satisfied.
+
+<Cite source="Every graded theory syllabus (ABRSM, RCM, Trinity)">
+  teaches keys this way — pattern first, key signature as a consequence — from the first grade.
+  It's the standard because it scales: learn one rule, get all twelve keys.
+</Cite>
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+G A B c | d e f g |]`}
+  caption="G major, one octave. The only black key on a piano here is F♯ — the seventh note, just below the top G."
+  defaultBpm={72}
+/>
+
+## Hear why it has to be F♯
+
+Play the scale as written. Now play it again but put an **F natural** in place of the F♯ — the
+seventh note. Listen to that F♮: it sits a whole step below the top G, so the climb to the
+tonic sags instead of leaning in. The F♯ is what gives a major scale its pull home. Your ear
+will tell you the F♮ is wrong before your theory does.
+
+<Margin>
+  The seventh note of a major scale, a half step below the tonic, is called the **leading
+  note** — it "leads" your ear up to the tonic. Flatten it and the pull vanishes.
+</Margin>
+
+## Where this sits
+
+This is the derivation behind the key signature you met in Stage 1. It isn't arbitrary and
+it isn't worth memorising as a fact — it falls straight out of the pattern. Do the same walk
+from D and you'll find you need F♯ *and* C♯; from A, three sharps; and so on. That growing
+stack of sharps, always added in the order F–C–G–D–A–E–B, is the **circle of fifths**, which
+gets its own lesson.
+
+There's a reason a beginner meets G major first on the violin and not, say, on the piano,
+where C major is the obvious start. Your open strings — **G, D, A, E** — are themselves a
+stack of perfect fifths, and G major lies right under the first-position hand. That's why so
+much early violin repertoire is written in G, D and A.
+
+One thing major does **not** mean: "happy." It names this interval structure, nothing else.
+Whether a piece in G major sounds bright, grieving, tense or calm is decided by its melody,
+harmony, tempo and touch — the key alone decides none of it.
