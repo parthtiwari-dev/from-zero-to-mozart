@@ -83,6 +83,133 @@ beats 5 and 6 — check.
 
 ---
 
+## 3a. Anatomy of a lesson — everything that can go in one
+
+**This is the definitive list.** The six beats are the *spine*; these are the *parts* a lesson
+is built from. Not every part in every lesson — but a concept or reading lesson that has only
+prose + one example is not finished.
+
+### Always
+
+- **Title** — plain, concrete (`the-key-signature`, not "Understanding Key Signatures").
+- **The idea, first sentence** — no jargon, before any definition (beat 1).
+- **Teacher-voice prose** — second person, warm, casual, specific (§4). GFM tables where a
+  table genuinely helps (a note/finger/where grid, a "you hear → means → try" grid).
+- **The usual mistake** (beat 5) — spelled out with the fix. The teacher-in-the-room beat.
+- **Where it comes from** (beat 6) — a `<Cite>` with a real source from
+  `docs/LINEAGE-QUOTES.md`. Mandatory on concept, reading and melody lessons.
+
+### The musical content — this is where "depth" lives
+
+- **The teaching example** — one `<NotatedExample>` making the lesson's single point. Every
+  note `{ name, string, finger }`. Fits the screen.
+- **Play-around exercises — 2 to 4 per concept/skill lesson** (`RULES.md` #5). These are the
+  reps. Types:
+  - a **pattern** (a scale fragment, a broken chord, a finger-pattern drill on one string);
+  - a **variation** — the same notes in a different rhythm, bowing, or order;
+  - a **contrast** — the right version next to the wrong one (`why-g-major`'s F♯ vs F♮);
+  - a **transfer** — the same idea moved to another string / key.
+  Each is a labelled `<NotatedExample>` with a one-line caption saying what to do and listen
+  for.
+- **A real tune** where the lesson's notes allow one — even a 6-note phrase of a named melody
+  beats another synthetic fragment. Full melodies are **melody lessons** (§5) in Movement F /
+  `/practice`; a *taste* can live inside a skill lesson.
+- **`<Diagram>`** — a labelled line drawing where a picture is needed (the instrument, a hand
+  shape, the fingerboard, the bow lanes). `components/Diagram.tsx`.
+- **`<TryThis>`** — the "now do this on the violin" prompt (beat 4). One concrete action,
+  often silent/slow. Not a task to complete.
+- **`<Quiz>`** — recognition questions (name this symbol, which finger) where checking
+  understanding matters. Reveal on tap; never a gate.
+
+### Melody / piece lessons also carry
+
+- **A how-to-play note per line** (`RULES.md` R3): where to start the bow (frog / middle /
+  tip), which direction, which part of the bow, how much weight, what to listen for. Specific.
+- **Playback** with a moving cursor; adjustable tempo; optional walk mode (`AnnotatedScore`).
+- **Key · lowest position · the one skill it drills · was-in-the-PDF** — metadata for the
+  `/practice` filter.
+
+### Structural
+
+- **Margin apparatus** — the lesson locator (auto), plus `<Margin>` / `<Cite>` the author
+  places. One or two per screenful.
+- **`read` vs `perform`** stated where they differ (`RULES.md` #7).
+- **Forward pointers** — if a symbol appears before its own lesson, "you'll meet this properly
+  in Stage N" (`RULES.md` R4, `docs/NOTATION-COVERAGE.md`).
+- **Prev / next** nav (auto).
+
+### The test (§7 checklist, expanded)
+
+A lesson is done when a beginner could work through it *alone*, at a music stand, and come out
+able to do the thing — not just recognise it. If they'd still be lost, a beat or a
+play-around is missing.
+
+---
+
+## 3b. The methods we follow — concrete, from the standard literature
+
+Not invented here. The course's content approach is a synthesis of the established beginner
+methods, chosen part by part.
+
+### Introducing a new note — the multi-sensory sequence
+
+Every method that works does this in order (Essential Elements, Suzuki, Doflein, all-for-strings):
+
+1. **Hear it** — the pitch, from playback or a drone, *before* the hand moves.
+2. **Place it on the instrument** — which string, which finger, the gap to its neighbours
+   (whole step / half step). A fingerboard picture if it helps.
+3. **See it on the staff** — its line or space, and its *interval* from the note before it.
+4. **Play it** — alone, slow, checked against an open string or drone.
+5. **Drill it in a finger pattern** — in a scale fragment, a broken chord, a 1↔3 / 2↔4 swap.
+6. **Use it in a familiar tune** — the moment the notes allow one.
+
+A lesson introducing a note is not done until steps 5 and 6 are in it.
+
+### The note set expands gradually — and there's music from the start
+
+**Doflein's model** (our closest cousin — reading + technique + theory together): chapters are
+"music with five notes" → "six notes" → "eight notes", then finger patterns, then keys.
+Pieces and duets appear from the first chapter, not after the technique is "done." We follow
+this: **a stage adds a small set of notes/skills, and turns them into tunes immediately.**
+
+### One teaching point per tune — Suzuki's rule
+
+Suzuki Book 1 is 17 pieces, each with **one** point: *Twinkle* = staccato + quick finger
+drops; *Lightly Row* = bow division (upper/lower half); *Song of the Wind* = the 1↔3 "jumping
+finger" (the left-hand frame) + bow retakes; *Long Long Ago* = the D string via first-finger
+hopping; *Perpetual Motion* = the 4th finger; *Etude* = low 2 in G. Our **melody lessons**
+carry the same discipline — the how-to-play notes name the *one* thing that tune is for.
+
+### Intonation is ear-first, not eye-first
+
+The consensus: **hear the pitch, then place the finger** — tapes are a crutch the ear must
+outgrow. Method: **sing it → play it → check it against a drone or the ringing open string**,
+adjusting the finger by millimetres until the beating stops. Familiar tunes are the training
+ground (you know when they're sour). Solfège / movable-do is the bridge — for this user, from
+**Sa**. Ringing tones (sympathetic resonance) are a free built-in check.
+
+### Reading is pattern-first, not name-first
+
+Percival Hodgson's principle, now standard: read **landmarks + intervals** (steps / skips, up
+/ down) — not the name of every note. **Pre-read** first: clef, key, time signature, range,
+rhythm patterns, dynamics. **Rhythm before pitch** — clap and count. **Keep going** — recover
+on the downbeat, never stop for one wrong note. **Read ahead** of the bow.
+
+### The left-hand-action drill family
+
+Concrete, from the pedagogy: hold all four fingers down, **lift and tap one at a time**,
+1-2-3-4 then 4-3-2-1; **1↔3** back and forth; **2↔4** back and forth; lift 1+3 while dropping
+2+4. **Keep the fingers behind the sounding note down.** Left-hand pizzicato for strength.
+These are the play-arounds in any left-hand lesson.
+
+*Sources: Doflein Method Book I (Schott); Suzuki Violin School Vol. 1 + teaching-point
+guides (stringpedagogy, kiyoematsuura); Essential Elements for Strings Book 1; Simon Fischer
+*Basics* / *The Violin Lesson*; ABRSM Grades 1–2 syllabus; violinist.com / thestrad.com /
+violinspiration on intonation, finger action and sight-reading; Percival Hodgson on
+pattern reading.*
+
+---
+
 ## 4. Voice (unchanged, restated)
 
 Second person, warm, casual, specific — the way a good studio teacher actually talks. No
@@ -187,21 +314,19 @@ once the pattern is confirmed. This phase is **Phase 1.5** in `PLAN.md`.
 
 ---
 
-## 6a. Authoring the margin and the examples (learned while building the pattern)
+## 6a. Authoring the margin and the examples (mechanics)
 
-- **One or two margin notes per screenful, not more.** They float in a 10rem gutter; if you
-  stack three or four with little prose between them they run past the text and leave a gap.
-  If a point needs a paragraph, put it in the body — the margin is for a short aside, a
-  citation, or a figure pointer.
+- **One or two margin notes per screenful, not more.** They float in an 11rem gutter; if you
+  stack three or four with little prose between them they run past the text. A point that needs
+  a paragraph goes in the body — the margin is for a short aside, a citation, or a figure
+  pointer.
 - **`<Cite source="…">…</Cite>`** puts beat 6 in the margin: source name (small caps) + one or
   two sentences. **`<Margin>…</Margin>`** is the "watch for this" / cross-reference aside.
-- **Single-string `NotatedExample`s: don't repeat the string under every note.** Say "All on
-  the G string" in the caption and give each label just `{name, finger}`. Repeating "G string"
-  eight times crowds the labels. Use per-note `string` only when the example actually crosses
-  strings.
-- Examples with **more than ~6 labelled notes** scroll horizontally inside the well by design
-  (they keep full size rather than compressing) — keep teaching examples shorter than that
-  where you can.
+- **Every `NotatedExample` label carries `{ name, string, finger }` — always** (`RULES.md`
+  R1). Single string or not; worksheet or not. No shortcuts.
+- **Keep a teaching example short** — a handful of notes makes its one point. A tune runs
+  long, and that's fine; it scales to fit and (later) wraps to multiple staves like a printed
+  sheet. Never a horizontal scrollbar (`RULES.md` R5).
 
 ## 7. "Done to standard" — the review checklist
 
