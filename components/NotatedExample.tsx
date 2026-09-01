@@ -89,35 +89,26 @@ export function NotatedExample({
     let cancelled = false;
     let raf = 0;
 
-    // measure each notehead's centre x (CSS px) for the HTML label row,
-    // retrying for a few frames while the music font settles. `responsive:
-    // "resize"` gives the SVG a viewBox, so k is a real scale factor and the
-    // labels track the notes at any width (including a scaled-down phone).
+    // measure each notehead's centre x (CSS px) for the HTML label row.
+    // `responsive: "resize"` gives the SVG a viewBox, so the whole line always
+    // scales to fit the well (no horizontal scroll — RULES.md R5) and
+    // k = renderedWidth / viewBoxWidth maps getBBox() user units to on-screen
+    // px. Retry a few frames while the music font settles.
     const measure = (tries = 0) => {
       if (cancelled) return;
       const svg = paperRef.current?.querySelector("svg");
       const notes = svg?.querySelectorAll<SVGGElement>(".abcjs-note");
       const rect = svg?.getBoundingClientRect();
-      if (svg && notes?.length && rect?.width) {
-        // getBBox() is in the pre-`scale` user space; the SVG is displayed at
-        // `scale` times that (via the width attr vs the on-screen width). k maps
-        // one to the other — off the viewBox if abcjs emitted one, else off the
-        // width attribute.
-        const vb = svg.viewBox.baseVal;
-        const attrW = parseFloat(svg.getAttribute("width") || "0");
-        const k = vb.width
-          ? rect.width / vb.width
-          : attrW
-            ? rect.width / attrW
-            : 1;
-        const vbX = vb.width ? vb.x : 0;
+      const vb = svg?.viewBox.baseVal;
+      if (svg && notes?.length && rect?.width && vb?.width) {
+        const k = rect.width / vb.width;
         setXs(
           Array.from(notes).map((g) => {
             const b = g.getBBox();
-            return (b.x + b.width / 2 - vbX) * k;
+            return (b.x + b.width / 2 - vb.x) * k;
           }),
         );
-      } else if (tries < 30) {
+      } else if (tries < 40) {
         raf = requestAnimationFrame(() => measure(tries + 1));
       }
     };
@@ -126,12 +117,14 @@ export function NotatedExample({
       const mod = abcjsRef.current ?? (await import("abcjs"));
       if (cancelled || !paperRef.current) return;
       abcjsRef.current = mod;
-      const staffwidth = labelCount > 0 ? Math.max(360, labelCount * 116) : 460;
+      // staffwidth sets the viewBox proportions (how spread the notes are);
+      // responsive:"resize" then scales the whole thing to the container.
+      const staffwidth = labelCount > 0 ? Math.max(380, labelCount * 116) : 460;
       const [tune] = mod.renderAbc(paperRef.current, abc, {
         add_classes: true,
         staffwidth,
         scale: 1.15,
-        // fill staffwidth so notes spread enough for the label stack
+        responsive: "resize",
         format: { stretchlast: 1 },
         paddingtop: 4,
         paddingbottom: 4,
@@ -143,7 +136,14 @@ export function NotatedExample({
       if (labelCount > 0) measure();
     })();
 
+    const ro = new ResizeObserver(() => {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => measure(0));
+    });
+    if (paperRef.current) ro.observe(paperRef.current);
+
     return () => {
+      ro.disconnect();
       cancelled = true;
       cancelAnimationFrame(raf);
     };
@@ -190,8 +190,8 @@ export function NotatedExample({
   return (
     <figure className="not-prose my-8">
       <div className="relative rounded-[3px] border border-hairline bg-well px-6 pb-9 pt-6 shadow-[inset_0_1px_2px_rgba(0,0,0,0.06)]">
-        <div className="-mx-2 overflow-x-auto px-2">
-          <div className="relative w-max min-w-full">
+        <div className="relative w-full">
+          <div className="relative w-full">
             <div ref={paperRef} className="notation" />
             {hasLabels && (
               <div
