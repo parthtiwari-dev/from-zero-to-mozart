@@ -8,13 +8,18 @@ M:4/4
 L:1/4
 K:C clef=treble
 G, D A e | c B, g D |]`}
-  scaffold={`X:1
-M:4/4
-L:1/4
-K:C clef=treble
-"_G"!0!G, "_D"!0!D "_A"!0!A "_E"!0!e | "_C"!2!c "_B"!2!B, "_G"!2!g "_D"!0!D |]`}
-  mode="answer"
-  caption="Eight landmarks: the four open strings, then C, B, G, D. Say name · string · finger for each."
+  labels={[
+    { name: "G", string: "G", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "E", string: "E", finger: "0" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "G", finger: "high 2" },
+    { name: "G", string: "E", finger: "low 2" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  reveal="hidden"
+  caption="Eight landmarks: the four open strings, then C, B, G, D. Say name, string, finger for each."
   defaultBpm={60}
 />
 

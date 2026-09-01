@@ -10,12 +10,14 @@ there. The open G string is two ledger lines below the staff; the note you'll ca
 M:2/4
 L:1/4
 K:C clef=treble
-"_G"G,2 "_A"A,2 | "_B"B,2 "_C"C2 | "_D"D4 |]`}
-  scaffold={`X:1
-M:2/4
-L:1/4
-K:C clef=treble
-"_G  0"G,2 "_A  1"A,2 | "_B  2"B,2 "_C  3"C2 | "_D  0"D4 |]`}
+G,2 A,2 | B,2 C2 | D4 |]`}
+  labels={[
+    { name: "G", string: "G", finger: "0" },
+    { name: "A", string: "G", finger: "1" },
+    { name: "B", string: "G", finger: "high 2" },
+    { name: "C", string: "G", finger: "3" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
   caption="Climbing the G string out of ledger-line territory and up to open D. G is below, then the notes rise line-space-line onto the bottom of the staff."
   defaultBpm={60}
 />

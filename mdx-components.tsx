@@ -2,6 +2,7 @@ import type { MDXComponents } from "mdx/types";
 import Link from "next/link";
 import type { AnchorHTMLAttributes } from "react";
 import { NotatedExample } from "@/components/NotatedExample";
+import { Quiz } from "@/components/Quiz";
 import { TryThis } from "@/components/TryThis";
 
 const components: MDXComponents = {
@@ -12,6 +13,7 @@ const components: MDXComponents = {
   },
   // components lessons can drop straight into their prose
   NotatedExample,
+  Quiz,
   TryThis,
 };
 

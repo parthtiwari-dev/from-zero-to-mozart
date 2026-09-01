@@ -4,6 +4,32 @@ Locked decisions and the reasoning behind them. Add new ones at the top with a d
 
 ---
 
+## 2026-09-02 (later) — The note-label system, rebuilt to match the original book
+
+The user pointed at a page from the source PDF (a D-string scale with **name / string /
+finger** stacked cleanly under every note — "D · D str · f 0", etc.) and asked whether the
+rebuild actually understood the goal: a real teacher-student loop — explain, try it yourself,
+then check a clearly laid-out answer — all the way to Mozart. It didn't, yet: `NotatedExample`
+was using abcjs's own text annotations, which are cramped, single-line, and can't safely
+contain the string. Fixed:
+
+- **`NotatedExample` now takes structured `labels: {name, string, finger}[]`**, one per note,
+  rendered as **HTML** (not abcjs annotations) positioned under each notehead by reading its
+  real on-screen x-coordinate after render. This gives the exact "D / D str / f 0" stack from
+  the book, fully styleable, never garbled.
+- **The staff width scales with the number of labelled notes** (`Math.max(300, count * 70)`)
+  so labels never crowd their neighbours on busier lines; the well scrolls horizontally past
+  ~7-8 notes rather than compressing.
+- **`reveal="shown"` vs `"hidden"`** replaces the old `scaffold`/`mode` props: "shown" is a
+  teaching example (labels visible, toggle to hide); "hidden" is a worksheet (work it out,
+  then tap "show the answer").
+- Added **`Quiz`** — a question list with a per-item or all-at-once reveal, for recognition
+  quizzes (symbols, terms) — the other half of the book's exercise → answer rhythm that wasn't
+  represented yet.
+- This does not change the low-interaction steering: revealing is still one tap, nothing is
+  scored, nothing gates progress. The fix is about the **content loop** (teach → you try on the
+  violin → check a clear answer) and answer clarity, not about adding UI chrome.
+
 ## 2026-09-02 — Look, voice & lesson shape (all `OPEN-QUESTIONS.md` answered, defaults accepted)
 
 - **Display name:** "From Zero to Mozart" in the header. **Domain:** `*.vercel.app` for now.

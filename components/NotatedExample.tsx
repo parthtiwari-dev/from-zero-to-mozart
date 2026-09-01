@@ -10,18 +10,25 @@ type AbcModule = typeof import("abcjs");
 const SOUNDFONT = "https://paulrosen.github.io/midi-js-soundfonts/FluidR3_GM/";
 const VIOLIN_PROGRAM = 40; // General MIDI: Violin
 
+export interface NoteLabel {
+  /** the note name as read: "D", "F♯", "B♭" */
+  name: string;
+  /** which string it's played on */
+  string?: "G" | "D" | "A" | "E";
+  /** "0" | "1" | "low 2" | "high 2" | "3" | "high 3" | "4" */
+  finger?: string;
+}
+
 export interface NotatedExampleProps {
-  /** ABC notation — the plain version, no annotations. */
+  /** ABC notation — real pitches, so playback and rendering are correct. */
   abc: string;
-  /** ABC with note-name / string / finger annotations. Adds a reveal toggle. */
-  scaffold?: string;
+  /** One label per note, in order. Shows name / string / finger under each note, like the book. */
+  labels?: NoteLabel[];
   /**
-   * "help"   — a teaching example: the annotated version shows by default,
-   *            toggle reads "hide/show the help".
-   * "answer" — a worksheet: plain notation shows first, toggle reads
-   *            "show/hide the answer".
+   * "shown"  — a teaching example: the labels are visible, toggle hides them.
+   * "hidden" — a worksheet: you work it out, then tap "show the answer".
    */
-  mode?: "help" | "answer";
+  reveal?: "shown" | "hidden";
   /** One line under the example. */
   caption?: string;
   /** Starting tempo in quarter-notes per minute. Kept deliberately slow. */
@@ -34,8 +41,8 @@ type Status = "idle" | "loading" | "playing";
 
 export function NotatedExample({
   abc,
-  scaffold,
-  mode = "help",
+  labels,
+  reveal = "shown",
   caption,
   defaultBpm = 60,
   minBpm = 40,
@@ -45,13 +52,13 @@ export function NotatedExample({
   const abcjsRef = useRef<AbcModule | null>(null);
   const tuneRef = useRef<TuneObject | null>(null);
   const synthRef = useRef<MidiBuffer | null>(null);
+  const labelCount = labels?.length ?? 4;
 
-  const [showHelp, setShowHelp] = useState(mode === "help" && Boolean(scaffold));
+  const [shown, setShown] = useState(reveal === "shown");
+  const [xs, setXs] = useState<number[]>([]);
   const [bpm, setBpm] = useState(defaultBpm);
   const [status, setStatus] = useState<Status>("idle");
   const [audioOk, setAudioOk] = useState(true);
-
-  const source = showHelp && scaffold ? scaffold : abc;
 
   useEffect(() => {
     let cancelled = false;
@@ -59,22 +66,41 @@ export function NotatedExample({
       const mod = abcjsRef.current ?? (await import("abcjs"));
       if (cancelled || !paperRef.current) return;
       abcjsRef.current = mod;
-      const [tune] = mod.renderAbc(paperRef.current, source, {
+      // give each note enough room for a 3-line label (name / string / finger)
+      // so labels never crowd into their neighbours
+      const staffwidth = Math.max(300, labelCount * 70);
+      const [tune] = mod.renderAbc(paperRef.current, abc, {
         add_classes: true,
-        staffwidth: 460,
+        staffwidth,
         scale: 1.15,
-        paddingtop: 6,
-        paddingbottom: 6,
-        paddingleft: 0,
-        paddingright: 0,
+        paddingtop: 4,
+        paddingbottom: 4,
+        paddingleft: 2,
+        paddingright: 2,
       });
       tuneRef.current = tune;
       setAudioOk(mod.synth.supportsAudio());
+
+      // measure each notehead's centre x, in CSS pixels, for the label row
+      requestAnimationFrame(() => {
+        const svg = paperRef.current?.querySelector("svg");
+        if (!svg) return;
+        const vb = svg.viewBox.baseVal;
+        const rect = svg.getBoundingClientRect();
+        const k = vb.width ? rect.width / vb.width : 1;
+        const notes = svg.querySelectorAll<SVGGElement>(".abcjs-note");
+        setXs(
+          Array.from(notes).map((g) => {
+            const b = g.getBBox();
+            return (b.x + b.width / 2 - vb.x) * k;
+          }),
+        );
+      });
     })();
     return () => {
       cancelled = true;
     };
-  }, [source]);
+  }, [abc, labelCount]);
 
   useEffect(() => () => void synthRef.current?.stop(), []);
 
@@ -112,10 +138,47 @@ export function NotatedExample({
     }
   }, [bpm, status, stop]);
 
+  const hasLabels = Boolean(labels && labels.length);
+
   return (
     <figure className="not-prose my-8">
-      <div className="relative rounded-[14px] border border-hairline bg-well px-7 pb-9 pt-6 shadow-[inset_0_1px_2px_rgba(0,0,0,0.06)]">
-        <div ref={paperRef} className="notation overflow-x-auto" />
+      <div className="relative rounded-[14px] border border-hairline bg-well px-6 pb-9 pt-6 shadow-[inset_0_1px_2px_rgba(0,0,0,0.06)]">
+        <div className="overflow-x-auto">
+          <div className="relative inline-block min-w-full">
+            <div ref={paperRef} className="notation" />
+            {hasLabels && (
+              <div
+                className="relative mt-1 h-[3.4rem]"
+                aria-hidden={!shown}
+              >
+                {shown &&
+                  labels!.map((l, i) =>
+                    xs[i] == null ? null : (
+                      <div
+                        key={i}
+                        className="absolute top-0 -translate-x-1/2 text-center leading-tight"
+                        style={{ left: `${xs[i]}px` }}
+                      >
+                        <div className="font-serif text-[0.95rem] text-ink">
+                          {l.name}
+                        </div>
+                        {l.string && (
+                          <div className="font-mono text-[0.66rem] text-ink-muted">
+                            {l.string} str
+                          </div>
+                        )}
+                        {l.finger && (
+                          <div className="font-mono text-[0.66rem] text-ink-muted">
+                            f {l.finger}
+                          </div>
+                        )}
+                      </div>
+                    ),
+                  )}
+              </div>
+            )}
+          </div>
+        </div>
 
         <div className="absolute -bottom-4 left-6 flex items-center gap-3">
           {audioOk && (
@@ -152,19 +215,19 @@ export function NotatedExample({
           </div>
         </div>
 
-        {scaffold && (
+        {hasLabels && (
           <button
             type="button"
-            onClick={() => setShowHelp((v) => !v)}
+            onClick={() => setShown((v) => !v)}
             className="absolute right-4 top-3 font-sans text-[0.8125rem] text-ink-muted underline decoration-hairline underline-offset-4 hover:text-ink"
           >
-            {mode === "answer"
-              ? showHelp
+            {reveal === "hidden"
+              ? shown
                 ? "hide the answer"
                 : "show the answer"
-              : showHelp
-                ? "hide the help"
-                : "show the help"}
+              : shown
+                ? "hide the labels"
+                : "show the labels"}
           </button>
         )}
       </div>

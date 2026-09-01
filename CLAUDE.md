@@ -97,7 +97,8 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 **Stages 0 and 1 written and live** (33 lessons). Full Stage 0–5 skeleton is in
 `lib/curriculum.ts` (~90 lessons; Stages 2–5 unpublished, showing in `/learn` as "being
 written"). Design locked (`docs/DESIGN_LOCK.md`); pipeline built (MDX + `NotatedExample` with
-abcjs playback + `PracticeBar` + `/learn` contents overview). Pushed to `main`.
+abcjs playback + real name/string/finger labels + `PracticeBar` + `/learn` contents overview
++ `Quiz`). Pushed to `main`.
 
 **Next: write Stages 2–5** — one stage at a time. For each lesson: prose (teacher voice, second
 person, casual) + notated examples, matched to `docs/PDF-MAP.md`; add the MDX file, its
@@ -105,15 +106,22 @@ person, casual) + notated examples, matched to `docs/PDF-MAP.md`; add the MDX fi
 every example in the browser and every music fact against `docs/RESEARCH.md`. Design polish and
 a `design-pass` come later, on the user's call.
 
-### Authoring notes (learned building the prototype)
+### Authoring notes
 
 - Lessons are `content/lessons/<slug>.mdx` + an entry in `registry.ts` + an entry in
   `lib/curriculum.ts` (`published: true` to route it).
 - MDX wraps loose text in `<p>`. Components that take rich children must render a block
   container (`<div>`), never `<p>` — see `components/TryThis.tsx`.
-- `<NotatedExample abc scaffold caption defaultBpm />` — author both the plain `abc` and the
-  annotated `scaffold` ABC. **abcjs annotation gotchas:** no `\n` inside `"..."` annotation
-  strings (breaks parsing) — keep them single-line; use fingering *decorations* `!0! !1! !2!
-  !3! !4!` before the note, and `"_text"` for a label below / `"^text"` above.
-- Verify every notated example in the browser (render + press play) and every music fact
-  against `docs/RESEARCH.md` sources before it ships. Keep `docs/PDF-MAP.md` status current.
+- **`<NotatedExample abc labels reveal caption defaultBpm />`** — `abc` is the real notation
+  (drives both rendering and playback). `labels` is an array of `{name, string?, finger?}`, one
+  per note in order — rendered as real HTML under each notehead (name / "‹string› str" / "f
+  ‹finger›"), matching the source book's answer pages exactly. `reveal="shown"` (default) for a
+  teaching example the labels are already visible on; `reveal="hidden"` for a worksheet — plain
+  notation first, "show the answer" reveals the labels. Do **not** use abcjs's own `"_text"`
+  annotations for name/string/finger — they're cramped and can't hold structured data; `labels`
+  replaced that entirely (see `docs/DECISIONS.md`, 2026-09-02).
+- **`<Quiz items={[{q, a}, ...]} />`** for recognition questions (symbols, terms) — each item
+  reveals its answer on tap, or "show all answers" at once.
+- Verify every notated example in the browser (render + press play + reveal the labels — check
+  they line up with the notes and are legible on a busy line) and every music fact against
+  `docs/RESEARCH.md` sources before it ships. Keep `docs/PDF-MAP.md` status current.
