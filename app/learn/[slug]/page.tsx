@@ -32,29 +32,40 @@ export default async function LessonPage({ params }: PageProps<"/learn/[slug]">)
   const stage = stageByNumber(lesson.stage);
   const { prev, next } = lessonNeighbours(slug);
 
+  const inStage = publishedLessons().filter((l) => l.stage === lesson.stage);
+  const posInStage = inStage.findIndex((l) => l.slug === slug) + 1;
+
   return (
     <>
       <SiteHeader />
-      <main className="mx-auto w-full max-w-[38rem] px-6 pt-10 pb-16">
-        <div className="flex items-baseline justify-between gap-4">
-          <p className="label">
-            Stage {lesson.stage} · {stage?.name} · {TRACK_LABEL[lesson.track]}
-          </p>
-          <span className="label text-accent">{lesson.tag}</span>
+      <main className="lesson px-6 pt-10 pb-16">
+        <div className="lesson-col">
+          <span className="lesson-locator">
+            <span className="stage">Stage {lesson.stage}</span>
+            <span className="where">{stage?.name}</span>
+            <span className="where">
+              Lesson {posInStage} of {inStage.length} · {TRACK_LABEL[lesson.track]}
+            </span>
+            {lesson.tag !== "NOW" && (
+              <span className="where" style={{ color: "var(--accent)" }}>
+                {lesson.tag}
+              </span>
+            )}
+          </span>
+
+          <h1 className="font-serif text-[1.75rem] font-medium leading-tight tracking-[-0.011em]">
+            {lesson.title}
+          </h1>
+
+          <div className="prose mt-5">
+            <Content />
+          </div>
+
+          <nav className="clear-both mt-16 flex justify-between gap-6 border-t border-hairline pt-6">
+            <NavLink lesson={prev} dir="prev" />
+            <NavLink lesson={next} dir="next" />
+          </nav>
         </div>
-
-        <h1 className="mt-4 font-serif text-[1.75rem] font-medium leading-tight tracking-[-0.011em]">
-          {lesson.title}
-        </h1>
-
-        <div className="prose mt-5">
-          <Content />
-        </div>
-
-        <nav className="mt-16 flex justify-between gap-6 border-t border-hairline pt-6">
-          <NavLink lesson={prev} dir="prev" />
-          <NavLink lesson={next} dir="next" />
-        </nav>
       </main>
     </>
   );

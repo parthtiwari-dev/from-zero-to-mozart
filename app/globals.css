@@ -6,32 +6,37 @@
  * ------------------------------------------------------------------ */
 
 :root {
-  --canvas: #faf7f1;
-  --well: #f1ece0;
-  --ink: #26221b;
-  --ink-muted: #6b6355;
-  --ink-faint: #9a9082;
-  --hairline: #e4dccb;
-  --accent: #7a5a34;
-  --accent-contrast: #faf7f1;
+  /* Direction A — "The Critical Edition". See docs/DESIGN_LOCK.md. */
+  --canvas: #faf7f0;
+  --well: #f2ecdd;
+  --ink: #2a2318;
+  --ink-muted: #6e6152;
+  --ink-faint: #9c8e79;
+  --hairline: #e4dbc7;
+  --accent: #7a2e2e;
+  --accent-contrast: #faf7f0;
 
   --measure-prose: 34rem;
   --measure-lesson: 38rem;
   --measure-landing: 42rem;
+
+  /* the scholarly margin */
+  --gutter: 10rem;
+  --gutter-gap: 3rem;
 
   --ease: cubic-bezier(0.32, 0.72, 0, 1);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --canvas: #141109;
-    --well: #1e1a12;
-    --ink: #e9e3d6;
-    --ink-muted: #a49a88;
-    --ink-faint: #6e6555;
-    --hairline: #2c2619;
-    --accent: #c99a63;
-    --accent-contrast: #141109;
+    --canvas: #181410;
+    --well: #211c15;
+    --ink: #e9e1d2;
+    --ink-muted: #a99c86;
+    --ink-faint: #6f6453;
+    --hairline: #332b1f;
+    --accent: #c97c5d;
+    --accent-contrast: #181410;
   }
 }
 
@@ -76,6 +81,88 @@ body {
   outline: 2px solid color-mix(in oklab, var(--accent) 45%, transparent);
   outline-offset: 2px;
   border-radius: 3px;
+}
+
+/* ---- the scholarly margin (Direction A — see docs/DESIGN_LOCK.md) ---- */
+.lesson {
+  max-width: calc(var(--gutter) + var(--gutter-gap) + var(--measure-lesson));
+  margin-inline: auto;
+}
+.lesson-col {
+  max-width: var(--measure-lesson);
+}
+
+/* base: margin notes fall inline as a hairline-ruled aside */
+.prose .margin-note,
+.lesson-locator {
+  display: block;
+  margin: 1rem 0;
+  padding-left: 0.75rem;
+  border-left: 1px solid var(--hairline);
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  color: var(--ink-faint);
+}
+.margin-note .src {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  line-height: 1.45;
+  color: var(--accent);
+}
+.margin-note .detail {
+  display: block;
+  margin-top: 0.2rem;
+  font-family: var(--font-serif);
+  font-size: 0.8125rem;
+  letter-spacing: 0;
+  line-height: 1.5;
+  color: var(--ink-muted);
+}
+.margin-note p {
+  margin: 0;
+}
+.margin-note p + p {
+  margin-top: 0.4rem;
+}
+.lesson-locator .where {
+  display: block;
+  color: var(--ink-faint);
+}
+.lesson-locator .where + .where {
+  margin-top: 0.15rem;
+}
+.lesson-locator .stage {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+/* wide: the notes float up into the 10rem gutter, right-aligned */
+@media (min-width: 64rem) {
+  .lesson-col {
+    margin-left: calc(var(--gutter) + var(--gutter-gap));
+  }
+  .prose .margin-note,
+  .lesson-locator {
+    float: left;
+    clear: left;
+    width: var(--gutter);
+    margin: 0.35rem 0 1rem;
+    margin-left: calc(-1 * (var(--gutter) + var(--gutter-gap)));
+    padding-left: 0;
+    border-left: 0;
+    text-align: right;
+  }
 }
 
 /* ---- micro-label: eyebrows, breadcrumbs, NOW/NEXT tags ---- */

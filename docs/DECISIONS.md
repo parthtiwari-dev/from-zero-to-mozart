@@ -4,6 +4,56 @@ Locked decisions and the reasoning behind them. Add new ones at the top with a d
 
 ---
 
+## 2026-09-02 (evening) — Content depth: the lessons are under-taught
+
+After the user read the live Stage 0–5 lessons: they feel "too short… they don't go into that
+much depth," and nothing yet "explains each and every musical note the way a concert music
+sheet would."
+
+Assessment agreed: the **curriculum map is strong and accurate**, but the lesson *writing*
+stops at reference-book depth — state the fact, show one example, add a sentence — and skips
+the connective tissue a teacher supplies (walk the eye across the notes, name the mistake
+before it happens, say why it matters, trace where it comes from). The promised lineage voice
+is almost entirely absent from the actual lessons. Honest score against a world-class course:
+~6/10. It's a good syllabus and reference; not yet a teacher you could learn from alone.
+
+Decided:
+
+- **A written content standard** — `docs/CONTENT-STANDARD.md`. Four lesson types (atom /
+  concept / annotated line / reference card); **the six beats** every lesson must hit (idea →
+  see it → hear it → try it → the usual mistake → where it comes from); lineage attribution
+  **mandatory** on concept + annotated lessons; `read` vs `perform` stated where relevant. The
+  failure mode named as *stopping early*, not *being brief* — a short atom that hits all six
+  beats is fine; a concept lesson under ~300 words is skipping beats.
+- **A new lesson type + component: the annotated line** (`AnnotatedScore`, or `NotatedExample`
+  extended) — one real piece of music gone through note by note, with a tap-linked commentary
+  list and moving-cursor playback. First builds: Ode to Joy, the one-octave G-major scale, a
+  Suzuki Book 1 phrase; later, the first system of K.216. This is the "every note explained"
+  thing the user asked for.
+- **`docs/LINEAGE-QUOTES.md`** — a bank of verified quotes + citations so beat 6 is written
+  from checked material.
+- **Rollout: prove the pattern first, don't mass-rewrite.** Standard → component → rewrite
+  Stage 0 + the Stage 1 reading spine (~19 lessons) + two annotated lines → **user reviews on
+  the live preview** → then decide the cadence for the rest. Tracked as **Phase 1.5** in
+  `PLAN.md`.
+- Still bound by the existing steering: no new gates, one primary control per page, hands-free
+  test, casual voice. Depth is added in the *writing and the walkthrough*, not in UI chrome.
+
+## 2026-09-02 (evening) — Design: audited, three directions on the table
+
+Ran `design-pass audit` (detectors clean; screenshots of `/`, `/learn`, a lesson).
+`docs/DESIGN_REVIEW.md` has the findings. Verdict: calm and consistent, follows its own lock,
+but **undernourished** — ~65% empty canvas on wide screens with nothing in the margin, the
+`NOW` tag is on all 90 lessons so it says nothing, and the lineage voice is missing from the
+frame as well as the prose.
+
+Three directions drafted (full detail + comps in `DESIGN_REVIEW.md`): **A — The Critical
+Edition** (margin becomes a second voice carrying the lineage citations; smallest leap;
+recommended), **B — The Practice Room** (modern near-monochrome app, the practice bar grows
+into a docked companion), **C — Conservatoire** (dark walnut ground, per-stage title plates;
+boldest). **Not yet chosen** — `DESIGN_LOCK.md` gets rewritten around the pick during Phase
+1.5.
+
 ## 2026-09-02 (later) — The note-label system, rebuilt to match the original book
 
 The user pointed at a page from the source PDF (a D-string scale with **name / string /

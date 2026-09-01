@@ -11,12 +11,9 @@ import {
 
 export const metadata: Metadata = { title: "Contents" };
 
-const TAG_STYLE: Record<Tag, string> = {
-  NOW: "text-accent",
-  NEXT: "text-ink-faint",
-  LATER: "text-ink-faint",
-  REFERENCE: "text-ink-faint",
-};
+// NOW is the default for a foundation lesson — showing it on every row is noise.
+// Only NEXT / LATER / REFERENCE earn a tag: they tell you "fine to skim for now".
+const SHOWN_TAGS: Tag[] = ["NEXT", "LATER", "REFERENCE"];
 
 export default function ContentsPage() {
   const { published, total } = courseProgress();
@@ -24,7 +21,7 @@ export default function ContentsPage() {
   return (
     <>
       <SiteHeader />
-      <main className="mx-auto w-full max-w-[44rem] px-6 pt-10 pb-16">
+      <main className="mx-auto w-full max-w-[51rem] px-6 pt-10 pb-16">
         <h1 className="font-serif text-[1.75rem] font-medium tracking-[-0.011em]">
           The whole path
         </h1>
@@ -73,8 +70,12 @@ export default function ContentsPage() {
                         <span className="text-ink-faint">{l.title}</span>
                       )}
                       <span className="shrink-0 label">
-                        <span className={TAG_STYLE[l.tag]}>{l.tag}</span>
-                        <span className="mx-1.5 text-hairline">·</span>
+                        {SHOWN_TAGS.includes(l.tag) && (
+                          <>
+                            <span className="text-accent">{l.tag}</span>
+                            <span className="mx-1.5 text-hairline">·</span>
+                          </>
+                        )}
                         {TRACK_LABEL[l.track]}
                       </span>
                     </li>

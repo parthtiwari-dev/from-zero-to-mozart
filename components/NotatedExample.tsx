@@ -39,6 +39,16 @@ export interface NotatedExampleProps {
 
 type Status = "idle" | "loading" | "playing";
 
+// "0" → "open", "high 2" → "2nd high", "low 1" → "1st low", "3" → "3rd"
+function fingerLabel(f: string): string {
+  const s = f.trim().toLowerCase();
+  if (s === "0" || s === "open") return "open";
+  const m = s.match(/^(low|high)?\s*([1-4])$/);
+  if (!m) return f;
+  const ord = { "1": "1st", "2": "2nd", "3": "3rd", "4": "4th" }[m[2]]!;
+  return m[1] ? `${ord} ${m[1]}` : ord;
+}
+
 export function NotatedExample({
   abc,
   labels,
@@ -143,7 +153,7 @@ export function NotatedExample({
 
   return (
     <figure className="not-prose my-8">
-      <div className="relative rounded-[14px] border border-hairline bg-well px-6 pb-9 pt-6 shadow-[inset_0_1px_2px_rgba(0,0,0,0.06)]">
+      <div className="relative rounded-[3px] border border-hairline bg-well px-6 pb-9 pt-6 shadow-[inset_0_1px_2px_rgba(0,0,0,0.06)]">
         <div className="overflow-x-auto">
           <div className="relative inline-block min-w-full">
             <div ref={paperRef} className="notation" />
@@ -165,12 +175,12 @@ export function NotatedExample({
                         </div>
                         {l.string && (
                           <div className="font-mono text-[0.66rem] text-ink-muted">
-                            {l.string} str
+                            {l.string} string
                           </div>
                         )}
                         {l.finger && (
                           <div className="font-mono text-[0.66rem] text-ink-muted">
-                            f {l.finger}
+                            {fingerLabel(l.finger)}
                           </div>
                         )}
                       </div>

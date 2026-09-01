@@ -84,6 +84,9 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 | File | What's in it |
 |---|---|
 | `docs/PLAN.md` | the approved plan (source of truth for scope & phasing) |
+| `docs/CONTENT-STANDARD.md` | how deep a lesson goes — the six beats, lesson types, the annotated-line component, the rewrite order |
+| `docs/DESIGN_LOCK.md` | the locked visual language (being re-picked in Phase 1.5 — see review) |
+| `docs/DESIGN_REVIEW.md` | design audit + the three directions (A/B/C) to choose between |
 | `docs/CURRICULUM.md` | the 10-stage content map, gates, per-stage topic lists |
 | `docs/REPERTOIRE.md` | song bank (100+), étude ladder, scale system, "20 famous works" thread |
 | `docs/RESEARCH.md` | user profile, pedagogical lineage, syllabus findings, notation-library notes, sources |
@@ -94,21 +97,35 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 
 ## Status
 
-**v1 complete — Stages 0–5 all written and live (90 lessons).** That's the whole foundation
-half of the course, up to the Foundation gate. Design locked (`docs/DESIGN_LOCK.md`); pipeline
-built and proven: MDX + `NotatedExample` (abcjs render + violin-timbre playback + real
-name/string/finger label overlay + worksheet reveal) + `Quiz` + `CircleOfFifths` + `PracticeBar`
-+ `/learn` contents overview. All notation verified rendering in the browser; every music fact
-checked against sources. Pushed to `main`.
+**Stages 0–5 drafted and live (90 lessons)** — the whole foundation half, up to the Foundation
+gate. Pipeline built and proven: MDX + `NotatedExample` (abcjs render + violin-timbre playback
++ real name/string/finger label overlay + worksheet reveal) + `Quiz` + `CircleOfFifths` +
+`PracticeBar` + `/learn` contents. All notation verified rendering; every music fact checked.
+Pushed to `main`.
 
-**Next: Stages 6–9 + the Vivaldi and Mozart modules** (Phase 2–3). Same process: prose (teacher
-voice, second person, casual) + notated examples, matched to `docs/PDF-MAP.md`; add MDX +
-`content/lessons/registry.ts` entry + flip `published: true` in `lib/curriculum.ts`; verify in
-the browser. Stage 6 needs shifting/positions content; Stages 8–9 use the source PDFs in
-`docs/source/`. Design polish and a `design-pass` come later, on the user's call.
+**But the lessons are an accurate skeleton, not finished teaching.** The user read them and
+found them too short / not deep enough — they state facts but don't walk you through them, and
+no lesson yet goes through a real line of music note by note. See `docs/CONTENT-STANDARD.md`
+and `docs/DESIGN_REVIEW.md`.
+
+**Next: Phase 1.5 — content depth + design direction** (see `docs/PLAN.md`):
+1. Build `AnnotatedScore` (per-note tap-linked commentary + moving-cursor playback) and start
+   `docs/LINEAGE-QUOTES.md`.
+2. Rewrite Stage 0 + the Stage 1 reading spine (~19 lessons) to the six beats
+   (`CONTENT-STANDARD.md`); build two annotated lines (Ode to Joy, one-octave G major).
+3. User reviews on the live preview → decide the retrofit cadence for the rest.
+4. In parallel: pick design direction **A / B / C** (`docs/DESIGN_REVIEW.md`), rewrite
+   `docs/DESIGN_LOCK.md` around it, clear the cheap review findings.
+
+Stages 6–9 + the Vivaldi and Mozart modules (Phase 2–3) come *after* the depth pattern is
+confirmed. Same authoring process, matched to `docs/PDF-MAP.md`.
 
 ### Authoring notes
 
+- **How deep a lesson goes: `docs/CONTENT-STANDARD.md`.** Every lesson hits the six beats
+  (idea → see it → hear it → try it → the usual mistake → where it comes from); lineage
+  attribution is mandatory on concept + annotated lessons. Don't ship a lesson that only
+  *states* its fact — walk the reader through it. Run the §7 checklist before it ships.
 - Lessons are `content/lessons/<slug>.mdx` + an entry in `registry.ts` + an entry in
   `lib/curriculum.ts` (`published: true` to route it).
 - MDX wraps loose text in `<p>`. Components that take rich children must render a block

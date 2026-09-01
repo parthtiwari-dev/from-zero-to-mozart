@@ -7,7 +7,7 @@ function Rule() {
 
 export default function Home() {
   const first = publishedLessons()[0];
-  const { published, total } = courseProgress();
+  const { published } = courseProgress();
   return (
     <main className="mx-auto w-full max-w-[42rem] px-6 py-20 sm:py-28">
       <p className="label">A violin course</p>
@@ -113,8 +113,8 @@ export default function Home() {
 
       <footer className="font-mono text-xs leading-relaxed text-ink-faint">
         <p>
-          {published} of {total} lessons live — Stages&nbsp;0 and&nbsp;1. The rest
-          is being written.
+          {published} lessons live — the whole foundation, Stages&nbsp;0&ndash;5.
+          Stages&nbsp;6&ndash;9 and the Mozart study are being written.
         </p>
         <p className="mt-1">
           <a

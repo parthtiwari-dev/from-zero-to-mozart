@@ -1,9 +1,11 @@
 # DESIGN LOCK — From Zero to Mozart
 
 Single source of truth for the visual language. Resolved once, here. Later work reads this
-instead of re-deriving. Synthesised 2026-09-02 from: the user's steering (`DECISIONS.md`), the
-`high-end-visual-design` + `apple-design` skills, and the Linear/Vercel reference languages in
-`design-pass`.
+instead of re-deriving.
+
+Rewritten 2026-09-02 around **Direction A — "The Critical Edition"** (chosen by the user; the
+audit and the three candidates are in `DESIGN_REVIEW.md`). Supersedes the 2026-09-02
+warm-editorial lock; the parts that carried over are noted.
 
 ## Ground
 
@@ -15,129 +17,150 @@ instead of re-deriving. Synthesised 2026-09-02 from: the user's steering (`DECIS
 
 ## Target
 
-- **Borrowed structurally** from **Linear**: the type discipline (one continuous voice from
-  display to body, weight restraint — 400–500, never 700+; negative tracking on large text,
-  slight positive tracking on micro-labels), a 4px spacing base, and **depth by hairline and
-  surface-shift, never by drop shadow**.
-- **Borrowed** from `high-end-visual-design`'s *Editorial Luxury* archetype: warm paper ground,
-  a real reading serif for headings and body, a whisper of restraint everywhere.
-- **Explicitly NOT borrowed:** Linear's dark-only canvas, its lavender, its
-  "screenshots-as-protagonist" rhythm. The skill's maximalism — glass, bezels, bento, magnetic
-  buttons, scroll-reveal choreography, the "never the same layout twice" mandate. This product
-  wants the *opposite*: every lesson screen identical so attention lands on the content.
+The page is a **scholarly performing edition** — a Bärenreiter / Henle Urtext with a good
+teacher's pencil in the margin.
+
+- **Borrowed structurally from the critical edition:** a narrow reading measure with a wide
+  **left margin that carries apparatus** — figure numbers, the lesson locator, and the
+  *where-this-comes-from* citations. Numbered examples ("Ex. 12"). Hairline rules, no boxes,
+  no shadows-as-decoration.
+- **Carried over from the previous lock:** Linear's type discipline (one continuous voice,
+  weight restraint 400–600, negative tracking on large text, positive on micro-labels); the
+  4px spacing base; **depth by hairline and surface-shift only**; near-zero motion; the
+  notation well as a recessed panel; light-first with a real dark mode.
+- **Explicitly NOT borrowed:** an actual edition's density and silence (we still teach, in
+  prose, one idea per screen); its clinical coolness (our paper is warm, our accent is
+  oxblood, the margin voice is a person). No decorative engraving, no faux-leather, no serif
+  everywhere — chrome stays sans/mono.
 
 ## Divergence
 
-1. Reading column, not marketing canvas — a ~34rem measure of serif prose is the protagonist.
-2. Light-first with a real dark mode (Linear ships no light theme; we lead with it).
-3. Warm neutrals + a single earth-tone ink accent (Linear is cool near-black + lavender).
-4. Serif for content, sans + mono only for chrome (Linear is all-sans).
-5. Motion budget near zero — content is still; only navigation and the one play control move.
+The reference is a printed edition. Two or more mutation operators, so the result is not a
+skeuomorph of one:
 
 | Mutation operator | What it changed |
 |---|---|
-| Invert (dark→light) | Lead theme flipped to light; dark is the alternate. |
-| Deflate (density→calm) | One idea per screen; section padding cut; no card grids. |
-| Swap voice (sans→serif) | Content set in Newsreader; chrome keeps the sans/mono. |
+| **Add** (new capability the reference lacks) | A real edition's margin holds only bar numbers. Ours holds a **running teacher's voice** — the lineage citation, the "watch for this" note — as first-class marginalia. |
+| **Invert** (static → live) | The edition is fixed ink. Every example here **plays on one press** and every worksheet **reveals its answer**. |
+| **Deflate** (dense → calm) | An edition packs the page. We keep **one idea per screen**, generous leading, and let the margin be mostly white. |
 
-**Clone check** — would Linear's designer recognise their work here? *"No, but I see the shared
-logic — the type restraint and the hairline depth are ours."*
+**Clone check** — would a Henle editor recognise their work here? *"No — the margin talks back,
+and the page makes sound. But the discipline is ours."*
 
 ## Dials
 
 | Dial | Value | Why |
 |---|---|---|
-| DESIGN_VARIANCE | 3 | The course must feel consistent; every lesson is the same shape. |
-| MOTION_INTENSITY | 2 | Content never moves. Only page-fade + the play button + the drawer. |
-| VISUAL_DENSITY | 3 | One idea per screen, generous measure, music-stand legibility. |
+| DESIGN_VARIANCE | 3 | Every lesson is the same shape; attention goes to the idea. |
+| MOTION_INTENSITY | 2 | Content never moves. Route-fade, the play button, the contents drawer, the reveal — nothing else. |
+| VISUAL_DENSITY | 3 | One idea per screen; generous measure; music-stand legibility. The margin adds information, not clutter — it stays quiet. |
 
-`prefers-reduced-motion`: page-fade → instant; contents drawer → instant; play-button press
-scale → none. (Nothing else moves, so nothing else to disable.)
+`prefers-reduced-motion`: route-fade → instant; drawer → instant; play-button press → none.
 
 ## Palette
 
-Four working roles + one accent. Named by role.
+Warm ivory ground, sepia ink, one oxblood accent. Named by role. **The only interactive
+colour is the accent — resist a second.**
 
 | Role | Light | Dark | Notes |
 |---|---|---|---|
-| canvas | `#FAF7F1` | `#141109` | warm paper / warm near-black (brown-black, not blue-black) |
-| well | `#F1ECE0` | `#1E1A12` | the recessed panel a notation example sits in |
-| ink | `#26221B` | `#E9E3D6` | body + headings |
-| ink-muted | `#6B6355` | `#A49A88` | secondary prose, the "named aside" voice, captions |
-| ink-faint | `#9A9082` | `#6E6555` | micro-labels, disabled |
-| hairline | `#E4DCCB` | `#2C2619` | all borders, rules, the gate lines |
-| accent | `#7A5A34` | `#C99A63` | the ONE interactive colour — play button, links, focus ring, stage number, gate labels. Resist a second. |
+| canvas | `#FAF7F0` | `#181410` | warm ivory paper / warm brown-black |
+| well | `#F2ECDD` | `#211C15` | the recessed panel a notated example sits in |
+| ink | `#2A2318` | `#E9E1D2` | body + headings (a sepia-black, not neutral) |
+| ink-muted | `#6E6152` | `#A99C86` | secondary prose, captions, the margin's note voice |
+| ink-faint | `#9C8E79` | `#6F6453` | micro-labels, the lesson locator, disabled |
+| hairline | `#E4DBC7` | `#332B1F` | every border, rule, gate line, margin divider |
+| accent | `#7A2E2E` | `#C97C5D` | oxblood / warm brick — play button, links, focus ring, figure numbers, the citation's source name, gate labels, stage numbers |
+| accent-contrast | `#FAF7F0` | `#181410` | text/glyph on an accent fill |
 
-Focus ring: 2px `accent` at 45% opacity, 2px offset. Selection: `accent` at ~18%.
+Focus ring: 2px `accent` at 45%, 2px offset. Selection: `accent` at ~16%.
 
 ## Type
 
-Three faces, each with one job.
+Three faces, each one job. Unchanged from the previous lock except the citation style.
 
 | Role | Face | Size | Weight | Tracking | Leading |
 |---|---|---|---|---|---|
 | display (landing hero only) | Newsreader | `clamp(2.25rem, 5vw, 3.25rem)` | 400 | -0.02em | 1.08 |
 | lesson-title (h1) | Newsreader | 1.75rem | 500 | -0.011em | 1.2 |
-| section-head (h2 in prose) | Newsreader | 1.1875rem | 600 | -0.005em | 1.35 |
+| section-head (h2) | Newsreader | 1.1875rem | 600 | -0.005em | 1.35 |
 | prose | Newsreader | 1.1875rem (19px) | 400 | 0 | 1.62 |
-| aside ("Leopold Mozart told…") | Newsreader *italic* | 1.1875rem | 400 | 0 | 1.62 |
-| ui / button / "now try this" | Geist Sans | 0.9375rem | 500 | 0 | 1.3 |
-| label / eyebrow / NOW-tag / breadcrumb | Geist Mono | 0.6875rem | 500 | 0.18em, UPPERCASE | 1.3 |
+| aside (inline "Leopold Mozart told…") | Newsreader *italic* | 1.1875rem | 400 | 0 | 1.62 |
+| ui / button / "Try" | Geist Sans | 0.9375rem | 500 | 0 | 1.3 |
+| label / eyebrow / tag / breadcrumb | Geist Mono | 0.6875rem | 500 | 0.18em, UPPERCASE | 1.3 |
+| **margin note** (body) | Geist Mono | 0.6875rem | 400 | 0.02em | 1.6 |
+| **margin citation — source name** | Newsreader | 0.8125rem | 500 | 0.04em, `small-caps` | 1.45 |
+| **margin citation — detail** | Newsreader | 0.8125rem | 400 | 0 | 1.5 |
 | caption / tempo readout | Geist Mono | 0.8125rem | 400 | 0.02em | 1.4 |
+| figure label ("Ex. 12") | Geist Mono | 0.625rem | 500 | 0.16em, UPPERCASE | — |
 
-- Newsreader is a screen-reading serif with real italics — the italic *is* the teacher-aside
-  voice, so asides need no box, no icon, no colour change beyond `ink-muted`.
-- Fonts via `next/font/google` (Newsreader, Geist, Geist Mono). No `@import`, no FOUT.
-- Prose measure: **34rem** (~62–66 characters). Lesson content column: **38rem** (gives the
-  notation breathing room). Landing: **42rem**.
+- Newsreader's real italic *is* the inline teacher-aside voice; the margin citation uses its
+  small-caps for the source name.
+- Fonts via `next/font/google`. No `@import`, no FOUT.
+- Measures: prose **34rem** (~62–66 chars). Lesson content column **38rem**. Landing **42rem**.
+  **Left margin (gutter) 10rem**, gap **3rem** → lesson block ~51rem, centred.
 
 ## Spacing and rhythm
 
-- Base unit: **4px**. Scale: 4 · 8 · 12 · 16 · 24 · 32 · 48 · 64 · 96.
-- Paragraph gap in prose: 16px. Title → first paragraph: 20px. Prose → notated example: 32px.
-- Lesson screen vertical padding: 64px top / 96px bottom (room for the practice bar).
-- Radius: buttons & tags `9999px` (pill — the one place we differ from Linear's 8px, because a
-  round play button reads as "press me"); the notation well `14px`; nothing else is rounded.
-- Depth: **hairlines and a one-step surface shift only.** The single exception is the notation
-  well's inner top shadow (`inset 0 1px 2px` at ~6% ink) so it reads as recessed, not lifted.
+- Base unit **4px**. Scale: 4 · 8 · 12 · 16 · 24 · 32 · 48 · 64 · 96.
+- Paragraph gap 16px. Title → first paragraph 20px. Prose → notated example 32px.
+- Lesson screen padding: 40px top / 64px bottom (room for the practice bar).
+- **The gutter:** present at ≥ 1024px as a 10rem left column, `sticky` at the top so the
+  locator stays in view. Below 1024px it collapses — the locator becomes a thin line above the
+  title, and margin notes fall inline as hairline-ruled asides.
+- Radius: play button & tags `9999px`; the notation well `14px` on the previous lock →
+  **`3px`** now (an edition's rules are square); nothing else rounded.
+- Depth: **hairlines and one surface-shift only.** The notation well keeps a single
+  `inset 0 1px 2px` at ~6% ink so it reads as pressed into the paper.
 
 ## Motion budget
 
-- **Default:** 200ms, `cubic-bezier(0.32, 0.72, 0, 1)`.
-- **Allowed to move:** the route transition (opacity 0→1, 180ms); the contents drawer (slide,
-  240ms); the play button on press (`scale 0.97`, 90ms) and its play↔pause glyph crossfade.
-- **Never moves:** body copy, headings, the notation, tags, the practice bar contents, anything
-  on scroll. No entrance animations, ever.
+- Default 200ms, `cubic-bezier(0.32, 0.72, 0, 1)`.
+- May move: route transition (opacity, 180ms); contents drawer (slide, 240ms); play button on
+  press (`scale 0.97`, 90ms) + its glyph crossfade; a reveal (labels/answer) fades in 120ms.
+- Never moves: body copy, headings, notation, tags, the margin, the practice bar, anything on
+  scroll.
 
 ## Signature element
 
-**The notation well.** Every musical example sits in a panel *inset* into the page: `well`
-background (one step off `canvas`), a `hairline` border, `radius 14px`, `28px` padding, and a
-single `inset 0 1px 2px rgba(ink, 0.06)` top shadow so it reads as pressed *into* the paper like
-an example clipped into a textbook. The round `accent` **play button** sits in its lower-left,
-overlapping the bottom edge by ~50%. To its right, inline, a hairline **tempo slider** with a
-mono BPM readout. Nothing else in the UI is recessed; nothing else is a pill; this is the one
-memorable shape.
+**The scholarly margin.** At ≥1024px, a 10rem left column runs beside the reading measure,
+`sticky` to the top of the viewport. It carries, top to bottom:
+
+1. the **lesson locator** — `STAGE 1` (mono micro-label) over `Lesson 8 of 23` (ink-faint).
+2. inline **`<Margin>`** notes declared in the lesson — a "watch for this" in mono, or a
+   **`<Cite>`** (source name in small-caps oxblood, then the detail), each separated from the
+   next by 16px and a hairline. They align, by float, to roughly where they're declared in the
+   prose.
+3. **figure references** — "Ex. 12" beside the notated example it labels.
+
+Everything in the margin is quiet — small, mono or small-caps, `ink-faint`/`ink-muted`, oxblood
+only on a source name or figure number. It is apparatus, not a sidebar. Below 1024px it
+dissolves into the flow.
+
+The **notation well** stays as the second recognisable shape (recessed, hairline, square-ish,
+the round accent play button overlapping its lower-left) but it no longer competes — the margin
+is the one bold move now.
 
 ## Banned (overrides the design skill — do not re-litigate)
 
 | Banned | Reason |
 |---|---|
-| Scroll-triggered reveals, blur-up / fade-up entrances, stagger | Content must be still — the user reads this mid-practice. |
-| Glassmorphism, `backdrop-blur` panels, OLED black, gradient orbs | Wrong mood; not a reading surface. |
-| Double-bezel "machined hardware" nested cards | One soft well is the whole depth story. |
-| Magnetic buttons, button-in-button icon capsules, card rotation, bento asymmetry | Fussy; competes with the content. |
-| A second accent colour; decorative colour of any kind | One earth-tone ink accent, used sparingly. |
+| Scroll-triggered reveals, fade-up entrances, stagger | Content must be still — read mid-practice. |
+| Glassmorphism, `backdrop-blur`, OLED black, gradient orbs | Wrong mood; not a reading surface. |
+| Faux-paper texture, torn edges, book-spine chrome, wax seals, ligature flourishes | Direction A is the *discipline* of an edition, not a skeuomorph of one. |
+| A second accent colour; decorative colour of any kind | One oxblood accent, used sparingly. |
+| Nested bezel cards, magnetic buttons, bento asymmetry | One recessed well is the whole depth story. |
 | Big hero type on lesson pages | Display size is the landing page only. |
 | Dashboard, progress ring, streak, XP, badges, confetti | "Nothing gates progress." |
-| Sticky edge-to-edge top navbar | The only fixed chrome is the practice bar (bottom). |
-| Icon libraries with thick strokes (Lucide default, FontAwesome, Material) | If an icon is truly needed: hand-drawn inline SVG, 1.25px stroke, `currentColor`. Prefer a word. |
+| Sticky edge-to-edge top navbar | The only fixed chrome is the practice bar (bottom); the header scrolls away. |
+| A margin that becomes a nav sidebar, a TOC, or a comment thread | It's apparatus — locator, citation, figure ref. Nothing clickable-heavy, nothing that pulls attention off the prose. |
+| Icon libraries with thick strokes | If truly needed: inline SVG, 1.25px, `currentColor`. Prefer a word. |
 
-## Rejected findings
+## Rejected findings (from `high-end-visual-design`)
 
-| Finding (from `high-end-visual-design`) | Why overruled |
+| Finding | Why overruled |
 |---|---|
-| "Variance Mandate — never the same layout twice" | This is a course. Every lesson screen is deliberately identical so attention goes to the idea, not the chrome. |
-| "Section padding `py-24` to `py-40`, breathe heavily" | Kept loosely for the landing; lesson screens are short and single-view — heavy padding would force scrolling. |
-| "Custom cubic-bezier on ALL transitions; nothing instant" | Almost nothing transitions here. The few that do use the one curve above. |
+| "Variance Mandate — never the same layout twice" | It's a course. Every lesson screen is deliberately identical. |
+| "Section padding py-24 to py-40" | Kept loosely for the landing; lesson screens are short and single-view. |
+| "Custom cubic-bezier on ALL transitions" | Almost nothing transitions here. |
 | "Double-bezel all major cards" | Replaced by the single notation well. |

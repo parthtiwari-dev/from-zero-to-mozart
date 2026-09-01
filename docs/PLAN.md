@@ -274,7 +274,10 @@ the violin.** Not an app. Not a dashboard.
 2. **Nothing gates progress.** No "answer to continue", no streak guilt, no locked lessons.
    Worksheets are *offered*; answers are one tap away. The user decides pace.
 3. **Calm and generous, sized for a music stand** — big readable type, but not the PDF's empty
-   70%. Each screen is one complete thought.
+   70%. Each screen is one complete thought. "Short" means *one idea*, not *thin* — a lesson
+   must still teach that idea completely (the six beats, `CONTENT-STANDARD.md`). Annotated-line
+   lessons are the deliberate exception: they're read at a desk, not mid-practice, so they may
+   run long and scroll.
 4. **The teacher's voice = plain, natural, casual writing.** The way a good teacher actually
    talks to you in a lesson — direct, warm, specific, honest about what's hard, no textbook
    stiffness, no filler. Recurring cues: *what to do now*, *what a real teacher would watch
@@ -305,10 +308,15 @@ Next.js (App Router) + TypeScript + Tailwind on **Vercel**. Content as **MDX** +
 
 ### Interactive elements (few, all optional, none required)
 
-- `NotatedExample` — staff + one play button + tempo + optional scaffold toggle (show/hide
-  note-names & fingers on the same line).
+- `NotatedExample` — staff + one play button + tempo + a real name/string/finger label stack
+  under each note (matches the source book; `reveal="shown"|"hidden"` for teaching vs.
+  worksheet). *Built.*
+- `AnnotatedScore` (Phase 1.5) — one real line of music, every note tap-linked to a commentary
+  entry beneath it, one-press playback with a moving cursor, optional step-through "walk" mode.
+  The "explain every note like a concert sheet" component. See `docs/CONTENT-STANDARD.md` §5.
+- `Quiz` — recognition questions with per-item / all-at-once reveal. *Built.*
 - `Fingerboard` — static diagram by default; *optionally* tap a note to see where it sits.
-- `Worksheet / Answer` — read the line, try on your instrument, tap once to reveal the answer.
+- `Worksheet / Answer` — folded into `NotatedExample`'s `reveal="hidden"`.
 - `EarGym`, `RhythmTrainer`, faceted `RepertoireBrowser` — **Phase 3+**, and always a side-trip.
 
 ---
@@ -334,7 +342,20 @@ cited; **every fingering/pitch carried from the PDF re-verified** ([[violin-accu
   the 193-page PDF converted into clean, plainly-written, correctly-notated web lessons —
   **Stages 0-5** (Setup → First position/staff → Rhythm → Score symbols → Musicianship I → The
   bow), covering **PDF Parts I-VI**. One-press audio on every musical example. Deployed to
-  Vercel. Then continue to Stages 6+ on the live site.
+  Vercel. — **Status: all 90 Stage 0–5 lessons drafted and live.** They are an accurate
+  skeleton but under-taught — see Phase 1.5.
+- **Phase 1.5 — content depth + design direction (current):** the drafted lessons state facts
+  but don't yet *teach* the way a real lesson does, and no lesson yet goes through a real line
+  of music note by note. Fix, per **`docs/CONTENT-STANDARD.md`**: (1) hold every lesson to
+  *the six beats* (idea → see it → hear it → try it → the usual mistake → where it comes
+  from); (2) build the **annotated-line** lesson type + `AnnotatedScore` component (tap-linked
+  per-note commentary, moving-cursor playback); (3) start `docs/LINEAGE-QUOTES.md`; (4)
+  rewrite **Stage 0 + the Stage 1 reading spine** (~19 lessons) and build **two annotated
+  lines** (Ode to Joy, one-octave G major) to the standard; (5) **user reviews on the live
+  preview**, then the retrofit cadence for the rest is decided. In parallel: pick a **design
+  direction** (A / B / C in `docs/DESIGN_REVIEW.md`) and rewrite `DESIGN_LOCK.md` around it;
+  clear the cheap findings from the review (stale footer copy, empty table cells, the `NOW`
+  tag, spelled-out notation labels).
 - **Phase 2:** Stages 6-8 (positions/left hand, vibrato/expression, sight-reading + ear-gym) +
   reference libraries v1 + the Vivaldi "Spring" module (PDF Part VIII).
 - **Phase 3:** Stage 9 repertoire journey — the 100+ song bank, étude & scale ladders, the
