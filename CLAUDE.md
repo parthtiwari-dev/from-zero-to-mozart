@@ -94,17 +94,18 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 
 ## Status
 
-**Stages 0 and 1 written and live** (33 lessons). Full Stage 0–5 skeleton is in
-`lib/curriculum.ts` (~90 lessons; Stages 2–5 unpublished, showing in `/learn` as "being
-written"). Design locked (`docs/DESIGN_LOCK.md`); pipeline built (MDX + `NotatedExample` with
-abcjs playback + real name/string/finger labels + `PracticeBar` + `/learn` contents overview
-+ `Quiz`). Pushed to `main`.
+**v1 complete — Stages 0–5 all written and live (90 lessons).** That's the whole foundation
+half of the course, up to the Foundation gate. Design locked (`docs/DESIGN_LOCK.md`); pipeline
+built and proven: MDX + `NotatedExample` (abcjs render + violin-timbre playback + real
+name/string/finger label overlay + worksheet reveal) + `Quiz` + `CircleOfFifths` + `PracticeBar`
++ `/learn` contents overview. All notation verified rendering in the browser; every music fact
+checked against sources. Pushed to `main`.
 
-**Next: write Stages 2–5** — one stage at a time. For each lesson: prose (teacher voice, second
-person, casual) + notated examples, matched to `docs/PDF-MAP.md`; add the MDX file, its
-`content/lessons/registry.ts` entry, and flip `published: true` in `lib/curriculum.ts`. Verify
-every example in the browser and every music fact against `docs/RESEARCH.md`. Design polish and
-a `design-pass` come later, on the user's call.
+**Next: Stages 6–9 + the Vivaldi and Mozart modules** (Phase 2–3). Same process: prose (teacher
+voice, second person, casual) + notated examples, matched to `docs/PDF-MAP.md`; add MDX +
+`content/lessons/registry.ts` entry + flip `published: true` in `lib/curriculum.ts`; verify in
+the browser. Stage 6 needs shifting/positions content; Stages 8–9 use the source PDFs in
+`docs/source/`. Design polish and a `design-pass` come later, on the user's call.
 
 ### Authoring notes
 

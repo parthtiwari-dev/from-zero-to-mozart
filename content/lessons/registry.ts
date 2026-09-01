@@ -101,4 +101,20 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "other-scales": () => import("./other-scales.mdx"),
   "the-harmonic-series": () => import("./the-harmonic-series.mdx"),
   "your-scale-practice-order": () => import("./your-scale-practice-order.mdx"),
+
+  // Stage 5 — The bow
+  "how-the-bow-makes-sound": () => import("./how-the-bow-makes-sound.mdx"),
+  "one-long-tone": () => import("./one-long-tone.mdx"),
+  "string-crossings": () => import("./string-crossings.mdx"),
+  detache: () => import("./detache.mdx"),
+  "legato-and-slurs": () => import("./legato-and-slurs.mdx"),
+  martele: () => import("./martele.mdx"),
+  staccato: () => import("./staccato.mdx"),
+  "portato-and-colle": () => import("./portato-and-colle.mdx"),
+  spiccato: () => import("./spiccato.mdx"),
+  "sautille-and-beyond": () => import("./sautille-and-beyond.mdx"),
+  "bow-effects": () => import("./bow-effects.mdx"),
+  "the-bow-stroke-atlas": () => import("./the-bow-stroke-atlas.mdx"),
+  "reading-bowings": () => import("./reading-bowings.mdx"),
+  "the-foundation-check": () => import("./the-foundation-check.mdx"),
 };
