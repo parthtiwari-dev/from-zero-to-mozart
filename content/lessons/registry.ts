@@ -64,4 +64,24 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
     import("./reading-quarters-and-eighths.mdx"),
   "reading-dotted-rhythms": () => import("./reading-dotted-rhythms.mdx"),
   "reading-mixed-rhythms": () => import("./reading-mixed-rhythms.mdx"),
+
+  // Stage 3 — Score symbols
+  "tempo-words": () => import("./tempo-words.mdx"),
+  dynamics: () => import("./dynamics.mdx"),
+  articulation: () => import("./articulation.mdx"),
+  "bow-direction-marks": () => import("./bow-direction-marks.mdx"),
+  "string-words": () => import("./string-words.mdx"),
+  "repeats-and-navigation": () => import("./repeats-and-navigation.mdx"),
+  ornaments: () => import("./ornaments.mdx"),
+  "trills-turns-and-grace-notes": () =>
+    import("./trills-turns-and-grace-notes.mdx"),
+  "double-stops-and-chords-on-the-page": () =>
+    import("./double-stops-and-chords-on-the-page.mdx"),
+  "harmonics-and-pizzicato-marks": () =>
+    import("./harmonics-and-pizzicato-marks.mdx"),
+  "fingerings-and-position-numbers": () =>
+    import("./fingerings-and-position-numbers.mdx"),
+  "editions-and-editorial-marks": () =>
+    import("./editions-and-editorial-marks.mdx"),
+  "the-score-language-quiz": () => import("./the-score-language-quiz.mdx"),
 };

@@ -1,0 +1,23 @@
+Marks that shape *how* a note starts and ends, not its pitch or its length on the page.
+
+| Mark | Name | Meaning |
+|---|---|---|
+| dot above/below the note | staccato | shortened, separated |
+| short dash above/below | tenuto | full value, a little weight |
+| `>` above/below | accent | emphasise the attack |
+| `^` above/below | marcato | strongly marked, more forceful than an accent |
+| curved line over the note | fermata | hold longer than written — context and style decide how much |
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/4
+K:C clef=treble
+.D !tenuto!E !accent!F !fermata!G |]`}
+  caption="Staccato, tenuto, accent, fermata — left to right. Same pitch, four different instructions for how to start, hold, and finish the sound."
+  defaultBpm={64}
+/>
+
+Don't confuse the **staccato dot** with the **duration dot** from Stage 2 — same tiny mark,
+completely different meaning, told apart only by where it sits: beside the notehead (duration)
+versus above or below it (staccato).
