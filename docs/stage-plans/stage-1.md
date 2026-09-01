@@ -11,8 +11,44 @@ built from the parts in §3a and follows the methods in §3b.
 against a drone or open string — and play **~15 real first-position tunes**, each an annotated
 line with a per-line how-to-play note, also on `/practice`.
 
-**User decisions (2026-09-02):** do the whole stage at once · `/practice` built now · Vivaldi
-*Spring* stays Stage 4 · the earlier reference lessons fold in where they land.
+**User decisions (2026-09-02, all locked):**
+- **Do the whole stage at once.**
+- **String order: A → D → G → E** — "the way Hilary Hahn learned" (Suzuki). The A string is
+  the natural first hand shape (close 2–3), the bow arm sits in a comfortable middle plane,
+  and the tunes are singable. G comes third; the "why beginner violin is in G/D/A" point
+  (`why-g-major-has-one-sharp`, Stage 4) still holds — A, D, G are the fifth-related open
+  strings.
+- **Movement D is interleaved, not a separate block:** `landing-in-tune` (D1) moves to right
+  after the **first** string lesson so checking intonation is a habit from note one; the rest
+  of D (ringing tones, Sa, hearing wrong notes) stays as a short cluster after Movement C.
+- **`/practice` page built with this stage.**
+- **Vivaldi *Spring* stays Stage 4** (from `docs/source/vivaldi-spring-easy.pdf`).
+- **Nothing cut** from the six movements; add only if something is genuinely missing — added
+  `hands-together` (Movement A) and a string-crossing focus, below.
+- The earlier reference lessons (`the-g-string`, `why-g-major-has-one-sharp`) fold in where
+  they land; `the-g-string` becomes the Movement A G-string lesson with its tune fragments
+  moved out to Movement F.
+
+## Readiness — is this ready to implement?
+
+**Yes.** The research (appendix below) covers the established methods lesson-by-lesson —
+Doflein's full chapter list, Suzuki Bk 1 piece-by-piece with teaching points, Essential
+Elements, Simon Fischer, ABRSM Gr 1–2, plus the granular pedagogy (exact first-position notes,
+the perfect-4th frame, finger-placement detail, bow distribution, string crossing, ear-first
+intonation, movable-do/Sa, pattern-first reading, the Twinkle rhythms). Every lesson is spec'd
+to Stage-0 depth and cites its sources. Nothing left to guess.
+
+**Depth, not complication.** The lesson *content* goes as deep as the plan shows. The *code*
+stays minimal — see "keep it lean" below. `AnnotatedScore` is a thin extension of what exists,
+`/practice` is a static list.
+
+**One pre-flight check:** the `responsive:"resize"` notation change (2026-09-02) still needs a
+visual look on desktop + phone (the Chrome extension had dropped) — do that first, before
+building tunes on top of it.
+
+**Build order:** notation check → `AnnotatedScore` + pieces manifest proven on **one** tune →
+Movements A–C (the reading/hand spine) → Movements D–E → the 15 tunes + `/practice`. Straight
+through; the movement boundaries are natural review points.
 
 ---
 
@@ -33,11 +69,12 @@ line with a per-line how-to-play note, also on `/practice`.
   play → drill in a pattern → use in a tune). Every note lesson does all six.
 - **Doflein's model** — expand the note set gradually, pieces from the first chapter. Our
   string lessons each add ~5 notes and immediately turn them into a tune.
-- **Note order: G → D → A → E** (keep the existing lessons' order). Rationale: start at the
-  lowest sound and build up; the "why G major" resonance (`why-g-major-has-one-sharp`) lands
-  early; ledger-line reading comes in from the start so it never feels like an exception.
-  *Suzuki goes A-string-first* (the close 2–3 hand shape, comfy bow plane) — we note this and
-  offer the A-major Suzuki-vein tunes the moment the A string is covered.
+- **Note order: A → D → G → E** (Suzuki / "the way Hilary learned" — decision above). The
+  systematic per-string lessons run in that order; a tune may borrow an open string or a
+  single 1st finger from a not-yet-covered string (Suzuki does — Twinkle uses open E), with a
+  one-line "the E string proper is coming" note. Ledger-line reading arrives with the **G**
+  string (3rd) — by then the reading method (anchors + intervals) is solid, so it lands as
+  "the staff continued", not an exception.
 - **The four first-position finger patterns**: `1–23–4` (major), `12–3–4` (natural minor),
   `1–2–34` (high 3), `1–2–3–4` (whole-tone). Every first-position key is one of these shapes.
 - **Intonation is ear-first**: sing it → play it → check against a drone / ringing open string,
@@ -51,7 +88,7 @@ line with a per-line how-to-play note, also on `/practice`.
 
 ---
 
-## Movement A — The hand on the string (9 lessons)
+## Movement A — The hand on the string (11 lessons)
 
 ### A1 · `four-strings-four-fingers` *(rewrite)*
 - **Teaches.** The 4 strings under the left hand, low to high (G D A E). Finger numbers **0–4
@@ -118,29 +155,76 @@ line with a per-line how-to-play note, also on `/practice`.
 - Sources: Simon Fischer *Basics*; violinspiration finger exercises; violinist.com "all-purpose
   left-hand exercise"; Suzuki teaching points.
 
-### A5–A8 · `the-{g,d,a,e}-string` *(rewrite — the core string lessons)*
-Each: the multi-sensory sequence for that string's five natural notes.
-- **A5 `the-g-string`** — G(0) A(1) B(high 2) C(3) D(4). The 4th-finger-D = open-D tuning
-  check. All below the staff / on ledger lines. *(The two tune fragments currently inside it —
-  Hot Cross Buns, Ode to Joy — move out to full tunes in Movement F; the lesson keeps the
-  ladder + one skip drill + the check.)*
-- **A6 `the-d-string`** — D(0) E(1) F(low 2) G(3) A(4). The D-major pattern needs **high 2**
-  for F♯ — but the *natural* note here is F♮, low 2. The 4th-finger-A = open-A check.
-- **A7 `the-a-string`** — A(0) B(1) C(low 2) D(3) E(4). Natural C is low 2; C♯ (high 2) is
-  what A major and Twinkle want. 4th-finger-E = open-E check.
-- **A8 `the-e-string`** — E(0) F(low 1) G(low 2) A(3) B(4). The one string where **1st finger
-  has a low option** (F♮). No open string above to check against — use the A on the E string
-  against the 4th-finger-A on the A string, or a drone.
-- **Each lesson's play-arounds.** (1) the natural-note ladder up and down (labelled, no
-  metre); (2) skips — 0–2–4 broken chord; (3) one finger pattern from A2 on this string;
-  (4) the same-pitch check with the neighbouring open string.
-- **The usual mistake** (per string): G — the high 2 (B, not B♭); D — playing F♯ where F♮ is
-  written; A — playing C♮ where C♯ is wanted in A major; E — F♯ where F♮ is written.
-- **Where it comes from.** `<Cite>` — Suzuki teaches one string completely, with a tune, before
-  mixing; Doflein "music with five notes"; the same-pitch checks are the PDF's verified list.
-- Sources: violinwiki/violinlounge first-position charts; Suzuki; the PDF's accuracy policy.
+### A4b · `hands-together` *(new)* — track: bow / coordination
+- **Teaches.** The bow and the left hand are **independent** — the bow keeps a steady, even
+  speed while the fingers change notes underneath. Beginners let the bow lurch or stop every
+  time a finger drops. Method: practise **hands separately** (air-bow the rhythm; finger the
+  notes silently), then **together, slow**, keeping the bow's speed unbroken through every
+  finger change.
+- **Examples & play-arounds.** (1) a 4-note line: bow one long even down-bow while the fingers
+  walk 0-1-2-3 — the bow doesn't know the fingers moved; (2) the same, one bow per note,
+  matching the down and up; (3) air-bow the line (no fingers), then finger it silently
+  (no bow), then combine.
+- **The usual mistake.** The bow hitching or slowing at every finger drop; or the fingers
+  waiting for the bow. They run on separate tracks.
+- **Where it comes from.** `<Cite>` — Galamian's "correlation of the hands"; the hands-separate-
+  then-together method is universal (Simon Fischer *Practice*).
+- Sources: Galamian *Principles*; Simon Fischer *Practice*.
 
-### A9 · `one-pitch-more-than-one-place` *(rewrite — was `same-pitch-more-than-one-place`)*
+### A5 · `landing-in-tune` *(moved up from Movement D — D1)*
+Placed here, right after the first string lesson, so intonation-checking is a habit from the
+first stopped note. Full spec in **Movement D** (D1) — but it is taught here, in sequence.
+
+### A6–A9 · the core string lessons, in Suzuki order: `the-a-string` → `the-d-string` →
+`the-g-string` → `the-e-string`
+
+Each: the 6-step multi-sensory sequence (`CONTENT-STANDARD.md` §3b) for that string's five
+natural notes.
+
+- **A6 `the-a-string`** — A(0) B(1) C(low 2) D(3) E(4). The natural C is a **low 2**; C♯
+  (high 2) is what A major and Twinkle want — the first place the low/high-2 choice bites.
+  4th-finger E = open-E check. The A string first: middle bow-arm plane, easiest hand shape.
+- **A7 `the-d-string`** — D(0) E(1) F(low 2) G(3) A(4). Natural F is **low 2**; F♯ (high 2) is
+  the D-major note. 4th-finger A = open-A check. First string *crossing* territory (with the
+  A string).
+- **A8 `the-g-string`** — G(0) A(1) B(high 2) C(3) D(4). Natural B is a **high 2** (up against
+  3, not halfway). **This is where ledger-line reading arrives** (Movement B, `ledger-lines`,
+  is timed with this). 4th-finger D = open-D check. The Ode-to-Joy and Hot-Cross-Buns fragments
+  currently inside the old `the-g-string` move out to full tunes in Movement F; this lesson
+  keeps the ladder + a skip drill + the check.
+- **A9 `the-e-string`** — E(0) F(low 1) G(low 2) A(3) B(4). **The one string where 1st finger
+  has a low option** (F♮ is a low 1, right by the open string; F♯ is a normal 1). No open
+  string above — check A on the E string against 4th-finger A on the A string, or a drone.
+  *(Twinkle, in Movement F, borrows open E + 1st-finger F♯ before this lesson — with a
+  one-line "the E string proper is A9" note.)*
+- **Each lesson's play-arounds.** (1) the natural-note ladder up and down (labelled,
+  `M:none`); (2) skips — the 0–2–4 broken chord; (3) one finger pattern from A2 on this
+  string; (4) the same-pitch check against the neighbouring open string; (5) a short
+  step/skip *reading* line on this string alone.
+- **The usual mistake** (per string): A — C♮ where C♯ is wanted in A major; D — F♯ where F♮
+  is written (and vice-versa); G — 2nd finger halfway instead of high; E — F♯ where F♮ (low 1)
+  is written.
+- **Where it comes from.** `<Cite>` — Suzuki teaches one string completely, with a tune,
+  before mixing (Book 1: A string → *Long Long Ago* on D → *Allegretto* on G); Doflein "music
+  with five notes"; the same-pitch checks are the PDF's verified list.
+- Sources: Suzuki Book 1 + teaching points; Doflein Book I; violinwiki/violinlounge
+  first-position charts; the PDF accuracy policy.
+
+### A10 · `crossing-between-strings` *(new)* — track: left-hand / coordination
+- **Teaches.** Moving between two strings in first position: the **whole arm** changes level
+  (elbow leads) — Stage 0's "stopping a lift on a different floor" — and the left-hand **frame
+  stays the same shape**, only the elbow swings a little under for the lower string. Prepare
+  the next finger *before* the crossing where you can.
+- **Examples & play-arounds.** (1) open A ↔ open D, slow, whole arm; (2) 1st-finger B (A
+  string) ↔ 1st-finger E (D string) — same finger, arm changes level; (3) a 6-note line that
+  crosses A↔D twice; (4) the crossing in slow motion, naming "arm down… arm up".
+- **The usual mistake.** Twisting the wrist or re-shaping the hand to reach a string, instead
+  of moving the arm; the bow hitting two strings at once at the crossing.
+- **Where it comes from.** `<Cite>` — Galamian on arm levels / planes; ties to Stage 5
+  `string-crossings` (the bow side of it, later).
+- Sources: Galamian *Principles*; Stage 0 `your-first-sound` / `the-geography-of-the-bow`.
+
+### A11 · `one-pitch-more-than-one-place` *(rewrite — was `same-pitch-more-than-one-place`)*
 - **Teaches.** A written pitch can have more than one first-position home. The **verified
   same-pitch checks**: G-string 4 = open D · D-string 4 = open A · A-string 4 = open E. A
   D-string 3rd-finger G is an **octave above** open G, *not* the same pitch (the PDF's own
@@ -217,13 +301,15 @@ Each: the multi-sensory sequence for that string's five natural notes.
   one ledger line below; the whole **G string reads below the staff** on and between ledger
   lines — normal for the violin, not an exception. The E string's top notes ride ledger lines
   above.
-- **Examples & play-arounds.** (1) the G-string ladder from A5, now *on the staff* with its
+- **Examples & play-arounds.** (1) the G-string ladder (from A8), now *on the staff* with its
   ledger lines; (2) count a ledger note as a skip from open D; (3) match a ledger note to a
   finger on the G string.
 - **The usual mistake.** Panicking at ledger lines. They're just the staff continued — same
   step/skip rules.
 - **Where it comes from.** `<Cite>` — ties to B3's anchors: open D is *the* anchor for
   everything below the staff.
+- **Timing:** this lesson runs with **A8 `the-g-string`** — ledger reading and the G string
+  arrive together.
 - Sources: as B1/B3.
 
 ### B6 · `open-strings-on-the-staff` *(rewrite)*
@@ -239,11 +325,12 @@ Each: the multi-sensory sequence for that string's five natural notes.
   the ear (ties to Stage 0 `tuning`).
 - Sources: as B3.
 
-### B7 · `reading-the-g-and-d-strings` *(rewrite — merges `reading-the-lower-strings`)*
-- **Teaches.** Connect **finger → pitch → staff position** for every natural note on G and D.
-  A **pitch-only** reading line (`M:none`, stemless — no un-taught rhythm) with `reveal`.
-- **Examples & play-arounds.** (1) a G-string line, work out name/string/finger, reveal;
-  (2) a D-string line; (3) a line that crosses G↔D; (4) the same line at a slower "say it
+### B7 · `reading-the-a-and-d-strings` *(rewrite — merges the two old reading drills)*
+- **Teaches.** Connect **finger → pitch → staff position** for every natural note on the A and
+  D strings (the first two learned). A **pitch-only** reading line (`M:none`, stemless — no
+  un-taught rhythm) with `reveal`.
+- **Examples & play-arounds.** (1) an A-string line, work out name/string/finger, reveal;
+  (2) a D-string line; (3) a line that crosses A↔D; (4) the same line at a slower "say it
   first" pace.
 - **The usual mistake.** Reading name → finger and skipping the *pitch* — you're decoding, not
   hearing. Sing it first.
@@ -251,10 +338,11 @@ Each: the multi-sensory sequence for that string's five natural notes.
   the PDF's, mirroring Violinspiration's tab-scaffold approach.
 - Sources: the PDF scaffold section p4; Violinspiration "how to read sheet music".
 
-### B8 · `reading-the-a-and-e-strings` *(rewrite — merges `reading-the-upper-strings`)*
-- Same as B7 for A and E. Note the E string's low 1 (F♮).
-- **Play-arounds.** A-string line · E-string line · a line crossing A↔E · a line spanning
-  D–A (a whole-hand span).
+### B8 · `reading-the-g-and-e-strings` *(rewrite)*
+- Same as B7 for the G and E strings — G below the staff (ledger), E at the top. Note the E
+  string's low 1 (F♮).
+- **Play-arounds.** A G-string line (ledger reading) · an E-string line · a line crossing
+  G↔D↔A · a line spanning a whole first-position hand.
 
 ### B9 · `which-note-is-this` *(rewrite — was `which-b-is-this`)*
 - **Teaches.** The register problem — the same letter appears in more than one octave (B on
@@ -348,21 +436,26 @@ Each: the multi-sensory sequence for that string's five natural notes.
 
 ---
 
-## Movement D — Landing it in tune (4 lessons) — the ear, this user's growth axis
+## Movement D — Landing it in tune — the ear, this user's growth axis
 
-### D1 · `landing-in-tune` *(rewrite)*
+**D1 `landing-in-tune` is taught in Movement A (as A5)** — right after the first string
+lesson, so it's a habit from the first stopped note. Its full spec:
+
+### D1 · `landing-in-tune` *(rewrite · taught at A5)*
 - **Teaches.** Knowing the finger's *place* is not the same as playing *in tune*. The method:
   **hear the pitch first** (sing it, or a drone), *then* place the finger, then **check** —
   against the open string a fourth/fifth away, or the drone — and adjust by millimetres until
   the beating stops.
-- **Examples & play-arounds.** (1) sing D (4th finger on the G string), then play it, then
-  play open D — match; (2) drone on G, play B (high 2), slide until it locks; (3) play a
-  familiar phrase, deliberately land one note flat, hear it, fix it.
+- **Examples & play-arounds.** (1) sing E (1st finger on the A string), then play it, then
+  check it against the open string; (2) drone on A, play C♯ (high 2), slide until it locks;
+  (3) play a familiar phrase, deliberately land one note flat, hear it, fix it.
 - **The usual mistake.** Placing the finger by eye/memory and moving on — never checking. And
   gripping (a tense hand can't make the millimetre adjustment).
 - **Where it comes from.** `<Cite>` — the ear-first consensus (violinist.com "intonation
   without exterior guides"); "put your fingers where you *hear* the note".
 - Sources: violinist.com intonation threads; fiddlerman "drones for intonation".
+
+**The rest of Movement D is a short cluster after Movement C:**
 
 ### D2 · `ringing-tones` *(new)*
 - **Teaches.** Some stopped notes make an **open string ring by itself** — D on the A string
@@ -454,26 +547,28 @@ Each is an **`AnnotatedScore`** (`CONTENT-STANDARD.md` §5): our re-notation, na
 per note, playback, and **a how-to-play note per line** — the *one* thing that tune is for
 (Suzuki's rule). All are public-domain; **Claude notates them**, verified. Also on `/practice`.
 
+Order follows the string order (A → D → G → E) and Suzuki Book 1's sequence.
+
 | # | Tune | Key / strings | Unlocks after | The one point (Suzuki-style) |
 |---|---|---|---|---|
-| F1 | **Hot Cross Buns** | G string (B A G) | A5 | one bow per note, all down-bows to start; the high-2 B |
-| F2 | **Merrily We Roll Along** / **Mary Had a Little Lamb** | G string | A5 | stepwise motion, staying on one string, even bows |
-| F3 | **Ode to Joy** (phrase 1) | G major, G string | A5 + C4 | a singing line; where the D sits, the F♯ nearby |
-| F4 | **Ode to Joy** (whole) | G major, G string | + E1 | phrasing across four phrases; the dotted-rhythm bar (pointer to Stage 2) |
-| F5 | **Au Clair de la Lune** | G + D strings | A6 | your first string crossing *in a tune* — whole arm |
-| F6 | **London Bridge** | D major | A6 | very short, pure step/skip reading; light bow |
-| F7 | **Frère Jacques** (round) | G major | A6 + C4 | play it as a round against the playback |
-| F8 | **Twinkle, Twinkle** (theme) | A major — A + E | A7 + A8 | the Suzuki start: 0-1-2-3 on the A string, close 2–3; small bows in the middle |
-| F9 | **Lightly Row** | A major | A8 | bow division — upper half vs lower half |
-| F10 | **Song of the Wind** | A major | A8 + A4 | the 1↔3 "jumping finger" (the frame); energy, a light spiccato *feel* (not the stroke) |
-| F11 | **Go Tell Aunt Rhody** | A major | A8 | phrasing; a held, in-tune last note; bow distribution |
-| F12 | **Long, Long Ago** | D major | C5 | a singing line, whole bows, right-elbow for tone |
-| F13 | **French Folk Song** | D major | C5 | minor colour; smooth legato-feel line (slurs are Stage 5) |
-| F14 | **When the Saints Go Marching In** | D major, D + A | C5 + E1 | a confident skip up to start; consecutive down-bows |
-| F15 | **Jingle Bells** (chorus) | D major | C5 + E1 | repeated notes, quick finger drops, a familiar target |
+| F1 | **Twinkle rhythms** (open strings) | open A, open E | A1 + A4b | the Twinkle rhythm variations bowed on open strings — before any fingers; hands-together warm-up |
+| F2 | **Twinkle, Twinkle** (theme) | A major — A string + open E (+ 1st-finger F♯) | A6 | the Suzuki start: 0-1-2-high 2-3 on the A string; small bows in the middle, quick finger drops |
+| F3 | **Ode to Joy** (phrase 1 → whole) | A major — A string + open E | A6 + E1 | the course's namesake tune; a singing line, phrasing across four phrases (a dotted bar → Stage 2 pointer) |
+| F4 | **Lightly Row** | A major | A6 | bow division — upper half vs lower half |
+| F5 | **Song of the Wind** | A major | A6 + A4 | the 1↔3 "jumping finger" (the frame); energy, bow retakes |
+| F6 | **Go Tell Aunt Rhody** | A major | A6 | phrasing; a held, in-tune last note; bow distribution |
+| F7 | **Au Clair de la Lune** | A + D strings | A7 + A10 | your first string crossing *in a tune* — whole arm |
+| F8 | **Long, Long Ago** | D major | A7 + C5 | a singing line, whole bows, right elbow for tone |
+| F9 | **French Folk Song** | D minor / D | A7 + C5 | minor colour; a smooth legato-*feel* line (slurs are Stage 5) |
+| F10 | **When the Saints Go Marching In** | D major, D + A | A7 + C5 + E1 | a confident skip up to start; consecutive down-bows |
+| F11 | **London Bridge** | D major | A7 | very short, pure step/skip reading; a light bow |
+| F12 | **Hot Cross Buns** | G string (B A G) | A8 | three notes, one string; the high-2 B; all down-bows to start |
+| F13 | **Merrily We Roll Along** / **Mary Had a Little Lamb** | G string | A8 | stepwise motion on one string, even bows |
+| F14 | **Frère Jacques** (round) | G major | A8 + B8 | play it as a round against the playback |
+| F15 | **Jingle Bells** (chorus) | A or D major | A9 + E1 | repeated notes, quick finger drops, a familiar target; touches the open E string |
 
-*(F4 and a couple of others touch a dotted rhythm — they carry the "you'll learn this properly
-in Stage 2" pointer, `NOTATION-COVERAGE.md`.)*
+*(F3, F10, F15 touch a dotted rhythm — they carry the "you'll learn this properly in Stage 2"
+pointer, `NOTATION-COVERAGE.md`.)*
 
 ---
 
@@ -498,28 +593,198 @@ referenced; the notation is ours. **No PDF needed.** Vivaldi *Spring* → Stage 
 
 ---
 
-## New components / infra this stage needs
+## New components / infra this stage needs — keep it lean
 
-1. **`AnnotatedScore`** — the melody component (`CONTENT-STANDARD.md` §5): scales to fit,
-   per-line how-to-play notes, moving-cursor playback, optional walk mode. Extends
-   `NotatedExample`.
-2. **`/practice` page** — the flat filterable melody list.
-3. **`FingerboardFirstPosition` `<Diagram>`** — the fingerboard with natural notes marked
-   beside their staff positions (for B10).
-4. **Pitch-only `NotatedExample` mode** — `M:none` / stemless rendering for pure pitch drills
-   (so no un-taught rhythm shows). Small abcjs config flag.
-5. **A melody registry** — `content/pieces/` or a `pieces.ts` manifest feeding both the
-   curriculum lessons and `/practice`.
+Deep content, simple code. Build the minimum that serves the plan; no speculative features.
+
+1. **`AnnotatedScore`** — a thin extension of `NotatedExample`: the tune + the existing
+   name/string/finger labels + one **how-to-play line of text per system** + a
+   **moving-cursor** on playback (abcjs `TimingCallbacks` — a few lines). **No walk mode, no
+   per-note commentary UI** for Stage 1 — those wait until a lesson genuinely needs them
+   (K.216). Most Stage 1 tunes fit one line; handle a second line only when a tune needs it.
+2. **`/practice` page** — a **static list**, no database, no search index. A table generated
+   from the pieces manifest (title · key · position · skill · in-the-PDF), each row a link to
+   the tune. Add real filtering later if it's ever wanted.
+3. **Pitch-only notation** — one abcjs flag path: `M:none` + hide stems, for pure pitch
+   drills. Small.
+4. **A pieces manifest** — `content/pieces.ts`, the same shape as `lib/curriculum.ts`'s lesson
+   list. Feeds both the in-lesson `AnnotatedScore` and `/practice`.
+5. *(Optional, only if quick)* a first-position fingerboard `<Diagram>` for B10 — otherwise
+   B10 uses a table + the notes on the staff. Don't hold the stage for it.
 
 ---
 
-## Decisions still open
+## Decisions — all locked (2026-09-02)
 
-1. **Note order G→D→A→E vs Suzuki's A-first** — plan keeps G→D→A→E (reasoned above). Confirm,
-   or switch to A-first (bigger reshuffle, more "standard").
-2. **Movement D placement** — as its own movement after C, or interleaved (a little ear work
-   after each string lesson)? Plan has it as a movement; interleaving may stick better.
-3. **~34 lessons + 15 tunes is large.** Build order: A → B → C (the reading spine) as one
-   push, verify live, then D → E → F + `/practice`. Or straight through. Plan assumes the
-   split for review points; confirm.
-4. Any skill in the four movements you'd add, cut, or reframe.
+1. **String / note order: A → D → G → E** — the way Hilary Hahn (Suzuki) learned. The
+   systematic per-string lessons run in this order; a tune may borrow an open string or one
+   1st finger from a not-yet-covered string (with a one-line pointer), exactly as Suzuki does.
+2. **Movement D interleaved** — `landing-in-tune` (D1) is taught in Movement A right after the
+   first string lesson; D2–D4 (ringing tones, Sa, hearing wrong notes) are a short cluster
+   after Movement C.
+3. **Build the whole stage at once.** Within that: build and prove **`AnnotatedScore` on one
+   tune first**, and do the deferred visual check of the `responsive:"resize"` notation, before
+   writing the other 14 tunes.
+4. **Nothing cut.** Added: `hands-together` (A4b — bow independent of the fingers) and
+   `crossing-between-strings` (A10 — the left-arm side of string changes). Stage 1 is now
+   **~35 skill lessons + 15 tunes + `/practice`**.
+
+## Final count
+
+| Movement | Lessons |
+|---|---|
+| A — the hand on the string | 11 (A1, A2, A3, A4, A4b, A5=D1, A6–A9 strings, A10, A11) |
+| B — reading pitch | 10 |
+| C — sharps, flats, keys | 5 |
+| D — landing in tune (D2–D4; D1 at A5) | 3 |
+| E — scaffold removal + rhythm-lite | 3 |
+| F — the tunes | 15 melody lessons |
+| **infra** | `AnnotatedScore`, `/practice`, `FingerboardFirstPosition` diagram, pitch-only notation mode, pieces registry |
+
+**Ready to implement.** Pick up next session.
+
+---
+
+## Research appendix — the concrete pedagogy behind each lesson
+
+*(All web-researched 2026-09-02. Every claim below is cited; write the lessons from this, not
+from memory.)*
+
+### How the standard methods sequence first position
+
+- **A real teacher's first-four-lessons plan** (ensembleschools.com "ultimate violin lesson
+  plan"): L1 = bow hold + violin hold + **open strings**; L2 = **left hand** + (for kids)
+  tapes, then practise in **three modes — bows only / fingers only / bows + fingers**; L3 =
+  first song = **Twinkle**, colour-coded + finger numbers, *not reading yet*; L4 = basic note
+  reading + Suzuki Book 1. Open-string emphasis: **A, D, G** (E taught later; C is cello).
+  → This is exactly our A → D → G → E order and our `hands-together` lesson (the three modes).
+- **Doflein Method Book I, full chapter list** (schott-music.com, sharmusic): 1 *Music with
+  five notes* · 2 *six notes* · 3 *eight notes* · 4–5 *key-note on the first finger* ·
+  6 *combination of both attitudes of the fingers* (the finger patterns) · 7 *dotted
+  crotchets* · 8 *key-note on the third finger* · 9 *key-note on the second finger (C major)* ·
+  10 *the keys and their signatures* · 11 *songs and pieces to play* · 13 *syncopation*.
+  → validates: expand the note set gradually, patterns before keys, **pieces from the start**.
+- **Essential Elements Book 1** (halleonard, westmusic): note names written **inside the
+  noteheads**, then eliminated (our scaffold); **subdivision from page one**; **listening
+  exercises for intonation**; **finger-pattern mixing pages**; large fingering charts; ~195
+  tunes so progress is visible. Introduces the **D string + low 2** early.
+- **Suzuki Book 1 order + teaching points** (stringpedagogy, kiyoematsuura, teachsuzuki):
+  Twinkle (staccato vs détaché, small bows in the middle, quick finger drops) → Lightly Row
+  (bow division upper/lower half) → Song of the Wind (1↔3 "jumping finger" = the frame; bow
+  retakes, land below the balance point) → Go Tell Aunt Rhody (stepwise LH; rhythm via
+  listening + singing) → O Come Little Children (bow distribution; consecutive up-bows) →
+  May Song (dotted quarter–eighth) → **Long Long Ago (D string** via 1st-finger hopping;
+  right elbow for tone) → Allegro (pattern 1-2-3-1) → Perpetual Motion (**4th finger** first
+  time) → **Allegretto (G string)** → Etude (**low 2 in G**) → Minuets 1–3 (key changes,
+  down-up-up, crossings, slurs) → Happy Farmer / Gavotte.
+
+### The Twinkle rhythms (Suzuki Variation A–D — F1)
+
+Four rhythmic variations on the Twinkle notes, bowed on **open strings first**, then with
+fingers (teachsuzuki, stringskeysandmelodies): **A** = "Mississippi Stop-Stop" /
+"taka-taka-stop-stop" (♬♬ ♩ ♩) · **B** = "Down Polly / Mommy-Daddy" (dotted, ♩. ♪) · **C** =
+"Run Pony" (♪. ♬ …) · **D** = the plain theme (♩ ♩). They drill **détaché, staccato and a
+stopped bow** before any left hand. (Rhythm names vary by teacher — pick one set.)
+
+### Left-hand finger placement — the concrete detail
+
+- Fingers **tall on the tips, never the pads** — the pad lets the pitch wander because the
+  notes are so close together (violinspiration "finger placement", the Strad).
+- The **first finger takes the shape of "three sides of a square."** Base knuckles roughly
+  **level with the fingerboard**; the **base knuckle of the index touches the right side of
+  the neck**.
+- Fingers hover **slightly above the string they're about to play**. **Minimum pressure** —
+  the string just needs to reach the fingerboard; no thumb/index clenching (Nathan Cole,
+  the Strad).
+- The **perfect 4th frame**: 1st finger to 4th finger is a **perfect fourth** in three of the
+  four finger patterns — hold that interval constant and intonation locks
+  (violinspiration/masterclass positions guides). 1st finger on G/D/A **rings the next open
+  string**; 4th finger reaches the **octave** of the open string (check against the natural
+  harmonic).
+- **Common LH faults to name in the lessons** (ronaldsachs, fiddlehed, violinist.com):
+  clutching / "frozen" hand (wrong muscles), collapsed wrist, tight grip, flat fingers,
+  twisting the finger from the side instead of dropping from above, thumb clenched underneath.
+
+### The finger-independence / action drill family (A4 `keeping-fingers-down`)
+
+From violinspiration & violinist.com "all-purpose left-hand exercise": hold all four fingers
+down, **lift and tap one at a time, 1-2-3-4 then 4-3-2-1**; **1↔3** back and forth (2
+hovering); **2↔4** back and forth; lift 1+3 while dropping 2+4. **Keep the fingers behind the
+sounding note down.** **Left-hand pizzicato** for the drop and for strength.
+
+### Exact first-position natural notes + the low/high choices
+
+| String | 0 | 1 | 2 | 3 | 4 | notes |
+|---|---|---|---|---|---|---|
+| **A** | A | B (1) | **C = low 2** / C♯ = high 2 | D (3) / D♯ = high 3 | E (4) | A major wants C♯ (high 2), D♯ rare |
+| **D** | D | E (1) | **F = low 2** / F♯ = high 2 | G (3) / G♯ = high 3 | A (4) | D major wants F♯ (high 2), G♯ rare |
+| **G** | G | A (1) | **B = high 2** / B♭ = low 2 | C (3) / C♯ = high 3 | D (4) | natural B is the **high** 2 (up against 3) |
+| **E** | E | **F = low 1** / F♯ = 1 | **G = low 2** / G♯ = high 2 | A (3) / A♯ = high 3 | B (4) | the only string where **1st finger has a low option** — F♮ is a low 1 (reach back near the fingerboard end); F♯ is the normal 1; G♮ is low 2 |
+
+*(Sources: violinlounge & violinspiration first-position charts; fisherviolins "natural notes
+of the first position"; violinist.com "playing F natural on the E string". Cross-checked
+against the interval structure — E→F, B→C are the natural half steps.)*
+
+### Bow distribution for the tunes (the how-to-play notes)
+
+From dummies.com "plan bow division", violinist.com: **whole bow** for whole and half notes,
+**half bow** for quarters and eighths. The classic drill: mentally divide the bow into 4
+sections, one note per section; then 3; then 2 (**half at the frog, half at the tip**); then
+one note in a whole bow. Suzuki's *Lightly Row* point — first two quarters in the **upper
+half**, last two in the **lower half**. This is the vocabulary for every melody's per-line
+note.
+
+### String crossing (A10)
+
+From thestrad, stringsmagazine, Zlata Brouwer: **arm and bow stay in one plane** — "a plate of
+glass under the arm." The **elbow leads** the crossing; the hand keeps its shape. Arm/elbow
+**high for G, dropping** for D, A, E (hinge from the shoulder). **Beginner exercise:** play the
+two strings as a **double stop** to find the balanced elbow *between* them, then do the
+crossing **without changing the elbow level or the bow speed**.
+
+### Intonation — ear-first (Movement D)
+
+- **Hear the pitch before the finger moves** — sing it, or a drone (violinist.com "intonation
+  without exterior guides", fiddlerman "drones"). Tapes are a crutch the ear must outgrow.
+- Play **familiar tunes** and nudge each finger "slightly each time until it sounds right"
+  (violinist.com, Quora).
+- **Ringing tones** (D2): 1st finger on G/D/A rings the next open string; the note *feels*
+  right when the sympathetic string hums (Simon Fischer, Laurie Niles "ringing tones").
+- **Direction of error** (D4): too high = bright/pinched, too low = flat/dull; correct by a
+  *millimetre*, don't re-place.
+
+### Movable-do / Sa (D3)
+
+Movable-do: **do sits on the tonic of whatever key you're in**, so a melody keeps the same
+syllables in every key (Kodály standard; myeartraining, pitchd.net). **Sol wants to resolve
+to Do; Ti leads up to Do; Fa pulls down to Mi.** Direct parallel to **sargam** (Sa Re Ga Ma
+Pa Dha Ni) — Sa = the tonic/drone reference in North-Indian classical, which this user already
+has in the ear. **Sing the syllable every time you play the note.**
+
+### Reading — pattern-first (Movement B)
+
+- Percival Hodgson's principle: read **patterns**, not the name of every note (thestrad
+  "how to help students with sight-reading").
+- Method: **landmarks + intervals** (steps line↔space, skips line↔line / space↔space) —
+  memorise ~4 anchor notes, count everything else as a step/skip from an anchor
+  (musicandtheory.com, colourfulkeys).
+- **Drill note recognition separately first** (flashcards, games) so names become automatic,
+  *then* read pieces (nycviolinstudio, practito). 10 min/day beats long sessions.
+- **Pre-read**: clef, key, time signature, range, rhythm patterns, dynamics — before the bow
+  moves. **Rhythm before pitch** (clap and count). **Keep going**, recover on the downbeat.
+  **Read ahead** of the bow.
+
+### Rhythm-lite (E1)
+
+Quarter = 1 beat (count "1 2 3 4"), half = 2 ("1-2, 3-4"), whole = 4 ("1-2-3-4"); top number
+of the time signature = beats per bar. **Clap the rhythm before the bow** (separates the
+rhythmic problem from the technical one). Metronome at ~60, only speed up when accurate
+(classicalguitarshed, rozannasviolins, lessonsinyourhome).
+
+### The treble clef & the order of sharps (B2, C2)
+
+The treble clef is a stylised **capital G**; its inner curl wraps the **2nd line**, fixing it
+as G. Evolved from a plain capital G by the 13th century (Smithsonian). The **order of sharps
+F C G D A E B is itself a chain of ascending fifths** — the circle of fifths clockwise from F;
+each sharp key is a fifth up and adds one sharp (muted.io, music-theory-practice). ABRSM
+Grade 1 keys: C, G, D major; Grade 2 adds A, B♭, F and one-octave minors.

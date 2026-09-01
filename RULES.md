@@ -100,3 +100,8 @@ R5. **A single line of notation fits the screen** — no horizontal scroll for o
 
 16. **Keep the map honest.** `docs/PDF-MAP.md` stays current ("nothing lost"). This file and
     `docs/CONTENT-STANDARD.md` stay current when a rule changes.
+
+17. **Maximum content depth, minimum code.** Research deep, teach deep — but the components
+    stay simple: extend what exists, static over dynamic, no speculative features, no widget a
+    lesson doesn't need. If a build is getting complicated, it's probably wrong. (The user's
+    steering, repeated: "don't over-engineer.")
