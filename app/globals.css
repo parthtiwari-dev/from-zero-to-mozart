@@ -279,6 +279,12 @@ body {
 .notation--wide svg {
   max-width: none;
 }
+/* let the notation well use the full lesson column (a little wider than prose) */
+@media (min-width: 48rem) {
+  .prose > figure.not-prose {
+    margin-inline: calc((var(--measure-prose) - var(--measure-lesson)) / 2);
+  }
+}
 .notation svg path:not([fill="none"]) {
   fill: var(--ink);
 }

@@ -123,24 +123,49 @@ public-domain line of music, gone through completely.
 
 ---
 
-## 6. Order of work (the sequencing decision)
+## 6. Order of work — the campaign
 
-**Do not rewrite all 90 lessons in one pass.** Prove the pattern, let the user feel it, then
-decide the cadence.
+**Decision (2026-09-02, user): no new stages, no new features, until every one of the ~90
+built lessons meets `RULES.md` 1–7.** The rewrite should have happened before the first draft;
+it didn't, so it happens now, as one focused campaign. It runs research-first.
 
-1. ~~Write this standard.~~ ✔ (this doc)
-2. ~~Build the margin components (`<Margin>`, `<Cite>`) + the gutter.~~ ✔ (Direction A commit)
-3. ~~Prove the pattern on a cross-section~~ ✔ — `meet-the-violin` (Stage 0 opener, concept),
-   `the-g-string` (Stage 1, atom), `why-g-major-has-one-sharp` (Stage 4, concept),
-   `detache` (Stage 5, concept). These are the reference examples of the six beats + the
-   margin voice. **User reviews these on the live preview.**
-4. Build `AnnotatedScore` (or extend `NotatedExample`) + moving-cursor playback.
-5. Start `docs/LINEAGE-QUOTES.md`.
-6. Rewrite the contiguous set to standard: **all of Stage 0 (10)** + the **Stage 1 reading
-   spine** — `the-staff`, `the-treble-clef`, `lines-and-spaces`, `ledger-lines`,
-   `the-{g,d,a,e}-string`, `reading-g-major`. (~19 lessons; ~3 already done.)
-7. Build annotated lines **1 and 2** (Ode to Joy, G-major scale).
-8. Decide: continue the retrofit stage by stage, or adjust the standard first.
+**Done so far:**
+- ✔ This standard + `RULES.md` + the margin components (`<Margin>`, `<Cite>`) + the gutter.
+- ✔ Four reference lessons rewritten: `meet-the-violin`, `the-g-string`,
+  `why-g-major-has-one-sharp`, `detache`. `the-g-string` is the model for a *reading* lesson
+  (ladder → skips → two real tunes, every note name+string+finger).
+
+**The campaign, per session:**
+
+1. **Research pass first.** Before rewriting a stage, collect: the verified facts and their
+   ≥2 sources; the lineage quote(s) for each concept lesson (into `docs/LINEAGE-QUOTES.md`);
+   the public-domain tunes/patterns that fit each lesson's notes (name + string + finger
+   worked out); the fingering decisions. No writing until the research for that stage is done.
+2. **Rewrite the stage** to the six beats + rules 1–7. Every pitched example fully labelled.
+   Every concept lesson gets 2–4 examples and at least one real tune or pattern to play.
+3. **Verify** every example in the browser (render + play + labels aligned) and every fact
+   against its sources.
+4. Move to the next stage. **Stage order: 0 → 1 → 2 → 3 → 4 → 5.**
+5. `AnnotatedScore` (note-by-note walkthrough of a whole line) + the first annotated lines
+   (Ode to Joy, G-major scale) come **after** Stages 0–5 are all at standard — unless a
+   lesson clearly needs the multi-line view sooner.
+
+**Audit — what each built lesson needs** (from a 2026-09-02 scan; 61 `NotatedExample`s across
+~60 lessons):
+
+- **~30 lessons have a pitched example with NO per-note labels** — every one needs full
+  name/string/finger labels added (or, if genuinely rhythm-only, a caption saying so). Worst
+  offenders to fix early: `the-staff`, `the-treble-clef`, `lines-and-spaces` (Stage 1 core
+  reading with unlabelled examples), `dynamics`, `articulation`, `tempo-words`, `ornaments`
+  (Stage 3 — still pitched), all the Stage 5 stroke lessons (`martele`, `staccato`,
+  `spiccato`, `one-long-tone`, `string-crossings`, …).
+- **~9 lessons have labels but no `string`** — `cadences`, `intervals`, `triads`,
+  `major-and-minor`, `what-a-scale-is`, `counting-and-konnakol`, `sa-and-the-letter-names`,
+  `lines-and-spaces` — add `string` to every label.
+- **~29 lessons (mostly Stage 0) have no example** — most are fine (setup/posture), but each
+  gets the six-beats treatment and a lineage cite where it's a concept.
+- **All ~90 lessons are currently too thin** on the six beats (esp. beats 5 and 6) and on
+  "enough to actually play" (rule 5).
 
 Everything after that — Stages 2–5 retrofit, Stages 6–9, the full annotated repertoire — comes
 once the pattern is confirmed. This phase is **Phase 1.5** in `PLAN.md`.

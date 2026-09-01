@@ -2,6 +2,11 @@
 
 @AGENTS.md
 
+> **Read `RULES.md` (repo root) before touching content or the notation component.** The hard,
+> non-negotiable rules live there — especially: every pitched notated example labels *every*
+> note with name + string + finger, and no new stages until the built lessons meet the
+> standard.
+
 > Repo: `github.com/parthtiwari-dev/from-zero-to-mozart` · lives at
 > `C:\great learning self paced\z Final Projects\from-zero-to-mozart` (outside OneDrive).
 > Deploys to Vercel (static). Run `npm run dev`.
@@ -83,6 +88,7 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 
 | File | What's in it |
 |---|---|
+| `RULES.md` (repo root) | the hard, non-negotiable rules — check every change against these |
 | `docs/PLAN.md` | the approved plan (source of truth for scope & phasing) |
 | `docs/CONTENT-STANDARD.md` | how deep a lesson goes — the six beats, lesson types, the annotated-line component, the rewrite order |
 | `docs/DESIGN_LOCK.md` | the locked visual language (being re-picked in Phase 1.5 — see review) |
@@ -108,17 +114,19 @@ found them too short / not deep enough — they state facts but don't walk you t
 no lesson yet goes through a real line of music note by note. See `docs/CONTENT-STANDARD.md`
 and `docs/DESIGN_REVIEW.md`.
 
-**Next: Phase 1.5 — content depth + design direction** (see `docs/PLAN.md`):
-1. Build `AnnotatedScore` (per-note tap-linked commentary + moving-cursor playback) and start
-   `docs/LINEAGE-QUOTES.md`.
-2. Rewrite Stage 0 + the Stage 1 reading spine (~19 lessons) to the six beats
-   (`CONTENT-STANDARD.md`); build two annotated lines (Ode to Joy, one-octave G major).
-3. User reviews on the live preview → decide the retrofit cadence for the rest.
-4. In parallel: pick design direction **A / B / C** (`docs/DESIGN_REVIEW.md`), rewrite
-   `docs/DESIGN_LOCK.md` around it, clear the cheap review findings.
+**Design: done.** Direction A ("The Critical Edition") chosen and built — ivory/sepia/oxblood,
+the scholarly left margin with `<Margin>`/`<Cite>`, a lesson locator, spelled-out notation
+labels. See `docs/DESIGN_LOCK.md` / `docs/DESIGN_REVIEW.md`.
 
-Stages 6–9 + the Vivaldi and Mozart modules (Phase 2–3) come *after* the depth pattern is
-confirmed. Same authoring process, matched to `docs/PDF-MAP.md`.
+**Next: Phase 1.5 — the content-quality campaign** (blocking; see `docs/CONTENT-STANDARD.md`
+§6). **No new stages until every built lesson meets `RULES.md` 1–7.** Research-first, then
+rewrite **stage by stage 0 → 5** to the six beats, with *every pitched example labelling every
+note's name + string + finger* and every concept lesson carrying 2–4 examples + a real
+tune/pattern to play. Four reference lessons already done (`meet-the-violin`, `the-g-string`,
+`why-g-major-has-one-sharp`, `detache`); `the-g-string` is the model for a reading lesson.
+`AnnotatedScore` + annotated lines come after Stages 0–5 are all at standard.
+
+Stages 6–9 + the Vivaldi and Mozart modules (Phase 2–3) come after that.
 
 ### Authoring notes
 
@@ -131,13 +139,15 @@ confirmed. Same authoring process, matched to `docs/PDF-MAP.md`.
 - MDX wraps loose text in `<p>`. Components that take rich children must render a block
   container (`<div>`), never `<p>` — see `components/TryThis.tsx`.
 - **`<NotatedExample abc labels reveal caption defaultBpm />`** — `abc` is the real notation
-  (drives both rendering and playback). `labels` is an array of `{name, string?, finger?}`, one
-  per note in order — rendered as real HTML under each notehead (name / "‹string› str" / "f
-  ‹finger›"), matching the source book's answer pages exactly. `reveal="shown"` (default) for a
-  teaching example the labels are already visible on; `reveal="hidden"` for a worksheet — plain
-  notation first, "show the answer" reveals the labels. Do **not** use abcjs's own `"_text"`
-  annotations for name/string/finger — they're cramped and can't hold structured data; `labels`
-  replaced that entirely (see `docs/DECISIONS.md`, 2026-09-02).
+  (drives rendering and playback). `labels` is one `{ name, string, finger }` per note, in
+  order — rendered as HTML under each notehead (name / "‹string› string" / spelled-out finger
+  like "open" / "2nd high"). **Every pitched example must pass a full label for every note —
+  `string` included, always** (`RULES.md` 1). Only rhythm-only examples omit labels, and their
+  caption says so. `reveal="shown"` (default) = labels visible; `reveal="hidden"` = worksheet
+  (plain notation, "show the answer" reveals). `<Margin>Ex. N — …</Margin>` next to an example
+  gives it a figure pointer in the gutter. Notes spread to fill the well (`stretchlast`); >~6
+  labelled notes scroll horizontally — keep teaching examples shorter, use a real tune only as
+  the payoff. Don't use abcjs `"_text"` annotations for labels.
 - **`<Quiz items={[{q, a}, ...]} />`** for recognition questions (symbols, terms) — each item
   reveals its answer on tap, or "show all answers" at once.
 - Verify every notated example in the browser (render + press play + reveal the labels — check

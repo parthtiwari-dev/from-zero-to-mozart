@@ -344,18 +344,15 @@ cited; **every fingering/pitch carried from the PDF re-verified** ([[violin-accu
   bow), covering **PDF Parts I-VI**. One-press audio on every musical example. Deployed to
   Vercel. — **Status: all 90 Stage 0–5 lessons drafted and live.** They are an accurate
   skeleton but under-taught — see Phase 1.5.
-- **Phase 1.5 — content depth + design direction (current):** the drafted lessons state facts
-  but don't yet *teach* the way a real lesson does, and no lesson yet goes through a real line
-  of music note by note. Fix, per **`docs/CONTENT-STANDARD.md`**: (1) hold every lesson to
-  *the six beats* (idea → see it → hear it → try it → the usual mistake → where it comes
-  from); (2) build the **annotated-line** lesson type + `AnnotatedScore` component (tap-linked
-  per-note commentary, moving-cursor playback); (3) start `docs/LINEAGE-QUOTES.md`; (4)
-  rewrite **Stage 0 + the Stage 1 reading spine** (~19 lessons) and build **two annotated
-  lines** (Ode to Joy, one-octave G major) to the standard; (5) **user reviews on the live
-  preview**, then the retrofit cadence for the rest is decided. In parallel: pick a **design
-  direction** (A / B / C in `docs/DESIGN_REVIEW.md`) and rewrite `DESIGN_LOCK.md` around it;
-  clear the cheap findings from the review (stale footer copy, empty table cells, the `NOW`
-  tag, spelled-out notation labels).
+- **Phase 1.5 — the content-quality campaign (current, blocking):** the drafted lessons are an
+  accurate skeleton but under-taught, and most notated examples don't label every note's
+  string + finger. **No new stages or features until every built lesson meets `RULES.md`
+  1–7.** Per `docs/CONTENT-STANDARD.md` §6: research-first, then rewrite **stage by stage,
+  0 → 5**, to the six beats, with every pitched example fully labelled and every concept
+  lesson carrying 2–4 examples + a real tune/pattern to play. Then `AnnotatedScore`
+  (note-by-note walkthrough) + the first annotated lines. — *Design direction chosen and
+  built: Direction A ("The Critical Edition"), see `DESIGN_LOCK.md` / `DESIGN_REVIEW.md`. The
+  design side of this phase is essentially done; what remains is content.*
 - **Phase 2:** Stages 6-8 (positions/left hand, vibrato/expression, sight-reading + ear-gym) +
   reference libraries v1 + the Vivaldi "Spring" module (PDF Part VIII).
 - **Phase 3:** Stage 9 repertoire journey — the 100+ song bank, étude & scale ladders, the

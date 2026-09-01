@@ -13,7 +13,12 @@ const VIOLIN_PROGRAM = 40; // General MIDI: Violin
 export interface NoteLabel {
   /** the note name as read: "D", "F♯", "B♭" */
   name: string;
-  /** which string it's played on */
+  /**
+   * Which string it's played on. RULES.md #1: a pitched example labels EVERY
+   * note with string + finger. Optional in the type only while the Phase 1.5
+   * campaign is still retrofitting old lessons — the component warns in dev if
+   * it's missing.
+   */
   string?: "G" | "D" | "A" | "E";
   /** "0" | "1" | "low 2" | "high 2" | "3" | "high 3" | "4" */
   finger?: string;
@@ -64,6 +69,16 @@ export function NotatedExample({
   const synthRef = useRef<MidiBuffer | null>(null);
   const labelCount = labels?.length ?? 0;
 
+  if (process.env.NODE_ENV !== "production" && labels?.length) {
+    const bad = labels.filter((l) => !l.string || !l.finger);
+    if (bad.length) {
+      console.warn(
+        `[NotatedExample] RULES.md #1: ${bad.length}/${labels.length} labels are missing string or finger`,
+        bad,
+      );
+    }
+  }
+
   const [shown, setShown] = useState(reveal === "shown");
   const [xs, setXs] = useState<number[]>([]);
   const [bpm, setBpm] = useState(defaultBpm);
@@ -72,18 +87,43 @@ export function NotatedExample({
 
   useEffect(() => {
     let cancelled = false;
+    let raf = 0;
+
+    // measure each notehead's centre x (CSS px) for the HTML label row,
+    // retrying for a few frames while the music font settles
+    const measure = (tries = 0) => {
+      if (cancelled) return;
+      const svg = paperRef.current?.querySelector("svg");
+      const notes = svg?.querySelectorAll<SVGGElement>(".abcjs-note");
+      const rect = svg?.getBoundingClientRect();
+      if (svg && notes?.length && rect?.width) {
+        const vb = svg.viewBox.baseVal;
+        const k = vb.width ? rect.width / vb.width : 1;
+        setXs(
+          Array.from(notes).map((g) => {
+            const b = g.getBBox();
+            return (b.x + b.width / 2 - vb.x) * k;
+          }),
+        );
+      } else if (tries < 30) {
+        raf = requestAnimationFrame(() => measure(tries + 1));
+      }
+    };
+
     (async () => {
       const mod = abcjsRef.current ?? (await import("abcjs"));
       if (cancelled || !paperRef.current) return;
       abcjsRef.current = mod;
-      // With labels, give each note enough room for a 3-line stack (name /
-      // string / finger) so they never crowd their neighbours. With no
-      // labels, notes can sit close together, so a fixed width is enough.
-      const staffwidth = labelCount > 0 ? Math.max(360, labelCount * 108) : 460;
+      // With labels, every note carries a 3-line stack (name / string / finger),
+      // so give each one real room and let the well scroll rather than letting
+      // the labels collide. Without labels, notes can sit close together.
+      const staffwidth = labelCount > 0 ? Math.max(420, labelCount * 130) : 460;
       const [tune] = mod.renderAbc(paperRef.current, abc, {
         add_classes: true,
         staffwidth,
         scale: 1.15,
+        // fill staffwidth so notes spread enough for the label stack
+        format: { stretchlast: 1 },
         paddingtop: 4,
         paddingbottom: 4,
         paddingleft: 2,
@@ -91,25 +131,12 @@ export function NotatedExample({
       });
       tuneRef.current = tune;
       setAudioOk(mod.synth.supportsAudio());
-
-      // measure each notehead's centre x, in CSS pixels, for the label row
-      requestAnimationFrame(() => {
-        const svg = paperRef.current?.querySelector("svg");
-        if (!svg) return;
-        const vb = svg.viewBox.baseVal;
-        const rect = svg.getBoundingClientRect();
-        const k = vb.width ? rect.width / vb.width : 1;
-        const notes = svg.querySelectorAll<SVGGElement>(".abcjs-note");
-        setXs(
-          Array.from(notes).map((g) => {
-            const b = g.getBBox();
-            return (b.x + b.width / 2 - vb.x) * k;
-          }),
-        );
-      });
+      if (labelCount > 0) measure();
     })();
+
     return () => {
       cancelled = true;
+      cancelAnimationFrame(raf);
     };
   }, [abc, labelCount]);
 
@@ -158,7 +185,7 @@ export function NotatedExample({
           <div className="relative inline-block min-w-full">
             <div
               ref={paperRef}
-              className={labelCount > 6 ? "notation notation--wide" : "notation"}
+              className={labelCount > 0 ? "notation notation--wide" : "notation"}
             />
             {hasLabels && (
               <div

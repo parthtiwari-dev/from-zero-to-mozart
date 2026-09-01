@@ -4,6 +4,36 @@ Locked decisions and the reasoning behind them. Add new ones at the top with a d
 
 ---
 
+## 2026-09-02 (night) — `RULES.md`, and the content-quality campaign
+
+The user reviewed the four reworked lessons and Direction A. Direction A is accepted. But:
+
+- A notated example (`why-g-major-has-one-sharp`'s scale) shipped with **no per-note labels at
+  all**, and two of the four reworked lessons had the **string dropped** from the labels (an
+  optimisation I made to save horizontal space — wrong). For a beginner who can't read music,
+  every note must show name + string + finger, every time.
+- The four rewrites are still **not deep enough** — too few examples, not enough to actually
+  play. A reading lesson like `the-g-string` should have several patterns *and* a real tune or
+  two.
+- The rewrite standard should have been set before the first 90 lessons were drafted;
+  re-writing now costs real time.
+
+Decided:
+
+- **`RULES.md` at repo root** — the hard, non-negotiable rules, checked every change. Rule 1:
+  every pitched example labels every note (name + string + finger), no exceptions, single
+  string or not. Rule 5: a lesson has enough to actually play (patterns + a real tune), not
+  one fragment. Rule 15: **no new stages until every built lesson meets rules 1–7.**
+- **`the-g-string` rebuilt as the model reading lesson** — ladder → skips → Hot Cross Buns →
+  the opening of Ode to Joy, every note labelled. `detache` and `why-g-major` had full labels
+  restored / added.
+- `NotatedExample`: `format: { stretchlast: 1 }` so notes fill the staff and the label stacks
+  don't collide; a dev-only `console.warn` when a label is missing string/finger; the measure
+  step made resilient (retry a few frames).
+- **The campaign** (`docs/CONTENT-STANDARD.md` §6): research-first, then rewrite stage by
+  stage 0 → 5, verifying every example and every fact. `AnnotatedScore` and annotated lines
+  come after. Design work for this phase is done.
+
 ## 2026-09-02 (evening) — Content depth: the lessons are under-taught
 
 After the user read the live Stage 0–5 lessons: they feel "too short… they don't go into that
