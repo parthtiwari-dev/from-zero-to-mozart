@@ -94,7 +94,23 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 
 ## Status
 
-Phase 0 — scaffolded, moved into its GitHub repo, source PDFs in place. **Next session:** work
-through `docs/OPEN-QUESTIONS.md` with the user first, then install `taste-skill`, lock the
-design (→ `DESIGN_LOCK.md`), and build one lesson end-to-end as the feel prototype before
-mass-producing Stages 0–5.
+**Phase 0 done.** Design locked (`docs/DESIGN_LOCK.md`), MDX + notation + audio pipeline built,
+practice bar built, landing restyled, and two Stage 1 lessons written as the feel prototype
+(`/learn/open-strings-on-the-staff`, `/learn/which-b-is-this`). Pushed to `main`.
+
+**Next:** get the user's reaction to the prototype, then **produce Stages 0–5** — write the
+lesson prose (teacher voice, second person, casual) and notated examples for every section in
+`docs/PDF-MAP.md`, adding each to `lib/curriculum.ts` + `content/lessons/registry.ts`.
+
+### Authoring notes (learned building the prototype)
+
+- Lessons are `content/lessons/<slug>.mdx` + an entry in `registry.ts` + an entry in
+  `lib/curriculum.ts` (`published: true` to route it).
+- MDX wraps loose text in `<p>`. Components that take rich children must render a block
+  container (`<div>`), never `<p>` — see `components/TryThis.tsx`.
+- `<NotatedExample abc scaffold caption defaultBpm />` — author both the plain `abc` and the
+  annotated `scaffold` ABC. **abcjs annotation gotchas:** no `\n` inside `"..."` annotation
+  strings (breaks parsing) — keep them single-line; use fingering *decorations* `!0! !1! !2!
+  !3! !4!` before the note, and `"_text"` for a label below / `"^text"` above.
+- Verify every notated example in the browser (render + press play) and every music fact
+  against `docs/RESEARCH.md` sources before it ships. Keep `docs/PDF-MAP.md` status current.
