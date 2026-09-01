@@ -90,19 +90,31 @@ export function NotatedExample({
     let raf = 0;
 
     // measure each notehead's centre x (CSS px) for the HTML label row,
-    // retrying for a few frames while the music font settles
+    // retrying for a few frames while the music font settles. `responsive:
+    // "resize"` gives the SVG a viewBox, so k is a real scale factor and the
+    // labels track the notes at any width (including a scaled-down phone).
     const measure = (tries = 0) => {
       if (cancelled) return;
       const svg = paperRef.current?.querySelector("svg");
       const notes = svg?.querySelectorAll<SVGGElement>(".abcjs-note");
       const rect = svg?.getBoundingClientRect();
       if (svg && notes?.length && rect?.width) {
+        // getBBox() is in the pre-`scale` user space; the SVG is displayed at
+        // `scale` times that (via the width attr vs the on-screen width). k maps
+        // one to the other — off the viewBox if abcjs emitted one, else off the
+        // width attribute.
         const vb = svg.viewBox.baseVal;
-        const k = vb.width ? rect.width / vb.width : 1;
+        const attrW = parseFloat(svg.getAttribute("width") || "0");
+        const k = vb.width
+          ? rect.width / vb.width
+          : attrW
+            ? rect.width / attrW
+            : 1;
+        const vbX = vb.width ? vb.x : 0;
         setXs(
           Array.from(notes).map((g) => {
             const b = g.getBBox();
-            return (b.x + b.width / 2 - vb.x) * k;
+            return (b.x + b.width / 2 - vbX) * k;
           }),
         );
       } else if (tries < 30) {
@@ -114,10 +126,7 @@ export function NotatedExample({
       const mod = abcjsRef.current ?? (await import("abcjs"));
       if (cancelled || !paperRef.current) return;
       abcjsRef.current = mod;
-      // With labels, every note carries a 3-line stack (name / string / finger),
-      // so give each one real room and let the well scroll rather than letting
-      // the labels collide. Without labels, notes can sit close together.
-      const staffwidth = labelCount > 0 ? Math.max(420, labelCount * 130) : 460;
+      const staffwidth = labelCount > 0 ? Math.max(360, labelCount * 116) : 460;
       const [tune] = mod.renderAbc(paperRef.current, abc, {
         add_classes: true,
         staffwidth,
@@ -181,12 +190,9 @@ export function NotatedExample({
   return (
     <figure className="not-prose my-8">
       <div className="relative rounded-[3px] border border-hairline bg-well px-6 pb-9 pt-6 shadow-[inset_0_1px_2px_rgba(0,0,0,0.06)]">
-        <div className="overflow-x-auto">
-          <div className="relative inline-block min-w-full">
-            <div
-              ref={paperRef}
-              className={labelCount > 0 ? "notation notation--wide" : "notation"}
-            />
+        <div className="-mx-2 overflow-x-auto px-2">
+          <div className="relative w-max min-w-full">
+            <div ref={paperRef} className="notation" />
             {hasLabels && (
               <div
                 className="relative mt-1 h-[3.4rem]"
@@ -197,7 +203,7 @@ export function NotatedExample({
                     xs[i] == null ? null : (
                       <div
                         key={i}
-                        className="absolute top-0 -translate-x-1/2 text-center leading-tight"
+                        className="absolute top-0 w-[4.5rem] -translate-x-1/2 text-center leading-tight"
                         style={{ left: `${xs[i]}px` }}
                       >
                         <div className="font-serif text-[0.95rem] text-ink">

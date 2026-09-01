@@ -269,15 +269,14 @@ body {
 }
 
 /* ---- abcjs notation: paint it in ink, asides in muted ink ---- */
+/* the notation renders at its natural width and the well scrolls horizontally
+   when it doesn't fit (phones); it is never scaled down, so the HTML label row
+   stays aligned to the noteheads at 1:1. */
 .notation svg {
   color: var(--ink);
-  max-width: 100%;
-  height: auto;
-}
-/* labelled examples keep their natural width and scroll inside the well, so the
-   name / string / finger stack under each note never gets compressed. */
-.notation--wide svg {
+  display: block;
   max-width: none;
+  height: auto;
 }
 /* let the notation well use the full lesson column (a little wider than prose) */
 @media (min-width: 48rem) {
