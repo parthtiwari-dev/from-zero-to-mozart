@@ -4,6 +4,34 @@ Locked decisions and the reasoning behind them. Add new ones at the top with a d
 
 ---
 
+## 2026-09-02 — Look, voice & lesson shape (all `OPEN-QUESTIONS.md` answered, defaults accepted)
+
+- **Display name:** "From Zero to Mozart" in the header. **Domain:** `*.vercel.app` for now.
+- **Teacher voice:** warm **second person ("you")**, no first-person "I" persona. The
+  pedagogical lineage appears as *named asides* ("Leopold Mozart told his students to…",
+  "Galamian's picture of tone is…"). Contractions yes, occasional dry humour, no slang. A
+  single sample lesson screen gets user approval before mass production.
+- **Look:** **warm-editorial.** Off-white paper ground; a real **serif for reading**, clean
+  **sans for UI**; one warm ink accent (the brown from the preview). Structural discipline of
+  Linear/Vercel, softened — not stark tech-minimal. Theme **follows the system, designed
+  light-first**. Motion almost none — a quiet page-fade only; content never moves.
+- **taste-skill dials:** DESIGN_VARIANCE 3 · MOTION_INTENSITY 2 · VISUAL_DENSITY 3.
+- **Lesson screen skeleton (locked):** breadcrumb (`Stage · track`) + NOW/NEXT/LATER tag top
+  corner → title → 1–3 short paragraphs of teacher prose → **one** notated example with a
+  single play button and a **slow-default tempo slider** → optional "now try this" line →
+  prev / next. One linear spine + a collapsible contents list. No dashboard, no separate
+  "practice view" in v1.
+- **Worksheets:** show the notation; one "Show the answer" tap reveals names/strings/fingers
+  below. No grading, no text input.
+- **Scaffold:** Stage 1 examples show note names + string + finger **by default**, with a
+  "hide the help" toggle; later stages default to plain notation. (= the PDF's scaffold
+  removal, as one button.)
+- **Tuner/drone/metronome bar:** in v1, collapsed by default. Drone + metronome always; the
+  **tuner asks for mic permission only when opened**, never on page load.
+- **Content production:** Claude drafts a whole stage → user reviews on the live preview →
+  Claude revises → ships. Music facts checked against sources **while writing**, not in a final
+  pass. Production order: **Stage 0 → 5 straight through.**
+
 ## 2026-09-01 — Project setup
 
 - **Repo name: `from-zero-to-mozart`.** GitHub: `github.com/parthtiwari-dev/from-zero-to-mozart`

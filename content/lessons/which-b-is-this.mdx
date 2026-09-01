@@ -1,0 +1,34 @@
+Here's a problem you'll hit the moment you leave the open strings. Someone says "play a B."
+Which one? The violin has several. In first position alone there's a B down near the G string,
+a B in the middle of your range, and a B up high on the E string — three different notes, three
+different fingers, all called B.
+
+A letter on its own can't tell you which. **The staff can** — by how high the notehead sits.
+
+<NotatedExample
+  abc={`X:1
+M:2/4
+L:1/4
+K:C clef=treble
+B,2 | B2 | b2 |]`}
+  scaffold={`X:1
+M:2/4
+L:1/4
+K:C clef=treble
+"_G string"!2!B,2 | "_A string"!1!B2 | "_E string"!4!b2 |]`}
+  caption="Three B's. Same letter, three heights on the staff, three places on the violin."
+  defaultBpm={54}
+/>
+
+The low one lives just under the staff, the middle one sits right on the centre line, and the
+high one floats above the top. Once you can see *which* B a notehead is asking for, you know
+which string and finger to reach for. Same trick works for every C, every D, every note that
+repeats.
+
+<TryThis>
+  Play the three B's from the page, low to high, then high to low. Don't think about the octave
+  number — just the shape and the height. Where does each one land under your hand?
+</TryThis>
+
+> You don't need to name these "B3, B4, B5" yet. That's a labelling system we'll add later,
+> for when words have to do a job the staff normally does for free. For now: learn the height.

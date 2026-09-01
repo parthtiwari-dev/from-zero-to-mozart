@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# skills: .agents/skills + skills-lock.json are committed (the real files);
+# .claude/skills holds machine-specific absolute-path symlinks — do not commit
+/.claude/

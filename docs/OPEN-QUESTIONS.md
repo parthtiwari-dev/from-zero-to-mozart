@@ -1,7 +1,12 @@
-# Open questions — to discuss next session
+# Open questions
 
-The user said: "there are a lot of things we need to discuss first, we will do that tomorrow."
-This is the list to work through before/while building. Grouped, roughly in priority order.
+**Groups 1–6 answered 2026-09-02 — user accepted all recommended defaults. The decisions are
+recorded in `DECISIONS.md`.** What remains below is the parked "later / not-v1" list.
+
+---
+
+<details>
+<summary>Original questions 1–6 (answered — see DECISIONS.md 2026-09-02)</summary>
 
 ---
 
@@ -69,6 +74,10 @@ This is the list to work through before/while building. Grouped, roughly in prio
 In `docs/source/`: `vivaldi-spring-easy.pdf` (the easy arrangement with tabs — Vivaldi module),
 `mozart-k216-violin-part.pdf` and `mozart-k216-full-score.pdf` (Mozart module). Not needed for
 v1; check which edition the Mozart part is (for fingerings/bowings) when we reach Phase 3.
+
+</details>
+
+---
 
 ## 8. Later / not-v1 (park these)
 
