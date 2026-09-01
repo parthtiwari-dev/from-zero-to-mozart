@@ -1,7 +1,11 @@
 # Stage 0 — Setup: research + plan
 
-**For approval before writing.** Once you sign off, each lesson gets rewritten to the six
-beats (`CONTENT-STANDARD.md`) and `RULES.md` 1–7, verified at desktop and phone width.
+**Status: written (2026-09-02).** All 11 lessons rewritten to the six beats + `RULES.md`;
+`<Diagram>` component + 4 SVGs built; open-string audio examples added to tuning / bow
+geography / first sound. Verified: examples render with aligned labels and zero overlap,
+diagrams render and fit the well, at desktop and ~330px. **The detuned "beating" demo landed
+as a drone-based TryThis** — a labelled double-stop doesn't fit the label system cleanly and
+the drone is the better tool for hearing beats anyway. **Awaiting the user's live review.**
 
 Stage 0 is "before a note" — the instrument, the body, the hold, tuning, the first sound, and
 how to practise. It has almost no notated music today; the plan adds **real open-string audio

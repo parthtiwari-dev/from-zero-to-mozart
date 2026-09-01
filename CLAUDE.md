@@ -122,9 +122,13 @@ labels. See `docs/DESIGN_LOCK.md` / `docs/DESIGN_REVIEW.md`.
 §6). **No new stages until every built lesson meets `RULES.md` 1–7.** Research-first, then
 rewrite **stage by stage 0 → 5** to the six beats, with *every pitched example labelling every
 note's name + string + finger* and every concept lesson carrying 2–4 examples + a real
-tune/pattern to play. Four reference lessons already done (`meet-the-violin`, `the-g-string`,
-`why-g-major-has-one-sharp`, `detache`); `the-g-string` is the model for a reading lesson.
-`AnnotatedScore` + annotated lines come after Stages 0–5 are all at standard.
+tune/pattern to play. Plan each stage with the user first (`docs/stage-plans/stage-N.md`).
+
+- **Stage 0: written** — 11 lessons (added `how-this-course-works`), `<Diagram>` component +
+  4 SVGs (`components/Diagram.tsx`), open-string audio examples. Awaiting user review.
+- Stage 1 next: research + plan, then write. The 4 earlier reference lessons
+  (`the-g-string` etc.) get their final polish when the campaign reaches their stage.
+- `AnnotatedScore` + annotated lines come after Stages 0–5 are all at standard.
 
 Stages 6–9 + the Vivaldi and Mozart modules (Phase 2–3) come after that.
 
@@ -150,6 +154,10 @@ Stages 6–9 + the Vivaldi and Mozart modules (Phase 2–3) come after that.
   the payoff. Don't use abcjs `"_text"` annotations for labels.
 - **`<Quiz items={[{q, a}, ...]} />`** for recognition questions (symbols, terms) — each item
   reveals its answer on tap, or "show all answers" at once.
+- **Diagrams:** `<ViolinDiagram />`, `<BowDiagram />`, `<BowHoldDiagram />`, `<BowLanesDiagram />`
+  (`components/Diagram.tsx`) — hand-drawn labelled SVG line art in the notation well. Each
+  takes an optional `caption` prop. Keep in-SVG labels to one or two words; detail goes in the
+  caption. Tall diagrams get a `maxW` so they don't fill the screen.
 - Verify every notated example in the browser (render + press play + reveal the labels — check
   they line up with the notes and are legible on a busy line) and every music fact against
   `docs/RESEARCH.md` sources before it ships. Keep `docs/PDF-MAP.md` status current.

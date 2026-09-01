@@ -18,14 +18,14 @@ Legend for target stage: see `CURRICULUM.md`.
 
 | PDF page | Section | → target | Status |
 |---|---|---|---|
-| 1 | Title / "primary destination" framing | Stage 0 intro + site landing | todo |
-| 2 | Contents — the course path | site nav / "the path" page | todo |
-| 3 | "When you get confused, jump here" | reference: jump-here index | todo |
-| 4 | How to use this book — NOW/NEXT/LATER/REFERENCE tags | Stage 0 "how this course works" | todo |
-| 5 | Accuracy policy | Stage 0 + `DECISIONS.md` accuracy rule | todo |
-| 6 | "Learn like Hilary Hahn started" + Suzuki Vol 1 sequence | Stage 0 pedagogy note + `REPERTOIRE.md` | todo |
-| 7 | Your year-one map | Stage 0 "the shape of the journey" | todo |
-| 8 | A 30-minute practice architecture | Stage 0 + reference: practice science | todo |
+| 1 | Title / "primary destination" framing | `how-this-course-works` (read/play/interpret) + landing | drafted |
+| 2 | Contents — the course path | `/learn` contents page | drafted |
+| 3 | "When you get confused, jump here" | reference: jump-here index (Phase 2) | todo |
+| 4 | How to use this book — NOW/NEXT/LATER/REFERENCE tags + scaffold + answer rule | `how-this-course-works` | drafted |
+| 5 | Accuracy policy | `how-this-course-works` (contextual fingering) + `DECISIONS.md` | drafted |
+| 6 | "Learn like Hilary Hahn started" + Suzuki Vol 1 sequence | `how-this-course-works` `<Cite>` + `REPERTOIRE.md` | drafted |
+| 7 | Your year-one map | landing "the path" + `how-this-course-works` | drafted |
+| 8 | A 30-minute practice architecture | `how-to-practise` (table) | drafted |
 
 ## Part I — The Violin as a Map (p9–28) → **Stage 1** (some → Stage 0)
 
@@ -195,5 +195,5 @@ Source: `docs/source/mozart-k216-violin-part.pdf` (solo part) + `mozart-k216-ful
 | 186–189 | Sources (1)–(4) | reference: sources & further study (see `RESEARCH.md`) | todo |
 | 190 | Five videos/pages worth bookmarking | reference: sources | todo |
 | 191 | Copyright / sheet-music note | reference + `DECISIONS.md` | todo |
-| 192 | Your immediate next 14 practice sessions | Stage 0 / reference: practice science | todo |
-| 193 | Final principle ("reading tells you what the music asks…") | Stage 0 close + site "about" | todo |
+| 192 | Your immediate next 14 practice sessions | reference: practice science (Phase 2); loop + 30-min in `how-to-practise` | todo |
+| 193 | Final principle ("reading tells you what the music asks…") | `how-this-course-works` ("your first victory") | drafted |

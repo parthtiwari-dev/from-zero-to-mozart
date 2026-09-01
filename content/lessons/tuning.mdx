@@ -1,27 +1,67 @@
-The four strings are **G, D, A, E**, low to high. Each is a **fifth** above the one below it,
-and they're tuned to fixed pitches — the violin has no way to enforce them, so you set them by
-ear or by a tuner every time you play.
+The four strings are **G, D, A, E**, low to high — and each is a **fifth** above the one below
+it. The violin has no frets and no way to hold those pitches in place, so you set them by ear
+or against a tuner **every time you play**.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+G,4 | D4 | A4 | e4 |]`}
+  labels={[
+    { name: "G", string: "G", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "E", string: "E", finger: "0" },
+  ]}
+  caption="The four open strings, low to high: G, D, A, E. Press play to hear where each one should sit."
+  defaultBpm={40}
+/>
 
 ## The reference
 
-The **A** string is tuned to **A = 440 Hz** (the pitch an oboe gives an orchestra). Get that
-from a tuner, a piano, or the drone in the practice bar below, and tune the A first. Then tune
-the others: either match each to the tuner, or listen for a clean, ringing fifth between
-neighbours (G–D, D–A, A–E) with no wobble.
+The **A** string is tuned to **A = 440 Hz** — the pitch an oboe gives an orchestra, and the
+modern international standard. Get it from a tuner app, a piano, or the **drone** in the
+practice bar below, and tune the A **first**. Then tune the rest in order: **A → D → G → E**.
+That order keeps the tension across the four strings balanced.
 
 ## Pegs and fine tuners
 
-The **fine tuners** — the little screws at the tailpiece — handle small adjustments; use these
-day to day. The **pegs** handle big ones. Pegs work by friction: turn slowly and **push the peg
-gently inward** as you turn, or it'll slip back the moment you let go. Small movements. A string
-that's way off is usually a peg job; a string that's a hair flat is a fine-tuner job.
+The **fine tuners** — the little screws on the tailpiece — make small adjustments; use these
+day to day (turn *in* to raise the pitch). The **pegs** make big ones.
 
-## It drifts
+Pegs hold by friction alone, so:
 
-New strings stretch for a week or two. Temperature and humidity move everything. Tune **every
-time**, before you play and again after a few minutes.
+- turn **slowly**, and **push the peg gently in** toward the pegbox as you turn, or it slips
+  straight back the moment you let go;
+- always come *up* to the note from just below, and **stop the instant you reach it**;
+- if the pitch is going *down* as you turn, you're going the wrong way.
+
+## Hearing "in tune"
+
+Two strings a fifth apart, bowed together, lock into **one clean, ringing sound** when they're
+in tune. Slightly out, you hear a **wobble** — a pulsing beat — that slows down and vanishes as
+you close in. Learning to hear that beat disappear is a real ear skill, and the drone is the
+best place to practise it.
 
 <TryThis>
-  Open the practice bar, set the drone to A, and bow your open A against it. Turn the A fine
-  tuner until the beating between the two sounds slows and disappears.
+  Open the practice bar, set the drone to **A**, and bow your open A against it. Nudge the A
+  fine tuner one way, then the other — hear the beating speed up and slow down — and settle it
+  where the two sounds merge into one. Then tune your D the same way against the A.
 </TryThis>
+
+## The usual mistake
+
+- **Yanking a peg past the note** and snapping the string — turn in tiny amounts;
+- **forcing a fine tuner** that's already screwed all the way in (unscrew it most of the way
+  and take up the slack with the peg);
+- tuning **E first**, or out of order;
+- **not pushing the peg in**, so it won't hold.
+
+New strings also stretch for a week or two, and temperature and humidity move everything —
+which is why you tune before you play, and again a few minutes in.
+
+<Cite source="A = 440 Hz — the international standard (ISO 16, adopted 1939 / 1955)">
+  fixes concert pitch worldwide. Tuning in perfect fifths, though, isn't a convention — it's
+  built into how the violin is strung, and it's why so much beginner music lives in G, D and A.
+</Cite>
