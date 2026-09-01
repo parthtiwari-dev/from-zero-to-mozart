@@ -101,6 +101,7 @@ const P = true; // published — for scanning the list quickly
 
 export const LESSONS: Lesson[] = [
   // ── Stage 0 — Setup ──────────────────────────────────────────────
+  { slug: "how-this-course-works", title: "How this course works", stage: 0, track: "setup", tag: "NOW", published: P },
   { slug: "meet-the-violin", title: "Meet the violin", stage: 0, track: "setup", tag: "NOW", published: P },
   { slug: "gear-and-care", title: "Gear, and looking after it", stage: 0, track: "setup", tag: "NOW", published: P },
   { slug: "how-you-stand", title: "How you stand", stage: 0, track: "setup", tag: "NOW", published: P },

@@ -5,6 +5,12 @@ import type {
   TableHTMLAttributes,
 } from "react";
 import { CircleOfFifths } from "@/components/CircleOfFifths";
+import {
+  BowDiagram,
+  BowHoldDiagram,
+  BowLanesDiagram,
+  ViolinDiagram,
+} from "@/components/Diagram";
 import { Cite, Margin } from "@/components/Margin";
 import { NotatedExample } from "@/components/NotatedExample";
 import { Quiz } from "@/components/Quiz";
@@ -24,12 +30,16 @@ const components: MDXComponents = {
     </div>
   ),
   // components lessons can drop straight into their prose
+  BowDiagram,
+  BowHoldDiagram,
+  BowLanesDiagram,
   CircleOfFifths,
   Cite,
   Margin,
   NotatedExample,
   Quiz,
   TryThis,
+  ViolinDiagram,
 };
 
 export function useMDXComponents(): MDXComponents {

@@ -28,11 +28,42 @@ Everything else (open-string `NotatedExample`s, `<Margin>`, `<Cite>`) already ex
 
 ---
 
-## The ten lessons
+## The eleven lessons
 
 Order = teaching order. "Track" is the parallel thread (`curriculum.ts`).
 
-### 0.1 — Meet the violin  ·  track: setup  ·  *already rewritten, light polish only*
+### 0.1 — How this course works  ·  track: setup  ·  *NEW*
+
+**Teaches.** Absorbs the PDF front matter (p1, p4, p6, p7, p193). What you're building: three
+separate layers — **read** (name every note, rhythm and mark), **play** (your body executes
+it), **interpret** (you decide what's musical). You reach "read" long before "play", and
+that's the plan. *"Your first victory is: look at a note, know what it is, know where it lives
+on the violin, know how long it lasts, and explain the marks around it."* **Nothing gates
+you** — no streaks, no locked lessons, no quiz to pass; worksheets are offered, answers are one
+tap away, you set the pace. **The four tags:** NOW (build it now) / NEXT (after first-position
+reading is comfortable) / LATER (real for Mozart, premature today) / REFERENCE (know the word,
+don't drill it). **The scaffold:** early examples show name + string + finger under every note;
+later, the cues drop away one at a time until you're reading plain notation — try first, then
+reveal. **Contextual fingering:** where a note has more than one first-position home, we give
+the beginner default and say it's contextual. **How the players you admire actually learned**
+(documented, for Hilary Hahn): started with Suzuki and the Twinkle Variations — she's said
+every note she plays began there; listened to recordings daily; five years with Klara
+Berkovich on bowing, double stops, vibrato and *phrasing from the start*; lots of Wohlfahrt
+études. We borrow the **principles** — listen daily, master small motions, revisit
+fundamentals forever, add technique in layers, keep the phrasing musical from day one — not a
+prodigy's schedule.
+
+- **The usual mistake:** treating it as a book to binge; skipping the "try it on the violin"
+  step; chasing the next lesson instead of making the current motion easy; not listening to
+  recordings.
+- **Where it comes from:** Suzuki (mother-tongue: listen, small motions, a real tune early);
+  Hilary Hahn's documented start; the read/play/interpret split is the PDF's closing principle.
+- **Example:** none. Keep it short — orientation, not a task.
+
+Sources: PDF front matter p1–8, p192–193; violinist.com & Strings Magazine (Hahn's Suzuki
+start, Berkovich, #100DaysOfPractice); Suzuki method literature.
+
+### 0.2 — Meet the violin  ·  track: setup  ·  *already rewritten, light polish only*
 
 Covers: every named part of the violin (scroll, pegs, pegbox, nut, neck, fingerboard, bridge,
 f-holes, sound post, tailpiece, fine tuners) and the bow (frog, tip, screw, hair, rosin); the
@@ -47,7 +78,7 @@ Leopold Mozart opens the treatise with the instrument before any playing.
 
 ---
 
-### 0.2 — Gear, and looking after it  ·  track: setup
+### 0.3 — Gear, and looking after it  ·  track: setup
 
 **Teaches.** The small kit: violin + bow, **rosin**, case, a soft cloth, a tuner or tuner app,
 a music stand; a shoulder rest and spare strings. **Sizing** — a full-size (4/4) violin for an
@@ -70,7 +101,7 @@ Sources: Violinspiration (rosin, chinrest, care), CodaBow (frog, anatomy), Strin
 
 ---
 
-### 0.3 — How you stand  ·  track: setup
+### 0.4 — How you stand  ·  track: setup
 
 **Teaches.** A balanced, tall, unlocked stance — everything else is built on it. Feet about
 shoulder-width; weight even across both feet (some players carry a touch more on the left, the
@@ -93,7 +124,7 @@ violinist.com (posture checklist), bodymap.org, violinonline (playing position).
 
 ---
 
-### 0.4 — Holding the violin  ·  track: setup
+### 0.5 — Holding the violin  ·  track: setup
 
 **Teaches.** The violin is **balanced between the collarbone and the gentle weight of the
 head** — not gripped, and **not held up by the left hand**. It sits on the collarbone, in
@@ -121,7 +152,7 @@ Magazine (chin rest, shoulder rest), Metzler Violins (fitting guide), bodymap.or
 
 ---
 
-### 0.5 — The left-hand frame  ·  track: left-hand
+### 0.6 — The left-hand frame  ·  track: left-hand
 
 **Teaches.** The **frame** — one stable hand shape that all four fingers work from, so the
 hand doesn't re-form for every note. **Thumb:** rests lightly on the *side* of the neck, about
@@ -151,7 +182,7 @@ hand" PDF), Violinspiration (left-hand position), violinist.com threads.
 
 ---
 
-### 0.6 — Holding the bow  ·  track: bow
+### 0.7 — Holding the bow  ·  track: bow
 
 **Teaches.** Build the hold finger by finger (on a pencil first, then the bow, at the frog).
 **Thumb:** always **bent**, never locked straight; tip in the little nook where the stick
@@ -179,7 +210,7 @@ sarahwallinhuff (bowhold comparison), MasterClass (Russian), CSUN (Franco-Belgia
 
 ---
 
-### 0.7 — Tuning  ·  track: ear  ·  *first real ear-training moment*
+### 0.8 — Tuning  ·  track: ear  ·  *first real ear-training moment*
 
 **Teaches.** The four strings — **G3, D4, A4, E5** — a stack of **perfect fifths**. Standard
 pitch: **A = 440 Hz** (the A next to the E). **Order: tune A first** to a reference (a tuner
@@ -211,7 +242,7 @@ get-tuned, gear4music, fisherviolins, violinist.com (fifths, ringing tones), ang
 
 ---
 
-### 0.8 — The geography of the bow  ·  track: bow
+### 0.9 — The geography of the bow  ·  track: bow
 
 **Teaches.** The **map** of the bow: **frog** (heel, by your hand), **tip** (point),
 **middle**; the **lower half** (frog→middle) and **upper half** (middle→tip); "at the frog",
@@ -243,7 +274,7 @@ violinlounge (contact points), the "20 on the highway" exercise.
 
 ---
 
-### 0.9 — Your first sound  ·  track: bow  ·  *the payoff of Stage 0*
+### 0.10 — Your first sound  ·  track: bow  ·  *the payoff of Stage 0*
 
 **Teaches.** Put it together: stand, hold the violin, hold the bow, set the **flat** hair on
 the open **D** string in the **middle lane**, at the **middle of the bow**, and **draw it** —
@@ -277,7 +308,7 @@ Mozart quotes).
 
 ---
 
-### 0.10 — How to practise  ·  track: setup
+### 0.11 — How to practise  ·  track: setup
 
 **Teaches.** The **practice loop** for anything: (1) know **what** you're fixing — *one*
 thing (the bow staying straight; the frame not squeezing; a clean string crossing); (2) know

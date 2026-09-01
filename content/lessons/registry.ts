@@ -9,6 +9,7 @@ type MDXModule = { default: ComponentType };
  */
 export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   // Stage 0 — Setup
+  "how-this-course-works": () => import("./how-this-course-works.mdx"),
   "meet-the-violin": () => import("./meet-the-violin.mdx"),
   "gear-and-care": () => import("./gear-and-care.mdx"),
   "how-you-stand": () => import("./how-you-stand.mdx"),

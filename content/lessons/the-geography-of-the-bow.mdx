@@ -1,24 +1,58 @@
-Scores and teachers talk about *where* in the bow you are and *which way* it's going, constantly.
-Learn the words now so those instructions mean something.
+Scores and teachers talk about *where* in the bow you are and *which way* it's going,
+constantly. "At the frog." "Upper half." "Whole bow." Learn the map now so those instructions
+mean something.
 
 ## Along the bow
 
+<BowDiagram />
+
 From your hand outward: the **frog** (also "the heel"), the **lower half**, the **middle**, the
-**upper half**, the **tip** (also "the point"). Different parts feel different — the frog is
-heavy and powerful, the tip is light and needs help.
+**upper half**, the **tip** (also "the point"). The parts feel different — the frog is heavy
+and powerful, the tip is light and needs help from your arm.
 
 ## Which direction
 
-- **Down-bow** — written **⊓** — you *pull*, moving the bow from frog toward tip. It naturally
-  gets a little heavier.
+- **Down-bow** — written **⊓**, like a little table — you *pull*, moving from frog toward tip.
+  It naturally gets a bit heavier as you go.
 - **Up-bow** — written **V** — you *push*, tip back toward frog. It naturally gets lighter.
 
-Strong beats often fall on down-bows; that's a default, not a law.
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+!downbow! D4 | !upbow! D4 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  caption="Open D: one whole down-bow, then one whole up-bow. Press play, then bow along — slow and even."
+  defaultBpm={54}
+/>
+
+Strong beats often fall on down-bows — that's a Baroque default, "the rule of the down-bow",
+not a law.
 
 ## Where it crosses the string
 
-The bow travels in a straight lane **parallel to the bridge**. Where the hair actually meets
-the string — the **contact point**, or sounding point — is something you steer. Galamian
-described roughly five lanes between the bridge and the fingerboard, each with its own colour:
-near the bridge is loud and intense and hard to control; near the fingerboard is soft and
-flute-like. For now, aim for the middle lane and keep the bow straight.
+<BowLanesDiagram />
+
+The bow travels in a straight lane **parallel to the bridge** — never drifting onto the
+fingerboard or climbing the bridge. *Where* the hair meets the string, between bridge and
+fingerboard, is the **contact point** (or sounding point), and you steer it. Galamian divides
+that space into five lanes: lane 1 at the bridge is loud, full and hard to control; lane 5 at
+the fingerboard is soft and flute-like. For now, start every note in **lane 3** and keep the
+bow straight.
+
+## The usual mistake
+
+- the bow **skidding toward the fingerboard** as it nears the tip — the arm collapses; keep
+  reaching;
+- **climbing the bridge** near the frog;
+- **changing the bow hold** to change strings — instead, raise or lower the **whole arm** to a
+  new level, like stopping a lift on a different floor. The hand and bow just come along.
+
+<Cite source="Galamian, Principles of Violin Playing and Teaching (1962)">
+  reduced tone to three things you control at once: **bow speed, weight into the string, and
+  the sounding point.** The five numbered contact points are his — each about a bow-hair wide.
+</Cite>
