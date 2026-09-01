@@ -38,18 +38,19 @@ a rewrite of the map; it's writing each lesson the way the map deserves.
 
 ## 2. Lesson types
 
-Not every lesson should be the same length. Four types:
+Not every lesson should be the same length. Five types:
 
 | Type | Length (floor, not target) | What it is | Examples |
 |---|---|---|---|
 | **Atom** | ~150–280 words | one small concrete fact in a chain of siblings | `the-g-string`, `rests`, `common-time` |
-| **Concept** | ~350–750 words | one idea *with consequences* — the reader has to understand *why*, not just *that* | `why-g-major-has-one-sharp`, `detache`, `ties-and-slurs`, `the-key-signature` |
-| **Annotated line** | as long as the music needs (600–1500+) | one real piece of music, gone through completely — every note, every mark | *new* — see §5 |
+| **Concept** | ~350–750 words | one idea *with consequences* — the reader has to understand *why*, not just *that* | `why-g-major-has-one-sharp`, `detache`, `ties-and-slurs` |
+| **Melody / piece** | as long as the tune needs | one real tune in our annotated line — every note labelled, **a how-to-play note per line** (bow placement, direction, part of bow, weight, what to listen for), playback. This is how *all* repertoire is presented, Twinkle to K.216. | *new* — Ode to Joy, Twinkle, the Vivaldi *Spring* theme, … (`THE-PATH.md`) |
 | **Reference / atlas card** | structured, not prose-bound | a lookup entry with fixed fields | bow-stroke atlas, symbol dictionary |
 | **Checkpoint** | short | a gate — "here's where you should be" + a self-check | `the-foundation-check` |
 
 Today almost everything is written at **atom** length. The **concept** lessons are the ones
-most hurt by that and get fixed first.
+most hurt by that and get fixed first, then the **melody** lessons get built (they don't exist
+yet — no repertoire has been authored).
 
 ---
 
@@ -94,32 +95,35 @@ checked material, not memory. Quotes are facts; the accuracy rule applies to the
 
 ---
 
-## 5. The annotated-line lesson + component
+## 5. The melody lesson + `AnnotatedScore` component
 
-The lesson type that "explains every note the way a concert sheet would." One real, mostly
-public-domain line of music, gone through completely.
+**How all repertoire is presented — Twinkle to K.216. See `docs/THE-PATH.md`.** One real
+tune, in our annotated line, gone through completely. Never a scanned sheet.
 
-**Component** — extend `NotatedExample` into (or add alongside it) `AnnotatedScore`:
+**Component** — `AnnotatedScore` (extends `NotatedExample`):
 
-- Renders one real line (abcjs), every note individually addressable.
-- Below the staff, a **commentary list** — one entry per note or per small group:
-  *"Bar 1, notes 1–2 — E, E. Third finger on the D string, played twice. Same bow length for
-  both; don't let the second one shrink."* Tapping an entry highlights its note(s); tapping a
-  note jumps to its entry.
-- One-press playback with a **moving cursor** on the note being sounded (abcjs
-  `TimingCallbacks`).
-- Optional **walk mode**: step forward one note / one marking at a time. Opt-in — the default
-  is still one play button and nothing else to press.
-- Correct by construction: the commentary is authored next to the ABC in the same MDX block,
-  so it can't drift from the notes.
+- Renders the tune, **scaled to fit the width** — a single line never scrolls sideways
+  (`RULES.md` R5). Long tunes wrap to multiple staves; the label overlay handles each stave.
+- **name / string / finger under every note** (the scaffold; may fade in later stages).
+- One-press playback with a **moving cursor** on the sounding note (abcjs `TimingCallbacks`);
+  adjustable tempo. Optional **walk mode** — step one note/marking at a time (opt-in).
+- **A how-to-play note per line** (`RULES.md` R3): where to start the bow, direction, part of
+  the bow, weight, what to listen for. Specific — *"Start at the frog, short down-bow to the
+  middle; carry on in the upper half, light hand — one long breath."*
+- Optional **per-note commentary** for deep studies (K.216 first system): tap a note ↔ its
+  entry.
+- Correct by construction: ABC + labels + notes all authored in the same MDX block.
 
-**First four annotated lines to build:**
+**The melody set lives twice, authored once:** in the curriculum (woven into the stage where
+its skill is taught) and on the **practice page** `/practice` — a filterable list (key ·
+lowest position · skill drilled · in-the-PDF?). Release a melody the moment its notes are
+covered, not only at the stage's end.
 
-1. **Ode to Joy** (the course's own starting point) — first position, D and A strings.
-2. **The one-octave G major scale** — the thing every other scale lesson refers back to.
-3. **A Suzuki Book 1 phrase** — e.g. the opening of *Lightly Row* or *Song of the Wind*
-   (sequence referenced, line re-notated ourselves — see `PLAN.md` Part D).
-4. Later, in the Mozart module: **the first system of K.216**, every mark categorised.
+**First melodies to build (Stage 1 end-goal set — refine in the Stage 1 plan):**
+Hot Cross Buns · Mary Had a Little Lamb · Twinkle (theme + one variation) · Lightly Row · Song
+of the Wind · Go Tell Aunt Rhody · Merrily We Roll Along · Au Clair de la Lune · French Folk
+Song · Long Long Ago · **Ode to Joy** (phrase by phrase → whole) · When the Saints. Then the
+one-octave G major scale as an `AnnotatedScore`. Vivaldi *Spring* theme lands in **Stage 4**.
 
 ---
 

@@ -22,9 +22,9 @@ and `docs/DESIGN_LOCK.md`; this file is the short list you check every time.
 
 2. **The ABC is the source of truth.** Pitch, rhythm and playback all come from the ABC
    string. Labels must match the ABC exactly. Verify **at desktop *and* phone width** (≤ 360px):
-   render + press play + check every notehead is visible and every label sits centred under
-   its note. On a phone the well scrolls sideways — that's expected; the notes are never shrunk
-   to fit. Most notation bugs only show on mobile.
+   render + press play + check every notehead is visible, the whole line fits without a
+   horizontal scrollbar (R5), and every label sits centred under its note. Most notation bugs
+   only show on mobile.
 
 3. **Every fingering is the first-position beginner default, and contextual fingerings say
    so.** Never assert "the one correct fingering." When a note has more than one first-position
@@ -37,14 +37,34 @@ and `docs/DESIGN_LOCK.md`; this file is the short list you check every time.
    not done.
 
 5. **A lesson has enough to actually play.** Not one four-note fragment. The teaching example,
-   then variations/patterns, then at least one real short tune that uses the idea — all fully
-   labeled. Reading and technique lessons especially.
+   then several variations/patterns/contrasts, then a real short tune that uses the idea — all
+   fully labeled. Reading and technique lessons especially.
 
 6. **Lineage attribution is mandatory on concept and annotated-line lessons** — one `<Cite>`
    with a real, checked source.
 
 7. **`read` and `perform` are always separate milestones.** Reading a trill and playing a
    trill are different lessons; never blur them.
+
+## Repertoire & notation (see `docs/THE-PATH.md`)
+
+R1. **Never display a scanned or PDF-style sheet — not once.** Every melody, from Twinkle to
+   K.216, is authored in our **annotated note-line** (staff + name/string/finger per note +
+   playback). A supplied score is a *source to transcribe*, never a thing to embed.
+
+R2. **Every stage ends at real music** — 10–30 melodies tied to its skills, authored once and
+   shown both in the curriculum and on the practice page. Release melodies mid-stage where the
+   notes are already covered.
+
+R3. **Every melody line carries a how-to-play note** — where to start the bow, direction, part
+   of the bow, weight, what to listen for. Specific, not generic.
+
+R4. **Every notation symbol, note-value and marking is taught somewhere.** Keep
+   `docs/NOTATION-COVERAGE.md` current. A symbol may appear before its lesson only with a
+   "proper lesson in Stage N" pointer — never unexplained forever.
+
+R5. **A single line of notation fits the screen** — no horizontal scroll for one line. It
+   scales to the container width; the reader scrolls the *page*, never the staff.
 
 ## Accuracy
 

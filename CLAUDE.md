@@ -89,8 +89,11 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 | File | What's in it |
 |---|---|
 | `RULES.md` (repo root) | the hard, non-negotiable rules — check every change against these |
-| `docs/PLAN.md` | the approved plan (source of truth for scope & phasing) |
-| `docs/CONTENT-STANDARD.md` | how deep a lesson goes — the six beats, lesson types, the annotated-line component, the rewrite order |
+| `docs/THE-PATH.md` | **what this course actually is** — the real named-music journey, per-stage end goals, how repertoire is presented, sheet-music sourcing. Read before planning any stage. |
+| `docs/PLAN.md` | phasing & build order |
+| `docs/CONTENT-STANDARD.md` | how deep a lesson goes — the six beats, the five lesson types, the melody/`AnnotatedScore` vehicle, the rewrite order |
+| `docs/NOTATION-COVERAGE.md` | every notation symbol → the lesson that teaches it (RULES.md R4) |
+| `docs/stage-plans/stage-N.md` | the research + plan for each stage, approved by the user before writing |
 | `docs/DESIGN_LOCK.md` | the locked visual language (being re-picked in Phase 1.5 — see review) |
 | `docs/DESIGN_REVIEW.md` | design audit + the three directions (A/B/C) to choose between |
 | `docs/CURRICULUM.md` | the 10-stage content map, gates, per-stage topic lists |
