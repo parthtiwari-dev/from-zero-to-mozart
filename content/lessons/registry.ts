@@ -45,4 +45,23 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "all-the-landmarks": () => import("./all-the-landmarks.mdx"),
   "sa-and-the-letter-names": () => import("./sa-and-the-letter-names.mdx"),
   "landing-in-tune": () => import("./landing-in-tune.mdx"),
+
+  // Stage 2 — Rhythm
+  "rhythm-before-the-instrument": () =>
+    import("./rhythm-before-the-instrument.mdx"),
+  "note-values": () => import("./note-values.mdx"),
+  "dotted-notes": () => import("./dotted-notes.mdx"),
+  rests: () => import("./rests.mdx"),
+  "beams-or-a-double-stop": () => import("./beams-or-a-double-stop.mdx"),
+  "one-beam-two-beams": () => import("./one-beam-two-beams.mdx"),
+  "ties-and-slurs": () => import("./ties-and-slurs.mdx"),
+  "time-signatures": () => import("./time-signatures.mdx"),
+  "common-time": () => import("./common-time.mdx"),
+  "counting-and-konnakol": () => import("./counting-and-konnakol.mdx"),
+  "syncopation-and-pickups": () => import("./syncopation-and-pickups.mdx"),
+  triplets: () => import("./triplets.mdx"),
+  "reading-quarters-and-eighths": () =>
+    import("./reading-quarters-and-eighths.mdx"),
+  "reading-dotted-rhythms": () => import("./reading-dotted-rhythms.mdx"),
+  "reading-mixed-rhythms": () => import("./reading-mixed-rhythms.mdx"),
 };

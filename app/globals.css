@@ -136,10 +136,40 @@ body {
   border-radius: 9999px;
   background: var(--accent);
 }
+/* not-prose islands (Quiz, etc.) opt out of the bullet-list styling above */
+.prose .not-prose li {
+  padding-left: 0;
+}
+.prose .not-prose li::before {
+  content: none;
+}
 .prose hr {
   border: 0;
   border-top: 1px solid var(--hairline);
   margin: 2rem 0;
+}
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+.prose th,
+.prose td {
+  text-align: left;
+  padding: 0.5rem 1rem 0.5rem 0;
+  border-bottom: 1px solid var(--hairline);
+}
+.prose th {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.prose td:first-child,
+.prose th:first-child {
+  font-weight: 600;
 }
 /* teacher aside — italic serif, muted, a hairline to its left. No box. */
 .prose blockquote {

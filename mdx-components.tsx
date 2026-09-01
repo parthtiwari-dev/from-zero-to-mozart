@@ -1,6 +1,9 @@
 import type { MDXComponents } from "mdx/types";
 import Link from "next/link";
-import type { AnchorHTMLAttributes } from "react";
+import type {
+  AnchorHTMLAttributes,
+  TableHTMLAttributes,
+} from "react";
 import { NotatedExample } from "@/components/NotatedExample";
 import { Quiz } from "@/components/Quiz";
 import { TryThis } from "@/components/TryThis";
@@ -11,6 +14,13 @@ const components: MDXComponents = {
     if (isInternal) return <Link href={href} {...props} />;
     return <a href={href} target="_blank" rel="noreferrer" {...props} />;
   },
+  // GFM tables can run wider than the reading column on small screens —
+  // let them scroll instead of breaking the page layout.
+  table: (props: TableHTMLAttributes<HTMLTableElement>) => (
+    <div className="overflow-x-auto">
+      <table {...props} />
+    </div>
+  ),
   // components lessons can drop straight into their prose
   NotatedExample,
   Quiz,

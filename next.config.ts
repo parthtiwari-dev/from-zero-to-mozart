@@ -10,6 +10,12 @@ const nextConfig: NextConfig = {
   },
 };
 
-const withMDX = createMDX({});
+const withMDX = createMDX({
+  options: {
+    // string form (not an imported function) so Turbopack can use it —
+    // gives lesson tables (| Note | Finger | Where |) GFM support.
+    remarkPlugins: ["remark-gfm"],
+  },
+});
 
 export default withMDX(nextConfig);

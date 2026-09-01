@@ -1,0 +1,36 @@
+Same curved line, two different jobs — told apart by what it connects.
+
+## Tie
+
+A tie joins two notes of the **same pitch**. Don't replay the second note — just hold the
+first one through it. It's how you write a duration that doesn't fit neatly into one notehead,
+or a note that carries across a bar line.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D2-D2 |]`}
+  caption="Tied half notes, same pitch — one continuous 4-beat sound, not two separate attacks."
+  defaultBpm={66}
+/>
+
+## Slur
+
+A slur joins two or more notes of **different** pitches — it's a phrase mark. On the violin it
+almost always means: play the whole group **in one bow**, without re-articulating each note.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+(D E F G) |]`}
+  caption="A slur over four different pitches — one bow stroke carries all four notes."
+  defaultBpm={66}
+/>
+
+Context tells you which one you're looking at almost instantly: if the curve joins **two
+noteheads at the exact same staff position**, it's a tie. If it arcs over **notes that move**,
+it's a slur.

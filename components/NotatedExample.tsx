@@ -52,7 +52,7 @@ export function NotatedExample({
   const abcjsRef = useRef<AbcModule | null>(null);
   const tuneRef = useRef<TuneObject | null>(null);
   const synthRef = useRef<MidiBuffer | null>(null);
-  const labelCount = labels?.length ?? 4;
+  const labelCount = labels?.length ?? 0;
 
   const [shown, setShown] = useState(reveal === "shown");
   const [xs, setXs] = useState<number[]>([]);
@@ -66,9 +66,10 @@ export function NotatedExample({
       const mod = abcjsRef.current ?? (await import("abcjs"));
       if (cancelled || !paperRef.current) return;
       abcjsRef.current = mod;
-      // give each note enough room for a 3-line label (name / string / finger)
-      // so labels never crowd into their neighbours
-      const staffwidth = Math.max(300, labelCount * 70);
+      // With labels, give each note enough room for a 3-line stack (name /
+      // string / finger) so they never crowd their neighbours. With no
+      // labels, notes can sit close together, so a fixed width is enough.
+      const staffwidth = labelCount > 0 ? Math.max(300, labelCount * 70) : 460;
       const [tune] = mod.renderAbc(paperRef.current, abc, {
         add_classes: true,
         staffwidth,

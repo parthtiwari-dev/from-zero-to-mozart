@@ -1,0 +1,40 @@
+Here's the exact confusion that started this whole reading project: two notes drawn close
+together, connected by a line. Are they two quick notes in a row, or two notes played at once?
+
+The rule is about **direction**, not distance.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D/2E/2 z2 z | [DA]2 z2 |]`}
+  caption="Left: two eighth notes joined by a horizontal beam — play them one after another. Right: two noteheads stacked on top of each other — play them together. That's a double stop."
+  defaultBpm={60}
+/>
+
+- **Side by side, joined by a beam** → sequential. Play one, then the other, fast.
+- **Stacked vertically at the same point in time** → simultaneous. Play both together — on the
+  violin, that means two strings at once, a **double stop**.
+
+One more thing this is *not*: **vibrato**. Vibrato is a wobble in pitch on a single held note —
+it never adds extra noteheads to the page. If you see extra notes, it's rhythm or a double
+stop; if you hear a wobble with no new notehead, it's vibrato (something to add much later,
+in Stage 7).
+
+<Quiz
+  items={[
+    {
+      q: "Two eighth notes joined by a beam — sequential or simultaneous?",
+      a: "Sequential. Play the first, then the second.",
+    },
+    {
+      q: "Two noteheads stacked directly on top of each other — sequential or simultaneous?",
+      a: "Simultaneous — a double stop, two strings at once.",
+    },
+    {
+      q: "A performer's hand wobbles slightly while holding one note. Is that a beam, a double stop, or something else?",
+      a: "Something else — vibrato. No new notehead appears on the page for it.",
+    },
+  ]}
+/>
