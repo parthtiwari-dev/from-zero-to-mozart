@@ -1,0 +1,27 @@
+The A string, natural notes, first position.
+
+| Note | Finger | Where |
+|---|---|---|
+| A | 0 | open |
+| B | 1 | middle line of the staff |
+| C | 2 (low) | close to the 1st finger |
+| D | 3 | |
+| E | 4 | same pitch as the open E string |
+
+<NotatedExample
+  abc={`X:1
+M:2/4
+L:1/4
+K:C clef=treble
+"_A"!0!A2 "_B"!1!B2 | "_C"!2!c2 "_D"!3!d2 | "_E"!4!e4 |]`}
+  caption="A string, open to 4th finger: A B C D E. Now you're reading in the upper half of the staff."
+  defaultBpm={60}
+/>
+
+The **C** is a *low* second finger again (raise it a half step for C sharp, a high 2 — that's
+the note you'd use in D major or A major). The **B** on the first finger lands right on the
+middle line of the staff — a good landmark to know cold, since it's dead centre.
+
+<TryThis>
+  A B C D E and back. Then 4th-finger E against open E — they should match.
+</TryThis>

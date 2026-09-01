@@ -1,0 +1,26 @@
+Sometimes a sharp, flat or natural appears in the middle of the music, attached to one note.
+That's an **accidental**. It changes that note — and it keeps changing every note on the same
+line or space **for the rest of that bar**. The bar line resets everything back to the key
+signature.
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/4
+K:C clef=treble
+^C2 E2 C2 z2 | C2 E2 C2 z2 |]`}
+  scaffold={`X:1
+M:C
+L:1/4
+K:C clef=treble
+"_C#"^C2 "_E"E2 "_still C#"C2 z2 | "_C natural"C2 "_E"E2 "_C natural"C2 z2 |]`}
+  mode="answer"
+  caption="The sharp on the first C carries to the second C in the same bar, even with no sign. The bar line cancels it — the C in bar two is natural again."
+  defaultBpm={60}
+/>
+
+So before you play a bar, **scan it**. A sharp early in the bar can still be in force on a note
+later in the same bar that has no sign of its own. Miss that and you'll play a wrong note and
+not know why.
+
+The reading habit: **key signature first, then local accidentals, bar by bar.**

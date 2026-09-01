@@ -1,27 +1,16 @@
 import Link from "next/link";
-import { STAGES } from "@/lib/curriculum";
-
-const STAGE_BLURB: Record<number, string> = {
-  0: "The instrument, posture, the hold, tuning, your first open string.",
-  1: "Every note on every string, and how to read it off the page.",
-  2: "When and how long — the pulse before the instrument.",
-  3: "Dynamics, articulation, ornaments, repeats — everything else on the page.",
-  4: "Keys, major and minor, intervals, why any of it is shaped this way.",
-  5: "Tone, and the core strokes — détaché, legato, martelé, and outward.",
-  6: "Shifting, positions two to seven, double stops.",
-  7: "When you're ready — and phrasing, the thing it all serves.",
-  8: "Reading fluently, and building the ear from the ground up.",
-  9: "A hundred tunes, then the giants, then Mozart's Third.",
-};
+import { courseProgress, publishedLessons, STAGES } from "@/lib/curriculum";
 
 function Rule() {
   return <hr className="my-14 border-0 border-t border-hairline" />;
 }
 
 export default function Home() {
+  const first = publishedLessons()[0];
+  const { published, total } = courseProgress();
   return (
     <main className="mx-auto w-full max-w-[42rem] px-6 py-20 sm:py-28">
-      <p className="label">A violin course &nbsp;·&nbsp; phase 0</p>
+      <p className="label">A violin course</p>
 
       <h1 className="mt-5 font-serif text-[clamp(2.25rem,5vw,3.25rem)] font-normal leading-[1.08] tracking-[-0.02em]">
         From zero to Mozart.
@@ -35,13 +24,16 @@ export default function Home() {
         actually use with the instrument in your hands.
       </p>
 
-      <p className="mt-8">
+      <p className="mt-8 flex flex-wrap items-center gap-x-5 gap-y-2">
         <Link
-          href="/learn/open-strings-on-the-staff"
+          href={`/learn/${first.slug}`}
           className="inline-flex items-center gap-2 rounded-full bg-accent px-5 py-2.5 font-sans text-[0.9375rem] font-medium text-accent-contrast transition-transform duration-100 ease-[var(--ease)] active:scale-[0.98]"
         >
-          Start with the first lesson
+          Start from the beginning
           <span aria-hidden>→</span>
+        </Link>
+        <Link href="/learn" className="label hover:text-ink">
+          see the whole path
         </Link>
       </p>
 
@@ -63,7 +55,7 @@ export default function Home() {
                 <span>
                   <span className="font-medium">{s.name}</span>
                   <span className="block text-[0.95rem] leading-relaxed text-ink-muted">
-                    {STAGE_BLURB[s.n]}
+                    {s.blurb}
                   </span>
                 </span>
               </div>
@@ -120,7 +112,10 @@ export default function Home() {
       <Rule />
 
       <footer className="font-mono text-xs leading-relaxed text-ink-faint">
-        <p>Phase&nbsp;0 — a first lesson and the shell. The rest is being written.</p>
+        <p>
+          {published} of {total} lessons live — Stages&nbsp;0 and&nbsp;1. The rest
+          is being written.
+        </p>
         <p className="mt-1">
           <a
             href="https://github.com/parthtiwari-dev/from-zero-to-mozart"

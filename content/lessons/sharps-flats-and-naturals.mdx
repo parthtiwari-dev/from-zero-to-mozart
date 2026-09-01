@@ -1,0 +1,30 @@
+Three small symbols change a note by a **half step** — the smallest step in this system, and on
+the violin, usually a small slide of one finger.
+
+| Sign | Name | What it does |
+|---|---|---|
+| ♯ | sharp | raises the note a half step |
+| ♭ | flat | lowers the note a half step |
+| ♮ | natural | cancels a sharp or flat — back to the plain note |
+
+<NotatedExample
+  abc={`X:1
+M:2/4
+L:1/4
+K:C clef=treble
+"_F"=F2 | "_F sharp"^F2 | "_F natural"=F2 |]`}
+  scaffold={`X:1
+M:2/4
+L:1/4
+K:C clef=treble
+"_low 2"!2!=F2 | "_high 2"!2!^F2 | "_low 2"!2!=F2 |]`}
+  caption="F, then F sharp, then F natural again — all second finger on the D string. The sharp is the finger sliding a half step toward the bridge."
+  defaultBpm={56}
+/>
+
+On the page the sign sits **just before** the note it changes. On the violin it usually means
+**the same finger, moved**: F is a low 2, F sharp is a high 2. C is a low 2 on the A string,
+C sharp is a high 2. The direction is always the same — sharp moves the finger toward the
+bridge (higher), flat moves it toward the scroll (lower).
+
+Which sharps and flats you'll actually meet depends on the **key** — that's the next page.

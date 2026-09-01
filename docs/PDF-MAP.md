@@ -4,6 +4,10 @@ Every section of the original 193-page PDF (`docs/source/original-violin-book.pd
 `original-violin-book.txt`) and where its content goes in the new site. **Status** starts as
 `todo` and becomes `drafted` → `reviewed` → `live`.
 
+> **2026-09-02:** Front matter + Parts I–II are covered by the 33 published Stage 0 / Stage 1
+> lessons (see `lib/curriculum.ts`) — condensed, re-voiced, drill+answer pairs merged into
+> single reveal pages. Not a 1:1 page map. Parts III–VI (Stages 2–5) still `todo`.
+
 Legend for target stage: see `CURRICULUM.md`.
 
 ---

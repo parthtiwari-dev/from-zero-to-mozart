@@ -1,0 +1,25 @@
+Right after the clef, before the music starts, you'll often see one or more sharps (or flats).
+That's the **key signature**. It's a standing instruction: *these notes are sharp (or flat)
+every time, in every octave, for the whole piece* — unless a later mark cancels one.
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:G clef=treble
+G A B c | d e f g |]`}
+  scaffold={`X:1
+L:1/4
+K:G clef=treble
+"_G"G "_A"A "_B"B "_C"c | "_D"d "_E"e "_F#"f "_G"g |]`}
+  caption="One sharp after the clef. Every F in this piece is now F sharp — including this one, written with no sign of its own. This is the scale of G major."
+  defaultBpm={72}
+/>
+
+That one sharp is **F sharp**, and a key signature with one sharp means **G major**. It's the
+key of *Ode to Joy*, of the open strings ringing sympathetically, and of **Mozart's Violin
+Concerto No. 3** — the piece at the end of this whole course. So an F written with no
+accidental, in a piece with this key signature, is played as F sharp. Your ear and your second
+finger both adjust once, at the start, and stay adjusted.
+
+A key signature with **no** sharps or flats is **C major** (or A minor). We'll build the logic
+of all of them in Stage 4.

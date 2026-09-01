@@ -5,8 +5,44 @@ type MDXModule = { default: ComponentType };
 /**
  * Explicit map of lesson slug → MDX module loader. Explicit (not a dynamic
  * template string) so Turbopack can statically resolve every lesson.
+ * Every published lesson in lib/curriculum.ts needs an entry here.
  */
 export const lessonModules: Record<string, () => Promise<MDXModule>> = {
+  // Stage 0 — Setup
+  "meet-the-violin": () => import("./meet-the-violin.mdx"),
+  "gear-and-care": () => import("./gear-and-care.mdx"),
+  "how-you-stand": () => import("./how-you-stand.mdx"),
+  "holding-the-violin": () => import("./holding-the-violin.mdx"),
+  "the-left-hand-frame": () => import("./the-left-hand-frame.mdx"),
+  "holding-the-bow": () => import("./holding-the-bow.mdx"),
+  tuning: () => import("./tuning.mdx"),
+  "the-geography-of-the-bow": () => import("./the-geography-of-the-bow.mdx"),
+  "your-first-sound": () => import("./your-first-sound.mdx"),
+  "how-to-practise": () => import("./how-to-practise.mdx"),
+
+  // Stage 1 — First position & the staff
+  "four-strings-four-fingers": () => import("./four-strings-four-fingers.mdx"),
+  "low-and-high-fingers": () => import("./low-and-high-fingers.mdx"),
+  "the-staff": () => import("./the-staff.mdx"),
+  "the-treble-clef": () => import("./the-treble-clef.mdx"),
+  "lines-and-spaces": () => import("./lines-and-spaces.mdx"),
   "open-strings-on-the-staff": () => import("./open-strings-on-the-staff.mdx"),
+  "ledger-lines": () => import("./ledger-lines.mdx"),
+  "the-g-string": () => import("./the-g-string.mdx"),
+  "the-d-string": () => import("./the-d-string.mdx"),
+  "the-a-string": () => import("./the-a-string.mdx"),
+  "the-e-string": () => import("./the-e-string.mdx"),
+  "reading-the-lower-strings": () => import("./reading-the-lower-strings.mdx"),
+  "reading-the-upper-strings": () => import("./reading-the-upper-strings.mdx"),
   "which-b-is-this": () => import("./which-b-is-this.mdx"),
+  "same-pitch-more-than-one-place": () =>
+    import("./same-pitch-more-than-one-place.mdx"),
+  "sharps-flats-and-naturals": () => import("./sharps-flats-and-naturals.mdx"),
+  "the-key-signature": () => import("./the-key-signature.mdx"),
+  "accidentals-inside-a-bar": () => import("./accidentals-inside-a-bar.mdx"),
+  "taking-the-help-away": () => import("./taking-the-help-away.mdx"),
+  "reading-g-major": () => import("./reading-g-major.mdx"),
+  "all-the-landmarks": () => import("./all-the-landmarks.mdx"),
+  "sa-and-the-letter-names": () => import("./sa-and-the-letter-names.mdx"),
+  "landing-in-tune": () => import("./landing-in-tune.mdx"),
 };

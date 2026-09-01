@@ -94,13 +94,16 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 
 ## Status
 
-**Phase 0 done.** Design locked (`docs/DESIGN_LOCK.md`), MDX + notation + audio pipeline built,
-practice bar built, landing restyled, and two Stage 1 lessons written as the feel prototype
-(`/learn/open-strings-on-the-staff`, `/learn/which-b-is-this`). Pushed to `main`.
+**Stages 0 and 1 written and live** (33 lessons). Full Stage 0–5 skeleton is in
+`lib/curriculum.ts` (~90 lessons; Stages 2–5 unpublished, showing in `/learn` as "being
+written"). Design locked (`docs/DESIGN_LOCK.md`); pipeline built (MDX + `NotatedExample` with
+abcjs playback + `PracticeBar` + `/learn` contents overview). Pushed to `main`.
 
-**Next:** get the user's reaction to the prototype, then **produce Stages 0–5** — write the
-lesson prose (teacher voice, second person, casual) and notated examples for every section in
-`docs/PDF-MAP.md`, adding each to `lib/curriculum.ts` + `content/lessons/registry.ts`.
+**Next: write Stages 2–5** — one stage at a time. For each lesson: prose (teacher voice, second
+person, casual) + notated examples, matched to `docs/PDF-MAP.md`; add the MDX file, its
+`content/lessons/registry.ts` entry, and flip `published: true` in `lib/curriculum.ts`. Verify
+every example in the browser and every music fact against `docs/RESEARCH.md`. Design polish and
+a `design-pass` come later, on the user's call.
 
 ### Authoring notes (learned building the prototype)
 

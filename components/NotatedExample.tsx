@@ -11,8 +11,15 @@ const VIOLIN_PROGRAM = 40; // General MIDI: Violin
 export interface NotatedExampleProps {
   /** ABC notation — the plain version, no annotations. */
   abc: string;
-  /** ABC with note-name / string / finger annotations. Adds a "show the help" toggle. */
+  /** ABC with note-name / string / finger annotations. Adds a reveal toggle. */
   scaffold?: string;
+  /**
+   * "help"   — a teaching example: the annotated version shows by default,
+   *            toggle reads "hide/show the help".
+   * "answer" — a worksheet: plain notation shows first, toggle reads
+   *            "show/hide the answer".
+   */
+  mode?: "help" | "answer";
   /** One line under the example. */
   caption?: string;
   /** Starting tempo in quarter-notes per minute. Kept deliberately slow. */
@@ -26,6 +33,7 @@ type Status = "idle" | "loading" | "playing";
 export function NotatedExample({
   abc,
   scaffold,
+  mode = "help",
   caption,
   defaultBpm = 60,
   minBpm = 40,
@@ -36,7 +44,7 @@ export function NotatedExample({
   const tuneRef = useRef<TuneObject | null>(null);
   const synthRef = useRef<MidiBuffer | null>(null);
 
-  const [showHelp, setShowHelp] = useState(Boolean(scaffold));
+  const [showHelp, setShowHelp] = useState(mode === "help" && Boolean(scaffold));
   const [bpm, setBpm] = useState(defaultBpm);
   const [status, setStatus] = useState<Status>("idle");
   const [audioOk, setAudioOk] = useState(true);
@@ -148,7 +156,13 @@ export function NotatedExample({
             onClick={() => setShowHelp((v) => !v)}
             className="absolute right-4 top-3 font-sans text-[0.8125rem] text-ink-muted underline decoration-hairline underline-offset-4 hover:text-ink"
           >
-            {showHelp ? "hide the help" : "show the help"}
+            {mode === "answer"
+              ? showHelp
+                ? "hide the answer"
+                : "show the answer"
+              : showHelp
+                ? "hide the help"
+                : "show the help"}
           </button>
         )}
       </div>
