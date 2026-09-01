@@ -315,10 +315,23 @@ practice). Nothing in Part I is dropped; `how-you-stand` + `holding-the-violin` 
 PDF's posture section, and `the-geography-of-the-bow` + `your-first-sound` split its "first
 bowing" section. `docs/PDF-MAP.md` to be re-confirmed line-by-line when writing.
 
-## Decisions I need from you
+## Decisions (approved 2026-09-02)
 
-1. **Build the `<Diagram>` component** (violin, bow, bow-hold, bow-lanes SVGs) — yes / no /
-   just violin+bow and skip the hold+lanes?
-2. **The out-of-tune "beating" example in 0.7** — attempt it in abcjs, or make it a
-   drone-based try-this only?
-3. Anything in the ten lessons above you want cut, added, or reframed before I write.
+1. **Build the `<Diagram>` component — all four drawings** (violin front, bow, bow hold, the
+   five bow lanes). Hand-drawn inline SVG, 1.25px stroke, `currentColor`, `DESIGN_LOCK`-
+   compliant, reusing the notation label overlay. Reused later for the fingerboard.
+2. **The out-of-tune "beating" demo in 0.7 — attempt it as an audio example.** If abcjs can't
+   voice a deliberately-detuned note cleanly, fall back to a drone-based try-this.
+3. Lesson list approved as written.
+
+## Build order for the write session
+
+1. `<Diagram>` component + the four SVGs (violin, bow, bow-hold, bow-lanes).
+2. The three open-string `NotatedExample`s (four strings; bow-direction marks; D–A–D crossing)
+   + test the detuned-fifths example for 0.7.
+3. Write the ten lessons 0.1 → 0.10 to the six beats + `RULES.md`, pulling citations from
+   `LINEAGE-QUOTES.md`.
+4. Verify every example and diagram at desktop **and** phone width; verify every fact against
+   its sources.
+5. Re-confirm `docs/PDF-MAP.md` Part I line by line.
+6. User reviews Stage 0 live → then Stage 1 research + plan.
