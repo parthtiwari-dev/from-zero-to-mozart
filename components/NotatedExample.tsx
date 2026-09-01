@@ -5,7 +5,9 @@ import type { MidiBuffer, TuneObject } from "abcjs";
 
 type AbcModule = typeof import("abcjs");
 
-const SOUNDFONT = "https://paulrosen.github.io/midi-js-soundfonts/abcjs/";
+// FluidR3_GM has the full General MIDI set, including violin (program 40).
+// The abcjs/ folder on that host does NOT have a violin sample — it 404s silently.
+const SOUNDFONT = "https://paulrosen.github.io/midi-js-soundfonts/FluidR3_GM/";
 const VIOLIN_PROGRAM = 40; // General MIDI: Violin
 
 export interface NotatedExampleProps {
