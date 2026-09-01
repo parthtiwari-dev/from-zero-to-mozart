@@ -135,20 +135,31 @@ it didn't, so it happens now, as one focused campaign. It runs research-first.
   `why-g-major-has-one-sharp`, `detache`. `the-g-string` is the model for a *reading* lesson
   (ladder → skips → two real tunes, every note name+string+finger).
 
-**The campaign, per session:**
+**Working mode (user, 2026-09-02):**
+- **Plan each stage with the user before writing it.** Produce the research + a lesson-by-lesson
+  list (what each lesson teaches, its examples, its tune/pattern, its lineage cite) as a short
+  doc; the user approves or adjusts; *then* write.
+- **Tunes: Claude picks and notates them** from the approved bank in `PLAN.md` Part B
+  (Tier 0/1 first), in ABC, matched to the notes each lesson teaches. The user reviews the
+  result. Real scores from the user only for bigger pieces later (Vivaldi, Mozart, anything
+  not a simple PD tune).
+- The four already-reworked lessons (`meet-the-violin`, `the-g-string`, `why-g-major-has-one-
+  sharp`, `detache`) **stay as they are** and get their final polish when the campaign reaches
+  their stage — no separate pass.
 
-1. **Research pass first.** Before rewriting a stage, collect: the verified facts and their
-   ≥2 sources; the lineage quote(s) for each concept lesson (into `docs/LINEAGE-QUOTES.md`);
-   the public-domain tunes/patterns that fit each lesson's notes (name + string + finger
-   worked out); the fingering decisions. No writing until the research for that stage is done.
-2. **Rewrite the stage** to the six beats + rules 1–7. Every pitched example fully labelled.
-   Every concept lesson gets 2–4 examples and at least one real tune or pattern to play.
-3. **Verify** every example in the browser (render + play + labels aligned) and every fact
-   against its sources.
-4. Move to the next stage. **Stage order: 0 → 1 → 2 → 3 → 4 → 5.**
-5. `AnnotatedScore` (note-by-note walkthrough of a whole line) + the first annotated lines
-   (Ode to Joy, G-major scale) come **after** Stages 0–5 are all at standard — unless a
-   lesson clearly needs the multi-line view sooner.
+**The campaign, per stage:**
+
+1. **Research + plan.** Collect: verified facts + ≥2 sources; the lineage quote(s) for each
+   concept lesson (→ `docs/LINEAGE-QUOTES.md`); the tunes/patterns that fit each lesson's notes
+   (name + string + finger worked out); fingering decisions. Write it up as the stage plan.
+   **Send to the user for approval.**
+2. **Rewrite the stage** to the six beats + rules 1–7. Every pitched example fully labelled;
+   every concept lesson 2–4 examples + a real tune/pattern.
+3. **Verify** every example (render + play + labels aligned) and every fact against its sources.
+4. Next stage. **Order: 0 → 1 → 2 → 3 → 4 → 5.**
+5. `AnnotatedScore` + the first annotated lines come **after** Stages 0–5 are all at standard.
+
+**Next action:** the Stage 0 research + plan, for approval.
 
 **Audit — what each built lesson needs** (from a 2026-09-02 scan; 61 `NotatedExample`s across
 ~60 lessons):
