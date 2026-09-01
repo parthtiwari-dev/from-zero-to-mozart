@@ -21,8 +21,10 @@ and `docs/DESIGN_LOCK.md`; this file is the short list you check every time.
      play it" or "all on the open D string").
 
 2. **The ABC is the source of truth.** Pitch, rhythm and playback all come from the ABC
-   string. Labels must match the ABC exactly. Verify: render + press play + check every label
-   sits under its note and reads correctly.
+   string. Labels must match the ABC exactly. Verify **at desktop *and* phone width** (≤ 360px):
+   render + press play + check every notehead is visible and every label sits centred under
+   its note. On a phone the well scrolls sideways — that's expected; the notes are never shrunk
+   to fit. Most notation bugs only show on mobile.
 
 3. **Every fingering is the first-position beginner default, and contextual fingerings say
    so.** Never assert "the one correct fingering." When a note has more than one first-position

@@ -4,6 +4,21 @@ Locked decisions and the reasoning behind them. Add new ones at the top with a d
 
 ---
 
+## 2026-09-02 (night, later) — Notation was broken on mobile everywhere
+
+The user showed a phone screenshot: on `the-g-string` (and every other notated example) the
+staff and clef rendered but **the noteheads didn't**, and only some labels showed. Cause:
+`.notation svg { max-width: 100% }` scaled the SVG down to fit a phone column, but `getBBox()`
+stays in the unscaled coordinate space, so the HTML label overlay drifted off the notes
+(worse further along the line); a one-shot rAF measurement also raced the music-font load.
+
+Fixed (`38e27df`): the SVG renders at natural width and the **well scrolls horizontally** on
+narrow screens — never scaled down. Label positions are mapped through
+`k = renderedWidth / widthAttr` so they sit centred under each note at any width; the measure
+retries ~30 frames. Verified at desktop and 320px: noteheads visible, zero overlap, zero
+alignment error, on teaching examples, worksheets and unlabelled examples. `RULES.md` #2 now
+requires verifying every example at phone width.
+
 ## 2026-09-02 (night) — `RULES.md`, and the content-quality campaign
 
 The user reviewed the four reworked lessons and Direction A. Direction A is accepted. But:
