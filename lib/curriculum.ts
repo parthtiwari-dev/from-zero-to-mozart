@@ -247,6 +247,12 @@ export const LESSONS: Lesson[] = [
   { slug: "the-bow-stroke-atlas", title: "The bow-stroke atlas", stage: 5, track: "bow", tag: "REFERENCE", published: P },
   { slug: "reading-bowings", title: "Reading a bowing", stage: 5, track: "bow", tag: "NOW", published: P },
   { slug: "the-foundation-check", title: "The Foundation check", stage: 5, track: "bow", tag: "NOW", published: P },
+
+  // ── Stage 9 — The repertoire journey ───────────────────────────
+  // The K.216 module. `mozart-k216` is the orientation; each page of the solo
+  // part becomes its own annotated-line lesson (mozart-k216-i-*, -ii-*, -iii-*)
+  // once a clean source (MusicXML / clean edition scan) is in docs/source/.
+  { slug: "mozart-k216", title: "Mozart: Violin Concerto No. 3, K.216", stage: 9, track: "repertoire", tag: "LATER", published: P },
 ];
 
 export const publishedLessons = (): Lesson[] =>

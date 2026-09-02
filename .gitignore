@@ -43,3 +43,10 @@ next-env.d.ts
 # skills: .agents/skills + skills-lock.json are committed (the real files);
 # .claude/skills holds machine-specific absolute-path symlinks — do not commit
 /.claude/
+
+# third-party score transcriptions used only as a local cross-reference
+# (MuseScore .mxl etc.) — the PD source editions in docs/source are committed,
+# these are not redistributed
+/docs/source/*.mxl
+/docs/source/*.mscz
+/docs/source/*.musicxml

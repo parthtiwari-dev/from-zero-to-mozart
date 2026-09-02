@@ -66,6 +66,9 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "taking-the-help-away": () => import("./taking-the-help-away.mdx"),
   "the-first-position-reading-check": () =>
     import("./the-first-position-reading-check.mdx"),
+  // Stage 9 — the K.216 module
+  "mozart-k216": () => import("./mozart-k216.mdx"),
+
   // Movement F — the tunes (also on /practice)
   "tune-twinkle-rhythms": () => import("./tune-twinkle-rhythms.mdx"),
   "tune-twinkle": () => import("./tune-twinkle.mdx"),
