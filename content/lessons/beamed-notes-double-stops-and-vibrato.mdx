@@ -50,6 +50,31 @@ ABcd ABcd z4 z4 |]`}
   defaultBpm={50}
 />
 
+## Read one that has both
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:4/4
+L:1/16
+K:D clef=treble
+ABcd [AE]8 z4 | efge [DA]8 z4 |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C♯", string: "A", finger: "high 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "A + E", string: "A & E", finger: "0 & 0" },
+    { name: "E", string: "E", finger: "0" },
+    { name: "F♯", string: "E", finger: "1" },
+    { name: "G", string: "E", finger: "low 2" },
+    { name: "F♯", string: "E", finger: "1" },
+    { name: "D + A", string: "D & A", finger: "0 & 0" },
+  ]}
+  caption="Each bar: a beamed group of four sixteenths (play them in a row, fast), then a stacked pair held for two beats (play them together — a double stop, two open strings), then a rest. Work out which is which before you reveal."
+  defaultBpm={54}
+/>
+
 ## Three layers, always
 
 When a line looks impossible, split it into three questions and answer them separately:

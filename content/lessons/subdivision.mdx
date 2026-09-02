@@ -1,9 +1,9 @@
 Subdivision is feeling the **smaller** notes even when you're not playing them. On a held
-half note, "2 &" is still ticking inside your head. Just before a run of sixteenths, you're
+half note, "& 2 &" is still ticking inside your head. Just before a run of sixteenths, you're
 already feeling "e & a". The beat stops being a single point and becomes a little grid you
 drop the notes onto.
 
-This is the single most useful anti-rushing habit there is.
+It is the single most useful anti-rushing habit there is, and it costs nothing but attention.
 
 ## Fill the long note
 
@@ -19,11 +19,11 @@ B2 B2 | B/2B/2 B/2B/2 B/2B/2 B/2B/2 |]`}
     { name: "1" }, { name: "&" }, { name: "2" }, { name: "&" },
     { name: "3" }, { name: "&" }, { name: "4" }, { name: "&" },
   ]}
-  caption="Bar 1: two half notes — but keep the '& 2 &' running silently inside each one. Bar 2: the same time, now actually played as eighths. If you subdivided bar 1 properly, bar 2 falls straight into place."
+  caption="Bar 1: two half notes — but keep '& 2 &' running silently through each one. Bar 2: the same span, now actually played as eighths. If you subdivided bar 1 properly, bar 2 falls straight into place at the same tempo."
   defaultBpm={60}
 />
 
-## Feel it before you play it
+## Feel it before it arrives
 
 <NotatedExample
   rhythmOnly
@@ -37,19 +37,63 @@ B B B/4B/4B/4B/4 B |]`}
     { name: "3" }, { name: "e" }, { name: "&" }, { name: "a" },
     { name: "4" },
   ]}
-  caption="During beats 1 and 2, already whisper 'e & a' to yourself — so when beat 3's sixteenths arrive, the grid is running and the notes drop onto it instead of bolting."
+  caption="During beats 1 and 2 — the plain quarters — already be whispering 'e & a' to yourself. Then when beat 3's sixteenths arrive, the grid is already spinning and the notes drop onto it instead of bolting."
+  defaultBpm={56}
+/>
+
+## Two speeds of subdivision, same beat
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:2/4
+L:1/4
+K:C clef=treble
+B/2B/2 B/2B/2 | B/4B/4B/4B/4 B/4B/4B/4B/4 |]`}
+  labels={[
+    { name: "1" }, { name: "&" }, { name: "2" }, { name: "&" },
+    { name: "1" }, { name: "e" }, { name: "&" }, { name: "a" },
+    { name: "2" }, { name: "e" }, { name: "&" }, { name: "a" },
+  ]}
+  caption="Bar 1: two per beat (eighths). Bar 2: four per beat (sixteenths). The same two beats. Switch between them without the underlying pulse flinching — that control is the whole skill."
   defaultBpm={58}
+/>
+
+## In a real phrase
+
+The end of *Ode to Joy*'s first line: three even notes, then a longer one. The long note is
+where players rush the next entry — so subdivide it.
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B B B B | B2 B2 |]`}
+  labels={[
+    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
+    { name: "1 (& 2 &)" }, { name: "3 (& 4 &)" },
+  ]}
+  caption="Four quarters, then two half notes. Keep '& 2 &  & 4 &' running inside those halves so the phrase after them comes in exactly on time, not early."
+  defaultBpm={66}
 />
 
 ## The usual mistake
 
 Rushing the instant the notes get shorter — a fast run, a string of sixteenths — because the
-pulse was being felt in big whole beats with nothing inside them. And the mirror image:
-**clipping** a long note short because nothing was counted through it. Subdivide, and both
-problems go away.
+pulse was being felt in big empty whole-beats with nothing inside them. And the mirror
+image: **clipping** a long note short because nothing was being counted through it. Subdivide,
+and both problems disappear.
+
+<TryThis>
+  Clap a slow steady four. Whisper "e & a" on every beat while you clap only the numbers.
+  Now play any Stage 1 tune and keep that whisper going underneath — you'll feel where you
+  were rushing before.
+</TryThis>
 
 <Cite source="Essential Elements for Strings; Simon Fischer, Basics">
   Essential Elements drills subdivision "from page one"; Fischer's fix for a rushed passage is
   almost always to subdivide the beat before it. "Rushing when the notes get short" is the
-  most-cited beginner rhythm fault.
+  single most-cited beginner rhythm fault.
 </Cite>

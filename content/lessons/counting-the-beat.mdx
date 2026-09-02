@@ -1,51 +1,128 @@
-You need a word for every beat and every division of a beat, said out loud, so your voice
-and your foot can hold the pulse while your hands are busy with the notes. The standard
-system is just numbers and a few small words:
+You need a spoken word for every beat and every division of a beat, so your voice and your
+foot can carry the pulse while your hands are busy with the notes. The standard system is
+just numbers and a few small words.
 
-- **Quarter notes** — one per beat: "**1, 2, 3, 4**".
-- **Eighth notes** — two per beat: "**1 and 2 and 3 and 4 and**" (say "and", or "&").
-- **Sixteenth notes** — four per beat: "**1 e and a, 2 e and a**".
-- **Held notes** — keep the number running: a half note is "**1 – 2 –**", a whole note is
-  "**1 – 2 – 3 – 4 –**". The count never stops, even when the note does.
+| You're playing | You count | Per beat |
+|---|---|---|
+| quarter notes | "**1, 2, 3, 4**" | one |
+| eighth notes | "**1 and 2 and 3 and 4 and**" | two |
+| sixteenth notes | "**1 e and a, 2 e and a**" | four |
+| a held note | keep the numbers running: half = "**1 – 2 –**", whole = "**1 – 2 – 3 – 4 –**" | — |
+
+Say "and", or "&". Say "e" as *ee* and "a" as *uh*. The words don't matter; the steadiness
+does.
+
+## Quarters — one word per beat
 
 <NotatedExample
   rhythmOnly
   abc={`X:1
 M:4/4
-L:1/8
+L:1/4
 K:C clef=treble
-B2 BB B/2B/2B/2B/2 B2 |]`}
+B B B B |]`}
+  labels={[{ name: "1" }, { name: "2" }, { name: "3" }, { name: "4" }]}
+  caption="The simplest case: one number per note. Say it out loud with the playback and tap your foot on each one."
+  defaultBpm={72}
+/>
+
+## Eighths — fill in the "and"
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B/2B/2 B/2B/2 B/2B/2 B/2B/2 |]`}
+  labels={[
+    { name: "1" }, { name: "&" }, { name: "2" }, { name: "&" },
+    { name: "3" }, { name: "&" }, { name: "4" }, { name: "&" },
+  ]}
+  caption="The 'and' lands exactly halfway between the numbers — where your foot is coming back up. Keep the numbers on the down-taps, the 'and's on the up."
+  defaultBpm={64}
+/>
+
+## Sixteenths — "e and a"
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B/4B/4B/4B/4 B/4B/4B/4B/4 B2 |]`}
+  labels={[
+    { name: "1" }, { name: "e" }, { name: "&" }, { name: "a" },
+    { name: "2" }, { name: "e" }, { name: "&" }, { name: "a" },
+    { name: "3 –" },
+  ]}
+  caption="Four to a beat. Say 'one-ee-and-uh, two-ee-and-uh' — smooth and even — then hold the half note for beats 3 and 4, still counting '3 – 4 –' inside it."
+  defaultBpm={54}
+/>
+
+## A whole bar, mixed
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B B/2B/2 B/4B/4B/4B/4 B |]`}
   labels={[
     { name: "1" },
     { name: "2" }, { name: "&" },
     { name: "3" }, { name: "e" }, { name: "&" }, { name: "a" },
     { name: "4" },
   ]}
-  caption="A quarter on beat 1, two eighths on beat 2, four sixteenths on beat 3, a quarter on beat 4. Say the whole count out loud with the playback — including the 'e' and 'a' you don't play a note on."
+  caption="A quarter, two eighths, four sixteenths, a quarter. The count runs 1 — 2 & — 3 e & a — 4, unbroken, whatever your hands are doing."
+  defaultBpm={58}
+/>
+
+## Right count against a common wrong one
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B3/2 B/2 B B |]`}
+  labels={[
+    { name: "1" }, { name: "&" }, { name: "3" }, { name: "4" },
+  ]}
+  caption="A dotted quarter and an eighth, then two quarters. The eighth falls on the '&' of beat 1 — count '1 – & 2 3 4', with the note held from '1' to '&'. The common mistake is counting it '1 2 & 3 4' and clipping the long note short."
   defaultBpm={60}
 />
 
-## Out loud, with your foot
+## Out loud, and with your foot
 
-Counting silently in your head is not the same — the moment a passage gets hard, a silent
-count drifts. Say it aloud and tap your foot on the numbers. Your tabla practice already
-does exactly this: the hand keeps the cycle while the other hand plays. Keep that habit;
-just use the Western numbers here, so what you count matches what's on the page and what a
-teacher would say.
+Counting silently in your head is not the same thing. The moment a passage gets hard, a
+silent count drifts and you don't notice. Say it aloud, tap your foot on the numbers. Your
+tabla practice already does exactly this — one hand keeps the cycle while the other plays.
+Keep that habit; just use the Western numbers here so what you count matches the page and
+what a teacher would say.
 
 ## The metronome
 
 Set it slow — 60 to 70 — and play only as fast as you can play **accurately**. Speed comes
-from repetition at a tempo you can already manage, never from pushing. If the metronome and
-your playing keep drifting apart, the metronome is right.
+from repeating something you can already do cleanly, never from pushing. If your playing and
+the click keep sliding apart, the click is right.
 
 ## The usual mistake
 
-Counting only the beats you play a note on, and going quiet on the "&"s and through long
-notes and rests. The count has to run **continuously** — that unbroken count is the thing
-keeping you in time.
+Counting only the beats you actually play a note on, and going silent on the "and"s and
+through the long notes and rests. The count has to run **continuously** — that unbroken
+count *is* the thing keeping you in time. A held note is not a rest from counting.
+
+<TryThis>
+  Take the mixed bar above. Count it aloud four times through with no clapping at all — just
+  the voice, dead steady. Then add the claps. If the voice was solid, the claps drop straight
+  in.
+</TryThis>
 
 <Cite source="the standard studio and syllabus method — ABRSM, Trinity, Galamian's teaching">
   Every Western classical teacher counts this way. Leopold Mozart's "beat the time" in 1756
-  is the same instinct: a spoken, tapped pulse that runs under everything you play.
+  is the same instinct — a spoken, tapped pulse running under everything you play.
 </Cite>
