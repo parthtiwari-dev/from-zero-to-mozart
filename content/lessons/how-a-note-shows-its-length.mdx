@@ -1,18 +1,21 @@
-On the staff, a note's **height** is its pitch — that was Stage 1. Its **shape** is its
-length. Four parts of the drawing carry that information:
+In Stage 1 a note's **height** on the staff told you its pitch. Its **shape** tells you its
+length. Four parts of the drawing carry that:
 
-- **The head** — the oval. **Filled in** (a solid dot) means a short note; **open** (a hollow
-  ring) means a long one.
-- **The stem** — the vertical line off the head. A whole note has none; everything shorter
-  has a stem.
-- **The flag** — the little tail off the end of a stem, on a note standing alone. One flag,
-  two flags — each one halves the length again.
-- **The beam** — a thick bar joining the stems of short notes into a group. A beam does the
-  same job as flags, just drawn across several notes at once.
+- **The head** — the oval. **Filled in** (a solid dot) = a short note. **Open** (a hollow
+  ring) = a long one.
+- **The stem** — the vertical line off the head. A whole note has none; every shorter value
+  has one.
+- **The flag** — the little curved tail off the end of a stem, on a note standing on its own.
+  One flag halves the length; two flags halve it again.
+- **The beam** — a thick bar joining the stems of a group of short notes. Same job as flags,
+  drawn across several notes at once.
 
-Stem *direction* — up or down — is only tidiness. It never changes the length.
+Stem *direction* — pointing up or down — is only neatness. It never changes the length.
 
 ## The same D, four lengths
+
+Every note in this example is open D. Same pitch, same string, same finger — only the shape
+changes.
 
 <NotatedExample
   abc={`X:1
@@ -29,11 +32,35 @@ D4 | D2 D2 | D D D D |]`}
     { name: "D", string: "D", finger: "0" },
     { name: "D", string: "D", finger: "0" },
   ]}
-  caption="Every note here is open D — same pitch, same string, same finger. Bar 1: one whole note (open head, no stem). Bar 2: two half notes (open head + stem). Bar 3: four quarter notes (filled head + stem). Press play — the pitch never moves, only the length changes."
+  caption="Bar 1: one whole note — open head, no stem, four beats. Bar 2: two half notes — open head plus stem, two beats each. Bar 3: four quarter notes — filled head plus stem, one beat each. Press play and watch the same D get shorter."
   defaultBpm={72}
 />
 
-## Read the shape, name the length
+## Open head against filled head
+
+The trap is reading the head's *position* and skipping its *fill*. Here are two notes on the
+exact same line — same pitch — one open, one filled.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D2 D2 | D D z2 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  caption="Bar 1: two open-head D's — held two beats each. Bar 2: two filled-head D's — one beat each, then a two-beat rest. Identical pitch, half the length. Check the fill every time, not just the height."
+  defaultBpm={72}
+/>
+
+## Name the shape
+
+Work out each note's length from its drawing — filled or open head? stem? flag or beam? —
+before you tap to check.
 
 <NotatedExample
   rhythmOnly
@@ -42,25 +69,44 @@ D4 | D2 D2 | D D D D |]`}
 M:4/4
 L:1/4
 K:C clef=treble
-B2 B | B B/2 B/2 B | B4 |]`}
+B2 B B | B/2B/2 B/2B/2 B B | B4 |]`}
   labels={[
-    { name: "half" }, { name: "quarter" },
-    { name: "quarter" }, { name: "eighth" }, { name: "eighth" }, { name: "quarter" },
+    { name: "half" }, { name: "quarter" }, { name: "quarter" },
+    { name: "eighth" }, { name: "eighth" }, { name: "eighth" }, { name: "eighth" }, { name: "quarter" }, { name: "quarter" },
     { name: "whole" },
   ]}
-  caption="Work out each note's length from its shape before you tap 'show the counts'. Filled or open head? Stem? Flag or beam?"
+  caption="Ten notes, four different shapes. Name each length from its drawing, then reveal."
   defaultBpm={66}
+/>
+
+## A real tune's shapes
+
+The opening of *Twinkle, Twinkle* — pitches left out, just the shapes. Two filled quarter
+heads, two filled quarter heads, two more, then an open half head.
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B B B B | B B B2 |]`}
+  labels={[
+    { name: "quarter" }, { name: "quarter" }, { name: "quarter" }, { name: "quarter" },
+    { name: "quarter" }, { name: "quarter" }, { name: "half" },
+  ]}
+  caption="'Twin-kle twin-kle lit-tle STAR' — six quarter notes and a half note. The shape of every note is telling you exactly how long to hold it."
+  defaultBpm={76}
 />
 
 ## The usual mistake
 
-Reading the head's *height* and skipping its *fill*. An open head and a filled head sitting
-on the very same line are the same pitch and completely different lengths — one held for four
-beats, the other for one. Check both every time: which line (pitch), and filled or open
-(length).
+Reading the head's height (the pitch) and not registering the fill (the length). An open head
+and a filled head on the very same line are the same note held for completely different
+times — four beats versus one. Two questions on every note: which line, and filled or open.
 
 <Cite source="Western notation, settled around 1600">
   Modern noteheads come from medieval mensural notation, where open versus filled shapes were
-  already how scribes marked long against short. The stems and flags were added as the music
-  needed finer divisions.
+  already how scribes marked long against short. Stems and flags were added later, as music
+  needed finer and finer divisions.
 </Cite>

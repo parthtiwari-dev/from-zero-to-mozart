@@ -99,11 +99,16 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   rests: () => import("./rests.mdx"),
   "beams-and-flags": () => import("./beams-and-flags.mdx"),
   "ties-and-slurs": () => import("./ties-and-slurs.mdx"),
-  // Movements C–I — being rebuilt; old thin drafts still routed below
-  "beams-or-a-double-stop": () => import("./beams-or-a-double-stop.mdx"),
+  // Movement C — two notes, or two at once (the Vivaldi keystone)
+  "beamed-notes-double-stops-and-vibrato": () =>
+    import("./beamed-notes-double-stops-and-vibrato.mdx"),
+  // Movement D — counting
+  "counting-the-beat": () => import("./counting-the-beat.mdx"),
+  subdivision: () => import("./subdivision.mdx"),
+  "if-you-count-in-bols": () => import("./if-you-count-in-bols.mdx"),
+  // Movements E–I — being rebuilt; old thin drafts still routed below
   "time-signatures": () => import("./time-signatures.mdx"),
   "common-time": () => import("./common-time.mdx"),
-  "counting-and-konnakol": () => import("./counting-and-konnakol.mdx"),
   "syncopation-and-pickups": () => import("./syncopation-and-pickups.mdx"),
   triplets: () => import("./triplets.mdx"),
   "reading-quarters-and-eighths": () =>

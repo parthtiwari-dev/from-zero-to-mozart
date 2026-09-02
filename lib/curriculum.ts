@@ -205,11 +205,15 @@ export const LESSONS: Lesson[] = [
   { slug: "rests", title: "Rests — silence has a length too", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "beams-and-flags", title: "Beams and flags", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "ties-and-slurs", title: "Ties and slurs", stage: 2, track: "reading", tag: "NOW", published: P },
-  // Movements C–I — old thin drafts, rewritten movement by movement
-  { slug: "beams-or-a-double-stop", title: "Two notes in a row, or two at once?", stage: 2, track: "reading", tag: "NOW", published: P },
+  // Movement C — two notes, or two at once (the Vivaldi keystone)
+  { slug: "beamed-notes-double-stops-and-vibrato", title: "Two in a row, two at once, or a wobble", stage: 2, track: "reading", tag: "NOW", published: P },
+  // Movement D — counting
+  { slug: "counting-the-beat", title: "Counting the beat", stage: 2, track: "ear", tag: "NOW", published: P },
+  { slug: "subdivision", title: "Subdivision", stage: 2, track: "ear", tag: "NOW", published: P },
+  { slug: "if-you-count-in-bols", title: "Optional: if you count in bols", stage: 2, track: "ear", tag: "REFERENCE", published: P },
+  // Movements E–I — old thin drafts, rewritten movement by movement
   { slug: "time-signatures", title: "Time signatures", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "common-time", title: "Common time, and the C", stage: 2, track: "reading", tag: "NOW", published: P },
-  { slug: "counting-and-konnakol", title: "Counting — and counting in bols", stage: 2, track: "ear", tag: "NOW", published: P },
   { slug: "syncopation-and-pickups", title: "Syncopation and pickups", stage: 2, track: "reading", tag: "NEXT", published: P },
   { slug: "triplets", title: "Triplets and other tuplets", stage: 2, track: "reading", tag: "NEXT", published: P },
   { slug: "reading-quarters-and-eighths", title: "Rhythm drill: quarters and eighths", stage: 2, track: "reading", tag: "NOW", published: P },

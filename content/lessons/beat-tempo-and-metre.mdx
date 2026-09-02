@@ -1,20 +1,20 @@
-Four words get used loosely and mean four different things. Getting them straight now saves a
-lot of confusion later.
+Four words get thrown around loosely and mean four different things. Sorting them out now
+saves a lot of muddle later, because almost every rhythm problem is really a confusion
+between two of them.
 
-- **Beat** — the pulse you tap your foot to. Steady, even, usually felt without thinking.
-- **Tempo** — how *fast* that pulse goes. Measured in beats per minute (bpm): 60 is one beat
-  a second, 120 is twice that. The Italian words for tempo — *Adagio*, *Allegro* — come in
-  Stage 3.
-- **Metre** — how the beats *group*. Music leans on some beats more than others: a march
-  feels "**strong**-weak, **strong**-weak" (groups of two); a waltz feels "**strong**-weak-weak"
-  (groups of three). That grouping is the metre.
-- **Rhythm** — the actual pattern of longs and shorts you play *over* the beat. The tune's
-  own shape in time.
+- **Beat** — the pulse you'd tap your foot to. Steady, even, usually felt without counting.
+- **Tempo** — how *fast* that pulse goes. Measured in beats per minute: 60 is one beat a
+  second, 120 is twice that.
+- **Metre** — how the beats *group*. Music leans harder on some beats: a march goes
+  "**one**-two, **one**-two"; a waltz goes "**one**-two-three". That pattern of leaning is
+  the metre.
+- **Rhythm** — the actual pattern of longs and shorts you play *on top of* the beat. The
+  tune's own shape in time.
 
-So: the **beat** is the grid, the **tempo** is how fast the grid moves, the **metre** is how
-the grid is grouped, and the **rhythm** is what you draw on it.
+The **beat** is the grid. **Tempo** is how fast the grid scrolls past. **Metre** is how the
+grid is grouped. **Rhythm** is what you draw on it.
 
-## Same beats, different tempo
+## Same beats, faster and slower — that's tempo
 
 <NotatedExample
   rhythmOnly
@@ -27,13 +27,28 @@ B B B B | B B B B |]`}
     { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
     { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
   ]}
-  caption="Eight identical beats. Play it slow, then drag the tempo up. Nothing about the rhythm changed — only the speed of the pulse."
+  caption="Eight plain beats. Play it at 50, then drag the tempo to 150. Nothing about the rhythm changed — same eight equal beats. Only the speed of the pulse moved."
   defaultBpm={60}
   minBpm={40}
   maxBpm={160}
 />
 
-## Same tempo, different metre
+## Same speed, grouped differently — that's metre
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:2/4
+L:1/4
+K:C clef=treble
+B B | B B | B B | B B |]`}
+  labels={[
+    { name: "1" }, { name: "2" }, { name: "1" }, { name: "2" },
+    { name: "1" }, { name: "2" }, { name: "1" }, { name: "2" },
+  ]}
+  caption="Eight beats grouped in twos — a march. Lean on every 'one'. Feel the strong–weak, strong–weak."
+  defaultBpm={100}
+/>
 
 <NotatedExample
   rhythmOnly
@@ -41,28 +56,51 @@ B B B B | B B B B |]`}
 M:3/4
 L:1/4
 K:C clef=treble
-B B B | B B B |]`}
+B B B | B B B | B B B |]`}
   labels={[
     { name: "1" }, { name: "2" }, { name: "3" },
     { name: "1" }, { name: "2" }, { name: "3" },
+    { name: "1" }, { name: "2" }, { name: "3" },
   ]}
-  caption="The same steady beat as above — but grouped in threes now. Lean on each 'one' as you count. That lean is the metre; the beat itself hasn't changed speed."
-  defaultBpm={92}
+  caption="The exact same pulse speed — now grouped in threes, a waltz. Lean on 'one', let 'two' and 'three' fall away. Same beat, different metre; the accent moved."
+  defaultBpm={100}
+/>
+
+## The rhythm is not the beat
+
+The beat keeps marching underneath while the rhythm does whatever the tune wants on top —
+sometimes matching the beat, sometimes not.
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B2 B/2B/2 B/2B/2 | B B/2B/2 B2 |]`}
+  labels={[
+    { name: "1 –" }, { name: "3" }, { name: "&" }, { name: "4" }, { name: "&" },
+    { name: "1" }, { name: "2" }, { name: "&" }, { name: "3 –" },
+  ]}
+  caption="Tap a steady four with your foot. Now clap this rhythm on top — a long note, then quicker notes, then a held one. Your foot doesn't change; the hands do. That's the rhythm living over the beat."
+  defaultBpm={72}
 />
 
 ## The usual mistake
 
-Saying "faster" when you mean "more notes." Playing eighth notes instead of quarters is not a
-faster tempo — it's the *same* beat, cut into smaller pieces. If a passage feels like it's
-running away from you, check first whether the pulse actually sped up or whether you just hit
-a busier rhythm and panicked.
+Saying "faster" when you mean "more notes." Playing eighth notes instead of quarters is **not**
+a faster tempo — it's the same beat, cut into smaller pieces. If a passage feels like it's
+getting away from you, check first: did the pulse actually speed up, or did you just hit a
+busier rhythm and start to panic? Nine times out of ten it's the second one, and the fix is
+to keep your foot steady.
 
 <TryThis>
-  Set a metronome to 80. Tap along in plain beats. Now, without changing the metronome, clap
-  two claps per click, then three, then four. The tempo never moved — you just subdivided.
+  Set a metronome to 80 and tap along in plain beats. Now, without touching the metronome,
+  fit two claps into each click, then three, then four. The tempo never moved. You were
+  subdividing — a rhythm question, not a speed question.
 </TryThis>
 
-<Cite source="standard practice, traced to Leopold Mozart">
-  Every method since 1756 separates the steady pulse from the pattern played over it. The
-  pulse is the teacher; the rhythm is the pupil.
+<Cite source="standard practice, traceable to Leopold Mozart">
+  Every method since 1756 keeps the steady pulse and the pattern-over-it as separate things
+  the player controls separately. The pulse is the teacher; the rhythm is the pupil.
 </Cite>

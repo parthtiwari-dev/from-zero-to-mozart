@@ -1,0 +1,77 @@
+This is the confusion that started this whole course. Somewhere in a Vivaldi line there's a
+little knot of tightly-drawn notes, and it's not obvious whether it means *two fast notes*,
+*two notes at once*, or a *wobble*. Three different things, and you tell them apart by looking
+at one thing: **which way the noteheads sit.**
+
+| What you see | What it means | Not to be confused with |
+|---|---|---|
+| noteheads **side by side**, joined by a **horizontal beam** | play them **one after another**, fast — the beam just groups them by beat | a double stop |
+| noteheads **stacked vertically**, one on top of another at the same spot | play them **together** — two strings at once — a **double stop** | a beam |
+| a wavy line, a `tr`, or nothing at all, on **one** held note | **vibrato** — the pitch shimmers; there are **never extra noteheads** for it | either of the above |
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D/2E/2 z z2 | [DA]2 z2 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "D + A", string: "D & A", finger: "0 & 0" },
+  ]}
+  caption="Left: two eighth notes joined by a beam — D then E, one after the other. Right: two noteheads stacked at one point in time — open D and open A sounded together, a double stop (you'll learn to play these in Stage 6). Same page, opposite instructions."
+  defaultBpm={60}
+/>
+
+## The "double things" are just fast notes
+
+Here is a run in the style of the Vivaldi line — a beat of sixteenth notes on the A string,
+beamed in a group of four. It looks busy. It is not a chord and it is not vibrato; it is four
+separate notes, played quickly, in order.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/16
+K:D clef=treble
+ABcd ABcd z4 z4 |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C♯", string: "A", finger: "high 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C♯", string: "A", finger: "high 2" },
+    { name: "D", string: "A", finger: "3" },
+  ]}
+  caption="Eight sixteenth notes, two beamed groups — A B C♯ D, twice, up the A string. Slow the tempo right down and read them one at a time; the beam is only telling you they belong to beats 1 and 2."
+  defaultBpm={50}
+/>
+
+## Three layers, always
+
+When a line looks impossible, split it into three questions and answer them separately:
+**pitch** — which notes? **rhythm** — how long is each? **bowing** — one bow or separate?
+Sort those one at a time and the knot comes apart.
+
+## The usual mistake
+
+Freezing at a cluster of small notes and reading it as a chord, or deciding it must be
+"vibrato" and skipping it. Look at the beam: side-by-side means one-after-another. Then slow
+down and read the notes.
+
+<Quiz
+  items={[
+    { q: "Two notes side by side, joined by a beam — together or one after the other?", a: "One after the other. The beam groups them by beat; it doesn't stack them in time." },
+    { q: "Two noteheads drawn one on top of the other — together or one after the other?", a: "Together — a double stop, two strings sounding at once." },
+    { q: "A player's finger shimmers on a single long note, and no new noteheads appear. What is it?", a: "Vibrato. It never adds noteheads — if you see extra notes, it's rhythm or a double stop." },
+  ]}
+/>
+
+<Cite source="the original PDF course, Part III opening">
+  states the goal plainly: be able to tell "a quick pair of notes, a double stop, a slur and
+  vibrato — the exact confusion that came up in Vivaldi Spring." Getting this one straight is
+  the point of the whole rhythm stage.
+</Cite>

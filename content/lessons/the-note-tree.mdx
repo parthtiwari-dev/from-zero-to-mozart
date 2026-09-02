@@ -1,21 +1,21 @@
-Every note value is the one above it, **cut in half**. That single rule builds the whole
-system:
+Every note value is the one above it, **cut in half**. That one rule builds the entire system
+of durations — no exceptions, no extra rules to learn.
 
-- a **whole note** = two **half notes**
-- a half note = two **quarter notes**
-- a quarter note = two **eighth notes**
-- an eighth note = two **sixteenth notes**
+- a **whole note** splits into two **half notes**
+- a half note splits into two **quarter notes**
+- a quarter note splits into two **eighth notes**
+- an eighth note splits into two **sixteenth notes**
 
 So one whole note lasts exactly as long as two halves, or four quarters, or eight eighths, or
-sixteen sixteenths. Same span of time, divided finer and finer.
+sixteen sixteenths. The same span of time, divided finer and finer.
 
 <RhythmTree />
 
-## It's a *ratio*, not a stopwatch
+Look at the tree above: every row is the **same width**, because every row is the same four
+beats. The top row spends all four on one note; the bottom row spreads them across sixteen.
+Reading down the rows, each note is half as wide — half as long — as the one above it.
 
-A quarter note is not "one second." It's **one beat** — and a beat is however long the tempo
-makes it. Speed the tempo up and every value gets shorter together; the *relationships* stay
-exactly the same. A half note is always twice a quarter, whatever the tempo.
+## Hear the halving
 
 <NotatedExample
   rhythmOnly
@@ -23,42 +23,96 @@ exactly the same. A half note is always twice a quarter, whatever the tempo.
 M:4/4
 L:1/4
 K:C clef=treble
-B4 | B2 B2 | B B B B | B/2 B/2 B/2 B/2 B/2 B/2 B/2 B/2 |]`}
+B4 | B2 B2 | B B B B | B/2B/2 B/2B/2 B/2B/2 B/2B/2 |]`}
   labels={[
     { name: "1 – – –" },
     { name: "1 –" }, { name: "3 –" },
     { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
-    { name: "1" }, { name: "&" }, { name: "2" }, { name: "&" }, { name: "3" }, { name: "&" }, { name: "4" }, { name: "&" },
+    { name: "1" }, { name: "&" }, { name: "2" }, { name: "&" },
+    { name: "3" }, { name: "&" }, { name: "4" }, { name: "&" },
   ]}
-  caption="One whole note, then two halves, then four quarters, then eight eighths — each bar the same four beats, cut smaller. Clap and count; the pulse underneath never changes."
+  caption="One whole note, then two halves, then four quarters, then eight eighths — each bar exactly four beats. Press play: the pulse never changes speed. Only the notes get shorter."
   defaultBpm={72}
 />
 
-## How the counts work
+## The values are building blocks
 
-- **Whole note** — hold it four beats: count "1 – 2 – 3 – 4 –", keep the count running.
-- **Half note** — two beats: "1 – " then "3 – ".
-- **Quarter note** — one beat: "1", "2", "3", "4".
-- **Eighth notes** — two per beat: "1 **and** 2 **and**".
-- **Sixteenth notes** — four per beat: "1‑e‑&‑a 2‑e‑&‑a". (You'll drill these in Movement H.)
+The tree isn't a staircase you have to climb in order — you mix the levels freely, in any
+combination that fills the bar. A quarter, then two eighths, then a half: 1 + 1 + 2 = 4.
 
-(There is one more level down — **thirty-second notes**, a third beam — that turns up in fast
-Classical and Romantic music. Recognise the extra beam; you won't need to play them in this
-stage.)
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B B/2B/2 B2 | B/2B/2 B/2B/2 B B |]`}
+  labels={[
+    { name: "1" }, { name: "2" }, { name: "&" }, { name: "3 –" },
+    { name: "1" }, { name: "&" }, { name: "2" }, { name: "&" }, { name: "3" }, { name: "4" },
+  ]}
+  caption="Two bars, both adding to four beats, built from different-sized bricks. Add up the values in each bar and check they come to four."
+  defaultBpm={66}
+/>
+
+## A ratio, not a stopwatch
+
+A quarter note is not "one second" or "about this fast." It's **one beat** — and a beat is
+however long the current tempo makes it. Speed the tempo up and every value shrinks together;
+the *relationships* never move. A half note is always exactly twice a quarter.
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B B B B |]`}
+  labels={[{ name: "1" }, { name: "2" }, { name: "3" }, { name: "4" }]}
+  caption="Four quarter notes. Play it at 50, then drag the tempo to 140. The notes are much shorter at 140 — but still four equal beats, still one quarter each. 'Quarter note' names a fraction of the beat, not a length of time."
+  defaultBpm={50}
+  minBpm={40}
+  maxBpm={144}
+/>
+
+## A real tune is just the tree, arranged
+
+Here's the rhythm of *Mary Had a Little Lamb* — no pitches, just the note values. Every one
+comes straight off the tree: a bar of four quarters, then three bars of quarter–quarter–half.
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B B B B | B B B2 | B B B2 | B B B2 |]`}
+  labels={[
+    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
+    { name: "1" }, { name: "2" }, { name: "3 –" },
+    { name: "1" }, { name: "2" }, { name: "3 –" },
+    { name: "1" }, { name: "2" }, { name: "3 –" },
+  ]}
+  caption="Clap and count the rhythm of Mary Had a Little Lamb: 'Ma-ry had a' (four quarters), then 'lit-tle LAMB', 'lit-tle LAMB', 'lit-tle LAMB' (quarter–quarter–half, three times). You'll play it with pitches in Movement I."
+  defaultBpm={80}
+/>
 
 ## The usual mistake
 
-Trying to give each value a fixed length in your head — "a quarter note is about this fast."
-It isn't a fixed anything. Count the beat, and let every value be its fraction of that beat.
-When the tempo changes, you don't relearn the note; you just count faster or slower.
+Trying to memorise how fast each value "should" go — "a quarter note is roughly this speed."
+It has no fixed speed. Count the beat, and let every note be its fraction of that beat. When
+the tempo changes, you don't relearn anything; you just count faster or slower.
+
+The other half of the mistake: letting the count go quiet inside a long note. A half note is
+still "1 – 2 –" in your head; a whole note is "1 – 2 – 3 – 4 –". The count runs the whole time.
 
 <TryThis>
-  Clap one long note for four steady beats. Then the same four beats as four claps. Then as
-  eight. Keep your counting voice at the exact same speed the whole time — only your hands
-  speed up.
+  Clap one long note for four steady beats, counting aloud. Then the same four beats as four
+  claps. Then as eight. Then sixteen. Keep your counting voice at the exact same speed the
+  whole way through — only your hands speed up. That unchanging voice is the pulse.
 </TryThis>
 
-<Cite source="every string method — Essential Elements, Doflein, ABRSM Grade 1">
-  All of them teach the values as this halving tree, and all of them teach the beat first.
-  The tree is the one picture you keep coming back to.
+<Cite source="every string method — Essential Elements, Doflein Book I, ABRSM Grade 1">
+  All of them lay the values out as this halving tree, and all of them teach the steady beat
+  before the values. Whatever you forget, come back to the tree.
 </Cite>
