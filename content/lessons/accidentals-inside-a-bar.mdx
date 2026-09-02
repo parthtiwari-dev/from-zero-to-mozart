@@ -1,29 +1,50 @@
-Sometimes a sharp, flat or natural appears in the middle of the music, attached to one note.
-That's an **accidental**. It changes that note — and it keeps changing every note on the same
-line or space **for the rest of that bar**. The bar line resets everything back to the key
-signature.
+Sometimes a sharp, flat or natural turns up in the *middle* of the music, attached to one note.
+That's an **accidental** — a local change, not a standing one. It changes that note, and it
+keeps changing every note on the same line or space **until the next bar line**. The bar line
+wipes it, back to the key signature.
 
 <NotatedExample
+  reveal="hidden"
   abc={`X:1
-M:C
+M:3/4
 L:1/4
 K:C clef=treble
-^c2 e2 c2 z2 | c2 e2 c2 z2 |]`}
+^c e c | c e c |]`}
   labels={[
     { name: "C♯", string: "A", finger: "high 2" },
     { name: "E", string: "E", finger: "0" },
-    { name: "C♯ (still)", string: "A", finger: "high 2" },
+    { name: "C♯ — still", string: "A", finger: "high 2" },
     { name: "C♮", string: "A", finger: "low 2" },
     { name: "E", string: "E", finger: "0" },
     { name: "C♮", string: "A", finger: "low 2" },
   ]}
-  reveal="hidden"
   caption="The sharp on the first C carries to the third note — still C sharp, no sign needed. The bar line cancels it: the C in bar two is natural again."
-  defaultBpm={60}
+  defaultBpm={58}
 />
 
-So before you play a bar, **scan it**. A sharp early in the bar can still be in force on a note
-later in the same bar that has no sign of its own. Miss that and you'll play a wrong note and
-not know why.
+## Scan the bar first
 
-The reading habit: **key signature first, then local accidentals, bar by bar.**
+Before you play a bar, look through it. A sharp early in the bar can still be in force on a
+later note that has no sign of its own. Miss it and you play a wrong note without knowing why.
+
+Sometimes an editor adds a **courtesy accidental** — a ♮ or ♯ in brackets — just to remind you
+where things stand after a bar line. It's a kindness, not a new instruction.
+
+## The usual mistake
+
+Two of them: carrying an accidental *past* the bar line (it's already gone), and forgetting it
+applies to the *rest* of the bar (it's still there).
+
+## The reading habit
+
+**Key signature first, then local accidentals, bar by bar.** That order, every time.
+
+<TryThis>
+  Play the line above. In bar one, feel the 2nd finger stay forward (high) for both C's. At the
+  bar line, let it fall back. That physical reset *is* the rule.
+</TryThis>
+
+<Cite source="standard notation convention — carried straight from the PDF">
+  The bar line as a reset is one of the oldest rules in written music. It's why bar lines
+  matter to a reader even before rhythm does.
+</Cite>

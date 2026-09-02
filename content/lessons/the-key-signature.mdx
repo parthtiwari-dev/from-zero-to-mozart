@@ -1,12 +1,14 @@
 Right after the clef, before the music starts, you'll often see one or more sharps (or flats).
-That's the **key signature**. It's a standing instruction: *these notes are sharp (or flat)
-every time, in every octave, for the whole piece* — unless a later mark cancels one.
+That's the **key signature** — a standing instruction: *these notes are sharp every time, in
+every octave, for the whole piece*, unless a later mark cancels one. It saves writing the sign
+on every single F.
 
 <NotatedExample
   abc={`X:1
+M:none
 L:1/4
 K:G clef=treble
-G A B c | d e f g |]`}
+G, A, B, C D E F G |]`}
   labels={[
     { name: "G", string: "G", finger: "0" },
     { name: "A", string: "G", finger: "1" },
@@ -18,14 +20,43 @@ G A B c | d e f g |]`}
     { name: "G", string: "D", finger: "3" },
   ]}
   caption="One sharp after the clef. Every F in this piece is now F sharp — including this one, written with no sign of its own. This is the scale of G major."
-  defaultBpm={72}
+  defaultBpm={66}
 />
 
-That one sharp is **F sharp**, and a key signature with one sharp means **G major**. It's the
-key of *Ode to Joy*, of the open strings ringing sympathetically, and of **Mozart's Violin
-Concerto No. 3** — the piece at the end of this whole course. So an F written with no
-accidental, in a piece with this key signature, is played as F sharp. Your ear and your second
-finger both adjust once, at the start, and stay adjusted.
+## One sharp is G major
 
-A key signature with **no** sharps or flats is **C major** (or A minor). We'll build the logic
-of all of them in Stage 4.
+The single sharp is always **F♯**, and it means **G major** — the key of *Ode to Joy*, of the
+open strings ringing, and of **Mozart's Violin Concerto No. 3**, the piece at the end of this
+whole course.
+
+## The order of sharps
+
+They always arrive in the same order — **F C G D A E B** — and each key adds the next one:
+
+| Sharps | Key | Which sharps |
+|---|---|---|
+| 0 | C major | — |
+| 1 | **G major** | F♯ |
+| 2 | **D major** | F♯ C♯ |
+| 3 | **A major** | F♯ C♯ G♯ |
+
+That order — F C G D A E B — is itself a chain of ascending fifths, and each new key is a fifth
+above the last. You'll build the whole logic in Stage 4; for now, learn the top three, because
+**G, D and A are the keys that fall under the first-position hand** (the same open-string
+reason the violin is tuned G–D–A–E).
+
+## The usual mistake
+
+Playing F♮ in a sharp key because there's no ♯ printed next to that particular note. The
+signature already said it — once, at the front, for good.
+
+<TryThis>
+  Take the G-major line above. Point at every F and say "F sharp" before you play. Then play it
+  again with a plain F on purpose, and hear how wrong it sounds against the rest.
+</TryThis>
+
+<Cite source="the order of sharps — a chain of fifths; ABRSM Grade 1 keys C, G, D">
+  The mnemonic ("Father Charles Goes Down…") gets you started, but the real thing is the
+  pattern: up a fifth, one more sharp. It's the circle of fifths, which you'll meet properly
+  soon.
+</Cite>

@@ -1,5 +1,5 @@
-Three small symbols change a note by a **half step** — the smallest step in this system, and on
-the violin, usually a small slide of one finger.
+Three small signs change a note by a **half step** — the smallest move in this system. On the
+violin that's almost always the *same finger*, slid a little.
 
 | Sign | Name | What it does |
 |---|---|---|
@@ -7,24 +7,54 @@ the violin, usually a small slide of one finger.
 | ♭ | flat | lowers the note a half step |
 | ♮ | natural | cancels a sharp or flat — back to the plain note |
 
+The sign sits **just before** the note it changes.
+
+## The finger slides — it doesn't change
+
 <NotatedExample
   abc={`X:1
-M:2/4
+M:none
 L:1/4
 K:C clef=treble
-=F2 | ^F2 | =F2 |]`}
+F ^F =F |]`}
   labels={[
     { name: "F", string: "D", finger: "low 2" },
     { name: "F♯", string: "D", finger: "high 2" },
     { name: "F♮", string: "D", finger: "low 2" },
   ]}
-  caption="F, then F sharp, then F natural again — all second finger on the D string. The sharp is the finger sliding a half step toward the bridge."
-  defaultBpm={56}
+  caption="F, then F sharp, then F natural again — all 2nd finger on the D string. Sharp slides the finger forward (toward the bridge); natural brings it back."
+  defaultBpm={54}
 />
 
-On the page the sign sits **just before** the note it changes. On the violin it usually means
-**the same finger, moved**: F is a low 2, F sharp is a high 2. C is a low 2 on the A string,
-C sharp is a high 2. The direction is always the same — sharp moves the finger toward the
-bridge (higher), flat moves it toward the scroll (lower).
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+B, _B, =B, |]`}
+  labels={[
+    { name: "B", string: "G", finger: "high 2" },
+    { name: "B♭", string: "G", finger: "low 2" },
+    { name: "B♮", string: "G", finger: "high 2" },
+  ]}
+  caption="B, then B flat, then B natural — 2nd finger on the G string. Flat slides the finger back (toward the scroll)."
+  defaultBpm={54}
+/>
 
-Which sharps and flats you'll actually meet depends on the **key** — that's the next page.
+The direction never changes: **sharp = forward = higher, flat = back = lower.** And a half
+step is the two fingers almost touching — back to the finger patterns.
+
+## The usual mistake
+
+Thinking a sharp or flat means a *different finger*. It's the same finger, moved. The 2nd
+finger plays F and F♯; the 2nd finger plays B and B♭.
+
+<TryThis>
+  Drone on D. Play F♮ (low 2) against it, then F♯ (high 2), then F♮. One sits in D major, one
+  fights it — and it's the *same finger* both times, just shifted a few millimetres.
+</TryThis>
+
+<Cite source="accidentals as the fret-free finger-shift">
+  A piano has a separate key for F♯; a violin doesn't. The sharp is a decision the finger makes.
+  Which sharps and flats a piece actually uses depends on its **key** — the next lesson.
+</Cite>

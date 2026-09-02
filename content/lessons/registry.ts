@@ -55,6 +55,8 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "sharps-flats-and-naturals": () => import("./sharps-flats-and-naturals.mdx"),
   "the-key-signature": () => import("./the-key-signature.mdx"),
   "accidentals-inside-a-bar": () => import("./accidentals-inside-a-bar.mdx"),
+  "reading-in-g-major": () => import("./reading-in-g-major.mdx"),
+  "reading-in-d-and-a": () => import("./reading-in-d-and-a.mdx"),
   // Movement D — landing it in tune
   "sa-and-the-letter-names": () => import("./sa-and-the-letter-names.mdx"),
   // Movement E — taking the scaffolding off

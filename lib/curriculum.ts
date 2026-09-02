@@ -149,11 +149,11 @@ export const LESSONS: Lesson[] = [
   { slug: "which-note-is-this", title: "Which one is this? — the register problem", stage: 1, track: "reading", tag: "NOW", published: P },
   { slug: "all-the-first-position-landmarks", title: "The whole first-position map", stage: 1, track: "reading", tag: "NOW", published: P },
   // Movement C — sharps, flats and the key signature
-  { slug: "sharps-flats-and-naturals", title: "Sharps, flats and naturals", stage: 1, track: "reading", tag: "NOW" },
-  { slug: "the-key-signature", title: "The key signature", stage: 1, track: "reading", tag: "NOW" },
-  { slug: "accidentals-inside-a-bar", title: "Accidentals inside a bar", stage: 1, track: "reading", tag: "NOW" },
-  { slug: "reading-in-g-major", title: "Reading in G major", stage: 1, track: "reading", tag: "NOW" },
-  { slug: "reading-in-d-and-a", title: "Reading in D and A", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "sharps-flats-and-naturals", title: "Sharps, flats and naturals", stage: 1, track: "reading", tag: "NOW", published: P },
+  { slug: "the-key-signature", title: "The key signature", stage: 1, track: "reading", tag: "NOW", published: P },
+  { slug: "accidentals-inside-a-bar", title: "Accidentals inside a bar", stage: 1, track: "reading", tag: "NOW", published: P },
+  { slug: "reading-in-g-major", title: "Reading in G major", stage: 1, track: "reading", tag: "NOW", published: P },
+  { slug: "reading-in-d-and-a", title: "Reading in D and A", stage: 1, track: "reading", tag: "NOW", published: P },
   // Movement D — landing it in tune (the ear)
   { slug: "ringing-tones", title: "Ringing tones", stage: 1, track: "ear", tag: "NOW" },
   { slug: "sa-and-the-letter-names", title: "Sa, and the letter names", stage: 1, track: "ear", tag: "NOW" },
