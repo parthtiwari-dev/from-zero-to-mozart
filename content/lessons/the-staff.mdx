@@ -1,24 +1,64 @@
-Written music sits on a **staff**: five lines with four spaces between them. A note's job is
-split in two — its **shape** tells you how long it lasts (that's Stage 2), and its **height**
-on the staff tells you the pitch.
+The staff is five lines and four spaces. A note is a dot on a line or in a space, and its
+**height is its pitch** — higher on the staff, higher in sound. That's the whole foundation.
+Reading is just working out *which* line or space.
 
-Higher on the staff means higher in pitch. Every step up — from a line to the next space, or a
-space to the next line — moves one letter along the musical alphabet: **A B C D E F G**, then
-it starts over.
+## The shape comes first
+
+When the dots climb, the tune goes up; when they fall, it goes down. Before you name a single
+note you can see the *shape* of a melody — and the shape carries most of the music.
 
 <NotatedExample
+  reveal="hidden"
   abc={`X:1
+M:none
 L:1/4
 K:C clef=treble
-E4 | G4 | B4 | d4 | f4 |]`}
-  caption="The five lines of the treble staff, bottom to top: E, G, B, D, F. Each is two letters above the one below."
-  defaultBpm={64}
+D E F E D |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  caption="Read the shape first — up, up, down, down — then tap to check. It's D E F E D, all on the D string."
+  defaultBpm={56}
 />
 
-The four **spaces**, bottom to top, spell **F, A, C, E**.
+## Position is pitch; shape is length
 
-You'll learn to recognise these positions by sight, the way you recognise letters without
-sounding them out. Mnemonics ("Every Good Boy…", "FACE") get you started, but the fastest
-readers lean on a few fixed **landmarks** and count intervals from them — and your best
-landmarks are the open strings, because they connect straight to the instrument. That's the
-next few pages.
+A note also has a *shape* — filled or open, with a stem or a flag — and that tells you how
+**long** it lasts. That's Stage 2. For now, one job: **position on the staff = pitch.**
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+A B c B A |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="A wider arch, up to the third space and back — A B C B A on the A string."
+  defaultBpm={56}
+/>
+
+## The usual mistake
+
+Reading a stack of notes as separate puzzles instead of one moving line. Your eye should follow
+a melody like a path, not stop dead at every note.
+
+<TryThis>
+  Violin down. Trace the notes on this page with a finger, following the line up and down,
+  humming the shape. No names, no bow — just the contour.
+</TryThis>
+
+<Cite source="staff notation — Guido d'Arezzo, 11th century">
+  gave music a grid where height means pitch. A thousand years on, it's the one idea you never
+  unlearn: up on the page is up in sound.
+</Cite>

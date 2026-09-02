@@ -1,23 +1,57 @@
-The curly symbol at the start of every line of violin music is the **treble clef**, also called
-the **G clef**. It isn't a note you play — it's the key to the whole coordinate system. Without
-it, the five lines could mean any five pitches.
+Every line of violin music opens with the same curly sign: the **treble clef**, or **G clef**.
+It's not a note — it's what fixes the grid. Without it, five blank lines could mean any five
+pitches.
 
-The clef curls tightest around the **second line from the bottom**, and that curl names that
-line **G** — specifically the G an octave above your open G string (the G that's your third
-finger on the D string).
+## It's a letter G
+
+The clef is a stylised capital **G**, and its inner curl wraps the **second line from the
+bottom** — pinning that line as the note **G**. Specifically G4, the G that's your 3rd finger
+on the D string, an octave above the open G string.
 
 <NotatedExample
   abc={`X:1
+M:none
 L:1/4
 K:C clef=treble
-G4 |]`}
-  caption="The line the clef wraps around is G. Everything else is counted from there."
-  defaultBpm={64}
+G |]`}
+  labels={[{ name: "G", string: "D", finger: "3" }]}
+  caption="The line the clef curls around is G. Every other note is counted from there."
+  defaultBpm={56}
 />
 
-Violin music is almost always in treble clef, so you can take it for granted most of the time.
-But make it a habit: when you open a new piece, point at the clef and say "treble clef —
-second line is G." It resets your eye.
+## You count from the anchor
 
-Violists read a different clef (the alto clef); cellists mostly read bass clef and switch to
-treble up high. You'll only ever need this one.
+"Every Good Boy Deserves Fudge" and "FACE" get you started, but they're slow — you're reciting
+a list. Fluent readers keep a few **fixed landmarks** and read everything else as a step or a
+skip away. The clef hands you the first one free: **second line is G.**
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+G B d |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "D", string: "A", finger: "3" },
+  ]}
+  caption="From the clef's G, skip up to B (next line up), skip up to D (next line up). The lines run G–B–D–F–A."
+  defaultBpm={56}
+/>
+
+## The usual mistake
+
+Losing the anchor. The moment a note lands on a ledger line, "Every Good Boy…" runs out — but
+"a skip below the clef's G" still works. Reset your eye at the clef every time you start a line.
+
+<TryThis>
+  Open any piece of violin music. Point at the clef, say "treble clef — second line is G", and
+  find that G on your violin (3rd finger, D string). Do it with three different pieces.
+</TryThis>
+
+<Cite source="the treble clef — a capital G, by the 13th century">
+  Scribes drew a plain letter G on the G line and it slowly grew its curl. The shape still
+  tells you exactly what it did then: *this line is G*.
+</Cite>

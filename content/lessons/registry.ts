@@ -22,36 +22,43 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "how-to-practise": () => import("./how-to-practise.mdx"),
 
   // Stage 1 — First position & reading the staff
+  //   Rebuilt to docs/stage-plans/stage-1.md. Movements A–F in teaching order.
+  // Movement A — the hand on the string
   "four-strings-four-fingers": () => import("./four-strings-four-fingers.mdx"),
   "the-four-finger-patterns": () => import("./the-four-finger-patterns.mdx"),
+  "low-and-high-fingers": () => import("./low-and-high-fingers.mdx"),
   "keeping-fingers-down": () => import("./keeping-fingers-down.mdx"),
   "hands-together": () => import("./hands-together.mdx"),
+  "the-a-string": () => import("./the-a-string.mdx"),
+  "landing-in-tune": () => import("./landing-in-tune.mdx"),
+  "the-d-string": () => import("./the-d-string.mdx"),
+  "the-g-string": () => import("./the-g-string.mdx"),
+  "the-e-string": () => import("./the-e-string.mdx"),
   "crossing-between-strings": () => import("./crossing-between-strings.mdx"),
   "one-pitch-more-than-one-place": () =>
     import("./one-pitch-more-than-one-place.mdx"),
-  "low-and-high-fingers": () => import("./low-and-high-fingers.mdx"),
+  // Movement B — reading pitch off the page
   "the-staff": () => import("./the-staff.mdx"),
   "the-treble-clef": () => import("./the-treble-clef.mdx"),
   "lines-and-spaces": () => import("./lines-and-spaces.mdx"),
-  "open-strings-on-the-staff": () => import("./open-strings-on-the-staff.mdx"),
+  "steps-and-skips": () => import("./steps-and-skips.mdx"),
   "ledger-lines": () => import("./ledger-lines.mdx"),
-  "the-g-string": () => import("./the-g-string.mdx"),
-  "the-d-string": () => import("./the-d-string.mdx"),
-  "the-a-string": () => import("./the-a-string.mdx"),
-  "the-e-string": () => import("./the-e-string.mdx"),
-  "reading-the-lower-strings": () => import("./reading-the-lower-strings.mdx"),
-  "reading-the-upper-strings": () => import("./reading-the-upper-strings.mdx"),
-  "which-b-is-this": () => import("./which-b-is-this.mdx"),
-  "same-pitch-more-than-one-place": () =>
-    import("./same-pitch-more-than-one-place.mdx"),
+  "open-strings-on-the-staff": () => import("./open-strings-on-the-staff.mdx"),
+  "reading-the-a-and-d-strings": () =>
+    import("./reading-the-a-and-d-strings.mdx"),
+  "reading-the-g-and-e-strings": () =>
+    import("./reading-the-g-and-e-strings.mdx"),
+  "which-note-is-this": () => import("./which-note-is-this.mdx"),
+  "all-the-first-position-landmarks": () =>
+    import("./all-the-first-position-landmarks.mdx"),
+  // Movement C — sharps, flats and the key signature
   "sharps-flats-and-naturals": () => import("./sharps-flats-and-naturals.mdx"),
   "the-key-signature": () => import("./the-key-signature.mdx"),
   "accidentals-inside-a-bar": () => import("./accidentals-inside-a-bar.mdx"),
-  "taking-the-help-away": () => import("./taking-the-help-away.mdx"),
-  "reading-g-major": () => import("./reading-g-major.mdx"),
-  "all-the-landmarks": () => import("./all-the-landmarks.mdx"),
+  // Movement D — landing it in tune
   "sa-and-the-letter-names": () => import("./sa-and-the-letter-names.mdx"),
-  "landing-in-tune": () => import("./landing-in-tune.mdx"),
+  // Movement E — taking the scaffolding off
+  "taking-the-help-away": () => import("./taking-the-help-away.mdx"),
 
   // Stage 2 — Rhythm
   "rhythm-before-the-instrument": () =>

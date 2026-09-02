@@ -1,39 +1,66 @@
-Here is every position on the treble staff, bottom to top, with its letter. This is the table
-you're learning to not need.
+Nine positions on the staff — five lines, four spaces — running straight up the musical
+alphabet A B C D E F G. You could memorise all nine. Better: memorise **four landmarks** and
+read the rest as steps and skips from them.
 
-| Position | Note |
-|---|---|
-| bottom line | E |
-| 1st space | F |
-| 2nd line | G |
-| 2nd space | A |
-| middle line | B |
-| 3rd space | C |
-| 4th line | D |
-| 4th space | E |
-| top line | F |
+## The four landmarks
+
+All four are open strings or the clef's G — things already wired to your hand:
+
+| Landmark | Staff position | On the violin |
+|---|---|---|
+| **open D** | just below the bottom line | D string, open |
+| **the clef's G** | second line | D string, 3rd finger |
+| **open A** | second space | A string, open |
+| **open E** | top space | E string, open |
 
 <NotatedExample
   abc={`X:1
+M:none
 L:1/4
 K:C clef=treble
-E F G A | B c d e | f4 |]`}
+D G A e |]`}
   labels={[
-    { name: "E" },
-    { name: "F" },
-    { name: "G" },
-    { name: "A" },
-    { name: "B" },
-    { name: "C" },
-    { name: "D" },
-    { name: "E" },
-    { name: "F" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "E", string: "E", finger: "0" },
   ]}
-  caption="Bottom line to top line, step by step: E F G A B C D E F. Every step is the next letter."
-  defaultBpm={72}
+  caption="The four landmarks, low to high: open D, the clef's G, open A, open E. Learn these cold and the staff has a frame."
+  defaultBpm={54}
 />
 
-Notice it just runs through the alphabet, wrapping from G back to A. A line and the space above
-it are always **one letter apart**; a line and the next line are **two letters apart** (a
-"skip"). Reading fluently is mostly seeing those two shapes — step and skip — instantly, from a
-landmark you already know.
+## Everything else is a step or a skip
+
+A line and the space touching it are **one letter apart** — a step. A line and the next line
+(or a space and the next space) are **two letters apart** — a skip.
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+A B c |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+  ]}
+  caption="Start at open A (second space). Step up to B (middle line), step up to C (third space). No counting from the bottom."
+  defaultBpm={54}
+/>
+
+## The usual mistake
+
+Counting up from the bottom line every single time — "E, G, B, D…". It's slow, and it collapses
+the moment you're on a ledger line. Anchor first, then step or skip.
+
+<TryThis>
+  Cover the labels on the example above. Point at each note and say only "landmark", "step up"
+  or "skip up" — the *relationship*, not the name. Then go back and name them.
+</TryThis>
+
+<Cite source="landmark-note reading — the standard modern method">
+  Teachers stopped drilling all nine names decades ago. A few anchors plus interval reading is
+  faster and it never breaks. Percival Hodgson called it reading the *pattern*.
+</Cite>

@@ -1,0 +1,73 @@
+The musical alphabet only has seven letters, so every letter turns up more than once on the
+staff — a lower one and a higher one, an octave apart. "B" isn't an instruction until you know
+*which* B.
+
+## Two B's
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+B, B |]`}
+  labels={[
+    { name: "B", string: "G", finger: "high 2" },
+    { name: "B", string: "A", finger: "1" },
+  ]}
+  caption="Same letter, an octave apart. The low B is on the G string, below the staff; the high B is on the middle line, 1st finger on the A string."
+  defaultBpm={50}
+/>
+
+## Two C's
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+C c |]`}
+  labels={[
+    { name: "C", string: "G", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+  ]}
+  caption="Middle C, 3rd finger on the G string — and the C an octave up, low 2 on the A string."
+  defaultBpm={50}
+/>
+
+## Read the position, not the letter
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+B, D B |]`}
+  labels={[
+    { name: "B", string: "G", finger: "high 2" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+  ]}
+  caption="Two B's with an open D between them. The staff shows you which is which — one below it, one on the middle line."
+  defaultBpm={52}
+/>
+
+## The usual mistake
+
+Seeing "B" and playing the first B your hand knows, ignoring the octave the staff is showing.
+The letter tells you the note's *name*; the height tells you which one.
+
+## About "C4" and "C5"
+
+Later you'll see notes written as "C4" or "C5" — just a precise way of saying *which* C (C4 is
+middle C). For now, "the lower one" and "the higher one", read from the staff, is enough.
+
+<TryThis>
+  Play low B (G string), then high B (A string), then low B again. Same name, clearly different
+  notes. Then do the same with the two C's.
+</TryThis>
+
+<Cite source="the register problem — a keystone of first-position reading">
+  Octave numbering (C4, C5…) is precise, but it's a label to learn later. What you need now is
+  to believe the staff over the letter.
+</Cite>

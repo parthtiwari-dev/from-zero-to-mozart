@@ -1,0 +1,80 @@
+The fastest way to read is to stop reading note *names* and start reading *moves*. Between one
+note and the next there are only a few possibilities, and two of them cover most music.
+
+## Step and skip
+
+- A **step** (a 2nd) goes from a line to the space right next to it, or a space to the next
+  line — *adjacent*. On the violin, usually the next finger.
+- A **skip** (a 3rd) jumps from a line to the next line, or a space to the next space — hopping
+  over one position. Usually two fingers, or a string.
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+D E F G |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="All steps: space, line, space, line — D E F G up the D string. The notes walk."
+  defaultBpm={56}
+/>
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+D F A |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "A", string: "D", finger: "4" },
+  ]}
+  caption="All skips: space, space, space — D F A. Each jump hops over a position."
+  defaultBpm={56}
+/>
+
+## Bigger jumps
+
+A **4th** or a **5th** is a leap you'll often play as one open string to another (open D to
+open A is a fifth). You feel these as string crossings.
+
+## Read the shape, then the notes
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+E F G F D |]`}
+  labels={[
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  caption="Shape: step up, step up, step down, skip down. Say that before you name a note, and the reading is half done."
+  defaultBpm={56}
+/>
+
+## The usual mistake
+
+Naming every note out loud and losing the pulse. The shape pulls you through the line; the
+names are a check you run *after*, not a gate you pass at every note.
+
+<TryThis>
+  Take any simple tune you can already play. Look at its notation and mark each move — S for
+  step, K for skip, L for leap — without naming a note. Then play it, watching the shape go by.
+</TryThis>
+
+<Cite source="pattern reading — Percival Hodgson, and the Suzuki 'steps and skips'">
+  The eye is far better at spotting *this is a step, that is a skip* than at recalling nine
+  letter names in a hurry. Good sight-readers read the terrain, not the signposts.
+</Cite>

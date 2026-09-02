@@ -1,0 +1,83 @@
+Everything in Movement B, on one page: the whole first-position range, every natural note, all
+four strings, as one map.
+
+## The map
+
+| Note | Staff | String · finger |
+|---|---|---|
+| G | below staff (2nd little line) | G · open |
+| A | below staff | G · 1 |
+| B | just under middle C | G · high 2 |
+| C | 1st ledger below (middle C) | G · 3 |
+| D | just below the bottom line | D · open |
+| E | bottom line | D · 1 |
+| F | 1st space | D · low 2 |
+| G | 2nd line (the clef's G) | D · 3 |
+| A | 2nd space | A · open |
+| B | middle line | A · 1 |
+| C | 3rd space | A · low 2 |
+| D | 4th line | A · 3 |
+| E | 4th space | A · 4 *(or E · open)* |
+| F | top line | E · low 1 |
+| G | space above the staff | E · low 2 |
+| A | 1st ledger above | E · 3 |
+| B | just above that line | E · 4 |
+
+## The four anchors, again
+
+Open D, the clef's G, open A, open E. Know those four on sight and every other note is one or
+two steps away.
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+G, D G B d |]`}
+  labels={[
+    { name: "G", string: "G", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "D", string: "A", finger: "3" },
+  ]}
+  caption="A climb across three strings, spanning the staff. Anchor each note — open G, open D, the clef's G — then skip up to B and D. Don't re-derive from the bottom line."
+  defaultBpm={52}
+/>
+
+## A mixed line
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+E A c B G E |]`}
+  labels={[
+    { name: "E", string: "D", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "E", string: "D", finger: "1" },
+  ]}
+  caption="Steps, a skip and a string crossing, all within the C / G / D range. Read it by pattern; check the notes after."
+  defaultBpm={52}
+/>
+
+## The usual mistake
+
+Knowing each string on its own but freezing when a line jumps between them. The map is one
+thing, not four — read by anchor and interval and the string takes care of itself.
+
+<TryThis>
+  Play the mixed line above from the notation, labels hidden. If you stall, name the nearest
+  anchor out loud and step from it. That's the whole method.
+</TryThis>
+
+<Cite source="the first-position map — where every method is heading">
+  Doflein, Suzuki, Essential Elements — they all build, tune by tune, toward exactly this: the
+  whole of first position, read on sight. You're there.
+</Cite>
