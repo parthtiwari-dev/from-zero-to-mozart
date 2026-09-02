@@ -129,9 +129,16 @@ tune/pattern to play. Plan each stage with the user first (`docs/stage-plans/sta
 
 - **Stage 0: written** — 11 lessons (added `how-this-course-works`), `<Diagram>` component +
   4 SVGs (`components/Diagram.tsx`), open-string audio examples. Awaiting user review.
-- Stage 1 next: research + plan, then write. The 4 earlier reference lessons
-  (`the-g-string` etc.) get their final polish when the campaign reaches their stage.
-- `AnnotatedScore` + annotated lines come after Stages 0–5 are all at standard.
+- **Stage 1: written to `docs/stage-plans/stage-1.md`** — Movements A–E, 33 skill lessons,
+  all published (string order A→D→G→E; every pitched example `M:none` + full
+  name/string/finger labels; the old thin lessons + 6 orphan slugs replaced). Verified
+  rendering at 1536px. Movement F (the 15 end-goal tunes) — the `AnnotatedScore` vehicle is
+  built (`NotatedExample` gained `howToPlay` + `followPlayback` — no separate component) and
+  **proven on `tune-twinkle`**; `/practice` page is live (`pieceLessons()` → static list, nav
+  next to Contents). **14 tunes still to write** — each needs its melody verified against ≥2
+  sources first (RULES). Some Suzuki-vein tunes are copyright-clean only via their public-domain
+  source melody (e.g. Song of the Wind = "Fuchs, du hast die Gans gestohlen").
+- Annotated lines beyond Stage 1's tunes come after Stages 2–5 are all at standard.
 
 Stages 6–9 + the Vivaldi and Mozart modules (Phase 2–3) come after that.
 
