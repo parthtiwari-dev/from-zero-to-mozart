@@ -4,11 +4,12 @@ Every section of the original 193-page PDF (`docs/source/original-violin-book.pd
 `original-violin-book.txt`) and where its content goes in the new site. **Status** starts as
 `todo` and becomes `drafted` → `reviewed` → `live`.
 
-> **2026-09-02:** Front matter + **Parts I–VI are all covered** by the 90 published Stage 0–5
-> lessons (see `lib/curriculum.ts`) — condensed, re-voiced, drill+answer pairs merged into
-> single reveal pages, the score-language quiz rebuilt as a `Quiz` component, ornaments grounded
-> in Leopold Mozart. Not a 1:1 page map. **Parts VII–IX (Stages 6–9 + Vivaldi/Mozart modules)
-> still `todo`.**
+> **2026-09-03:** The Phase-1.5 rebuild has reached Stage 3.
+> - **Parts I–IV → Stages 0–3: ✔ BUILT to the `RULES.md` bar** — not a 1:1 page map; the
+>   research went far past the PDF (see each stage's `stage-plans/stage-N.md` + `-research.md`).
+> - **Part V → Stage 4: NEXT** (research first — see `CLAUDE.md` "NEXT SESSION").
+> - **Part VI → Stage 5:** first-draft skeleton live, not yet rebuilt.
+> - **Parts VII–IX (Stages 6–9 + Vivaldi/Mozart modules): `todo`** (Phase 2–3).
 
 Legend for target stage: see `CURRICULUM.md`.
 
@@ -27,7 +28,7 @@ Legend for target stage: see `CURRICULUM.md`.
 | 7 | Your year-one map | landing "the path" + `how-this-course-works` | drafted |
 | 8 | A 30-minute practice architecture | `how-to-practise` (table) | drafted |
 
-## Part I — The Violin as a Map (p9–28) → **Stage 1** (some → Stage 0)
+## Part I — The Violin as a Map (p9–28) → **Stage 1** (some → Stage 0) — ✔ BUILT (Stage 0 written; Stage 1 rebuilt, `stage-plans/stage-1.md`)
 
 | PDF page | Section | → target | Status |
 |---|---|---|---|
@@ -44,7 +45,7 @@ Legend for target stage: see `CURRICULUM.md`.
 | 27 | §7 "Which B? Which C?" | Stage 1 (keystone lesson) | todo |
 | 28 | §8 Intonation: knowing the finger ≠ landing in tune | Stage 1 + Stage 8 ear-training | todo |
 
-## Part II — Reading Pitch on the Staff (p29–53) → **Stage 1**
+## Part II — Reading Pitch on the Staff (p29–53) → **Stage 1** — ✔ BUILT (Movement B, `stage-plans/stage-1.md`)
 
 | PDF page | Section | → target | Status |
 |---|---|---|---|
@@ -62,7 +63,7 @@ Legend for target stage: see `CURRICULUM.md`.
 | 43 | §21 Octave numbers (C4/C5) — later language | Stage 1 (sidebar) + reference | todo |
 | 44–53 | §22.1–22.5 Sight-reading worksheets + answers | Stage 1 drill pairs (5) | todo |
 
-## Part III — Rhythm (p54–73) → **Stage 2**
+## Part III — Rhythm (p54–73) → **Stage 2** — ✔ BUILT (see `stage-plans/stage-2.md`; Movements A–I, all sections covered and deepened)
 
 | PDF page | Section | → target | Status |
 |---|---|---|---|
@@ -80,26 +81,32 @@ Legend for target stage: see `CURRICULUM.md`.
 | 65 | §33 Bar lines, measures, pickups | Stage 2 | todo |
 | 66–73 | §34.1–34.4 Rhythm worksheets + answers | Stage 2 drill pairs (4) | todo |
 
-## Part IV — Score Symbols (p74–88) → **Stage 3**
+## Part IV — Score Symbols (p74–88) → **Stage 3** — ✔ BUILT 2026-09-03
 
-| PDF page | Section | → target | Status |
+Rebuilt far past the PDF: `docs/stage-plans/stage-3-research.md` (9 research passes) +
+`stage-3.md` → **46 lessons, Movements A–J** (3a Expression: A tempo, B dynamics,
+C articulation · 3b: D bow & string words, E the road map, F ornaments, G string-part
+notation, H editions, I the capstone, J tunes).
+
+| PDF page | Section | → lesson(s) | Status |
 |---|---|---|---|
 | 74 | Part IV divider | — | — |
-| 75 | §35 Tempo words | Stage 3 + reference: glossary | todo |
-| 76 | §36 Dynamics | Stage 3 + glossary | todo |
-| 77 | §37 Articulation | Stage 3 + glossary | todo |
-| 78 | §38 Bow-direction marks | Stage 3 | todo |
-| 79 | §39 String-instrument words | Stage 3 + glossary | todo |
-| 80 | §40 Repeats and navigation | Stage 3 | todo |
-| 81 | §41 Ornaments | Stage 3 (+ Baroque/Classical detail) | todo |
-| 82 | §42 Double stops and chords (notation) | Stage 3 (notation) / Stage 6 (playing) | todo |
-| 83 | §43 Tremolo | Stage 3 | todo |
-| 84 | §44 Harmonics (notation) | Stage 3 (notation) / Stage 6 (playing) | todo |
-| 85 | §45 Finger numbers / string indications in editions | Stage 3 | todo |
-| 86 | §46 Position numbers ≠ finger numbers | Stage 3 + Stage 6 | todo |
-| 87–88 | §47 / 47A Score-language quiz + answers | Stage 3 (quiz — fix the clef glyph) | todo |
+| 75 | §35 Tempo words | `how-fast-and-what-mood` A1 · `bending-the-tempo` A2 · `the-metronome-mark` A3 · `the-metre-carries-the-tempo` A4 · `tempo-words-in-german-and-french` A5 | done |
+| 76 | §36 Dynamics | Movement B (B1–B6: relative levels · hairpins/words · sf/fp/subito · dying-away · history · dynamics-are-a-bow-thing) | done |
+| 77 | §37 Articulation | Movement C (C1–C7: length spectrum · accents/marcato · the marks stack · fermata · breath marks · a-slur-is-one-bow · non-legato-was-normal) | done |
+| 78 | §38 Bow-direction marks | `down-bow-up-bow-and-the-retake` D1 (+ Stage 0 `the-geography-of-the-bow`) | done |
+| 79 | §39 String-instrument words | `arco-and-pizzicato` D2 · `the-colour-words` D3 · `which-string` D4 · `bow-stroke-words-youll-meet` D5 | done |
+| 80 | §40 Repeats and navigation | `repeat-barlines-and-endings` E1 · `da-capo-dal-segno-and-the-coda` E2 · `the-repeat-you-dont-take` E3 · `the-other-road-signs` E4 (rehearsal marks, multi-bar rest, %) | done |
+| 81 | §41 Ornaments | Movement F (F1–F6: what an ornament is · the trill · mordents & the turn · appoggiatura vs acciaccatura · slide & rolled chords · ornaments-are-an-opinion) — Baroque/Classical realisation throughout | done |
+| 82 | §42 Double stops and chords (notation) | `reading-double-stops-and-chords` G1 (Stage 6 = playing) | done |
+| 83 | §43 Tremolo | `tremolo` D6 | done |
+| 84 | §44 Harmonics (notation) | `harmonics-on-the-page` G2 (Stage 6 = playing) | done |
+| 85 | §45 Finger numbers / string indications in editions | `finger-string-or-position` G3 · `who-wrote-this-mark` H1 · `kinds-of-edition` H2 | done |
+| 86 | §46 Position numbers ≠ finger numbers | `finger-string-or-position` G3 (the LESSONS-FROM-MOZART §3 keystone) | done |
+| 87–88 | §47 / 47A Score-language quiz + answers | `decode-a-dense-line` I1 · `the-score-language-check` I2 (`<Quiz>`, real glyphs) | done |
+| — | *(new — not in the PDF)* | `slides-and-octave-signs` G4 (glissando/portamento/8va); Movement J tunes | done |
 
-## Part V — Scales, Keys, Major & Minor (p89–110) → **Stage 4**
+## Part V — Scales, Keys, Major & Minor (p89–110) → **Stage 4** — ⏳ NEXT (research first; see `CLAUDE.md` "NEXT SESSION")
 
 | PDF page | Section | → target | Status |
 |---|---|---|---|

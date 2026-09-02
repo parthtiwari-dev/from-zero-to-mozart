@@ -100,67 +100,49 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 | `docs/NOTATION-COVERAGE.md` | every notation symbol → the lesson that teaches it (RULES.md R4) |
 | `docs/stage-plans/stage-N.md` | the research + plan for each stage, approved by the user before writing |
 | `docs/stage-plans/stage-2-research.md` | Stage 2 (Rhythm) — the research pass + a verification sweep + the user's 9 decisions (§0): metric counting only, the tabla bridge is one optional lesson, compound metre + triplets + syncopation taught in full |
-| `docs/stage-plans/stage-2.md` | Stage 2 (Rhythm) — the lesson-by-lesson plan (Movements A–I, ~33 skill lessons + 9 tunes), awaiting user sign-off |
+| `docs/stage-plans/stage-2.md` | Stage 2 (Rhythm) — the lesson-by-lesson plan (Movements A–I, ~33 skill lessons + tunes). **BUILT.** |
 | `docs/stage-plans/stage-3-research.md` | Stage 3 (Score symbols) — the deep research, 9 passes (Tempo · Dynamics · Articulation · Bow & string words · Repeats & the road map · Ornaments · String-part notation · Editions · Putting it together), each with draft lessons + a full sources list. |
-| `docs/stage-plans/stage-3.md` | Stage 3 (Score symbols) — the **build list**: 47 lessons across Movements A–J, the 3a/3b split, the merges from the research draft, wiring order, the quality bar. Status: **BUILT** — 44 live, 3 tunes pending sources. |
+| `docs/stage-plans/stage-3.md` | Stage 3 (Score symbols) — the **build list**: Movements A–J, the 3a/3b split, the merges from the research draft, the quality bar. Status: **BUILT — 46 live** (42 skill + 4 tunes); Gossec Gavotte deferred. |
 | `docs/LESSONS-FROM-MOZART.md` | what the (deferred) K.216 run taught us the middle stages must teach deeply — bowing, chords, the dense score vocabulary, style. Read before planning Stages 2–7. |
 | `docs/stage-plans/mozart-k216.md` | the deferred K.216 module — what's built, the transcription pipeline, how to resume |
-| `docs/DESIGN_LOCK.md` | the locked visual language (being re-picked in Phase 1.5 — see review) |
+| `docs/DESIGN_LOCK.md` | the locked visual language — Direction A ("The Critical Edition"); chosen and built |
 | `docs/DESIGN_REVIEW.md` | design audit + the three directions (A/B/C) to choose between |
 | `docs/CURRICULUM.md` | the 10-stage content map, gates, per-stage topic lists |
 | `docs/REPERTOIRE.md` | song bank (100+), étude ladder, scale system, "20 famous works" thread |
 | `docs/RESEARCH.md` | user profile, pedagogical lineage, syllabus findings, notation-library notes, sources |
 | `docs/DECISIONS.md` | locked decisions + rationale |
-| `docs/OPEN-QUESTIONS.md` | to discuss before/while building (next session) |
+| `docs/OPEN-QUESTIONS.md` | early Phase-0 questions (mostly settled) |
 | `docs/PDF-MAP.md` | every section of the original PDF → its target stage/lesson |
 | `docs/source/` | the original PDF + text extract, the Vivaldi *Spring* arrangement, the Mozart K.216 score & violin part (`docs/source/README.md`) |
 
 ## Status
 
-**Stages 0–5 drafted and live (90 lessons)** — the whole foundation half, up to the Foundation
-gate. Pipeline built and proven: MDX + `NotatedExample` (abcjs render + violin-timbre playback
-+ real name/string/finger label overlay + worksheet reveal) + `Quiz` + `CircleOfFifths` +
-`PracticeBar` + `/learn` contents. All notation verified rendering; every music fact checked.
-Pushed to `main`.
+**Phase 1.5 — the content-quality campaign — is up to Stage 3.** The rule (`RULES.md` #15):
+no new stages until every built lesson meets `RULES.md` 1–7 — research-first, then rebuild
+**stage by stage 0 → 5** to the six beats, every pitched example fully labelled, every concept
+lesson 2–4 play-arounds + real music. Plan each stage with the user (`stage-plans/stage-N.md`).
 
-**But the lessons are an accurate skeleton, not finished teaching.** The user read them and
-found them too short / not deep enough — they state facts but don't walk you through them, and
-no lesson yet goes through a real line of music note by note. See `docs/CONTENT-STANDARD.md`
-and `docs/DESIGN_REVIEW.md`.
+| Stage | State |
+|---|---|
+| **0 · Setup** | ✔ written — 11 lessons + `<Diagram>` component & SVGs, open-string audio |
+| **1 · First position & the staff** | ✔ rebuilt — `stage-plans/stage-1.md`, Movements A–F, ~43 lessons + 10 published tunes (4 pending PD sources: song-of-the-wind, go-tell-aunt-rhody, long-long-ago, french-folk-song). Deferred: re-notating the published tunes in true (not simplified) rhythm. |
+| **2 · Rhythm** | ✔ rebuilt — `stage-plans/stage-2.md`, Movements A–I, 33 skill lessons + 3 tunes. Added `RhythmTree` `<Diagram>` + `rhythmOnly` mode on `<NotatedExample>`. Deferred: 3 tunes (Pop Goes the Weasel / Jolly Good Fellow / Deck the Halls) pending sources. |
+| **3 · Score symbols** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-3-research.md` + `stage-3.md`, Movements A–J, **46 lessons** (42 skill + 4 tunes). 1 tune deferred (Gossec Gavotte). Details below. |
+| **4 · Scales & musicianship** | ⏳ **NEXT — research first.** See "NEXT SESSION" above. |
+| **5 · The bow** | first-draft skeleton live (14 lessons), not yet rebuilt. Then → Foundation gate. |
 
-**Design: done.** Direction A ("The Critical Edition") chosen and built — ivory/sepia/oxblood,
-the scholarly left margin with `<Margin>`/`<Cite>`, a lesson locator, spelled-out notation
-labels. See `docs/DESIGN_LOCK.md` / `docs/DESIGN_REVIEW.md`.
+**Stage 0–2 audit (`docs/stage-audit.md`, 2026-09-02):** every published lesson checked
+against `PRD.md` §7; 7 thin Stage-1 lessons deepened, 4 partial Stage-1 tunes completed, a
+"usual mistake" beat added to every tune. Stages 0–2 meet the bar.
 
-**Next: Phase 1.5 — the content-quality campaign** (blocking; see `docs/CONTENT-STANDARD.md`
-§6). **No new stages until every built lesson meets `RULES.md` 1–7.** Research-first, then
-rewrite **stage by stage 0 → 5** to the six beats, with *every pitched example labelling every
-note's name + string + finger* and every concept lesson carrying 2–4 examples + a real
-tune/pattern to play. Plan each stage with the user first (`docs/stage-plans/stage-N.md`).
+**Design: done.** Direction A ("The Critical Edition") — ivory/sepia/oxblood, the scholarly
+left margin (`<Margin>`/`<Cite>`), lesson locator, spelled-out notation labels.
+`docs/DESIGN_LOCK.md` / `docs/DESIGN_REVIEW.md`.
 
-- **Stage 0: written** — 11 lessons (added `how-this-course-works`), `<Diagram>` component +
-  4 SVGs (`components/Diagram.tsx`), open-string audio examples. Awaiting user review.
-- **Stage 1: written to `docs/stage-plans/stage-1.md`** — Movements A–E, 33 skill lessons,
-  all published (string order A→D→G→E; every pitched example `M:none` + full
-  name/string/finger labels; the old thin lessons + 6 orphan slugs replaced). Verified
-  rendering at 1536px. Movement F (the tunes): `NotatedExample` gained `howToPlay` +
-  `followPlayback`; `/practice` page is live. **10 of 15 tunes published** (Twinkle rhythms,
-  Twinkle, Ode to Joy, Lightly Row, Au Clair de la Lune, London Bridge, Hot Cross Buns, Mary,
-  Frère Jacques, Jingle Bells) — our own first-position transcriptions, rhythm simplified.
-- **Stage 0–2 audit done (2026-09-02)** — `docs/stage-audit.md`. Every published lesson
-  checked against `PRD.md` §7. Fixes applied: 7 thin Stage-1 skill lessons deepened to 3–4
-  play-arounds; **the 4 partial Stage-1 tunes completed to full melodies** (twinkle,
-  ode-to-joy, lightly-row, au-clair); a "usual mistake" beat added to all 10 tunes; Hot Cross
-  Buns rhythm fixed. Stages 0–2 now meet the bar.
-- **Stage 1 remaining gaps** (not blocking):
-  1. **4 tunes are "coming soon"** (unpublished, shown muted on `/practice`) — melody needs a
-     PD source: `tune-song-of-the-wind` ("Fuchs, du hast die Gans gestohlen"),
-     `tune-go-tell-aunt-rhody`, `tune-long-long-ago`, `tune-french-folk-song`.
-     (`tune-when-the-saints` was the 5th — now promoted to Stage 2.)
-  2. The published Stage-1 tunes' *rhythm* is still simplified in places (whole-beat values);
-     re-notating them in true rhythm is a deferred follow-up.
-  3. Bowing per tune line is phrase-specific now, but could go deeper — see
-     `docs/LESSONS-FROM-MOZART.md`.
+**Pipeline (proven):** MDX + `<NotatedExample>` (abcjs render + violin-timbre playback + real
+name/string/finger label overlay + `rhythmOnly` + `followPlayback` + `howToPlay`) + `<Quiz>` +
+`<CircleOfFifths>` + `<Diagram>` family + the tuner/drone/metronome bar + `/learn` + `/practice`
++ `/mozart`. Build: `npm run build` (176 pages), `npm run lint`, `npx tsc --noEmit` — all green.
 - **K.216 module: deferred** (`docs/stage-plans/mozart-k216.md`). It's Phase 3 and far beyond
   the user now. Built as a proof: `/mozart` index + `mozart-k216` (orientation) +
   `mozart-k216-i-entrance` + `-i-b2` (the first solo, bars 9–19, from a `.mxl` +
@@ -177,7 +159,7 @@ CONTENT-STANDARD bar after the user flagged the first pass as too thin (same mis
 — now: 3–5 play-arounds per concept lesson). Key decisions: **metric counting only** ("1 e &
 a"), *not* Takadimi/konnakol; the tabla↔Western map is **one optional skippable lesson**;
 6/8 + 9/8 + 12/8 + triplets + syncopation taught in full; navigation split (barlines/repeats
-here, D.C./D.S./Coda → Stage 3). Build green (143 pages), lint clean.
+here, D.C./D.S./Coda → Stage 3, now built).
 
 **Stage 2 deferred / to finish:**
 - The 10 Stage-1 tunes: re-notate in true rhythm + complete to full length (was decision 2).
@@ -223,9 +205,50 @@ worked diagram in `da-capo-dal-segno-and-the-coda` E2.)
 **Minor cosmetic:** the densest decode / ending examples (~11–14 labels) crowd the label row;
 single-note / single-chord examples render left-aligned in the well.
 
-**Next: Stage 4 (Scales & musicianship).** Same campaign: research + plan with the user, then
-build to the bar. Note `PRD.md` §6.1 — the harmony/ear thread (triads, cadences, intervals) is
-load-bearing for K.216, budget real lesson count. Stages 5–9 + Vivaldi/Mozart modules after.
+---
+
+## NEXT SESSION — Stage 4 (Scales & musicianship I) : research first
+
+Same campaign as Stages 2–3. **Do the research the way it was done for Stage 3** — interleave
+**~10 web searches, then write that section of `docs/stage-plans/stage-4-research.md`, repeat**
+(don't do all research then all writing — context gets lost). Every music fact against ≥2
+sources / a syllabus (`RULES.md` #8). Then plan (`stage-4.md`) with the user, then build to
+the `PRD.md` §7 bar (six beats · 2–4 play-arounds · every note labelled · cited lineage ·
+ends at real music).
+
+**Scope** (`docs/CURRICULUM.md` §Stage 4, `docs/PLAN.md` Part A, PDF Part V p89–110):
+what a scale is · tonic / scale-degree names · whole & half steps · the major formula
+W-W-H-W-W-W-H · **why G major has one sharp** (derived, not asserted) · the **circle of
+fifths** · the three minors (natural / harmonic / melodic) · parallel vs relative · the 12
+major keys (practical spellings) · **intervals** (number + quality, inversion) with the
+ear-training hook · **triads** (M/m/dim/aug, inversions, diatonic I–vii°, primary I–IV–V,
+dominant 7th) · **cadences** (perfect / plagal / half / deceptive) · phrase & period,
+antecedent/consequent · arpeggios & broken thirds · other scale families (reference:
+chromatic, whole-tone, pentatonic, blues, modes) · scale practice order (NOW G/D/A/C 1-oct →
+NEXT E-minor, 2-oct → LATER 3-oct, thirds, chromatic) · harmonic series / overtones /
+sympathetic resonance / just vs equal temperament · transposition basics.
+
+**Load-bearing:** `PRD.md` §6.1 — the harmony/ear thread (triads, cadences, intervals) is
+what K.216 musicianship rests on; **budget real lesson count**, don't treat it as an aside.
+Existing thin Stage-4 lessons (`what-a-scale-is`, `intervals`, `triads`, `cadences`,
+`major-and-minor`, … — 15 slugs in `lib/curriculum.ts`, and `why-g-major-has-one-sharp` +
+`detache` are already rebuilt) get replaced/deepened. `<CircleOfFifths>` component exists.
+
+**Then — the viral-melody appendix (user's explicit ask, 2026-09-03).** *After* Stage 4 is
+planned, **research the best-sounding / most-recognisable / "viral" melodies** — the tunes
+people actually want to play (film & game themes in the public domain or as *targets*,
+famous classical openings, the "20 famous works" thread in `docs/REPERTOIRE.md` §"20+ famous
+works", TikTok/reels-viral fiddle tunes, wedding/known hymns) — and **append them after the
+Stage-4 plan** as a curated, tagged list (key · lowest position · what makes it catchy · is
+it first-position-playable now · PD status / licensed-arrangement target). Same research
+discipline: search, verify, write, repeat. This feeds `/practice` and the Stage-9 song bank.
+
+**Deferred from Stage 3:** `tune-gossec-gavotte` (Movement J5) — the source PDF is a raster
+full score; it needs the Suzuki Book 1 first-position arrangement or a MusicXML export. Its
+one concept (D.C. al Fine) is already taught. Also verify `tune-minuet-in-g`'s two endings
+and `tune-amazing-grace`'s melody against the source PDFs when convenient.
+
+Stages 5–9 + the Vivaldi and Mozart modules come after Stage 4.
 
 ### Authoring notes
 

@@ -20,7 +20,7 @@ Source mapping to the original PDF is in `PDF-MAP.md`. Repertoire lists are in `
 ---
 
 ### Stage 0 — Orientation & setup (before a note)
-*New content (PDF assumed some of this). ~8–12 lessons.*
+*New content (PDF assumed some of this). **✔ WRITTEN — 11 lessons** + `<Diagram>` SVGs.*
 
 - **The instrument:** every part of the violin and bow, named, with why it matters.
 - **Gear:** sizing, shoulder-rest & chin-rest fit, rosin, case, strings (gut/synthetic/steel),
@@ -42,7 +42,7 @@ Source mapping to the original PDF is in `PDF-MAP.md`. Repertoire lists are in `
   "when you're confused, jump here".
 
 ### Stage 1 — First position on the map + the staff
-*PDF Parts I & II. ~20–26 lessons (many are drill + answer pairs).*
+*PDF Parts I & II. **✔ REBUILT — `stage-plans/stage-1.md`**, Movements A–F, ~43 lessons + tunes.*
 
 - **The staff:** 5 lines / 4 spaces; treble (G) clef; lines & spaces; higher = higher.
 - **Landmarks first:** the four open strings written on the staff; ledger lines (the G string
@@ -74,7 +74,7 @@ Source mapping to the original PDF is in `PDF-MAP.md`. Repertoire lists are in `
   E string; mixed G/D; G major incl. F♯; D + A; all first-position landmarks.
 
 ### Stage 2 — Rhythm: when & how long
-*PDF Part III. ~14–18 lessons.*
+*PDF Part III. **✔ REBUILT — `stage-plans/stage-2.md`**, Movements A–I, 33 skill lessons + tunes.*
 
 - **Rhythm before the instrument** (Leopold Mozart): keep the pulse in your head first.
 - Pulse / beat / tempo. Note anatomy: head, stem, flag, beam.
@@ -100,7 +100,11 @@ Source mapping to the original PDF is in `PDF-MAP.md`. Repertoire lists are in `
 - **Rhythm worksheets** (try + answer): quarter + eighth; eighth + sixteenth; dotted; mixed.
 
 ### Stage 3 — Everything else on the page: score symbols
-*PDF Part IV. ~12–16 lessons.*
+*PDF Part IV. **✔ BUILT 2026-09-03 — 46 lessons, Movements A–J** (3a Expression / 3b the rest
+of the page). Research + plan: `stage-plans/stage-3-research.md`, `stage-plans/stage-3.md`.
+The list below is the original scope; the built stage covers all of it and more (editions as
+a movement, `decode-a-dense-line` capstone, non-legato as the Classical default, the
+finger≠string≠position keystone). 1 tune (Gossec Gavotte) deferred for a cleaner source.*
 
 - **Tempo words** (Italian / German / French) + modifiers (molto, poco, meno, più, assai,
   ma non troppo); rit. / rall. / accel. / stringendo / a tempo / rubato / tempo primo;
@@ -127,6 +131,8 @@ Source mapping to the original PDF is in `PDF-MAP.md`. Repertoire lists are in `
   properly this time).
 
 ### Stage 4 — Scales, keys, major & minor: musicianship I
+*PDF Part V. **⏳ NEXT — research first** (see `CLAUDE.md` "NEXT SESSION"). `PRD.md` §6.1: the
+harmony/ear thread is load-bearing for K.216 — budget real lesson count.*
 *PDF Part V. ~14–18 lessons.*
 
 - **What a scale is:** an ordered set of pitches heard from a tonic; it teaches the pitch

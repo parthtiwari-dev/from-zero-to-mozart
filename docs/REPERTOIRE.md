@@ -106,3 +106,35 @@ Williams *Schindler's List* theme · Morricone *Gabriel's Oboe* · Rachmaninoff 
 Kreisler *Liebesleid* / *Liebesfreid* · Paganini Caprice No. 24 (theme) ·
 Bruch Violin Concerto No. 1 (opening) · Beethoven *Spring* Sonata (opening) ·
 Bach Chaconne (listening & analysis only) · Sarasate *Zigeunerweisen* (listening only).
+
+---
+
+## The "best-sounding / viral melodies" appendix — TO RESEARCH (after Stage 4)
+
+**User's explicit ask (2026-09-03):** once Stage 4 is planned, do a dedicated research pass —
+same interleaved discipline (search ~10, write, repeat) — for the **melodies people most want
+to play**: the recognisable, "viral", instantly-satisfying tunes. Append the curated result
+here (and it feeds `/practice` + the Tier-0/1 song bank above).
+
+For each candidate, tag: **key · lowest position needed · what makes it catchy (the hook) ·
+first-position-playable now? · PD status or licensed-arrangement target · which stage's skill
+it fits.**
+
+Buckets to search:
+- **Film / TV / game themes** — the ones that trend as violin covers (e.g. *Hedwig's Theme*,
+  *Married Life* [Up], *He's a Pirate*, *Interstellar*, *Skyrim* / *Zelda* themes, *Game of
+  Thrones*, *La La Land*, *Requiem for a Dream*, *My Heart Will Go On*, *Over the Rainbow*) —
+  mostly **targets** → licensed arrangements, but note which have a clean first-position hook.
+- **Famous classical openings** already loved as short violin pieces — many are PD and
+  first-position-friendly in a simplified reading (*Canon in D*, *Ave Maria* [Bach/Gounod &
+  Schubert], *Méditation*, *The Swan*, *Air on the G String*, *Salut d'Amour*, Vivaldi
+  *Spring*, *Für Elise*, *Jesu, Joy of Man's Desiring*, *Clair de Lune* theme).
+- **Trad / fiddle tunes that go viral** — *Ashokan Farewell*, *Orange Blossom Special* (as a
+  goal), *Devil Went Down to Georgia* (goal), *Czardas*, Irish session standards, *Amazing
+  Grace*, *Danny Boy*, *Scarborough Fair*, *Greensleeves*, klezmer/Balkan hooks.
+- **Pop hooks** that are essentially one memorable phrase — targets, but flag the ones a
+  first-position player nails in an afternoon.
+
+Cross-check against `THE-PATH.md` §7 (sourcing) and the copyright stance at the top of this
+file. This is a curation task first, a research task second — the point is *"the tune you'd
+show a friend"*, graded honestly by what it actually takes to play.

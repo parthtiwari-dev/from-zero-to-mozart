@@ -302,12 +302,14 @@ export const LESSONS: Lesson[] = [
   { slug: "decode-a-dense-line", title: "Decode a dense line", stage: 3, track: "reading", tag: "NOW", published: P },
   { slug: "the-score-language-check", title: "The score-language check", stage: 3, track: "reading", tag: "NOW", published: P },
   // 3b · Movement J — the tunes (also on /practice).
-  //   J1/J2 from the verified Stage-1 melodies. J3 transcribed from the user's
-  //   easy-version PDF (docs/source, 2026-09-03) — D major, first position.
-  //   tune-amazing-grace + tune-gossec-gavotte: the user's PDFs are raster and
-  //   the arrangements go beyond first position (Amazing Grace modulates to A
-  //   major with position work after b.21; Gossec is dense cut-time 16ths) —
-  //   need MusicXML / a simpler first-position source, or a proofread pass.
+  //   J1/J2 from the verified Stage-1 melodies. J3 (minuet) from the user's
+  //   easy-version PDF — D major, first position; endings reconstructed, verify.
+  //   J4 (amazing-grace) = the plain standard "New Britain" verse in G (the
+  //   user's PDF decorates this and shifts to A major after b.21).
+  //   J5 (gossec-gavotte) DEFERRED (2026-09-03) — the source PDF is a raster
+  //   full score of dense cut-time 16ths, a Suzuki student piece; needs the
+  //   Bk 1 first-position arrangement or a MusicXML export. Its concept
+  //   (D.C. al Fine) is already taught in `da-capo-dal-segno-and-the-coda`.
   { slug: "tune-ode-to-joy-shaped", title: "Ode to Joy, shaped", stage: 3, track: "repertoire", tag: "NOW", published: P, piece: { key: "A major", position: "1st", skill: "reading and playing a full dynamic scheme", inPdf: false } },
   { slug: "tune-twinkle-articulated", title: "Twinkle, articulated", stage: 3, track: "repertoire", tag: "NOW", published: P, piece: { key: "A major", position: "1st", skill: "reading an articulation scheme — staccato / legato / tenuto / portato", inPdf: false } },
   { slug: "tune-minuet-in-g", title: "Minuet in G (Petzold)", stage: 3, track: "repertoire", tag: "NOW", published: P, piece: { key: "D major", position: "1st", skill: "binary repeats + 1st/2nd endings; f/p terracing", inPdf: false } },

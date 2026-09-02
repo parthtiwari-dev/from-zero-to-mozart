@@ -95,3 +95,51 @@ mozarteum.at.
   inherent to the instrument's design.
 - The **"rule of the down-bow"** (Baroque): the first beat of the bar takes a down-bow. Source:
   general performance-practice literature.
+
+## Stage 3 — score symbols (added 2026-09-03; full sourcing in `stage-plans/stage-3-research.md`)
+
+- *Allegro glossed as "gay" / cheerful — a **mood** word before a speed word.* Source:
+  Sébastien de Brossard, *Dictionaire de musique* (1703), via secondary; **well-attested.**
+- *Mozart's Allegros sit well below the tempo a modern player reaches for; the Classical
+  Allegro is contained.* Source: Jean-Pierre Marty, *The Tempo Indications of Mozart* (Yale,
+  1988); **the book's thesis.**
+- *The metronome was patented by J. N. Maelzel in 1815 (adapting Dietrich Nikolaus Winkel's
+  pendulum design); Beethoven, from 1817, was the first major composer to write marks — so
+  Mozart, Haydn and everything Classical have none.* Source: Grove; **factual.**
+- *The Mannheim court orchestra under Johann Stamitz (1740s–60s) drilled the graduated
+  crescendo and diminuendo — the "Mannheim roller"; audiences reportedly rose.* Source: Grove
+  (Mannheim school); **well-attested.**
+- *Leopold Mozart: the forte-piano is a paired stress on a single note — a strong start that
+  immediately gives way — used for emphasis, like a speaker hitting a word then dropping the
+  voice; dynamic shading imitates the inflections of speech.* Source: *Violinschule* (1756),
+  Ch. XII; **close paraphrase.**
+- *Leopold Mozart's picture of rubato: the accompaniment keeps strict time while the melody
+  presses ahead and falls back over it.* Source: *Violinschule* Ch. XII; **close paraphrase.**
+- *The late-18th-century norm was non-legato — unmarked notes played shorter than written,
+  with air between; legato was the marked exception; slurs stopped at the barline.* Source:
+  Clive Brown, *Classical and Romantic Performing Practice 1750–1900* (OUP, 1999); **the
+  book's documented findings.**
+- *Mozart's dots vs strokes (wedges) are inconsistent in the autograph; copyists diverged;
+  two modern Urtext editions of K.216 print them differently.* Source: NMA / Bärenreiter K.216
+  critical notes; *The Strad*; **well-attested.**
+- *C.P.E. Bach, Marpurg and Türk: all trills begin on the upper (auxiliary) note. Hummel
+  (1828), Czerny and Moscheles: begin on the principal note.* Source: C.P.E. Bach, *Versuch*
+  (1753); "The Trill in the Classical Period 1750–1820" (oldflutes.com); **well-attested.**
+- *Leopold Mozart: "All short trills are played with a quick appoggiatura [from above] and a
+  turn."* Source: *Violinschule* (1756); **quote as commonly cited** — confirm exact Knocker
+  wording before it ships verbatim.
+- *Leopold Mozart, Ch. IX: a small note before a descending quarter / eighth / sixteenth is a
+  **long** appoggiatura, taking half the main note's value, on the beat.* Source:
+  *Violinschule* Ch. IX (the whole chapter is the appoggiatura); **close paraphrase.**
+- *The "rule of the down-bow" comes from Lully and the *24 Violons du Roi*; the first note of
+  the bar is taken down-bow so the strong stroke lands on the strong beat.* Source: Georg
+  Muffat, *Florilegium Secundum* (1698) preface, via David Boyden, *The History of Violin
+  Playing from its Origins to 1761*; **well-attested.**
+- *Urtext ≠ the manuscript, and ≠ infallible — the editor weighs all authorised sources and
+  makes judgement calls; two Urtext publishers can disagree on the same bar. Bärenreiter
+  tends to reconstruct "what the composer meant"; Henle tends to print what the main source
+  says and flag the doubt.* Source: G. Henle Verlag, "What is Urtext?"; Kenneth Woods,
+  "Urtext Myths"; **well-attested.**
+- *Portamento was "the key to the Romantic style of violin playing" and was used sparingly if
+  at all in Classical/Baroque practice; heavy sliding was a fault.* Source: *The Strad*;
+  general performance-practice literature; **well-attested.**

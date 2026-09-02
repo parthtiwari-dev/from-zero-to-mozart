@@ -342,17 +342,23 @@ cited; **every fingering/pitch carried from the PDF re-verified** ([[violin-accu
   the 193-page PDF converted into clean, plainly-written, correctly-notated web lessons —
   **Stages 0-5** (Setup → First position/staff → Rhythm → Score symbols → Musicianship I → The
   bow), covering **PDF Parts I-VI**. One-press audio on every musical example. Deployed to
-  Vercel. — **Status: all 90 Stage 0–5 lessons drafted and live.** They are an accurate
-  skeleton but under-taught — see Phase 1.5.
-- **Phase 1.5 — the content-quality campaign (current, blocking):** the drafted lessons are an
-  accurate skeleton but under-taught, and most notated examples don't label every note's
-  string + finger. **No new stages or features until every built lesson meets `RULES.md`
-  1–7.** Per `docs/CONTENT-STANDARD.md` §6: research-first, then rewrite **stage by stage,
-  0 → 5**, to the six beats, with every pitched example fully labelled and every concept
-  lesson carrying 2–4 examples + a real tune/pattern to play. Then `AnnotatedScore`
-  (note-by-note walkthrough) + the first annotated lines. — *Design direction chosen and
-  built: Direction A ("The Critical Edition"), see `DESIGN_LOCK.md` / `DESIGN_REVIEW.md`. The
-  design side of this phase is essentially done; what remains is content.*
+  Vercel.
+- **Phase 1.5 — the content-quality campaign (current, blocking):** the first-draft lessons
+  were an accurate skeleton but under-taught, with unlabelled examples. **No new stages or
+  features until every built lesson meets `RULES.md` 1–7.** Per `docs/CONTENT-STANDARD.md` §6:
+  research-first, then rebuild **stage by stage, 0 → 5**, to the six beats, every pitched
+  example fully labelled, every concept lesson carrying 2–4 examples + a real tune.
+  **Progress (2026-09-03):**
+  - ✔ **Stage 0** written (11 lessons + `<Diagram>` SVGs).
+  - ✔ **Stage 1** rebuilt (`stage-plans/stage-1.md` — Movements A–F, ~43 lessons + tunes).
+  - ✔ **Stage 2** rebuilt (`stage-plans/stage-2.md` — Movements A–I, 33 skill lessons + tunes;
+    `RhythmTree` + `rhythmOnly` mode added).
+  - ✔ **Stage 3** rebuilt (`stage-plans/stage-3-research.md` + `stage-3.md` — Movements A–J,
+    **46 lessons** live; 1 tune deferred).
+  - **Next: Stage 4**, then Stage 5 → Foundation gate. See `CLAUDE.md` "NEXT SESSION".
+  - `AnnotatedScore` (note-by-note walkthrough) + the first annotated lines come after 0–5.
+  - *Design: Direction A ("The Critical Edition"), `DESIGN_LOCK.md` / `DESIGN_REVIEW.md` —
+    done; what remains is content.*
 - **Phase 2:** Stages 6-8 (positions/left hand, vibrato/expression, sight-reading + ear-gym) +
   reference libraries v1 + the Vivaldi "Spring" module (PDF Part VIII).
 - **Phase 3:** Stage 9 repertoire journey — the 100+ song bank, étude & scale ladders, the
