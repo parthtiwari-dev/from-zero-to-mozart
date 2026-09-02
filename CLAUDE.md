@@ -13,9 +13,12 @@
 
 ## What this is
 
-An interactive violin-learning **website** that takes an adult beginner from *Ode to Joy* to
-**Mozart Violin Concerto No. 3 in G major, K.216**, and to solid intermediate fluency
-(sight-read and play in positions 1–5) along the way.
+An interactive violin-learning **website** that teaches one adult beginner to **read, play,
+hear and understand music** on the violin — to the point of independent musicianship: open an
+unfamiliar score, name everything on it, play it slowly and honestly, and make their own
+interpretive choices. **The goal is that capability, not any one piece.** Mozart Violin
+Concerto No. 3, K.216 is the **north star** — the summit that proves you've arrived — not the
+deliverable. Full objective and success criteria: **`docs/PRD.md`**.
 
 It is the rebuild of a 193-page PDF course the user generated with ChatGPT. The curriculum
 design was good; the PDF build was not (≈70% whitespace per page, unreliable music notation,
@@ -26,8 +29,9 @@ extracted text are in `docs/source/`.
 
 Adult beginner. Background in **tabla / North-Indian classical music** → rhythm is the strong
 axis; Western pitch, harmony, staff-reading and ear-for-pitch are new and the growth goal.
-Approaches music as a system. North star: read Mozart → play Mozart → make their own
-interpretive choices. Full profile: `docs/RESEARCH.md`.
+Approaches music as a system; wants the *why*. The tabla background is used as a **bridge**
+into Western classical, not as a second subject. Goal: independent musicianship (read →
+play → hear → understand → choose). Full profile: `docs/RESEARCH.md`; objective: `docs/PRD.md`.
 
 ## Hard steering from the user (these override generic instincts)
 
@@ -88,8 +92,9 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 
 | File | What's in it |
 |---|---|
+| `docs/PRD.md` | **the objective and what "done" means** — the goal is independent musicianship, *not* a specific piece; K.216 is the north star, not the deliverable. Success criteria, non-goals, the quality bar. Sits above everything. |
 | `RULES.md` (repo root) | the hard, non-negotiable rules — check every change against these |
-| `docs/THE-PATH.md` | **what this course actually is** — the real named-music journey, per-stage end goals, how repertoire is presented, sheet-music sourcing. Read before planning any stage. |
+| `docs/THE-PATH.md` | **the shape of the journey** — the real named-music path, per-stage end goals, how repertoire is presented, sheet-music sourcing. Read before planning any stage. |
 | `docs/PLAN.md` | phasing & build order |
 | `docs/CONTENT-STANDARD.md` | how deep a lesson goes — the six beats, the five lesson types, the melody/`AnnotatedScore` vehicle, the rewrite order |
 | `docs/NOTATION-COVERAGE.md` | every notation symbol → the lesson that teaches it (RULES.md R4) |
