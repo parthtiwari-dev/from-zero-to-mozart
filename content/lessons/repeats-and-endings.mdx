@@ -1,0 +1,80 @@
+Music repeats itself constantly, and rather than print the same bars twice, notation uses a
+few shorthand signs. You need two of them to play a strophic tune or a round.
+
+## The repeat barline
+
+A **thick barline with two dots** — `:||` — means "go back and play from the start again"
+(or from the matching `||:` if there is one). Play the enclosed section **twice**, then carry
+on.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+|: D E F G :| A4 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "D", finger: "4" },
+  ]}
+  caption="Play 'D E F G', then the repeat sign sends you back — play 'D E F G' again — then on to the final A. Four notes on the page, five in the air, then one more."
+  defaultBpm={72}
+/>
+
+## First and second endings
+
+Often a repeated section should end *differently* the second time round. That's what the
+bracketed **"1."** and **"2."** are for:
+
+- Play through to the **first ending** (under the "1." bracket), then take the repeat.
+- On the way back through, **skip the first ending** — jump straight to the **second ending**
+  (the "2." bracket) — and carry on from there.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+|: D E F G |1 A2 z2 :|2 A4 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "D", finger: "4" },
+    { name: "A", string: "D", finger: "4" },
+  ]}
+  caption="First time: D E F G, then the '1.' ending (A, then a rest), then repeat. Second time: D E F G, skip the '1.' ending, play the '2.' ending (A held for four beats). The route is: bars 1–2, back to 1, bar 1, bar 3."
+  defaultBpm={72}
+/>
+
+## Count the bars you actually play
+
+<Quiz
+  items={[
+    { q: "A four-bar phrase inside repeat signs. How many bars do you play in total?", a: "Eight — the four bars, twice." },
+    { q: "With a first and second ending (each one bar) after a two-bar repeated section, how many bars do you play?", a: "Six: bars 1–2, first ending, back to bar 1, bars 1–2 again, second ending." },
+    { q: "Do the two dots of a repeat sign face toward the section being repeated, or away from it?", a: "Toward it — the dots always point at the music you repeat." },
+  ]}
+/>
+
+## Just these two, for now
+
+Scores have a whole set of navigation signs — **D.C.** (go back to the beginning), **D.S.**
+(go back to the sign), **Coda**, **Fine**, **segno**, rehearsal letters. Those are the rest of
+the road-map, and they get their own lesson in **Stage 3**. Here you only need the repeat and
+the two endings.
+
+## The usual mistake
+
+Playing both endings in a row the first time through, or forgetting to take the repeat at
+all. Trace the route with your finger *before* you play — where does the repeat send you, and
+which ending do you take each time?
+
+<Cite source="standard notation; fuller navigation in Stage 3">
+  Repeat signs are as old as printed music — a way to save paper. The dots always face the
+  bars you go back and play again.
+</Cite>

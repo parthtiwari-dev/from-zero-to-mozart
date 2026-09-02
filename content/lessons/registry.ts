@@ -106,9 +106,16 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "counting-the-beat": () => import("./counting-the-beat.mdx"),
   subdivision: () => import("./subdivision.mdx"),
   "if-you-count-in-bols": () => import("./if-you-count-in-bols.mdx"),
-  // Movements E–I — being rebuilt; old thin drafts still routed below
+  // Movement E — grouping the beats
   "time-signatures": () => import("./time-signatures.mdx"),
-  "common-time": () => import("./common-time.mdx"),
+  "common-time-and-cut-time": () => import("./common-time-and-cut-time.mdx"),
+  "simple-and-compound-time": () => import("./simple-and-compound-time.mdx"),
+  "six-eight": () => import("./six-eight.mdx"),
+  "nine-eight-and-twelve-eight": () =>
+    import("./nine-eight-and-twelve-eight.mdx"),
+  "barlines-and-the-pickup": () => import("./barlines-and-the-pickup.mdx"),
+  "repeats-and-endings": () => import("./repeats-and-endings.mdx"),
+  // Movements F–I — being rebuilt; old thin drafts still routed below
   "syncopation-and-pickups": () => import("./syncopation-and-pickups.mdx"),
   triplets: () => import("./triplets.mdx"),
   "reading-quarters-and-eighths": () =>

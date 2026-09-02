@@ -1,0 +1,117 @@
+**Barlines** are the vertical lines that divide music into **measures** (bars). Each bar holds
+exactly the number of beats the time signature promises — no more, no less. Before you play a
+line, run your eye along it and find where **beat 1** sits in every bar. That's your anchor
+for the whole thing.
+
+## Find beat 1 in each bar
+
+<NotatedExample
+  rhythmOnly
+  reveal="hidden"
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B B/2B/2 B B | B2 B/2B/2 B | B/2B/2 B/2B/2 B B | B4 |]`}
+  labels={[
+    { name: "1" }, { name: "2" }, { name: "&" }, { name: "3" }, { name: "4" },
+    { name: "1 –" }, { name: "3" }, { name: "&" }, { name: "4" },
+    { name: "1" }, { name: "&" }, { name: "2" }, { name: "&" }, { name: "3" }, { name: "4" },
+    { name: "1 – – –" },
+  ]}
+  caption="Four bars of 4/4. Point at beat 1 of each bar before you count — it's the note straight after each barline. Then work out the full count and reveal."
+  defaultBpm={72}
+/>
+
+## When a tune doesn't start on beat 1
+
+Some tunes open with a **pickup** — also called an **anacrusis**: one or more notes that come
+*before* the first full bar, leading into the first strong downbeat. The opening bar is
+deliberately short, and the missing beats are usually made up in the **last** bar, so the two
+add up to one complete measure.
+
+A pickup changes how you **count the phrase** — not the pitches. You just have to notice the
+short first bar before you start, so you know where "beat 1" really lands.
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B | B B B B | B4 |]`}
+  labels={[
+    { name: "4" },
+    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
+    { name: "1 – – –" },
+  ]}
+  caption="One pickup note, then two full bars. Count the pickup as beat '4' (or 'and-4') leading straight into beat 1 of the next bar. The downbeat is where the phrase really lands, not the pickup."
+  defaultBpm={72}
+/>
+
+## Same tune, with and without a pickup
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B B B B | B2 B2 |]`}
+  labels={[
+    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
+    { name: "1 –" }, { name: "3 –" },
+  ]}
+  caption="Version 1 — starts on beat 1. The first note is the downbeat."
+  defaultBpm={72}
+/>
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B B | B B B B | B3 |]`}
+  labels={[
+    { name: "3" }, { name: "4" },
+    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
+    { name: "1 – –" },
+  ]}
+  caption="Version 2 — same notes, but the first two are a pickup on beats 3 and 4. Now the third note is the downbeat. The tune sounds the same; where 'one' falls has shifted."
+  defaultBpm={72}
+/>
+
+## A real pickup: *When the Saints*
+
+The tune opens "**Oh, when the** SAINTS…" — three quick pickup notes, and "saints" lands on
+the downbeat.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:D clef=treble
+DFG | A4- | A z2 z |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="'Oh (D), when (F♯) the (G)' are the pickup — beats 2, 3 and 4 of an incomplete bar. 'SAINTS' (open A) lands on beat 1 and is held. Count '2 3 4 | 1 – – –' to start it."
+  defaultBpm={80}
+/>
+
+## The usual mistake
+
+Playing the pickup as if it were beat 1 — which shoves the whole phrase one beat out of
+place, and every barline after it feels wrong. Or not noticing the short first bar at all and
+losing the count immediately. Always check: does the first bar have a full set of beats? If
+not, it's a pickup.
+
+<Cite source="anacrusis — standard notation; the 'last bar completes the first' convention">
+  So many tunes start this way — "Happy Birthday", "Auld Lang Syne", "The Star-Spangled
+  Banner" — because the words sit better with the stress landing a syllable or two in.
+</Cite>

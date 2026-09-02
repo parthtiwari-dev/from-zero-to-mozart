@@ -1,0 +1,87 @@
+Two symbols turn up where a time signature should be, and both catch beginners out.
+
+- A large **C** = **4/4**. Four quarter-note beats a bar, exactly the same as writing "4"
+  over "4". You'll see it constantly — Mozart's editions of K.216 use it.
+- A **C with a vertical slash** (**¢**) = **cut time**, also called *alla breve* or **2/2**.
+  Two *half-note* beats a bar — the same total length as 4/4, but felt "in two", with a
+  quicker lilt.
+
+## The C is not a letter
+
+It looks like a C, and people say "common time", but it was never the letter C or short for
+the word "common". It's a **broken circle**, left over from medieval notation: a full circle
+meant triple time, a broken circle — which happens to look like a C — meant duple. The slash
+through it just halves the beat value again.
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:C
+L:1/4
+K:C clef=treble
+B B B B |]`}
+  labels={[{ name: "1" }, { name: "2" }, { name: "3" }, { name: "4" }]}
+  caption="Common time — the broken-circle symbol, meaning 4/4. Count it in four: '1 2 3 4'."
+  defaultBpm={84}
+/>
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:C|
+L:1/4
+K:C clef=treble
+B B B B |]`}
+  labels={[
+    { name: "1" }, { name: "&" }, { name: "2" }, { name: "&" },
+  ]}
+  caption="Cut time — the same four quarter notes, but now they're two beats, not four. Each half-note beat holds two of them. Count '1 & 2 &' — much brisker on its feet."
+  defaultBpm={100}
+/>
+
+## Same notes, counted two ways
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:C
+L:1/4
+K:C clef=treble
+B B B2 | B/2B/2 B/2B/2 B2 |]`}
+  labels={[
+    { name: "1" }, { name: "2" }, { name: "3 –" },
+    { name: "1" }, { name: "&" }, { name: "2" }, { name: "&" }, { name: "3 –" },
+  ]}
+  caption="In common time you'd count this in four. In cut time, exactly the same rhythm on the page, you'd count it in two — the half note is one beat, not two. The notes don't change; the counting frame does."
+  defaultBpm={80}
+/>
+
+## Metre mark, or the note C?
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:C
+L:1/4
+K:C clef=treble
+C E G c |]`}
+  labels={[
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "C", string: "A", finger: "3" },
+  ]}
+  caption="The C right after the clef, in the time-signature slot, is the metre mark. The notes on the staff are pitches. Position tells you which is which — reveal to check the names."
+  defaultBpm={72}
+/>
+
+## The usual mistake
+
+Believing the C stands for "common" (a nice mnemonic, but wrong, and it trips you up on the
+slashed one). Or pausing mid-read to wonder whether a C is a note — its slot, right after the
+clef and key, tells you it's the metre.
+
+<Cite source="the broken-circle history — medieval mensural notation">
+  A full circle meant "tempus perfectum" (triple); a broken circle, "tempus imperfectum"
+  (duple). The broken circle survived into modern use as our C for 4/4.
+</Cite>

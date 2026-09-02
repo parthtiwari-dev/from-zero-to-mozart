@@ -211,9 +211,15 @@ export const LESSONS: Lesson[] = [
   { slug: "counting-the-beat", title: "Counting the beat", stage: 2, track: "ear", tag: "NOW", published: P },
   { slug: "subdivision", title: "Subdivision", stage: 2, track: "ear", tag: "NOW", published: P },
   { slug: "if-you-count-in-bols", title: "Optional: if you count in bols", stage: 2, track: "ear", tag: "REFERENCE", published: P },
-  // Movements E–I — old thin drafts, rewritten movement by movement
+  // Movement E — grouping the beats
   { slug: "time-signatures", title: "Time signatures", stage: 2, track: "reading", tag: "NOW", published: P },
-  { slug: "common-time", title: "Common time, and the C", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "common-time-and-cut-time", title: "Common time, and cut time", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "simple-and-compound-time", title: "Simple and compound time", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "six-eight", title: "6/8, properly", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "nine-eight-and-twelve-eight", title: "9/8 and 12/8", stage: 2, track: "reading", tag: "NEXT", published: P },
+  { slug: "barlines-and-the-pickup", title: "Barlines and the pickup", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "repeats-and-endings", title: "Repeats and endings", stage: 2, track: "reading", tag: "NOW", published: P },
+  // Movements F–I — old thin drafts, rewritten movement by movement
   { slug: "syncopation-and-pickups", title: "Syncopation and pickups", stage: 2, track: "reading", tag: "NEXT", published: P },
   { slug: "triplets", title: "Triplets and other tuplets", stage: 2, track: "reading", tag: "NEXT", published: P },
   { slug: "reading-quarters-and-eighths", title: "Rhythm drill: quarters and eighths", stage: 2, track: "reading", tag: "NOW", published: P },

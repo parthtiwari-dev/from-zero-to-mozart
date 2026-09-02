@@ -1,0 +1,86 @@
+Every time signature answers one question first: **does the beat split in two, or in three?**
+
+- Split in **two** → **simple** time. 2/4, 3/4, 4/4 — each beat is a quarter note, and a
+  quarter divides into two eighths. Count "1 **and** 2 **and**".
+- Split in **three** → **compound** time. 6/8, 9/8, 12/8 — each beat is a *dotted* quarter
+  note, and a dotted quarter divides into three eighths. Count "1‑2‑3, 1‑2‑3" or "1‑&‑a".
+
+That single split — two versus three — changes how a tune *feels* more than almost anything
+else.
+
+## One beat, split two ways
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:2/4
+L:1/4
+K:C clef=treble
+B/2B/2 B | B/2B/2 B |]`}
+  labels={[
+    { name: "1" }, { name: "&" }, { name: "2" },
+    { name: "1" }, { name: "&" }, { name: "2" },
+  ]}
+  caption="Simple time. Beat 1 splits into two even eighths — '1 &' — then a plain beat 2. This is the 'straight' feel."
+  defaultBpm={80}
+/>
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:6/8
+L:1/8
+K:C clef=treble
+BBB B3 |]`}
+  labels={[
+    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
+  ]}
+  caption="Compound time. Beat 1 fills with three even eighths — count '1 2 3' — then one dotted-quarter note holds all of beat 2 (divisions 4-5-6). This is the 'swung', lilting feel."
+  defaultBpm={112}
+/>
+
+## Reading the bottom number differently
+
+In **simple** time the bottom number *is* the beat: 3/4 means three quarter-note beats. In
+**compound** time the bottom number is the *division*, not the beat: 6/8 doesn't mean six
+beats — it means six eighth-note *divisions*, which group into **two** dotted-quarter beats.
+Divide the top number by 3 to get the real beat count: 6 ÷ 3 = 2, 9 ÷ 3 = 3, 12 ÷ 3 = 4.
+
+<NotatedExample
+  rhythmOnly
+  reveal="hidden"
+  abc={`X:1
+M:6/8
+L:1/8
+K:C clef=treble
+B2B B2B | B3 B2B |]`}
+  labels={[
+    { name: "1" }, { name: "3" }, { name: "4" }, { name: "6" },
+    { name: "1" }, { name: "4" }, { name: "6" },
+  ]}
+  caption="A 6/8 line. Count the six eighth-divisions '1 2 3 4 5 6', leaning on 1 and 4 (the two real beats). Work out which divisions get a note, then reveal."
+  defaultBpm={104}
+/>
+
+## Sort them
+
+<Quiz
+  items={[
+    { q: "2/4 — simple or compound? How many beats?", a: "Simple. Two beats, each a quarter note." },
+    { q: "6/8 — simple or compound? How many beats?", a: "Compound. Two beats, each a dotted quarter (= three eighths)." },
+    { q: "3/4 — simple or compound? How many beats?", a: "Simple. Three beats, each a quarter." },
+    { q: "9/8 — simple or compound? How many beats?", a: "Compound. Three beats, each a dotted quarter. (9 ÷ 3 = 3.)" },
+    { q: "4/4 — simple or compound? How many beats?", a: "Simple. Four beats, each a quarter." },
+  ]}
+/>
+
+## The usual mistake
+
+Counting 6/8 as six beats. It's **two**, each worth three eighths. Six-beat counting turns a
+lilting jig into a plod. When you see any x/8, check whether the top number divides by 3 —
+if it does, it's compound, and the real beat is the dotted note.
+
+<Cite source="simple versus compound — the first cut in every theory syllabus">
+  A compound beat is just "a dotted note's worth" of time. Everything else about 6/8, 9/8 and
+  12/8 follows from that one fact.
+</Cite>
