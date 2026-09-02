@@ -17,9 +17,11 @@ counting ("1 e & a"); you know every note-value, dot, rest, tie and time signatu
 you can tell a **beamed pair from a double stop from a vibrato wobble** (the Vivaldi confusion
 — the reason this project exists); you understand **simple vs compound metre** including 6/8
 properly (and 9/8, 12/8); you can read **triplets and syncopation**; you know how a
-note-value becomes **a length and speed of bow**; and you play **~9 real first-position
-tunes in their true rhythm** — no more Stage-1 rhythm simplification — each an annotated line
-with a per-line how-to-play note that now includes bow-rhythm, all also on `/practice`.
+note-value becomes **a length and speed of bow**; and you play **~16 real first-position
+tunes in their true rhythm** — the 10 Stage-1 tunes re-issued with real note-values, plus
+~6 new ones chosen for rhythms the Stage-1 set never used (a 6/8 round, dotted tunes, a moto
+perpetuo) — each an annotated line with a per-line how-to-play note that now includes
+bow-rhythm, all also on `/practice`.
 
 ## How this stage is taught (from `stage-2-research.md` §0)
 
@@ -565,39 +567,52 @@ runs long.)*
 
 ---
 
-## Movement I — The tunes (~9 melody lessons)
+## Movement I — The tunes (Stage 2's real-music payoff)
 
 Each an **`AnnotatedScore`**: our notation, name/string/finger per note, playback with the
 moving cursor, and **a how-to-play note per line that now includes bow-rhythm** (which part
 of the bow, how much, how fast, for these note values). All first position, all public
-domain, **Claude notates them**, verified. All also on `/practice`.
+domain, **Claude notates them**, verified. All also on `/practice`. `RULES.md` R2 wants
+10–30 melodies per stage; Stage 2 lands **~16**, in two groups.
 
-Per **decision 2**, Stage 2 does **not** complete the Stage-1 tunes — that stays deferred.
-Instead:
+### (a) The Stage-1 tunes, re-issued **in their true rhythm** — 10
 
-**Re-read (3–4 Stage-1 tunes, now in their true rhythm — not the Stage-1 simplification):**
+This is what `THE-PATH.md` §6 means by *"the Stage-1 tunes read in rhythm straight from the
+page."* Same tunes, **same length** — extending them to the complete melody is the **deferred**
+job (decision 2), not this. What changes: the Stage-1 rhythm *simplification* is replaced by
+the tune's **real note-values**, with the count shown under the notes. Light work — re-notate
+the phrases we already have, don't recompose. Each one also becomes the worked example for a
+Stage-2 idea:
 
-| # | Tune | The rhythm point |
+| # | Tune (Stage-1 slug) | Now carries |
 |---|---|---|
-| I1 | **Twinkle** (theme, true rhythm) | even quarters and the half-note ends — held full value; the anacrusis myth corrected (starts on the beat) |
-| I2 | **Ode to Joy** (theme, true rhythm) | the one dotted-quarter–eighth bar, read properly at last (Stage 1 pointed here) |
-| I3 | **Lightly Row** or **Mary Had a Little Lamb** | quarter/eighth mix straight off the page |
+| I1 | **Twinkle** (`tune-twinkle`) | even quarters + half-notes **held full value**; starts *on* the beat (no pickup) |
+| I2 | **Twinkle rhythms** (`tune-twinkle-rhythms`) | the Suzuki rhythm variations proper — extended with **Variation A** (détaché sixteenths + staccato eighths), whose rhythm is lifted straight from the opening of the **Bach Double Concerto** — a real nursery-tune-to-canon link and a sixteenth-vs-eighth drill |
+| I3 | **Ode to Joy** (`tune-ode-to-joy`) | the **dotted-quarter–eighth** bar, read properly at last (Stage 1 left a pointer here) |
+| I4 | **Lightly Row** (`tune-lightly-row`) | quarter / eighth mix straight off the page; bow-rhythm per line |
+| I5 | **Au Clair de la Lune** (`tune-au-clair-de-la-lune`) | very even half / quarter rhythm — the "hold the long note" tune |
+| I6 | **London Bridge** (`tune-london-bridge`) | the gentle triplet/compound lilt some versions use — or kept simple; a light 6/8 candidate |
+| I7 | **Hot Cross Buns** (`tune-hot-cross-buns`) | the dotted "hot–cross–buns" figure + the eighth-note "one-a-penny two-a-penny" run |
+| I8 | **Mary Had a Little Lamb** (`tune-mary-had-a-little-lamb`) | pure quarter / eighth reading, one clean line |
+| I9 | **Frère Jacques** (`tune-frere-jacques`) | played as a **real round** against the playback; even eighths, steady pulse |
+| I10 | **Jingle Bells** (chorus) (`tune-jingle-bells`) | repeated-note eighths + the dotted figure; count through the repeats |
 
-**New, rhythm-chosen:**
+### (b) New tunes, chosen for a rhythm the Stage-1 set doesn't cover — ~6
 
 | # | Tune | Key / metre | The one point |
 |---|---|---|---|
-| I4 | **Frère Jacques** (round) | G, 4/4 | played as a real round against the playback; clean even eighths |
-| I5 | **Row, Row, Row Your Boat** (round) | C, **6/8** | the compound-metre tune — count in 2, lilt the dotted beats (its metre is debated — we teach 6/8) |
-| I6 | **This Old Man** | D, 4/4 | the dotted "knick-knack" figure — long–short, not even |
-| I7 | **Pop Goes the Weasel** | G, 6/8 | 6/8 again, with the "Pop!" as an off-beat surprise — a first taste of syncopation in a tune |
-| I8 | **Twinkle — Variation A** | A, 4/4 | the Suzuki rhythm lifted straight from the **Bach Double Concerto** opening — détaché sixteenths, staccato eighths; a sixteenth-vs-eighth reading drill with a real link to the canon |
-| I9 | **A moto-perpetuo étude** (Claude-notated original, Suzuki *Perpetual Motion* feel) | G, 2/4 | unbroken eighth notes — the "keep the pulse through everything" tune; steady bow, steady count |
+| I11 | **Row, Row, Row Your Boat** (round) | C, **6/8** | the compound-metre tune — count in 2, lilt the two dotted beats; also a round (its metre is debated — we teach it as 6/8) |
+| I12 | **A dotted-rhythm tune** (candidate: *Deck the Halls*, *My Country 'Tis of Thee* / *God Save the King*) | G, 4/4 or 3/4 | the dotted "long–short" figure carried through a whole tune — exact choice on notating |
+| I13 | **Pop Goes the Weasel** | G, **6/8** | 6/8 again, with the "Pop!" as an off-beat surprise — a first taste of **syncopation** inside a tune |
+| I14 | **For He's a Jolly Good Fellow** / **The Bear Went Over the Mountain** | G, **6/8** | the most familiar 6/8 tune there is — dotted compound rhythm, sung by everyone |
+| I15 | **A moto-perpetuo étude** (Claude-notated original, Suzuki *Perpetual Motion* feel) | G, 2/4 | unbroken eighth notes — "keep the pulse through everything"; steady bow, steady count |
+| I16 | **A syncopation tune** — a short fiddle/ragtime-flavoured PD fragment (Claude-notated) | D, 4/4 | the back-beat / tied-over syncopation, in real music — the F1 idea made playable |
 
-*(If the user promotes **When the Saints** from the deferred five, it replaces I6 — it carries
-pickup + dotted rhythm + ties in one PD melody.)*
+*(Open sub-question: promote **When the Saints Go Marching In** from the deferred five — it
+carries pickup **+** dotted rhythm **+** ties in one PD melody, and would replace I12 or I16.)*
 
-Rhythm simplification **stops here.** From Stage 2 on, a tune is written in its real rhythm.
+Rhythm simplification **stops here.** From Stage 2 on, every tune is written in its real
+rhythm.
 
 ---
 
@@ -653,11 +668,12 @@ From the `stage-2-research.md` scan:
 | F — bending the beat | 4 |
 | G — the bow's half of rhythm | 3 |
 | H — reading checks | 6–7 |
-| I — the tunes | ~9 |
+| I — the tunes | ~16 (10 Stage-1 re-reads + ~6 new) |
 | **infra** | `RhythmTree` diagram · rhythm-only `<NotatedExample>` mode |
 
-≈ **33 skill lessons + 9 tunes** — the scale of the Stage 1 rebuild, and compressible: E and
-H have the most give if it runs long.
+≈ **33 skill lessons + ~16 tunes** — the scale of the Stage 1 rebuild. The 10 re-reads are
+light (re-notate existing phrases, don't recompose). E and H have the most give if the
+skill lessons run long.
 
 ---
 
