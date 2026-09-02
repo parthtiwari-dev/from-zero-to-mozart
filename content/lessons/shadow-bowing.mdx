@@ -1,0 +1,77 @@
+Before you play a new line, take it apart and put it back together. Four steps, in order —
+each one isolates a different layer, so if something breaks you know exactly what failed.
+
+1. **Clap and count** the rhythm. No violin, no pitches — just the pattern against a steady
+   pulse, out loud.
+2. **Air-bow it.** Hold the violin and bow, but keep the bow just above the string. Move it
+   in the rhythm — down and up, matching the beats — with no fingers down. Now the *bow arm*
+   knows the rhythm.
+3. **Finger it silently.** Left hand only, no bow. Drop the fingers on the notes, in time, in
+   silence. Now the *left hand* knows the notes.
+4. **Play it.** Put the two together, slowly.
+
+If step 4 falls apart, you already know whether it's the rhythm (step 1 was shaky), the bow
+(step 2), or the fingers (step 3). You fix that one layer instead of replaying the whole line
+ten times and hoping.
+
+## A line to take through the steps
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D E/2F/2 G E | D2 z2 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  howToPlay="Step 1: clap 'D, E-F, G, E | D (hold) rest' and count '1 2 & 3 4 | 1 – rest'. Step 2: air-bow it — down, up-down, up, down, then a long down for the half note, lift on the rest. Step 3: finger 0, 1, low-2, 3, 1, 0 silently in rhythm. Step 4: play, slow."
+  caption="A short D-string line. Do all four steps before you let yourself play it at speed."
+  defaultBpm={60}
+/>
+
+## When shadow-bowing shows you the answer
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D/2D/2 D/2D/2 D/2D/2 D/2D/2 | E4 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+  ]}
+  howToPlay="The fingers here are trivial — all open D, then one E. So if this comes out uneven, it's not a left-hand problem. Air-bow it (step 2) and you'll feel the bow rushing the eighths. Fix the bow, and the line is solved."
+  caption="Eight fast open-D eighths, then a held E. Easy for the fingers, tricky for the bow — shadow-bowing tells you which one to work on."
+  defaultBpm={66}
+/>
+
+## The usual mistake
+
+Skipping straight to step 4, playing the whole line, hearing it go wrong, and playing it
+again — and again — with no idea which part is failing. Ten sloppy repetitions teach your
+hands to play it sloppily. Isolate the layer first.
+
+<TryThis>
+  Take any tune you already know from Stage 1. Don't play it. Clap and count one phrase, then
+  air-bow it, then finger it silently. You'll almost certainly find one of the three was
+  vaguer than you thought.
+</TryThis>
+
+<Cite source="Essential Elements for Strings ('shadow bowing'); the original PDF course, §34">
+  The tap–say–air-bow–play sequence is standard beginner practice. Simon Fischer builds his
+  whole practice method on isolating one variable at a time.
+</Cite>

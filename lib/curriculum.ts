@@ -224,7 +224,11 @@ export const LESSONS: Lesson[] = [
   { slug: "triplets", title: "Triplets", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "other-tuplets", title: "Other tuplets", stage: 2, track: "reading", tag: "REFERENCE", published: P },
   { slug: "dotted-and-snap-rhythms", title: "Dotted and snap rhythms", stage: 2, track: "reading", tag: "NEXT", published: P },
-  // Movements G–I — old thin drafts, rewritten movement by movement
+  // Movement G — the bow's half of rhythm
+  { slug: "a-note-value-is-a-length-of-bow", title: "A note value is a length of bow", stage: 2, track: "bow", tag: "NOW", published: P },
+  { slug: "rests-ties-and-slurs-in-the-bow", title: "Rests, ties and slurs in the bow", stage: 2, track: "bow", tag: "NOW", published: P },
+  { slug: "shadow-bowing", title: "Shadow-bowing", stage: 2, track: "bow", tag: "NOW", published: P },
+  // Movements H–I — old thin drafts, rewritten movement by movement
   { slug: "reading-quarters-and-eighths", title: "Rhythm drill: quarters and eighths", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "reading-dotted-rhythms", title: "Rhythm drill: dotted feel", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "reading-mixed-rhythms", title: "Rhythm drill: mixed", stage: 2, track: "reading", tag: "NOW", published: P },

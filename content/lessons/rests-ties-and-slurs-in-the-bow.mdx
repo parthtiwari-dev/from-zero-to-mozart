@@ -1,0 +1,106 @@
+Three of the marks you've been reading — the rest, the tie, the slur — each ask something
+specific of the **bow**. Knowing what, before you play, saves a lot of stumbling.
+
+## A rest — the bow stops, and resets
+
+At a rest, the bow **stops moving** (a short rest) or **lifts off and comes back** (a longer
+one, or the end of a phrase) — a *retake*. Either way the silence is active: you use it to
+get the bow set for the next note.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D E z2 | F G z2 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  howToPlay="Play D and E with two small down-up bows. On the two-beat rest, lift the bow off the string, carry it back toward the frog, and set it down ready — arriving exactly as beat 1 of the next bar comes. The rest is your reset time."
+  caption="Two notes, a rest, two notes. Use the rest to retake the bow, not just to wait."
+  defaultBpm={64}
+/>
+
+## A tie — don't re-bow
+
+Across a tie, the bow **keeps travelling in the same direction**, no new stroke, no
+re-articulation. The sound just continues.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D2 D2- | D2 z2 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  howToPlay="One long down-bow (or up-bow) carries the tied D straight across the barline — four beats on one stroke, no bump where the tie is. If you run low on bow, change direction smoothly on a beat, but never re-attack the note."
+  caption="A four-beat tied D. One bow, one continuous sound — no articulation at the tie."
+  defaultBpm={60}
+/>
+
+## A slur — one bow, several notes
+
+Under a slur the bow travels once while the **left-hand fingers** do the note changes. The
+rhythm is exactly as written; only the bow-changes move.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+(D E F G) |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  howToPlay="One smooth down-bow for all four notes. Keep the bow speed even; let the fingers drop cleanly on the beats so the four notes still sound separate and in rhythm — the bow doesn't stop, but the tune still moves."
+  caption="Four notes, one slur, one bow. The bow is continuous; the rhythm is not blurred."
+  defaultBpm={63}
+/>
+
+## Put all three together
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+(D E) F2- | F z (G A) |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "D", finger: "4" },
+  ]}
+  howToPlay="Down-bow slurs D–E. The F is tied across the barline — keep that bow going. Then a rest: stop and reset. Then an up-bow slur for G–A. Three different bow instructions in two bars — trace them before you play."
+  caption="A slur, a tie, a rest, another slur. Work out what the bow does at each mark first."
+  defaultBpm={58}
+/>
+
+## The rule of the down-bow
+
+An old orchestral convention: the **downbeat tends to take a down-bow**. It's not a law, but
+when a bowing isn't marked, starting the strong beat with a down-bow usually feels right — and
+when you're reading, a down-bow mark near the start of a bar is a hint about where beat 1 is.
+
+## The usual mistake
+
+Re-bowing across a tie (two attacks where the music wants one). Filling a rest with sound
+because the bow didn't actually stop. Changing bow in the *middle* of a slur. All three come
+from reading the notes but not the curve or the gap around them.
+
+<Cite source="the rule of the down-bow — Baroque orchestral practice (Lully)">
+  and the slur-as-one-bow convention, which is specific to string instruments. Both come back
+  in detail in Stage 5, the bow stage.
+</Cite>

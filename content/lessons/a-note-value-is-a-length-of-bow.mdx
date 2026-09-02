@@ -1,0 +1,103 @@
+On the violin, a duration is a **distance and a speed of bow**. Reading a note's length is
+only half the job — the other half is planning how much bow it gets, so you don't run out
+halfway through a long note or scrub a short one.
+
+Rough guide, on a full-length bow:
+
+| Note | Bow |
+|---|---|
+| whole note | the whole bow, frog to tip — slow and even |
+| half note | about half the bow |
+| quarter note | a modest length, around the middle |
+| eighth notes | short and quicker, upper half |
+
+The bow is a **ruler for time**: match its travel to the rhythm and everything fits.
+
+## One long bow
+
+<NotatedExample
+  followPlayback
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D4 |]`}
+  labels={[{ name: "D", string: "D", finger: "0" }]}
+  howToPlay="One whole note, one whole bow. Start at the frog, move the bow slowly and evenly all the way to the tip across the four beats — the sound should stay the same weight the whole way. Count '1 – 2 – 3 – 4 –' and time the bow to arrive at the tip on the last beat."
+  caption="Open D, four beats. Watch the cursor: the bow should be travelling the whole time, not sitting still and then rushing."
+  defaultBpm={60}
+/>
+
+## Four medium bows
+
+<NotatedExample
+  followPlayback
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D D D D |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  howToPlay="Four quarter notes, four separate bows — down, up, down, up — each using a modest length around the middle of the bow. Same amount of bow for each, since they're the same length."
+  caption="Open D quarters. The bow changes direction on every beat; keep each stroke the same size."
+  defaultBpm={72}
+/>
+
+## Short fast bows
+
+<NotatedExample
+  followPlayback
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D/2D/2 D/2D/2 D/2D/2 D/2D/2 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  howToPlay="Eight eighth notes — short, brisk strokes in the upper half of the bow, near the middle. Less bow than the quarters, and moving faster to cover it. Keep the wrist and fingers loose."
+  caption="Open D eighths. The bow travels a shorter distance but moves quicker — twice as many notes in the same bar."
+  defaultBpm={72}
+/>
+
+## Plan a mixed line
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D2 E F | G4 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  howToPlay="Before you play: the half note D gets a longish bow (about half), the two quarters E and F get medium bows, and the whole note G needs a full slow bow — so save bow on the quarters and arrive near the frog ready to spend it all on the G."
+  caption="A D-string line with three different note lengths. Think through the bow amounts first, then play."
+  defaultBpm={60}
+/>
+
+## The usual mistake
+
+Using the same amount of bow for every value. Then the long notes die early — the bow ran
+out — and the short notes are scratchy, because there's too much bow moving too fast for such
+a small note. Match the bow to the length.
+
+<Cite source="bow distribution — Galamian, Principles of Violin Playing and Teaching">
+  treats planning the bow in advance as a core skill, not an afterthought. From here on, every
+  tune in the course spells out its bowing, phrase by phrase.
+</Cite>

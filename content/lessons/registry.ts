@@ -120,7 +120,13 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   triplets: () => import("./triplets.mdx"),
   "other-tuplets": () => import("./other-tuplets.mdx"),
   "dotted-and-snap-rhythms": () => import("./dotted-and-snap-rhythms.mdx"),
-  // Movements G–I — being rebuilt; old thin drafts still routed below
+  // Movement G — the bow's half of rhythm
+  "a-note-value-is-a-length-of-bow": () =>
+    import("./a-note-value-is-a-length-of-bow.mdx"),
+  "rests-ties-and-slurs-in-the-bow": () =>
+    import("./rests-ties-and-slurs-in-the-bow.mdx"),
+  "shadow-bowing": () => import("./shadow-bowing.mdx"),
+  // Movements H–I — being rebuilt; old thin drafts still routed below
   "reading-quarters-and-eighths": () =>
     import("./reading-quarters-and-eighths.mdx"),
   "reading-dotted-rhythms": () => import("./reading-dotted-rhythms.mdx"),
