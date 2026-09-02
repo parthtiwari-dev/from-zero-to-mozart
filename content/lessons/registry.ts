@@ -67,7 +67,17 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "the-first-position-reading-check": () =>
     import("./the-first-position-reading-check.mdx"),
   // Movement F — the tunes (also on /practice)
+  "tune-twinkle-rhythms": () => import("./tune-twinkle-rhythms.mdx"),
   "tune-twinkle": () => import("./tune-twinkle.mdx"),
+  "tune-ode-to-joy": () => import("./tune-ode-to-joy.mdx"),
+  "tune-lightly-row": () => import("./tune-lightly-row.mdx"),
+  "tune-au-clair-de-la-lune": () => import("./tune-au-clair-de-la-lune.mdx"),
+  "tune-london-bridge": () => import("./tune-london-bridge.mdx"),
+  "tune-hot-cross-buns": () => import("./tune-hot-cross-buns.mdx"),
+  "tune-mary-had-a-little-lamb": () =>
+    import("./tune-mary-had-a-little-lamb.mdx"),
+  "tune-frere-jacques": () => import("./tune-frere-jacques.mdx"),
+  "tune-jingle-bells": () => import("./tune-jingle-bells.mdx"),
 
   // Stage 2 — Rhythm
   "rhythm-before-the-instrument": () =>

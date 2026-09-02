@@ -162,22 +162,26 @@ export const LESSONS: Lesson[] = [
   { slug: "reading-a-steady-beat", title: "Reading a steady beat", stage: 1, track: "reading", tag: "NOW", published: P },
   { slug: "taking-the-help-away", title: "Taking the help away", stage: 1, track: "reading", tag: "NOW", published: P },
   { slug: "the-first-position-reading-check", title: "The first-position reading check", stage: 1, track: "reading", tag: "NOW", published: P },
-  // Movement F — the tunes (also on /practice)
-  { slug: "tune-twinkle-rhythms", title: "Twinkle rhythms (open strings)", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "open A / E", position: "1st (open)", skill: "the bow, before any fingers", inPdf: false } },
-  { slug: "tune-twinkle", title: "Twinkle, Twinkle Little Star", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "A major", position: "1st", skill: "0–1–2–3 on the A string", inPdf: false } },
-  { slug: "tune-ode-to-joy", title: "Ode to Joy", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A major", position: "1st", skill: "a singing line, phrasing", inPdf: true } },
-  { slug: "tune-lightly-row", title: "Lightly Row", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A major", position: "1st", skill: "bow division — upper vs lower half", inPdf: false } },
+  // Movement F — the tunes (also on /practice). `published` once the melody is
+  // transcribed + verified. UNPUBLISHED = melody still needs sourcing against
+  // ≥2 references (Suzuki arrangements are copyright — use the PD source tune):
+  //   song-of-the-wind ("Fuchs, du hast die Gans gestohlen"), go-tell-aunt-rhody,
+  //   long-long-ago, french-folk-song, when-the-saints.
+  { slug: "tune-twinkle-rhythms", title: "Twinkle rhythms (open strings)", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "open A / E", position: "1st (open)", skill: "the bow, before any fingers", inPdf: false } },
+  { slug: "tune-twinkle", title: "Twinkle, Twinkle Little Star", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "A major", position: "1st", skill: "0–1–high 2–3 on the A string", inPdf: false } },
+  { slug: "tune-ode-to-joy", title: "Ode to Joy", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "A major", position: "1st", skill: "a singing line, phrasing", inPdf: true } },
+  { slug: "tune-lightly-row", title: "Lightly Row", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "A major", position: "1st", skill: "bow division — upper vs lower half", inPdf: false } },
   { slug: "tune-song-of-the-wind", title: "Song of the Wind", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A major", position: "1st", skill: "the 1↔3 jumping finger; bow retakes", inPdf: false } },
   { slug: "tune-go-tell-aunt-rhody", title: "Go Tell Aunt Rhody", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A major", position: "1st", skill: "phrasing; a held, in-tune last note", inPdf: false } },
-  { slug: "tune-au-clair-de-la-lune", title: "Au Clair de la Lune", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A / D", position: "1st", skill: "a string crossing in a tune", inPdf: false } },
+  { slug: "tune-au-clair-de-la-lune", title: "Au Clair de la Lune", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "D major", position: "1st", skill: "a completely even bow on repeated notes", inPdf: false } },
   { slug: "tune-long-long-ago", title: "Long, Long Ago", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "D major", position: "1st", skill: "a singing line, whole bows", inPdf: false } },
   { slug: "tune-french-folk-song", title: "French Folk Song", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "D", position: "1st", skill: "minor colour; a smooth legato-feel line", inPdf: false } },
   { slug: "tune-when-the-saints", title: "When the Saints Go Marching In", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "D major", position: "1st", skill: "a confident skip up; consecutive down-bows", inPdf: false } },
-  { slug: "tune-london-bridge", title: "London Bridge", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "D major", position: "1st", skill: "short — pure step/skip reading, light bow", inPdf: false } },
-  { slug: "tune-hot-cross-buns", title: "Hot Cross Buns", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "G string", position: "1st", skill: "three notes, one string; the high-2 B", inPdf: false } },
-  { slug: "tune-mary-had-a-little-lamb", title: "Mary Had a Little Lamb", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "G string", position: "1st", skill: "stepwise motion on one string, even bows", inPdf: false } },
-  { slug: "tune-frere-jacques", title: "Frère Jacques (a round)", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "G major", position: "1st", skill: "play it as a round against the playback", inPdf: false } },
-  { slug: "tune-jingle-bells", title: "Jingle Bells", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A / D major", position: "1st", skill: "repeated notes, quick finger drops", inPdf: false } },
+  { slug: "tune-london-bridge", title: "London Bridge", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "D major", position: "1st", skill: "step/skip reading across two strings", inPdf: false } },
+  { slug: "tune-hot-cross-buns", title: "Hot Cross Buns", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "G string", position: "1st", skill: "three notes, one string; the high-2 B", inPdf: false } },
+  { slug: "tune-mary-had-a-little-lamb", title: "Mary Had a Little Lamb", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "G string", position: "1st", skill: "stepwise motion on one string, even bows", inPdf: false } },
+  { slug: "tune-frere-jacques", title: "Frère Jacques (a round)", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "D major", position: "1st", skill: "play it as a round against the playback", inPdf: false } },
+  { slug: "tune-jingle-bells", title: "Jingle Bells", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "D major", position: "1st", skill: "repeated notes, a still left hand", inPdf: false } },
 
   // ── Stage 2 — Rhythm ────────────────────────────────────────────
   { slug: "rhythm-before-the-instrument", title: "Rhythm before the instrument", stage: 2, track: "ear", tag: "NOW", published: P },
