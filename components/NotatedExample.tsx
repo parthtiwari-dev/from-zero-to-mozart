@@ -351,8 +351,8 @@ export function NotatedExample({
       </div>
 
       {howToPlayLines.length > 0 && (
-        <div className="mt-5 border-l border-accent/40 pl-4 font-sans text-[0.9375rem] leading-relaxed text-ink">
-          <p className="mb-1 label text-accent">How to play it</p>
+        <div className="mt-9 border-l border-accent/40 pl-4 font-sans text-[0.9375rem] leading-relaxed text-ink">
+          <p className="mb-1.5 label text-accent">How to play it</p>
           {howToPlayLines.map((line, i) => (
             <p key={i} className={i > 0 ? "mt-2" : undefined}>
               {line}
