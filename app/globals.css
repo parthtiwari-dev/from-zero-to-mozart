@@ -281,8 +281,10 @@ body {
   width: 100%;
   height: auto;
 }
-/* notated examples and diagrams break out well past the reading column on wide
-   screens, so the music is the focal point and the page isn't mostly margin. */
+/* notated examples and diagrams break out past the reading column on wide
+   screens so the music is the focal point. The asymmetry (more negative on the
+   left) counters the left gutter, landing the figure roughly viewport-centred;
+   the values are tuned so the right edge never reaches the viewport edge. */
 @media (min-width: 48rem) {
   .prose > figure.not-prose {
     margin-inline: -3rem;
@@ -290,12 +292,12 @@ body {
 }
 @media (min-width: 64rem) {
   .prose > figure.not-prose {
-    margin-inline: -8rem -13rem;
+    margin-inline: -11rem -4rem;
   }
 }
-@media (min-width: 90rem) {
+@media (min-width: 88rem) {
   .prose > figure.not-prose {
-    margin-inline: -11rem -18rem;
+    margin-inline: -13rem -6rem;
   }
 }
 .notation svg path:not([fill="none"]) {

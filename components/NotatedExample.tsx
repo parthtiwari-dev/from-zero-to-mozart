@@ -133,17 +133,25 @@ export function NotatedExample({
       });
       tuneRef.current = tune;
       setAudioOk(mod.synth.supportsAudio());
-      if (labelCount > 0) measure();
+      if (labelCount > 0) {
+        measure();
+        // one more pass once fonts + layout have certainly settled
+        setTimeout(() => measure(0), 350);
+      }
     })();
 
-    const ro = new ResizeObserver(() => {
+    const remeasure = () => {
       cancelAnimationFrame(raf);
       raf = requestAnimationFrame(() => measure(0));
-    });
+    };
+    const ro = new ResizeObserver(remeasure);
     if (paperRef.current) ro.observe(paperRef.current);
+    // window resize is a guaranteed signal even if the RO misses a reflow
+    window.addEventListener("resize", remeasure);
 
     return () => {
       ro.disconnect();
+      window.removeEventListener("resize", remeasure);
       cancelled = true;
       cancelAnimationFrame(raf);
     };
