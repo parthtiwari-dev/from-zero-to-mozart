@@ -1,0 +1,93 @@
+Articulation marks **combine**. A single note can carry two at once — a dot *and* a slur, a
+dot *and* a line, an accent *and* a dot. You read them together: each mark keeps its own
+meaning, and what you play is the sum.
+
+## The common stacks
+
+| Stack | Name | What each mark contributes | Result |
+|---|---|---|---|
+| **dots under a slur** | portato (also *louré*, mezzo-staccato) | slur = one bow · dots = re-articulate each note | one bow, but each note gently re-pressed — a soft pulse, about ¾ length |
+| **dot + tenuto line** | portato / "held-then-lifted" | line = full weight and length · dot = a clean end | a full, weighted note with a deliberate lift off it |
+| **accent + staccato** | — | accent = bite · staccato = short | a sharp, clipped stab |
+| **staccato under a slur, many notes** | slurred staccato | one bow, a row of short notes inside it | a controlled string of clicks on a single bow |
+
+## Hear it — portato
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+(.d .c .B .A) |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="Dots inside a slur. One bow carries all four, but the bow gently leans and releases on each — 'da-a, da-a, da-a, da-a'. Separated, but never leaving the string or changing direction."
+  defaultBpm={72}
+/>
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!>!.d !>!.c !>!.B !>!.A |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="Accent plus staccato on every note. Short — and each one bites at the front. A clipped, emphatic stab, separate bows."
+  defaultBpm={76}
+/>
+
+## The same four notes, three ways
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+(d c B A) | (.d .c .B .A) | .d .c .B .A |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="Bar 1: plain slur — smooth, joined, one bow. Bar 2: dots under the slur — portato, pulsed, still one bow. Bar 3: staccato, no slur — short and separate, a new bow each note. The slur and the dots are doing different jobs; you need to read both."
+  defaultBpm={72}
+/>
+
+## Try it
+
+<TryThis>
+  One long down-bow, slow, on the A string. Over that single bow play D–C–B–A as *portato*:
+  lean the bow into each note and release, lean and release — four soft swells on one
+  unbroken stroke. Then play the same four as plain legato (no swells) and hear exactly what
+  the dots added.
+</TryThis>
+
+## The usual mistake
+
+Reading a stack as **one** thing and dropping half of it — playing dots-under-a-slur as plain
+legato (the dots ignored) or as four separate bows (the slur ignored). Take the marks one at a
+time: *what does the slur ask? what do the dots ask?* Then do both.
+
+<Cite source="Leopold Mozart, Versuch einer gründlichen Violinschule (1756)">
+  He describes the slurred, gently separated stroke — several notes in one bow, each given a
+  soft pressure and release. It became a Classical staple: a way to shape a line without ever
+  leaving the string.
+</Cite>

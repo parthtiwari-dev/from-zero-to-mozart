@@ -101,6 +101,8 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 | `docs/stage-plans/stage-N.md` | the research + plan for each stage, approved by the user before writing |
 | `docs/stage-plans/stage-2-research.md` | Stage 2 (Rhythm) — the research pass + a verification sweep + the user's 9 decisions (§0): metric counting only, the tabla bridge is one optional lesson, compound metre + triplets + syncopation taught in full |
 | `docs/stage-plans/stage-2.md` | Stage 2 (Rhythm) — the lesson-by-lesson plan (Movements A–I, ~33 skill lessons + 9 tunes), awaiting user sign-off |
+| `docs/stage-plans/stage-3-research.md` | Stage 3 (Score symbols) — the deep research, 9 passes (Tempo · Dynamics · Articulation · Bow & string words · Repeats & the road map · Ornaments · String-part notation · Editions · Putting it together), each with draft lessons + a full sources list. |
+| `docs/stage-plans/stage-3.md` | Stage 3 (Score symbols) — the **build list**: 47 lessons across Movements A–J, the 3a/3b split, the merges from the research draft, wiring order, the quality bar. Status: **BUILT** — 44 live, 3 tunes pending sources. |
 | `docs/LESSONS-FROM-MOZART.md` | what the (deferred) K.216 run taught us the middle stages must teach deeply — bowing, chords, the dense score vocabulary, style. Read before planning Stages 2–7. |
 | `docs/stage-plans/mozart-k216.md` | the deferred K.216 module — what's built, the transcription pipeline, how to resume |
 | `docs/DESIGN_LOCK.md` | the locked visual language (being re-picked in Phase 1.5 — see review) |
@@ -184,11 +186,46 @@ here, D.C./D.S./Coda → Stage 3). Build green (143 pages), lint clean.
 - Confirm the exact Leopold Mozart "beat the time" wording (cited as paraphrase in
   `rhythm-first`, `counting-the-beat`).
 
-**Next: Stage 3 (Score symbols).** Research the core with the user first (per
-`docs/LESSONS-FROM-MOZART.md` §3 — Stage 3 is make-or-break: ornaments with Baroque/Classical
-realisation, editorial-vs-composer marks, the bow-word glossary, position numbers ≠ finger
-numbers). Then `docs/stage-plans/stage-3.md`, then write. Stages 4–9 + the Vivaldi and Mozart
-modules after.
+**Stage 3 (Score symbols) — BUILT (2026-09-03).** Research: `docs/stage-plans/stage-3-research.md`
+(9 interleaved passes, every fact double-sourced). Plan: `docs/stage-plans/stage-3.md` (the
+47-lesson build list, the 3a/3b split, the merges from the research draft, the quality bar).
+Live: **46 lessons across Movements A–J** (42 skill/concept/reference + 4 tunes), read at
+Stage-0 depth, six beats, every pitched example fully labelled. Build green (176 pages), lint
++ tsc clean, browser-verified (abcjs decorations, chords, dashed slurs, D.C./Fine, fermata,
+harmonic circles, cut time, 1st/2nd-ending voltas all render; labels align).
+
+- **3a — Expression:** A tempo & motion (5), B dynamics (6), C articulation (7).
+- **3b — the rest of the page:** D bow & string words (6), E repeats & the road map (4),
+  F ornaments (6), G string-part notation (4), H editions (2), I putting it together (2 —
+  `decode-a-dense-line` + `the-score-language-check`), J tunes.
+- Key framings held: **everything is *reading*** (bow strokes perform in Stage 5, ornaments in
+  Stage 6, era-style in the repertoire modules); the keystone is **"the symbol tells you WHAT,
+  the era tells you HOW"** (`LESSONS-FROM-MOZART.md` §4); `finger-string-or-position` (G3) is
+  the `LESSONS-FROM-MOZART.md` §3 numeral-tangle keystone. Old thin Stage-3 slugs deleted.
+- Two `bow`-track lessons (`dynamics-are-a-bow-thing` B6, `a-slur-is-one-bow` C6) carry the
+  read→perform bridge explicitly.
+
+**Stage 3 tunes — 4 live, 1 pending.** Live:
+- `tune-ode-to-joy-shaped` (dynamic scheme) + `tune-twinkle-articulated` (articulation
+  scheme) — from the verified Stage-1 melodies.
+- `tune-minuet-in-g` (Petzold BWV Anh. 114, **D major** easy version, binary repeat + 1st/2nd
+  endings + f/p terracing) — transcribed from the user's easy-version PDF (`docs/source/`);
+  **the two endings are a reconstruction — verify against the PDF.**
+- `tune-amazing-grace` (**G major**, first position, mp/cresc/mf/dim/rit/fermata) — the *plain
+  standard verse* of the "New Britain" tune; the user's PDF decorates this melody and shifts
+  to A major after b.21, so we teach the clean version. Verify the melody if using that PDF.
+
+Pending: `tune-gossec-gavotte` — the user's PDF is a dense cut-time-16ths full score; the
+melody isn't reliably transcribable from the raster and it's a Suzuki student piece. Need
+MusicXML or the Suzuki Book 1 first-position arrangement. (D.C. al Fine is still taught on the
+worked diagram in `da-capo-dal-segno-and-the-coda` E2.)
+
+**Minor cosmetic:** the densest decode / ending examples (~11–14 labels) crowd the label row;
+single-note / single-chord examples render left-aligned in the well.
+
+**Next: Stage 4 (Scales & musicianship).** Same campaign: research + plan with the user, then
+build to the bar. Note `PRD.md` §6.1 — the harmony/ear thread (triads, cadences, intervals) is
+load-bearing for K.216, budget real lesson count. Stages 5–9 + Vivaldi/Mozart modules after.
 
 ### Authoring notes
 

@@ -142,25 +142,73 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
     import("./reading-triplets-and-syncopation.mdx"),
   "reading-mixed-rhythms": () => import("./reading-mixed-rhythms.mdx"),
 
-  // Stage 3 — Score symbols
-  "tempo-words": () => import("./tempo-words.mdx"),
-  dynamics: () => import("./dynamics.mdx"),
-  articulation: () => import("./articulation.mdx"),
-  "bow-direction-marks": () => import("./bow-direction-marks.mdx"),
-  "string-words": () => import("./string-words.mdx"),
-  "repeats-and-navigation": () => import("./repeats-and-navigation.mdx"),
-  ornaments: () => import("./ornaments.mdx"),
-  "trills-turns-and-grace-notes": () =>
-    import("./trills-turns-and-grace-notes.mdx"),
-  "double-stops-and-chords-on-the-page": () =>
-    import("./double-stops-and-chords-on-the-page.mdx"),
-  "harmonics-and-pizzicato-marks": () =>
-    import("./harmonics-and-pizzicato-marks.mdx"),
-  "fingerings-and-position-numbers": () =>
-    import("./fingerings-and-position-numbers.mdx"),
-  "editions-and-editorial-marks": () =>
-    import("./editions-and-editorial-marks.mdx"),
-  "the-score-language-quiz": () => import("./the-score-language-quiz.mdx"),
+  // Stage 3 — Score symbols (rebuilt to docs/stage-plans/stage-3.md)
+  // 3a · A — tempo & motion
+  "how-fast-and-what-mood": () => import("./how-fast-and-what-mood.mdx"),
+  "bending-the-tempo": () => import("./bending-the-tempo.mdx"),
+  "the-metronome-mark": () => import("./the-metronome-mark.mdx"),
+  "the-metre-carries-the-tempo": () =>
+    import("./the-metre-carries-the-tempo.mdx"),
+  "tempo-words-in-german-and-french": () =>
+    import("./tempo-words-in-german-and-french.mdx"),
+  // 3a · B — dynamics
+  "loud-and-soft-are-relative": () => import("./loud-and-soft-are-relative.mdx"),
+  "getting-louder-getting-softer": () =>
+    import("./getting-louder-getting-softer.mdx"),
+  "the-sudden-ones": () => import("./the-sudden-ones.mdx"),
+  "dying-away": () => import("./dying-away.mdx"),
+  "where-dynamics-came-from": () => import("./where-dynamics-came-from.mdx"),
+  "dynamics-are-a-bow-thing": () => import("./dynamics-are-a-bow-thing.mdx"),
+  // 3a · C — articulation
+  "short-held-and-connected": () => import("./short-held-and-connected.mdx"),
+  "accents-and-marcato": () => import("./accents-and-marcato.mdx"),
+  "the-marks-stack": () => import("./the-marks-stack.mdx"),
+  "the-fermata": () => import("./the-fermata.mdx"),
+  "breath-marks-and-breaks": () => import("./breath-marks-and-breaks.mdx"),
+  "a-slur-is-one-bow": () => import("./a-slur-is-one-bow.mdx"),
+  "non-legato-was-normal": () => import("./non-legato-was-normal.mdx"),
+  // 3b · D — bow & string words
+  "down-bow-up-bow-and-the-retake": () =>
+    import("./down-bow-up-bow-and-the-retake.mdx"),
+  "arco-and-pizzicato": () => import("./arco-and-pizzicato.mdx"),
+  "the-colour-words": () => import("./the-colour-words.mdx"),
+  "which-string": () => import("./which-string.mdx"),
+  "bow-stroke-words-youll-meet": () =>
+    import("./bow-stroke-words-youll-meet.mdx"),
+  tremolo: () => import("./tremolo.mdx"),
+  // 3b · E — repeats & the road map
+  "repeat-barlines-and-endings": () =>
+    import("./repeat-barlines-and-endings.mdx"),
+  "da-capo-dal-segno-and-the-coda": () =>
+    import("./da-capo-dal-segno-and-the-coda.mdx"),
+  "the-repeat-you-dont-take": () => import("./the-repeat-you-dont-take.mdx"),
+  "the-other-road-signs": () => import("./the-other-road-signs.mdx"),
+  // 3b · F — ornaments
+  "what-an-ornament-is": () => import("./what-an-ornament-is.mdx"),
+  "the-trill": () => import("./the-trill.mdx"),
+  "mordents-and-the-turn": () => import("./mordents-and-the-turn.mdx"),
+  "grace-notes-the-long-and-the-short": () =>
+    import("./grace-notes-the-long-and-the-short.mdx"),
+  "the-slide-and-rolled-chords": () =>
+    import("./the-slide-and-rolled-chords.mdx"),
+  "ornaments-are-an-opinion": () => import("./ornaments-are-an-opinion.mdx"),
+  // 3b · G — string-part notation
+  "reading-double-stops-and-chords": () =>
+    import("./reading-double-stops-and-chords.mdx"),
+  "harmonics-on-the-page": () => import("./harmonics-on-the-page.mdx"),
+  "finger-string-or-position": () => import("./finger-string-or-position.mdx"),
+  "slides-and-octave-signs": () => import("./slides-and-octave-signs.mdx"),
+  // 3b · H — editions
+  "who-wrote-this-mark": () => import("./who-wrote-this-mark.mdx"),
+  "kinds-of-edition": () => import("./kinds-of-edition.mdx"),
+  // 3b · I — putting it together
+  "decode-a-dense-line": () => import("./decode-a-dense-line.mdx"),
+  "the-score-language-check": () => import("./the-score-language-check.mdx"),
+  // 3b · J — the tunes
+  "tune-ode-to-joy-shaped": () => import("./tune-ode-to-joy-shaped.mdx"),
+  "tune-twinkle-articulated": () => import("./tune-twinkle-articulated.mdx"),
+  "tune-minuet-in-g": () => import("./tune-minuet-in-g.mdx"),
+  "tune-amazing-grace": () => import("./tune-amazing-grace.mdx"),
 
   // Stage 4 — Scales & musicianship
   "what-a-scale-is": () => import("./what-a-scale-is.mdx"),

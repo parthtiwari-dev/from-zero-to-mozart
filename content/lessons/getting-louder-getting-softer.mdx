@@ -1,0 +1,106 @@
+A single letter sets a level. To change the level *while you play*, the page gives you two
+tools: a **word** — *cresc.*, *dim.* — or a **shape**, the hairpin.
+
+## The word and the shape
+
+- **cresc.** (*crescendo*, "growing") — get louder. Often trailed by a dashed line:
+  *cresc. \_ \_ \_ \_* — showing how far the growth runs.
+- **dim.** (*diminuendo*) or **decresc.** (*decrescendo*) — get softer, the same way.
+- The **hairpin**: two lines that **open** `<` toward the loud end and **close** `>` toward the
+  soft end. It sits under the staff, stretched across exactly the notes it applies to.
+
+The hairpin carries more information than the word: **its length** tells you over how many
+notes to spread the change, and **where it ends** tells you where you're aiming — the loudest
+point of a `<`, the quietest of a `>`.
+
+## Hear it
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!<(!D E F G | A B c d!<)! |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+  ]}
+  caption="A hairpin opening across all eight notes: start soft on the low D, arrive loud on the high D. The growth is spread evenly — a little more sound on every single note, not a jump at the end."
+  defaultBpm={76}
+/>
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!>(!d c B A | G F E D!>)! |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  caption="A closing hairpin — the same line coming down, fading from loud to soft. End it genuinely quiet on the low D, not just 'a bit less'."
+  defaultBpm={76}
+/>
+
+## Slow growth — poco a poco
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+"^cresc. poco a poco" D E F G | A B c d | e d c B | A2 G2 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "E", string: "A", finger: "4" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="'cresc. poco a poco' — bit by bit. The growth is stretched across all four bars, so almost nothing happens from one note to the next; you only notice the change bar to bar. A short hairpin means the opposite: do it now."
+  defaultBpm={84}
+/>
+
+## Try it
+
+<TryThis>
+  Play the four-note rise D–E–F♯–G on the D string. Give each note a hair more bow speed than
+  the one before — same weight, just faster travel. Four small increases add up to a
+  crescendo you *built*, evenly, rather than a loudness you flipped on at the top.
+</TryThis>
+
+## The usual mistake
+
+Saving the whole change for the last note — three quiet notes and then a loud one is not a
+crescendo, it's a step. Spread it. Second: ignoring where the hairpin **ends** — that point is
+the target, and if you peak early you've nowhere to go. Third: reading a long closing hairpin
+`>` as an **accent**. An accent `>` sits on one note; a diminuendo hairpin stretches across
+several. Check how wide it is.
+
+<Cite source="Grove, on the Mannheim school">
+  The Mannheim court orchestra of the 1740s–60s built its fame on the long, controlled
+  crescendo — a whole ensemble swelling together over many bars. Audiences reportedly rose
+  from their seats. Movement B's later lesson comes back to where this style came from.
+</Cite>

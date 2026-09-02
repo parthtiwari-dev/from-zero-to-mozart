@@ -1,0 +1,80 @@
+Stage 2 gave you the repeat barline and the first-and-second endings. This lesson puts them
+together — reading a **route** through a whole piece — and shows what all that repetition is
+telling you about how the music is built.
+
+## A quick recall
+
+- **`‖:` … `:‖`** — the dots always face the music you go back and play. Play the enclosed
+  bars **twice**, then carry on.
+- **No opening `‖:`** — the `:‖` sends you all the way back to the **top of the piece**.
+- **`1.` `2.` `3.` brackets** — different endings for the repeated section (*volta*, "time":
+  *prima volta*, *seconda volta*). Play the `1.` bracket the first time, skip it and take `2.`
+  the second time, and so on.
+
+## Trace a route
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+|: G A B c | d4 :| |: d c B A | G4 :| |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="Four bars printed, eight bars played: the first half twice, then the second half twice — A A B B. That little shape, two halves each repeated, is binary form: the skeleton of nearly every Baroque and Classical dance."
+  defaultBpm={92}
+/>
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+|: G A B c | d2 B2 |1 c B A2 :|2 c d e2 |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "E", string: "A", finger: "4" },
+  ]}
+  caption="The route: bars 1–2, then the '1.' ending (C–B–A), back to bar 1, bars 1–2 again, skip the '1.' ending, take the '2.' ending (C–D–E). The first ending closes the loop; the second one moves the music on."
+  defaultBpm={92}
+/>
+
+## Try it
+
+<TryThis>
+  Before you play the second example, put a finger on the page and **walk the route**: bar 1,
+  bar 2, first ending, back to bar 1, bar 1, bar 2, second ending, done. Say it out loud. Then
+  play it and let your eyes do what your finger just did.
+</TryThis>
+
+## The usual mistake
+
+Playing both endings in a row the first time through. Missing that a lone `:‖` with no
+opening partner sends you back to bar 1 of the whole piece, not just a few bars. And losing
+your place on the second pass through a volta — the fix is always to trace it first.
+
+<Cite source="standard notation; binary form — full treatment in Stage 4">
+  The repeat structure of a dance isn't decoration: a minuet, a gavotte, a bourrée, the
+  exposition of a sonata are all built as two repeated halves. Read the repeat signs and
+  you've already read the form.
+</Cite>

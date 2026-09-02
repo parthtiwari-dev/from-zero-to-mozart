@@ -1,0 +1,88 @@
+Two small symbols over the notes say which way to move the bow. You met them in Stage 0 (*the
+geography of the bow*); here you learn to **read them in a part** — and to notice that they
+tell you more than direction. They tell you where the strong beats are.
+
+## The three marks
+
+| Mark | Name | Direction | Feel |
+|---|---|---|---|
+| **⊓** — a bracket / staple | down-bow | frog → tip, you **pull** | naturally the **stronger** stroke — gravity helps |
+| **V** | up-bow | tip → frog, you **push** | naturally **lighter** |
+| a **comma** or lift-hook | retake | lift the bow and reset (usually back toward the frog), **same direction** | resets the weight; makes a small silence |
+
+## Hear it
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!downbow!G !upbow!A !downbow!B !upbow!c |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+  ]}
+  caption="Down, up, down, up — the natural alternation. The down-bows (notes 1 and 3) fall on the strong beats and feel weightier; the up-bows are lighter. The bowing and the metre line up."
+  defaultBpm={76}
+/>
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!downbow!G !downbow!A !downbow!B !downbow!c |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+  ]}
+  caption="Four down-bows in a row. Between each, a retake — lift the bow, carry it back toward the frog, set it down again. Every note now gets that frog-end weight and a tiny space opens before it."
+  defaultBpm={66}
+/>
+
+## The bowing shows you the beat
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!upbow!c | !downbow!B A G F | G4 |]`}
+  labels={[
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="The pickup C is an up-bow; the downbeat B is a down-bow. When you see a lone ⊓ near the start of a bar, it's telling you 'beat 1 is here' — the strong stroke marks the strong beat."
+  defaultBpm={80}
+/>
+
+## Try it
+
+<TryThis>
+  Play G–A–B–C as down–up–down–up. Feel the down-bows sit into the string with the arm's
+  weight; the up-bows float. Now play the same four all **down-bow**, lifting and carrying the
+  bow back to the frog between each. Slower, more deliberate — and every note has the same
+  strong start.
+</TryThis>
+
+## The usual mistake
+
+Fighting a printed bowing because an up-bow "feels weak" on a note you want strong. The editor
+or composer almost always chose it to make a *later* note land correctly — trust it and look
+ahead. And treating a retake as just a quick up-bow: it's a **lift**, off the string and back,
+with the silence that comes with it.
+
+<Cite source="Georg Muffat, Florilegium Secundum (1698), preface; via David Boyden, The History of Violin Playing">
+  The "rule of the down-bow" comes from Lully's orchestra, the 24 Violons du Roi: the first
+  note of every bar is taken down-bow, so the naturally strong stroke lands on the naturally
+  strong beat. The symbols themselves likely grew from the letters **n** (*nobilis*, strong)
+  and **v** (*vilis*, weak).
+</Cite>

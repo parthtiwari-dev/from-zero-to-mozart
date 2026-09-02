@@ -1,0 +1,82 @@
+When a big chunk of a piece comes back unchanged, notation doesn't reprint it. Instead, a few
+Italian words and two symbols send you **jumping around the page** — back to the start, back
+to a marked spot, or forward to a tail. Reading music like this is following arrows.
+
+## The marks
+
+| Mark | Italian | Sends you |
+|---|---|---|
+| **D.C.** | *da capo* — "from the head" | back to the **very beginning** |
+| **D.S.** | *dal segno* — "from the sign" | back to the **𝄋** (an S with a slash and two dots) |
+| **Fine** | "the end" | this is where you **stop** (even though there's more printed after) |
+| **𝄌** + "**To Coda**" / "**al Coda**" | *coda* — "tail" | when you hit *To Coda*, **jump forward** to the matching **𝄌** and play the tail to the end |
+
+## The four routes
+
+- **D.C. al Fine** — back to the top, play until *Fine*, stop.
+- **D.S. al Fine** — back to the sign, play until *Fine*, stop.
+- **D.C. al Coda** — back to the top, play until *To Coda*, jump to **𝄌**, play the tail.
+- **D.S. al Coda** — back to the sign, play until *To Coda*, jump to **𝄌**, play the tail.
+
+## Hear a D.C. al Fine
+
+<NotatedExample
+  followPlayback
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+G A B c | d2 !fine! d2 | e d e f | e c !D.C.alfine! d2 |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "E", string: "A", finger: "4" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "E", string: "A", finger: "4" },
+    { name: "F♯", string: "E", finger: "1" },
+    { name: "E", string: "A", finger: "4" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+  ]}
+  caption="Printed: four bars. Played: bars 1–2, bars 3–4, then 'D.C. al Fine' throws you back to bar 1 — and you play 1–2 again and stop dead at 'Fine'. So you hear A – middle – A. The middle section was never reprinted."
+  defaultBpm={96}
+/>
+
+## A worked route — D.S. al Coda
+
+Imagine a piece with a **𝄋** at bar 3, a **To Coda 𝄌** at bar 10, a **D.S. al Coda** at bar
+18, and a **𝄌 Coda** section at bars 19–22.
+
+| You play, in order | Which printed bars |
+|---|---|
+| the opening | bars 1–18 |
+| jump back to the sign | → bar 3 |
+| from the sign to *To Coda* | bars 3–10 |
+| jump to the Coda | → bar 19 |
+| the Coda to the end | bars 19–22 |
+
+Twenty-two printed bars; thirty-something played.
+
+## Try it
+
+<TryThis>
+  Take any song with *D.C. al Fine* or *D.S. al Coda* printed on it. Before playing a note,
+  number the bars **1, 2, 3…** in the order you'll actually play them — writing "1, 2, 3, …,
+  1, 2" for a da capo. Then play from your numbers, not the layout.
+</TryThis>
+
+## The usual mistake
+
+Taking the *D.C.* jump but sailing straight past **Fine** and playing to the end of the page.
+Missing a *To Coda* and never jumping. And — the subtle one — not knowing whether to take the
+inner repeats on the way back through: that's the next lesson.
+
+<Cite source="Grove, on the da capo aria and dal segno">
+  The habit comes from 18th-century opera. In a **da capo aria** (A–B–A) the third section was
+  never written out — the composer just wrote *da capo*, and the singer returned to the top,
+  adding ornaments. The instrumental **Minuet–Trio–Minuet** is the same idea for players.
+</Cite>

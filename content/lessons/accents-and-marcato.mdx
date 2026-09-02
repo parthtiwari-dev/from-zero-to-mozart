@@ -1,0 +1,98 @@
+An accent mark says: **lean on this one note.** More attack, a little more weight, so it
+stands out from its neighbours. It does **not** change the dynamic level of the passage — it's
+a local bump, not a new setting.
+
+## The two marks
+
+| Mark | Name | What it asks |
+|---|---|---|
+| **`>`** — a wedge open to the left | accent | a stress on the note — more bite at the start, within the current dynamic |
+| **`^`** — a small caret / roof | marcato | heavier still, **and separated** — "marked", almost hammered; the note doesn't blend into the next |
+
+You've also met **`sf` / `fz`** (Movement B) — a sharper, more sudden jab than a plain accent.
+Same idea, more violent.
+
+## Hear it
+
+Eight even eighth notes, with an accent on each half-bar downbeat. Listen to the metre step
+forward.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/8
+K:G clef=treble
+!>!G A B c !>!d c B A |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="Accents on notes 1 and 5. The stream is otherwise even; the two leans make you hear where the beats are. An accent is a shaping tool as much as an effect."
+  defaultBpm={92}
+/>
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!marcato!G !marcato!A !marcato!B !marcato!c |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+  ]}
+  caption="Marcato carets. Each note leaned on and clearly cut off from the next — weighty and deliberate, like stamping each one down."
+  defaultBpm={76}
+/>
+
+## The lean is proportional
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!p! !>!d c !>!B A | !f! !>!d c !>!B A |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="The same accents in p, then in f. In the soft bar they're gentle nudges; in the loud bar they're firm. An accent is always measured against the dynamic it sits in."
+  defaultBpm={84}
+/>
+
+## Try it
+
+<TryThis>
+  Play eight even eighth notes on the open A at 96. Now put a quick catch of **bow speed** —
+  not weight — on the first of each group of four. The note should bite at its start and then
+  relax. You've placed an accent, and the eight notes now have a shape.
+</TryThis>
+
+## The usual mistake
+
+Making an accent by **crushing** the string — you get a scratch, not a stress. A fast little
+surge of bow at the *start* of the note does it cleanly. Second: playing every accented note
+up at `f` regardless of the passage — an accent in `p` stays inside `p`. Third: reading `>` the
+accent as `>` the diminuendo hairpin. The accent sits on **one** note; the hairpin stretches
+across several. Check the width.
+
+<Cite source="Leopold Mozart, Versuch einer gründlichen Violinschule (1756); standard metrical practice">
+  Accent normally follows the bar: the first beat is naturally the strongest, the third next.
+  A written `>` either reinforces that pulse or deliberately pushes against it — and knowing
+  which is half of reading the phrase.
+</Cite>

@@ -1,0 +1,84 @@
+A dot with a curved line arching over it — a **fermata**, sometimes called a "bird's eye" or
+a "pause". It means: stop counting, and hold this longer than it's written. How much longer is
+a judgment call, and the era it was written in gives you the answer.
+
+## Where it sits
+
+| Over a… | Means |
+|---|---|
+| **note** | sustain the note past its value |
+| **rest** | hold the silence past its value — still *felt*, not just waited out |
+| **barline** | a pause *between* phrases — a breath, no note held |
+
+The default, when nothing else guides you: **about twice the written length**.
+
+## Hear it
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+d c B A | G2 !fermata!G2 |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="The last G carries a fermata. The playback holds it for its written two beats — you would hold it for about four, keeping the bow alive and the tone full, then lift cleanly."
+  defaultBpm={80}
+/>
+
+## A held silence
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+d c B A | G2 !fermata!z2 | B c d2 |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+  ]}
+  caption="The fermata is over the rest. Hold the silence — bow off the string, but keep counting loosely — then come in on the B. The pause is part of the phrase, not a gap in it."
+  defaultBpm={80}
+/>
+
+## It depends on the era
+
+| Era | What a fermata usually means |
+|---|---|
+| **Baroque** | roughly double. In Bach's chorales it marks the end of a line of the hymn — a **breath**, not a grand halt |
+| **Classical** | a **structural hinge** — it sits at a big cadence, or just before a cadenza. It says "a section is ending" |
+| **Romantic** | a **dramatic, elastic stretch** — held as long as the moment can bear |
+
+## Try it
+
+<TryThis>
+  Play D–C–B–A into a held G (a half note). Count the G's two beats — then keep the bow moving,
+  full tone, for two more. Four beats on one note. Listen for the sound staying alive the
+  whole time, not sagging. Lift, find the pulse again in your foot, and you're ready to go on.
+</TryThis>
+
+## The usual mistake
+
+Barely holding it — a fermata that lasts a hair longer than written isn't a fermata. And the
+opposite: holding so long the pulse evaporates and you can't find the next entry. Keep a slow
+count running underneath. Over a rest, *feel* the silence in time rather than waiting until it
+"seems right."
+
+<Cite source="Clive Brown, Classical and Romantic Performing Practice 1750–1900 (OUP, 1999)">
+  Brown traces the fermata from a modest Baroque doubling — often just a breath at a phrase
+  end — to the long, expressive suspension of Romantic practice. The symbol stayed the same;
+  what performers did with it grew.
+</Cite>

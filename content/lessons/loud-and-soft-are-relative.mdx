@@ -1,0 +1,107 @@
+How loud to play is written as lowercase letters under the staff, from the Italian *piano*
+(soft) and *forte* (loud). The crucial thing about them: they are **relative**. A `p` means
+"soft, for this music, right here" — not a fixed number of decibels.
+
+## The ladder
+
+| Mark | Name | Sense |
+|---|---|---|
+| pp | pianissimo | very soft |
+| p | piano | soft |
+| mp | mezzo-piano | medium-soft |
+| mf | mezzo-forte | medium-loud |
+| f | forte | loud |
+| ff | fortissimo | very loud |
+
+Beyond the ends: **ppp**, **pppp** and **fff**, **ffff** turn up in Romantic and later music
+for extremes. Classical music — Haydn, Mozart, early Beethoven — lives almost entirely between
+**pp and ff**; if you're playing that repertoire and you've reached for `fff`, you've probably
+overshot.
+
+The mark sits **below the staff**, lined up with the note where the new level begins, and
+holds until the next mark changes it.
+
+## Hear it
+
+Same seven notes, twice. First soft, then loud — notice it isn't "the same thing at a
+different volume," it's a different mood.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!p! G B d c | B c A2 |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="Marked p. Soft — but the tone still has a centre to it. Quiet is not the same as weak or breathy."
+  defaultBpm={80}
+/>
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!f! G B d c | B c A2 |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="Marked f. Full and open — but not forced. Forte is a lot of sound produced easily, not a small sound produced hard."
+  defaultBpm={80}
+/>
+
+## Context sets the level
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!f! G B d c | !p! B c A2 |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="The p in the second bar sounds much softer than the p in the first example did — because a loud bar came right before it. The letters are read against what surrounds them."
+  defaultBpm={80}
+/>
+
+## Try it
+
+<TryThis>
+  On the open D string, play one long bow as *soft* as you can while the note still speaks
+  cleanly — no scratch, no breathiness. That's your `p` today. Now one long bow as *loud* as
+  stays clean and round. That's your `f`. Everything else is somewhere between those two.
+</TryThis>
+
+## The usual mistake
+
+Making `p` by going faint — less bow, barely touching — so the note whistles or disappears.
+Piano keeps a full, ringing core; it's just smaller. And making `f` by pressing until the
+string chokes. Forte is *more* sound made *easily* — more bow, more of the string's ring, not
+more force.
+
+<Cite source="Grove, on dynamics">
+  Dynamic marks describe relationships, not measured loudness. The same `p` asks for one thing
+  from a solo violin in a quiet room and another from a section in a hall — and a `p` after
+  `ff` is a different world from a `p` after `mp`.
+</Cite>

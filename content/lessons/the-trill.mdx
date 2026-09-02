@@ -1,0 +1,108 @@
+A **trill** (**tr**) is a fast alternation between the written note and the note **above** it,
+for as long as the written note lasts. It's the most common ornament — and it carries one
+genuine question: which note do you start on?
+
+## Reading the symbol
+
+- **tr** sits above the note. A trailing **wavy line** shows how far the trill runs.
+- An **accidental above** or just after the `tr` sets the pitch of the *upper* note — `tr` with
+  a ♯ means trill up to the sharpened note, not the diatonic one.
+- A small curl of two notes at the **end** — down to the lower neighbour and back — is the
+  **termination** (or *Nachschlag*). It lands the trill cleanly onto the next note. Sometimes
+  it's written out; often it's just expected.
+
+## As printed
+
+<NotatedExample
+  followPlayback
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+d c !trill!B2 | A2 G2 |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="A trill on the held B. On the page that's all you get — 'tr'. What you actually play depends on the era."
+  defaultBpm={80}
+/>
+
+## Baroque — start above
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/8
+K:G clef=treble
+d2 cBcBcB | A4 |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="The B trill realised the Baroque way: begin on the upper note, C. C.P.E. Bach, Marpurg and Türk all taught that every trill starts above — it works as a little dissonance resolving down onto the main note."
+  defaultBpm={80}
+/>
+
+## Classical / modern — start on the note
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/8
+K:G clef=treble
+d2 BcBcB2 | A4 |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="The same trill begun on the written B. Hummel codified this in 1828, and it's the default many players carry today — partly because it's simply easier under the hand."
+  defaultBpm={80}
+/>
+
+## It depends on the era
+
+| Era | Start the trill on… |
+|---|---|
+| **Baroque** | the **upper** note — always |
+| **Classical** | mixed — in transition through the 1790s; the note, the harmony and the edition all weigh in |
+| **Romantic and after** | the **written** note (Hummel's rule) |
+
+A `tr` on a Mozart note is **genuinely ambiguous** — and deciding is a real interpretive
+choice. This is the clearest place in the whole stage where "read it" and "play it in the
+right style" pull apart.
+
+## Try it
+
+<TryThis>
+  On a note you can hold, trill **slowly** first — just the note and its upper neighbour, back
+  and forth, dead even. Then let it speed up only as far as it stays even. A slow clean trill
+  beats a fast ragged one every time.
+</TryThis>
+
+## The usual mistake
+
+Cramming in as many notes as possible — a trill is a **shimmer**, and evenness matters more
+than count. Forgetting the termination when the style asks for one. And the big one: playing a
+**Baroque** trill from the main note out of modern habit, when it should almost always begin
+above.
+
+<Cite source="C.P.E. Bach, Versuch (1753); Leopold Mozart, Violinschule (1756); 'The Trill in the Classical Period 1750–1820'">
+  Leopold Mozart: "All short trills are played with a quick appoggiatura [from above] and a
+  turn" — that is, an upper-note start and a termination. He drew his trill examples straight
+  from Tartini.
+</Cite>

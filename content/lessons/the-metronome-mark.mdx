@@ -1,0 +1,104 @@
+Sometimes, next to the tempo word — or instead of it — there's a tiny equation: a note symbol,
+an equals sign, a number. That's a **metronome mark**, and unlike *Allegro* it is exact.
+
+## Reading it
+
+**♩ = 92** means: a quarter note, ninety-two times a minute. Set a metronome to 92 and every
+click is one quarter note of the piece.
+
+- The note on the left is the unit you're counting. **♩ = 60** counts in quarters; **♪ = 120**
+  in eighths; in compound time you'll see **♩. = 50** — a *dotted* quarter fifty times a
+  minute, one click per big beat of a 6/8 bar.
+- Sometimes **M.M.** sits in front — *Maelzel's Metronome*, after the man who sold the device.
+- A range (**♩ = 88–96**) means "somewhere in here"; a word plus a mark (*Andante, ♩ = 76*)
+  gives you the character *and* the number.
+
+## Hear it
+
+Here the mark is printed on the staff, the way you'd meet it. Set the tempo slider to 63 to
+hear the piece at the speed the mark asks for — then try it at other numbers and notice how
+much the printed one is telling you.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+Q:1/4=63
+K:G clef=treble
+G A B c | d c B A | G4 |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="♩ = 63 printed above the first bar. That's the whole instruction — a quarter note sixty-three times a minute, no interpretation needed."
+  defaultBpm={63}
+  minBpm={44}
+  maxBpm={132}
+/>
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+Q:1/4=120
+K:G clef=treble
+G A B c | d c B A | G4 |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="The same nine notes, now marked ♩ = 120. Set the slider there. Nothing on the staff changed — the number did the work."
+  defaultBpm={120}
+  minBpm={60}
+  maxBpm={144}
+/>
+
+## Read these
+
+<Quiz
+  items={[
+    { q: "♩ = 72", a: "A quarter note 72 times a minute — one metronome click per quarter, at 72." },
+    { q: "♪ = 132", a: "An eighth note 132 times a minute. Each click is an eighth, so a quarter note lasts two clicks — the felt pulse is 66." },
+    { q: "♩. = 50 in 6/8", a: "A dotted quarter 50 times a minute — one click per big beat, so two clicks a bar. The six eighths flow three to a click." },
+    { q: "Andante, ♩ = 80", a: "Both at once: walking-pace character, pinned to 80 quarters a minute." },
+  ]}
+/>
+
+## Try it
+
+<TryThis>
+  Open any piece with a metronome mark. Set a metronome (the one in the bar at the bottom of
+  the screen) to that number, listen to four clicks, then play the first bar landing each beat
+  on a click. If you can't hold it, halve the number and play one note every two clicks.
+</TryThis>
+
+## The usual mistake
+
+Trusting an old mark too much. **Beethoven's own metronome marks are famously disputed** —
+often faster than seems playable — and the argument (a faulty device, or a different way of
+reading the scale) is still unsettled. Treat a Romantic-era mark as strong evidence, not law.
+
+And the bigger one: **Mozart, Haydn and everything Classical have no metronome marks at all** —
+the machine didn't exist. If you see **♩ = 100** on an edition of the Mozart concerto, that's
+the *editor's* suggestion, not Mozart's (Movement H — editions — comes back to this). For that
+music the tempo word and the metre are the real guide.
+
+<Cite source="Grove, on the metronome and Maelzel">
+  Johann Nepomuk Maelzel patented the metronome in 1815 — building on a pendulum design by
+  Dietrich Nikolaus Winkel. Beethoven, from 1817, was the first major composer to write marks
+  into his scores; every composer before him, Mozart included, had none to write.
+</Cite>

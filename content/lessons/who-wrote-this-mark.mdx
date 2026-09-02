@@ -1,0 +1,64 @@
+Not everything printed on your page was written by the composer. An **editor** sits between
+the composer's manuscript and the print shop — adding fingerings, filling gaps, making
+judgement calls where the sources are unclear. A good edition uses visual signals to tell you
+which marks are the editor's.
+
+## The signals
+
+| On the page | Means |
+|---|---|
+| **square brackets `[ ]`** around an accidental, dynamic, articulation or note | the **editor added it** |
+| **parentheses `( )`** | **optional or doubtful** — a courtesy accidental, a questionable reading |
+| a **dashed / dotted slur or tie** | an **editorial** slur — a solid curve is the composer's |
+| **small-print** notes, accidentals or fingerings | an editor's **suggestion** |
+| the **preface** ("editorial method") | the key to that edition's system — **read it first** |
+
+## Two layers on one line
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!p! (d c) B A | "^[f]" .(G F) E D |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  caption="Bar 1: the p and the solid slur are the composer's — play them as written. Bar 2: the [f] in brackets and the dashed slur are the editor's — informed suggestions you can take or leave. The notes themselves are the same authority throughout; the shaping marks are not."
+  defaultBpm={80}
+/>
+
+## The ossia stave
+
+A small extra stave above or below the main one, labelled **ossia** ("or it may be"). It
+offers an **alternative** to the bar beneath it — an easier version, an ornament written out,
+a suggested cadenza, or a variant reading from another source. You pick which one to play.
+
+## Try it
+
+<TryThis>
+  Open any edition you have. Find the **preface** or "editorial method" note near the front,
+  and read the sentence that says how editorial additions are marked. Then turn to any page
+  and spot two of them. Every serious edition tells you its rules — and almost nobody reads
+  that page.
+</TryThis>
+
+## The usual mistake
+
+Playing a **bracketed** dynamic with the same weight as an unbracketed one — it's a
+suggestion, not the text. And the reverse: ignoring a helpful editorial fingering because
+it's "not the composer's." Read both layers, and always know which mark belongs to which
+hand.
+
+<Cite source="G. Henle Verlag, 'What is Urtext?'; standard editorial convention">
+  Square brackets for editorial additions are borrowed straight from text editing, where an
+  editor's insertion into an author's sentence goes in brackets too. The principle is the
+  same: show the reader exactly where you stepped in.
+</Cite>

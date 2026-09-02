@@ -1,0 +1,81 @@
+Violin parts are full of numbers, and they don't all mean the same thing. A number near a
+note might be a **finger**, a **string**, or a **position** — three completely different
+instructions. Telling them apart is a genuine reading skill, and it's the exact knot the first
+page of a real concerto ties you in.
+
+## The three systems
+
+| On the page | Means | Looks like |
+|---|---|---|
+| **Arabic 1 2 3 4** (0 = open) beside a notehead | which **finger** of the left hand | small number, right by the note |
+| **Roman I II III IV**, or **sul G / D / A / E** | which **string** — counted from the **top** (I = E, IV = G) | Roman numeral over the notes, or a word |
+| **Roman numeral, or "III. pos." / "3rd pos.", at a passage start** | which **position** — where the whole hand sits on the neck | at the front of a phrase, often boxed |
+| a **circled** number | a **string** — circled on purpose, so you don't read it as a finger | ③ |
+
+The trap: **"III" over one note** = the D string. **"III" at the start of a phrase** = third
+position. Same numeral, different jobs — *where it sits* tells you which.
+
+## Fingers
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!3!G !0!A !1!B !2!c | !3!d !2!c !1!B !0!A |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="The small numbers by the notes — 3, 0, 1, 2 — are fingerings. Which finger presses each note. This is what most of the numbers in a part are."
+  defaultBpm={80}
+/>
+
+## String and position, on the same line
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+"^I. pos." "^II"!1!B !2!c !3!d !4!e | !3!d !2!c !1!B "^III"!3!G |]`}
+  labels={[
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "E", string: "A", finger: "4" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="Three kinds of number at once. 'I. pos.' at the front — first position, the hand stays put. 'II' over the opening — play on the A string. The small 1 2 3 4 under the notes — fingerings. And 'III' over the last note — switch to the D string for that G (3rd finger)."
+  defaultBpm={80}
+/>
+
+## Try it
+
+<TryThis>
+  Open a fingered piece. For every number you can see, point at it and say out loud — "finger,"
+  "string," or "position." Don't play a note; just classify. Do a whole page. It's a
+  five-minute drill that stops a whole category of misreadings.
+</TryThis>
+
+## The usual mistake
+
+Playing a string numeral as a finger — seeing "III" and putting down the 3rd finger, when it
+means "the D string." Playing a position numeral as a finger. Freezing at a circled number.
+Every time, the fix is the same: **where is it printed, and what shape is it?**
+
+<Cite source="docs/LESSONS-FROM-MOZART.md §3; standard string notation">
+  The first page of the Mozart concerto carries 1–2–3–4 for fingers and III–IV for positions,
+  a few lines apart. Naming the three systems now — finger, string, position — is what lets
+  you read that page without stopping to untangle it every time. Positions themselves are
+  Stage 6.
+</Cite>

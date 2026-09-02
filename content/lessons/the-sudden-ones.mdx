@@ -1,0 +1,102 @@
+Not every dynamic changes gradually. Some marks hit a **single note**, and some **flip the
+level in an instant** with no ramp at all.
+
+## The marks
+
+| Mark | Name | What it does |
+|---|---|---|
+| **sf**, **sfz**, **fz** | sforzando / forzando | a sharp, forced push on **that one note** — then back to the prevailing level |
+| **rf**, **rfz** | rinforzando | a reinforcement across a **short group** or until the next dynamic — broader than sf |
+| **fp** | forte-piano | attack the note **loud**, drop to **soft** immediately, on the same note |
+| **sfp** | sforzando-piano | a forced attack, then instantly soft |
+| **subito p** / **subito f** | suddenly | the new level starts **now**, with no crescendo or diminuendo leading in |
+
+## Hear it — forte-piano
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+d2 c2 | !fp! B4 | A2 G2 |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="The held B is marked fp: strike it with full weight and speed, then — almost at once — release to a whisper and let it sit there for the rest of the note. One note, two dynamics."
+  defaultBpm={72}
+/>
+
+## A forced note in a line — sfz
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!p! G A B c | d !sfz! e d2 | c B A2 |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "E", string: "A", finger: "4" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="The whole line is p. The sfz jabs the high E — a sudden bite — then the very next note is back to soft. An sfz inside a quiet passage is a quiet jab: sharp, but scaled to its surroundings."
+  defaultBpm={84}
+/>
+
+## Suddenly soft — subito p
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!f! G B d g | "^subito" !p! f e d c | B2 G2 |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "G", string: "E", finger: "low 2" },
+    { name: "F♯", string: "E", finger: "1" },
+    { name: "E", string: "E", finger: "0" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="Loud for a full bar, then subito p — drop straight to soft with no fade. The surprise is the point; a diminuendo into it would spoil it. A Classical favourite."
+  defaultBpm={88}
+/>
+
+## Try it
+
+<TryThis>
+  On the open A string, play one bow that is *forte-piano*: a fast, full start — the first
+  centimetre of bow moving quickly with weight — then release almost immediately to slow,
+  light travel and hold that soft sound to the end of the bow. The ear should hear "bam …
+  hmmm."
+</TryThis>
+
+## The usual mistake
+
+Playing `sf` as "loud from here on." It marks **one note** — the note after it returns to
+whatever level you were at. Second: forgetting the `p` in `fp` — the loud attack is easy to
+remember, the instant drop is the hard, characterful part. Third: confusing `sf` with a plain
+accent `>`. An accent leans on the note within the current dynamic; `sf` is the more violent
+gesture — a jab, not a lean — but both are still measured against what's around them.
+
+<Cite source="Leopold Mozart, Versuch einer gründlichen Violinschule (1756), Ch. XII">
+  He describes the forte-piano as a paired stress on a single note — a strong start that
+  immediately gives way — used for emphasis, the way a speaker hits a word and then drops
+  their voice.
+</Cite>

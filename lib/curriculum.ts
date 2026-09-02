@@ -246,19 +246,73 @@ export const LESSONS: Lesson[] = [
   { slug: "tune-perpetual-motion", title: "Perpetual Motion", stage: 2, track: "repertoire", tag: "NOW", published: P, piece: { key: "G major", position: "1st", skill: "an even eighth-note stream — hold the pulse through everything", inPdf: false } },
 
   // ── Stage 3 — Score symbols ─────────────────────────────────────
-  { slug: "tempo-words", title: "Tempo words", stage: 3, track: "reading", tag: "NOW", published: P },
-  { slug: "dynamics", title: "Dynamics", stage: 3, track: "reading", tag: "NOW", published: P },
-  { slug: "articulation", title: "Articulation marks", stage: 3, track: "reading", tag: "NOW", published: P },
-  { slug: "bow-direction-marks", title: "Bow-direction marks", stage: 3, track: "reading", tag: "NOW", published: P },
-  { slug: "string-words", title: "Words only string players see", stage: 3, track: "reading", tag: "NOW", published: P },
-  { slug: "repeats-and-navigation", title: "Repeats and navigation", stage: 3, track: "reading", tag: "NOW", published: P },
-  { slug: "ornaments", title: "Ornaments", stage: 3, track: "reading", tag: "NEXT", published: P },
-  { slug: "trills-turns-and-grace-notes", title: "Trills, turns and grace notes", stage: 3, track: "reading", tag: "NEXT", published: P },
-  { slug: "double-stops-and-chords-on-the-page", title: "Double stops and chords, on the page", stage: 3, track: "reading", tag: "NEXT", published: P },
-  { slug: "harmonics-and-pizzicato-marks", title: "Harmonics and pizzicato marks", stage: 3, track: "reading", tag: "REFERENCE", published: P },
-  { slug: "fingerings-and-position-numbers", title: "Fingerings — and position numbers aren't fingers", stage: 3, track: "reading", tag: "NOW", published: P },
-  { slug: "editions-and-editorial-marks", title: "Editions and editorial marks", stage: 3, track: "reading", tag: "REFERENCE", published: P },
-  { slug: "the-score-language-quiz", title: "The score-language quiz", stage: 3, track: "reading", tag: "NOW", published: P },
+  //   Rebuilt to docs/stage-plans/stage-3.md (research: stage-3-research.md).
+  //   Two halves: 3a Expression (A–C), 3b The rest of the page (D–J).
+  //   Everything here is READING — bow strokes perform in Stage 5, ornaments
+  //   in Stage 6. Old thin Stage-3 slugs deleted and replaced.
+  // 3a · Movement A — tempo & motion
+  { slug: "how-fast-and-what-mood", title: "How fast, and what mood", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "bending-the-tempo", title: "Bending the tempo", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "the-metronome-mark", title: "The metronome mark", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "the-metre-carries-the-tempo", title: "The metre carries the tempo", stage: 3, track: "reading", tag: "NEXT", published: P },
+  { slug: "tempo-words-in-german-and-french", title: "Tempo words in German and French", stage: 3, track: "reading", tag: "REFERENCE", published: P },
+  // 3a · Movement B — dynamics
+  { slug: "loud-and-soft-are-relative", title: "Loud and soft are relative", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "getting-louder-getting-softer", title: "Getting louder, getting softer", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "the-sudden-ones", title: "The sudden ones — sf, fp, subito", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "dying-away", title: "Dying away", stage: 3, track: "reading", tag: "NEXT", published: P },
+  { slug: "where-dynamics-came-from", title: "Where dynamics came from", stage: 3, track: "reading", tag: "NEXT", published: P },
+  { slug: "dynamics-are-a-bow-thing", title: "Dynamics are a bow thing", stage: 3, track: "bow", tag: "NOW", published: P },
+  // 3a · Movement C — articulation
+  { slug: "short-held-and-connected", title: "Short, held, and connected", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "accents-and-marcato", title: "Accents and marcato", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "the-marks-stack", title: "The marks stack", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "the-fermata", title: "The fermata", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "breath-marks-and-breaks", title: "Breath marks and breaks", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "a-slur-is-one-bow", title: "A slur is one bow", stage: 3, track: "bow", tag: "NOW", published: P },
+  { slug: "non-legato-was-normal", title: "Non-legato was normal", stage: 3, track: "reading", tag: "NEXT", published: P },
+  // 3b · Movement D — bow & string words
+  { slug: "down-bow-up-bow-and-the-retake", title: "Down-bow, up-bow, and the retake", stage: 3, track: "bow", tag: "NOW", published: P },
+  { slug: "arco-and-pizzicato", title: "Arco and pizzicato", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "the-colour-words", title: "The colour words", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "which-string", title: "Which string", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "bow-stroke-words-youll-meet", title: "Bow-stroke words you'll meet", stage: 3, track: "bow", tag: "REFERENCE", published: P },
+  { slug: "tremolo", title: "Tremolo", stage: 3, track: "reading", tag: "NOW", published: P },
+  // 3b · Movement E — repeats & the road map
+  { slug: "repeat-barlines-and-endings", title: "Repeat barlines and endings", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "da-capo-dal-segno-and-the-coda", title: "Da capo, dal segno, and the coda", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "the-repeat-you-dont-take", title: "The repeat you don't take", stage: 3, track: "reading", tag: "NEXT", published: P },
+  { slug: "the-other-road-signs", title: "The other road signs", stage: 3, track: "reading", tag: "REFERENCE", published: P },
+  // 3b · Movement F — ornaments
+  { slug: "what-an-ornament-is", title: "What an ornament is", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "the-trill", title: "The trill", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "mordents-and-the-turn", title: "Mordents and the turn", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "grace-notes-the-long-and-the-short", title: "Grace notes — the long and the short", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "the-slide-and-rolled-chords", title: "The slide, and rolled chords", stage: 3, track: "reading", tag: "NEXT", published: P },
+  { slug: "ornaments-are-an-opinion", title: "Ornaments are an opinion", stage: 3, track: "reading", tag: "NEXT", published: P },
+  // 3b · Movement G — string-part notation
+  { slug: "reading-double-stops-and-chords", title: "Reading double stops and chords", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "harmonics-on-the-page", title: "Harmonics on the page", stage: 3, track: "reading", tag: "NEXT", published: P },
+  { slug: "finger-string-or-position", title: "Finger, string, or position?", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "slides-and-octave-signs", title: "Slides and octave signs", stage: 3, track: "reading", tag: "NEXT", published: P },
+  // 3b · Movement H — editions
+  { slug: "who-wrote-this-mark", title: "Who wrote this mark?", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "kinds-of-edition", title: "Kinds of edition", stage: 3, track: "reading", tag: "REFERENCE", published: P },
+  // 3b · Movement I — putting it together
+  { slug: "decode-a-dense-line", title: "Decode a dense line", stage: 3, track: "reading", tag: "NOW", published: P },
+  { slug: "the-score-language-check", title: "The score-language check", stage: 3, track: "reading", tag: "NOW", published: P },
+  // 3b · Movement J — the tunes (also on /practice).
+  //   J1/J2 from the verified Stage-1 melodies. J3 transcribed from the user's
+  //   easy-version PDF (docs/source, 2026-09-03) — D major, first position.
+  //   tune-amazing-grace + tune-gossec-gavotte: the user's PDFs are raster and
+  //   the arrangements go beyond first position (Amazing Grace modulates to A
+  //   major with position work after b.21; Gossec is dense cut-time 16ths) —
+  //   need MusicXML / a simpler first-position source, or a proofread pass.
+  { slug: "tune-ode-to-joy-shaped", title: "Ode to Joy, shaped", stage: 3, track: "repertoire", tag: "NOW", published: P, piece: { key: "A major", position: "1st", skill: "reading and playing a full dynamic scheme", inPdf: false } },
+  { slug: "tune-twinkle-articulated", title: "Twinkle, articulated", stage: 3, track: "repertoire", tag: "NOW", published: P, piece: { key: "A major", position: "1st", skill: "reading an articulation scheme — staccato / legato / tenuto / portato", inPdf: false } },
+  { slug: "tune-minuet-in-g", title: "Minuet in G (Petzold)", stage: 3, track: "repertoire", tag: "NOW", published: P, piece: { key: "D major", position: "1st", skill: "binary repeats + 1st/2nd endings; f/p terracing", inPdf: false } },
+  { slug: "tune-amazing-grace", title: "Amazing Grace", stage: 3, track: "repertoire", tag: "NOW", published: P, piece: { key: "G major", position: "1st", skill: "reading a line of expression marks — mp/cresc/mf/dim/rit/fermata", inPdf: false } },
+  { slug: "tune-gossec-gavotte", title: "Gossec Gavotte", stage: 3, track: "repertoire", tag: "NOW", piece: { key: "D major", position: "1st", skill: "staccato — dot vs slur vs plain; D.C. al Fine", inPdf: false } },
 
   // ── Stage 4 — Scales & musicianship ─────────────────────────────
   { slug: "what-a-scale-is", title: "What a scale actually is", stage: 4, track: "ear", tag: "NOW", published: P },

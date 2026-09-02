@@ -1,0 +1,110 @@
+How you shape the loudness of a phrase depends on **when it was written**. Three eras, three
+habits — and reading a piece in the wrong era's habit is one of the commonest ways to make old
+music sound wrong.
+
+## Baroque — terraced
+
+The harpsichord and the organ physically **cannot** get gradually louder. So Baroque
+composers — Bach, Handel, Vivaldi — wrote in **blocks**: a whole passage at one level, then a
+step to another. `f` … then `p` … then `f` again. When a phrase is immediately repeated with
+no marking, it's very often meant as an **echo** — the same notes, quieter.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!f! G A B c | d4 | !p! G A B c | d4 |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+  ]}
+  caption="The phrase, then the same phrase as an echo. Two flat levels with a clean step between — no fade from one to the other. This is how a Baroque line breathes."
+  defaultBpm={84}
+/>
+
+## Classical — graded, and speaking
+
+By Mozart's time the orchestra *could* swell — the **Mannheim** court orchestra built its
+fame on a long, unanimous crescendo (more on that below). But Classical composers used it
+**rhetorically**, like punctuation: a sudden `f` answered by a `p`, an echo, a `subito p`
+surprise. The dynamics *talk* — they follow the rise and fall of a spoken sentence.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!f! G A B c | !p! d c B A | !f! G2 !p! G2 |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="f, then a soft answer, then a loud–soft pair on one note. Quick contrasts, not long ramps. Read Mozart's dynamics as a voice changing emphasis mid-sentence."
+  defaultBpm={88}
+/>
+
+## Romantic — continuous
+
+From Beethoven onward the whole dynamic surface is in motion — hairpins everywhere, long
+crescendos over dozens of bars, the volume never quite settling. Here is the Baroque phrase
+from the top, played the Romantic way:
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!<(!G A B c | d4!<)! | !>(!G A B c | d4!>)! |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+  ]}
+  caption="Same notes, but now the volume is always moving — up through the first statement, down through the second. Right for Brahms; wrong for Bach."
+  defaultBpm={84}
+/>
+
+## Try it
+
+<TryThis>
+  Take *Twinkle*'s opening — the first phrase, then its repeat. Play it **Baroque**: the phrase
+  at `f`, the repeat as a clean echo at `p`. Then play it **Romantic**: one crescendo rising
+  across both statements. Same eight notes; listen to how completely the era changes what
+  they mean.
+</TryThis>
+
+## The usual mistake
+
+Pouring Romantic hairpins over Bach and Handel — those phrases mostly hold one level and
+**step** to the next. And swelling a Classical crescendo into a big Romantic surge: in Mozart
+it's a short, speech-like inflection, over almost before you've noticed.
+
+<Cite source="Grove, on the Mannheim school; Leopold Mozart, Violinschule (1756)">
+  The Mannheim orchestra under Johann Stamitz (1740s–60s) drilled the graduated crescendo and
+  diminuendo until a whole ensemble could swell as one — the "Mannheim roller." Leopold Mozart
+  taught that dynamic shading should imitate the inflections of a speaking voice.
+</Cite>

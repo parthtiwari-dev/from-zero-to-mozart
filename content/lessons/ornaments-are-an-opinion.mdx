@@ -1,0 +1,97 @@
+An ornament symbol is an instruction **with room in it**. Two skilled players, or two editors,
+can realise the same `tr` differently and both be right. When you read an ornament, you're
+reading a question as much as an answer.
+
+## What you'll actually see
+
+| In an… | The trill looks like |
+|---|---|
+| **Urtext** | just **tr** — the composer's mark, nothing added. You decide. |
+| **teaching / performing edition** | **tr**, *and* the trill written out in small notes above the staff — the editor's recommended realisation |
+
+That editorial small-print is why the same concerto in a **Flesch** edition and an
+**Oistrakh** edition can carry different ornament realisations. Neither is "the text" — they're
+readings of it.
+
+## The bare symbol
+
+<NotatedExample
+  followPlayback
+  abc={`X:1
+M:4/4
+L:1/8
+K:G clef=treble
+d2 c2 !trill!B4 | A2 G2 z4 |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="An Urtext gives you this and no more: a trill on the B. Everything below is someone's decision about what to do with it."
+  defaultBpm={84}
+/>
+
+## One editor's realisation
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/8
+K:G clef=treble
+d2 c2 cBcB | A2 G2 z4 |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="Editor A: an upper-note start (C first), four notes, no termination. A Baroque-leaning reading."
+  defaultBpm={84}
+/>
+
+## Another editor's realisation
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/8
+K:G clef=treble
+d2 c2 BcBA | A2 G2 z4 |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="Editor B: a main-note start (B first), and a termination — the little step down to A — that leads into the next note. From the very same 'tr'."
+  defaultBpm={84}
+/>
+
+## Read now, decide later
+
+Reading the symbol — and spotting where an editor has stepped in — is Stage 3. **Playing** the
+ornament is Stage 6. Choosing *which* realisation you want is the interpretive work of Stage 7
+and the repertoire modules — and it's genuinely **your** call. Ornaments are one of the first
+places a player gets to choose.
+
+## The usual mistake
+
+Treating the editor's small-print realisation as the text — it's a strong suggestion, not
+gospel. And the reverse: ignoring a helpful realisation just because it's editorial. Read
+both — the composer's symbol, and the editor's reading of it — and know which is which.
+
+<Cite source="Neue Mozart-Ausgabe / Bärenreiter K.216; Frederick Neumann, Ornamentation in Baroque and Post-Baroque Music (1978)">
+  The K.216 solo part is full of trills and appoggiaturas that the sources leave open. Every
+  printed realisation you'll find is an editor answering a question Mozart didn't. Movement H —
+  editions — is about telling the two hands apart.
+</Cite>

@@ -1,0 +1,103 @@
+A **grace note** is a small-print note tucked in front of a full-size one. There are two
+kinds, and the difference between them is a **rhythm** question: does the little note steal
+time from the beat, or does it sneak in just before it?
+
+## The two
+
+| Name | Symbol | Timing |
+|---|---|---|
+| **appoggiatura** ("leaning note") | a small note, **no slash** through the stem, slurred to the main note | lands **on** the beat, and **takes time from the main note** — the rule of thumb is **half** its value (**two-thirds** if the main note is dotted) |
+| **acciaccatura** ("crushed note") | a small note **with a slash** through the stem | crushed in **before** the beat, as fast as possible, **steals no time** — the main note still lands squarely on its beat |
+
+The appoggiatura is the important one. The weight goes **on the small note** — it's a
+dissonance that leans, then resolves onto the main note. Often it matters more than the note
+it "decorates."
+
+## As printed
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+d2 {c}B2 | A2 z2 |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="The small C before the half-note B — no slash, so it's an appoggiatura. (That C is the A string, low 2nd finger.) What you play with it depends on the two readings below."
+  defaultBpm={76}
+/>
+
+## The appoggiatura, realised
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+d2 c B | A2 z2 |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+  ]}
+  caption="The small C takes the first half of the B's two beats. Play C on the beat — leaning, with a little weight — then let it fall to B. It's a two-note sigh, not a decoration."
+  defaultBpm={76}
+/>
+
+## The acciaccatura, realised
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+d3/2 c/2 B2 | A2 z2 |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+  ]}
+  caption="C is crushed in as fast as possible, right at the end of the D — and B still lands exactly on its beat with its full value. The grace note takes nothing; it just brushes past on the way in."
+  defaultBpm={76}
+/>
+
+## When the main note is dotted
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+d c2 B | A2 z2 |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+  ]}
+  caption="A dotted B (three beats) with an appoggiatura: C takes two of the three beats, B gets the last one. The 'half' rule becomes 'two-thirds' whenever the main note is dotted."
+  defaultBpm={76}
+/>
+
+## Try it
+
+<TryThis>
+  Play D (a half note), then C (a quarter) into B (a quarter) — that's the appoggiatura, on
+  the beat, C carrying the weight. Now play D, then a lightning C right before the beat and B
+  full-length on the beat — that's the acciaccatura. Same two pitches, completely different
+  rhythm.
+</TryThis>
+
+## The usual mistake
+
+Playing **every** small note fast and before the beat. That's the modern, Romantic-inherited
+habit — and for **Mozart the default is on the beat**, taking real time. And giving the
+appoggiatura no weight, so the sigh becomes a hiccup.
+
+<Cite source="Leopold Mozart, Versuch einer gründlichen Violinschule (1756), Ch. IX">
+  His entire ninth chapter is the appoggiatura. His rule: a small note before a descending
+  quarter, eighth or sixteenth is a *long* appoggiatura, taking half the value — on the beat,
+  and leaned upon.
+</Cite>

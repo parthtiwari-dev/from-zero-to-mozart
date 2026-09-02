@@ -1,0 +1,108 @@
+Every note is written with a length — a quarter, an eighth. A small mark over or under the
+notehead then says **how much of that length to actually sound**, and whether to join it to
+its neighbour. This is articulation, and it runs on a spectrum from a tiny click to a fully
+connected line.
+
+## The spectrum, shortest to longest
+
+| Mark | Name | Sound |
+|---|---|---|
+| a **wedge** / spike ▾ | staccatissimo | very short — a spit, a fraction of the value |
+| a **dot** · | staccato | roughly **half** the written value, clear air after |
+| *(nothing)* | *(plain)* | the note as written, with a small natural gap |
+| a **short line** ‒ | tenuto | the **full** value, held, with a slight lean into it |
+| a **slur** ⌒ | legato | no gap at all — the notes joined, one continuous line |
+
+The dot and the line are the two you'll meet most.
+
+## Hear it
+
+The same four notes — G, A, B, C on the D and A strings — down the spectrum.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+.G .A .B .c |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+  ]}
+  caption="Staccato dots. Each note about half length, then silence. The bow stops on the string between notes — the gap is as much part of the rhythm as the sound."
+  defaultBpm={80}
+/>
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+!tenuto!G !tenuto!A !tenuto!B !tenuto!c |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+  ]}
+  caption="Tenuto lines. Each note given its full value and a little weight — no gap to speak of, but each note is its own gesture. Held and leaned on, not joined."
+  defaultBpm={80}
+/>
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+(G A B c) |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+  ]}
+  caption="A slur — legato. One bow across all four, no re-articulation, the fingers changing under an unbroken sound. This is the connected end of the spectrum."
+  defaultBpm={80}
+/>
+
+## The two short marks
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+.G .A !wedge!B !wedge!c |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+  ]}
+  caption="First two: staccato dots — short, with air. Last two: staccatissimo wedges — shorter still, barely touched. Same idea, taken further."
+  defaultBpm={80}
+/>
+
+## Try it
+
+<TryThis>
+  Play G–A–B–C as four plain quarter notes at 72. Now **staccato**: stop the bow on the string
+  after each, so half of every beat is silence. Now **tenuto**: each note its full length,
+  only a tiny lift of weight between them. Now **slurred**: one bow, no stops at all. Feel your
+  bow arm do four different jobs on the same notes.
+</TryThis>
+
+## The usual mistake
+
+Playing staccato by hitting **harder** — but staccato is *shorter*, not louder. Length and
+accent are separate instructions. And playing tenuto as a punch: it's a held note with a lean,
+not a jab. On the very short notes, keep the left-hand finger down through the silence — lift
+it early and the pitch smears.
+
+<Cite source="Leopold Mozart, Versuch einer gründlichen Violinschule (1756)">
+  Leopold Mozart treats the plain, unmarked note as already slightly detached — lifted, with
+  air around it. The fully connected legato is the marked exception, not the default. Movement
+  C's later lesson picks this up.
+</Cite>

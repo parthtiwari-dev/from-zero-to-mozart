@@ -1,0 +1,107 @@
+You've met every mark in this stage one at a time. A real page throws them at you **all at
+once**. The skill now is decoding a dense line calmly — one mark at a time, each sorted into a
+category, each turned into a thing to do. This is the "read the whole page" milestone,
+shrunk to something you can play.
+
+## The method — six questions
+
+| Category | What's in it |
+|---|---|
+| **pitch** | the notes, the accidentals, the key |
+| **rhythm** | note values, time signature, dots, ties |
+| **bow & articulation** | slurs, staccato, accents, bow direction |
+| **dynamic** | levels, hairpins, sf / fp |
+| **navigation** | repeats, D.C., coda, Fine |
+| **editorial** | brackets, dashed slurs — whose mark is this? |
+
+Go top to bottom, left to right. Pitch and rhythm first — that's the notes and the timing.
+Then the shaping marks. Then the route.
+
+## The line — first half
+
+<NotatedExample
+  followPlayback
+  abc={`X:1
+M:4/4
+L:1/4
+Q:1/4=72
+K:G clef=treble
+!p!(G A B) c | !<(!d2 c B!<)! | .c .B .A .G | !>!A B !fine!G2 |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="Four bars, and already: a tempo word with a metronome mark, a dynamic, a slur, a hairpin, a bar of staccato, an accent, and 'Fine'. Don't read it as a wall — read it as a list."
+  defaultBpm={72}
+/>
+
+## The line — second half
+
+<NotatedExample
+  followPlayback
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+"^cresc. poco a poco" d e d c | "^rit." B A !fermata!G2 |]`}
+  labels={[
+    { name: "D", string: "A", finger: "3" },
+    { name: "E", string: "A", finger: "4" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="Two more bars, then — imagine it — 'D.C. al Fine' at the end. So the route is: these six bars, then back to bar 1 and stop at 'Fine' (the end of bar 4)."
+  defaultBpm={72}
+/>
+
+## The walk
+
+| Mark | Category | What it tells you to do |
+|---|---|---|
+| *Andante ♩ = 72* | tempo | walking pace, a quarter note 72 a minute |
+| **p** (bar 1) | dynamic | start soft |
+| slur over G–A–B (bar 1) | bow | those three in one bow |
+| `<` (bar 2) | dynamic | grow louder across the bar |
+| staccato dots (bar 3) | articulation | short, air between each note |
+| `>` on the A (bar 4) | articulation | lean on that note |
+| **Fine** (bar 4) | navigation | this is where you'll stop, on the return |
+| *cresc. poco a poco* (bar 5) | dynamic | keep growing, bit by bit |
+| *rit.* (bar 6) | tempo | ease the speed back |
+| fermata (bar 6) | rhythm/tempo | hold that G past its value |
+| *D.C. al Fine* (end) | navigation | back to bar 1, play to *Fine*, stop |
+
+## Try it
+
+<TryThis>
+  Play the first half **twice through** slowly. The first time, ignore every mark except the
+  notes and the rhythm — just get through it in time. The second time, add one category: the
+  dynamics. A real page is only overwhelming if you try to do all six things on the first
+  read.
+</TryThis>
+
+## The usual mistake
+
+Trying to take in the whole line at once and freezing. Decode it like a checklist — pitch,
+rhythm, bow, dynamic, navigation, editorial — and each mark becomes a small, specific
+instruction instead of part of a blur.
+
+<Cite source="docs/stage-plans/mozart-k216.md — the full-page decode milestone">
+  When you eventually open the Mozart concerto, this is the exact process — just over more
+  bars, with more marks. The skill isn't reading faster; it's reading in categories, one at a
+  time, without panic.
+</Cite>
