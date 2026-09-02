@@ -45,6 +45,13 @@ export interface NotatedExampleProps {
   howToPlay?: string | string[];
   /** Highlight each note as it sounds during playback (abcjs TimingCallbacks). */
   followPlayback?: boolean;
+  /**
+   * Rhythm-only drill: renders a single-line staff (no pitch), and `labels`
+   * become the counting syllables ("1", "&", "1 e & a") shown under each note —
+   * no string / finger. RULES.md R1's rhythm-only exception; the caption should
+   * say "clap and count". Playback is a click on each note to clap against.
+   */
+  rhythmOnly?: boolean;
   /** Starting tempo in quarter-notes per minute. Kept deliberately slow. */
   defaultBpm?: number;
   minBpm?: number;
@@ -70,6 +77,7 @@ export function NotatedExample({
   caption,
   howToPlay,
   followPlayback = false,
+  rhythmOnly = false,
   defaultBpm = 60,
   minBpm = 40,
   maxBpm = 120,
@@ -87,7 +95,7 @@ export function NotatedExample({
       ? [howToPlay]
       : [];
 
-  if (process.env.NODE_ENV !== "production" && labels?.length) {
+  if (process.env.NODE_ENV !== "production" && !rhythmOnly && labels?.length) {
     const bad = labels.filter((l) => !l.string || !l.finger);
     if (bad.length) {
       console.warn(
@@ -96,6 +104,13 @@ export function NotatedExample({
       );
     }
   }
+
+  // rhythm-only: one staff line, no pitch reading. abcjs takes `stafflines=1`
+  // as a K: modifier — inject it so the author just writes the rhythm on any
+  // single pitch.
+  const renderedAbc = rhythmOnly
+    ? abc.replace(/^(K:[^\n]*)$/m, "$1 stafflines=1")
+    : abc;
 
   const [shown, setShown] = useState(reveal === "shown");
   const [xs, setXs] = useState<number[]>([]);
@@ -138,7 +153,7 @@ export function NotatedExample({
       // staffwidth sets the viewBox proportions (how spread the notes are);
       // responsive:"resize" then scales the whole thing to the container.
       const staffwidth = labelCount > 0 ? Math.max(380, labelCount * 116) : 460;
-      const [tune] = mod.renderAbc(paperRef.current, abc, {
+      const [tune] = mod.renderAbc(paperRef.current, renderedAbc, {
         add_classes: true,
         staffwidth,
         scale: 1.15,
@@ -173,7 +188,7 @@ export function NotatedExample({
       cancelled = true;
       cancelAnimationFrame(raf);
     };
-  }, [abc, labelCount]);
+  }, [renderedAbc, labelCount]);
 
   const clearHighlight = useCallback(() => {
     playingElsRef.current.forEach((el) => el.classList.remove("z2m-playing"));
@@ -266,7 +281,9 @@ export function NotatedExample({
             <div ref={paperRef} className="notation" />
             {hasLabels && (
               <div
-                className="relative mt-1 h-[3.4rem]"
+                className={
+                  rhythmOnly ? "relative mt-1 h-[1.5rem]" : "relative mt-1 h-[3.4rem]"
+                }
                 aria-hidden={!shown}
               >
                 {shown &&
@@ -277,18 +294,26 @@ export function NotatedExample({
                         className="absolute top-0 w-[4.5rem] -translate-x-1/2 text-center leading-tight"
                         style={{ left: `${xs[i]}px` }}
                       >
-                        <div className="font-serif text-[0.95rem] text-ink">
-                          {l.name}
-                        </div>
-                        {l.string && (
-                          <div className="font-mono text-[0.66rem] text-ink-muted">
-                            {l.string} string
+                        {rhythmOnly ? (
+                          <div className="font-mono text-[0.8rem] text-ink-muted">
+                            {l.name}
                           </div>
-                        )}
-                        {l.finger && (
-                          <div className="font-mono text-[0.66rem] text-ink-muted">
-                            {fingerLabel(l.finger)}
-                          </div>
+                        ) : (
+                          <>
+                            <div className="font-serif text-[0.95rem] text-ink">
+                              {l.name}
+                            </div>
+                            {l.string && (
+                              <div className="font-mono text-[0.66rem] text-ink-muted">
+                                {l.string} string
+                              </div>
+                            )}
+                            {l.finger && (
+                              <div className="font-mono text-[0.66rem] text-ink-muted">
+                                {fingerLabel(l.finger)}
+                              </div>
+                            )}
+                          </>
                         )}
                       </div>
                     ),
@@ -344,8 +369,12 @@ export function NotatedExample({
                 ? "hide the answer"
                 : "show the answer"
               : shown
-                ? "hide the labels"
-                : "show the labels"}
+                ? rhythmOnly
+                  ? "hide the counts"
+                  : "hide the labels"
+                : rhythmOnly
+                  ? "show the counts"
+                  : "show the labels"}
           </button>
         )}
       </div>

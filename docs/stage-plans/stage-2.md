@@ -49,10 +49,13 @@ optional lesson; **don't** fold in the Stage-1 tune-completion (stays deferred);
 and D.C./D.S./Coda in Stage 3; overdotting = pointer now / lesson in Stage 3; the recitation
 étude is in; build `RhythmTree` + a rhythm-only `<NotatedExample>` mode.
 
-**One open sub-question:** *When the Saints Go Marching In* is a near-perfect Stage-2 tune
-(pickup + dotted rhythm + ties in one PD melody) but it's one of the five "coming soon"
-Stage-1 tunes the user said to leave deferred. Promote **just that one** to a Stage-2 tune,
-or use *This Old Man* / *Pop Goes the Weasel* instead? (Plan assumes the substitutes.)
+**Sub-question resolved (2026-09-02):** *When the Saints* is **promoted** to a Stage-2 tune.
+The user added a first-position violin arrangement — `docs/source/When The Saints Go Marching
+In.pdf` (D major, 4/4, pickup + tied whole notes + dotted halves, finger numbers on the
+staff). Transcribe it into our annotated line (RULES R1 — never shown as-is), **verified
+note-by-note against ≥2 references** (RULES #8). It carries pickup **+** dotted rhythm **+**
+ties in one PD melody — it becomes **I12** (the dotted-rhythm tune slot) and also the worked
+example for the pickup lesson (E6). The other five "coming soon" tunes stay deferred.
 
 ---
 
@@ -602,14 +605,11 @@ Stage-2 idea:
 | # | Tune | Key / metre | The one point |
 |---|---|---|---|
 | I11 | **Row, Row, Row Your Boat** (round) | C, **6/8** | the compound-metre tune — count in 2, lilt the two dotted beats; also a round (its metre is debated — we teach it as 6/8) |
-| I12 | **A dotted-rhythm tune** (candidate: *Deck the Halls*, *My Country 'Tis of Thee* / *God Save the King*) | G, 4/4 or 3/4 | the dotted "long–short" figure carried through a whole tune — exact choice on notating |
+| I12 | **When the Saints Go Marching In** | D, 4/4 | **pickup + dotted halves + tied whole notes** — three Stage-2 ideas in one tune; from `docs/source/When The Saints Go Marching In.pdf`, transcribed + verified. Also the worked example in E6 (pickup). |
 | I13 | **Pop Goes the Weasel** | G, **6/8** | 6/8 again, with the "Pop!" as an off-beat surprise — a first taste of **syncopation** inside a tune |
 | I14 | **For He's a Jolly Good Fellow** / **The Bear Went Over the Mountain** | G, **6/8** | the most familiar 6/8 tune there is — dotted compound rhythm, sung by everyone |
 | I15 | **A moto-perpetuo étude** (Claude-notated original, Suzuki *Perpetual Motion* feel) | G, 2/4 | unbroken eighth notes — "keep the pulse through everything"; steady bow, steady count |
 | I16 | **A syncopation tune** — a short fiddle/ragtime-flavoured PD fragment (Claude-notated) | D, 4/4 | the back-beat / tied-over syncopation, in real music — the F1 idea made playable |
-
-*(Open sub-question: promote **When the Saints Go Marching In** from the deferred five — it
-carries pickup **+** dotted rhythm **+** ties in one PD melody, and would replace I12 or I16.)*
 
 Rhythm simplification **stops here.** From Stage 2 on, every tune is written in its real
 rhythm.
@@ -679,11 +679,13 @@ skill lessons run long.
 
 ## Readiness
 
-**Not yet — needs the user's sign-off on this doc**, plus the one sub-question (promote *When
-the Saints*?). After that: build the infra (item 1–2), prove it on A4, then straight through
-A→I. Research is done and verified (`stage-2-research.md` + its verification pass); the one
-unconfirmed item is the exact Leopold Mozart wording, which affects one `<Cite>` and has a
-stable paraphrase to fall back on.
+**Signed off (2026-09-02).** The user approved the plan and promoted *When the Saints*
+(source added). Build order: bank the lineage cites → build the infra (`RhythmTree` +
+rhythm-only `<NotatedExample>` mode), prove on A4 → then straight through Movements A→I,
+verifying render + facts at each movement boundary, committing per movement. Research is done
+and verified (`stage-2-research.md` + its verification pass); the one unconfirmed item is the
+exact Leopold Mozart wording, which affects one `<Cite>` and has a stable paraphrase to fall
+back on.
 
 ---
 

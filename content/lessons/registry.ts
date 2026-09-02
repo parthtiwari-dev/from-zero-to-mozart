@@ -85,9 +85,14 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "tune-jingle-bells": () => import("./tune-jingle-bells.mdx"),
 
   // Stage 2 — Rhythm
-  "rhythm-before-the-instrument": () =>
-    import("./rhythm-before-the-instrument.mdx"),
-  "note-values": () => import("./note-values.mdx"),
+  //   Rebuilt to docs/stage-plans/stage-2.md. Movements A–I.
+  // Movement A — pulse & note anatomy
+  "rhythm-first": () => import("./rhythm-first.mdx"),
+  "beat-tempo-and-metre": () => import("./beat-tempo-and-metre.mdx"),
+  "how-a-note-shows-its-length": () =>
+    import("./how-a-note-shows-its-length.mdx"),
+  "the-note-tree": () => import("./the-note-tree.mdx"),
+  // Movements B–I — being rebuilt; old thin drafts still routed below
   "dotted-notes": () => import("./dotted-notes.mdx"),
   rests: () => import("./rests.mdx"),
   "beams-or-a-double-stop": () => import("./beams-or-a-double-stop.mdx"),

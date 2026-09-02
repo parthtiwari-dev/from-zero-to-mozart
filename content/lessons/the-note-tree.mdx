@@ -1,0 +1,64 @@
+Every note value is the one above it, **cut in half**. That single rule builds the whole
+system:
+
+- a **whole note** = two **half notes**
+- a half note = two **quarter notes**
+- a quarter note = two **eighth notes**
+- an eighth note = two **sixteenth notes**
+
+So one whole note lasts exactly as long as two halves, or four quarters, or eight eighths, or
+sixteen sixteenths. Same span of time, divided finer and finer.
+
+<RhythmTree />
+
+## It's a *ratio*, not a stopwatch
+
+A quarter note is not "one second." It's **one beat** — and a beat is however long the tempo
+makes it. Speed the tempo up and every value gets shorter together; the *relationships* stay
+exactly the same. A half note is always twice a quarter, whatever the tempo.
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B4 | B2 B2 | B B B B | B/2 B/2 B/2 B/2 B/2 B/2 B/2 B/2 |]`}
+  labels={[
+    { name: "1 – – –" },
+    { name: "1 –" }, { name: "3 –" },
+    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
+    { name: "1" }, { name: "&" }, { name: "2" }, { name: "&" }, { name: "3" }, { name: "&" }, { name: "4" }, { name: "&" },
+  ]}
+  caption="One whole note, then two halves, then four quarters, then eight eighths — each bar the same four beats, cut smaller. Clap and count; the pulse underneath never changes."
+  defaultBpm={72}
+/>
+
+## How the counts work
+
+- **Whole note** — hold it four beats: count "1 – 2 – 3 – 4 –", keep the count running.
+- **Half note** — two beats: "1 – " then "3 – ".
+- **Quarter note** — one beat: "1", "2", "3", "4".
+- **Eighth notes** — two per beat: "1 **and** 2 **and**".
+- **Sixteenth notes** — four per beat: "1‑e‑&‑a 2‑e‑&‑a". (You'll drill these in Movement H.)
+
+(There is one more level down — **thirty-second notes**, a third beam — that turns up in fast
+Classical and Romantic music. Recognise the extra beam; you won't need to play them in this
+stage.)
+
+## The usual mistake
+
+Trying to give each value a fixed length in your head — "a quarter note is about this fast."
+It isn't a fixed anything. Count the beat, and let every value be its fraction of that beat.
+When the tempo changes, you don't relearn the note; you just count faster or slower.
+
+<TryThis>
+  Clap one long note for four steady beats. Then the same four beats as four claps. Then as
+  eight. Keep your counting voice at the exact same speed the whole time — only your hands
+  speed up.
+</TryThis>
+
+<Cite source="every string method — Essential Elements, Doflein, ABRSM Grade 1">
+  All of them teach the values as this halving tree, and all of them teach the beat first.
+  The tree is the one picture you keep coming back to.
+</Cite>

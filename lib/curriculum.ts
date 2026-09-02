@@ -190,8 +190,16 @@ export const LESSONS: Lesson[] = [
   { slug: "tune-jingle-bells", title: "Jingle Bells", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "D major", position: "1st", skill: "repeated notes, a still left hand", inPdf: false } },
 
   // ── Stage 2 — Rhythm ────────────────────────────────────────────
-  { slug: "rhythm-before-the-instrument", title: "Rhythm before the instrument", stage: 2, track: "ear", tag: "NOW", published: P },
-  { slug: "note-values", title: "How long each note lasts", stage: 2, track: "reading", tag: "NOW", published: P },
+  //   Rebuilt to docs/stage-plans/stage-2.md — Movements A–I. Metric counting
+  //   only; compound metre + triplets + syncopation in full; the tabla↔Western
+  //   map is one optional lesson. Movements B–I still show the old thin drafts
+  //   until each is rewritten.
+  // Movement A — pulse & note anatomy
+  { slug: "rhythm-first", title: "Rhythm comes first", stage: 2, track: "ear", tag: "NOW", published: P },
+  { slug: "beat-tempo-and-metre", title: "Beat, tempo, metre, rhythm", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "how-a-note-shows-its-length", title: "How a note shows its length", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "the-note-tree", title: "The note tree", stage: 2, track: "reading", tag: "NOW", published: P },
+  // Movement B — the marks that change a length
   { slug: "dotted-notes", title: "Dotted notes", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "rests", title: "Rests — silence has a length too", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "beams-or-a-double-stop", title: "Two notes in a row, or two at once?", stage: 2, track: "reading", tag: "NOW", published: P },

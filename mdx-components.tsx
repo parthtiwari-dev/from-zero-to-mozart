@@ -9,6 +9,7 @@ import {
   BowDiagram,
   BowHoldDiagram,
   BowLanesDiagram,
+  RhythmTree,
   ViolinDiagram,
 } from "@/components/Diagram";
 import { Cite, Margin } from "@/components/Margin";
@@ -38,6 +39,7 @@ const components: MDXComponents = {
   Margin,
   NotatedExample,
   Quiz,
+  RhythmTree,
   TryThis,
   ViolinDiagram,
 };

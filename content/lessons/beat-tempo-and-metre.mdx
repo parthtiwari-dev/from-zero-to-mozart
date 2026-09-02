@@ -1,0 +1,68 @@
+Four words get used loosely and mean four different things. Getting them straight now saves a
+lot of confusion later.
+
+- **Beat** — the pulse you tap your foot to. Steady, even, usually felt without thinking.
+- **Tempo** — how *fast* that pulse goes. Measured in beats per minute (bpm): 60 is one beat
+  a second, 120 is twice that. The Italian words for tempo — *Adagio*, *Allegro* — come in
+  Stage 3.
+- **Metre** — how the beats *group*. Music leans on some beats more than others: a march
+  feels "**strong**-weak, **strong**-weak" (groups of two); a waltz feels "**strong**-weak-weak"
+  (groups of three). That grouping is the metre.
+- **Rhythm** — the actual pattern of longs and shorts you play *over* the beat. The tune's
+  own shape in time.
+
+So: the **beat** is the grid, the **tempo** is how fast the grid moves, the **metre** is how
+the grid is grouped, and the **rhythm** is what you draw on it.
+
+## Same beats, different tempo
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B B B B | B B B B |]`}
+  labels={[
+    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
+    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
+  ]}
+  caption="Eight identical beats. Play it slow, then drag the tempo up. Nothing about the rhythm changed — only the speed of the pulse."
+  defaultBpm={60}
+  minBpm={40}
+  maxBpm={160}
+/>
+
+## Same tempo, different metre
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:3/4
+L:1/4
+K:C clef=treble
+B B B | B B B |]`}
+  labels={[
+    { name: "1" }, { name: "2" }, { name: "3" },
+    { name: "1" }, { name: "2" }, { name: "3" },
+  ]}
+  caption="The same steady beat as above — but grouped in threes now. Lean on each 'one' as you count. That lean is the metre; the beat itself hasn't changed speed."
+  defaultBpm={92}
+/>
+
+## The usual mistake
+
+Saying "faster" when you mean "more notes." Playing eighth notes instead of quarters is not a
+faster tempo — it's the *same* beat, cut into smaller pieces. If a passage feels like it's
+running away from you, check first whether the pulse actually sped up or whether you just hit
+a busier rhythm and panicked.
+
+<TryThis>
+  Set a metronome to 80. Tap along in plain beats. Now, without changing the metronome, clap
+  two claps per click, then three, then four. The tempo never moved — you just subdivided.
+</TryThis>
+
+<Cite source="standard practice, traced to Leopold Mozart">
+  Every method since 1756 separates the steady pulse from the pattern played over it. The
+  pulse is the teacher; the rhythm is the pupil.
+</Cite>

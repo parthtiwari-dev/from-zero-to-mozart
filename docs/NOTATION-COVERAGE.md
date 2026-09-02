@@ -44,21 +44,32 @@ Status: `taught` = a lesson explains it · `pointer` = appears earlier with a fo
 
 ## Rhythm
 
+*(Stage 2 is being rebuilt to `docs/stage-plans/stage-2.md` — Movements A–I. Slugs below
+updated as each movement ships; `drafted` = old thin lesson still routed, `taught` = rebuilt.)*
+
 | Element | Lesson | Stage | Status |
 |---|---|---|---|
-| Note anatomy (head / stem / flag / beam) | `note-values` | 2 | taught |
-| Whole / half / quarter / eighth / sixteenth | `note-values` | 2 | taught |
-| Dotted notes; double dot | `dotted-notes` | 2 | taught |
-| Duration dot vs staccato dot | `dotted-notes` | 2 | taught |
-| Rests, every value | `rests` | 2 | taught |
-| Beams vs flags; one beam / two beams | `one-beam-two-beams` | 2 | taught |
-| Beamed notes vs a double stop | `beams-or-a-double-stop` | 2 | taught |
-| Tie vs slur | `ties-and-slurs` | 2 | taught |
-| Time signatures (4/4, 3/4, 2/4, 6/8, …) | `time-signatures` | 2 | taught |
-| Common time **C** and cut time **₵** | `common-time` | 2 | taught |
-| Counting; konnakol / bols | `counting-and-konnakol` | 2 | taught |
-| Anacrusis / pickup; syncopation | `syncopation-and-pickups` | 2 | taught |
-| Triplets / tuplets | `triplets` | 2 | taught |
+| Beat / tempo / metre / rhythm — the vocabulary | `beat-tempo-and-metre` | 2 | taught |
+| Note anatomy (head / stem / flag / beam) | `how-a-note-shows-its-length` | 2 | taught |
+| Whole / half / quarter / eighth / sixteenth; the halving tree | `the-note-tree` | 2 | taught |
+| 32nd note (third beam) | `the-note-tree` (REFERENCE) | 2 | pointer |
+| Dotted notes | `the-dot` (B1) | 2 | drafted (`dotted-notes`) |
+| Double dot | `the-dot` (REFERENCE) | 2 | drafted |
+| Duration dot vs staccato dot | `the-two-dots-that-look-alike` (B2) | 2 | drafted (`dotted-notes`) |
+| Rests, every value; rest tree | `rests` | 2 | drafted |
+| Beams vs flags; one beam / two beams | `beams-and-flags` (B4) | 2 | drafted (`one-beam-two-beams`) |
+| Beamed notes vs a double stop vs vibrato | `beamed-notes-double-stops-and-vibrato` (C1) | 2 | drafted (`beams-or-a-double-stop`) |
+| Tie vs slur | `ties-and-slurs` | 2 | drafted |
+| Time signatures (2/4, 3/4, 4/4) | `time-signatures` | 2 | drafted |
+| Common time **C** (broken circle, not "common") and cut time **₵** | `common-time-and-cut-time` (E2) | 2 | drafted (`common-time`) |
+| Simple vs compound; 6/8, 9/8, 12/8 | `simple-and-compound-time`, `six-eight`, `nine-eight-and-twelve-eight` (E3–E5) | 2 | drafted (`time-signatures` punts) |
+| Counting ("1 e & a"); the tabla map (optional) | `counting-the-beat`, `subdivision`, `if-you-count-in-bols` (D1–D3) | 2 | drafted (`counting-and-konnakol`) |
+| Barlines / measures; anacrusis / pickup | `barlines-and-the-pickup` (E6) | 2 | drafted (`syncopation-and-pickups`) |
+| Simple repeat, 1st/2nd endings | `repeats-and-endings` (E7) | 2 | drafted |
+| Syncopation | `syncopation` (F1) | 2 | drafted (`syncopation-and-pickups`) |
+| Triplets | `triplets` (F2) | 2 | drafted |
+| Other tuplets (quintuplet, septuplet, duplet) | `other-tuplets` (F3, REFERENCE) | 2 | drafted |
+| Dotted / Scotch-snap rhythm; overdotting pointer | `dotted-and-snap-rhythms` (F4) | 2 | drafted |
 
 ## Score symbols (Stage 3)
 

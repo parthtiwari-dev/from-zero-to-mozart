@@ -246,6 +246,72 @@ export function BowHoldDiagram({
 
 // ─────────────────────────────────────────────────────────────────────────────
 
+export function RhythmTree({
+  caption = "Every value is the one above it, cut in two. One whole note fills the same span of time as two halves, four quarters, eight eighths or sixteen sixteenths — the pulse underneath never changes, the notes just divide it finer. Rests follow the exact same tree, with no pitch.",
+}: {
+  caption?: string;
+}) {
+  const rows = [
+    { n: 1, label: "whole note", each: "4 beats" },
+    { n: 2, label: "half notes", each: "2 beats each" },
+    { n: 4, label: "quarter notes", each: "1 beat each" },
+    { n: 8, label: "eighth notes", each: "½ beat each" },
+    { n: 16, label: "sixteenth notes", each: "¼ beat each" },
+  ];
+  const W = 424;
+  const x0 = 2;
+  const rowH = 28;
+  const gap = 13;
+  const totalH = rows.length * (rowH + gap) - gap;
+  return (
+    <Frame
+      viewBox={`-6 -8 ${W + 194} ${totalH + 16}`}
+      caption={caption}
+      maxW={580}
+    >
+      {rows.map((r, i) => {
+        const y = i * (rowH + gap);
+        const cw = W / r.n;
+        return (
+          <g key={r.n}>
+            {Array.from({ length: r.n }).map((_, k) => (
+              <rect
+                key={k}
+                className="ink thin"
+                fill="none"
+                x={x0 + k * cw + 1}
+                y={y}
+                width={cw - 2}
+                height={rowH}
+                rx={2}
+              />
+            ))}
+            <text
+              className="lbl"
+              x={x0 + W + 14}
+              y={y + rowH / 2 - 1}
+              textAnchor="start"
+            >
+              {r.n === 1 ? "1 " : `${r.n} `}
+              {r.label}
+            </text>
+            <text
+              className="lbl dim"
+              x={x0 + W + 14}
+              y={y + rowH / 2 + 13}
+              textAnchor="start"
+            >
+              {r.each}
+            </text>
+          </g>
+        );
+      })}
+    </Frame>
+  );
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+
 export function BowLanesDiagram({
   caption = "The five sounding points, bridge to fingerboard — each about a bow-hair wide. Nearer the bridge (1) is louder and fuller; nearer the fingerboard (5) is softer and flute-like. Start every open-string sound in lane 3.",
 }: {

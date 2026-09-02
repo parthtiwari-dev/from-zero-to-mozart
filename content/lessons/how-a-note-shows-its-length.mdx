@@ -1,0 +1,66 @@
+On the staff, a note's **height** is its pitch — that was Stage 1. Its **shape** is its
+length. Four parts of the drawing carry that information:
+
+- **The head** — the oval. **Filled in** (a solid dot) means a short note; **open** (a hollow
+  ring) means a long one.
+- **The stem** — the vertical line off the head. A whole note has none; everything shorter
+  has a stem.
+- **The flag** — the little tail off the end of a stem, on a note standing alone. One flag,
+  two flags — each one halves the length again.
+- **The beam** — a thick bar joining the stems of short notes into a group. A beam does the
+  same job as flags, just drawn across several notes at once.
+
+Stem *direction* — up or down — is only tidiness. It never changes the length.
+
+## The same D, four lengths
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D4 | D2 D2 | D D D D |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  caption="Every note here is open D — same pitch, same string, same finger. Bar 1: one whole note (open head, no stem). Bar 2: two half notes (open head + stem). Bar 3: four quarter notes (filled head + stem). Press play — the pitch never moves, only the length changes."
+  defaultBpm={72}
+/>
+
+## Read the shape, name the length
+
+<NotatedExample
+  rhythmOnly
+  reveal="hidden"
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B2 B | B B/2 B/2 B | B4 |]`}
+  labels={[
+    { name: "half" }, { name: "quarter" },
+    { name: "quarter" }, { name: "eighth" }, { name: "eighth" }, { name: "quarter" },
+    { name: "whole" },
+  ]}
+  caption="Work out each note's length from its shape before you tap 'show the counts'. Filled or open head? Stem? Flag or beam?"
+  defaultBpm={66}
+/>
+
+## The usual mistake
+
+Reading the head's *height* and skipping its *fill*. An open head and a filled head sitting
+on the very same line are the same pitch and completely different lengths — one held for four
+beats, the other for one. Check both every time: which line (pitch), and filled or open
+(length).
+
+<Cite source="Western notation, settled around 1600">
+  Modern noteheads come from medieval mensural notation, where open versus filled shapes were
+  already how scribes marked long against short. The stems and flags were added as the music
+  needed finer divisions.
+</Cite>
