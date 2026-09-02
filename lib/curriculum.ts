@@ -164,7 +164,7 @@ export const LESSONS: Lesson[] = [
   { slug: "the-first-position-reading-check", title: "The first-position reading check", stage: 1, track: "reading", tag: "NOW", published: P },
   // Movement F — the tunes (also on /practice)
   { slug: "tune-twinkle-rhythms", title: "Twinkle rhythms (open strings)", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "open A / E", position: "1st (open)", skill: "the bow, before any fingers", inPdf: false } },
-  { slug: "tune-twinkle", title: "Twinkle, Twinkle Little Star", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A major", position: "1st", skill: "0–1–2–3 on the A string", inPdf: false } },
+  { slug: "tune-twinkle", title: "Twinkle, Twinkle Little Star", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "A major", position: "1st", skill: "0–1–2–3 on the A string", inPdf: false } },
   { slug: "tune-ode-to-joy", title: "Ode to Joy", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A major", position: "1st", skill: "a singing line, phrasing", inPdf: true } },
   { slug: "tune-lightly-row", title: "Lightly Row", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A major", position: "1st", skill: "bow division — upper vs lower half", inPdf: false } },
   { slug: "tune-song-of-the-wind", title: "Song of the Wind", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A major", position: "1st", skill: "the 1↔3 jumping finger; bow retakes", inPdf: false } },
@@ -247,6 +247,9 @@ export const LESSONS: Lesson[] = [
 
 export const publishedLessons = (): Lesson[] =>
   LESSONS.filter((l) => l.published);
+
+/** Every melody lesson (Movement F et seq.) — feeds the /practice page. */
+export const pieceLessons = (): Lesson[] => LESSONS.filter((l) => l.piece);
 
 export const lessonBySlug = (slug: string): Lesson | undefined =>
   publishedLessons().find((l) => l.slug === slug);

@@ -314,6 +314,13 @@ body {
 .notation svg .abcjs-lyric {
   fill: var(--ink-muted);
 }
+/* the note sounding right now, when followPlayback is on */
+.notation svg .z2m-playing,
+.notation svg .z2m-playing path {
+  fill: var(--accent);
+  stroke: var(--accent);
+  transition: fill 80ms linear;
+}
 
 /* ---- hand-drawn diagrams (components/Diagram.tsx) ---- */
 .diagram {

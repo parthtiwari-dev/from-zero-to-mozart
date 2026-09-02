@@ -66,6 +66,8 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "taking-the-help-away": () => import("./taking-the-help-away.mdx"),
   "the-first-position-reading-check": () =>
     import("./the-first-position-reading-check.mdx"),
+  // Movement F — the tunes (also on /practice)
+  "tune-twinkle": () => import("./tune-twinkle.mdx"),
 
   // Stage 2 — Rhythm
   "rhythm-before-the-instrument": () =>

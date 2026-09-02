@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import type { MidiBuffer, TuneObject } from "abcjs";
+import type { MidiBuffer, TimingCallbacks, TuneObject } from "abcjs";
 
 type AbcModule = typeof import("abcjs");
 
@@ -36,6 +36,15 @@ export interface NotatedExampleProps {
   reveal?: "shown" | "hidden";
   /** One line under the example. */
   caption?: string;
+  /**
+   * The "how to play it" note(s) — where to start the bow, direction, part of
+   * the bow, weight, what to listen for. One string, or one per line/system of
+   * the tune. Rendered as a distinct block above the caption. This is what a
+   * melody example is *for* (RULES.md R3).
+   */
+  howToPlay?: string | string[];
+  /** Highlight each note as it sounds during playback (abcjs TimingCallbacks). */
+  followPlayback?: boolean;
   /** Starting tempo in quarter-notes per minute. Kept deliberately slow. */
   defaultBpm?: number;
   minBpm?: number;
@@ -59,6 +68,8 @@ export function NotatedExample({
   labels,
   reveal = "shown",
   caption,
+  howToPlay,
+  followPlayback = false,
   defaultBpm = 60,
   minBpm = 40,
   maxBpm = 120,
@@ -67,7 +78,14 @@ export function NotatedExample({
   const abcjsRef = useRef<AbcModule | null>(null);
   const tuneRef = useRef<TuneObject | null>(null);
   const synthRef = useRef<MidiBuffer | null>(null);
+  const timingRef = useRef<TimingCallbacks | null>(null);
+  const playingElsRef = useRef<Element[]>([]);
   const labelCount = labels?.length ?? 0;
+  const howToPlayLines = Array.isArray(howToPlay)
+    ? howToPlay
+    : howToPlay
+      ? [howToPlay]
+      : [];
 
   if (process.env.NODE_ENV !== "production" && labels?.length) {
     const bad = labels.filter((l) => !l.string || !l.finger);
@@ -157,13 +175,27 @@ export function NotatedExample({
     };
   }, [abc, labelCount]);
 
-  useEffect(() => () => void synthRef.current?.stop(), []);
+  const clearHighlight = useCallback(() => {
+    playingElsRef.current.forEach((el) => el.classList.remove("z2m-playing"));
+    playingElsRef.current = [];
+  }, []);
+
+  useEffect(
+    () => () => {
+      synthRef.current?.stop();
+      timingRef.current?.stop();
+    },
+    [],
+  );
 
   const stop = useCallback(() => {
     synthRef.current?.stop();
     synthRef.current = null;
+    timingRef.current?.stop();
+    timingRef.current = null;
+    clearHighlight();
     setStatus("idle");
-  }, []);
+  }, [clearHighlight]);
 
   const play = useCallback(async () => {
     const mod = abcjsRef.current;
@@ -180,7 +212,12 @@ export function NotatedExample({
         options: {
           soundFontUrl: SOUNDFONT,
           program: VIOLIN_PROGRAM,
-          onEnded: () => setStatus("idle"),
+          onEnded: () => {
+            timingRef.current?.stop();
+            timingRef.current = null;
+            clearHighlight();
+            setStatus("idle");
+          },
         },
       });
       await synth.prime();
@@ -190,8 +227,34 @@ export function NotatedExample({
     } catch {
       setStatus("idle");
       setAudioOk(false);
+      return;
     }
-  }, [bpm, status, stop]);
+
+    // Note highlighting is best-effort — never let it break playback.
+    if (followPlayback && abcjsRef.current && tuneRef.current) {
+      try {
+        const tc = new abcjsRef.current.TimingCallbacks(tuneRef.current, {
+          qpm: bpm,
+          eventCallback: (ev) => {
+            clearHighlight();
+            if (ev && ev.type !== "end") {
+              (ev.elements ?? []).forEach((group) =>
+                group.forEach((el) => {
+                  el.classList.add("z2m-playing");
+                  playingElsRef.current.push(el);
+                }),
+              );
+            }
+            return "continue";
+          },
+        });
+        timingRef.current = tc;
+        tc.start();
+      } catch {
+        timingRef.current = null;
+      }
+    }
+  }, [bpm, status, stop, followPlayback, clearHighlight]);
 
   const hasLabels = Boolean(labels && labels.length);
 
@@ -286,6 +349,17 @@ export function NotatedExample({
           </button>
         )}
       </div>
+
+      {howToPlayLines.length > 0 && (
+        <div className="mt-5 border-l border-accent/40 pl-4 font-sans text-[0.9375rem] leading-relaxed text-ink">
+          <p className="mb-1 label text-accent">How to play it</p>
+          {howToPlayLines.map((line, i) => (
+            <p key={i} className={i > 0 ? "mt-2" : undefined}>
+              {line}
+            </p>
+          ))}
+        </div>
+      )}
 
       {caption && (
         <figcaption className="mt-6 font-sans text-[0.9375rem] leading-relaxed text-ink-muted">

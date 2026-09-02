@@ -6,9 +6,14 @@ export function SiteHeader() {
       <Link href="/" className="font-serif text-[1.0625rem] tracking-tight">
         From Zero to Mozart
       </Link>
-      <Link href="/learn" className="label hover:text-ink">
-        Contents
-      </Link>
+      <nav className="flex items-baseline gap-5">
+        <Link href="/practice" className="label hover:text-ink">
+          Practice
+        </Link>
+        <Link href="/learn" className="label hover:text-ink">
+          Contents
+        </Link>
+      </nav>
     </header>
   );
 }
