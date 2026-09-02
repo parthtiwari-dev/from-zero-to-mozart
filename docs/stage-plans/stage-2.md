@@ -677,15 +677,39 @@ skill lessons run long.
 
 ---
 
-## Readiness
+## Status — BUILT (2026-09-02)
 
-**Signed off (2026-09-02).** The user approved the plan and promoted *When the Saints*
-(source added). Build order: bank the lineage cites → build the infra (`RhythmTree` +
-rhythm-only `<NotatedExample>` mode), prove on A4 → then straight through Movements A→I,
-verifying render + facts at each movement boundary, committing per movement. Research is done
-and verified (`stage-2-research.md` + its verification pass); the one unconfirmed item is the
-exact Leopold Mozart wording, which affects one `<Cite>` and has a stable paraphrase to fall
-back on.
+Signed off, then built end to end in one campaign. **All of Movements A–I are live**, rebuilt
+to the CONTENT-STANDARD §3a bar (3–5 play-arounds per concept lesson, deep "usual mistake",
+a `<Cite>` each) after the user flagged the first pass as too thin.
+
+| Movement | Lessons | Status |
+|---|---|---|
+| A — pulse & note anatomy | `rhythm-first` · `beat-tempo-and-metre` · `how-a-note-shows-its-length` · `the-note-tree` | live |
+| B — marks that change a length | `the-dot` · `the-two-dots-that-look-alike` · `rests` · `beams-and-flags` · `ties-and-slurs` | live |
+| C — the Vivaldi keystone | `beamed-notes-double-stops-and-vibrato` | live |
+| D — counting | `counting-the-beat` · `subdivision` · `if-you-count-in-bols` *(optional)* | live |
+| E — grouping the beats | `time-signatures` · `common-time-and-cut-time` · `simple-and-compound-time` · `six-eight` · `nine-eight-and-twelve-eight` · `barlines-and-the-pickup` · `repeats-and-endings` | live |
+| F — bending the beat | `syncopation` · `triplets` · `other-tuplets` · `dotted-and-snap-rhythms` | live |
+| G — the bow's half of rhythm | `a-note-value-is-a-length-of-bow` · `rests-ties-and-slurs-in-the-bow` · `shadow-bowing` | live |
+| H — reading checks | `clap-this-line` · `reading-quarters-and-eighths` · `reading-sixteenths` · `reading-dotted-rhythms` · `reading-in-six-eight` · `reading-triplets-and-syncopation` · `reading-mixed-rhythms` | live |
+| I — the tunes | `tune-when-the-saints` · `tune-row-your-boat` · `tune-perpetual-motion` | live |
+| infra | `RhythmTree` `<Diagram>` · `rhythmOnly` mode on `<NotatedExample>` (1-line staff, counts under notes **and rests**) | live |
+
+**33 skill lessons + 3 tunes.** All verified rendering in the browser (rhythm-only staff,
+triplet brackets, 6/8, tuplets, `howToPlay` blocks, K:D/K:G); build green (143 pages); lint
+clean. ~10 commits.
+
+### Still to do (deferred, flagged in `lib/curriculum.ts`)
+
+- **The 10 Stage-1 tunes** — re-notate in true rhythm + complete to full length. Was decision
+  2's deferral; still deferred.
+- **3 more Stage-2 tunes** — *Pop Goes the Weasel*, *For He's a Jolly Good Fellow*,
+  *Deck the Halls* — need verified melody sources before notating (RULES #8).
+- **The exact Leopold Mozart wording** — `rhythm-first` and `counting-the-beat` cite the
+  "beat the time" line as a paraphrase; confirm against the Knocker translation.
+- Fold `docs/LESSONS-FROM-MOZART.md` bowing/chords/style points into Stages 3–7 as they're
+  planned.
 
 ---
 

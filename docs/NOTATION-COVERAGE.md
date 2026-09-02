@@ -44,32 +44,35 @@ Status: `taught` = a lesson explains it · `pointer` = appears earlier with a fo
 
 ## Rhythm
 
-*(Stage 2 is being rebuilt to `docs/stage-plans/stage-2.md` — Movements A–I. Slugs below
-updated as each movement ships; `drafted` = old thin lesson still routed, `taught` = rebuilt.)*
+*(Stage 2 rebuilt to `docs/stage-plans/stage-2.md` — Movements A–I, all live 2026-09-02.)*
 
 | Element | Lesson | Stage | Status |
 |---|---|---|---|
 | Beat / tempo / metre / rhythm — the vocabulary | `beat-tempo-and-metre` | 2 | taught |
 | Note anatomy (head / stem / flag / beam) | `how-a-note-shows-its-length` | 2 | taught |
 | Whole / half / quarter / eighth / sixteenth; the halving tree | `the-note-tree` | 2 | taught |
-| 32nd note (third beam) | `the-note-tree` (REFERENCE) | 2 | pointer |
-| Dotted notes | `the-dot` (B1) | 2 | drafted (`dotted-notes`) |
-| Double dot | `the-dot` (REFERENCE) | 2 | drafted |
-| Duration dot vs staccato dot | `the-two-dots-that-look-alike` (B2) | 2 | drafted (`dotted-notes`) |
-| Rests, every value; rest tree | `rests` | 2 | drafted |
-| Beams vs flags; one beam / two beams | `beams-and-flags` (B4) | 2 | drafted (`one-beam-two-beams`) |
-| Beamed notes vs a double stop vs vibrato | `beamed-notes-double-stops-and-vibrato` (C1) | 2 | drafted (`beams-or-a-double-stop`) |
-| Tie vs slur | `ties-and-slurs` | 2 | drafted |
-| Time signatures (2/4, 3/4, 4/4) | `time-signatures` | 2 | drafted |
-| Common time **C** (broken circle, not "common") and cut time **₵** | `common-time-and-cut-time` (E2) | 2 | drafted (`common-time`) |
-| Simple vs compound; 6/8, 9/8, 12/8 | `simple-and-compound-time`, `six-eight`, `nine-eight-and-twelve-eight` (E3–E5) | 2 | drafted (`time-signatures` punts) |
-| Counting ("1 e & a"); the tabla map (optional) | `counting-the-beat`, `subdivision`, `if-you-count-in-bols` (D1–D3) | 2 | drafted (`counting-and-konnakol`) |
-| Barlines / measures; anacrusis / pickup | `barlines-and-the-pickup` (E6) | 2 | drafted (`syncopation-and-pickups`) |
-| Simple repeat, 1st/2nd endings | `repeats-and-endings` (E7) | 2 | drafted |
-| Syncopation | `syncopation` (F1) | 2 | drafted (`syncopation-and-pickups`) |
-| Triplets | `triplets` (F2) | 2 | drafted |
-| Other tuplets (quintuplet, septuplet, duplet) | `other-tuplets` (F3, REFERENCE) | 2 | drafted |
-| Dotted / Scotch-snap rhythm; overdotting pointer | `dotted-and-snap-rhythms` (F4) | 2 | drafted |
+| 32nd note (third beam) | `the-note-tree`, `beams-and-flags` (REFERENCE) | 2 | pointer |
+| Dotted notes | `the-dot` (B1) | 2 | taught |
+| Double dot | `the-dot` (margin, REFERENCE) | 2 | pointer |
+| Duration dot vs staccato dot | `the-two-dots-that-look-alike` (B2) | 2 | taught |
+| Rests, every value; rest tree | `rests` (B3) | 2 | taught |
+| Multi-bar rest | — | 2/3 | gap — confirm home |
+| Beams vs flags; one / two / three beams | `beams-and-flags` (B4) | 2 | taught |
+| Beamed notes vs a double stop vs vibrato | `beamed-notes-double-stops-and-vibrato` (C1) | 2 | taught |
+| Tie vs slur | `ties-and-slurs` (B5) | 2 | taught |
+| Time signatures (2/4, 3/4, 4/4); the accent pattern | `time-signatures` (E1) | 2 | taught |
+| Common time **C** (broken circle, not "common") and cut time **₵** | `common-time-and-cut-time` (E2) | 2 | taught |
+| Simple vs compound; 6/8 in full; 9/8, 12/8; 3/8 | `simple-and-compound-time`, `six-eight`, `nine-eight-and-twelve-eight` (E3–E5) | 2 | taught |
+| Counting ("1 e & a"); subdivision; the tabla map (optional) | `counting-the-beat`, `subdivision`, `if-you-count-in-bols` (D1–D3) | 2 | taught |
+| Barlines / measures; anacrusis / pickup | `barlines-and-the-pickup` (E6) | 2 | taught |
+| Simple repeat, 1st/2nd endings | `repeats-and-endings` (E7) | 2 | taught |
+| D.C. / D.S. / Coda / Fine / segno / rehearsal marks | Stage 3 `repeats-and-navigation` | 3 | pointer (E7 forwards) |
+| Syncopation; the back-beat; accent mark | `syncopation` (F1) | 2 | taught |
+| Triplets (eighth-note, quarter-note) | `triplets` (F2) | 2 | taught |
+| Other tuplets (quintuplet, septuplet, compound duplet) | `other-tuplets` (F3, REFERENCE) | 2 | taught |
+| Dotted / Scotch-snap (Lombard) rhythm | `dotted-and-snap-rhythms` (F4) | 2 | taught |
+| Overdotting / notes inégales | `dotted-and-snap-rhythms` → Stage 3 style | 2/3 | pointer |
+| Note value → bow length & speed; the retake; rule of the down-bow | `a-note-value-is-a-length-of-bow`, `rests-ties-and-slurs-in-the-bow` (G1–G2) | 2 | taught |
 
 ## Score symbols (Stage 3)
 

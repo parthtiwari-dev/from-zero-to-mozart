@@ -157,18 +157,28 @@ tune/pattern to play. Plan each stage with the user first (`docs/stage-plans/sta
   the score-symbol vocabulary is dense; "reading" ≠ "playing it in style"). Fold that into the
   stage plans before writing them.
 
-**Next: Stage 2 (Rhythm) — plan written, awaiting sign-off.** `docs/stage-plans/stage-2.md`
-(Movements A–I, ~33 skill lessons + 9 tunes) built on `stage-2-research.md` (research +
-verification sweep + the user's 9 decisions). Key decisions: **metric counting only** ("1 e &
-a") — *not* Takadimi/konnakol; the tabla ↔ Western map is **one optional, skippable lesson**
-that introduces no term the rest of the stage uses; compound metre (6/8, 9/8, 12/8), triplets
-and syncopation are **taught in full**; the Stage-1 tune-completion is **not** folded in
-(stays deferred); navigation split — barlines/repeats/endings here, D.C./D.S./Coda → Stage 3.
-The user can catch a wrong rhythm fact, so a second verification sweep was done; one live
-error (a *Twinkle*/*Ode* pickup claim) already patched. One open sub-question in the plan
-(promote *When the Saints* from the deferred five?). **Sign-off → build the infra (`RhythmTree`
-+ rhythm-only `<NotatedExample>` mode) → write A–I.** Stages 3–9 + the Vivaldi and Mozart
-modules are Phase 2–3, after.
+**Stage 2 (Rhythm) — BUILT (2026-09-02).** `docs/stage-plans/stage-2.md` §Status. Movements
+A–I live: **33 skill lessons + 3 tunes** (`tune-when-the-saints`, `tune-row-your-boat`,
+`tune-perpetual-motion`), plus infra — `RhythmTree` `<Diagram>` and a `rhythmOnly` mode on
+`<NotatedExample>` (one-line staff, counting syllables under notes *and rests*). Built to the
+CONTENT-STANDARD bar after the user flagged the first pass as too thin (same miss as Stage 1
+— now: 3–5 play-arounds per concept lesson). Key decisions: **metric counting only** ("1 e &
+a"), *not* Takadimi/konnakol; the tabla↔Western map is **one optional skippable lesson**;
+6/8 + 9/8 + 12/8 + triplets + syncopation taught in full; navigation split (barlines/repeats
+here, D.C./D.S./Coda → Stage 3). Build green (143 pages), lint clean.
+
+**Stage 2 deferred / to finish:**
+- The 10 Stage-1 tunes: re-notate in true rhythm + complete to full length (was decision 2).
+- 3 more Stage-2 tunes (*Pop Goes the Weasel*, *Jolly Good Fellow*, *Deck the Halls*) — need
+  verified melody sources.
+- Confirm the exact Leopold Mozart "beat the time" wording (cited as paraphrase in
+  `rhythm-first`, `counting-the-beat`).
+
+**Next: Stage 3 (Score symbols).** Research the core with the user first (per
+`docs/LESSONS-FROM-MOZART.md` §3 — Stage 3 is make-or-break: ornaments with Baroque/Classical
+realisation, editorial-vs-composer marks, the bow-word glossary, position numbers ≠ finger
+numbers). Then `docs/stage-plans/stage-3.md`, then write. Stages 4–9 + the Vivaldi and Mozart
+modules after.
 
 ### Authoring notes
 
@@ -192,7 +202,12 @@ modules are Phase 2–3, after.
   the payoff. Don't use abcjs `"_text"` annotations for labels.
 - **`<Quiz items={[{q, a}, ...]} />`** for recognition questions (symbols, terms) — each item
   reveals its answer on tap, or "show all answers" at once.
-- **Diagrams:** `<ViolinDiagram />`, `<BowDiagram />`, `<BowHoldDiagram />`, `<BowLanesDiagram />`
+- **`<NotatedExample rhythmOnly … />`** (Stage 2) — renders a **one-line staff, no pitch**,
+  and turns `labels` into counting syllables ("1", "&", "1 e & a") shown under each note *and
+  rest*. RULES R1's rhythm-only exception — the caption should say "clap and count". Inject
+  `stafflines=1` is automatic; write the ABC on any single pitch (`B` = middle line).
+- **Diagrams:** `<ViolinDiagram />`, `<BowDiagram />`, `<BowHoldDiagram />`,
+  `<BowLanesDiagram />`, `<RhythmTree />` (the note-value halving tree, Stage 2)
   (`components/Diagram.tsx`) — hand-drawn labelled SVG line art in the notation well. Each
   takes an optional `caption` prop. Keep in-SVG labels to one or two words; detail goes in the
   caption. Tall diagrams get a `maxW` so they don't fill the screen.
