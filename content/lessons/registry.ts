@@ -92,12 +92,15 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "how-a-note-shows-its-length": () =>
     import("./how-a-note-shows-its-length.mdx"),
   "the-note-tree": () => import("./the-note-tree.mdx"),
-  // Movements B–I — being rebuilt; old thin drafts still routed below
-  "dotted-notes": () => import("./dotted-notes.mdx"),
+  // Movement B — the marks that change a length
+  "the-dot": () => import("./the-dot.mdx"),
+  "the-two-dots-that-look-alike": () =>
+    import("./the-two-dots-that-look-alike.mdx"),
   rests: () => import("./rests.mdx"),
-  "beams-or-a-double-stop": () => import("./beams-or-a-double-stop.mdx"),
-  "one-beam-two-beams": () => import("./one-beam-two-beams.mdx"),
+  "beams-and-flags": () => import("./beams-and-flags.mdx"),
   "ties-and-slurs": () => import("./ties-and-slurs.mdx"),
+  // Movements C–I — being rebuilt; old thin drafts still routed below
+  "beams-or-a-double-stop": () => import("./beams-or-a-double-stop.mdx"),
   "time-signatures": () => import("./time-signatures.mdx"),
   "common-time": () => import("./common-time.mdx"),
   "counting-and-konnakol": () => import("./counting-and-konnakol.mdx"),

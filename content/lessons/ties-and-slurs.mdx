@@ -1,25 +1,32 @@
-Same curved line, two different jobs — told apart by what it connects.
+A curved line joins two or more notes. It's either a **tie** or a **slur**, and you tell them
+apart by *what they join*.
 
-## Tie
+## Tie — same pitch, held as one
 
-A tie joins two notes of the **same pitch**. Don't replay the second note — just hold the
-first one through it. It's how you write a duration that doesn't fit neatly into one notehead,
-or a note that carries across a bar line.
+A tie connects two noteheads at the **exact same pitch**. You don't play the second one — you
+hold the first straight through it, as a single longer sound. It's how you write a length
+that won't fit one notehead, or a note that carries across a barline.
 
 <NotatedExample
   abc={`X:1
 M:4/4
 L:1/4
 K:C clef=treble
-D2-D2 |]`}
-  caption="Tied half notes, same pitch — one continuous 4-beat sound, not two separate attacks."
+D2 D2- | D2 z2 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  caption="Three noteheads, but only two bow starts: the second D is tied across the barline into the third, so it rings straight on as one four-beat sound. Then a two-beat rest."
   defaultBpm={66}
 />
 
-## Slur
+## Slur — different pitches, one bow
 
-A slur joins two or more notes of **different** pitches — it's a phrase mark. On the violin it
-almost always means: play the whole group **in one bow**, without re-articulating each note.
+A slur curves over notes at **different** pitches. It's a phrasing mark, and on the violin it
+almost always means: **play the whole group in one bow**, without re-starting the sound for
+each note. The left-hand fingers still change; the bow just keeps travelling.
 
 <NotatedExample
   abc={`X:1
@@ -27,10 +34,29 @@ M:4/4
 L:1/4
 K:C clef=treble
 (D E F G) |]`}
-  caption="A slur over four different pitches — one bow stroke carries all four notes."
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="One curved line over four moving notes — one bow carries all four. The notes still sound separately; the bow just doesn't stop."
   defaultBpm={66}
 />
 
-Context tells you which one you're looking at almost instantly: if the curve joins **two
-noteheads at the exact same staff position**, it's a tie. If it arcs over **notes that move**,
-it's a slur.
+## The quick test
+
+Does the curve join two noteheads at the **same height** on the staff? Tie — hold it.
+Does it arc over notes that **move up or down**? Slur — one bow. A tie across a barline is
+almost always the giveaway that it's a tie, not a slur.
+
+## The usual mistake
+
+Re-bowing or re-plucking across a tie — you get two attacks where the music wants one long
+note. Or reading a slur as a tie and sitting on one pitch while the tune was supposed to move.
+
+<Cite source="standard notation; the slur-as-one-bow convention is specific to strings">
+  A singer slurs by not re-articulating; a violinist slurs by not changing bow. Same curve,
+  the instrument decides what it asks of you. You'll meet slurs again as a bow stroke in
+  Stage 5.
+</Cite>

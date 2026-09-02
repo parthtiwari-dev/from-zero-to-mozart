@@ -130,7 +130,12 @@ export function NotatedExample({
     const measure = (tries = 0) => {
       if (cancelled) return;
       const svg = paperRef.current?.querySelector("svg");
-      const notes = svg?.querySelectorAll<SVGGElement>(".abcjs-note");
+      // rhythm-only drills count the rests too, so the syllable under a rest
+      // shows how long the silence is — measure notes and rests together, in
+      // document (left-to-right) order.
+      const notes = svg?.querySelectorAll<SVGGElement>(
+        rhythmOnly ? ".abcjs-note, .abcjs-rest" : ".abcjs-note",
+      );
       const rect = svg?.getBoundingClientRect();
       const vb = svg?.viewBox.baseVal;
       if (svg && notes?.length && rect?.width && vb?.width) {
@@ -188,7 +193,7 @@ export function NotatedExample({
       cancelled = true;
       cancelAnimationFrame(raf);
     };
-  }, [renderedAbc, labelCount]);
+  }, [renderedAbc, labelCount, rhythmOnly]);
 
   const clearHighlight = useCallback(() => {
     playingElsRef.current.forEach((el) => el.classList.remove("z2m-playing"));

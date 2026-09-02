@@ -200,11 +200,13 @@ export const LESSONS: Lesson[] = [
   { slug: "how-a-note-shows-its-length", title: "How a note shows its length", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "the-note-tree", title: "The note tree", stage: 2, track: "reading", tag: "NOW", published: P },
   // Movement B — the marks that change a length
-  { slug: "dotted-notes", title: "Dotted notes", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "the-dot", title: "The dot after a note", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "the-two-dots-that-look-alike", title: "The two dots that look alike", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "rests", title: "Rests — silence has a length too", stage: 2, track: "reading", tag: "NOW", published: P },
-  { slug: "beams-or-a-double-stop", title: "Two notes in a row, or two at once?", stage: 2, track: "reading", tag: "NOW", published: P },
-  { slug: "one-beam-two-beams", title: "One beam, two beams", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "beams-and-flags", title: "Beams and flags", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "ties-and-slurs", title: "Ties and slurs", stage: 2, track: "reading", tag: "NOW", published: P },
+  // Movements C–I — old thin drafts, rewritten movement by movement
+  { slug: "beams-or-a-double-stop", title: "Two notes in a row, or two at once?", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "time-signatures", title: "Time signatures", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "common-time", title: "Common time, and the C", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "counting-and-konnakol", title: "Counting — and counting in bols", stage: 2, track: "ear", tag: "NOW", published: P },

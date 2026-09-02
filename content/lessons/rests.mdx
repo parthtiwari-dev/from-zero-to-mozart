@@ -1,24 +1,45 @@
-Silence is written too, and it has an exact length — the same value system as notes, just with
-no pitch.
+Silence is written down too, and it has an exact length. Rests use the same value system as
+notes — the same halving tree — just with no pitch to play.
 
-| Rest | Duration in 4/4 |
-|---|---|
-| whole rest | 4 beats |
-| half rest | 2 beats |
-| quarter rest | 1 beat |
-| eighth rest | ½ beat |
-| sixteenth rest | ¼ beat |
+| Rest | Length in 4/4 | Looks like |
+|---|---|---|
+| whole rest | 4 beats | a small bar hanging *below* a staff line |
+| half rest | 2 beats | a small bar sitting *on top of* a staff line |
+| quarter rest | 1 beat | a squiggle |
+| eighth rest | ½ beat | a single flag |
+| sixteenth rest | ¼ beat | a double flag |
+
+(The whole and half rests are the two people mix up: the whole rest **hangs down**, the half
+rest **sits up**. "Whole is heavier, so it hangs.")
 
 <NotatedExample
+  rhythmOnly
   abc={`X:1
 M:4/4
 L:1/4
 K:C clef=treble
-D z D z |]`}
-  caption="Note, rest, note, rest — a full beat of silence between each note. Press play and keep the pulse going through the gaps."
+B z B z | B B z2 |]`}
+  labels={[
+    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
+    { name: "1" }, { name: "2" }, { name: "3 –" },
+  ]}
+  caption="Note, rest, note, rest — then two notes and a two-beat rest. Clap on the notes, and keep counting out loud through every gap so you come back in exactly on time."
   defaultBpm={70}
 />
 
-A rest is not "nothing to read." Your job during a rest is to **keep counting** and get ready
-for what's next — lift the bow, shift a finger, breathe. Miss the rest's length and you'll come
-in early or late on the note after it.
+## A rest is not a break
+
+Your job during a rest is *active*: keep the count running, and get ready for whatever comes
+next — lift or reset the bow, move a finger to its next note, take a breath for the phrase.
+A tabla player never loses the cycle in a gap; a rest is the same — the pulse carries straight
+through it.
+
+## The usual mistake
+
+Treating a rest as "nothing to read" — rushing off it, or letting the count go fuzzy, so the
+next note lands early or late. Count a rest as deliberately as you count a note.
+
+<Cite source="the original PDF course, §28">
+  "A rest is not 'nothing to read.' You must keep the pulse and prepare the next bow or
+  finger during the silence." The rest is where good players do their setting-up.
+</Cite>
