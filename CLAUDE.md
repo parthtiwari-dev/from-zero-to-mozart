@@ -94,6 +94,8 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 | `docs/CONTENT-STANDARD.md` | how deep a lesson goes — the six beats, the five lesson types, the melody/`AnnotatedScore` vehicle, the rewrite order |
 | `docs/NOTATION-COVERAGE.md` | every notation symbol → the lesson that teaches it (RULES.md R4) |
 | `docs/stage-plans/stage-N.md` | the research + plan for each stage, approved by the user before writing |
+| `docs/LESSONS-FROM-MOZART.md` | what the (deferred) K.216 run taught us the middle stages must teach deeply — bowing, chords, the dense score vocabulary, style. Read before planning Stages 2–7. |
+| `docs/stage-plans/mozart-k216.md` | the deferred K.216 module — what's built, the transcription pipeline, how to resume |
 | `docs/DESIGN_LOCK.md` | the locked visual language (being re-picked in Phase 1.5 — see review) |
 | `docs/DESIGN_REVIEW.md` | design audit + the three directions (A/B/C) to choose between |
 | `docs/CURRICULUM.md` | the 10-stage content map, gates, per-stage topic lists |
@@ -132,20 +134,30 @@ tune/pattern to play. Plan each stage with the user first (`docs/stage-plans/sta
 - **Stage 1: written to `docs/stage-plans/stage-1.md`** — Movements A–E, 33 skill lessons,
   all published (string order A→D→G→E; every pitched example `M:none` + full
   name/string/finger labels; the old thin lessons + 6 orphan slugs replaced). Verified
-  rendering at 1536px. Movement F (the 15 end-goal tunes): the `AnnotatedScore` vehicle is
-  built (`NotatedExample` gained `howToPlay` + `followPlayback` — no separate component);
-  `/practice` page is live (`pieceLessons()` → static list, nav next to Contents).
-  **10 of 15 tunes published** (Twinkle rhythms, Twinkle, Ode to Joy, Lightly Row, Au Clair
-  de la Lune, London Bridge, Hot Cross Buns, Mary, Frère Jacques, Jingle Bells) — our own
-  first-position transcriptions, rhythm simplified to whole beats.
-  **5 tunes still unpublished** — melody needs verifying against ≥2 sources, and the Suzuki
-  arrangements are copyright so their PD source tune is needed: `tune-song-of-the-wind`
-  ("Fuchs, du hast die Gans gestohlen"), `tune-go-tell-aunt-rhody`, `tune-long-long-ago`,
-  `tune-french-folk-song`, `tune-when-the-saints`. Ask the user to supply / point to a PD
-  score, or agree a substitute that hits the same skill.
-- Annotated lines beyond Stage 1's tunes come after Stages 2–5 are all at standard.
+  rendering at 1536px. Movement F (the tunes): `NotatedExample` gained `howToPlay` +
+  `followPlayback`; `/practice` page is live. **10 of 15 tunes published** (Twinkle rhythms,
+  Twinkle, Ode to Joy, Lightly Row, Au Clair de la Lune, London Bridge, Hot Cross Buns, Mary,
+  Frère Jacques, Jingle Bells) — our own first-position transcriptions, rhythm simplified.
+- **Stage 1 known gaps** (close before Stage 1 is "done" — RULES R3):
+  1. **The 10 tunes are partial** — 2–3 phrases each, not the complete melody. Need
+     completing to full length.
+  2. **5 tunes are "coming soon"** (unpublished, shown muted on `/practice`) — melody needs a
+     PD source: `tune-song-of-the-wind` ("Fuchs, du hast die Gans gestohlen"),
+     `tune-go-tell-aunt-rhody`, `tune-long-long-ago`, `tune-french-folk-song`,
+     `tune-when-the-saints`. Deferred per the user — leave as "coming soon", don't block on it.
+  3. Bowing on each tune line should be phrase-specific (direction, bow part, slurs), not
+     generic — see `docs/LESSONS-FROM-MOZART.md`.
+- **K.216 module: deferred** (`docs/stage-plans/mozart-k216.md`). It's Phase 3 and far beyond
+  the user now. Built as a proof: `/mozart` index + `mozart-k216` (orientation) +
+  `mozart-k216-i-entrance` + `-i-b2` (the first solo, bars 9–19, from a `.mxl` +
+  `music21` converter). **The attempt exposed holes in the Stage 2–7 plans — see
+  `docs/LESSONS-FROM-MOZART.md`** (bowing as a full language; chords need theory + technique;
+  the score-symbol vocabulary is dense; "reading" ≠ "playing it in style"). Fold that into the
+  stage plans before writing them.
 
-Stages 6–9 + the Vivaldi and Mozart modules (Phase 2–3) come after that.
+**Next: Stage 2 (Rhythm).** Research the core with the user first, then `docs/stage-plans/stage-2.md`,
+then write — same bar as Stage 1 (six beats, full labels, ends at real music). Stages 3–9 +
+the Vivaldi and Mozart modules are Phase 2–3, after.
 
 ### Authoring notes
 

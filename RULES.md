@@ -56,8 +56,11 @@ R2. **Every stage ends at real music** — 10–30 melodies tied to its skills, 
    shown both in the curriculum and on the practice page. Release melodies mid-stage where the
    notes are already covered.
 
-R3. **Every melody line carries a how-to-play note** — where to start the bow, direction, part
-   of the bow, weight, what to listen for. Specific, not generic.
+R3. **Every melody is the complete tune, and every line carries a how-to-play note.** The
+   *whole* melody — not two or three phrases (the Stage 1 tunes currently fall short of this;
+   fix before Stage 1 closes). The how-to-play note is per line/phrase: where to start the
+   bow, direction, part of the bow, how much bow, the slurs, what to listen for. Specific to
+   that phrase, not generic. (See `docs/LESSONS-FROM-MOZART.md` §1, §5.)
 
 R4. **Every notation symbol, note-value and marking is taught somewhere.** Keep
    `docs/NOTATION-COVERAGE.md` current. A symbol may appear before its lesson only with a

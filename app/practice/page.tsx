@@ -50,7 +50,9 @@ export default function PracticePage() {
                         {l.title}
                       </span>
                     )}
-                    <span className="shrink-0 label">Stage {l.stage}</span>
+                    <span className="shrink-0 label text-ink-faint">
+                      {l.published ? `Stage ${l.stage}` : "coming soon"}
+                    </span>
                   </div>
                   <p className="mt-1 text-[0.9375rem] text-ink-muted">
                     {[l.piece?.key, l.piece?.position, l.piece?.skill]
@@ -62,7 +64,7 @@ export default function PracticePage() {
                   </p>
                   {!l.published && stage && (
                     <p className="mt-0.5 label text-ink-faint">
-                      with {stage.name}
+                      Stage {l.stage} · {stage.name}
                     </p>
                   )}
                 </li>
