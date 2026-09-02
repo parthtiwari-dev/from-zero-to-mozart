@@ -57,10 +57,15 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "accidentals-inside-a-bar": () => import("./accidentals-inside-a-bar.mdx"),
   "reading-in-g-major": () => import("./reading-in-g-major.mdx"),
   "reading-in-d-and-a": () => import("./reading-in-d-and-a.mdx"),
-  // Movement D — landing it in tune
+  // Movement D — landing it in tune (D1 = landing-in-tune, taught in Movement A)
+  "ringing-tones": () => import("./ringing-tones.mdx"),
   "sa-and-the-letter-names": () => import("./sa-and-the-letter-names.mdx"),
+  "hearing-a-wrong-note": () => import("./hearing-a-wrong-note.mdx"),
   // Movement E — taking the scaffolding off
+  "reading-a-steady-beat": () => import("./reading-a-steady-beat.mdx"),
   "taking-the-help-away": () => import("./taking-the-help-away.mdx"),
+  "the-first-position-reading-check": () =>
+    import("./the-first-position-reading-check.mdx"),
 
   // Stage 2 — Rhythm
   "rhythm-before-the-instrument": () =>

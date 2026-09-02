@@ -155,13 +155,13 @@ export const LESSONS: Lesson[] = [
   { slug: "reading-in-g-major", title: "Reading in G major", stage: 1, track: "reading", tag: "NOW", published: P },
   { slug: "reading-in-d-and-a", title: "Reading in D and A", stage: 1, track: "reading", tag: "NOW", published: P },
   // Movement D — landing it in tune (the ear)
-  { slug: "ringing-tones", title: "Ringing tones", stage: 1, track: "ear", tag: "NOW" },
-  { slug: "sa-and-the-letter-names", title: "Sa, and the letter names", stage: 1, track: "ear", tag: "NOW" },
-  { slug: "hearing-a-wrong-note", title: "Hearing a wrong note — and which way", stage: 1, track: "ear", tag: "NOW" },
+  { slug: "ringing-tones", title: "Ringing tones", stage: 1, track: "ear", tag: "NOW", published: P },
+  { slug: "sa-and-the-letter-names", title: "Sa, and the letter names", stage: 1, track: "ear", tag: "NOW", published: P },
+  { slug: "hearing-a-wrong-note", title: "Hearing a wrong note — and which way", stage: 1, track: "ear", tag: "NOW", published: P },
   // Movement E — taking the scaffolding off
-  { slug: "reading-a-steady-beat", title: "Reading a steady beat", stage: 1, track: "reading", tag: "NOW" },
-  { slug: "taking-the-help-away", title: "Taking the help away", stage: 1, track: "reading", tag: "NOW" },
-  { slug: "the-first-position-reading-check", title: "The first-position reading check", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "reading-a-steady-beat", title: "Reading a steady beat", stage: 1, track: "reading", tag: "NOW", published: P },
+  { slug: "taking-the-help-away", title: "Taking the help away", stage: 1, track: "reading", tag: "NOW", published: P },
+  { slug: "the-first-position-reading-check", title: "The first-position reading check", stage: 1, track: "reading", tag: "NOW", published: P },
   // Movement F — the tunes (also on /practice)
   { slug: "tune-twinkle-rhythms", title: "Twinkle rhythms (open strings)", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "open A / E", position: "1st (open)", skill: "the bow, before any fingers", inPdf: false } },
   { slug: "tune-twinkle", title: "Twinkle, Twinkle Little Star", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A major", position: "1st", skill: "0–1–2–3 on the A string", inPdf: false } },

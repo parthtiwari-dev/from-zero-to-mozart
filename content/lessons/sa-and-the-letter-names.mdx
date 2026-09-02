@@ -1,46 +1,97 @@
 If you've grown up with **sargam** — Sa Re Ga Ma Pa Dha Ni — Western note-reading can feel
-oddly rigid at first. This page connects the two, because the connection is genuinely useful.
+oddly rigid at first. This lesson connects the two, because the connection is genuinely useful
+and it plays to an ear you already have.
 
 ## Two different jobs
 
-In Indian classical music, **Sa is movable**. You choose a Sa to suit your voice or the
+In North-Indian classical music, **Sa is movable**. You pick a Sa to suit your voice or the
 instrument, and everything else is defined *relative* to it. Sa Re Ga is a set of
 relationships — a shape — not fixed frequencies.
 
-Western staff notation does the opposite: the letters **A B C D E F G** are nailed to fixed
-pitches and never move. Middle C is always middle C.
+Western staff notation does the opposite: **A B C D E F G** are nailed to fixed pitches and
+never move. Middle C is always middle C.
 
-Neither is more correct. They're solving different problems — one keeps the *relationships*
-constant so you can transpose freely; the other keeps the *pitches* constant so an orchestra
-can read the same page.
+Neither is more correct. One keeps the *relationships* constant so you can transpose freely;
+the other keeps the *pitches* constant so an orchestra can read one page together.
 
 ## The bridge: movable "Do"
 
-Western musicians have a movable system too, borrowed for exactly this: **solfège** — Do Re Mi
-Fa Sol La Ti. In "movable Do", *Do is the tonic*, wherever the key puts it. It lines up almost
-one-to-one with sargam:
+Western musicians have a movable system too, kept for exactly this: **solfège** — Do Re Mi Fa
+Sol La Ti — where **Do is the tonic**, wherever the key puts it. It lines up almost
+one-to-one with sargam.
 
 <NotatedExample
   abc={`X:1
+M:none
 L:1/4
 K:G clef=treble
-G A B c | d e f g |]`}
+G, A, B, C D E F G |]`}
   labels={[
-    { name: "Sa" },
-    { name: "Re" },
-    { name: "Ga" },
-    { name: "Ma" },
-    { name: "Pa" },
-    { name: "Dha" },
-    { name: "Ni" },
-    { name: "Sa" },
+    { name: "G · Sa", string: "G", finger: "0" },
+    { name: "A · Re", string: "G", finger: "1" },
+    { name: "B · Ga", string: "G", finger: "high 2" },
+    { name: "C · Ma", string: "G", finger: "3" },
+    { name: "D · Pa", string: "D", finger: "0" },
+    { name: "E · Dha", string: "D", finger: "1" },
+    { name: "F♯ · Ni", string: "D", finger: "high 2" },
+    { name: "G · Sa", string: "D", finger: "3" },
   ]}
-  caption="The G major scale. As letters: G A B C D E F♯ G. As sargam, with G as Sa: Sa Re Ga Ma Pa Dha Ni Sa. Same shape, two labelling systems."
-  defaultBpm={76}
+  caption="G major, open G to the octave. As letters: G A B C D E F♯ G. As sargam, with G as Sa: Sa Re Ga Ma Pa Dha Ni Sa. Same shape, two labelling systems."
+  defaultBpm={60}
 />
 
-So the **key signature** is the thing that tells you where Sa is. One sharp → the music is in
-G major → **G is Sa**, and the leading note (Ni, the F sharp) is what the key signature is
-adjusting. When you read, you can hear the scale-degree — "that's Pa", "that's the leading
-note" — *and* name the fixed letter. Both at once is the goal, and your ear already knows how
-to do the first half.
+## The key signature tells you where Sa is
+
+One sharp → the music is in G major → **G is Sa**. And Ni — the leading note, F♯ — is exactly
+what the key signature is adjusting.
+
+## Same shape, new letters
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:G clef=treble
+G, A, B, G, |]`}
+  labels={[
+    { name: "G · Sa", string: "G", finger: "0" },
+    { name: "A · Re", string: "G", finger: "1" },
+    { name: "B · Ga", string: "G", finger: "high 2" },
+    { name: "G · Sa", string: "G", finger: "0" },
+  ]}
+  caption="Sa Re Ga Sa, in G major."
+  defaultBpm={58}
+/>
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:D clef=treble
+D E F D |]`}
+  labels={[
+    { name: "D · Sa", string: "D", finger: "0" },
+    { name: "E · Re", string: "D", finger: "1" },
+    { name: "F♯ · Ga", string: "D", finger: "high 2" },
+    { name: "D · Sa", string: "D", finger: "0" },
+  ]}
+  caption="Sa Re Ga Sa again, now in D major. The syllables don't move; every letter changes, and so does the hand."
+  defaultBpm={58}
+/>
+
+## The usual mistake
+
+Treating the letter names as the music. The letter is an address; the *function* — this is Sa,
+this is the leading note pulling home — is what your ear actually tracks, and yours already
+does it well.
+
+<TryThis>
+  Sing the G-major scale as Sa Re Ga Ma Pa Dha Ni Sa while you play it. Then play it in D
+  major and sing the *same syllables*. Your voice keeps the shape; your hand relearns the
+  letters.
+</TryThis>
+
+<Cite source="movable-do / functional solfège — Kodály, and the direct parallel to sargam">
+  Reading the fixed letter *and* hearing the scale-degree at once is the goal. You already own
+  half of it — this course just teaches the letters to sit alongside.
+</Cite>

@@ -8,11 +8,14 @@ Stage N" pointer.
 Status: `taught` = a lesson explains it · `pointer` = appears earlier with a forward pointer ·
 `gap` = appears somewhere unexplained — **fix these.**
 
-> **Known gap (2026-09-02, from the user's screenshot):** the Stage 1 reading drills
-> (`reading-the-lower-strings`, `reading-the-upper-strings`, `reading-g-major`,
-> `all-the-landmarks`) show a **common-time signature** and **whole / half notes** — rhythm
-> notation not taught until Stage 2. Stage 1 is about *pitch*. Fix in the Stage 1 rebuild:
-> drop the metre from pure pitch drills (`M:none` / stemless), or add the forward pointer.
+> **Gap closed (Stage 1 rebuild, 2026-09-02).** Every pure-pitch drill in the rebuilt Stage 1
+> now uses `M:none` — no time signature, no metre. The only Stage 1 examples that carry a
+> time signature are (a) `accidentals-inside-a-bar`, which needs bar lines to teach the
+> bar-line reset, and (b) `reading-a-steady-beat` (Movement E1), the rhythm-lite lesson that
+> *introduces* the quarter / half / whole note and 1-2-3-4 counting, with an explicit "the
+> full system is Stage 2" pointer. Note-heads with stems (quarter-note shape) still appear in
+> `M:none` drills; they read as "a note", carry no metre, and `reading-a-steady-beat` names
+> them before the Movement F tunes use them.
 
 ---
 
@@ -23,13 +26,21 @@ Status: `taught` = a lesson explains it · `pointer` = appears earlier with a fo
 | The staff (5 lines / 4 spaces) | `the-staff` | 1 | taught |
 | Treble / G clef | `the-treble-clef` | 1 | taught |
 | Lines & spaces, note = vertical position | `lines-and-spaces` | 1 | taught |
+| Steps & skips (2nds / 3rds), reading by interval | `steps-and-skips` | 1 | taught |
 | Ledger lines | `ledger-lines` | 1 | taught |
 | Open-string landmarks on the staff | `open-strings-on-the-staff` | 1 | taught |
 | Sharp ♯ / flat ♭ / natural ♮ | `sharps-flats-and-naturals` | 1 | taught |
-| Key signature | `the-key-signature` | 1 | taught |
-| Accidental within a bar + bar-line reset | `accidentals-inside-a-bar` | 1 | taught |
-| Octave numbers (C4 / C5) | `which-b-is-this` + sidebar | 1 | taught |
+| Key signature; order of sharps | `the-key-signature` | 1 | taught |
+| Accidental within a bar + bar-line reset; courtesy accidental | `accidentals-inside-a-bar` | 1 | taught |
+| Octave numbers (C4 / C5) | `which-note-is-this` + sidebar | 1 | taught |
 | 8va / 8vb / loco | Stage 3 `editions-and-editorial-marks` | 3 | taught |
+
+## Rhythm-lite (Stage 1, Movement E)
+
+| Element | Lesson | Stage | Status |
+|---|---|---|---|
+| Quarter / half / whole note, counted 1-2-3-4 | `reading-a-steady-beat` | 1 | taught (rhythm-lite; full system → Stage 2) |
+| Time signature top number = beats per bar | `reading-a-steady-beat` | 1 | taught (rhythm-lite) |
 
 ## Rhythm
 
