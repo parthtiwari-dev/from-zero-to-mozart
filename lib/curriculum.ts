@@ -228,10 +228,14 @@ export const LESSONS: Lesson[] = [
   { slug: "a-note-value-is-a-length-of-bow", title: "A note value is a length of bow", stage: 2, track: "bow", tag: "NOW", published: P },
   { slug: "rests-ties-and-slurs-in-the-bow", title: "Rests, ties and slurs in the bow", stage: 2, track: "bow", tag: "NOW", published: P },
   { slug: "shadow-bowing", title: "Shadow-bowing", stage: 2, track: "bow", tag: "NOW", published: P },
-  // Movements H–I — old thin drafts, rewritten movement by movement
-  { slug: "reading-quarters-and-eighths", title: "Rhythm drill: quarters and eighths", stage: 2, track: "reading", tag: "NOW", published: P },
-  { slug: "reading-dotted-rhythms", title: "Rhythm drill: dotted feel", stage: 2, track: "reading", tag: "NOW", published: P },
-  { slug: "reading-mixed-rhythms", title: "Rhythm drill: mixed", stage: 2, track: "reading", tag: "NOW", published: P },
+  // Movement H — reading checks
+  { slug: "clap-this-line", title: "Clap this line", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "reading-quarters-and-eighths", title: "Reading: quarters and eighths", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "reading-sixteenths", title: "Reading: sixteenths", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "reading-dotted-rhythms", title: "Reading: dotted rhythms", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "reading-in-six-eight", title: "Reading: in 6/8", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "reading-triplets-and-syncopation", title: "Reading: triplets and syncopation", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "reading-mixed-rhythms", title: "Reading: mixed rhythms — the check", stage: 2, track: "reading", tag: "NOW", published: P },
 
   // ── Stage 3 — Score symbols ─────────────────────────────────────
   { slug: "tempo-words", title: "Tempo words", stage: 3, track: "reading", tag: "NOW", published: P },

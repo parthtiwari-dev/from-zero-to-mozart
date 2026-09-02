@@ -1,8 +1,11 @@
-Pitch and rhythm together now, on the D string you already know. Clap the rhythm first. Then
-say the note names in that rhythm. Then air-bow it. Only then play — and only then check the
-answer.
+Pitch and rhythm together now, on the D string you know from Stage 1. For each line: **clap
+the rhythm**, then **say the note names in that rhythm**, then **air-bow it**, then **play** —
+and only then reveal the answer.
+
+## 1 · Up and down in quarters and eighths
 
 <NotatedExample
+  reveal="hidden"
   abc={`X:1
 M:4/4
 L:1/4
@@ -20,11 +23,66 @@ D E F/2G/2 A | A G/2F/2 E D |]`}
     { name: "E", string: "D", finger: "1" },
     { name: "D", string: "D", finger: "0" },
   ]}
-  reveal="hidden"
-  caption="Quarter notes and eighth-note pairs, up the D string and back down."
+  caption="Quarter notes and eighth-note pairs, up the D string and back. Count '1 2 3 & 4' in each bar."
   defaultBpm={66}
 />
 
-If the pitches were right but the rhythm fell apart, isolate rhythm alone — clap it against a
-metronome with no violin at all. If the rhythm was right but your fingers hesitated, go back to
-pitch-only reading on the D string page. Fix one layer at a time.
+## 2 · With a rest
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D/2E/2 F G z | E/2F/2 G/2E/2 D2 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  caption="Count through the rest on beat 4 of the first bar. Reset the bow during it."
+  defaultBpm={66}
+/>
+
+## 3 · Ends on a held note
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+E/2F/2 G/2A/2 G F | E/2D/2 E F2 |]`}
+  labels={[
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "D", finger: "4" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+  ]}
+  caption="Subdivide the half note at the end — '1 & 2 &' inside it — so it gets its full two beats."
+  defaultBpm={64}
+/>
+
+## If it fell apart
+
+Fix **one layer at a time**. Pitches right but rhythm collapsed? Put the violin down and clap
+the rhythm alone against a metronome. Rhythm fine but the fingers hesitated? Go back to the
+pitch-only D-string reading from Stage 1. Never fix both at once.
+
+<Cite source="the four-layer method — the original PDF course, §34; Simon Fischer">
+  "If pitch was correct but rhythm collapsed, isolate rhythm. If rhythm was correct but
+  fingers hesitated, go back to pitch-only reading."
+</Cite>

@@ -126,10 +126,15 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "rests-ties-and-slurs-in-the-bow": () =>
     import("./rests-ties-and-slurs-in-the-bow.mdx"),
   "shadow-bowing": () => import("./shadow-bowing.mdx"),
-  // Movements H–I — being rebuilt; old thin drafts still routed below
+  // Movement H — reading checks
+  "clap-this-line": () => import("./clap-this-line.mdx"),
   "reading-quarters-and-eighths": () =>
     import("./reading-quarters-and-eighths.mdx"),
+  "reading-sixteenths": () => import("./reading-sixteenths.mdx"),
   "reading-dotted-rhythms": () => import("./reading-dotted-rhythms.mdx"),
+  "reading-in-six-eight": () => import("./reading-in-six-eight.mdx"),
+  "reading-triplets-and-syncopation": () =>
+    import("./reading-triplets-and-syncopation.mdx"),
   "reading-mixed-rhythms": () => import("./reading-mixed-rhythms.mdx"),
 
   // Stage 3 — Score symbols
