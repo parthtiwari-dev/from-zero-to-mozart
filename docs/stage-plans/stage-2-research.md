@@ -27,6 +27,51 @@ overclaim the East–West equivalences.
 
 ---
 
+## 0. Decisions (2026-09-02, from the user)
+
+1. **The stage is taught the Western classical way — metric counting ("1 e & a").** The user:
+   *"I don't want it feeling Indian… that context would be good for me but it eventually
+   creates confusion at times. Pick one Western thing and stick to it."* So:
+   - **Metric / traditional counting is the single spine** — "1", "1 & 2 &", "1 e & a", held
+     notes "1 – 2 –". It's the honest answer to "how a conservatoire / ABRSM / Galamian /
+     Western Suzuki teacher counts," it ties rhythm to the barline (helps reading), and it's
+     what the user meets everywhere else.
+   - **Takadimi is out as the spine** even though it's a Western system — its syllables
+     (ta-ka-di-mi) *are* konnakol and would feel Indian, the exact thing to avoid.
+   - **The tabla/konnakol bridge shrinks to ONE optional, clearly-cordoned lesson**
+     (`if-you-count-in-bols` or similar) — a map for this user's private benefit, using **no
+     term the rest of the stage relies on**, fully skippable. §3 below is retained as the
+     source material for *that one lesson* and for the author's understanding — it is **not**
+     the stage's method any more.
+   - The user's rhythmic *instinct* is still the reason the stage can go deep and fast on
+     feel (triplets, compound, syncopation) — that's acknowledged once, plainly, without
+     making the vocabulary Indian.
+2. **Do NOT fold the Stage-1 tune-completion into Stage 2.** Stays deferred — separate task,
+   later. Stage 2's repertoire is its own small set (§9), plus re-reading the *existing*
+   Stage-1 tunes in their real rhythm.
+3. **Size of the bridge:** decided by (1) — one optional lesson.
+4. **Compound metre: teach it properly, in full.** 6/8 as a real lesson (dotted-quarter beat,
+   compound duple, march-vs-jig, why it's not 3/4); **9/8 and 12/8 promoted to real coverage**
+   (NEXT, not REFERENCE) — same idea, more beats.
+5. **Triplets and syncopation: full, in-depth lessons** (moved firmly to NOW). Triplet vs
+   the compound division; the bracket; borrowed divisions. Syncopation: off-beat accent, the
+   tie into a beat, the rest on the downbeat, anticipation, the back-beat.
+6. **Navigation split (user: "idk" → decided):** barlines, measures, finding beat 1, the
+   simple repeat `:||`, and 1st/2nd endings are **Stage 2** (you need them to play a strophic
+   tune or a round). **D.C. / D.S. / al Coda / al Fine / segno / rehearsal marks → Stage 3**,
+   where the PDF itself files them (Part IV §40).
+7. **Overdotting / notes inégales (user: "cover it later if not now"):** a one-line REFERENCE
+   pointer in Stage 2 ("a dotted rhythm in Baroque music isn't always played exactly as
+   written — Stage 3"), full coverage in **Stage 3** / the style thread.
+8. **The recitation étude: yes** — one lesson that is a clap-and-count rhythm line, no violin
+   (RULES R1 rhythm-only exception). Taught in Western counting; an optional "or in your own
+   syllables" line at the end.
+9. **New components: yes** — a `RhythmTree` `<Diagram>` and a rhythm-only `<NotatedExample>`
+   mode ("clap, don't play"). Keep everything else to prose + the existing component
+   (`RULES.md` #17).
+
+---
+
 ## 1. What Stage 2 is, and why it's different from Stage 1
 
 Stage 1 was the user's **weak** axis — Western pitch, staff-reading, fixed letter names.
