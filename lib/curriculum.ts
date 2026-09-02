@@ -253,6 +253,7 @@ export const LESSONS: Lesson[] = [
   // part becomes its own annotated-line lesson (mozart-k216-i-*, -ii-*, -iii-*)
   // once a clean source (MusicXML / clean edition scan) is in docs/source/.
   { slug: "mozart-k216", title: "Mozart: Violin Concerto No. 3, K.216", stage: 9, track: "repertoire", tag: "LATER", published: P },
+  { slug: "mozart-k216-i-entrance", title: "K.216 · I — your entrance", stage: 9, track: "repertoire", tag: "LATER", published: P },
 ];
 
 export const publishedLessons = (): Lesson[] =>
