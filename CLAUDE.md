@@ -94,6 +94,7 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 | `docs/CONTENT-STANDARD.md` | how deep a lesson goes — the six beats, the five lesson types, the melody/`AnnotatedScore` vehicle, the rewrite order |
 | `docs/NOTATION-COVERAGE.md` | every notation symbol → the lesson that teaches it (RULES.md R4) |
 | `docs/stage-plans/stage-N.md` | the research + plan for each stage, approved by the user before writing |
+| `docs/stage-plans/stage-2-research.md` | Stage 2 (Rhythm) — the research pass: the counting-system decision, the tabla/konnakol ↔ Western bridge, the Part III map, and the questions to settle with the user before the plan |
 | `docs/LESSONS-FROM-MOZART.md` | what the (deferred) K.216 run taught us the middle stages must teach deeply — bowing, chords, the dense score vocabulary, style. Read before planning Stages 2–7. |
 | `docs/stage-plans/mozart-k216.md` | the deferred K.216 module — what's built, the transcription pipeline, how to resume |
 | `docs/DESIGN_LOCK.md` | the locked visual language (being re-picked in Phase 1.5 — see review) |
@@ -155,9 +156,13 @@ tune/pattern to play. Plan each stage with the user first (`docs/stage-plans/sta
   the score-symbol vocabulary is dense; "reading" ≠ "playing it in style"). Fold that into the
   stage plans before writing them.
 
-**Next: Stage 2 (Rhythm).** Research the core with the user first, then `docs/stage-plans/stage-2.md`,
-then write — same bar as Stage 1 (six beats, full labels, ends at real music). Stages 3–9 +
-the Vivaldi and Mozart modules are Phase 2–3, after.
+**Next: Stage 2 (Rhythm).** Research pass done — `docs/stage-plans/stage-2-research.md`
+(the counting-system decision, the tabla/konnakol ↔ Western rhythm bridge, the Part III map,
+9 open questions). **Settle those questions with the user, then write `docs/stage-plans/stage-2.md`,
+then the lessons** — same bar as Stage 1 (six beats, full labels, ends at real music). Rhythm
+is the user's *strong* axis (tabla) — the stage leans into that, and the user can catch a
+wrong rhythm fact, so the Indian-music terminology must be exact. Stages 3–9 + the Vivaldi and
+Mozart modules are Phase 2–3, after.
 
 ### Authoring notes
 
