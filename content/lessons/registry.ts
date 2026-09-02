@@ -21,8 +21,14 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "your-first-sound": () => import("./your-first-sound.mdx"),
   "how-to-practise": () => import("./how-to-practise.mdx"),
 
-  // Stage 1 — First position & the staff
+  // Stage 1 — First position & reading the staff
   "four-strings-four-fingers": () => import("./four-strings-four-fingers.mdx"),
+  "the-four-finger-patterns": () => import("./the-four-finger-patterns.mdx"),
+  "keeping-fingers-down": () => import("./keeping-fingers-down.mdx"),
+  "hands-together": () => import("./hands-together.mdx"),
+  "crossing-between-strings": () => import("./crossing-between-strings.mdx"),
+  "one-pitch-more-than-one-place": () =>
+    import("./one-pitch-more-than-one-place.mdx"),
   "low-and-high-fingers": () => import("./low-and-high-fingers.mdx"),
   "the-staff": () => import("./the-staff.mdx"),
   "the-treble-clef": () => import("./the-treble-clef.mdx"),

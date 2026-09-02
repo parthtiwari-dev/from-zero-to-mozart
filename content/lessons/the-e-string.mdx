@@ -1,20 +1,25 @@
-The E string, natural notes, first position. This one's a little different — its low notes need
-a *low first finger*.
+The last of the four, and the odd one out — its low notes need a **low 1st finger**, the only
+string where the 1st finger slides. No open string sits above it, so the tuning check changes
+too.
 
-| Note | Finger | Where |
+## The five notes
+
+| Note | Finger | Where it is |
 |---|---|---|
-| E | 0 | open |
-| F | 1 (low) | right up near the nut |
-| G | 2 (low) | close to the 1st finger |
-| A | 3 | |
+| E | 0 — open | the string itself |
+| F | 1, **low** | pulled back near the nut (F♯, a normal 1, is what sharp keys want) |
+| G | 2, low | back against the 1st finger |
+| A | 3 | a whole step above G |
 | B | 4 | |
+
+## The ladder
 
 <NotatedExample
   abc={`X:1
-M:2/4
+M:none
 L:1/4
 K:C clef=treble
-e2 f2 | g2 a2 | b4 |]`}
+e f g a b |]`}
   labels={[
     { name: "E", string: "E", finger: "0" },
     { name: "F", string: "E", finger: "low 1" },
@@ -22,14 +27,95 @@ e2 f2 | g2 a2 | b4 |]`}
     { name: "A", string: "E", finger: "3" },
     { name: "B", string: "E", finger: "4" },
   ]}
-  caption="E string, open to 4th finger: E F G A B. These climb above the staff onto ledger lines."
-  defaultBpm={60}
+  caption="E F G A B up the E string, then back down. These climb above the staff onto ledger lines."
+  defaultBpm={58}
 />
 
-**F natural** on the E string is a *low* first finger — pulled back close to the nut, closer to
-the head than feels natural at first. **G natural** is a low 2. In sharp keys these both slide
-up: F sharp is a normal 1, G sharp a normal 2.
+<Margin>
+  Above the staff, ledger lines return: **F** on the top line, **G** in the space above, **A**
+  on the first ledger line above, **B** in the space above that. Same counting rule as below
+  the staff.
+</Margin>
 
-Above the staff the ledger lines come back: **A** is on the first ledger line above, **B** in
-the space above that. Same counting rule as below — F is the top line, so G is the space above,
-A the ledger line, B the space above.
+## The 1st finger slides here
+
+**F natural** is a *low* 1 — reach back toward the nut, further than feels right at first.
+**F♯** is the normal 1. **G natural** is a low 2. In sharp keys — and most E-string tunes are
+in sharp keys — both fingers slide forward to their normal places: F♯ (1), G♯ (2).
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+e f ^f |]`}
+  labels={[
+    { name: "E", string: "E", finger: "0" },
+    { name: "F", string: "E", finger: "low 1" },
+    { name: "F♯", string: "E", finger: "1" },
+  ]}
+  caption="Open E, then F natural (low 1, back near the nut), then F♯ (normal 1). The 1st finger has two homes — only on this string."
+  defaultBpm={52}
+/>
+
+## The sharp-key hand
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+e ^f ^g a |]`}
+  labels={[
+    { name: "E", string: "E", finger: "0" },
+    { name: "F♯", string: "E", finger: "1" },
+    { name: "G♯", string: "E", finger: "high 2" },
+    { name: "A", string: "E", finger: "3" },
+  ]}
+  caption="E F♯ G♯ A — the major pattern, every finger in its normal forward place. This is the shape most E-string passages use."
+  defaultBpm={56}
+/>
+
+## The tuning check
+
+No open string sits above the E, so the same-pitch trick doesn't work at the top. Instead:
+play **3rd-finger A** on the E string, then the open A string — an octave apart. In tune, they
+sound like one note in two registers, clean and still. Or check any note against a drone.
+
+## Read it
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+f g a g f e |]`}
+  labels={[
+    { name: "F", string: "E", finger: "low 1" },
+    { name: "G", string: "E", finger: "low 2" },
+    { name: "A", string: "E", finger: "3" },
+    { name: "G", string: "E", finger: "low 2" },
+    { name: "F", string: "E", finger: "low 1" },
+    { name: "E", string: "E", finger: "0" },
+  ]}
+  caption="E string only, all naturals — so all the low fingers. Name each, then check."
+  defaultBpm={56}
+/>
+
+## The usual mistake
+
+Playing F♯ where the music writes F♮ — the 1st finger in its normal place when the note wants
+it pulled back. Right next to an open string, always ask: a whole step up (normal finger) or a
+half step (finger back)?
+
+<TryThis>
+  E F♯ G♯ A B and back — the sharp-key shape. Then the same with F natural and G natural — the
+  low fingers — and hear the difference. Check 3rd-finger A against the open A string.
+</TryThis>
+
+<Cite source="the first-position note tables — cross-checked against the half steps E–F and B–C">
+  The E string is the one place a beginner meets a *low* 1st finger, and it trips everyone.
+  Twinkle borrows the open E and a normal 1st-finger F♯ before you get here — those are fine;
+  the *low* 1 is the new thing this lesson adds.
+</Cite>

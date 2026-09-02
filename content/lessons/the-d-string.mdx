@@ -1,19 +1,25 @@
-The D string, natural notes, first position.
+The second string you learn, and your first taste of moving *between* strings — D sits right
+next to A. Five natural notes again; the shape is the same idea as the A string, one string
+over.
 
-| Note | Finger | Where |
+## The five notes
+
+| Note | Finger | Where it is |
 |---|---|---|
-| D | 0 | open |
-| E | 1 | |
-| F | 2 (low) | close to the 1st finger |
-| G | 3 | same pitch as the treble clef's line |
-| A | 4 | same pitch as the open A string |
+| D | 0 — open | the string itself |
+| E | 1 | just under the bottom line of the staff |
+| F | 2, low | back against the 1st finger (F♯, a high 2, is the D-major note) |
+| G | 3 | on the second line — the note the treble clef names |
+| A | 4 | the same pitch as your open A string |
+
+## The ladder
 
 <NotatedExample
   abc={`X:1
-M:2/4
+M:none
 L:1/4
 K:C clef=treble
-D2 E2 | F2 G2 | A4 |]`}
+D E F G A |]`}
   labels={[
     { name: "D", string: "D", finger: "0" },
     { name: "E", string: "D", finger: "1" },
@@ -21,16 +27,96 @@ D2 E2 | F2 G2 | A4 |]`}
     { name: "G", string: "D", finger: "3" },
     { name: "A", string: "D", finger: "4" },
   ]}
-  caption="D string, open to 4th finger: D E F G A. These sit right across the bottom of the staff."
-  defaultBpm={60}
+  caption="D E F G A up the D string, then back down. These sit low, right across the bottom of the staff."
+  defaultBpm={58}
 />
 
-The **F** here is a *low* second finger — down close to the first finger. (Slide it up a
-half step and you get F sharp, a high 2 — the note G major uses. More on that soon.) The
-**G** is your first note that sits properly inside the staff, on the second line, the one the
-clef names.
+4th-finger **A** should match your open A exactly — the same check as the A string, one string
+over. Play them back to back until they lock.
+
+<Margin>
+  The D string lives at the bottom of the staff and just below it: **D** under the bottom line,
+  **E** just under that line, **F** on the bottom line, **G** on the second line, **A** in the
+  second space.
+</Margin>
+
+## F, low and high
+
+Natural **F** is a low 2. But D major — the key of half the tunes you'll play here — wants
+**F♯**, a high 2 up against the 3rd finger. Same story as the A string's C. You'll read D major
+properly in Movement C; for now, know the finger has two homes on this string.
+
+## The D-major hand
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+D E ^F G |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="D E F♯ G — the major pattern, 2nd and 3rd fingers touching. The Long, Long Ago hand."
+  defaultBpm={56}
+/>
+
+## Skips
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+D F A F D |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "A", string: "D", finger: "4" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  caption="D F A and back — fingers 0, 2, 4. Natural F, so a minor colour; F♯ makes it the bright D-major chord."
+  defaultBpm={56}
+/>
+
+## Read it
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+E F G F E D |]`}
+  labels={[
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  caption="D string only. Name each note before the bow moves."
+  defaultBpm={56}
+/>
+
+## The usual mistake
+
+Mixing up the F. The music writes F♯ — from the key signature, with nothing next to the note —
+and the hand plays natural F, or the reverse. On the D string, always know which F the key
+wants before you drop the finger.
 
 <TryThis>
-  Play D E F G A and back. Then check the top: 4th-finger A against the open A string — same
-  note, so they should ring together with no wobble.
+  D E F♯ G A and back. Then swap in natural F and hear it sag. Check 4th-finger A against the
+  open A. Then, gently, rock the bow between the open D and open A strings — that whole-arm move
+  is the next skill you'll build.
 </TryThis>
+
+<Cite source="Suzuki Book 1 — Long, Long Ago">
+  is the first D-string piece, and it's taught by *hopping the 1st finger* between the A and D
+  strings — the D string learned as a small move from the A, not from scratch.
+</Cite>

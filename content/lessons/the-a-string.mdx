@@ -1,19 +1,26 @@
-The A string, natural notes, first position.
+This is where you start — the A string. The hand falls into its most natural shape here, the
+bow arm sits at a comfortable middle height, and the tunes that live on this string are ones
+you can already sing. Five natural notes; learn them and Twinkle, Ode to Joy and half of
+Suzuki Book 1 are open to you.
 
-| Note | Finger | Where |
+## The five notes
+
+| Note | Finger | Where it is |
 |---|---|---|
-| A | 0 | open |
-| B | 1 | middle line of the staff |
-| C | 2 (low) | close to the 1st finger |
-| D | 3 | |
-| E | 4 | same pitch as the open E string |
+| A | 0 — open | the string itself |
+| B | 1 | on the middle line of the staff — a landmark worth knowing cold |
+| C | 2, low | back against the 1st finger (C♯, a high 2, is the one A major wants — see below) |
+| D | 3 | a whole step above natural C |
+| E | 4 | the same pitch as your open E string |
+
+## The ladder
 
 <NotatedExample
   abc={`X:1
-M:2/4
+M:none
 L:1/4
 K:C clef=treble
-A2 B2 | c2 d2 | e4 |]`}
+A B c d e |]`}
   labels={[
     { name: "A", string: "A", finger: "0" },
     { name: "B", string: "A", finger: "1" },
@@ -21,14 +28,108 @@ A2 B2 | c2 d2 | e4 |]`}
     { name: "D", string: "A", finger: "3" },
     { name: "E", string: "A", finger: "4" },
   ]}
-  caption="A string, open to 4th finger: A B C D E. Now you're reading in the upper half of the staff."
-  defaultBpm={60}
+  caption="Up the A string: A B C D E, one finger at a time. Then play it back down. Every note is on the A string — the label gives you the finger."
+  defaultBpm={58}
 />
 
-The **C** is a *low* second finger again (raise it a half step for C sharp, a high 2 — that's
-the note you'd use in D major or A major). The **B** on the first finger lands right on the
-middle line of the staff — a good landmark to know cold, since it's dead centre.
+The **E** you play with the 4th finger should be exactly your open E string. Play 4th-finger E,
+then open E, back and forth — if they don't match, your whole hand has slid up or down the
+neck. That's your tuning check for the entire string.
+
+<Margin>
+  The A string sits in the top half of the treble staff: open **A** in the second space, **B**
+  on the middle line, **C** in the third space, **D** on the fourth line, **E** in the top
+  space. Reading these off the page comes in Movement B.
+</Margin>
+
+## The C is a choice
+
+Natural **C** is a *low* 2 — back against the 1st finger. But most A-string tunes are in A
+major or D major, and those want **C♯** — a *high* 2, slid forward against the 3rd finger.
+This is the first place the low/high-2 decision from "Low fingers and high fingers" actually
+bites in real music. When a tune sounds sour on this string, a natural C where it wanted C♯ is
+the usual reason.
+
+## The A-major hand
+
+Here's the shape almost every A-string tune uses — 1st finger, high 2, 3rd finger:
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+A B ^c d |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C♯", string: "A", finger: "high 2" },
+    { name: "D", string: "A", finger: "3" },
+  ]}
+  caption="A B C♯ D — the major pattern, 2nd and 3rd fingers touching. This is the Twinkle / Ode to Joy hand. Feel C♯ sit right up against the 3rd finger."
+  defaultBpm={56}
+/>
+
+## Skips
+
+Tunes jump, they don't only step. Practise the broken chord — open string, 2nd finger, 4th
+finger — keeping each finger down as you add the next:
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+A c e c A |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "E", string: "A", finger: "4" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="A C E and back — fingers 0, 2, 4. Natural C here, so a minor colour; slide to C♯ for the bright major version."
+  defaultBpm={56}
+/>
+
+## Read it
+
+Work this line out yourself — name, string and finger for each note — then tap to check. All
+on the A string:
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+B c d c B A |]`}
+  labels={[
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="Six notes, A string only. Say each one before you play it."
+  defaultBpm={56}
+/>
+
+## The usual mistake
+
+Playing natural C where A major wants C♯. And letting the 4th-finger E fall short — the little
+finger is weak and lazy at first, so it lands low. Reach for it, and check it against the open
+E every time.
 
 <TryThis>
-  A B C D E and back. Then 4th-finger E against open E — they should match.
+  A B C♯ D E and back, slowly, saying each name. Then the same with natural C, and hear the
+  difference. Finish by checking 4th-finger E against the open E string — they should ring as
+  one.
 </TryThis>
+
+<Cite source="Suzuki — and the way Hilary Hahn started">
+  The A string comes first, learned completely and with a real tune in hand, before any string
+  change. One shape, one string, one tune — then the hand moves. Long, Long Ago on the D string
+  is the *second* string, not the first.
+</Cite>

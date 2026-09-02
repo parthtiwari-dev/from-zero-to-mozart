@@ -1,23 +1,62 @@
-Reading music on the violin is really a translation job: a mark on the page tells you a
-**pitch**, and you have to know which **string** and which **finger** produces it. This lesson
-sets up the two halves of that.
+Four strings, and four fingers to press them — the whole left hand, at this stage, is those
+sixteen combinations. Before any of it means a note on the page, get clear on what a finger
+number *is*.
 
-## The four strings
+## The strings
 
-Lowest to highest: **G, D, A, E**. You met them tuning. They're your reference points — the
-whole fingerboard is learned as distances from an open string.
+Low to high: **G, D, A, E** (you tuned them in Stage 0). Under the left hand, the G string is
+farthest from you and the E string nearest. To reach the low strings your **elbow swings
+under the violin**; for the E string it swings back out. The hand shape doesn't change — only
+the elbow.
 
-## The four fingers
+## A finger number is a finger, not a note
 
-Your left-hand fingers are numbered **1, 2, 3, 4** — index to pinky. **0 means open string**,
-no finger at all.
+The fingers are numbered **0, 1, 2, 3, 4**:
 
-Here's the rule that saves you months of confusion: **a finger number is a finger, not a
-note.** The 2nd finger plays a different pitch on every string, and even on one string it can
-play two different pitches depending on where it lands. So a finger number is only ever half an
-instruction. The useful form is always **string + finger**, and better still **string + finger
-+ note name**:
+| Number | Finger |
+|---|---|
+| **0** | open — no finger, the string alone |
+| **1** | index |
+| **2** | middle |
+| **3** | ring |
+| **4** | little finger |
 
-> Not "second finger." Say "A string, high second finger — that's C-sharp."
+The **1st finger** is roughly a whole step up from the nut on *every* string — but that's a
+different **note** on each one:
 
-Everything in this stage is about connecting the written mark to that full address.
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+A, E B ^f |]`}
+  labels={[
+    { name: "A", string: "G", finger: "1" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "F♯", string: "E", finger: "1" },
+  ]}
+  caption="The same finger — the 1st — on all four strings. Four different notes. Press play; don't worry about reading the staff yet, that's coming."
+  defaultBpm={50}
+/>
+
+So **"2nd finger" on its own means nothing.** It's B on the G string, F♯ on the D string, C♯
+on the A string, G♯ on the E string. A finger number is only an instruction once it's paired
+with a string.
+
+## The usual mistake
+
+Reading a fingering as if it were a pitch — thinking "2 = C" because that's where you first
+met the 2nd finger. It isn't; C is one *place* the 2nd finger goes. Always say the string and
+the finger together: "A string, 2."
+
+<TryThis>
+  No bow, no reading. Place fingers 1-2-3-4 gently on the **A string**, one at a time, then
+  lift all four at once and shake the hand out. Do it five times. Then the same on the D
+  string, feeling the elbow swing a little further under.
+</TryThis>
+
+<Cite source="Leopold Mozart, Violinschule (1756) — and every method since">
+  numbers the fingers 1–4 and the open string 0, exactly as here. It's the oldest shorthand in
+  violin teaching, and it only ever works string-by-string.
+</Cite>

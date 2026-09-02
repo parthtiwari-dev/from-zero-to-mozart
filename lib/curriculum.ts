@@ -39,6 +39,13 @@ export interface Lesson {
   track: Track;
   tag: Tag;
   published?: boolean;
+  /** repertoire lessons only — metadata for the /practice list */
+  piece?: {
+    key: string;
+    position: string;
+    skill: string;
+    inPdf?: boolean;
+  };
 }
 
 export const STAGES: Stage[] = [
@@ -113,30 +120,64 @@ export const LESSONS: Lesson[] = [
   { slug: "your-first-sound", title: "Your first sound", stage: 0, track: "bow", tag: "NOW", published: P },
   { slug: "how-to-practise", title: "How to practise", stage: 0, track: "setup", tag: "NOW", published: P },
 
-  // ── Stage 1 — First position & the staff ─────────────────────────
+  // ── Stage 1 — First position & reading the staff ──────────────────
+  // Rebuilt 2026-09 to docs/stage-plans/stage-1.md. Six movements, string
+  // order A→D→G→E (the way Hilary/Suzuki learned). `published` flips per lesson
+  // as it's written.
+  // Movement A — the hand on the string
   { slug: "four-strings-four-fingers", title: "Four strings, four fingers", stage: 1, track: "reading", tag: "NOW", published: P },
+  { slug: "the-four-finger-patterns", title: "The four finger patterns", stage: 1, track: "left-hand", tag: "NOW", published: P },
   { slug: "low-and-high-fingers", title: "Low fingers and high fingers", stage: 1, track: "left-hand", tag: "NOW", published: P },
-  { slug: "the-staff", title: "The five-line staff", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "the-treble-clef", title: "The treble clef", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "lines-and-spaces", title: "Lines and spaces", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "open-strings-on-the-staff", title: "The four open strings, on the staff", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "ledger-lines", title: "Ledger lines", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "the-g-string", title: "The G string, note by note", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "the-d-string", title: "The D string, note by note", stage: 1, track: "reading", tag: "NOW", published: P },
+  { slug: "keeping-fingers-down", title: "Keeping the fingers down", stage: 1, track: "left-hand", tag: "NOW", published: P },
+  { slug: "hands-together", title: "The bow and the fingers, apart then together", stage: 1, track: "bow", tag: "NOW", published: P },
   { slug: "the-a-string", title: "The A string, note by note", stage: 1, track: "reading", tag: "NOW", published: P },
+  { slug: "landing-in-tune", title: "The finger is on the note — but is it in tune?", stage: 1, track: "ear", tag: "NOW", published: P },
+  { slug: "the-d-string", title: "The D string, note by note", stage: 1, track: "reading", tag: "NOW", published: P },
+  { slug: "the-g-string", title: "The G string, note by note", stage: 1, track: "reading", tag: "NOW", published: P },
   { slug: "the-e-string", title: "The E string, note by note", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "reading-the-lower-strings", title: "Reading drill: G and D", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "reading-the-upper-strings", title: "Reading drill: A and E", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "which-b-is-this", title: "Which B is this?", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "same-pitch-more-than-one-place", title: "One pitch, more than one place", stage: 1, track: "left-hand", tag: "NOW", published: P },
-  { slug: "sharps-flats-and-naturals", title: "Sharps, flats and naturals", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "the-key-signature", title: "The key signature", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "accidentals-inside-a-bar", title: "Accidentals inside a bar", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "taking-the-help-away", title: "Taking the help away", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "reading-g-major", title: "Reading drill: G major", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "all-the-landmarks", title: "Reading drill: every landmark", stage: 1, track: "reading", tag: "NOW", published: P },
-  { slug: "sa-and-the-letter-names", title: "Sa, and the letter names", stage: 1, track: "ear", tag: "NOW", published: P },
-  { slug: "landing-in-tune", title: "Knowing the finger isn't landing in tune", stage: 1, track: "ear", tag: "NEXT", published: P },
+  { slug: "crossing-between-strings", title: "Crossing between strings", stage: 1, track: "left-hand", tag: "NOW", published: P },
+  { slug: "one-pitch-more-than-one-place", title: "One pitch, more than one place", stage: 1, track: "left-hand", tag: "NOW", published: P },
+  // Movement B — reading pitch off the page
+  { slug: "the-staff", title: "The five-line staff", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "the-treble-clef", title: "The treble clef", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "lines-and-spaces", title: "Lines, spaces and the landmark notes", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "steps-and-skips", title: "Steps and skips — reading the shape", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "ledger-lines", title: "Ledger lines", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "open-strings-on-the-staff", title: "The four open strings, on the staff", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "reading-the-a-and-d-strings", title: "Reading the A and D strings", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "reading-the-g-and-e-strings", title: "Reading the G and E strings", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "which-note-is-this", title: "Which one is this? — the register problem", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "all-the-first-position-landmarks", title: "The whole first-position map", stage: 1, track: "reading", tag: "NOW" },
+  // Movement C — sharps, flats and the key signature
+  { slug: "sharps-flats-and-naturals", title: "Sharps, flats and naturals", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "the-key-signature", title: "The key signature", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "accidentals-inside-a-bar", title: "Accidentals inside a bar", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "reading-in-g-major", title: "Reading in G major", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "reading-in-d-and-a", title: "Reading in D and A", stage: 1, track: "reading", tag: "NOW" },
+  // Movement D — landing it in tune (the ear)
+  { slug: "ringing-tones", title: "Ringing tones", stage: 1, track: "ear", tag: "NOW" },
+  { slug: "sa-and-the-letter-names", title: "Sa, and the letter names", stage: 1, track: "ear", tag: "NOW" },
+  { slug: "hearing-a-wrong-note", title: "Hearing a wrong note — and which way", stage: 1, track: "ear", tag: "NOW" },
+  // Movement E — taking the scaffolding off
+  { slug: "reading-a-steady-beat", title: "Reading a steady beat", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "taking-the-help-away", title: "Taking the help away", stage: 1, track: "reading", tag: "NOW" },
+  { slug: "the-first-position-reading-check", title: "The first-position reading check", stage: 1, track: "reading", tag: "NOW" },
+  // Movement F — the tunes (also on /practice)
+  { slug: "tune-twinkle-rhythms", title: "Twinkle rhythms (open strings)", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "open A / E", position: "1st (open)", skill: "the bow, before any fingers", inPdf: false } },
+  { slug: "tune-twinkle", title: "Twinkle, Twinkle Little Star", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A major", position: "1st", skill: "0–1–2–3 on the A string", inPdf: false } },
+  { slug: "tune-ode-to-joy", title: "Ode to Joy", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A major", position: "1st", skill: "a singing line, phrasing", inPdf: true } },
+  { slug: "tune-lightly-row", title: "Lightly Row", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A major", position: "1st", skill: "bow division — upper vs lower half", inPdf: false } },
+  { slug: "tune-song-of-the-wind", title: "Song of the Wind", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A major", position: "1st", skill: "the 1↔3 jumping finger; bow retakes", inPdf: false } },
+  { slug: "tune-go-tell-aunt-rhody", title: "Go Tell Aunt Rhody", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A major", position: "1st", skill: "phrasing; a held, in-tune last note", inPdf: false } },
+  { slug: "tune-au-clair-de-la-lune", title: "Au Clair de la Lune", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A / D", position: "1st", skill: "a string crossing in a tune", inPdf: false } },
+  { slug: "tune-long-long-ago", title: "Long, Long Ago", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "D major", position: "1st", skill: "a singing line, whole bows", inPdf: false } },
+  { slug: "tune-french-folk-song", title: "French Folk Song", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "D", position: "1st", skill: "minor colour; a smooth legato-feel line", inPdf: false } },
+  { slug: "tune-when-the-saints", title: "When the Saints Go Marching In", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "D major", position: "1st", skill: "a confident skip up; consecutive down-bows", inPdf: false } },
+  { slug: "tune-london-bridge", title: "London Bridge", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "D major", position: "1st", skill: "short — pure step/skip reading, light bow", inPdf: false } },
+  { slug: "tune-hot-cross-buns", title: "Hot Cross Buns", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "G string", position: "1st", skill: "three notes, one string; the high-2 B", inPdf: false } },
+  { slug: "tune-mary-had-a-little-lamb", title: "Mary Had a Little Lamb", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "G string", position: "1st", skill: "stepwise motion on one string, even bows", inPdf: false } },
+  { slug: "tune-frere-jacques", title: "Frère Jacques (a round)", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "G major", position: "1st", skill: "play it as a round against the playback", inPdf: false } },
+  { slug: "tune-jingle-bells", title: "Jingle Bells", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "A / D major", position: "1st", skill: "repeated notes, quick finger drops", inPdf: false } },
 
   // ── Stage 2 — Rhythm ────────────────────────────────────────────
   { slug: "rhythm-before-the-instrument", title: "Rhythm before the instrument", stage: 2, track: "ear", tag: "NOW", published: P },

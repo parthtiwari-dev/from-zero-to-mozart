@@ -1,24 +1,22 @@
-The lowest string, one finger at a time. Put fingers 1, 2 and 3 down in order on the G string
-and you get four notes climbing away from the open string: **G, A, B, C** — then the 4th
-finger adds **D**. All natural notes, no sharps or flats yet. Learn these five and you can
-already play real tunes without ever leaving this one string.
+The lowest string, and the one that reads *below* the staff — so ledger-line reading arrives
+here too (the next lesson, "Ledger lines", is timed with this one). Five natural notes climbing
+away from the open string.
+
+## The five notes
 
 | Note | Finger | Where it is |
 |---|---|---|
-| G | 0 — open | the string itself, not stopped by any finger |
+| G | 0 — open | hangs below its own short ledger line |
 | A | 1 | a whole step above G |
-| B | 2, high | right up against the 3rd finger — *not* halfway between 1 and 3 |
-| C | 3 | a half step above B |
+| B | 2, **high** | right up against the 3rd finger — *not* halfway between 1 and 3 |
+| C | 3 | a half step above B — this is middle C |
 | D | 4 | the same pitch as your open D string |
 
 ## The ladder
 
-Play straight up the string and back down. Every note is on the G string; the label under
-each note tells you the string and the finger.
-
 <NotatedExample
   abc={`X:1
-M:5/4
+M:none
 L:1/4
 K:C clef=treble
 G, A, B, C D |]`}
@@ -29,29 +27,43 @@ G, A, B, C D |]`}
     { name: "C", string: "G", finger: "3" },
     { name: "D", string: "G", finger: "4" },
   ]}
-  caption="The G-string ladder: G A B C D, one note per beat."
-  defaultBpm={60}
+  caption="G A B C D up the G string, then back down. All of it sits below the treble staff, on and between ledger lines."
+  defaultBpm={58}
 />
 
 <Margin>
-  Everything on the G string in first position lives *below* the treble staff, on and between
-  ledger lines. Open **G** hangs below its own short line; **C** is middle C; **D** sits just
-  under the bottom line.
+  Everything on the G string in first position lives below the staff. Open **G** hangs under
+  its own short line; **C** is middle C, one ledger line below the staff; **D** sits just under
+  the bottom line. The next lesson, "Ledger lines", is about exactly this.
 </Margin>
 
-The **D** you play with the 4th finger should be *exactly* the same pitch as your open D
-string. Play the 4th-finger D, then the open D, back and forth — if they don't match, your
-whole hand has drifted up or down the neck. Slide it until they lock. That's your tuning check
-for the entire string.
+4th-finger **D** should be your open D string exactly — play them back to back; if they don't
+lock, the hand has drifted along the neck.
 
-## Skips
+## The B is high
 
-Tunes don't only move by step. Practise jumping straight from the open string to the 2nd
-finger and the 4th — G to B to D and back — keeping each finger down as you add the next.
+On this string the natural **B** is a *high* 2 — up against the 3rd finger, the two nearly
+touching. The gap is between the **1st and 2nd** fingers, not 2 and 3.
 
 <NotatedExample
   abc={`X:1
-M:5/4
+M:none
+L:1/4
+K:C clef=treble
+_B, B, |]`}
+  labels={[
+    { name: "B♭", string: "G", finger: "low 2" },
+    { name: "B", string: "G", finger: "high 2" },
+  ]}
+  caption="B flat, low 2, against the 1st finger — then B natural, high 2, against the 3rd. On the G string the tune almost always wants the high one."
+  defaultBpm={52}
+/>
+
+## Skips
+
+<NotatedExample
+  abc={`X:1
+M:none
 L:1/4
 K:C clef=treble
 G, B, D B, G, |]`}
@@ -62,70 +74,43 @@ G, B, D B, G, |]`}
     { name: "B", string: "G", finger: "high 2" },
     { name: "G", string: "G", finger: "0" },
   ]}
-  caption="G, B, D and back — a broken chord on one string. Fingers 0, 2, 4."
-  defaultBpm={60}
+  caption="G B D and back — fingers 0, 2, 4. A G-major chord, all natural notes (B is already the high 2)."
+  defaultBpm={56}
 />
 
-## Play something real
-
-Here's the opening of **Hot Cross Buns** — three notes, all on the G string:
+## Read it
 
 <NotatedExample
+  reveal="hidden"
   abc={`X:1
-M:3/4
+M:none
 L:1/4
 K:C clef=treble
-B, A, G, | B, A, G, |]`}
+A, B, C B, A, G, |]`}
   labels={[
-    { name: "B", string: "G", finger: "high 2" },
     { name: "A", string: "G", finger: "1" },
-    { name: "G", string: "G", finger: "0" },
+    { name: "B", string: "G", finger: "high 2" },
+    { name: "C", string: "G", finger: "3" },
     { name: "B", string: "G", finger: "high 2" },
     { name: "A", string: "G", finger: "1" },
     { name: "G", string: "G", finger: "0" },
   ]}
-  caption='"Hot cross buns, hot cross buns" — B A G, twice. One bow per note.'
-  defaultBpm={66}
-/>
-
-And the opening of **Ode to Joy** — the tune this whole course is named for. It starts on your
-2nd finger and never leaves the G string:
-
-<NotatedExample
-  abc={`X:1
-M:4/4
-L:1/4
-K:C clef=treble
-B, B, C D | D C B, A, |]`}
-  labels={[
-    { name: "B", string: "G", finger: "high 2" },
-    { name: "B", string: "G", finger: "high 2" },
-    { name: "C", string: "G", finger: "3" },
-    { name: "D", string: "G", finger: "4" },
-    { name: "D", string: "G", finger: "4" },
-    { name: "C", string: "G", finger: "3" },
-    { name: "B", string: "G", finger: "high 2" },
-    { name: "A", string: "G", finger: "1" },
-  ]}
-  caption="Ode to Joy, first two bars. You'll meet the whole melody again later — for now, just these eight notes."
-  defaultBpm={63}
+  caption="G string only, below the staff. Work out each note, then check."
+  defaultBpm={56}
 />
 
 ## The usual mistake
 
-The **B** is a *high* 2nd finger. Beginners put the 2nd finger in the middle, halfway between
-1 and 3, because that feels even — and it plays B-flat, not B. B lives right next to where the
-3rd finger goes, the two fingers almost touching. The gap on this string is between **1 and
-2**, not 2 and 3. If Hot Cross Buns or Ode to Joy sounds sour, this is almost always why.
+The 2nd finger in the middle — playing B♭ instead of B. If a G-string tune sounds sour, this
+is almost always why. Slide the 2nd finger forward until it touches the 3rd.
 
 <TryThis>
-  Play the ladder up and down, saying each name aloud, and check the 4th-finger D against the
-  open D. Then play the Hot Cross Buns line four times. Stop the moment your hand starts to
-  squeeze the neck — shake it out, start again.
+  The ladder up and down, names aloud, 4th-finger D checked against the open D. Then jump
+  G–B–D–B–G a few times, keeping the fingers down. Stop the moment the hand starts to squeeze
+  the neck — shake it out, start again.
 </TryThis>
 
-<Cite source="Suzuki, and the method tradition generally">
-  teaches one string completely — and puts a real tune in the student's hands almost
-  immediately — before mixing strings together. The hand learns *one* shape, with a reason to
-  care about it, before it has to move.
+<Cite source="Suzuki — Allegretto and Etude, the first G-string pieces">
+  come *after* the A and D strings are solid. The G string's natural B as a high 2 is the first
+  shape that genuinely surprises the hand — worth drilling on its own before a tune needs it.
 </Cite>
