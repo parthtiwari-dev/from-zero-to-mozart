@@ -132,12 +132,17 @@ tune/pattern to play. Plan each stage with the user first (`docs/stage-plans/sta
 - **Stage 1: written to `docs/stage-plans/stage-1.md`** — Movements A–E, 33 skill lessons,
   all published (string order A→D→G→E; every pitched example `M:none` + full
   name/string/finger labels; the old thin lessons + 6 orphan slugs replaced). Verified
-  rendering at 1536px. Movement F (the 15 end-goal tunes) — the `AnnotatedScore` vehicle is
-  built (`NotatedExample` gained `howToPlay` + `followPlayback` — no separate component) and
-  **proven on `tune-twinkle`**; `/practice` page is live (`pieceLessons()` → static list, nav
-  next to Contents). **14 tunes still to write** — each needs its melody verified against ≥2
-  sources first (RULES). Some Suzuki-vein tunes are copyright-clean only via their public-domain
-  source melody (e.g. Song of the Wind = "Fuchs, du hast die Gans gestohlen").
+  rendering at 1536px. Movement F (the 15 end-goal tunes): the `AnnotatedScore` vehicle is
+  built (`NotatedExample` gained `howToPlay` + `followPlayback` — no separate component);
+  `/practice` page is live (`pieceLessons()` → static list, nav next to Contents).
+  **10 of 15 tunes published** (Twinkle rhythms, Twinkle, Ode to Joy, Lightly Row, Au Clair
+  de la Lune, London Bridge, Hot Cross Buns, Mary, Frère Jacques, Jingle Bells) — our own
+  first-position transcriptions, rhythm simplified to whole beats.
+  **5 tunes still unpublished** — melody needs verifying against ≥2 sources, and the Suzuki
+  arrangements are copyright so their PD source tune is needed: `tune-song-of-the-wind`
+  ("Fuchs, du hast die Gans gestohlen"), `tune-go-tell-aunt-rhody`, `tune-long-long-ago`,
+  `tune-french-folk-song`, `tune-when-the-saints`. Ask the user to supply / point to a PD
+  score, or agree a substitute that hits the same skill.
 - Annotated lines beyond Stage 1's tunes come after Stages 2–5 are all at standard.
 
 Stages 6–9 + the Vivaldi and Mozart modules (Phase 2–3) come after that.
