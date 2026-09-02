@@ -122,29 +122,39 @@ Stage-1-tune re-reads are deferred; the Leopold Mozart wording is a paraphrase.
 
 ---
 
-## The fix list, prioritised
+## The fix list — status
 
-**P1 — the 7 thin skill lessons** (each: add 1–2 notated play-arounds per the gaps above).
-Small, mechanical, high value. Do first.
+**P1 — the 7 thin skill lessons — DONE (2026-09-02).** Each now carries 3–4 notated
+play-arounds: `keeping-fingers-down` (+ 1↔3, 2↔4, blocked-run drills), `hands-together`
+(+ one-bow-per-note, a longer line), `crossing-between-strings` (+ open A↔D, a two-crossing
+line), `one-pitch-more-than-one-place` (+ two-homes, the octave trap heard), `the-key-signature`
+(+ spot-the-unmarked-F♯, same shape in G/A), `accidentals-inside-a-bar` (+ a natural
+cancelling the key mid-bar), `taking-the-help-away` (+ help-on/help-off on one phrase). Bonus:
+`the-four-finger-patterns` (+ high-3 pattern, string transfer).
 
-- `keeping-fingers-down`, `hands-together`, `crossing-between-strings`,
-  `one-pitch-more-than-one-place`, `the-key-signature`, `accidentals-inside-a-bar`,
-  `taking-the-help-away`
+**P2 — the tunes — DONE (2026-09-02).**
+- All 4 partial melodies completed: `tune-twinkle` (phrases 1–4 + whole-tune playthrough),
+  `tune-ode-to-joy` (4 phrases with the real dotted turns + playthrough), `tune-lightly-row`
+  (A–A′–B–A′, all sections), `tune-au-clair-de-la-lune` (A + the "Ma chandelle est morte"
+  middle + A). Melodies cross-checked against PD ABC / standard sources.
+- A "usual mistake" beat added to all 10 tune lessons.
+- `tune-hot-cross-buns` "one a penny" fixed to real eighth-note rhythm (was two half notes).
 
-**P2 — the tunes.**
-- Complete the 4 partial melodies: `tune-twinkle`, `tune-ode-to-joy`, `tune-lightly-row`,
-  `tune-au-clair-de-la-lune`.
-- Add a "usual mistake" beat to all 10 tune lessons (alongside "the one thing this tune is
-  for").
-- Verify the `tune-hot-cross-buns` "one a penny" rhythm against a source.
+**P3 — minor, per `PRD.md` — DONE.** `how-this-course-works` and `the-key-signature` openings
+softened; `gear-and-care` gained a Leopold Mozart cite.
 
-**P3 — minor, per `PRD.md`.**
-- Soften the Mozart-as-endpoint phrasing in `how-this-course-works` and `the-key-signature`.
-- `gear-and-care`: add a `<Cite>`.
-
-**Blocked on the user / external.**
-- Stage 2's 3 remaining tunes (need melody sources).
+**Still blocked on the user / external.**
+- Stage 2's 3 remaining tunes (*Pop Goes the Weasel*, *Jolly Good Fellow*, *Deck the Halls*)
+  — need verified melody sources.
 - The Leopold Mozart "beat the time" exact wording (need the Knocker translation).
 
 **Out of scope for this audit** (its own task, later): the full Stage-1-tune re-notation in
-true rhythm; sourcing the 4 "coming soon" Stage-1 tunes.
+*true rhythm*; sourcing the 4 "coming soon" Stage-1 tunes.
+
+---
+
+## After the fixes
+
+Stages 0–2 now meet the `PRD.md` §7 bar. Every concept/skill lesson has 3+ play-arounds; every
+tune is a complete melody with a per-line how-to-play note and a "usual mistake" beat. Build
+green (143 pages). `RULES.md` #15 is satisfied — ready to research Stage 3.

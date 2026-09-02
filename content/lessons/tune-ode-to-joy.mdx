@@ -25,7 +25,7 @@ c c d e | e d c B |`}
   defaultBpm={72}
 />
 
-## Phrase 2
+## Phrase 2 — and the dotted turn
 
 <NotatedExample
   followPlayback
@@ -33,7 +33,7 @@ c c d e | e d c B |`}
 M:4/4
 L:1/4
 K:A clef=treble
-A A B c | c B B2 |`}
+A A B c | c3/2 B/2 B2 |`}
   labels={[
     { name: "A", string: "A", finger: "0" },
     { name: "A", string: "A", finger: "0" },
@@ -43,8 +43,67 @@ A A B c | c B B2 |`}
     { name: "B", string: "A", finger: "1" },
     { name: "B", string: "A", finger: "1" },
   ]}
-  howToPlay="Down to the open A and back up. The phrase settles on B, held two counts — a soft landing, bow slowing slightly into it, staying in tune. Then the whole thing repeats: phrase 1, then phrase 2 ending on A instead of B."
+  howToPlay="Down to the open A and back up. Then the phrase's little sigh: C♯ held a beat and a half (a dotted quarter), the B clipped short on the '&', and B again held two counts to land. Bow slowing slightly into that last B, dead in tune. Count '1 2 3 & 4' for the dotted bar."
   defaultBpm={72}
+/>
+
+## Phrase 3 — the opening returns
+
+<NotatedExample
+  followPlayback
+  abc={`X:1
+M:4/4
+L:1/4
+K:A clef=treble
+c c d e | e d c B |`}
+  labels={[
+    { name: "C♯", string: "A", finger: "high 2" },
+    { name: "C♯", string: "A", finger: "high 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "E", string: "A", finger: "4" },
+    { name: "E", string: "A", finger: "4" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C♯", string: "A", finger: "high 2" },
+    { name: "B", string: "A", finger: "1" },
+  ]}
+  howToPlay="Exactly phrase 1 again. Same singing line, same fingers-down walk. The tune's shape is A – B – A – B′."
+  defaultBpm={72}
+/>
+
+## Phrase 4 — and this time it lands home
+
+<NotatedExample
+  followPlayback
+  abc={`X:1
+M:4/4
+L:1/4
+K:A clef=treble
+A A B c | B3/2 A/2 A2 |`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C♯", string: "A", finger: "high 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  howToPlay="Like phrase 2, but the dotted turn is B–A instead of C♯–B, and it settles on the open A — the tonic, home. Phrase 2 left you hanging on B; this one resolves. Let the final A ring."
+  defaultBpm={72}
+/>
+
+## The whole tune, to play through
+
+<NotatedExample
+  followPlayback
+  abc={`X:1
+M:4/4
+L:1/4
+K:A clef=treble
+c c d e | e d c B | A A B c | c3/2 B/2 B2 |
+c c d e | e d c B | A A B c | B3/2 A/2 A2 |`}
+  caption="The complete theme — every note is named in the phrases above. Follow the cursor and play it through. One even bow per note, the dotted bars counted '1 2 3 & 4', and the last A held and ringing."
+  defaultBpm={76}
 />
 
 ## The one thing this tune is for
@@ -52,7 +111,13 @@ A A B c | c B B2 |`}
 **Phrasing** — playing four notes as one thought, not four separate events. Sing the phrase
 first. Where does it rise, where does it settle? Let the bow follow the voice.
 
+## The usual mistake
+
+Playing it as eight equal notes and flattening the dotted bar into evenness — the little
+long–short lean on "wonder" (phrase 2) is the whole character. And clipping the held B and A
+at the phrase ends: hold them the full two counts, counting through.
+
 <Cite source="Beethoven, Symphony No. 9 (1824), 4th movement — 'Ode an die Freude', public domain">
   Beethoven reworked this melody for years to make it as plain as it is. Our transcription is
-  in A major, first position, one note per beat — the bare tune, no harmony.
+  in A major, first position, on the A string — the bare tune, no harmony.
 </Cite>

@@ -237,9 +237,10 @@ export const LESSONS: Lesson[] = [
   { slug: "reading-triplets-and-syncopation", title: "Reading: triplets and syncopation", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "reading-mixed-rhythms", title: "Reading: mixed rhythms — the check", stage: 2, track: "reading", tag: "NOW", published: P },
   // Movement I — the tunes (real music, in true rhythm, on /practice)
-  //   Note: re-notating the 10 Stage-1 tunes in their true rhythm + completing
-  //   them stays the deferred follow-up (decision 2). Pop Goes the Weasel /
-  //   Jolly Good Fellow / Deck the Halls to add when melody sources are in hand.
+  //   The 4 partial Stage-1 tunes (twinkle, ode-to-joy, lightly-row, au-clair)
+  //   were completed to full melodies in the 2026-09-02 audit pass. Still to
+  //   add here: Pop Goes the Weasel / Jolly Good Fellow / Deck the Halls, when
+  //   melody sources are in hand.
   { slug: "tune-when-the-saints", title: "When the Saints Go Marching In", stage: 2, track: "repertoire", tag: "NOW", published: P, piece: { key: "D major", position: "1st", skill: "pickup + dotted rhythm + held notes across bars", inPdf: false } },
   { slug: "tune-row-your-boat", title: "Row, Row, Row Your Boat (a round)", stage: 2, track: "repertoire", tag: "NOW", published: P, piece: { key: "G major", position: "1st", skill: "compound time — 6/8, felt in two", inPdf: false } },
   { slug: "tune-perpetual-motion", title: "Perpetual Motion", stage: 2, track: "repertoire", tag: "NOW", published: P, piece: { key: "G major", position: "1st", skill: "an even eighth-note stream — hold the pulse through everything", inPdf: false } },

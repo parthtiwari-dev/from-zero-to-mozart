@@ -145,15 +145,20 @@ tune/pattern to play. Plan each stage with the user first (`docs/stage-plans/sta
   `followPlayback`; `/practice` page is live. **10 of 15 tunes published** (Twinkle rhythms,
   Twinkle, Ode to Joy, Lightly Row, Au Clair de la Lune, London Bridge, Hot Cross Buns, Mary,
   Frère Jacques, Jingle Bells) — our own first-position transcriptions, rhythm simplified.
-- **Stage 1 known gaps** (close before Stage 1 is "done" — RULES R3):
-  1. **The 10 tunes are partial** — 2–3 phrases each, not the complete melody. Need
-     completing to full length.
-  2. **5 tunes are "coming soon"** (unpublished, shown muted on `/practice`) — melody needs a
+- **Stage 0–2 audit done (2026-09-02)** — `docs/stage-audit.md`. Every published lesson
+  checked against `PRD.md` §7. Fixes applied: 7 thin Stage-1 skill lessons deepened to 3–4
+  play-arounds; **the 4 partial Stage-1 tunes completed to full melodies** (twinkle,
+  ode-to-joy, lightly-row, au-clair); a "usual mistake" beat added to all 10 tunes; Hot Cross
+  Buns rhythm fixed. Stages 0–2 now meet the bar.
+- **Stage 1 remaining gaps** (not blocking):
+  1. **4 tunes are "coming soon"** (unpublished, shown muted on `/practice`) — melody needs a
      PD source: `tune-song-of-the-wind` ("Fuchs, du hast die Gans gestohlen"),
-     `tune-go-tell-aunt-rhody`, `tune-long-long-ago`, `tune-french-folk-song`,
-     `tune-when-the-saints`. Deferred per the user — leave as "coming soon", don't block on it.
-  3. Bowing on each tune line should be phrase-specific (direction, bow part, slurs), not
-     generic — see `docs/LESSONS-FROM-MOZART.md`.
+     `tune-go-tell-aunt-rhody`, `tune-long-long-ago`, `tune-french-folk-song`.
+     (`tune-when-the-saints` was the 5th — now promoted to Stage 2.)
+  2. The published Stage-1 tunes' *rhythm* is still simplified in places (whole-beat values);
+     re-notating them in true rhythm is a deferred follow-up.
+  3. Bowing per tune line is phrase-specific now, but could go deeper — see
+     `docs/LESSONS-FROM-MOZART.md`.
 - **K.216 module: deferred** (`docs/stage-plans/mozart-k216.md`). It's Phase 3 and far beyond
   the user now. Built as a proof: `/mozart` index + `mozart-k216` (orientation) +
   `mozart-k216-i-entrance` + `-i-b2` (the first solo, bars 9–19, from a `.mxl` +
