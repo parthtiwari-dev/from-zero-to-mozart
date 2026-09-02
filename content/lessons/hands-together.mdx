@@ -33,8 +33,54 @@ E ^F G ^F E |]`}
     { name: "F♯", string: "D", finger: "high 2" },
     { name: "E", string: "D", finger: "1" },
   ]}
-  caption="Five notes on the D string. Draw one long, even down-bow across the first three while the fingers walk 1–2–3 — the bow should feel like it doesn't notice."
+  caption="Five notes on the D string. Draw one long, even down-bow across all five while the fingers walk 1–2–3–2–1 — the bow should feel like it doesn't notice the fingers moved."
   defaultBpm={50}
+/>
+
+## Now one bow per note
+
+The other coordination: the bow changes direction *exactly* when the finger drops — not
+before, not after. Down on the first note, up on the second, and so on.
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+E ^F G ^F E |]`}
+  labels={[
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "E", string: "D", finger: "1" },
+  ]}
+  caption="Same five notes — now a separate small stroke for each, down–up–down–up–down. The finger and the bow-change happen together, cleanly, as one event."
+  defaultBpm={60}
+/>
+
+## A longer line — keep the bow even through it
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+D E ^F G ^F E D E ^F |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+  ]}
+  caption="Nine notes, one per bow, on the D string. Somewhere in the middle the bow usually starts to hitch on the finger drops — find where, slow down, and smooth it out. Air-bow it first, then finger it silently, then combine."
+  defaultBpm={56}
 />
 
 ## The usual mistake

@@ -55,6 +55,46 @@ D E F G |]`}
 
 Only the **2nd finger moved** — a half step back. Same hand, one finger slides.
 
+## The high-3 pattern
+
+The third shape moves the *3rd* finger forward instead — 3 and 4 close together:
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+D E ^F ^G |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G♯", string: "D", finger: "high 3" },
+  ]}
+  caption="1–2–34 on the D string: D E F♯ G♯. Now the 3rd and 4th fingers touch. You meet this shape in the sharp keys — A major on the D string uses it."
+  defaultBpm={54}
+/>
+
+## The same pattern, a different string
+
+The shape is portable. Here's the major pattern (2 & 3 close) on the **A string**:
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+A B ^c d |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C♯", string: "A", finger: "high 2" },
+    { name: "D", string: "A", finger: "3" },
+  ]}
+  caption="A B C♯ D — the same 1–23–4 shape as the D-string major pattern, one string over. The hand feels identical; only the string changed."
+  defaultBpm={54}
+/>
+
 ## The usual mistake
 
 Spacing the fingers **evenly** — dropping the 2nd finger halfway between 1 and 3 by default.

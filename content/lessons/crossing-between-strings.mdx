@@ -15,6 +15,23 @@ as a unit. The arm is **high for the G string**, dropping for D, then A, then E.
 M:none
 L:1/4
 K:C clef=treble
+A D A D A |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="Open A, open D, back and forth — no left hand at all, so all you're training is the arm. Whole slow bows. The arm tips to a new level; the bow speed doesn't change."
+  defaultBpm={48}
+/>
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
 B E B E |]`}
   labels={[
     { name: "B", string: "A", finger: "1" },
@@ -22,8 +39,29 @@ B E B E |]`}
     { name: "B", string: "A", finger: "1" },
     { name: "E", string: "D", finger: "1" },
   ]}
-  caption="1st finger on the A string, then 1st finger on the D string — the same finger, the arm changes level. Slow, and listen for a clean change with no double-stop scrape."
+  caption="Now with the 1st finger down on both strings — the same finger, the arm changes level under it. Listen for a clean change with no scrape where both strings sound at once."
   defaultBpm={50}
+/>
+
+## A line that crosses twice
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+D A ^F A D ^F |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "F♯", string: "D", finger: "high 2" },
+  ]}
+  caption="Six notes crossing A↔D twice. Say 'arm down… arm up' under your breath at each crossing. Prepare the F♯ finger while the bow is still on the A string."
+  defaultBpm={52}
 />
 
 ## Find the level first

@@ -31,6 +31,52 @@ G, A, B, C D E F G |]`}
 4. plain notation; a finger number only where the choice isn't obvious
 5. a plain score — you decide the fingering and the bowing
 
+## The same line, help on and off
+
+Here's one short phrase with the full scaffold — read it, hear it, get it under the hand:
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:G clef=treble
+D E ^F G A ^F D |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "D", finger: "4" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  caption="Every note named, with its string and finger. This is the 'training wheels' version."
+  defaultBpm={58}
+/>
+
+Now the *same seven notes*, plain — the labels are there, but hidden. Read it cold, play it,
+then reveal only what you got wrong:
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:none
+L:1/4
+K:G clef=treble
+D E ^F G A ^F D |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "D", finger: "4" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  caption="Same phrase, no help showing. This is the version that matters — the first one was just to learn it."
+  defaultBpm={58}
+/>
+
 The rule: take the help away *before* it becomes a habit, but not so early that you practise
 wrong notes. Try the line, then reveal — glance, don't stare.
 

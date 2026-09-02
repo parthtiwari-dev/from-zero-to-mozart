@@ -28,6 +28,24 @@ A A |]`}
   defaultBpm={48}
 />
 
+## Two notes, each with two homes
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+A A e e |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "D", finger: "4" },
+    { name: "E", string: "E", finger: "0" },
+    { name: "E", string: "A", finger: "4" },
+  ]}
+  caption="The written A: open A string, then 4th finger on the D — same pitch, two homes. Then the written E: open E string, then 4th finger on the A — same again. Play each pair back to back and hear them match. The fingering is your choice."
+  defaultBpm={48}
+/>
+
 ## Which one do you play?
 
 Mostly the one that **avoids a string crossing**. If a phrase is sitting on the A string and
@@ -39,7 +57,21 @@ Later, tone and phrasing change the answer; for now, stay on the string you're o
 The 4th finger on the G string is **open D** — the D *just above* the low open G, a fourth up.
 It is **not** another low G. And the 3rd finger on the D string is **G**, but the G an
 **octave above** the open G string — a completely different pitch. Same letter, different
-octave: check the staff position, not just the name. *(More on this in "which one is this".)*
+octave: check the staff position, not just the name.
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+G, G |]`}
+  labels={[
+    { name: "G", string: "G", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="Open G, then 3rd finger G on the D string. Same letter — an octave apart, clearly two different notes. Hear the gap. The staff shows one low on ledger lines, one on the second line."
+  defaultBpm={48}
+/>
 
 <TryThis>
   Play these pairs and listen for them to become one sound: G-string 4 ↔ open D · D-string 4 ↔
