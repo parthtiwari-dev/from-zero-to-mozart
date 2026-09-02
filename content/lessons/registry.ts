@@ -115,9 +115,12 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
     import("./nine-eight-and-twelve-eight.mdx"),
   "barlines-and-the-pickup": () => import("./barlines-and-the-pickup.mdx"),
   "repeats-and-endings": () => import("./repeats-and-endings.mdx"),
-  // Movements F–I — being rebuilt; old thin drafts still routed below
-  "syncopation-and-pickups": () => import("./syncopation-and-pickups.mdx"),
+  // Movement F — bending the beat
+  syncopation: () => import("./syncopation.mdx"),
   triplets: () => import("./triplets.mdx"),
+  "other-tuplets": () => import("./other-tuplets.mdx"),
+  "dotted-and-snap-rhythms": () => import("./dotted-and-snap-rhythms.mdx"),
+  // Movements G–I — being rebuilt; old thin drafts still routed below
   "reading-quarters-and-eighths": () =>
     import("./reading-quarters-and-eighths.mdx"),
   "reading-dotted-rhythms": () => import("./reading-dotted-rhythms.mdx"),

@@ -219,9 +219,12 @@ export const LESSONS: Lesson[] = [
   { slug: "nine-eight-and-twelve-eight", title: "9/8 and 12/8", stage: 2, track: "reading", tag: "NEXT", published: P },
   { slug: "barlines-and-the-pickup", title: "Barlines and the pickup", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "repeats-and-endings", title: "Repeats and endings", stage: 2, track: "reading", tag: "NOW", published: P },
-  // Movements F–I — old thin drafts, rewritten movement by movement
-  { slug: "syncopation-and-pickups", title: "Syncopation and pickups", stage: 2, track: "reading", tag: "NEXT", published: P },
-  { slug: "triplets", title: "Triplets and other tuplets", stage: 2, track: "reading", tag: "NEXT", published: P },
+  // Movement F — bending the beat
+  { slug: "syncopation", title: "Syncopation", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "triplets", title: "Triplets", stage: 2, track: "reading", tag: "NOW", published: P },
+  { slug: "other-tuplets", title: "Other tuplets", stage: 2, track: "reading", tag: "REFERENCE", published: P },
+  { slug: "dotted-and-snap-rhythms", title: "Dotted and snap rhythms", stage: 2, track: "reading", tag: "NEXT", published: P },
+  // Movements G–I — old thin drafts, rewritten movement by movement
   { slug: "reading-quarters-and-eighths", title: "Rhythm drill: quarters and eighths", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "reading-dotted-rhythms", title: "Rhythm drill: dotted feel", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "reading-mixed-rhythms", title: "Rhythm drill: mixed", stage: 2, track: "reading", tag: "NOW", published: P },

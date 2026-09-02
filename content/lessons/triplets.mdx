@@ -1,17 +1,100 @@
-A small **3** bracketed over a group of notes means: squeeze this many notes into the time a
-different number would normally take. A **triplet** is the common case — three notes in the
-space of two.
+A small **3** bracketed over a group of notes means: fit **three** of them into the time that
+**two** would normally take. The eighth-note triplet — three notes in one beat — is by far
+the most common.
+
+Count it "**1‑&‑a**", or "**1‑trip‑let**", or "**1‑la‑li**" — three even syllables per beat.
+Whichever you use, the three notes are **equal**.
+
+This should feel natural to you: it's the same three-in-the-space feel as compound time
+(6/8), and the same as *tigun* in tabla — the beat carrying three even strokes.
+
+## Two, then three, in the same beat
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B/2B/2 B/2B/2 (3B/2B/2B/2 (3B/2B/2B/2 |]`}
+  labels={[
+    { name: "1" }, { name: "&" }, { name: "2" }, { name: "&" },
+    { name: "3" }, { name: "&" }, { name: "a" },
+    { name: "4" }, { name: "&" }, { name: "a" },
+  ]}
+  caption="Beats 1 and 2: two even eighths each. Beats 3 and 4: three even notes each — the triplets, marked with a bracketed 3. Same beat length; three notes instead of two, so each triplet note is a touch quicker than an eighth."
+  defaultBpm={60}
+/>
+
+## The quarter-note triplet
+
+The bracket works on any value. A **quarter-note triplet** fits three quarter notes evenly
+into the space of two beats.
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B B (3BBB |]`}
+  labels={[
+    { name: "1" }, { name: "2" },
+    { name: "3" }, { name: "·" }, { name: "·" },
+  ]}
+  caption="Two plain quarters, then three notes spread evenly across beats 3 and 4. Harder to feel — say 'trip-a-let' slowly across the two beats, or split beats 3–4 into six even parts and play every other one."
+  defaultBpm={60}
+/>
+
+## Duple and triple, back to back
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B/2B/2 (3B/2B/2B/2 B/2B/2 (3B/2B/2B/2 |]`}
+  labels={[
+    { name: "1" }, { name: "&" },
+    { name: "2" }, { name: "&" }, { name: "a" },
+    { name: "3" }, { name: "&" },
+    { name: "4" }, { name: "&" }, { name: "a" },
+  ]}
+  caption="Beat 1: two eighths. Beat 2: a triplet. Beat 3: two eighths. Beat 4: a triplet. Switching cleanly between the two-feel and the three-feel without the pulse lurching is the whole skill here."
+  defaultBpm={58}
+/>
+
+## On the D string
 
 <NotatedExample
   abc={`X:1
 M:4/4
 L:1/4
 K:C clef=treble
-D E | (3D E F |]`}
-  caption="Bar one: two ordinary quarter notes, two beats. Bar two: a quarter-note triplet — three notes fitted into that same two-beat space, so each one is a little faster than a normal quarter."
-  defaultBpm={66}
+D E (3F/2E/2D/2 (3E/2F/2G/2 | A2 z2 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "D", finger: "4" },
+  ]}
+  caption="Two quarters, then two eighth-note triplets, then a held note. Say 'trip-a-let, trip-a-let' for the fast bit. Keep the bow travelling evenly — three notes to a bow-length on each triplet."
+  defaultBpm={54}
 />
 
-Triplets and their relatives (duplets, quintuplets — REFERENCE for now) are called **tuplets**.
-The bracketed number is the only clue on the page that something irregular is happening to the
-beat; without it, three notes would just be a different, unrelated rhythm.
+## The usual mistake
+
+Playing the triplet as "long–short–short" (a dotted feel) or as "two notes plus a grace" — a
+triplet is **three even notes**. And rushing straight out of it back into the duple notes.
+Slow the whole thing right down until the three are genuinely equal, then bring the tempo up.
+
+<Cite source="the tuplet as a borrowed division; ABRSM introduces triplets at Grade 2">
+  A triplet in simple time is the beat briefly borrowing the compound (÷3) division. Once
+  6/8 feels natural, so does the triplet.
+</Cite>
