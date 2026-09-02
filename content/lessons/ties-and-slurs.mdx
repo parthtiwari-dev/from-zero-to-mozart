@@ -1,11 +1,10 @@
 A curved line joins two or more notes. It's either a **tie** or a **slur**, and you tell them
-apart by *what they join*.
+apart by *what it joins*.
 
 ## Tie — same pitch, held as one
 
 A tie connects two noteheads at the **exact same pitch**. You don't play the second one — you
-hold the first straight through it, as a single longer sound. It's how you write a length
-that won't fit one notehead, or a note that carries across a barline.
+hold the first straight through it, as a single longer sound.
 
 <NotatedExample
   abc={`X:1
@@ -18,7 +17,24 @@ D2 D2- | D2 z2 |]`}
     { name: "D", string: "D", finger: "0" },
     { name: "D", string: "D", finger: "0" },
   ]}
-  caption="Three noteheads, but only two bow starts: the second D is tied across the barline into the third, so it rings straight on as one four-beat sound. Then a two-beat rest."
+  caption="Three noteheads, but only two bow starts. The second D is tied across the barline into the third, so it rings straight on as one four-beat sound. Then a two-beat rest."
+  defaultBpm={66}
+/>
+
+A tie is how you write a length that no single notehead can show — a five-beat note is a
+whole note tied to a quarter — or a note that has to carry over a barline.
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B4- | B z2 z |]`}
+  labels={[
+    { name: "1 – – –" }, { name: "1 (held)" }, { name: "2 –" }, { name: "4" },
+  ]}
+  caption="A whole note tied to a quarter — one sound five beats long, struck once and held all the way to the '2' of the next bar. Then a rest for the last three beats."
   defaultBpm={66}
 />
 
@@ -40,23 +56,41 @@ K:C clef=treble
     { name: "F", string: "D", finger: "low 2" },
     { name: "G", string: "D", finger: "3" },
   ]}
-  caption="One curved line over four moving notes — one bow carries all four. The notes still sound separately; the bow just doesn't stop."
+  caption="One curved line over four moving notes — one bow carries all four. The notes still sound separately; the bow simply doesn't stop or change direction."
   defaultBpm={66}
 />
 
 ## The quick test
 
-Does the curve join two noteheads at the **same height** on the staff? Tie — hold it.
-Does it arc over notes that **move up or down**? Slur — one bow. A tie across a barline is
-almost always the giveaway that it's a tie, not a slur.
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+(D E) F2- | F2 (G A) |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "D", finger: "4" },
+  ]}
+  caption="Three curves here. Which are ties, which are slurs? Check what each one joins — same pitch or moving — then reveal. (D–E: slur. F–F across the bar: tie. G–A: slur.)"
+  defaultBpm={60}
+/>
+
+Does the curve join two noteheads at the **same height** on the staff? Tie — hold it. Does it
+arc over notes that **move up or down**? Slur — one bow. A curve across a barline joining
+identical pitches is almost always a tie.
 
 ## The usual mistake
 
 Re-bowing or re-plucking across a tie — you get two attacks where the music wants one long
-note. Or reading a slur as a tie and sitting on one pitch while the tune was supposed to move.
+note. Or reading a slur as a tie and sitting on one pitch while the tune was meant to move.
 
 <Cite source="standard notation; the slur-as-one-bow convention is specific to strings">
-  A singer slurs by not re-articulating; a violinist slurs by not changing bow. Same curve,
-  the instrument decides what it asks of you. You'll meet slurs again as a bow stroke in
-  Stage 5.
+  A singer slurs by not re-articulating; a violinist slurs by not changing bow. Same curve —
+  the instrument decides what it asks of you. Slurs come back as a bow stroke in Stage 5.
 </Cite>

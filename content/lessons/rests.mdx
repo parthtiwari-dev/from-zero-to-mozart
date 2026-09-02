@@ -1,4 +1,4 @@
-Silence is written down too, and it has an exact length. Rests use the same value system as
+Silence is written down, and it has an exact length. Rests use the same value system as
 notes — the same halving tree — just with no pitch to play.
 
 | Rest | Length in 4/4 | Looks like |
@@ -9,8 +9,10 @@ notes — the same halving tree — just with no pitch to play.
 | eighth rest | ½ beat | a single flag |
 | sixteenth rest | ¼ beat | a double flag |
 
-(The whole and half rests are the two people mix up: the whole rest **hangs down**, the half
-rest **sits up**. "Whole is heavier, so it hangs.")
+The whole and half rests are the two people mix up: the whole rest **hangs down**, the half
+rest **sits up**. "Whole is heavier, so it hangs."
+
+## Count straight through the gaps
 
 <NotatedExample
   rhythmOnly
@@ -23,20 +25,74 @@ B z B z | B B z2 |]`}
     { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
     { name: "1" }, { name: "2" }, { name: "3 –" },
   ]}
-  caption="Note, rest, note, rest — then two notes and a two-beat rest. Clap on the notes, and keep counting out loud through every gap so you come back in exactly on time."
+  caption="Note, rest, note, rest — then two notes and a two-beat rest. Clap only on the notes, but say every number aloud, including the ones over the rests. That's how you come back in exactly on time."
   defaultBpm={70}
+/>
+
+## Rests of different sizes in one bar
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B z2 B | B/2B/2 z z2 |]`}
+  labels={[
+    { name: "1" }, { name: "2 –" }, { name: "4" },
+    { name: "1" }, { name: "&" }, { name: "2" }, { name: "3 –" },
+  ]}
+  caption="Bar 1: a quarter, a two-beat rest, a quarter. Bar 2: two eighths, a one-beat rest, a two-beat rest. The rest's shape tells you exactly how long to wait."
+  defaultBpm={64}
+/>
+
+## A rest is where you reset the bow
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D E z2 | F G z2 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="Two notes, then a two-beat rest — long enough to stop the bow, lift it, and set it back down ready for the next phrase. Play it: use the rest, don't just wait through it."
+  defaultBpm={66}
+/>
+
+## In a real tune
+
+*Hot Cross Buns* is often written with a rest on beat 4 — a little breath after each "buns".
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B B B z | B B B z |]`}
+  labels={[
+    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
+    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
+  ]}
+  caption="'Hot cross buns' (three quarters), rest; 'hot cross buns', rest. Count '4' out loud in each gap so the second phrase starts exactly on time."
+  defaultBpm={76}
 />
 
 ## A rest is not a break
 
-Your job during a rest is *active*: keep the count running, and get ready for whatever comes
-next — lift or reset the bow, move a finger to its next note, take a breath for the phrase.
-A tabla player never loses the cycle in a gap; a rest is the same — the pulse carries straight
+Your job during a rest is **active**: keep the count running, and get ready for what's next —
+lift or reset the bow, move a finger to its next note, take a breath for the phrase. A tabla
+player never loses the cycle in a gap; a rest is the same — the pulse carries straight
 through it.
 
 ## The usual mistake
 
-Treating a rest as "nothing to read" — rushing off it, or letting the count go fuzzy, so the
+Treating a rest as "nothing to read" — rushing off it, or letting the count go fuzzy so the
 next note lands early or late. Count a rest as deliberately as you count a note.
 
 <Cite source="the original PDF course, §28">

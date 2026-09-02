@@ -1,43 +1,94 @@
-There are two small dots in music that look identical and mean completely different things.
-The only way to tell them apart is **where they sit**.
+There are two small dots in music that look identical and do opposite jobs. The only way to
+tell them apart is **where the dot sits**.
 
 - A **duration dot** sits *directly after* the notehead, level with it, on the same line or
   space. It **lengthens** the note by half again (the lesson you just read).
-- A **staccato dot** sits *above or below* the notehead, clear of the staff line the note is
-  on. It means **short and detached** — a way of *playing* the note, nothing to do with how
-  long it's written.
+- A **staccato dot** sits *above or below* the notehead, clear of it. It means **short and
+  detached** — a way of *playing* the note, nothing to do with how long it's written.
+
+## The same quarter note, three ways
 
 <NotatedExample
   abc={`X:1
 M:4/4
 L:1/4
 K:C clef=treble
-D2 D3/2 E/2 | .D .D .D .D |]`}
+D D3/2 .D z/2 |]`}
   labels={[
-    { name: "D", string: "D", finger: "0" },
-    { name: "D", string: "D", finger: "0" },
-    { name: "E", string: "D", finger: "1" },
-    { name: "D", string: "D", finger: "0" },
     { name: "D", string: "D", finger: "0" },
     { name: "D", string: "D", finger: "0" },
     { name: "D", string: "D", finger: "0" },
   ]}
-  caption="Bar 1: the third note is a dotted quarter — the dot is beside the head, and the note is held longer. Bar 2: four quarter notes with staccato dots above them — same length on the page, but played crisp and separated."
+  caption="First a plain quarter D. Then a dotted quarter — the dot is beside the head, and it's held 1½ beats. Then a staccato quarter — the dot is above the head, and it's played short and clipped, but it still counts as a full beat."
   defaultBpm={72}
+/>
+
+## A line of duration dots
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B3/2 B/2 B3/2 B/2 | B3 B |]`}
+  labels={[
+    { name: "1" }, { name: "&" }, { name: "3" }, { name: "&" },
+    { name: "1 – –" }, { name: "4" },
+  ]}
+  caption="Every dot here is beside a head — these are all length. Long–short, long–short, then a three-beat note. Count it: the dotted notes eat into the following beat."
+  defaultBpm={60}
+/>
+
+## A line of staccato dots
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+.B .B .B .B | .B .B B2 |]`}
+  labels={[
+    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
+    { name: "1" }, { name: "2" }, { name: "3 –" },
+  ]}
+  caption="Every dot here is above a head — these are all articulation. The count is unchanged: plain quarters and a half note. The dots only tell you the composer wants the short notes crisp and separated."
+  defaultBpm={80}
+/>
+
+## Read one that has both
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+D3/2 E/2 .F .G | A2 z2 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "D", finger: "4" },
+  ]}
+  caption="Which dots are length, which are articulation? Work it out, then reveal. (The first is a dotted quarter; F and G carry staccato dots above.)"
+  defaultBpm={66}
 />
 
 ## Read now, play later
 
-You only need to **read** the difference here — spot which dot it is, and know a staccato
-dot doesn't change the count. **Playing** a clean staccato is a bow skill, and that's Stage 5.
-For now: if the dot is beside the head, add half the value; if it's above or below, carry on
-counting normally and note that the composer wants it short.
+You only need to **read** the difference here — spot which dot it is, and know a staccato dot
+doesn't change the count. **Playing** a clean staccato is a bow skill, and that's Stage 5.
+For now: dot beside the head → add half the value; dot above or below → count normally, and
+note that the composer wants it short.
 
 ## The usual mistake
 
-Seeing any dot near a note and stretching it — so a staccato passage comes out slow and
-heavy. Or seeing a dotted quarter and clipping it short because it looked like staccato.
-Check the dot's **position** before you do anything with it.
+Seeing any dot near a note and stretching it — so a staccato passage drags. Or seeing a
+dotted quarter and clipping it short because it looked like staccato. Check the dot's
+**position** before you do anything with it.
 
 <Cite source="the original PDF course, §29">
   flags this as one of the most common early misreadings — "same small dot shape; different

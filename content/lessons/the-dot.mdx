@@ -1,11 +1,14 @@
-A small dot **directly after** a notehead adds **half of that note's value** on top. One
-rule, and it works on any value.
+A small dot **directly after** a notehead adds **half of that note's own value** on top. One
+rule, and it works on every value.
 
-- A dotted **half note** = 2 + 1 = **3 beats**.
-- A dotted **quarter note** = 1 + ½ = **1½ beats**.
-- A dotted **whole note** = 4 + 2 = **6 beats** (only in bars long enough to hold it).
+- a dotted **half note** = 2 + 1 = **3 beats**
+- a dotted **quarter note** = 1 + ½ = **1½ beats**
+- a dotted **whole note** = 4 + 2 = **6 beats** (only in a bar long enough to hold it)
+- a dotted **eighth note** = ½ + ¼ = **¾ of a beat**
 
-The dot is exactly half again — never a vague "a bit longer."
+The dot is exactly half again — never a vague "a little longer."
+
+## A dotted half fills the bar with room to spare
 
 <NotatedExample
   rhythmOnly
@@ -18,14 +21,14 @@ B3 B | B2 B2 |]`}
     { name: "1 – –" }, { name: "4" },
     { name: "1 –" }, { name: "3 –" },
   ]}
-  caption="Bar 1: a dotted half (3 beats) plus a quarter. Bar 2: two plain halves, for comparison. Same bar length — the dot did the work of an extra beat."
+  caption="Bar 1: a dotted half (3 beats) plus a quarter. Bar 2: two plain halves, for comparison. The dot bought a whole extra beat."
   defaultBpm={66}
 />
 
-## The dotted-quarter-and-eighth pair
+## The dotted quarter + eighth — the one you'll meet most
 
-This is the one you'll meet most — the "long–short" limp of a march or a carol. The dotted
-quarter holds through beat 1 and half of beat 2; the eighth falls on the "**and**".
+This is the "long–short" limp of a march or a carol. The dotted quarter holds through beat 1
+and *half* of beat 2; the eighth lands on the "**and**".
 
 <NotatedExample
   rhythmOnly
@@ -38,23 +41,67 @@ B3/2 B/2 B B | B3/2 B/2 B2 |]`}
     { name: "1" }, { name: "&" }, { name: "3" }, { name: "4" },
     { name: "1" }, { name: "&" }, { name: "3 –" },
   ]}
-  caption="Count '1 – & 2', but the note you play on '1' lasts until the '&'. Clap it: LONG–short, then two steady beats."
+  caption="Count '1 – & 2', with the first note held from '1' right up to the '&'. Clap it: LONG–short, then two steady beats."
   defaultBpm={63}
+/>
+
+## Straight, then dotted — hear the limp arrive
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B B B B | B3/2 B/2 B3/2 B/2 |]`}
+  labels={[
+    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
+    { name: "1" }, { name: "&" }, { name: "3" }, { name: "&" },
+  ]}
+  caption="Bar 1: four even quarters. Bar 2: the same four beats, but the first and third notes are dotted and the second and fourth are quick eighths. Same notes, completely different character — bar 2 marches, bar 1 walks."
+  defaultBpm={60}
+/>
+
+## In a real tune
+
+*Ode to Joy*'s second phrase ends on a dotted figure: four steady notes, then a stretched
+note, a clipped one, and a long one to close.
+
+<NotatedExample
+  rhythmOnly
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+B B B B | B3/2 B/2 B2 |]`}
+  labels={[
+    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
+    { name: "1" }, { name: "&" }, { name: "3 –" },
+  ]}
+  caption="Bar 2 is the dotted figure: the first note held from beat 1 through beat 2, the eighth popping out on the '&' straight after, then a half note on beats 3–4. It's the phrase's little sigh. You'll play the whole tune in Movement I."
+  defaultBpm={66}
 />
 
 ## The usual mistake
 
-Two versions of it. Playing the dotted quarter as a full **two** beats — ignoring that the
-dot is only *half* again. Or evening it out to "long–long" and losing the limp. Say the
-count out loud with the "&" in it and the timing fixes itself.
+Two versions. Playing the dotted quarter as a full **two** beats — forgetting the dot is only
+*half* again. Or evening it out to "long–long" and losing the limp entirely. Both are fixed
+by saying the count aloud with the "&" in it: "**1 – & 2**", and the note ends exactly on the
+"&".
 
 <Margin>
-  A **double dot** (two dots) adds half, then half again — a double-dotted quarter is
-  1 + ½ + ¼ = 1¾ beats. Rare, mostly older music; recognise it, you won't drill it here.
+  A **double dot** (two dots after the head) adds half, then half again — a double-dotted
+  quarter is 1 + ½ + ¼ = 1¾ beats. Rare, mostly older music. Recognise it; you won't drill
+  it here.
 </Margin>
 
+<TryThis>
+  Clap four even quarters, then clap the dotted version (dotted-quarter, eighth, dotted-quarter,
+  eighth) at the same tempo. Switch between them a few times without the pulse changing.
+</TryThis>
+
 <Cite source="the augmentation dot — medieval notation, the punctus additionis">
-  Scribes used a dot to stretch a note by half as far back as the 1200s. The "dotted" march
-  and hornpipe rhythms are a Baroque and Classical signature — Stage 3 covers how sharply to
-  point them.
+  Scribes used a dot to stretch a note by half as early as the 1200s. The sharply-pointed
+  dotted rhythms of marches and French overtures are a Baroque and Classical signature —
+  Stage 3 covers how far to point them.
 </Cite>
