@@ -7,6 +7,9 @@ export function SiteHeader() {
         From Zero to Mozart
       </Link>
       <nav className="flex items-baseline gap-5">
+        <Link href="/mozart" className="label hover:text-ink">
+          Mozart
+        </Link>
         <Link href="/practice" className="label hover:text-ink">
           Practice
         </Link>

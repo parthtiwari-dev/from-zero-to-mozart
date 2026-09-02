@@ -46,6 +46,10 @@ export interface Lesson {
     skill: string;
     inPdf?: boolean;
   };
+  /** groups the K.216 module lessons for the /mozart index */
+  module?: "mozart-k216";
+  /** module lessons: which movement + section, for the /mozart index */
+  mozart?: { movement: "I" | "II" | "III"; section: string; kind: "solo" | "orchestra" | "about" };
 }
 
 export const STAGES: Stage[] = [
@@ -252,9 +256,13 @@ export const LESSONS: Lesson[] = [
   // The K.216 module. `mozart-k216` is the orientation; each page of the solo
   // part becomes its own annotated-line lesson (mozart-k216-i-*, -ii-*, -iii-*)
   // once a clean source (MusicXML / clean edition scan) is in docs/source/.
-  { slug: "mozart-k216", title: "Mozart: Violin Concerto No. 3, K.216", stage: 9, track: "repertoire", tag: "LATER", published: P },
-  { slug: "mozart-k216-i-entrance", title: "K.216 · I — your entrance", stage: 9, track: "repertoire", tag: "LATER", published: P },
+  { slug: "mozart-k216", title: "Mozart: Violin Concerto No. 3, K.216", stage: 9, track: "repertoire", tag: "LATER", published: P, module: "mozart-k216", mozart: { movement: "I", section: "About the concerto", kind: "about" } },
+  { slug: "mozart-k216-i-entrance", title: "K.216 · I — the first solo: the theme", stage: 9, track: "repertoire", tag: "LATER", published: P, module: "mozart-k216", mozart: { movement: "I", section: "B — the theme (bars 9–12)", kind: "solo" } },
+  { slug: "mozart-k216-i-b2", title: "K.216 · I — the first solo: the flourish", stage: 9, track: "repertoire", tag: "LATER", published: P, module: "mozart-k216", mozart: { movement: "I", section: "B — the flourish (bars 13–19)", kind: "solo" } },
 ];
+
+export const mozartLessons = (): Lesson[] =>
+  LESSONS.filter((l) => l.module === "mozart-k216");
 
 export const publishedLessons = (): Lesson[] =>
   LESSONS.filter((l) => l.published);
