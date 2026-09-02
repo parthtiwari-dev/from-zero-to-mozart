@@ -84,6 +84,11 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "tune-frere-jacques": () => import("./tune-frere-jacques.mdx"),
   "tune-jingle-bells": () => import("./tune-jingle-bells.mdx"),
 
+  // Stage 2 — Movement I — the tunes (also on /practice)
+  "tune-when-the-saints": () => import("./tune-when-the-saints.mdx"),
+  "tune-row-your-boat": () => import("./tune-row-your-boat.mdx"),
+  "tune-perpetual-motion": () => import("./tune-perpetual-motion.mdx"),
+
   // Stage 2 — Rhythm
   //   Rebuilt to docs/stage-plans/stage-2.md. Movements A–I.
   // Movement A — pulse & note anatomy

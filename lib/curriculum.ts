@@ -182,7 +182,7 @@ export const LESSONS: Lesson[] = [
   { slug: "tune-au-clair-de-la-lune", title: "Au Clair de la Lune", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "D major", position: "1st", skill: "a completely even bow on repeated notes", inPdf: false } },
   { slug: "tune-long-long-ago", title: "Long, Long Ago", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "D major", position: "1st", skill: "a singing line, whole bows", inPdf: false } },
   { slug: "tune-french-folk-song", title: "French Folk Song", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "D", position: "1st", skill: "minor colour; a smooth legato-feel line", inPdf: false } },
-  { slug: "tune-when-the-saints", title: "When the Saints Go Marching In", stage: 1, track: "repertoire", tag: "NOW", piece: { key: "D major", position: "1st", skill: "a confident skip up; consecutive down-bows", inPdf: false } },
+  // tune-when-the-saints promoted to Stage 2 (Movement I) — see below
   { slug: "tune-london-bridge", title: "London Bridge", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "D major", position: "1st", skill: "step/skip reading across two strings", inPdf: false } },
   { slug: "tune-hot-cross-buns", title: "Hot Cross Buns", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "G string", position: "1st", skill: "three notes, one string; the high-2 B", inPdf: false } },
   { slug: "tune-mary-had-a-little-lamb", title: "Mary Had a Little Lamb", stage: 1, track: "repertoire", tag: "NOW", published: P, piece: { key: "G string", position: "1st", skill: "stepwise motion on one string, even bows", inPdf: false } },
@@ -236,6 +236,13 @@ export const LESSONS: Lesson[] = [
   { slug: "reading-in-six-eight", title: "Reading: in 6/8", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "reading-triplets-and-syncopation", title: "Reading: triplets and syncopation", stage: 2, track: "reading", tag: "NOW", published: P },
   { slug: "reading-mixed-rhythms", title: "Reading: mixed rhythms — the check", stage: 2, track: "reading", tag: "NOW", published: P },
+  // Movement I — the tunes (real music, in true rhythm, on /practice)
+  //   Note: re-notating the 10 Stage-1 tunes in their true rhythm + completing
+  //   them stays the deferred follow-up (decision 2). Pop Goes the Weasel /
+  //   Jolly Good Fellow / Deck the Halls to add when melody sources are in hand.
+  { slug: "tune-when-the-saints", title: "When the Saints Go Marching In", stage: 2, track: "repertoire", tag: "NOW", published: P, piece: { key: "D major", position: "1st", skill: "pickup + dotted rhythm + held notes across bars", inPdf: false } },
+  { slug: "tune-row-your-boat", title: "Row, Row, Row Your Boat (a round)", stage: 2, track: "repertoire", tag: "NOW", published: P, piece: { key: "G major", position: "1st", skill: "compound time — 6/8, felt in two", inPdf: false } },
+  { slug: "tune-perpetual-motion", title: "Perpetual Motion", stage: 2, track: "repertoire", tag: "NOW", published: P, piece: { key: "G major", position: "1st", skill: "an even eighth-note stream — hold the pulse through everything", inPdf: false } },
 
   // ── Stage 3 — Score symbols ─────────────────────────────────────
   { slug: "tempo-words", title: "Tempo words", stage: 3, track: "reading", tag: "NOW", published: P },
