@@ -16,6 +16,15 @@ wrong *rhythm* fact, and especially a wrong statement about Indian rhythm. So th
 terminology in this stage has to be impeccable, every claim double-sourced, and we must not
 overclaim the East–West equivalences.
 
+> **Verification pass, 2026-09-02 (second sweep).** Re-checked every factual claim below
+> against a second source. Corrections folded in: the **C time signature is a broken circle
+> from mensural notation, *not* an abbreviation of "common"** (§7 row 16); **āḍ / dedh gun =
+> the 3:2 ratio** confirmed against tabla sources (§3c); the khaṇḍa/miśra/saṅkīrṇa solkattu
+> spellings vary by school — standard forms given (§3d); the tāl cycle is an **āvartan**, and
+> "additive vs divisive" is a real, sourced framing with a known caveat (§3b). Nothing below
+> is now on a single source. The Leopold Mozart wording (§10) is the one item still on
+> "paraphrase — confirm against the book."
+
 ---
 
 ## 1. What Stage 2 is, and why it's different from Stage 1
@@ -149,19 +158,25 @@ your choice" from Stage 1.
 
 ### 3b. The one real difference to name honestly
 
-Western metre is **divisive**: you take a bar and cut it into equal beats, always grouped 2s
-and 3s, and the pattern is short (2, 3, 4, 6 beats) and mostly implicit. Indian tāl is
-**(more) additive and cyclic**: a named cycle of a fixed length (Tīntāl 16, Jhaptāl 10,
-Rūpak 7, Ektāl 12, Dādrā 6…), with an internal vibhāg structure of *unequal* groups
-(Jhaptāl = 2+3+2+3; Rūpak = 3+2+2, and Rūpak famously *starts on khālī*), recited as a whole
-`ṭhekā`, and felt as a loop that must return to sam. [chandrakantha.com, artiumacademy.com,
+Western metre is **divisive**: you take a bar and cut it into equal beats, grouped in 2s and
+3s, and the pattern is short (2, 3, 4, 6 beats) and mostly implicit — the barline and beams
+are *drawn*, not spoken. Indian tāl is classed as **primarily additive, and cyclic**: a named
+cycle (an **āvartan**) of fixed length (Tīntāl 16, Jhaptāl 10, Rūpak 7, Ektāl 12, Dādrā 6…),
+divided into **vibhāg** that "roughly correspond to bars but need not have the same number of
+beats" — Jhaptāl = 2+3+2+3 (khālī on the 3rd vibhāg, i.e. mātrā 6); **Rūpak = 3+2+2, and its
+sam is itself khālī** (a wave, not a clap — most tāls start on a clap) — recited whole as the
+`ṭhekā` and felt as a loop that must resolve back to sam.
+[en.wikipedia.org/wiki/Additive_rhythm_and_divisive_rhythm, Clayton *Time in Indian Music* /
+MTO 26.1 on rūpak, chandrakantha.com, en.wikipedia.org/wiki/Jhaptal,
 en.wikipedia.org/wiki/Rupak_Tala]
 
-So: a Western time signature ≈ a *very short, regular* tāl with an implied ṭhekā. 3/4 ≈ a
-3-mātrā feel; 4/4 ≈ 4; 6/8 ≈ 2 groups of 3. What's genuinely new for the user is (a) how
-*short* and *repetitive* the Western unit is, (b) that the grouping is drawn (barlines,
-beams) rather than recited, and (c) the tie/dot as *notation* for durations that cross the
-grid. Don't say "it's the same" — say "it's a small, tidy cousin of what you know."
+**The caveat to state carefully:** "additive" does *not* mean Western compound metre — 6/8
+is still *divisive* (a dotted-quarter beat cut into three), not "2+2+2 added up". So a Western
+time signature ≈ a *very short, regular, divisive* cousin of a tāl. 3/4 ≈ a 3-mātrā feel;
+4/4 ≈ 4; 6/8 ≈ 2 beats of 3. What's genuinely new for the user is (a) how *short and
+repetitive* the Western unit is, (b) that the grouping is drawn, not recited, and (c) the
+tie and dot as *notation* for durations that cross the grid. Don't say "it's the same" — say
+"it's a small, tidy, divisive cousin of what you know."
 
 ### 3c. layakārī = note values *and* tuplets (the strongest bridge)
 
@@ -173,29 +188,33 @@ In Hindustani practice, **layakārī** is playing at a fixed ratio against the m
 | **dugun** | 2 : 1 | eighth notes |
 | **tigun** | 3 : 1 | **triplets** (eighth-note triplets) |
 | **chaugun** | 4 : 1 | sixteenth notes |
-| **āḍ** | 3 : 2 | **hemiola / 3-against-2** |
-| **biāḍ** | 7 : 4 | septuplet |
+| **āḍ / dedh gun** | 3 : 2 (1½×) | **hemiola / 3-against-2** |
 | **kuāḍ** | 5 : 4 | quintuplet |
+| **biāḍ** | 7 : 4 | septuplet |
 
-[taalgyan.com, tablalegacy.com, digitabla.com] The user **already feels every one of these**.
-This single table means note-values, triplets, tuplets and hemiola are — for this learner —
-mostly a *notation* lesson, not a *concept* lesson. That's a huge compression of the stage,
-and a real place to lean in rather than pad.
+[taalgyan.com, tablalegacy.com, digitabla.com, tablatheka.com, granthaalayahpublication.org]
+*(āḍ / dedh gun = "one-and-a-half times", 1½ bols per mātrā = 3:2 — confirmed against tabla
+sources; the advanced ratios' names vary a little by gharānā.)* The user **already feels
+every one of these**. This single table means note-values, triplets, tuplets and hemiola are
+— for this learner — mostly a *notation* lesson, not a *concept* lesson. That's a real
+compression of the stage, and a place to lean in rather than pad.
 
 ### 3d. Konnakol → Western counting → the syllable question
 
 Konnakol's five **gatis** (subdivision groupings) and their syllables:
 
-| gati | notes per beat | solkattu |
+| gati | notes per beat | solkattu (one standard set) |
 |---|---|---|
 | tisra | 3 | ta-ki-ta |
 | chatusra | 4 | ta-ka-di-mi |
-| khanda | 5 | ta-ka-ta-ki-ta (or ta-di-gi-na-tom) |
-| misra | 7 | ta-ki-ta-ta-ka-di-mi |
-| sankirna | 9 | ta-ka-di-mi-ta-ka-ta-ki-ta |
+| khaṇḍa | 5 | ta-ka · ta-ki-ta  (or tha-di-gi-na-thom) |
+| miśra | 7 | ta-ka-di-mi · ta-ki-ta |
+| saṅkīrṇa | 9 | ta-ka-di-mi · ta-ka · ta-ki-ta |
 
-[tidalcycles/konnakol-gsoc, fifths.io, intemenos.com] And additively for 1–9:
-ta / ta-ka / ta-ki-ta / ta-ka-di-mi / ta-ka + ta-ki-ta / ta-ka-di-mi + ta-ka / … .
+[tidalcycles/konnakol-gsoc, en.wikipedia.org/wiki/Konnakol, fifths.io, intemenos.com]
+**Spellings and internal groupings vary by school** (khaṇḍa is taught as 2+3 or as the fixed
+word *tha-di-gi-na-thom*; miśra as 3+4 or 4+3) — pick one set and stay consistent. Additively
+for 1–9: ta / ta-ka / ta-ki-ta / ta-ka-di-mi / ta-ka + ta-ki-ta / ta-ka-di-mi + ta-ka / … .
 
 **Takadimi** (Hoffman/Pelto/White, 1996) is explicitly *"the Western adaptation of konnakol,
 scoped to standard Western metre and notation"* [en.wikipedia.org/wiki/Takadimi, fifths.io].
@@ -320,14 +339,14 @@ Not a full bow-technique stage (that's Stage 5) — just the rhythmic half of th
 | 13 | **Beamed notes vs a double stop vs vibrato** | p56–57 §24–25 | **NOW — keystone** | §5 above; the Vivaldi lesson |
 | 14 | Tie vs slur | p62 §30 | **NOW** | tie = same pitch, hold; slur = different pitches, one bow |
 | 15 | Time signatures — top/bottom meaning; 2/4 3/4 4/4 | p63 §31 | **NOW** | ≈ a short regular tāl; vibhāg |
-| 16 | Common time **C** and cut time **¢** | p64 §32 | **NOW** | don't read C as the pitch; ¢ = 2/2 feel |
+| 16 | Common time **C** and cut time **¢** | p64 §32 | **NOW** | don't read C as the pitch. **Fact to get right:** the C is *not* a letter or short for "common" — it's a broken circle inherited from medieval mensural notation (a full circle = triple *tempus perfectum*, a broken circle = duple). ¢ = the same broken circle slashed = 2/2 / cut-time feel. [Wikipedia "Time signature"; liveabout.com] |
 | 17 | **Compound metre — 6/8 as two dotted-quarter beats** | p63 (gestured) | **NOW** | tisra-gati home turf; current draft punts — fix |
 | 18 | 9/8, 12/8 | — | **REFERENCE** | recognise the shape (3 / 4 compound beats) |
 | 19 | Counting — metric "1 e & a" | p59 | **NOW** | the lingua franca |
 | 20 | Counting in bols / solkattu / Takadimi | — | **NOW** | `counting-and-konnakol` drafted; expand per §3 |
 | 21 | laya & tempo; layakārī = note values + tuplets; tihāī | — | **NOW** | the bridge cluster (2–3 lessons); §3c, §3e |
 | 22 | Subdivision as a skill (feel 2 / feel 3 under one beat) | p59 | **NOW** | gati switching |
-| 23 | Anacrusis / pickup | p65 §33 | **NOW** | Twinkle & Ode both have one; changes the count, not the pitch |
+| 23 | Anacrusis / pickup | p65 §33 | **NOW** | changes the count, not the pitch. **Correction:** the current `syncopation-and-pickups` draft says *Twinkle* and *Ode to Joy* start with a pickup — **wrong**: both start on the downbeat. Real pickup tunes: *When the Saints* ("Oh, when the…"), *Happy Birthday*, *My Country 'Tis of Thee*, *The Star-Spangled Banner*, *Auld Lang Syne*. [en.wikipedia.org/wiki/Anacrusis; When-the-Saints analyses] |
 | 24 | Syncopation | — | **NOW** | §4 — concept is native, notation is new |
 | 25 | Triplets; other tuplets | — | **NOW** (triplet) / **REFERENCE** (5,7…) | tigun is native; ABRSM Gr 2 line noted but this user can take it |
 | 26 | Hemiola / 3-against-2 | — | **NOW** | = āḍ; the gift lesson |
@@ -359,6 +378,32 @@ Not a full bow-technique stage (that's Stage 5) — just the rhythmic half of th
   mixed. Plus one **recitation étude** — a solkattu line to speak and clap, no violin.
 - **J · The tunes** — see §9.
 
+### The 15 existing Stage-2 drafts get **fact-checked, not just deepened**
+
+`content/lessons/` already holds 15 thin Stage-2 drafts (`note-values`, `dotted-notes`,
+`rests`, `beams-or-a-double-stop`, `one-beam-two-beams`, `ties-and-slurs`, `time-signatures`,
+`common-time`, `counting-and-konnakol`, `syncopation-and-pickups`, `triplets`,
+`rhythm-before-the-instrument`, `reading-quarters-and-eighths`, `reading-dotted-rhythms`,
+`reading-mixed-rhythms`). Scanned in this pass — errors and weak spots to fix in the rewrite:
+
+- **`syncopation-and-pickups`** — the pickup example claims *Twinkle* and *Ode to Joy* start
+  with an anacrusis. **Both start on the downbeat.** Replace with real pickup tunes.
+- **`common-time`** — treats "C" as if it stands for the letter/word "common". It's a broken
+  circle from mensural notation (§7 row 16). Small factual fix, but this is exactly the
+  Stage-1 kind of slip.
+- **`time-signatures`** — punts on 6/8 ("you'll meet that feel properly … in repertoire").
+  Research says teach compound metre properly *here* (§7 row 17).
+- **`rhythm-before-the-instrument`** — presents the Leopold Mozart line as a near-verbatim
+  quote ("put it plainly: …"). It's a stable paraphrase, not confirmed wording — phrase it
+  as a paraphrase until the book is checked.
+- **`counting-and-konnakol`** — conflates the user's tabla background with konnakol without
+  noting konnakol is Carnatic and tabla bols are Hindustani (§3). Also: rhythm-only labels
+  need the caption to say "count/clap — the pitches don't matter here" (RULES R1).
+- **All 15** — atom-length, six beats not hit (esp. "the usual mistake" and "where it comes
+  from"), no lineage `<Cite>`, most examples all on the D string with no *real tune* payoff
+  (RULES #5). Same depth problem the user flagged for Stage 1 — the rewrite is to the
+  CONTENT-STANDARD bar, not a polish.
+
 ---
 
 ## 8. The Stage-1 tune gap — fold the fix into Stage 2?
@@ -388,10 +433,14 @@ all first position, all our annotated line, all with a per-line bow-rhythm note:
   *Row, Row, Row Your Boat* — commonly taught in **6/8**, our compound-metre tune (its metre
   is debated — 6/8 vs 12/8 vs 4/4-triplet — which is itself a teachable point).
   [ethanhein.substack.com, en.wikipedia.org]
-- **A dotted-rhythm tune:** *When the Saints Go Marching In* or *This Old Man* ("knick-knack"
-  is the dotted figure).
+- **A dotted-rhythm tune:** *When the Saints Go Marching In* (dotted figure **and** a pickup
+  **and** ties — three Stage-2 ideas in one PD tune) or *This Old Man*.
 - **A triplet / compound-feel tune:** a Suzuki-vein *Perpetual Motion* / *Allegro* feel
   (Claude notates a simple original or PD fragment), or *Pop Goes the Weasel* (6/8).
+- **The true *Twinkle*** — not the Stage-1 simplification. Its **Variation A** rhythm is
+  lifted straight from the opening of the **Bach Double Concerto in D minor** (détaché
+  sixteenths + staccato eighths) — a real link from a nursery tune to the canon, and a clean
+  sixteenth-vs-eighth reading drill. [teachsuzuki, kiyoematsuuraviolin]
 - **A syncopation taste** — small; possibly a fiddle-tune fragment. Could be NEXT.
 - **The recitation étude** — a spoken-and-clapped solkattu / rhythm line, no violin (cluster
   I). The one place the user's background is the whole lesson.
@@ -404,10 +453,12 @@ Rhythm simplification **stops** here — from Stage 2 on, a tune is its real rhy
 
 Needed for beat 6 of the concept lessons. To verify and add:
 
-- **Leopold Mozart** — "beat the time… keeping the quarter-notes in mind, before he takes the
-  violin in hand"; "never omit to attend to the evenness of the time." (Paraphrase stable;
-  confirm Knocker wording — attempt the book directly, or a scholarly secondary quoting it
-  verbatim.)
+- **Leopold Mozart** — the pupil should *beat the time carefully, keeping the quarter-notes
+  in mind, before taking the violin in hand* (paraphrase, stable across the pedagogy
+  literature; **exact wording still to confirm against the book** — this is the one
+  unverified item in this doc). And, better-attested, from Ch. I of the *Violinschule*:
+  *"one must never omit to attend to the evenness of the time."* [scholarworks.calstate.edu;
+  Violinschule Ch. I]
 - **Kodály / Kodály pedagogy** — "sound before symbol"; rhythm made "vocal and physical
   before visual"; rhythm precedes pitch in a child's development. (Secondary sources solid;
   find a primary Kodály line if possible.)
@@ -471,7 +522,12 @@ Needed for beat 6 of the concept lessons. To verify and add:
 [Laya and Layakari — TaalGyan](https://www.taalgyan.com/theory/laya-and-layakari/) ·
 [Laya and Layakari — tablalegacy.com](https://www.tablalegacy.com/laya-and-layakari) ·
 [Layakari — digitabla.com](https://digitabla.com/reference/concepts-and-definitions/layakari/) ·
+[Layakari in the Talas of Hindustani Sangeet — Granthaalayah](https://www.granthaalayahpublication.org/Arts-Journal/ShodhKosh/article/download/1972/1829/16459) ·
+[Chautaal / Jhaptaal Aad Layakari — tablatheka.com](https://www.tablatheka.com/2022/07/jhaptaal-aad-layakari.html) ·
+[Jhaptal — Wikipedia](https://en.wikipedia.org/wiki/Jhaptal) ·
 [Rupak Tala — Wikipedia](https://en.wikipedia.org/wiki/Rupak_Tala) ·
+[Additive rhythm and divisive rhythm — Wikipedia](https://en.wikipedia.org/wiki/Additive_rhythm_and_divisive_rhythm) ·
+[Clayton, *Theory and Practice of Long-form Non-isochronous Meters: … rūpak tāl* — MTO 26.1](https://mtosmt.org/issues/mto.20.26.1/mto.20.26.1.clayton.html) ·
 [Mridangam vs Tabla — artiumacademy](https://artiumacademy.com/blogs/what-is-the-role-of-a-mridangam-in-carnatic-music-and-how-does-it-differ-from-the-tabla-used-in-hindustani-music/)
 
 *Western rhythm pedagogy:* [What is Kodály — funmusicco.com](https://funmusicco.com/what-is-kodaly-a-guide-to-kodaly-music-education/) ·
@@ -495,6 +551,15 @@ Needed for beat 6 of the concept lessons. To verify and add:
 [Leopold Mozart and his violin treatise — Maite Iglesias](https://maiteiglesias.com/blog/leopold-mozart-and-his-violin-treatise) ·
 [CSUN thesis on Leopold Mozart pedagogy](https://scholarworks.calstate.edu/downloads/0g354j51f) ·
 [Notes inégales — Wikipedia](https://en.wikipedia.org/wiki/Notes_in%C3%A9gales)
+
+*Notation facts / verification pass:* [Time signature (the C / broken-circle history) — Wikipedia](https://en.wikipedia.org/wiki/Time_signature) ·
+[Why 4/4 is written with a C-shaped symbol — liveabout.com](https://www.liveabout.com/why-fourfour-time-written-cshaped-symbol-2701055) ·
+[Anacrusis — Wikipedia](https://en.wikipedia.org/wiki/Anacrusis) ·
+[When the Saints Go Marching In — Wikipedia](https://en.wikipedia.org/wiki/When_the_Saints_Go_Marching_In) ·
+[TEACH SUZUKI: Why Twinkle](http://teachsuzuki.blogspot.com/2012/08/why-twinkle.html) ·
+[How to Practice Suzuki Book 1 — kiyoematsuuraviolin.com](https://kiyoematsuuraviolin.com/suzuki-violin-book-1/) ·
+[Konnakol adopted by Colaiuta / Wooten / Berklee — bmusician.com](https://bmusician.com/blog/how-konnakol-improves-drumming-abilities/) ·
+[Victor Wooten — Wikipedia](https://en.wikipedia.org/wiki/Victor_Wooten)
 
 *Violin rhythm faults / bowing:* [Rhythmic Rainbow — violinist.com](https://www.violinist.com/blog/stein4strings/20204/28195/) ·
 [10 Common Beginner Violin Mistakes — fiddlehed](https://fiddlehed.com/blog/10-common-beginner-violin-mistakes/)
