@@ -1081,3 +1081,480 @@ save the bow-speed method for **across** notes.
 `subito p` / `subito f` = the change is **instant**, usually at a barline or phrase start.
 Plan the bow: arrive at that point with the *new* speed, weight and lane already set — don't
 "fade into" a subito.
+
+---
+
+## Pass 13 — Bow-arm health, the flexible hold under load, and where the tabla hand transfers
+
+*(research batch 13: 2026-09-04 — stringsmagazine.com "How to Overcome Bow-Hand and Bow-Arm
+Tension" & "3 Tips for a Relaxed Bow Hold"; proviolin.com "4 Ways to Develop a Relaxed Bow
+Hold"; violinspiration.com "How to Hold a Violin Bow"; violinist.com "Activating Motion from
+the ..."; Fischer *Basics* "Martelé" (bow hold under load) & "Forearm rotation"; McLeod ch. 2
+"The Bow Stick"; Stage 0 `holding-the-bow`)*
+
+### Why this belongs in Stage 5, not just Stage 0
+
+Stage 0 built a *resting* bow hold. Stage 5 asks the hand to do real work — sink weight for a
+`f`, prepare a martelé bite, absorb a bow change, roll through a string crossing — and a hold
+that was fine at rest **locks up under load**. The whole stage's tone depends on the hand
+staying *elastic while working*. Galamian's "System of Springs" (Pass 1): every joint from
+shoulder to fingertip is a spring that gives a little, so force reaches the string without the
+arm going rigid.
+
+### The core idea: the string helps hold the bow
+
+Most bow-hand tension comes from one wrong belief — *that you must grip the bow to control
+it*. On the string, **the string carries some of the bow's weight**; the hand only has to
+*balance and steer* it. Drill: rest the bow on the string with the **left** hand also
+supporting it — feel it held two ways — then slowly withdraw the left hand. The bow doesn't
+fall. (strings magazine; proviolin.)
+
+### The pieces
+
+- **Thumb** — bent, soft, a *counter-pressure* point opposite the middle fingers, never
+  locked straight and never jammed. It is the pivot of the "System of Springs".
+- **Little finger** — curved, on top of the stick; it is the **counter-weight** that balances
+  the bow at the frog and it *lifts* the tip in off-string strokes and retakes. Near the tip
+  it can relax or even come off. Drill: press the pinky to lever the bow up toward vertical,
+  release to lower it — feel it as a live control, not a prop.
+- **Index finger** — where **weight enters** the stick (Rolland's "positive pressure", Pass
+  1). For a powerful stroke it moves slightly *away* from the thumb for leverage (Fischer's
+  martelé point 1).
+- **Middle two fingers** — the stable contact / hold.
+- **Wrist and fingers** — the shock-absorbers at every bow change and crossing; they "give"
+  passively so the arm's line stays smooth.
+
+### The tension audit (a recurring beat, not one lesson)
+
+Every stroke lesson ends with the same check, already the pattern in `detache.mdx`
+("stop the moment your bow hand or shoulder tightens; a tense détaché only teaches tension"):
+
+- Let the right hand hang **completely limp** for a few seconds — memorise that. Pick up the
+  bow and carry *that* feeling in.
+- **Tap each bow-hand finger** in turn while playing — if a finger can't tap, it's clenched.
+- Check the **shoulder** (should be down), the **thumb** (bent), the **jaw/left hand** (the
+  bow-arm tension often shows up as a death-grip elsewhere).
+- Warm up the **wrist** (flexor/extensor stretches) before bow work — this is the injury-
+  prevention beat and it ties Stage 0's `warm-up-and-tension` / `aches-and-pains` material.
+
+### Where the tabla right hand *does* transfer (honest version)
+
+The bow **arm** — the big weight-and-speed machine — has no tabla analogue and the research
+should say so plainly (intro, "the tabla bridge"). But the tabla **hand and fingers** have
+two developed abilities that *do* help:
+
+- **Finger independence and articulation.** Tabla bols use different fingers striking
+  different zones (`na` = index on the rim, `tin` = index on the *sur*, `ge` = whole hand /
+  wrist on the *dayan*'s bass, `ka`/`ki` = flat slap). That trained ability to move one finger
+  cleanly without the others following is exactly what **collé** (Pass 7) and the bow-change
+  cushion need. The reader's bow-hand finger drills should start ahead of a typical beginner's.
+- **Relaxed-then-active.** Good tabla tone requires the hand to *release* instantly after each
+  stroke — a struck-and-relaxed cycle, not sustained tension. That is precisely martelé's
+  "bite then release" (Pass 6) and the tension audit above. Name the parallel once; it is
+  real.
+
+Do **not** claim the bow *stroke* rhythm needs no work because the reader "already has rhythm"
+— the hands must first learn to be independent (right arm smooth, left hand busy, Pass 5), and
+that coordination is new regardless of how good the rhythm is.
+
+### The one-primary-control rule still holds
+
+Bow-arm-health lessons are **read once, then practised with the instrument** — no interactive
+"tension meter", no gamified checklist (`RULES.md`; the hard steering). A short prose lesson +
+a `<TryThis>` + the audit checklist. The diagrams that exist (`BowHoldDiagram`,
+`BowLanesDiagram`) cover the visuals.
+
+---
+
+## Pass 14 — The bow-stroke atlas, the Foundation gate, and the gate repertoire
+
+*(research batch 14: 2026-09-04 — the PDF Part VI §60–63; `PRD.md` §4 + §7; `THE-PATH.md` §6;
+`CONTENT-STANDARD.md`; IMSLP (Gossec, Wohlfahrt, Bach BWV 1068); violinwiki.org "Gavotte from
+opera Rosine (Gossec)" & "60 Studies Op.45 (Wohlfahrt)"; teachsuzukiviolin.com; Wikipedia
+"Air on the G String"; Stage 3 `the-score-language-check`, Stage 4 `the-musicianship-check`)*
+
+### The bow-stroke atlas — the PDF's worst padding, done right
+
+The PDF's §63 is a 25-row table with **the identical paragraph pasted under every stroke**
+("start on open A or D. Use 4 repetitions of a simple rhythm…"). That is exactly what
+`CLAUDE.md` → Mistakes to avoid #5 forbids. The atlas is instead **one real card per stroke**,
+and every card **shows the stroke in notation**, not just a grid row.
+
+**Card fields** (proposed):
+
+| Field | Content |
+|---|---|
+| **Name** | English + French / Italian / German (`détaché`, `martelé` = Fr.; `spiccato`, `staccato` = It.; `Spitze` = Ger.) |
+| **Milestone for you** | PERFORM now · attempt now · RECOGNISE (LATER) · REFERENCE |
+| **On or off the string** | and where in the bow (frog / LH / M / UH / tip) |
+| **Notation** | the mark(s), or "read from context + tempo + era" — a tiny `<NotatedExample>` |
+| **Sound** | one honest sentence |
+| **How it's made** | 1–2 sentences — the actual gesture |
+| **Don't confuse it with** | the neighbour on the spectrum (détaché↔martelé; spiccato↔sautillé; portato↔hooked; staccato↔spiccato) |
+| **Where you hear it** | one real piece |
+
+**Coverage** (≈18 cards, grouped): détaché · grand détaché · accented détaché · détaché porté ·
+détaché lancé · legato/slur · portato/louré · hooked bowing · martelé · solid staccato ·
+up/down-bow (slurred) staccato · collé · spiccato · brush stroke · sautillé · ricochet/jeté ·
+flying staccato · fouetté · (colour: tremolo · sul pont · sul tasto · col legno). The atlas is
+**also a reference-library candidate** (`CURRICULUM.md` cross-cutting libraries) — build it as
+a page that outlives Stage 5.
+
+### The Foundation gate — what it is and isn't
+
+`PRD.md` §4/§7 defines it. It is the end of **v1 / Phase 1** (`CLAUDE.md`, `PLAN.md`). It is a
+**self-audit lesson**, in the exact mould of Stage 3's `the-score-language-check` and Stage
+4's `the-musicianship-check` — **it does not gate anything** (`RULES.md` #4). It lists the
+capabilities, points at the check pieces, and is honest: "this is a real threshold; the giants
+are on the other side of it, and so is Stage 6 (shifting)."
+
+**The gate capabilities** (`PRD.md` §7, `THE-PATH.md` §6):
+
+1. **Read & play any first-position tune in G / D / A / C at sight** — every note, string,
+   finger, rhythm, symbol.
+2. **Keep steady time** — the reader's home turf; the gate just confirms it survived adding
+   the bow.
+3. **Produce an even, controlled tone with the core strokes** — son filé frog-to-tip;
+   détaché; a legato slur; a martelé with a clean bite; a clean string crossing.
+4. **Hear when a note is out, and fix it** — the ringing-tone / drone check from Stage 4
+   (`in-tune-is-not-one-thing`, `tuning-by-ear`), now under the bow.
+5. **Play ~30 real melodies** — the running total across Stages 1–5 (`/practice`).
+6. **Read a printed bowing** — direction, where-in-the-bow, slurs, `f`–`p`, editorial vs
+   composer (Pass 11). *(Add this to the gate list — it is Stage 5's signature skill and
+   `PRD.md` §7's "read … every … marking".)*
+
+### The gate repertoire (`THE-PATH.md` §6) — four pieces, PD-sourced
+
+| Slot | Piece | Key / form | What it proves | Source & status |
+|---|---|---|---|---|
+| **legato *Air*** | **Bach, "Air" (BWV 1068)** — opening phrase, **simplified, first position, D or C** | D, common time, slow | son filé, slurs, bow distribution, a seamless line, `dynamics` as bow | Bach d. 1750 — **PD**. Author our own first-position annotated line from the IMSLP full score; **do not** transcribe the "on the G string" transposition (that version needs higher positions). Keep a MusicXML source (`LESSONS-FROM-MOZART.md` §5). |
+| **détaché *Gavotte*** | **Gossec, Gavotte** (from the opera *Rosine*) — **first position, G major**, short | G, 2/2 (alla breve), Allegretto | simple détaché, staccato, **retakes and hooked bows**, slurs — it is *the* bow-stroke piece | Gossec d. 1829 — **original PD**. The **Suzuki arrangement is under copyright** — author our own first-position line from the PD original / IMSLP, not from the Suzuki book. **This also resolves the Stage 3 J5 `tune-gossec-gavotte` deferral.** |
+| **martelé study-piece** | **Wohlfahrt, *60 Studies* Op. 45** — a short first-position study from **Vol. 1 (Nos. 1–30, all first position)**, OR an original 8-bar study | first position | the prepared bite, the stop between notes, evenness under a marked stroke | Wohlfahrt d. 1883 — **PD** (IMSLP). Pick one that scans as martelé (marked, detached, moderate); No. 34 is the canonical détaché/martelé study but sits in 1st **+ 3rd** position — too early. Verify the chosen number in first position only. |
+| **gate check-piece** | a piece that **combines** it all — first position, G/D/A/C, a dynamic scheme, two bow strokes, in tune. Candidates: **Bach *Musette*** (Anna Magdalena Notebook), **Handel *Bourrée*** (from the Music for the Royal Fireworks / Water Music, first-position arr.), **Beethoven *Minuet in G*** (first-position), or **the Petzold *Minuet in G* we already have** (`tune-minuet-in-g`), re-bowed | — | everything at once | all Baroque/Classical — **PD**. Leaning to a *new* piece (Musette or Handel Bourrée) so the gate isn't just a re-bow of an existing tune, but the plan decides with the user. |
+
+### Bow-strokes-in-repertoire lessons (the `LESSONS-FROM-MOZART.md` §5 rule)
+
+Every Stage-5 repertoire lesson **spells out the bowing phrase by phrase** — bow part,
+direction, amount, the slurs, what to listen for — not one generic line. This is the pattern
+the Twinkle/Ode lessons started and Stage 3's tunes continued. The gate pieces above are the
+first real test of it.
+
+### Practice-science tie (Fischer *Practice*, Galamian, the PDF Part VI intro)
+
+Stage 5's practice advice — **slow, from the string, one element at a time; stop when the hand
+tightens; the bow-variation drill** (Pass 5) — is the same deliberate-practice spine as the
+rest of the course (`CURRICULUM.md` practice-science library). One short lesson,
+`how-to-practise-a-bow-stroke`, mirroring Stage 4's `how-to-practise-a-scale`.
+
+Fischer's **son filé** exercises (1997, "Son filé"; Flesch 1924 called them "among the
+oldest, best-known, most popular and most appropriate of tone and bow exercises" — and "the
+most tiresome item in the whole field of violin technique"): sustain one note **30–60
+seconds**, metronome at 60, near the bridge, every centimetre of the bow, pure sound
+throughout. "'Ride' the hair against the sounding point like a surfer riding against a wall of
+water" — feel the exact distance from the bridge where, a hair closer, the sound would break.
+This is the tone thread's capstone daily exercise, and it needs **no interactivity** — a
+prose lesson + a `<TryThis>`.
+
+---
+
+## Pass 15 — Re-verification: gaps found and folded in, contradictions resolved
+
+*(research batch 15: 2026-09-04 — re-read Passes 1–14 against `LESSONS-FROM-MOZART.md`,
+`PRD.md` §4/§7, `THE-PATH.md` §6, the PDF Part VI, the existing 14-lesson skeleton, `CLAUDE.md`
+→ Mistakes to avoid; Fischer "Son filé"; Leopold Mozart *Violinschule* 1756 via Wikipedia /
+strings magazine / academia.edu; Baroque-vs-Tourte-bow via annemctighe / violinspiration /
+givensviolins)*
+
+Same job as Stage 4's Pass 21 — sweep for what the first 14 passes missed.
+
+### Gap 1 — Pizzicato (right hand) was left out entirely
+
+The PDF Part VI §67 covers it and Stage 3 taught *reading* `pizz.`/`arco` — but no pass taught
+*doing* it. **Pizzicato is a right-hand technique and it belongs in Stage 5.** Content:
+
+- **Right-hand pizz:** pluck with the **side/tip of the index finger**, the **thumb anchored**
+  on the corner of the fingerboard (or, for a single stray pizz mid-bowed-passage, keep the
+  bow in the hand and pluck with the thumb). Pull *across* the string, not up. A firm,
+  round sound, not a thin snap.
+- **`pizz.` … `arco`** — the switch, and the half-second it takes (a real musical problem —
+  composers leave time for it, or they don't and you cheat).
+- **Left-hand pizzicato (`+`)** — RECOGNISE only, virtuoso/LATER (Paganini). Name it, don't
+  drill it.
+- One lesson, `pizzicato`, NEXT-tagged. Pairs naturally with **Gap 2**.
+
+### Gap 2 — Rolling a chord *with the bow* (the K.216 entrance, the right-arm half)
+
+Stage 4 (`chords-on-the-violin`, `arpeggios-in-real-music`, `the-first-note-of-mozart`) taught
+the *concept*: the bridge is curved, so a 3–4 note chord is **rolled bottom-to-top** or broken.
+`LESSONS-FROM-MOZART.md` §2 puts the **stopped** double-stop/chord *technique* in Stage 6. But
+**the bow-arm gesture of rolling a chord is pure right arm** and Stage 5 can and should teach
+it on **open strings and open-heavy chords** (all-open `G-D-A`, or open `D-A` + one finger):
+the weight drops onto the lower strings and *rolls* up through the arm level as the bow moves,
+landing/sustaining the top note(s). This is the exact motion the K.216 solo entrance needs,
+and the reader can do it now with open strings.
+
+- Fold into one lesson with pizzicato — `the-bow-hand-does-more-than-bow` (pizz + chord roll)
+  — or keep `rolling-a-chord` as its own short lesson tied to Stage 4 O2. Decide in the plan.
+
+### Gap 3 — No dedicated "sounding point / the five lanes" lesson
+
+Pass 1 has the content but scattered it. **The five lanes deserve their own lesson** — it is
+the single most useful *controllable* tone idea, it makes `sul ponticello`/`sul tasto` (Stage
+3 D3, read-only) suddenly *doable*, and Rolland's oboe/clarinet/flute "zones" (I/II/III) give
+it a memorable shape. `the-five-lanes` (or `where-the-bow-meets-the-string`), 5a.
+
+### Gap 4 — "Keeping the bow straight" has content but no home
+
+Pass 1's "the highway" + tilt material. Fold into `one-long-tone` (the son filé lesson —
+straightness is *the* thing son filé trains) rather than a separate lesson, unless it grows.
+
+### Gap 5 — The Baroque bow vs the modern (Tourte) bow — a REFERENCE aside worth having
+
+Directly relevant to K.216 (Classical era) and to *why détaché is "the default"*:
+
+- The **Baroque bow** (pre-~1785): shorter, lighter, **convex or straight** stick, **weaker
+  at the tip** — a long note **naturally tapers** toward the point, and separation between
+  notes comes for free without lifting. Baroque style *is* articulated and detached by
+  default, partly because of the bow.
+- The **modern (Tourte) bow** (François Tourte, c. 1785, developed with **Viotti**):
+  **concave** stick, longer, heavier, even hair tension to the tip — built for a **sustained,
+  even tone where the bow change is invisible**, and for the bigger "Romantic" sound (the
+  bow's own mass supplies force). To get Baroque-style separation on a modern bow you now have
+  to *lift* (spiccato) — which is why the off-string strokes matter more in later music.
+- **The aside:** "the stroke you're learning as 'the default' was, in a real sense, *invented*
+  — the modern bow was shaped to make an even, sustained, seamless détaché possible." Ties
+  Pass 9 (Viotti stroke / Tourte) and `non-legato-was-normal` (Stage 3).
+
+### Gap 6 — Leopold Mozart's *Violinschule* (1756) — the course's north-star source, under-cited
+
+The bow content that belongs in Stage 5's cited asides (Leopold Mozart, *Versuch einer
+gründlichen Violinschule*, 1756 — "the first book on violin method", literally how Wolfgang
+was taught):
+
+- **The rule of the down-bow:** "each bar not beginning with a rest should start with a
+  down-bow" — Leopold states it explicitly. → `the-rule-of-the-down-bow` (5c) cites him
+  directly, alongside Muffat/Lully.
+- **Legato from the left hand:** "each left-hand finger should be left in place until it
+  absolutely has to move" — for a smoother legato. → `legato-and-slurs` (5b) and the slurred
+  string-crossing beat (Pass 5) cite him.
+- **The "divisions" / the swelled stroke:** Leopold teaches sustaining and swelling a single
+  stroke — an early *messa di voce* / *son filé* idea, drawn (with the ornament material) from
+  **Tartini**. → `messa-di-voce` / the tone lessons cite the lineage
+  Tartini → Leopold Mozart → French school → Flesch/Galamian → Fischer.
+- Course framing already has this lineage in `RESEARCH.md`; Stage 5 is where the *bow* half of
+  it gets used.
+
+### Gap 7 — The stage needs its 5a/5b/5c `/learn` divider decided
+
+Stage 3 = 3a/3b, Stage 4 = 4a/4b/4c, both one `stage:` with a visual group split. Stage 5
+should be **5a Tone · 5b The strokes · 5c Reading & shaping with the bow (+ the gate)** — see
+the movement plan.
+
+### Contradiction check — none material
+
+- **"Speed not pressure" vs "sink the bow in for forte"** (Passes 1–2): resolved in-text —
+  the principle is about *how* you engage (horizontal, not downward), not about playing
+  everything lightly. Keep both, keep the resolution.
+- **Crescendo = more bow speed vs = more weight** (Pass 12): resolved — different *scales*
+  (across a phrase vs on one held note). Keep both, keep the "usual mistake."
+- **Détaché-family sub-names disagree across sources** (Pass 4): flagged in-text; teach as
+  "recognise, names vary, Galamian is the reference." Fine.
+- **Does the hair leave the string in sautillé?** (Pass 8): sources differ; the safe, common
+  statement is "in spiccato the bow clearly leaves the string; in sautillé the stick springs
+  and the hair barely leaves it." Keep that phrasing.
+
+### Accuracy guard for the build (the user CAN catch these)
+
+- **The tabla claims** (intro): thaat/raga are not invoked here; the bol examples (`na`, `ge`,
+  `ka`, `ti`) and the open/closed-stroke distinction are standard and safe, but keep them
+  **loose and few** — "a way in", not "a system", and cite a tabla reference if a bol is
+  named in a lesson. No shruti/cents. (`CLAUDE.md` Mistakes to avoid #10.)
+- **Rhythm claims**: the bowing-pattern = *tala*-cell analogy (Pass 5) is an analogy, not an
+  equivalence — phrase it as "like a rhythmic cell", not "is a tala".
+- Everything Western-technique here is ≥2-sourced in the passes above; the build lessons cite
+  the specific pedagogue per fact (`RULES.md` #8, #6).
+
+---
+
+## The movement plan (A–P), drafted 2026-09-04
+
+One `stage: 5`, split **5a / 5b / 5c** on `/learn` (like 3a/3b, 4a/4b/4c). Tags: **N**OW /
+**X**=NEXT / **L**ATER / **R**EFERENCE. Fate: **new** · **rewrite** (thin skeleton exists) ·
+**polish** (already at bar).
+
+### 5a — Tone: how the bow makes a sound (Movements A–C, ~9)
+
+| # | Slug | Tag | Fate | The idea |
+|---|---|---|---|---|
+| A1 | `how-the-bow-makes-sound` | N | rewrite | friction catches the string → it snaps back → Helmholtz motion; amplitude = carrying power; a note is a fundamental + partials |
+| A2 | `one-long-tone` | N | rewrite | son filé, frog to tip, dead even; levelling the bow's own weight (frog heavy, tip light); keeping the bow straight ("the highway"); tilt (flat = full, tilted = soft) |
+| A3 | `the-bow-change` | N | new | the invisible join at frog and tip — keep the speed through the turn, fingers/wrist cushion, no grip |
+| B1 | `speed-weight-and-sounding-point` | N | new | the three interdependent controls — the table; move one, adjust another |
+| B2 | `speed-not-pressure` | N | new | the load-bearing principle; the two failure sounds (whistle / crunch) and how to fix each; "lift the sound out" |
+| B3 | `the-five-lanes` | N | new | sounding point 1–5; near bridge vs near fingerboard; Rolland's oboe/clarinet/flute zones; **hear it** with a sul pont / sul tasto sweep; "ride the hair like a surfer" |
+| C1 | `planning-the-bow` | N | new | bow distribution (Capet) — divide the hair, portato-first then smooth, a long note gets more, don't run out; retakes to reset |
+| C2 | `the-flexible-bow-hand` | N | new | the hold **under load**; thumb / pinky / index roles; the System of Springs; the tension audit (recurring beat); wrist warm-up |
+| C3 | `how-to-practise-a-bow-stroke` | N | new | slow, from the string, one element at a time; son filé; stop when the hand tightens; mirrors `how-to-practise-a-scale` |
+
+### 5b — The strokes (Movements D–H, ~17)
+
+| # | Slug | Tag | Fate | The idea |
+|---|---|---|---|---|
+| D1 | `detache` | N | **polish** | the model lesson — separate bow per note, even, no gap; the usual mistake (weak up-bow, decel into the turn) |
+| D2 | `the-detache-family` | X | new | grand · accented (with/without bite) · **porté** (bow-speed swell) · lancé; notated play-arounds for porté + grand + accented |
+| D3 | `legato-and-slurs` | N | rewrite | one bow, many notes; the left hand changes while the bow draws; dividing the bow; the smooth bow change; Leopold Mozart's "leave the finger down" |
+| D4 | `string-crossings` | N | rewrite | four arm levels + the in-between level; upper arm leads, forearm rotation does the fine work; **cross early** (technical vs musical timing); the double-stop practice trick |
+| D5 | `slurred-crossings-and-bariolage` | X | new | crossing *under* a slur — the crescent path, the roll; bariolage = the rocking motion (a play-around on open D + stopped A); recognise the repertoire |
+| E1 | `martele` | N | rewrite | prepare the bite in the silence · fast bow · release the instant it moves ("click, not scratch") · stop · release the hand · re-prepare. Grows out of accented détaché |
+| E2 | `staccato` | X | rewrite | solid on-string staccato = a short martelé; reading slurred (one-bow) staccato; dot ≠ always off the string |
+| E3 | `portato-and-colle` | X | rewrite | portato/louré = pulsed notes, one bow, no stop (bow-speed pulses) — the expressive one; collé = "pizzicato with the bow", a finger-flexibility **training** stroke |
+| E4 | `hooked-bowing-and-retakes` | X | new | same direction + a stop; bow economy; the retake as a loop (circular motion); **the rule of the down-bow** seeded |
+| F1 | `spiccato` | L | rewrite | the controlled bounce — individual impulse per note, below the middle, each note must ring; the on-ramp (a light middle-bow détaché you stop controlling); **the brush stroke** (a real play-around) |
+| F2 | `sautille-and-the-continuum` | L | rewrite | the stick springs, dead centre, fast only; **the continuum** — spiccato and sautillé are one gesture at different speeds |
+| F3 | `the-far-shore` | R | new | one card: ricochet/jeté · flying staccato · fouetté · Viotti stroke (energy & release) · chopping (Greene / Turtle Island). Name, hear, know the style |
+| G1 | `colour-strokes` | R | rewrite (`bow-effects`) | the sounding point off the ends of the ruler: sul pont · sul tasto · flautando · col legno (battuto/tratto) · con sordino · au talon / à la pointe |
+| G2 | `tremolo` | X | new | unmeasured (fast, loose wrist, near the tip) vs **measured** (counted subdivision — pure rhythm, a confidence win) |
+| H1 | `pizzicato` | X | new | right-hand pluck — index finger, thumb anchored; `pizz.`↔`arco` and the time it costs; left-hand `+` = recognise only |
+| H2 | `rolling-a-chord-with-the-bow` | X | new | the right-arm half of a rolled chord — weight drops low and rolls up through the arm levels; open + open-heavy chords; **the K.216 entrance, done** (ties Stage 4 O2) |
+| H3 | `the-bow-stroke-atlas` | R | rewrite | ~18 real cards (name · milestone · on/off + where · notation · sound · how it's made · don't-confuse-with · where you hear it); a reference-library page |
+
+### 5c — Reading and shaping with the bow, and the gate (Movements I–P, ~11)
+
+| # | Slug | Tag | Fate | The idea |
+|---|---|---|---|---|
+| I1 | `where-in-the-bow` | N | new | ⊓/V · WB/LH/UH/M · frog/au talon · tip/point/`Sp.`/`Pt.` · the retake sign — recognise every one (quiz) |
+| I2 | `the-rule-of-the-down-bow` | N | new | "la règle du tiré" (Lully/Muffat) + Leopold Mozart; strong beat = down-bow; even/odd note-count → start down/up; fix with retake / hook / slur choice |
+| I3 | `reading-a-bowing` | N | rewrite | a marked-up phrase decoded mark by mark; slurs as bow plan; `f`–`p` echoes as a bow change; **editorial vs composer** (dotted slur, brackets, "above/below the staff"); fingerings/positions ≠ bowing |
+| I4 | `bowing-a-passage-yourself` | N | new | the checklist (strong beats → count → slurs/hooks/retakes → distribution → mark it); **capstone = the K.216 first solo phrase**, bowing decoded |
+| J1 | `dynamics-with-the-bow` | N | new | the two recipes (speed+weight+lane+hair move together); crescendo across a phrase (more bow) vs on one note (more weight + toward bridge); the usual mistake |
+| J2 | `messa-di-voce` | N | new | `< >` on one note — nothing changes but the volume; whole bow, both directions, frog and tip; the tone thread's graduation exercise; Tartini → Leopold Mozart lineage |
+| J3 | `phrasing-with-the-bow` | N | new | bow speed as expression (Galamian) — the peak gets more bow, the tail less; retakes as breaths; ties `phrases-breathe` / Stage 4 I5 |
+| K1 | `the-baroque-bow-and-the-modern-bow` | R | new | convex/light/tapers vs concave/heavy/sustains; Tourte + Viotti; "the even détaché was, in a sense, invented"; why off-string strokes matter more in later music |
+| P | **the repertoire** (own movement, like Stage 4's P) | | | see below |
+| P-end | `the-foundation-check` | N | rewrite | the self-audit (does **not** gate) — the 6 gate capabilities, pointing at the P pieces; honest that this is the end of v1 and the threshold to the giants + Stage 6 |
+
+### Movement P — the repertoire (4 pieces + the scale/tone set)
+
+| Slug | Piece | Proves | Source |
+|---|---|---|---|
+| `stage-5-tone-and-strokes` | a son filé set + a détaché scale + a slurred scale + a martelé scale + the bowing-variation drill (Pass 5) | the daily bow routine | authored |
+| `tune-bach-air` | **Bach "Air" BWV 1068** — opening phrase, simplified, first position (D or C) | legato, son filé, bow distribution | Bach PD; author first-position line from IMSLP full score (**not** the "on the G string" transposition); keep MusicXML |
+| `tune-gossec-gavotte` | **Gossec Gavotte** (from *Rosine*), first position, G | détaché, staccato, retakes, hooked bows, slurs — the bow-stroke piece; **also clears the Stage 3 J5 deferral** | Gossec original PD; author from IMSLP, **not** the copyrighted Suzuki arrangement |
+| `tune-martele-study` | a short first-position **Wohlfahrt Op. 45 (Vol. 1, Nos. 1–30)** study, or an authored 8-bar study | the prepared bite, the stop, evenness under a marked stroke | Wohlfahrt PD (IMSLP); verify first position only |
+| `tune-foundation-gate-piece` | a *new* combining piece — **Bach *Musette*** or **Handel *Bourrée*** (first-position arr.) preferred over re-bowing an existing tune | everything at once: G/D/A/C, a dynamic scheme, two strokes, in tune | Baroque PD; decide the piece with the user |
+
+**Total: ~37 concept lessons + 5 repertoire + the gate ≈ 43 lessons.** In the Stage 3/4 range.
+
+### Merge candidates (for the `stage-5.md` plan to weigh with the user)
+
+- `the-flexible-bow-hand` (C2) could partly fold into `one-long-tone` (A2) + a recurring
+  "tension audit" margin — but Pass 13 argues it earns a lesson.
+- `slurred-crossings-and-bariolage` (D5) could fold into `string-crossings` (D4) if D4 doesn't
+  get too long.
+- `the-brush-stroke` is folded into `spiccato` (F1) already.
+- `tremolo` (G2) + `colour-strokes` (G1) could be one lesson.
+- `pizzicato` (H1) + `rolling-a-chord-with-the-bow` (H2) → one `the-bow-hand-does-more` lesson.
+- `the-rule-of-the-down-bow` (I2) could fold into `reading-a-bowing` (I3) — but a
+  systems-minded, rhythm-strong reader will *enjoy* it standalone (Pass 11).
+- `messa-di-voce` (J2) could fold into `dynamics-with-the-bow` (J1).
+
+Keeping everything separate first, per the user's Stage-4 steering ("no dropping, just better
+structuring"); the plan proposes the merges and the user rules.
+
+### The 14 existing skeleton slugs — fate
+
+| Existing slug | Fate |
+|---|---|
+| `how-the-bow-makes-sound` | rewrite → A1 |
+| `one-long-tone` | rewrite → A2 |
+| `string-crossings` | rewrite → D4 |
+| `detache` | **polish** → D1 |
+| `legato-and-slurs` | rewrite → D3 |
+| `martele` | rewrite → E1 |
+| `staccato` | rewrite → E2 |
+| `portato-and-colle` | rewrite → E3 |
+| `spiccato` | rewrite → F1 |
+| `sautille-and-beyond` | rewrite → F2 (renamed `sautille-and-the-continuum`) |
+| `bow-effects` | rewrite → G1 (renamed `colour-strokes`) |
+| `the-bow-stroke-atlas` | rewrite → H3 (real cards) |
+| `reading-bowings` | rewrite → **splits into I1 + I3** (+ I2, I4 new) |
+| `the-foundation-check` | rewrite → P-end |
+
+New slugs to add: `the-bow-change`, `speed-weight-and-sounding-point`, `speed-not-pressure`,
+`the-five-lanes`, `planning-the-bow`, `the-flexible-bow-hand`, `how-to-practise-a-bow-stroke`,
+`the-detache-family`, `slurred-crossings-and-bariolage`, `hooked-bowing-and-retakes`,
+`the-far-shore`, `tremolo`, `pizzicato`, `rolling-a-chord-with-the-bow`, `where-in-the-bow`,
+`the-rule-of-the-down-bow`, `bowing-a-passage-yourself`, `dynamics-with-the-bow`,
+`messa-di-voce`, `phrasing-with-the-bow`, `the-baroque-bow-and-the-modern-bow`, +
+Movement P slugs.
+
+---
+
+## Sources
+
+**Primary / pedagogical canon**
+
+- **Ivan Galamian**, *Principles of Violin Playing and Teaching* (1962) — the three factors
+  (speed / weight / sounding point) and their interdependence; the "sounding point" as the
+  *ideal* contact point; the System of Springs; bow speed as the expressive variable; bow
+  division; the slightly-slanted stroke (REFERENCE); martelé as "rhythmic staccato".
+- **Carl Flesch**, *The Art of Violin Playing* (1923/1924) — contact point as the centre of
+  tone; the oboe/clarinet/flute timbres; son filé "a place of honor… the most tiresome item".
+- **Paul Rolland**, *Basic Principles of Violin Playing* (1960) — the nine tone factors; the
+  three "zones"; "positive/negative pressure" (index / little finger) for the bow's uneven
+  weight; string/position effects on contact point.
+- **Lucien Capet**, *La Technique supérieure de l'archet* — bow distribution as the founding
+  skill; constant bow speed for constant tone.
+- **Leopold Mozart**, *Versuch einer gründlichen Violinschule* (1756) — the rule of the
+  down-bow; left-hand legato ("leave the finger down"); the swelled stroke / divisions (via
+  Tartini); the course's north-star lineage.
+- **Simon Fischer**, *Basics* (1997) & *Practice* & *The Violin Lesson* — the "Basics"
+  articles used directly: **Tone production** ("Understanding what the bow does to the string";
+  "Working from the inside out"), **Martelé**, **Smooth string crossings**, **Forearm
+  rotation**, **Bowing patterns**, **Son filé**. Five soundpoints; "speed not pressure";
+  resonance / the "click"; the balance-finding procedure.
+- **Georg Muffat**, *Florilegium Secundum* (1698) — Lully's orchestral bowing rules ("la
+  règle du tiré").
+- **G. B. Viotti** & **François Tourte** — the modern bow's development for a sustained
+  singing détaché; the Viotti stroke.
+- **Yuri Yankelevich** (via Fischer) — bowing-variation practice on Kreutzer No. 2.
+
+**Physics**
+
+- **Alexander Rhodes McLeod**, *Violin Pedagogy and the Physics of the Bowed String*, MA
+  thesis, University of Toronto, 2019 — the physics→pedagogy bridge; Tables 1–3 (bow force /
+  contact point / bow speed); analysis of Capet, Auer, Flesch, Havas, Rolland, Galamian,
+  Fischer; the four problems every bow technique must solve.
+- **Hermann von Helmholtz**, *On the Sensations of Tone* (1863) — Helmholtz motion.
+- **John C. Schelleng**, "The bowed string and the player", *JASA* 1973 — the Schelleng
+  diagram; minimum/maximum bow force; the wedge that narrows toward the bridge.
+- **euphonics.org** (Woodhouse et al.), §11.3 "bowed-string behaviour" — stick-slip,
+  double-slip, the raucous regime.
+
+**Secondary / teaching references** (cross-checks, glossary, drills)
+
+- thestrad.com — "Spiccato and sautillé — often confused"; "Mastering up-bow and down-bow
+  staccato"; "Teaching collé"; "6 ways to improve your string crossing"; "Two simple
+  exercises for smooth string crossings"; "10 views on dynamics"; "Long read: Playing Baroque
+  and Classical"; "How did Viotti influence the Tourte bow"; "Turtle Island Quartet
+  techniques"; Galamian "hand of steel".
+- violinmasterclass.com (Kurt Sassmannshaus) — Martelé; Spiccato.
+- violinspiration.com — bowing-techniques glossary (25 terms); Détaché; Martelé; Spiccato;
+  Legato; Bariolage; Up-bow Staccato; Baroque bow; Tremolo.
+- violinlounge.com — "102 bowing techniques"; "12 Types of Détaché"; "Sautillé vs Spiccato";
+  "Martelé explained"; "22 bowing rules"; "Notation of bowing techniques".
+- violinonline.com — Bow Strokes; Bowing Directions; glossary.
+- stringsmagazine.com — "How to Master Martelé"; "How to Master the Legato Bow Stroke";
+  "String-crossing for bariolage"; "Overcome Bow-Hand and Bow-Arm Tension"; "4 Ways to
+  Masterful Bowing Dynamics"; "A Reexamination of Leopold Mozart's Pedagogy".
+- violinist.com — physics-of-tone blog (pooispoois); Galamian "Points of Contact"; Collé
+  (Buri); "The Messa di Voce"; "Rules of Bowing"; son filé threads.
+- cellofun.eu — "Portato, Flying Staccato and Hooked Bowings"; "Choosing Bowings".
+- Wikipedia — Bariolage; Messa di voce; Air on the G String; *Versuch einer gründlichen
+  Violinschule*; Franz Wohlfahrt.
+- IMSLP — Gossec (Gavotte / *Rosine*); Wohlfahrt *60 Studies* Op. 45; Bach BWV 1068; Leopold
+  Mozart *Violinschule*.
+- annemctighe / givensviolins / fiddleheads — Baroque vs modern bow.
+- takeshiabo.com — circular bowing; Drew Lecher (violinist.com) — crescent bow path.
+- The PDF: *The Violin Reading Book — Expanded Year-One Edition*, Part VI (§60–68) — the skill
+  tree, "bow physics in plain language", the 25-term atlas (the padding we replace).
