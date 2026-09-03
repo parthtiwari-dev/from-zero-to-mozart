@@ -105,6 +105,7 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 | `docs/stage-plans/stage-3.md` | Stage 3 (Score symbols) — the **build list**: Movements A–J, the 3a/3b split, the merges from the research draft, the quality bar. Status: **BUILT — 46 live** (42 skill + 4 tunes); Gossec Gavotte deferred. |
 | `docs/stage-plans/stage-4-research.md` | Stage 4 (Scales & musicianship I) — the deep research, **20 passes + a re-verification pass** (what a scale is · steps & the major formula · key signatures · circle of fifths · minor · the 12 keys · intervals · the ear thread · triads · diatonic harmony · the dominant 7th · cadences · phrase & structure · arpeggios · the physics · other scale families · scale practice · transposition · the K.216 first note · repertoire · non-chord tones / harmonic rhythm / key character from the re-verify), each with draft lessons; ends with a 16-movement plan (A–P, ~63 concept + 7 tune/scale) + merge candidates + a full sources list. |
 | `docs/stage-plans/stage-4.md` | Stage 4 — the **build list**: Movements A–P, the **4a/4b/4c split** (4a Scales & keys · 4b Intervals, chords & harmony · 4c Arpeggios, the physics & the rest · P the tunes). Status: **BUILT 2026-09-03, expanded 2026-09-04 → 70 lessons** (63 concept + 7 repertoire). Every scale (modes, pentatonic, blues, chromatic, symmetrical, world) and every chord (triads, 7ths, suspended/added, extended, secondary dominants, borrowed, chromatic, altered/quartal) covered as real lessons or cited cards. |
+| `docs/stage-plans/stage-5-research.md` | Stage 5 (The bow) — the deep research, **15 passes + a re-verification pass** (bow physics / Helmholtz & the three controls · tone & son filé · string crossings & bariolage · détaché & its family · legato & dividing the bow · martelé · the NEXT layer: staccato/portato/collé/hooked/retakes · off the string: spiccato/sautillé/the continuum · the far shore: ricochet/fouetté/Viotti/chop · colour strokes · **reading a printed bowing** · dynamics as a bow decision · bow-arm health & the tabla bridge · the atlas & the Foundation gate · re-verify — folds in pizzicato + rolling a chord with the bow). Ends with a **movement plan A–P** (~43 lessons, 5a Tone / 5b The strokes / 5c Reading & shaping + the gate) + merge candidates + the 14-skeleton-slug fate table + full sources. Status: **research DONE 2026-09-04; `stage-5.md` not yet written.** |
 | `docs/LESSONS-FROM-MOZART.md` | what the (deferred) K.216 run taught us the middle stages must teach deeply — bowing, chords, the dense score vocabulary, style. Read before planning Stages 2–7. |
 | `docs/stage-plans/mozart-k216.md` | the deferred K.216 module — what's built, the transcription pipeline, how to resume |
 | `docs/DESIGN_LOCK.md` | the locked visual language — Direction A ("The Critical Edition"); chosen and built |
@@ -131,7 +132,7 @@ lesson 2–4 play-arounds + real music. Plan each stage with the user (`stage-pl
 | **2 · Rhythm** | ✔ rebuilt — `stage-plans/stage-2.md`, Movements A–I, 33 skill lessons + 3 tunes. Added `RhythmTree` `<Diagram>` + `rhythmOnly` mode on `<NotatedExample>`. Deferred: 3 tunes (Pop Goes the Weasel / Jolly Good Fellow / Deck the Halls) pending sources. |
 | **3 · Score symbols** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-3-research.md` + `stage-3.md`, Movements A–J, **46 lessons** (42 skill + 4 tunes). 1 tune deferred (Gossec Gavotte). Details below. |
 | **4 · Scales & musicianship** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-4-research.md` (20 passes) + `stage-4.md` (4a/4b/4c, Movements A–P). **70 lessons** (63 concept + 7 repertoire). Build green (231 pages), lint + tsc clean. Owns the K.216 first-note debt — `the-first-note-of-mozart` (O2). |
-| **5 · The bow** | ⏳ **NEXT** — first-draft skeleton live (14 lessons), not yet rebuilt. Research-first, then deep rebuild (bow physics · tone & distribution · the core strokes to *perform* · the bow-stroke atlas · **reading a printed bowing** — `LESSONS-FROM-MOZART.md` §1). See "NEXT SESSION". Then → **Foundation gate**. |
+| **5 · The bow** | ⏳ **NEXT — research DONE (2026-09-04).** `stage-plans/stage-5-research.md` (15 passes + movement plan A–P, ~43 lessons, 5a Tone / 5b The strokes / 5c Reading & shaping + the gate). First-draft skeleton live (14 lessons, all thin — fate table in the research doc; `detache` = polish, the other 13 = rewrite/split). Next: `stage-5.md` build plan **with the user**, then build. Then → **Foundation gate** (end of v1). |
 
 **Stage 0–2 audit (`docs/stage-audit.md`, 2026-09-02):** every published lesson checked
 against `PRD.md` §7; 7 thin Stage-1 lessons deepened, 4 partial Stage-1 tunes completed, a
@@ -298,19 +299,22 @@ standards, Amazing Grace, Danny Boy, Scarborough Fair, Greensleeves, klezmer/Bal
 lowest position · the hook · first-position-playable now? · PD status or licensed-arrangement
 target · which stage's skill it fits.** Feeds `/practice` + the Tier-0/1 song bank.
 
-### 3 — Stage 5: The bow — RESEARCH FIRST, go deep (user: "above and beyond")
-The campaign's next stage; ends at the **Foundation gate**. PDF Part VI (p111–133, take
-p113–120 + p124). Existing first-draft skeleton — **14 lessons in `lib/curriculum.ts`** (all `published`, all
-thin, all need the rebuild): `how-the-bow-makes-sound` · `one-long-tone` · `string-crossings`
-· `detache` (already rebuilt, `CONTENT-STANDARD.md` §6 — stays, polished at build) ·
-`legato-and-slurs` · `martele` · `staccato` · `portato-and-colle` · `spiccato` ·
-`sautille-and-beyond` · `bow-effects` (REF) · `the-bow-stroke-atlas` (REF) · `reading-bowings`
-· `the-foundation-check`. The rebuild will expand this a lot (bow physics, tone, distribution,
-bariolage, the atlas as real cards, the printed-bowing decode). Research to
-`docs/stage-plans/stage-5-research.md`, ~10–14 passes,
-every fact ≥2 sources (`RULES.md` #8), then plan (`stage-5.md`) **with the user**, then build.
+### 3 — Stage 5: The bow — RESEARCH DONE (2026-09-04) → next is `stage-5.md` WITH THE USER
+The campaign's next stage; ends at the **Foundation gate** (end of v1). PDF Part VI (p111–133).
+**`docs/stage-plans/stage-5-research.md` is written** — 15 passes, every fact ≥2 sources,
++ a movement plan (A–P, ~43 lessons: **5a Tone** · **5b The strokes** · **5c Reading & shaping
+with the bow + the gate**), merge candidates, the 14-skeleton-slug fate table, full sources.
+Key decisions the research reached (for the plan to confirm with the user): détaché/legato/
+martelé + a clean string-crossing = the PERFORM set; everything off-string = RECOGNISE;
+"reading a printed bowing" is 4 lessons (`where-in-the-bow`, `the-rule-of-the-down-bow`,
+`reading-a-bowing`, `bowing-a-passage-yourself`), the last capstoned on the K.216 first solo
+phrase; the atlas becomes ~18 real cards; gate repertoire = a simplified Bach *Air* +
+Gossec *Gavotte* (also clears the Stage 3 J5 deferral) + a Wohlfahrt martelé study + a
+combining gate piece; new gaps folded in — **pizzicato** (right hand) and **rolling a chord
+with the bow** (the right-arm half of the K.216 entrance). Next: **write `stage-5.md` with the
+user**, then build. `detache` = polish; the other 13 skeleton lessons = rewrite/split.
 
-**Scope — research all of this and more:**
+**Build-scope checklist (from the research doc — every item is covered there):**
 - **Bow physics in full** — the three controls (speed × weight/pressure × sounding point /
   contact point) and the trade-offs between them; hair amount, bow angle, keeping the bow
   straight ("the highway"); how each control changes tone; Galamian's model; Simon Fischer's
