@@ -7,7 +7,10 @@ Every section of the original 193-page PDF (`docs/source/original-violin-book.pd
 > **2026-09-03:** The Phase-1.5 rebuild has reached Stage 3.
 > - **Parts I–IV → Stages 0–3: ✔ BUILT to the `RULES.md` bar** — not a 1:1 page map; the
 >   research went far past the PDF (see each stage's `stage-plans/stage-N.md` + `-research.md`).
-> - **Part V → Stage 4: NEXT** (research first — see `CLAUDE.md` "NEXT SESSION").
+> - **Part V → Stage 4: research done** (`stage-plans/stage-4-research.md`, 20 passes) — plan
+>   (`stage-4.md`) with the user next, then build. The research went far past Part V (intervals,
+>   the ear thread, triads/harmony, cadences, phrase structure, the physics, the K.216 first-note
+>   bridge).
 > - **Part VI → Stage 5:** first-draft skeleton live, not yet rebuilt.
 > - **Parts VII–IX (Stages 6–9 + Vivaldi/Mozart modules): `todo`** (Phase 2–3).
 
@@ -106,23 +109,28 @@ notation, H editions, I the capstone, J tunes).
 | 87–88 | §47 / 47A Score-language quiz + answers | `decode-a-dense-line` I1 · `the-score-language-check` I2 (`<Quiz>`, real glyphs) | done |
 | — | *(new — not in the PDF)* | `slides-and-octave-signs` G4 (glissando/portamento/8va); Movement J tunes | done |
 
-## Part V — Scales, Keys, Major & Minor (p89–110) → **Stage 4** — ⏳ NEXT (research first; see `CLAUDE.md` "NEXT SESSION")
+## Part V — Scales, Keys, Major & Minor (p89–110) → **Stage 4** — 🔬 RESEARCH DONE (`stage-plans/stage-4-research.md`, 20 passes) — plan next
 
-| PDF page | Section | → target | Status |
+Rebuilt far past the PDF: research landed a **16-movement plan A–P** (4a Scales & keys ·
+4b Intervals, chords & harmony · 4c Arpeggios, the physics & the rest · P the tunes),
+~60 concept lessons + ~7 tune/scale entries, to be pruned to ~46–50 in `stage-4.md`.
+
+| PDF page | Section | → movement(s) | Status |
 |---|---|---|---|
 | 89 | Part V divider | — | — |
-| 90 | §48 What is a scale? | Stage 4 | todo |
-| 91 | §49 Whole and half steps | Stage 4 | todo |
-| 92 | §50 Why G major is major | Stage 4 | todo |
-| 93 | §51 G minor / parallel minor | Stage 4 | todo |
-| 94 | §52 Relative minor + circle-of-fifths diagram | Stage 4 + reference: circle of fifths | todo |
-| 95 | §53 Natural / harmonic / melodic minor | Stage 4 | todo |
-| 96–97 | §54 The 12 major keys (1/2, 2/2) | Stage 4 + reference: scale library | todo |
-| 98–99 | §55 Natural minor reference (1/2, 2/2) | Stage 4 + scale library | todo |
-| 100 | §56 Other scale families | Stage 4 (reference-tagged) | todo |
-| 101 | §57 Arpeggios | Stage 4 | todo |
-| 102 | §58 Your scale order | Stage 4 + `REPERTOIRE.md` scale system | todo |
-| 103–110 | §59 / 59A Scale-reading pages G/D/A/C + answers | Stage 4 drill pairs (4) | todo |
+| 90 | §48 What is a scale? | Movement A (`what-a-scale-is` · `the-scale-degrees` · `notes-that-rest-and-notes-that-lean` · `do-re-mi-and-sa-re-ga`) | researched |
+| 91 | §49 Whole and half steps | Movement B (`whole-steps-and-half-steps` · `the-four-finger-patterns`) | researched |
+| 92 | §50 Why G major is major | Movement B (`the-major-scale-formula` · `why-g-major-has-one-sharp` keep) | researched |
+| 93 | §51 G minor / parallel minor | Movement D (`what-major-and-minor-mean` · `parallel-major-and-minor`) | researched |
+| 94 | §52 Relative minor + circle-of-fifths diagram | Movement C (`the-circle-of-fifths` · `near-keys-and-far-keys`) + Movement D (`relative-major-and-minor`) | researched |
+| 95 | §53 Natural / harmonic / melodic minor | Movement D (`the-natural-minor-scale` · `the-three-minors`) | researched |
+| 96–97 | §54 The 12 major keys (1/2, 2/2) | Movement E (`the-twelve-keys` · `double-sharps-and-double-flats` · `the-keys-the-violin-loves`) | researched |
+| 98–99 | §55 Natural minor reference (1/2, 2/2) | Movement E + Movement D | researched |
+| 100 | §56 Other scale families | Movement L (`the-other-scale-families` · `the-seven-modes` · `a-raga-is-not-a-scale`) | researched |
+| 101 | §57 Arpeggios | Movement J (`what-an-arpeggio-is` · `the-first-position-arpeggios` · `broken-thirds-…` · `arpeggios-in-real-music` — the K.216 bridge) | researched |
+| 102 | §58 Your scale order | Movement M (`why-practise-scales` · `how-to-practise-a-scale` · `which-scales-to-practise-now`) + `REPERTOIRE.md` scale system | researched |
+| 103–110 | §59 / 59A Scale-reading pages G/D/A/C + answers | Movement M / Movement P scale-&-arpeggio AnnotatedScores (fixes the PDF's dropped F♯ in §59A) | researched |
+| — | *(new — far past the PDF)* | Movement F intervals + the ear thread · Movement G triads · Movement H diatonic harmony + the dominant 7th · Movement I cadences + phrase/period · Movement K the physics (overtones, resonance, temperament) · Movement N transposition · Movement O `read-the-harmony-of-a-line` + `the-first-note-of-mozart` + `the-musicianship-check` | researched |
 
 ## Part VI — Skills Atlas (p111–133)
 

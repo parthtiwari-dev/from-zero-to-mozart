@@ -131,9 +131,15 @@ finger≠string≠position keystone). 1 tune (Gossec Gavotte) deferred for a cle
   properly this time).
 
 ### Stage 4 — Scales, keys, major & minor: musicianship I
-*PDF Part V. **⏳ NEXT — research first** (see `CLAUDE.md` "NEXT SESSION"). `PRD.md` §6.1: the
-harmony/ear thread is load-bearing for K.216 — budget real lesson count.*
-*PDF Part V. ~14–18 lessons.*
+*PDF Part V. **🔬 RESEARCH DONE 2026-09-03** — `stage-plans/stage-4-research.md` (20 passes,
+16-movement plan A–P, ~60 concept + ~7 tune/scale entries). Plan (`stage-4.md`) with the user
+next, then build. `PRD.md` §6.1: the harmony/ear thread is load-bearing for K.216 — the
+research budgets real lesson count (intervals + a dedicated ear thread, triads → diatonic
+harmony → the dominant 7th, cadences, phrase/period). Owns the **K.216 first-note debt**
+(`LESSONS-FROM-MOZART.md` §2): after Stage 4, "I can't read the first note of Mozart" must be
+impossible. The list below is the original PDF scope; the built stage will cover all of it and
+much more (the ear thread, the physics, transposition, the modes, an accurate raga bridge, a
+`decode`-style harmony capstone).*
 
 - **What a scale is:** an ordered set of pitches heard from a tonic; it teaches the pitch
   vocabulary of a key, not just a finger exercise.

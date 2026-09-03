@@ -137,7 +137,8 @@ Adding 30 songs is not the fix on its own. Each stage is (re)built to:
 
 Refined in each stage's own plan (`docs/stage-plans/stage-N.md`). Counts are targets.
 
-*Status (2026-09-03): Stages 0–3 built to the `RULES.md` bar; Stage 4 is next (research first).*
+*Status (2026-09-03): Stages 0–3 built to the `RULES.md` bar. Stage 4 research done
+(`stage-plans/stage-4-research.md`, 20 passes) — plan (`stage-4.md`) with the user next.*
 
 | Stage | Skill focus | You can play… |
 |---|---|---|
@@ -145,7 +146,7 @@ Refined in each stage's own plan (`docs/stage-plans/stage-N.md`). Counts are tar
 | **1** ✔ | first position, reading the staff off the page, keys G/D/A/C | **~12–18 Tier-0 tunes, all first position:** Hot Cross Buns · Mary Had a Little Lamb · Twinkle (theme + 1 variation) · Lightly Row · Au Clair de la Lune · **Ode to Joy** (phrase by phrase → whole) · When the Saints · Jingle Bells · London Bridge · Frère Jacques *(+ Song of the Wind / Go Tell Aunt Rhody / French Folk Song / Long Long Ago pending PD sources)* |
 | **2** ✔ | rhythm — values, dots, rests, ties, time signatures, counting | the Stage-1 tunes **read in rhythm straight from the page**; simple rounds (Frère Jacques, Row Your Boat); a Suzuki-vein *Perpetual Motion* feel |
 | **3** ✔ | score symbols — dynamics, articulation, ornaments, repeats, bow marks, editions | short pieces **with** the marks: Ode to Joy shaped (a dynamic scheme) · Twinkle articulated (staccato/legato/tenuto/portato) · Minuet in G (repeat + 1st/2nd endings + terracing) · Amazing Grace (a whole line of expression marks) *(Gossec Gavotte deferred — needs a cleaner source)* |
-| **4** ⏳ | scales, keys, major/minor, intervals, arpeggios | G / D / A / C major + E minor scales & arpeggios cleanly; pieces in those keys; Canon in D (simplified) · Für Elise theme · **the Vivaldi *Spring* theme** (first-position, simplified from `source/vivaldi-spring-easy.pdf`). **Then the "best-sounding / viral melodies" research appendix — `REPERTOIRE.md`.** |
+| **4** 🔬 | scales, keys, major/minor, **intervals · triads · cadences · the ear thread** · arpeggios · the physics | G / D / A / C major + E minor scales & arpeggios cleanly; pieces in those keys; *research proposes:* Eine kleine Nachtmusik opening · Canon in D (simplified) · Scarborough Fair · Für Elise theme · Aura Lee · **the Vivaldi *Spring* theme** (placement TBD — see `stage-4-research.md` Pass 20). Research done (`stage-4-research.md`, 20 passes) — plan next. Owns the **K.216 first-note debt**. **Then the "best-sounding / viral melodies" research appendix — `REPERTOIRE.md`.** |
 | **5** | the bow — détaché, legato, martelé, string crossings, tone | the above **with deliberate bowing**: a legato *Air* (simplified) · a détaché Gavotte · a martelé study-piece · the Foundation-gate check-piece |
 | **6+** | shifting → vibrato → sight-reading → the giants → Mozart | Seitz / Rieding / Vivaldi a-minor → the lyrical pieces → graded sight-reading → Bach a-minor, Bach Double → **K.216** |
 

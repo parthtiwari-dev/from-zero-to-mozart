@@ -103,6 +103,7 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 | `docs/stage-plans/stage-2.md` | Stage 2 (Rhythm) — the lesson-by-lesson plan (Movements A–I, ~33 skill lessons + tunes). **BUILT.** |
 | `docs/stage-plans/stage-3-research.md` | Stage 3 (Score symbols) — the deep research, 9 passes (Tempo · Dynamics · Articulation · Bow & string words · Repeats & the road map · Ornaments · String-part notation · Editions · Putting it together), each with draft lessons + a full sources list. |
 | `docs/stage-plans/stage-3.md` | Stage 3 (Score symbols) — the **build list**: Movements A–J, the 3a/3b split, the merges from the research draft, the quality bar. Status: **BUILT — 46 live** (42 skill + 4 tunes); Gossec Gavotte deferred. |
+| `docs/stage-plans/stage-4-research.md` | Stage 4 (Scales & musicianship I) — the deep research, **20 passes** (what a scale is · steps & the major formula · key signatures · circle of fifths · minor · the 12 keys · intervals · the ear thread · triads · diatonic harmony · the dominant 7th · cadences · phrase & structure · arpeggios · the physics · other scale families · scale practice · transposition · putting it together / the K.216 first note · repertoire), each with draft lessons; ends with a 16-movement plan (A–P, ~60 concept + 7 tune/scale) + merge candidates + a full sources list. **DONE 2026-09-03 — plan (`stage-4.md`) with the user next.** |
 | `docs/LESSONS-FROM-MOZART.md` | what the (deferred) K.216 run taught us the middle stages must teach deeply — bowing, chords, the dense score vocabulary, style. Read before planning Stages 2–7. |
 | `docs/stage-plans/mozart-k216.md` | the deferred K.216 module — what's built, the transcription pipeline, how to resume |
 | `docs/DESIGN_LOCK.md` | the locked visual language — Direction A ("The Critical Edition"); chosen and built |
@@ -128,7 +129,7 @@ lesson 2–4 play-arounds + real music. Plan each stage with the user (`stage-pl
 | **1 · First position & the staff** | ✔ rebuilt — `stage-plans/stage-1.md`, Movements A–F, ~43 lessons + 10 published tunes (4 pending PD sources: song-of-the-wind, go-tell-aunt-rhody, long-long-ago, french-folk-song). Deferred: re-notating the published tunes in true (not simplified) rhythm. |
 | **2 · Rhythm** | ✔ rebuilt — `stage-plans/stage-2.md`, Movements A–I, 33 skill lessons + 3 tunes. Added `RhythmTree` `<Diagram>` + `rhythmOnly` mode on `<NotatedExample>`. Deferred: 3 tunes (Pop Goes the Weasel / Jolly Good Fellow / Deck the Halls) pending sources. |
 | **3 · Score symbols** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-3-research.md` + `stage-3.md`, Movements A–J, **46 lessons** (42 skill + 4 tunes). 1 tune deferred (Gossec Gavotte). Details below. |
-| **4 · Scales & musicianship** | ⏳ **NEXT — research first.** See "NEXT SESSION" above. |
+| **4 · Scales & musicianship** | 🔬 **RESEARCH DONE 2026-09-03** — `stage-plans/stage-4-research.md` (20 passes, 16-movement plan A–P). **NEXT: plan (`stage-4.md`) with the user, then build.** See "NEXT SESSION". |
 | **5 · The bow** | first-draft skeleton live (14 lessons), not yet rebuilt. Then → Foundation gate. |
 
 **Stage 0–2 audit (`docs/stage-audit.md`, 2026-09-02):** every published lesson checked
@@ -207,32 +208,35 @@ single-note / single-chord examples render left-aligned in the well.
 
 ---
 
-## NEXT SESSION — Stage 4 (Scales & musicianship I) : research first
+## NEXT SESSION — Stage 4 (Scales & musicianship I) : PLAN then build
 
-Same campaign as Stages 2–3. **Do the research the way it was done for Stage 3** — interleave
-**~10 web searches, then write that section of `docs/stage-plans/stage-4-research.md`, repeat**
-(don't do all research then all writing — context gets lost). Every music fact against ≥2
-sources / a syllabus (`RULES.md` #8). Then plan (`stage-4.md`) with the user, then build to
-the `PRD.md` §7 bar (six beats · 2–4 play-arounds · every note labelled · cited lineage ·
-ends at real music).
+**Research is DONE** (2026-09-03) — `docs/stage-plans/stage-4-research.md`, **20 interleaved
+passes**, ends with a **16-movement plan (A–P, ~60 concept lessons + ~7 tune/scale entries)**,
+a 4a/4b/4c sub-grouping proposal, merge candidates to land near ~46–50, a "must not cut" set,
+and a full sources list. Lineage quotes added to `docs/LINEAGE-QUOTES.md` (Stage 4 section).
 
-**Scope** (`docs/CURRICULUM.md` §Stage 4, `docs/PLAN.md` Part A, PDF Part V p89–110):
-what a scale is · tonic / scale-degree names · whole & half steps · the major formula
-W-W-H-W-W-W-H · **why G major has one sharp** (derived, not asserted) · the **circle of
-fifths** · the three minors (natural / harmonic / melodic) · parallel vs relative · the 12
-major keys (practical spellings) · **intervals** (number + quality, inversion) with the
-ear-training hook · **triads** (M/m/dim/aug, inversions, diatonic I–vii°, primary I–IV–V,
-dominant 7th) · **cadences** (perfect / plagal / half / deceptive) · phrase & period,
-antecedent/consequent · arpeggios & broken thirds · other scale families (reference:
-chromatic, whole-tone, pentatonic, blues, modes) · scale practice order (NOW G/D/A/C 1-oct →
-NEXT E-minor, 2-oct → LATER 3-oct, thirds, chromatic) · harmonic series / overtones /
-sympathetic resonance / just vs equal temperament · transposition basics.
+**Next step: the plan (`docs/stage-plans/stage-4.md`) WITH THE USER** — same as Stage 3's
+research→plan→build. Bring the user:
+- the 4a/4b/4c split (or a different grouping) and which merges to apply (target lesson count);
+- the tune set (research proposes EKN · Vivaldi *Spring* · Canon in D · Scarborough Fair ·
+  Für Elise · Aura Lee + the scale/arpeggio set — Stage 3 shipped 4 tunes, so prune to ~4–5);
+- **⚠ resolve the Vivaldi *Spring* placement** — `PDF-MAP.md` files it under the Phase-2 Vivaldi
+  module; `THE-PATH.md` §6 puts the *theme* in Stage 4. Research recommends: theme here, full
+  movement in the Vivaldi module;
+- whether F6–F8 (the ear thread) become their own "Ear" movement.
 
-**Load-bearing:** `PRD.md` §6.1 — the harmony/ear thread (triads, cadences, intervals) is
-what K.216 musicianship rests on; **budget real lesson count**, don't treat it as an aside.
-Existing thin Stage-4 lessons (`what-a-scale-is`, `intervals`, `triads`, `cadences`,
-`major-and-minor`, … — 15 slugs in `lib/curriculum.ts`, and `why-g-major-has-one-sharp` +
-`detache` are already rebuilt) get replaced/deepened. `<CircleOfFifths>` component exists.
+Then build to the `PRD.md` §7 bar (six beats · 2–4 play-arounds · every note labelled · cited
+lineage · ends at real music). Existing thin Stage-4 slugs (15 in `lib/curriculum.ts`;
+`why-g-major-has-one-sharp` + `detache` already rebuilt) get replaced/deepened per the
+research doc's "(rewrite of …)" notes. `<CircleOfFifths>` component exists — no new components
+planned (`RULES.md` #17).
+
+**Load-bearing, must not cut** (`PRD.md` §6.1, `LESSONS-FROM-MOZART.md` §2, the user's explicit
+ask): the ear thread (`hearing-the-scale-degrees` esp.); the K.216 bridge
+(`the-first-position-arpeggios` → `arpeggios-in-real-music` → `the-first-note-of-mozart`, +
+the numeral tangle); `the-chords-of-a-key` / `the-dominant-seventh` / `what-a-cadence-is`;
+`why-your-violin-rings` + `tuning-by-ear`; `a-raga-is-not-a-scale`. **After Stage 4, "I can't
+even read the first note of Mozart" must be impossible** — that was the ask.
 
 **Then — the viral-melody appendix (user's explicit ask, 2026-09-03).** *After* Stage 4 is
 planned, **research the best-sounding / most-recognisable / "viral" melodies** — the tunes

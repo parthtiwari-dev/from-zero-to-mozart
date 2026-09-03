@@ -143,3 +143,56 @@ mozarteum.at.
 - *Portamento was "the key to the Romantic style of violin playing" and was used sparingly if
   at all in Classical/Baroque practice; heavy sliding was a fault.* Source: *The Strad*;
   general performance-practice literature; **well-attested.**
+
+## Stage 4 — scales, keys, harmony (added 2026-09-03; full sourcing in `stage-plans/stage-4-research.md`)
+
+- *The scale we call "major" is the medieval/Renaissance **Ionian** mode, named by **Heinrich
+  Glarean** in *Dodecachordon* (1547) when the "major" sound of folk music pushed into learned
+  music; over the Baroque it became the reference scale and tonal harmony has been built on it
+  since.* Source: Glarean, *Dodecachordon*; Grove "Ionian"; **well-attested (the naming is
+  Glarean's; the gradual dominance is a standard historical summary).**
+- *"Major does not literally mean happy. It describes an interval/key structure. Emotional
+  effect depends on melody, harmony, rhythm, register, articulation and context."* Source: the
+  user's own *Violin Reading Book* (Part V §50) — **kept verbatim; it's correct and well put.**
+- *The **triad** — a note with its third and fifth — is the natural unit of harmony; chords are
+  built and understood as stacked thirds, and a bass note plus figures implies the whole
+  chord.* Source: **Jean-Philippe Rameau, *Traité de l'harmonie* (1722)**; **the book's thesis
+  (paraphrase).**
+- *The **major third** is the consonance that defines the bright, "major" sound; the minor
+  third the darker one — both are simple overtone ratios (5:4 and 6:5).* Source: **Gioseffo
+  Zarlino, *Le istitutioni harmoniche* (1558)** (the *senario*); Helmholtz; **well-attested.**
+- *On a vibrating string the octave is a 2:1 length ratio, the perfect fifth 3:2, the perfect
+  fourth 4:3 — the simplest ratios give the most blended intervals.* Source: **Pythagoras /
+  the monochord tradition**, via Helmholtz, *On the Sensations of Tone* (1863); **well-attested.**
+- *The keys can be laid out in a closed **circle of rising fifths**; the diagram is usually
+  credited to **Johann David Heinichen** (*Der General-Bass in der Composition*, 1728), building
+  on Nikolai Diletsky (1670s).* Source: Grove "Circle of fifths"; **well-attested.**
+- *Analysing chords by **Roman numeral** relative to the key (I, IV, V, vi…) was systematised
+  by **Gottfried Weber** (*Versuch einer geordneten Theorie der Tonsetzkunst*, 1817–21).*
+  Source: Grove "Roman numeral analysis"; **well-attested.**
+- *Chords sort into three **functions** — tonic, subdominant (predominant), dominant — and a
+  phrase typically moves T → S → D → T.* Source: **Hugo Riemann**, *Vereinfachte Harmonielehre*
+  (1893); **the theory's core (paraphrase).**
+- *The **augmented second** between the flat-6th and raised-7th of the harmonic minor gives it
+  its distinctive colour; the same wide step appears in music across the world (flamenco,
+  klezmer, and the pitch material of some ragas and of Arabic Hijaz).* Source: general
+  theory + world-music literature; **well-attested — but state it as "this step appears widely,"
+  never "harmonic minor is raga X."**
+- *A **thaat** is a seven-note **parent scale** used only to classify Hindustani ragas (ten of
+  them, after **V. N. Bhatkhande**, early 20th c.); it is never itself performed. A **raga** is
+  not a scale — it has its own ascending/descending lines, characteristic phrases, ornaments
+  and mood. Carnatic music's parallel is the 72 **melakarta** (**Venkatamakhin**, c. 1640).*
+  Source: Bhatkhande, *Hindustani Sangeet Paddhati*; en.wikipedia "Thaat" / "Melakarta";
+  **well-attested — the accuracy bar here is absolute (`RULES.md` #8).**
+- *The violin's most resonant key is **D major** — open D is the tonic, open A the dominant,
+  open G the subdominant, open E the supertonic — and the sharp keys built on open strings ring
+  where the flat keys sound muted.* Source: violinist.com pedagogy discussions; general string
+  practice; **well-attested (the Stradivari-"voiced-for-D" claim is folklore — flag it as such).**
+- *A violinist tunes and hears **against a drone or an open string**, placing each note as a
+  pure interval from home — the same relationship-to-a-tonal-centre that movable-do solfège and
+  Indian sargam both train; "the emphasis is not on the scale but on the intervals."* Source:
+  en.wikipedia "Sargam notes"; Kodály method literature; **well-attested.**
+- *Scale-degree / functional ear training (hearing a note as "^3" or "the leading tone")
+  transfers to real playing better than naming bare intervals in isolation, because an interval
+  with no key around it rarely occurs in music.* Source: contextual-ear-training literature
+  (miles.be, stringkick, musical-u summarising the research); **well-supported paraphrase.**
