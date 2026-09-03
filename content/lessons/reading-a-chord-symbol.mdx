@@ -1,0 +1,88 @@
+Open a folk songbook, a jazz lead sheet, or a guitar-chord chart, and above the melody you'll
+see short labels: **C**, **Am**, **G7**, **Dsus4**, **F/A**. That's **chord-symbol
+shorthand** — a compact way of naming a chord. You'll meet it constantly the moment you play
+with other people, so it's worth being fluent.
+
+## The core code
+
+| Symbol | Means | Notes (on C) |
+|---|---|---|
+| **C** | major triad | C E G |
+| **Cm** (or C–, Cmin) | minor triad | C E♭ G |
+| **C°** (or Cdim) | diminished triad | C E♭ G♭ |
+| **C+** (or Caug) | augmented triad | C E G♯ |
+| **C7** | dominant 7th | C E G B♭ |
+| **Cmaj7** (or CΔ) | major 7th | C E G B |
+| **Cm7** | minor 7th | C E♭ G B♭ |
+| **Cm7♭5** (or Cø) | half-diminished 7th | C E♭ G♭ B♭ |
+| **C°7** | diminished 7th | C E♭ G♭ B-double-flat (sounds as A) |
+| **Csus4** / **Csus2** | 3rd swapped for 4th / 2nd | C F G / C D G |
+| **C6** | major triad + 6th | C E G A |
+| **Cadd9** | major triad + 9th | C E G D |
+| **C5** | just root + 5th (a "power chord") | C G |
+| **C/E** | C chord with **E in the bass** (a slash chord = an inversion) | E … C G |
+
+## How to read it
+
+The **letter** is the root. Everything after is a modification:
+
+- nothing → **major**
+- **m** → make the 3rd minor
+- a **number** (7, maj7, 9…) → add that note on top
+- **sus** → replace the 3rd
+- **add** → add a note without a 7th
+- a **slash** → put the named note in the bass
+
+So **G7** = G major triad + F (the ♭7). **Dm7** = D minor triad + C. **F/A** = an F major
+chord with A on the bottom (first inversion).
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+"^C" C E G z | "^Am" A, C E z | "^G7" G, B, D F |]`}
+  labels={[
+    { name: "C · from 'C'", string: "G", finger: "3" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A · from 'Am'", string: "G", finger: "1" },
+    { name: "C", string: "G", finger: "3" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "G · from 'G7'", string: "G", finger: "0" },
+    { name: "B", string: "G", finger: "high 2" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "F · the ♭7 of G7", string: "D", finger: "low 2" },
+  ]}
+  caption="Three chord symbols read as broken chords: C (major triad), Am (minor triad), G7 (major triad plus the ♭7). As a violinist you rarely play the whole chord — but you read the symbol to know what harmony you're playing over."
+  defaultBpm={72}
+  followPlayback
+/>
+
+## Why a violinist cares
+
+You won't strum chords. But chord symbols tell you **what key you're in, what the harmony is
+doing, and which notes will clash or agree** — exactly the "understand what you're playing"
+information. If the chart says **Am** and your melody note is a B, you know it's a passing
+tone. If it says **E7** in the key of A minor, you know a strong cadence home is coming.
+
+## Try it
+
+<TryThis>
+  Take a simple lead sheet or a hymn with chord letters (Amazing Grace, say, in G: G – C – G –
+  D – G). Ignore the notes for a moment. Just say each chord's Roman numeral in the key: G = I,
+  C = IV, D = V. You've translated the chart into function — now you know the tune's harmonic
+  shape before you play a note.
+</TryThis>
+
+## The usual mistake
+
+Ignoring the chord symbols because "I only play the melody." They're the fastest read you have
+on the harmony. A glance at the chord letters over a phrase tells you where it's going and
+where it rests — information that shapes how you phrase and where you breathe.
+
+<Cite source="chord-symbol notation — standard in jazz lead sheets ('fake books'), popular music, and hymnals; derived from figured bass and jazz practice">
+  Lead-sheet symbols are the modern descendant of figured bass: a melody line, plus a compact
+  code telling the accompanist what harmony to build. Reading the code is a core literacy for
+  playing with other musicians.
+</Cite>

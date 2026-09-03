@@ -1,0 +1,93 @@
+A **mode** is a scale that uses a familiar set of notes but treats a **different one as home.**
+You already know two modes without calling them that: the **major scale** is the *Ionian* mode,
+and the **natural minor** is the *Aeolian* mode. There are five more.
+
+## Seven homes, one set of notes
+
+Take the notes of C major — C D E F G A B — and start (and end) on each one in turn. Same
+seven notes every time; a different note has gravity; a different scale.
+
+| Mode | From | The scale | = major/minor, with… |
+|---|---|---|---|
+| **Ionian** | C | C D E F G A B | the major scale |
+| **Dorian** | D | D E F G A B C | minor, **♯6** |
+| **Phrygian** | E | E F G A B C D | minor, **♭2** |
+| **Lydian** | F | F G A B C D E | major, **♯4** |
+| **Mixolydian** | G | G A B C D E F | major, **♭7** |
+| **Aeolian** | A | A B C D E F G | the natural minor |
+| **Locrian** | B | B C D E F G A | diminished, **♭2 and ♭5** |
+
+## Hear it — all white notes, different worlds
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:C clef=treble
+C D E F G A B c |]`}
+  labels={[
+    { name: "C", string: "G", finger: "3" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+  ]}
+  caption="C to C — Ionian. The major scale, home on C."
+  defaultBpm={76}
+/>
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:C clef=treble
+G A B c d e f g |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "E", string: "E", finger: "0" },
+    { name: "F", string: "E", finger: "low 1" },
+    { name: "G", string: "E", finger: "low 2" },
+  ]}
+  caption="The same white notes, G to G — G MIXOLYDIAN. It looks like G major, but the 7th is F natural, not F♯. That flat 7th gives it a folky, unfinished-major sound — bagpipes, sea shanties, a lot of rock."
+  defaultBpm={76}
+/>
+
+## The characteristic note
+
+Each mode has **one note** that sets it apart from the plain major or minor:
+
+- **Lydian** — the ♯4 (the "floating" note)
+- **Mixolydian** — the ♭7
+- **Dorian** — the ♯6 (bright, for a minor mode)
+- **Phrygian** — the ♭2 (dark, Spanish)
+- **Locrian** — the ♭5 (no stable home at all)
+
+Order them by brightness and each step flattens one more note: **Lydian → Ionian → Mixolydian →
+Dorian → Aeolian → Phrygian → Locrian.**
+
+## Try it
+
+<TryThis>
+  Play a one-octave G major scale, then play the exact same fingering but flatten every F to F
+  natural (low 2 on the D string, and the top note if you go there). You've turned G major into
+  **G Mixolydian**. Play them back to back. One note, and the mode changes from "major" to
+  "folk major."
+</TryThis>
+
+## The usual mistake
+
+Thinking a mode changes the *notes*. It doesn't — it changes which note is **home**. D Dorian
+and C major have identical notes; they're different music because the ear is anchored
+somewhere else. It's the relative-key idea (same notes, different tonic) — except with a mode
+you *stay* on the unusual home and build the whole tune around it.
+
+<Cite source="the modes — the medieval church modes, named and systematised by Heinrich Glarean, Dodecachordon (1547)">
+  Glarean added Ionian and Aeolian to the older list to account for the "major" and "minor"
+  sounds folk music was bringing in. Those two took over; the other five stayed as modes and
+  are everywhere in folk, jazz, and film music.
+</Cite>

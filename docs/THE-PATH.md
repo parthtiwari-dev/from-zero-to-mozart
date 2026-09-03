@@ -137,9 +137,10 @@ Adding 30 songs is not the fix on its own. Each stage is (re)built to:
 
 Refined in each stage's own plan (`docs/stage-plans/stage-N.md`). Counts are targets.
 
-*Status (2026-09-03): Stages 0–4 built to the `RULES.md` bar. Stage 4 =
-`stage-plans/stage-4-research.md` (20 passes) + `stage-4.md` (4a/4b/4c, Movements A–P, 55
-lessons). Next: the "best-sounding / viral melodies" research appendix, then Stage 5.*
+*Status (2026-09-04): Stages 0–4 built to the `RULES.md` bar. Stage 4 =
+`stage-plans/stage-4-research.md` (20 passes) + `stage-4.md` (4a/4b/4c, Movements A–P, 70
+lessons — every scale and every chord). Next: the "best-sounding / viral melodies" research
+appendix, then Stage 5.*
 
 | Stage | Skill focus | You can play… |
 |---|---|---|
@@ -147,7 +148,7 @@ lessons). Next: the "best-sounding / viral melodies" research appendix, then Sta
 | **1** ✔ | first position, reading the staff off the page, keys G/D/A/C | **~12–18 Tier-0 tunes, all first position:** Hot Cross Buns · Mary Had a Little Lamb · Twinkle (theme + 1 variation) · Lightly Row · Au Clair de la Lune · **Ode to Joy** (phrase by phrase → whole) · When the Saints · Jingle Bells · London Bridge · Frère Jacques *(+ Song of the Wind / Go Tell Aunt Rhody / French Folk Song / Long Long Ago pending PD sources)* |
 | **2** ✔ | rhythm — values, dots, rests, ties, time signatures, counting | the Stage-1 tunes **read in rhythm straight from the page**; simple rounds (Frère Jacques, Row Your Boat); a Suzuki-vein *Perpetual Motion* feel |
 | **3** ✔ | score symbols — dynamics, articulation, ornaments, repeats, bow marks, editions | short pieces **with** the marks: Ode to Joy shaped (a dynamic scheme) · Twinkle articulated (staccato/legato/tenuto/portato) · Minuet in G (repeat + 1st/2nd endings + terracing) · Amazing Grace (a whole line of expression marks) *(Gossec Gavotte deferred — needs a cleaner source)* |
-| **4** ✔ | scales, keys, major/minor, **intervals · triads · cadences · the ear thread** · arpeggios · the physics | G / D / A / C major + E minor scales & arpeggios; **Eine kleine Nachtmusik** opening · **Canon in D** · **Scarborough Fair** (E Dorian) · **Für Elise** theme · **Vivaldi *Spring*** theme · **Aura Lee**. **BUILT** (`stage-4.md`, Movements A–P, 55 lessons). Pays the **K.216 first-note debt** (`the-first-note-of-mozart`). **Next: the "best-sounding / viral melodies" research appendix — `REPERTOIRE.md`.** |
+| **4** ✔ | scales, keys, major/minor, **intervals · triads · cadences · the ear thread** · arpeggios · the physics | G / D / A / C major + E minor scales & arpeggios; **Eine kleine Nachtmusik** opening · **Canon in D** · **Scarborough Fair** (E Dorian) · **Für Elise** theme · **Vivaldi *Spring*** theme · **Aura Lee**. **BUILT** (`stage-4.md`, Movements A–P, 70 lessons — every scale & every chord). Pays the **K.216 first-note debt** (`the-first-note-of-mozart`). **Next: the "best-sounding / viral melodies" research appendix — `REPERTOIRE.md`.** |
 | **5** | the bow — détaché, legato, martelé, string crossings, tone | the above **with deliberate bowing**: a legato *Air* (simplified) · a détaché Gavotte · a martelé study-piece · the Foundation-gate check-piece |
 | **6+** | shifting → vibrato → sight-reading → the giants → Mozart | Seitz / Rieding / Vivaldi a-minor → the lyrical pieces → graded sight-reading → Bach a-minor, Bach Double → **K.216** |
 

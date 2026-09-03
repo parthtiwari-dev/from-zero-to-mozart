@@ -238,6 +238,10 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "what-a-triad-is": () => import("./what-a-triad-is.mdx"),
   "the-four-triad-qualities": () => import("./the-four-triad-qualities.mdx"),
   "inversions-and-spelling": () => import("./inversions-and-spelling.mdx"),
+  "suspended-and-added-tone-chords": () =>
+    import("./suspended-and-added-tone-chords.mdx"),
+  "reading-a-chord-symbol": () => import("./reading-a-chord-symbol.mdx"),
+  "chords-on-the-violin": () => import("./chords-on-the-violin.mdx"),
   "the-chords-of-a-key": () => import("./the-chords-of-a-key.mdx"),
   "harmonising-a-tune-you-know": () =>
     import("./harmonising-a-tune-you-know.mdx"),
@@ -246,6 +250,13 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "harmony-has-a-rhythm-too": () => import("./harmony-has-a-rhythm-too.mdx"),
   "the-dominant-seventh": () => import("./the-dominant-seventh.mdx"),
   "the-other-seventh-chords": () => import("./the-other-seventh-chords.mdx"),
+  "extended-chords": () => import("./extended-chords.mdx"),
+  "secondary-dominants": () => import("./secondary-dominants.mdx"),
+  "borrowed-chords-and-mode-mixture": () =>
+    import("./borrowed-chords-and-mode-mixture.mdx"),
+  "the-chromatic-chords": () => import("./the-chromatic-chords.mdx"),
+  "altered-and-quartal-chords": () =>
+    import("./altered-and-quartal-chords.mdx"),
   "what-a-cadence-is": () => import("./what-a-cadence-is.mdx"),
   "the-other-three-cadences": () => import("./the-other-three-cadences.mdx"),
   "cadences-in-your-own-tunes": () =>
@@ -262,8 +273,16 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "the-harmonic-series": () => import("./the-harmonic-series.mdx"),
   "why-your-violin-rings": () => import("./why-your-violin-rings.mdx"),
   "in-tune-is-not-one-thing": () => import("./in-tune-is-not-one-thing.mdx"),
-  "the-other-scales-and-the-modes": () =>
-    import("./the-other-scales-and-the-modes.mdx"),
+  "the-modes": () => import("./the-modes.mdx"),
+  "dorian-and-mixolydian": () => import("./dorian-and-mixolydian.mdx"),
+  "phrygian-lydian-and-locrian": () =>
+    import("./phrygian-lydian-and-locrian.mdx"),
+  "the-pentatonic-scales": () => import("./the-pentatonic-scales.mdx"),
+  "the-blues-scale": () => import("./the-blues-scale.mdx"),
+  "the-chromatic-scale": () => import("./the-chromatic-scale.mdx"),
+  "the-symmetrical-scales": () => import("./the-symmetrical-scales.mdx"),
+  "scales-from-around-the-world": () =>
+    import("./scales-from-around-the-world.mdx"),
   "a-raga-is-not-a-scale": () => import("./a-raga-is-not-a-scale.mdx"),
   "how-to-practise-a-scale": () => import("./how-to-practise-a-scale.mdx"),
   "which-scales-to-practise-now": () =>

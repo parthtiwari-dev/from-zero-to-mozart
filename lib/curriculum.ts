@@ -349,10 +349,13 @@ export const LESSONS: Lesson[] = [
   { slug: "augmented-diminished-and-the-tritone", title: "Augmented, diminished, and the tritone", stage: 4, track: "ear", tag: "NEXT", published: P },
   { slug: "hearing-the-scale-degrees", title: "Hearing the scale degrees", stage: 4, track: "ear", tag: "NOW", published: P },
   { slug: "tuning-by-ear", title: "Tuning by ear", stage: 4, track: "ear", tag: "NOW", published: P },
-  // 4b · Movement G — chords (triads)
+  // 4b · Movement G — chords (triads and beyond)
   { slug: "what-a-triad-is", title: "What a triad is", stage: 4, track: "ear", tag: "NEXT", published: P },
   { slug: "the-four-triad-qualities", title: "The four triad qualities", stage: 4, track: "ear", tag: "NEXT", published: P },
   { slug: "inversions-and-spelling", title: "Inversions, and spelling a triad", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "suspended-and-added-tone-chords", title: "Suspended and added-tone chords", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "reading-a-chord-symbol", title: "Reading a chord symbol", stage: 4, track: "reading", tag: "NEXT", published: P },
+  { slug: "chords-on-the-violin", title: "Chords on the violin", stage: 4, track: "left-hand", tag: "NEXT", published: P },
   // 4b · Movement H — harmony
   { slug: "the-chords-of-a-key", title: "The chords of a key", stage: 4, track: "ear", tag: "NEXT", published: P },
   { slug: "harmonising-a-tune-you-know", title: "Harmonising a tune you know", stage: 4, track: "ear", tag: "NEXT", published: P },
@@ -360,6 +363,11 @@ export const LESSONS: Lesson[] = [
   { slug: "harmony-has-a-rhythm-too", title: "Harmony has a rhythm too", stage: 4, track: "ear", tag: "NEXT", published: P },
   { slug: "the-dominant-seventh", title: "The dominant seventh", stage: 4, track: "ear", tag: "NEXT", published: P },
   { slug: "the-other-seventh-chords", title: "The other seventh chords", stage: 4, track: "ear", tag: "REFERENCE", published: P },
+  { slug: "extended-chords", title: "Extended chords — 9ths, 11ths, 13ths", stage: 4, track: "ear", tag: "REFERENCE", published: P },
+  { slug: "secondary-dominants", title: "Secondary dominants", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "borrowed-chords-and-mode-mixture", title: "Borrowed chords and mode mixture", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "the-chromatic-chords", title: "The chromatic chords", stage: 4, track: "ear", tag: "REFERENCE", published: P },
+  { slug: "altered-and-quartal-chords", title: "Altered and quartal chords", stage: 4, track: "ear", tag: "REFERENCE", published: P },
   // 4b · Movement I — cadences & phrase
   { slug: "what-a-cadence-is", title: "What a cadence is", stage: 4, track: "ear", tag: "NEXT", published: P },
   { slug: "the-other-three-cadences", title: "The other three cadences", stage: 4, track: "ear", tag: "NEXT", published: P },
@@ -376,8 +384,15 @@ export const LESSONS: Lesson[] = [
   { slug: "the-harmonic-series", title: "The harmonic series, and why open strings ring", stage: 4, track: "ear", tag: "NEXT", published: P },
   { slug: "why-your-violin-rings", title: "Why your violin rings", stage: 4, track: "ear", tag: "NOW", published: P },
   { slug: "in-tune-is-not-one-thing", title: "In tune is not one thing", stage: 4, track: "ear", tag: "NEXT", published: P },
-  // 4c · Movement L — other scale families
-  { slug: "the-other-scales-and-the-modes", title: "The other scales, and the modes", stage: 4, track: "ear", tag: "REFERENCE", published: P },
+  // 4c · Movement L — every scale
+  { slug: "the-modes", title: "The modes", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "dorian-and-mixolydian", title: "Dorian and Mixolydian", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "phrygian-lydian-and-locrian", title: "Phrygian, Lydian, and Locrian", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "the-pentatonic-scales", title: "The pentatonic scales", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "the-blues-scale", title: "The blues scale", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "the-chromatic-scale", title: "The chromatic scale", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "the-symmetrical-scales", title: "The symmetrical scales", stage: 4, track: "ear", tag: "REFERENCE", published: P },
+  { slug: "scales-from-around-the-world", title: "Scales from around the world", stage: 4, track: "ear", tag: "REFERENCE", published: P },
   { slug: "a-raga-is-not-a-scale", title: "A raga is not a scale", stage: 4, track: "ear", tag: "NEXT", published: P },
   // 4c · Movement M — scale practice
   { slug: "how-to-practise-a-scale", title: "How to practise a scale", stage: 4, track: "left-hand", tag: "NOW", published: P },

@@ -8,9 +8,9 @@ Every section of the original 193-page PDF (`docs/source/original-violin-book.pd
 > - **Parts I–IV → Stages 0–3: ✔ BUILT to the `RULES.md` bar** — not a 1:1 page map; the
 >   research went far past the PDF (see each stage's `stage-plans/stage-N.md` + `-research.md`).
 > - **Part V → Stage 4: ✔ BUILT** (`stage-plans/stage-4-research.md`, 20 passes;
->   `stage-plans/stage-4.md`, 4a/4b/4c, Movements A–P, **55 lessons**). Went far past Part V
+>   `stage-plans/stage-4.md`, 4a/4b/4c, Movements A–P, **70 lessons**). Went far past Part V
 >   (intervals, a dedicated ear thread, triads/harmony, cadences, phrase structure, the
->   physics, non-chord tones, the K.216 first-note bridge). Build green (216 pages).
+>   physics, non-chord tones, the K.216 first-note bridge). Build green (231 pages).
 > - **Part VI → Stage 5:** first-draft skeleton live, not yet rebuilt.
 > - **Parts VII–IX (Stages 6–9 + Vivaldi/Mozart modules): `todo`** (Phase 2–3).
 
@@ -112,8 +112,7 @@ notation, H editions, I the capstone, J tunes).
 ## Part V — Scales, Keys, Major & Minor (p89–110) → **Stage 4** — ✔ BUILT 2026-09-03
 
 Rebuilt far past the PDF: **Movements A–P** (4a Scales & keys · 4b Intervals, chords & harmony
-· 4c Arpeggios, the physics & the rest · P the tunes) — **55 lessons** (48 concept + 7
-repertoire). Details: `stage-plans/stage-4.md`. The §59/59A scale-reading pages become
+· 4c Arpeggios, the physics & the rest · P the tunes) — **70 lessons** (63 concept + 7 repertoire). Details: `stage-plans/stage-4.md`. The §59/59A scale-reading pages become
 `stage-4-scales-and-arpeggios` (P1) + the AnnotatedScore lines in Movement M — and fix the
 PDF's dropped F♯ in the §59A G-major answer.
 

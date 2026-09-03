@@ -69,16 +69,33 @@ Applied here:
 Larger than Stage 3 (46) on purpose: this is the widest concept block in the course, and
 `PRD.md` §6.1 calls the harmony/ear thread load-bearing.
 
-**BUILT 2026-09-03: all 55 live.** `npm run build` green (216 pages), `npm run lint` + `npx
-tsc --noEmit` clean. Movements A–P written to the six-beats bar; every pitched example
-name/string/finger labelled; chord stacks use combined labels; tune playthroughs unlabelled
-per `RULES.md` R3. The 8 old thin Stage-4 slugs (`major-and-minor`, `parallel-and-relative`,
-`your-scale-practice-order`, `other-scales`, `intervals`, `triads`, `cadences`, `arpeggios`)
-deleted; `what-a-scale-is` / `whole-steps-and-half-steps` / `why-g-major-has-one-sharp` /
-`the-circle-of-fifths` / `the-three-minors` / `the-twelve-keys` / `the-harmonic-series`
-rewritten in place. Vivaldi *Spring* (P6) and Eine kleine Nachtmusik (P2) are simplified
-versions, flagged in-lesson; verify P6 against `docs/source/vivaldi-spring-easy.pdf` when
-convenient.
+**BUILT 2026-09-03: 55 live.** Then **EXPANDED 2026-09-04 → 70 live** after the user asked for
+*"all type of scales and all type of chords… add more lessons"*: the single "other scales"
+card and single "other 7ths" card were the compressed version of completeness. Added **15
+lessons**:
+- **Every scale** (Movement L, 2 → 9): `the-modes` · `dorian-and-mixolydian` ·
+  `phrygian-lydian-and-locrian` · `the-pentatonic-scales` · `the-blues-scale` ·
+  `the-chromatic-scale` · `the-symmetrical-scales` (whole-tone + octatonic) ·
+  `scales-from-around-the-world` (card: Phrygian-dominant, double harmonic, Hungarian minor,
+  Japanese, acoustic, bebop, Neapolitan + the raga pitch-set note) · `a-raga-is-not-a-scale`
+  (kept). `the-other-scales-and-the-modes` deleted, content redistributed.
+- **Every chord** (Movement G, 3 → 6; Movement H, 6 → 11): `suspended-and-added-tone-chords` ·
+  `reading-a-chord-symbol` (the lead-sheet code: C, Cm, C7, Cmaj7, C°, C+, Csus4, Cadd9, C6,
+  C/E, C5) · `chords-on-the-violin` (double stops = chord fragments) · `extended-chords`
+  (9/11/13) · `secondary-dominants` (V7/V, tonicization) · `borrowed-chords-and-mode-mixture`
+  (♭VI ♭VII iv in major; the Picardy third as the reverse) · `the-chromatic-chords` (card:
+  Neapolitan sixth, augmented sixths, dim7 pivot) · `altered-and-quartal-chords` (card: 7♯9,
+  quartal, polychords, clusters).
+
+`npm run build` green (231 pages), `npm run lint` + `npx tsc --noEmit` clean. Movements A–P
+written to the six-beats bar; every pitched example name/string/finger labelled; chord stacks
+use combined labels; tune playthroughs unlabelled per `RULES.md` R3. The 8 old thin Stage-4
+slugs (`major-and-minor`, `parallel-and-relative`, `your-scale-practice-order`, `other-scales`,
+`intervals`, `triads`, `cadences`, `arpeggios`) deleted; `what-a-scale-is` /
+`whole-steps-and-half-steps` / `why-g-major-has-one-sharp` / `the-circle-of-fifths` /
+`the-three-minors` / `the-twelve-keys` / `the-harmonic-series` rewritten in place. Vivaldi
+*Spring* (P6) and Eine kleine Nachtmusik (P2) are simplified versions, flagged in-lesson;
+verify P6 against `docs/source/vivaldi-spring-easy.pdf` when convenient.
 
 ### Merges from the research draft
 

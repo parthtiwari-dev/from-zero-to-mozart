@@ -1,0 +1,86 @@
+Two scales built from a **repeating step pattern**, so they look the same starting from any of
+their notes. That symmetry is their whole character: **no note is more "home" than another**,
+so the ear floats, unmoored. Composers use them for exactly that — dreams, magic, menace,
+disorientation.
+
+## Whole-tone — all whole steps
+
+Six notes, every step a **whole step**. No half steps means no leading tone, no tonic pull.
+Debussy's signature sound.
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:C clef=treble
+D E ^F ^G ^A c d z |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G♯", string: "D", finger: "high 3" },
+    { name: "A♯", string: "A", finger: "low 1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+  ]}
+  caption="A whole-tone scale from D — D E F♯ G♯ A♯ C, back to D. Every step identical. Play up to the top and try to feel a resting point on the way. There isn't one. It shimmers."
+  defaultBpm={72}
+/>
+
+There are only **two** whole-tone scales in all of music — one starting on C, one on C♯ —
+because after six whole steps you're back where you started.
+
+## Octatonic (diminished) — alternating whole and half
+
+**Eight** notes, alternating whole step, half step, whole, half… It has a jumpy, eerie,
+"which key is this?" quality. Stravinsky and countless film composers use it for menace and
+the supernatural.
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:C clef=treble
+D E F G | _A _B =B ^c | d z z z |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A♭", string: "A", finger: "low 1" },
+    { name: "B♭", string: "A", finger: "1" },
+    { name: "B♮", string: "A", finger: "high 1" },
+    { name: "C♯", string: "A", finger: "high 2" },
+    { name: "D", string: "A", finger: "3" },
+  ]}
+  caption="An octatonic scale from D — the steps go W H W H W H W H. Eight notes to the octave instead of seven. It's built from two diminished chords a half step apart, which is why it sounds like it's always about to resolve somewhere and never does."
+  defaultBpm={72}
+  followPlayback
+/>
+
+There are only **three** distinct octatonic scales, for the same symmetry reason.
+
+## The augmented scale (a note)
+
+One more symmetrical scale you'll see named: the **augmented** (or hexatonic) scale —
+alternating **minor 3rd, half step** (C E♭ E G A♭ A). Six notes, built from two augmented
+triads. Used for a similar floating, uncanny effect. Recognise the name; don't drill it.
+
+## Try it
+
+<TryThis>
+  Play the whole-tone scale from D against a D drone. Every note sits the *same* distance from
+  its neighbour, and against the drone none of them "click" the way ^1, ^3, ^5 do in a major
+  scale. It's like standing in a room with no walls — no reference point. That's the sound
+  Debussy wanted.
+</TryThis>
+
+## The usual mistake
+
+Trying to hear these as "wrong major scales" and correcting the odd notes. They're *supposed*
+to have no home. The whole point of a symmetrical scale is the absence of gravity — play it
+as it is and let it drift.
+
+<Cite source="symmetrical scales — the whole-tone scale (Debussy, Liszt) and the octatonic scale (Rimsky-Korsakov, Stravinsky, Messiaen); both defined by a repeating interval pattern">
+  Because the step pattern repeats, these scales have no unique tonic — a feature, not a bug.
+  Messiaen called scales like these "modes of limited transposition": there are only a handful
+  of each, because the symmetry runs out.
+</Cite>
