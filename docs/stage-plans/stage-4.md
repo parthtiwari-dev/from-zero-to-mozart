@@ -89,7 +89,20 @@ lessons**:
 
 `npm run build` green (231 pages), `npm run lint` + `npx tsc --noEmit` clean. Movements A–P
 written to the six-beats bar; every pitched example name/string/finger labelled; chord stacks
-use combined labels; tune playthroughs unlabelled per `RULES.md` R3. The 8 old thin Stage-4
+use combined labels; tune playthroughs unlabelled per `RULES.md` R3.
+
+**Audit (2026-09-04, user: "recheck everything from my lens").** Ran a bar-sum checker over
+every ABC block + a music-fact re-read. Fixed **15 issues**: 8 bar-sum / metre errors (abcjs
+renders short bars silently, so the build never caught them) — `secondary-dominants` (3+3+3+4
+in 4/4; also made V/V a real A7), `in-tune-is-not-one-thing`, `what-a-scale-is` (6 quarters in
+a bar), `the-blues-scale`, and 4 chord examples that needed `M:3/4`; 2 tune rewrites —
+`tune-scarborough-fair` (didn't scan in 3/4) and `tune-fur-elise-theme` (11/16 bar + wrong
+pitches in the answer figure, now C–E–A); 2 music-fact fixes — the augmented scale's last
+note (`the-symmetrical-scales`) and the enigmatic scale spelling (`scales-from-around-the-world`);
+3 quality-bar fixes — an imprecise caption in `chords-on-the-violin`, and a missing "usual
+mistake" beat in `arpeggios-in-real-music` and `the-first-position-arpeggios`. The Indian-music
+claims (thaat/raga, drone intonation, the augmented-2nd aside) all checked out accurate and
+hedged. `tune-aura-lee`'s melody flagged for a lead-sheet verify. The 8 old thin Stage-4
 slugs (`major-and-minor`, `parallel-and-relative`, `your-scale-practice-order`, `other-scales`,
 `intervals`, `triads`, `cadences`, `arpeggios`) deleted; `what-a-scale-is` /
 `whole-steps-and-half-steps` / `why-g-major-has-one-sharp` / `the-circle-of-fifths` /
