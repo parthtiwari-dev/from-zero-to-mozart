@@ -15,10 +15,13 @@
 
 An interactive violin-learning **website** that teaches one adult beginner to **read, play,
 hear and understand music** on the violin — to the point of independent musicianship: open an
-unfamiliar score, name everything on it, play it slowly and honestly, and make their own
-interpretive choices. **The goal is that capability, not any one piece.** Mozart Violin
-Concerto No. 3, K.216 is the **north star** — the summit that proves you've arrived — not the
-deliverable. Full objective and success criteria: **`docs/PRD.md`**.
+unfamiliar score, name everything on it, play it slowly and honestly, make their own
+interpretive choices — **and play back a tune they've only heard.** **The goal is that
+capability, not any one piece.** The user's own words for the operative end goal (2026-09-04):
+*"I am trying to learn violin, not just play Mozart. End goal: if I hear something, I should be
+able to play it on my own."* — see `docs/PRD.md` §3 "the concrete north-star capability — play
+by ear". Mozart Violin Concerto No. 3, K.216 is the **north star** — the summit that proves
+you've arrived — not the deliverable. Full objective and success criteria: **`docs/PRD.md`**.
 
 It is the rebuild of a 193-page PDF course the user generated with ChatGPT. The curriculum
 design was good; the PDF build was not (≈70% whitespace per page, unreliable music notation,
@@ -31,7 +34,9 @@ Adult beginner. Background in **tabla / North-Indian classical music** → rhyth
 axis; Western pitch, harmony, staff-reading and ear-for-pitch are new and the growth goal.
 Approaches music as a system; wants the *why*. The tabla background is used as a **bridge**
 into Western classical, not as a second subject. Goal: independent musicianship (read →
-play → hear → understand → choose). Full profile: `docs/RESEARCH.md`; objective: `docs/PRD.md`.
+play → hear → understand → choose), whose plain-language form is **"if I hear it, I can play
+it"** (`docs/PRD.md` §3). The sargam/movable-Sa ear is a real asset for that — point it at
+Western tunes. Full profile: `docs/RESEARCH.md`; objective: `docs/PRD.md`.
 
 ## Hard steering from the user (these override generic instincts)
 

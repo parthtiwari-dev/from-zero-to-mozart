@@ -15,7 +15,7 @@ From yours I don't really know."*
 A calm, single-purpose website that teaches **one adult beginner** to read, play, hear and
 understand music on the violin — the way a serious studio teacher would, in a real
 pedagogical lineage — to the point where they can pick up an unfamiliar score and make
-something honest of it on their own.
+something honest of it on their own, **and play back a tune they've only heard.**
 
 ## 2. Who it's for
 
@@ -48,6 +48,36 @@ If the user reaches this and never performs K.216, the project **succeeded**. If
 grind out K.216 by rote but can't sight-read a new piece or explain what they're playing,
 the project **failed**.
 
+### The concrete north-star capability — play by ear (added 2026-09-04)
+
+The user named the operative goal in their own words:
+
+> *"I am trying to learn violin, not just play Mozart. End goal: if I hear something, I should
+> be able to play it on my own. From now, this is the goal to achieve."*
+
+This is the **plain-language version of the five capabilities above**, and from here it is the
+primary framing. "If I hear it, I can play it" requires, all at once:
+
+- **Hear** the tune — hold it in your head, feel its rhythm (a strength already), sense where
+  "home" is and roughly what key you're in.
+- **Hear it *functionally*** — this note is the fifth, that one is the leading tone, that leap
+  is a fourth — the movable-do / **sargam** ear the user's tabla background already has, pointed
+  at Western tunes. (Stage 4 built the theory; Stages 5–8 build the ear.)
+- **Know the fingerboard in reverse** — given a pitch you're hearing, know *where it lives* in
+  first position (which string, which finger) without hunting. Every Stage-5 bow lesson
+  reinforces this map by using it.
+- **Play a guess, hear the error, correct it** — the intonation self-correction loop. This is
+  a Foundation-gate criterion ("hear when a note is out and fix it") and it is the same skill
+  as playing by ear.
+- **Bow it** — produce the tone, the stroke and the phrasing you hear in your head, not just
+  the pitches. That is what Stage 5 is for.
+
+**What this means for the build:** the ear-to-instrument thread is no longer only Stage 8's
+job. Every stage from here carries a **"play it back"** beat — hear a short phrase, then find
+it on the violin unaided — and the **Foundation gate gains an ear-to-instrument check** (hear
+a simple 4-bar tune in G/D/A/C, play it back). Stage 8's ear gym becomes the course's
+centre of gravity, not a late add-on. See §4 and §6.
+
 ### Where Mozart K.216 actually sits
 
 K.216 is the **north star** — the named summit that makes the path concrete and keeps the
@@ -69,8 +99,8 @@ The course is doing its job when, at each gate:
 
 | Gate | The user can… |
 |---|---|
-| **Foundation** (end Stage 5) | read & play any first-position tune in G/D/A/C at sight; keep steady time; produce an even, controlled tone with the core bow strokes; hear when a note is out and fix it; play ~30 real melodies |
-| **Intermediate** (end Stage 8) | shift cleanly to 3rd (and touch 2nd/4th/5th); vibrate on a sustained note; sight-read a Grade-4-ish line cold; take dictation of a short phrase; play student concertos and Baroque sonatas musically |
+| **Foundation** (end Stage 5) | read & play any first-position tune in G/D/A/C at sight; keep steady time; produce an even, controlled tone with the core bow strokes; hear when a note is out and fix it; **hear a simple 4-bar tune in a known key and play it back unaided**; play ~30 real melodies |
+| **Intermediate** (end Stage 8) | shift cleanly to 3rd (and touch 2nd/4th/5th); vibrate on a sustained note; sight-read a Grade-4-ish line cold; take dictation of a short phrase; **learn a song by ear from a recording**; play student concertos and Baroque sonatas musically |
 | **The end state** (Stage 9+) | open Bach, Vivaldi, Kreisler, Mozart — read it completely, play it slowly and truthfully, say what it's doing and what they'd do with it |
 
 Per-stage "you can play…" targets: `THE-PATH.md` §6. Every stage ends at **real music**
@@ -95,9 +125,11 @@ Per-stage "you can play…" targets: `THE-PATH.md` §6. Every stage ends at **re
 
 Now that the objective is "musicianship, not the piece," some weights shift:
 
-1. **The ear-training track is core, not a side-quest.** Stage 8's ear gym, and the seeds
-   planted earlier (movable-Sa, ringing tones, "hear a wrong note", functional listening),
-   are load-bearing. Budget real lesson count for them.
+1. **The ear-training track is core, not a side-quest — and its target is "play by ear".**
+   Stage 8's ear gym is the course's centre of gravity. Every stage from 4 on carries a
+   **"play it back"** beat (hear a short phrase → find it on the violin unaided), building on
+   the seeds already planted (movable-Sa / sargam, ringing tones, "hear a wrong note",
+   functional listening). Budget real lesson count. The Foundation gate (§4) tests it directly.
 2. **"Understand what you're playing" runs through every repertoire lesson** — not just
    "here's the tune", but what key, what's the harmony doing, why this bowing, what era-
    convention applies. The `AnnotatedScore` / annotated-line format is the vehicle.
