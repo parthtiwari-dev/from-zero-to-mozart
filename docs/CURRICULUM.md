@@ -168,7 +168,10 @@ much more (the ear thread, the physics, transposition, the modes, an accurate ra
 - **Scale-reading pages** (G / D / A / C major) with one practical beginner fingering each.
 
 ### Stage 5 — The bow: core strokes & tone  →  **FOUNDATION GATE**
-*PDF Part VI (bowing portion). ~16–22 lessons — one real card per stroke.*
+*PDF Part VI (bowing portion). **BUILT 2026-09-04 — 36 lessons** — `stage-plans/stage-5.md`
+(5a Tone 9 · 5b The strokes 16 · 5c Reading & shaping + the gate 10 · P 1). Adds the
+**reading-and-planning-a-bowing** thread (`LESSONS-FROM-MOZART.md` §1) and the first
+**play-by-ear** lesson (`PRD.md` §3). 4 gate tunes deferred pending PD sources.*
 
 - **Bow physics in plain language:** tone changes with bow **speed × weight × contact point**
   (+ hair amount, bow angle, straightness); the trade-offs; Galamian's model. Near the bridge

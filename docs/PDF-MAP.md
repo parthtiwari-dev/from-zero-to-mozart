@@ -11,7 +11,8 @@ Every section of the original 193-page PDF (`docs/source/original-violin-book.pd
 >   `stage-plans/stage-4.md`, 4a/4b/4c, Movements A–P, **70 lessons**). Went far past Part V
 >   (intervals, a dedicated ear thread, triads/harmony, cadences, phrase structure, the
 >   physics, non-chord tones, the K.216 first-note bridge). Build green (231 pages).
-> - **Part VI → Stage 5:** first-draft skeleton live, not yet rebuilt.
+> - **Part VI → Stage 5:** BUILT (2026-09-04). 36 lessons; the §62/§63 pasted-paragraph
+>   padding replaced with a real lesson + atlas card per stroke. 4 gate tunes deferred.
 > - **Parts VII–IX (Stages 6–9 + Vivaldi/Mozart modules): `todo`** (Phase 2–3).
 
 Legend for target stage: see `CURRICULUM.md`.
@@ -138,14 +139,14 @@ PDF's dropped F♯ in the §59A G-major answer.
 | PDF page | Section | → target | Status |
 |---|---|---|---|
 | 111 | Part VI divider | — | — |
-| 112 | §60 The skill tree | Stage 5 intro + reference: technique index | todo |
-| 113 | §61 Bow physics in plain language | **Stage 5** | todo |
-| 114–119 | §62 Core strokes: détaché, legato, staccato, martelé, portato, spiccato | **Stage 5** (one card each) | todo |
-| 120 | §63 Bowing atlas — 25 terms | **Stage 5** bow-stroke atlas + reference | todo |
-| 121 | §64 Double stops — first safe progression | **Stage 6** | todo |
-| 122 | §65 Chords and rolled chords | **Stage 6** | todo |
+| 112 | §60 The skill tree | Stage 5 — `the-bow-stroke-atlas` "how to use this page" | **done** |
+| 113 | §61 Bow physics in plain language | Stage 5 — `how-the-bow-makes-sound`, `speed-weight-and-sounding-point`, `speed-not-pressure`, `the-five-lanes` (expanded far past the PDF's one paragraph) | **done** |
+| 114–119 | §62 Core strokes: détaché, legato, staccato, martelé, portato, spiccato | Stage 5 — a real lesson each (`detache`, `legato-and-slurs`, `staccato`, `martele`, `portato-and-colle`, `spiccato`) + `the-detache-family`, `hooked-bowing-and-retakes`, `slurred-crossings-and-bariolage` | **done** |
+| 120 | §63 Bowing atlas — 25 terms | Stage 5 — `the-bow-stroke-atlas` (~18 real cards, replacing the pasted-paragraph list) + `the-far-shore`, `colour-strokes` | **done** |
+| 121 | §64 Double stops — first safe progression | **Stage 6** (Stage 5 `rolling-a-chord-with-the-bow` does the open-string bow gesture) | todo |
+| 122 | §65 Chords and rolled chords | **Stage 6** (Stage 4 concept + Stage 5 `rolling-a-chord-with-the-bow` bow move) | partial |
 | 123 | §66 Trills and finger action | **Stage 6** | todo |
-| 124 | §67 Pizzicato | Stage 3 (term) + **Stage 5/6** (doing) | todo |
+| 124 | §67 Pizzicato | Stage 3 (term) + Stage 5 `pizzicato` (doing — right hand) | **done** |
 | 125 | §68 Vibrato — readiness gate | **Stage 7** | todo |
 | 126 | §69 Arm vibrato | **Stage 7** | todo |
 | 127 | §70 Wrist vibrato | **Stage 7** | todo |

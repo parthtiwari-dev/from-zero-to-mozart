@@ -145,6 +145,22 @@ meets on real parts, in editions, and in lead sheets:
 | cadence labels — PAC / IAC / plagal / half / deceptive; the cadential 6/4; the Picardy third | `what-a-cadence-is` (I1), `the-other-three-cadences` (I2) | taught |
 | phrase mark (long curve, crosses barlines) vs slur (short, one bow) — the distinction | `phrases-breathe` (I5); recaps Stage 3 `a-slur-is-one-bow` | taught |
 
+## Bowing notation — performed (Stage 5)
+
+Stage 3 taught reading the bow marks; Stage 5 performs them and adds the *where-in-the-bow*
+and *planning* vocabulary a real part carries.
+
+| Symbol / notation | Lesson | Status |
+|---|---|---|
+| **⊓ (down-bow) / V (up-bow)** — performed, not just read; the rule of the down-bow | `where-in-the-bow` (I1), `the-rule-of-the-down-bow` (I2); recaps Stage 3 `down-bow-up-bow-and-the-retake` | taught |
+| **where in the bow** — `WB` (whole bow) · `LH`/`½L` (lower half) · `UH`/`½U` (upper half) · `M`/`MB` (middle) · frog / `au talon` / talon / nut · tip / point / `punta d'arco` / `Sp.` (*Spitze*) / `Pt.` (*punta*) | `where-in-the-bow` (I1) | taught |
+| **retake sign** — comma / apostrophe / half-circle / "lift" — a silent bow reset | `where-in-the-bow` (I1), `hooked-bowing-and-retakes` (E4) | taught |
+| **hooked bowing** — slur + staccato dot on the 2nd note (two notes, one bow direction, a stop) | `hooked-bowing-and-retakes` (E4) | taught |
+| **portato / louré** — tenuto dashes (or dots) under a slur — pulsed notes, one bow, no stop | `portato-and-colle` (E3); recaps Stage 3 `portato` | taught (performed) |
+| **`< >` on one held note** = *messa di voce* (a crescendo–diminuendo on a single note) | `messa-di-voce` (J2), `dynamics-with-the-bow` (J1) | taught |
+| **editorial vs composer marks** — solid slur (composer) vs dotted/dashed slur (editor); `[ ]` brackets = editorial; "bowings above the staff = composer's, below = editor's" | `reading-a-bowing` (I3); recaps Stage 3 editions | taught |
+| **the détaché family / stroke names** — grand · accented · porté · lancé; martelé wedge/accent; spiccato/sautillé (from dots + tempo + era) | `the-detache-family` (D2), `martele` (E1), `spiccato` (F1), `the-bow-stroke-atlas` (H3) | taught (perform core, recognise rest) |
+
 ## Still to place
 
 - **Overdotting / notes inégales** — Stage 3 `non-legato-was-normal` touches the un-learning

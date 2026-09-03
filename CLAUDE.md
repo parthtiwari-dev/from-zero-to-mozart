@@ -126,10 +126,13 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 
 ## Status
 
-**Phase 1.5 — the content-quality campaign — is up to Stage 3.** The rule (`RULES.md` #15):
-no new stages until every built lesson meets `RULES.md` 1–7 — research-first, then rebuild
-**stage by stage 0 → 5** to the six beats, every pitched example fully labelled, every concept
-lesson 2–4 play-arounds + real music. Plan each stage with the user (`stage-plans/stage-N.md`).
+**Phase 1.5 — the content-quality campaign — is COMPLETE through Stage 5.** The rule
+(`RULES.md` #15): no new stages until every built lesson meets `RULES.md` 1–7 — research-first,
+then rebuild **stage by stage 0 → 5** to the six beats, every pitched example fully labelled,
+every concept lesson 2–4 play-arounds + real music. **Stages 0–5 are all built** (Stage 5:
+2026-09-04). **v1 = PDF Parts I–VI is done** (bar the 4 Stage-5 gate tunes + a few earlier
+deferred tunes — see NEXT SESSION). Phase 2 (Stage 6, shifting) begins next. Plan each stage
+with the user (`stage-plans/stage-N.md`).
 
 | Stage | State |
 |---|---|
@@ -138,7 +141,7 @@ lesson 2–4 play-arounds + real music. Plan each stage with the user (`stage-pl
 | **2 · Rhythm** | ✔ rebuilt — `stage-plans/stage-2.md`, Movements A–I, 33 skill lessons + 3 tunes. Added `RhythmTree` `<Diagram>` + `rhythmOnly` mode on `<NotatedExample>`. Deferred: 3 tunes (Pop Goes the Weasel / Jolly Good Fellow / Deck the Halls) pending sources. |
 | **3 · Score symbols** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-3-research.md` + `stage-3.md`, Movements A–J, **46 lessons** (42 skill + 4 tunes). 1 tune deferred (Gossec Gavotte). Details below. |
 | **4 · Scales & musicianship** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-4-research.md` (20 passes) + `stage-4.md` (4a/4b/4c, Movements A–P). **70 lessons** (63 concept + 7 repertoire). Build green (231 pages), lint + tsc clean. Owns the K.216 first-note debt — `the-first-note-of-mozart` (O2). |
-| **5 · The bow** | ⏳ **NEXT — research + plan DONE (2026-09-04).** `stage-plans/stage-5-research.md` (15 passes) + `stage-5.md` (build list, 5a/5b/5c, Movements A–L + P, ~41 lessons). Skeleton = 14 thin lessons (`detache` = polish, 13 = rewrite/split — fate table in `stage-5.md`). **Play-by-ear thread runs through the stage** (see `PRD.md` §3). Next: **build** 5a → 5b → 5c → P, movement by movement. Then → **Foundation gate** (end of v1). |
+| **5 · The bow** | ✔ **BUILT 2026-09-04 — 36 lessons.** `stage-plans/stage-5-research.md` (15 passes) + `stage-5.md` (5a Tone 9 · 5b The strokes 16 · 5c Reading & shaping + the gate 10 · P 1). Build green (253 pages), lint + tsc + barcheck clean. **Play-by-ear thread runs through the stage** (`PRD.md` §3): `finding-a-tune-by-ear` + the Foundation check's new hear-and-play-back item. **4 gate tunes deferred** (Bach *Air*, Gossec *Gavotte*, Handel *Conqu'ring Hero*, a gate piece) — need verified PD sources. Then → **Foundation gate** (end of v1). |
 
 **Stage 0–2 audit (`docs/stage-audit.md`, 2026-09-02):** every published lesson checked
 against `PRD.md` §7; 7 thin Stage-1 lessons deepened, 4 partial Stage-1 tunes completed, a
@@ -273,115 +276,63 @@ Research: `docs/stage-plans/stage-4-research.md` (20 passes + a re-verification 
 
 ---
 
-## NEXT SESSION — Stage 4 loose ends → viral-melody appendix → Stage 5 (The bow)
+## NEXT SESSION — Stage 5 loose ends → Foundation gate wrap-up → viral-melody appendix → Phase 2
 
-User (2026-09-04): *"all these things and more … everything you need to research above and
-beyond without making the mistakes that you have been making throughout."* Do all three, in
-order. **Read `## Mistakes to avoid` below before writing a single lesson.**
+**Stages 0–5 are all BUILT.** v1 (PDF Parts I–VI) is essentially complete — 253 pages, the
+Foundation gate is written (`the-foundation-check`). **Read `## Mistakes to avoid` below before
+writing a single lesson.**
 
-### 1 — Stage 4 loose ends (small)
-- **Browser spot-check** the ~55 unverified lessons (render + press play + reveal labels;
-  they must align under the noteheads, no horizontal scroll — `RULES.md` #1, R5, #2). ~15
-  checked so far.
-- **Verify three tune melodies** against a 2nd source (all flagged in-lesson as
-  simplified/unverified): `tune-vivaldi-spring-theme` vs `source/vivaldi-spring-easy.pdf`;
-  `tune-eine-kleine-nachtmusik`; `tune-aura-lee`.
-- **Run `python tools/abc-barcheck.py`** — should stay clean for Stage 4. (Pre-Stage-4 flags
-  it prints are known: mostly anacrusis false-positives + `tune-london-bridge` /
-  `tune-perpetual-motion` / `slides-and-octave-signs` worth a real look later.)
+### 1 — Stage 5 loose ends (small)
+- **The 4 deferred gate tunes** (`stage-plans/stage-5.md` §Status): transcribe from **IMSLP**,
+  verify against ≥2 sources, publish. Bach *Air* (BWV 1068 opening, simplified, first-position
+  D — **not** the "on the G string" transposition), Gossec *Gavotte* (from *Rosine*, G, first
+  position — **not** the copyrighted Suzuki arrangement; this also clears the Stage 3 J5
+  deferral), Handel *"See the Conqu'ring Hero Comes"* (first position), a Bach *Musette* /
+  Handel *Bourrée* gate piece. Keep a MusicXML source for each (`LESSONS-FROM-MOZART.md` §5).
+- **Browser spot-check** the rest of the 36 Stage-5 lessons (≈8 done). `docs/NOTATION-COVERAGE.md`
+  → add the Stage-5 bowing vocabulary. `docs/PDF-MAP.md` Part VI rows → done.
+- Minor polish noted in `stage-5.md` §Status (a stray "·" in `the-bow-stroke-atlas`; the
+  16-note labelled scale in `stage-5-tone-and-strokes`).
 
-### 2 — The viral-melody research appendix (user's standing ask, 2026-09-03)
-Research the **best-sounding / most-recognisable / "viral" melodies** — the tunes people
-actually want to play. Same discipline as Stage 3/4: **search ~10, write that section, repeat.**
-Append a curated, tagged list to `docs/REPERTOIRE.md` (the section spec is already there:
-"The best-sounding / viral melodies appendix — TO RESEARCH"). Four buckets: **film / TV / game
-themes** (Hedwig's, Married Life, He's a Pirate, Interstellar, Skyrim/Zelda/GoT, La La Land,
-Requiem for a Dream, My Heart Will Go On, Over the Rainbow); **famous classical openings**
-(Canon in D, Ave Maria ×2, Méditation, The Swan, Air on the G String, Salut d'Amour, Vivaldi
-Spring, Für Elise, Jesu Joy, Clair de Lune); **trad / fiddle tunes that go viral** (Ashokan
-Farewell, Orange Blossom Special / Devil Went Down to Georgia as goals, Czardas, Irish session
-standards, Amazing Grace, Danny Boy, Scarborough Fair, Greensleeves, klezmer/Balkan hooks);
-**pop hooks** (one-phrase songs — targets, flag the afternoon-easy ones). Tag each: **key ·
-lowest position · the hook · first-position-playable now? · PD status or licensed-arrangement
-target · which stage's skill it fits.** Feeds `/practice` + the Tier-0/1 song bank.
+### 2 — Stage 4 loose ends (still open from before)
+- **Verify three tune melodies** against a 2nd source (flagged in-lesson):
+  `tune-vivaldi-spring-theme` vs `source/vivaldi-spring-easy.pdf`; `tune-eine-kleine-nachtmusik`;
+  `tune-aura-lee`.
 
-### 3 — Stage 5: The bow — RESEARCH + PLAN DONE (2026-09-04) → BUILD IS NEXT
-The campaign's next stage; ends at the **Foundation gate** (end of v1). PDF Part VI (p111–133).
-Both docs written: **`docs/stage-plans/stage-5-research.md`** (15 passes) +
-**`docs/stage-plans/stage-5.md`** (build list — Movements A–L + P, **5a Tone / 5b The strokes
-/ 5c Reading & shaping + the gate**, ~41 lessons). The 6 decisions (user delegated them
-2026-09-04, "idk these answers… plan it fully then we implement"): PERFORM set = détaché /
-legato / martelé / clean crossing / son filé (everything off-string = recognise);
-**"reading a printed bowing" = 4 lessons** (`where-in-the-bow`, `the-rule-of-the-down-bow`,
-`reading-a-bowing`, `bowing-a-passage-yourself` — capstoned on the K.216 first solo phrase);
-the **play-by-ear thread runs through the stage** (each part ends with a "play it back" beat,
-a `finding-a-tune-by-ear` lesson, and the Foundation gate gains an ear-to-instrument check —
-`PRD.md` §3); the atlas → ~18 real cards; **pizzicato** and **rolling-a-chord-with-the-bow**
-folded in as real lessons; gate repertoire = simplified Bach *Air* + Gossec *Gavotte* (clears
-the Stage 3 J5 deferral) + Handel *Conqu'ring Hero* (martelé) + a Bach *Musette* / Handel
-*Bourrée* gate piece. Next: **build** 5a → 5b → 5c → P, movement by movement, per `stage-5.md`.
-`detache` = polish; the other 13 skeleton lessons = rewrite/split (fate table in `stage-5.md`).
+### 3 — The viral-melody research appendix (user's standing ask, 2026-09-03)
+Research the **best-sounding / most-recognisable / "viral" melodies**. Same discipline as
+Stage 3/4: **search ~10, write that section, repeat.** Append a curated, tagged list to
+`docs/REPERTOIRE.md` ("The best-sounding / viral melodies appendix — TO RESEARCH"). Four
+buckets: **film / TV / game** (Hedwig's, Married Life, He's a Pirate, Interstellar,
+Skyrim/Zelda/GoT, La La Land, Requiem for a Dream, My Heart Will Go On, Over the Rainbow);
+**famous classical openings** (Canon in D, Ave Maria ×2, Méditation, The Swan, Air on the G
+String, Salut d'Amour, Vivaldi Spring, Für Elise, Jesu Joy, Clair de Lune); **trad / fiddle**
+(Ashokan Farewell, Orange Blossom Special / Devil Went Down to Georgia as goals, Czardas,
+Irish session standards, Amazing Grace, Danny Boy, Scarborough Fair, Greensleeves,
+klezmer/Balkan); **pop hooks** (one-phrase songs — targets, flag the afternoon-easy ones). Tag
+each: **key · lowest position · the hook · first-position-playable now? · PD status or
+licensed-arrangement target · which stage's skill it fits.** Feeds `/practice` + the Tier-0/1
+song bank. Several overlap the Stage-5 gate tunes and the Stage-4 flagged tunes — do them
+together.
 
-**Build-scope checklist (from the research doc — every item is covered there):**
-- **Bow physics in full** — the three controls (speed × weight/pressure × sounding point /
-  contact point) and the trade-offs between them; hair amount, bow angle, keeping the bow
-  straight ("the highway"); how each control changes tone; Galamian's model; Simon Fischer's
-  "tone production" chapter; the *bow-speed* vs *bow-pressure* distinction beginners get wrong.
-- **Tone** — *son filé* (a sustained tone, frog to tip, even); whole-bow control; the
-  resonance/sounding point; catching the string (the start of the stroke); bow changes that
-  don't bump; **bow distribution as a planned skill** (not just "use more bow" — deciding in
-  advance where in the bow each note falls so you don't run out). `LESSONS-FROM-MOZART.md` §1.
-- **String crossings** — arm planes / levels; the wrist and fingers smoothing the change;
-  crossing on a slur vs separate; **bariolage** (rocking between a stopped note and an open
-  string); double-stop crossings (Stage 6 tie-in, reading here).
-- **The core strokes — to PERFORM now** (Stage 3 taught reading them; this is doing them):
-  **détaché** and its family (simple / grand / accented / lancé / porté / détaché porté);
-  **legato / slur** (one bow, many notes; dividing the bow; the slur that crosses a string);
-  **martelé** (the "hammered" stroke — bite, release, stop; from the frog and from the middle;
-  martelé vs a plain accent).
-- **The next layer (NEXT-tagged)** — **staccato** (on-string, and one-bow up/down-bow staccato
-  — a row of martelés in one bow); **portato / louré** (pulsed notes under one slur —
-  connects to Stage 3 C3); **collé** (a pinched pluck-with-the-bow); the **brush stroke**;
-  **hooked bowing** (two notes same direction, a stop between); **retakes / circles** (lift
-  and reset — links to Stage 3 D1 and `phrases-breathe` I5).
-- **Off the string (NEXT / LATER)** — **spiccato** (a controlled bounce, from the middle);
-  **sautillé** (a fast wrist bounce, the bow doing the work); the **spiccato ↔ sautillé
-  continuum** and how tempo moves you along it; a clear "you're not there yet, but here's what
-  it is" framing.
-- **The far shore (LATER / REFERENCE cards)** — **ricochet / jeté** (a thrown, rebounding
-  bounce); **flying staccato / flying spiccato**; **fouetté** (whipped); the **Viotti stroke**;
-  **chopping** (fiddle percussion). Name, recognise, know what era / style asks for each.
-- **Colour strokes** — **tremolo** (unmeasured — recap Stage 2/3 notation, *do* it here);
-  **sul ponticello** / **sul tasto** / **flautando** as bow-placement colours (recap Stage 3
-  D3); **col legno** (battuto / tratto); **au talon** / **à la pointe** (at the frog / at the
-  tip) as instructions.
-- **Reading a printed bowing** (`LESSONS-FROM-MOZART.md` §1, the make-or-break bit) — a real
-  part's bowing is information: `⊓`/`V` direction, the retakes, *where in the bow* (frog /
-  middle / tip / `Sp.` = *Spitze* / `Pt.` = *punta* / `au talon`), the slur groups, `f`–`p`
-  echoes needing a **bow-speed** change (messa di voce, subito p). Editorial vs composer
-  bowings (the K.216 "above the staff = Mozart's, below = the editor's" footnote). A lesson
-  that walks a marked-up phrase the way `decode-a-dense-line` walked the symbols.
-- **Dynamics as a bow decision** — completes the Stage 3 `dynamics-are-a-bow-thing` bridge:
-  forte near the bridge / more weight / faster bow; piano toward the fingerboard / lighter /
-  slower; `< >` on one long note = *messa di voce*; the crescendo that's a bow-speed change.
-- **The bow-stroke atlas** — one *real* card per stroke (name · stage · notation · sound ·
-  how to practise · what NOT to confuse it with · a listening example). This is the PDF's worst
-  padding (copy-pasted paragraphs) done right. Also a reference library candidate.
-- **Bow-arm health** — tension audits, the flexible bow hold under load, the pinky, thumb
-  counter-pressure, warming up the stroke; ties Stage 0's `holding-the-bow`.
-- **The Foundation gate** — end-of-Stage-5 check: *you can play any first-position tune in
-  G/D/A/C at sight, keep steady time, produce an even controlled tone with the core strokes,
-  hear when a note is out and fix it, play ~30 real melodies* (`PRD.md` §4). A check-piece +
-  the repertoire: **a legato *Air* (simplified) · a détaché Gavotte · a martelé study-piece ·
-  the gate check-piece** (`THE-PATH.md` §6). Some of these are on the viral-melody list.
+### 4 — Phase 2 begins: Stage 6 (Shifting & the higher positions)
+The **Intermediate half.** Research-first (`stage-6-research.md`), plan with the user, build.
+Scope: what a *position* is (whole-hand location ≠ finger); shifting mechanics (release the
+thumb, arm leads, guide/ghost notes, same-finger vs new-finger, Classical vs Romantic
+portamento, silent shifts); positions one at a time (**3rd** first, then 2nd, 4th, 5th+);
+**double stops** (open+open → open+stopped → stopped+stopped; 3rds, 6ths, octaves) — the
+technique half of the Stage-4/5 chord debt (`LESSONS-FROM-MOZART.md` §2); **chords** (the
+stopped 3-/4-note versions of `rolling-a-chord-with-the-bow`); trills as finger action;
+harmonics; the ear thread continues (`PRD.md` §6.1 — the play-by-ear goal). Then Stage 7
+(vibrato), Stage 8 (sight-reading + the ear gym — now the course's centre of gravity) →
+**Intermediate gate**.
 
-**Deferred from earlier stages:** `tune-gossec-gavotte` (Stage 3 J5 — needs the Suzuki Bk 1
-first-position arrangement or a MusicXML export; its D.C. al Fine is already taught). Stage 1's
-4 tunes pending PD sources (song-of-the-wind, go-tell-aunt-rhody, long-long-ago,
-french-folk-song); Stage 2's 3 (Pop Goes the Weasel, Jolly Good Fellow, Deck the Halls). The
-10 Stage-1 tunes to re-notate in true (not simplified) rhythm.
+**Deferred from earlier stages:** Stage 1's 4 tunes pending PD sources (song-of-the-wind,
+go-tell-aunt-rhody, long-long-ago, french-folk-song); Stage 2's 3 (Pop Goes the Weasel, Jolly
+Good Fellow, Deck the Halls); the 10 Stage-1 tunes to re-notate in true (not simplified)
+rhythm; `tune-gossec-gavotte` (now a Stage-5 gate tune — see part 1).
 
-## Mistakes to avoid (learned the hard way, Stages 1–4 — DO NOT repeat)
+## Mistakes to avoid (learned the hard way, Stages 1–5 — DO NOT repeat)
 
 1. **Bar sums.** Every `<NotatedExample>` with an explicit `M:` and `L:` — the notes in each
    bar must sum to the metre. abcjs renders a short/long bar **silently**; `npm run build`
@@ -417,6 +368,12 @@ french-folk-song); Stage 2's 3 (Pop Goes the Weasel, Jolly Good Fellow, Deck the
     grammar (aaroha/avaroha/pakad/rasa) — compare pitch-sets, never equate. Intonation is
     drone-referenced just intonation; **no shruti-to-cents claims**. Cite Bhatkhande / a raga
     reference.
+11. **Slug collisions.** Before creating a new lesson, `grep` the slug in `curriculum.ts` and
+    `registry.ts` — a "read it" lesson may already own the obvious name in an earlier stage.
+    (Stage 5's "doing tremolo" lesson collided with Stage 3's `tremolo`; `Write` silently
+    clobbered the Stage-3 file. Restored from git; the Stage-5 lesson was dropped and folded
+    into `colour-strokes` instead.) `tsc` catches a duplicate *registry* key but **not** an
+    overwritten MDX file.
 
 ### Authoring notes
 

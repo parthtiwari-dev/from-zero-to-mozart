@@ -366,5 +366,54 @@ piece with Movement J.
 
 ## Status
 
-**PLANNED 2026-09-04.** Research: `stage-5-research.md` (15 passes). Not yet built. Next:
-build 5a → 5b → 5c → P, movement by movement, to the bar above.
+**PLANNED 2026-09-04. BUILT 2026-09-04 — 36 lessons live** (5a: 9 · 5b: 16 · 5c: 10 · P: 1).
+Build green (253 pages), `npm run lint` + `npx tsc --noEmit` + `python tools/abc-barcheck.py`
+all clean (one intentional anacrusis flag in `the-rule-of-the-down-bow`, a lesson about
+pickups).
+
+- **5a — Tone (9):** `how-the-bow-makes-sound` (rewrite) · `one-long-tone` (rewrite) ·
+  `the-bow-change` · `speed-weight-and-sounding-point` · `speed-not-pressure` · `the-five-lanes`
+  (uses `<BowLanesDiagram>`) · `planning-the-bow` · `the-flexible-bow-hand` (uses
+  `<BowHoldDiagram>`) · `how-to-practise-a-bow-stroke`.
+- **5b — The strokes (16):** `detache` (polished — added a "When the Saints" fragment + a
+  "where in the bow" beat) · `the-detache-family` · `legato-and-slurs` (rewrite, + the
+  bowing-variation drill) · `string-crossings` (rewrite) · `slurred-crossings-and-bariolage` ·
+  `martele` (rewrite) · `staccato` (rewrite) · `portato-and-colle` (rewrite) ·
+  `hooked-bowing-and-retakes` · `spiccato` (rewrite, + the brush stroke) ·
+  `sautille-and-the-continuum` (was `sautille-and-beyond`) · `the-far-shore` · `colour-strokes`
+  (was `bow-effects`) · `pizzicato` · `rolling-a-chord-with-the-bow` (the K.216 gesture on open
+  strings) · `the-bow-stroke-atlas` (rewrite → real cards).
+  - **`tremolo` NOT added** — Stage 3's `tremolo` lesson (reading track) already covers doing
+    it (bowed + fingered, measured + unmeasured). `colour-strokes` points back to it. This is
+    the one merge from the plan.
+- **5c — Reading & shaping + the gate (10):** `where-in-the-bow` · `the-rule-of-the-down-bow` ·
+  `reading-a-bowing` (was `reading-bowings`, deeper) · `bowing-a-passage-yourself` (capstone —
+  decodes the K.216 first solo phrase's bowing, closing the Stage-4 arc) · `dynamics-with-the-bow`
+  · `messa-di-voce` · `phrasing-with-the-bow` · `finding-a-tune-by-ear` (the play-by-ear payoff,
+  `PRD.md` §3, `ear` track) · `the-baroque-bow-and-the-modern-bow` · `the-foundation-check`
+  (rewrite — the 6 gate capabilities incl. the new **hear-a-tune-and-play-it-back** check).
+- **Movement P — the repertoire:** `stage-5-tone-and-strokes` **live** (son filé + détaché /
+  slurred / martelé scales + the bowing-variation drill). The 4 real tunes — `tune-bach-air`,
+  `tune-gossec-gavotte` (also the Stage 3 J5 deferral), `tune-conquering-hero`,
+  `tune-foundation-gate-piece` — are **DEFERRED** as roadmap entries: they need verified PD
+  melody sources (IMSLP), never a from-memory transcription (`RULES.md` #8, `CLAUDE.md`
+  Mistakes to avoid #4). Same handling as Stage 1's pending tunes.
+
+**Deleted:** `sautille-and-beyond.mdx`, `bow-effects.mdx`, `reading-bowings.mdx` (renamed/split).
+
+### Still to do (Stage 5 loose ends)
+- **The 4 gate tunes** — transcribe from IMSLP, verify against ≥2 sources, publish. Bach *Air*
+  (opening, simplified, first-position D — **not** the "on the G string" transposition),
+  Gossec *Gavotte* (from *Rosine*, G, first position — **not** the copyrighted Suzuki
+  arrangement), Handel *"See the Conqu'ring Hero"* (first position), a Bach *Musette* / Handel
+  *Bourrée* gate piece. Keep a MusicXML source for each.
+- **Browser spot-check** the rest of the 36 (≈8 checked: `the-five-lanes`, `rolling-a-chord`,
+  `hooked-bowing`, `speed-not-pressure`, `the-bow-stroke-atlas`, `bowing-a-passage-yourself`,
+  `reading-a-bowing`, `stage-5-tone-and-strokes` — all render clean, labels aligned, no
+  horizontal scroll, console clean).
+- **`docs/NOTATION-COVERAGE.md`** — add the Stage-5 bowing vocabulary (⊓/V confirm, WB/LH/UH/M,
+  `Sp.`/`Pt.`/`au talon`, retake sign, messa-di-voce `< >` on one note).
+- **`docs/PDF-MAP.md`** — Part VI rows → done.
+- **Polish:** `the-bow-stroke-atlas` has a stray "·" bullet mid-line in one card
+  ("Where: … · Written: …") — cosmetic; the bowing-variations scale in P1 has 16 labelled
+  notes (legible but dense).
