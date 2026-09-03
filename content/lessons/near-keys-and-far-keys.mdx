@@ -1,0 +1,113 @@
+The circle of fifths isn't just a filing system for key signatures. It's a map of **how
+related two keys are** — and that matters, because pieces don't stay in one key. They travel,
+and they almost always travel to a **neighbour**.
+
+## Neighbours share almost everything
+
+Keys next to each other on the circle differ by exactly **one note**. C major and G major:
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:C clef=treble
+C D E F G A B c |]`}
+  labels={[
+    { name: "C", string: "G", finger: "3" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+  ]}
+  caption="C major — the F is natural (low 2 on the D string)."
+  defaultBpm={72}
+/>
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:G clef=treble
+C D E F G A B c |]`}
+  labels={[
+    { name: "C", string: "G", finger: "3" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+  ]}
+  caption="The same eight letters read in G major — only the F changed, to F♯ (high 2). One note different out of seven. C and G are next-door neighbours."
+  defaultBpm={72}
+/>
+
+Keys on **opposite sides** of the circle — a tritone apart, like C and F♯ — share almost
+nothing, and a jump between them sounds jarring and remote. Composers use that on purpose, but
+rarely.
+
+## The dominant is the nearest neighbour — and where pieces go
+
+A key's closest relative, one step clockwise, is its **dominant** (G is the dominant of C). So
+when a piece leaves home, the dominant is the natural first stop — one note changes, and the
+ear follows easily.
+
+This is the missing "why" behind something from Stage 3. A minuet's first half often ends with
+a repeat sign, on a chord that isn't home. That's because the first half has **travelled one
+step clockwise, to the dominant** — and the second half brings it back. The double bar isn't
+the end of a thought; it's the far point of a round trip.
+
+<NotatedExample
+  abc={`X:1
+M:3/4
+L:1/4
+K:G clef=treble
+G B d | c B A | B c d | A2 z |]`}
+  labels={[
+    { name: "G", string: "G", finger: "0" },
+    { name: "B", string: "G", finger: "high 2" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="A little phrase in G major that lands and stops on A — the second degree, part of the dominant chord. It doesn't sound finished; it sounds like a comma. That 'not home yet' feeling is what a piece exploits when it moves to the dominant."
+  defaultBpm={76}
+/>
+
+## How you spot a key change
+
+Two tells, and you use both:
+
+1. **A new accidental keeps appearing.** A tune in G major that suddenly has a C♯ in bar after
+   bar hasn't borrowed one note — it's moved to D major (where C♯ belongs).
+2. **A cadence lands in the new key.** The phrase comes to rest on a *different* home note.
+   (Cadences get their own movement.)
+
+## Try it
+
+<TryThis>
+  Play a G major scale. Now play it again, but raise every C to C♯ (high 2 on the A string
+  instead of low 2). You've just shifted the whole scale into **D major** — one note changed,
+  one step clockwise on the circle. Play the two versions back to back and hear the second one
+  lift.
+</TryThis>
+
+## The usual mistake
+
+Reading a piece note by note and never noticing it has changed key — then being surprised when
+a note "sounds wrong" that's actually right in the new key. Watch for a new accidental that
+stops being an accident and starts being the rule. That's the music telling you it has moved
+house, usually to the key next door.
+
+<Cite source="closely related keys and modulation to the dominant — standard tonal practice; the binary-form round trip">
+  From the Baroque suite through the Classical sonata, the standard plan for a piece's first
+  section is: start home, travel to the dominant, stop. The second section is the journey back.
+  The circle of fifths is the map of that trip.
+</Cite>

@@ -1,23 +1,128 @@
-A **scale** is an ordered set of pitches climbing (or descending) from a home note — the
-**tonic** — back to itself an octave later. It's not just a warm-up exercise: a scale is the
-**pitch vocabulary of a key**, the set of notes a piece in that key draws from most of the time.
+A **scale** is a row of pitches in order — climbing (or descending) from a home note back to
+itself an octave later. The home note is the **tonic**, and every other note in the scale is
+heard *in relation* to it: a little way from home, or nearly home, or the note that leans hard
+back toward home.
 
-Your G-major scale is **G A B C D E F♯ G**. That last G is the same note as the first, an
-octave higher — the tonic returning "home."
+That's the important part. A scale isn't a warm-up drill and it isn't the same thing as a key.
+It's the **pitch vocabulary** of a key — the notes a piece in that key mostly draws from — laid
+out as a ladder so you can see the shape.
+
+## See it — one octave, tonic to tonic
 
 <NotatedExample
   abc={`X:1
 L:1/4
-K:G clef=treble
-G A B c | d e f g |]`}
+K:C clef=treble
+C D E F | G A B c |]`}
   labels={[
-    { name: "1" }, { name: "2" }, { name: "3" }, { name: "4" },
-    { name: "5" }, { name: "6" }, { name: "7" }, { name: "8" },
+    { name: "C", string: "G", finger: "3" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
   ]}
-  caption="G major, numbered by scale degree. Degree 1 and degree 8 are both 'G' — the same pitch class, an octave apart."
-  defaultBpm={76}
+  caption="C major, one octave. The first C and the last C are the same note a octave apart — the tonic, leaving home and arriving back."
+  defaultBpm={72}
 />
 
-Every major scale, in every key, has the **same internal shape** — the same pattern of close
-and wide steps between neighbours. That pattern is what the next page unpacks, and it's why
-"G major" and "D major" feel like the same kind of thing in a different place.
+Eight notes written, seven really — the eighth is the first one again, higher. The ladder goes
+up by **steps** (neighbour to neighbour), never skipping. That's what makes it a scale rather
+than a tune.
+
+## Hear it — stop before the top
+
+Play the scale up, but **stop on the seventh note** and hold it. Your ear will try to finish it
+for you — it *wants* that last step home. That pull is the whole reason keys exist.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+G, A, B, C | D E F4 | G4 |]`}
+  labels={[
+    { name: "G", string: "G", finger: "0" },
+    { name: "A", string: "G", finger: "1" },
+    { name: "B", string: "G", finger: "high 2" },
+    { name: "C", string: "G", finger: "3" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="G major, and it hangs on F♯ — the seventh — for a whole bar before it resolves up to G. Listen to how unfinished that F♯ feels, and how the last G lands."
+  defaultBpm={80}
+/>
+
+## Try it
+
+<TryThis>
+  Play a one-octave G major scale slowly, up only. Stop dead on the F♯ (high 2 on the D
+  string) and count four slow beats before you play the last G. Feel the itch to move. Then do
+  it again stopping on the E (the sixth) — less itch. Then on the D (the fifth) — you could
+  almost rest there. The scale's notes are not all equal.
+</TryThis>
+
+## A scale is not a key
+
+Same eight notes, two different homes. Play this — it circles C and sounds settled on C:
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+C E G E | c G E C |]`}
+  labels={[
+    { name: "C", string: "G", finger: "3" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "C", string: "G", finger: "3" },
+  ]}
+  caption="The notes of C major, arranged so C is clearly home. This is 'in the key of C'."
+  defaultBpm={80}
+/>
+
+Now the **same seven notes**, arranged around A instead — and it sounds like a different piece,
+in a minor key:
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+A, C E C | A, E C A, |]`}
+  labels={[
+    { name: "A", string: "G", finger: "1" },
+    { name: "C", string: "G", finger: "3" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "C", string: "G", finger: "3" },
+    { name: "A", string: "G", finger: "1" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "C", string: "G", finger: "3" },
+    { name: "A", string: "G", finger: "1" },
+  ]}
+  caption="No sharps or flats — still the notes of the C scale — but now A is home. The scale (the note collection) didn't change; the key (which note has gravity) did."
+  defaultBpm={80}
+/>
+
+## The usual mistake
+
+Treating "scale" as a synonym for "boring exercise". A scale is a *map* — practise the G major
+scale and every piece in G major is half-learned, because you've already found every note under
+your hand and heard how each one pulls. The other mistake is thinking the scale *is* the key.
+The scale is the ladder of notes; the key is the sense that one of them is home. You need both
+words.
+
+<Cite source="the word 'scale' — Latin scala, 'ladder'; Guido of Arezzo, c. 1030">
+  Medieval singers learned pitches as a moveable six-note ladder (the hexachord), sung to
+  syllables — the ancestor of do-re-mi. The idea has always been the same: not the absolute
+  pitches, but the *steps between them* and which one is home.
+</Cite>

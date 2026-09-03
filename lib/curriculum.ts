@@ -316,22 +316,86 @@ export const LESSONS: Lesson[] = [
   { slug: "tune-amazing-grace", title: "Amazing Grace", stage: 3, track: "repertoire", tag: "NOW", published: P, piece: { key: "G major", position: "1st", skill: "reading a line of expression marks — mp/cresc/mf/dim/rit/fermata", inPdf: false } },
   { slug: "tune-gossec-gavotte", title: "Gossec Gavotte", stage: 3, track: "repertoire", tag: "NOW", piece: { key: "D major", position: "1st", skill: "staccato — dot vs slur vs plain; D.C. al Fine", inPdf: false } },
 
-  // ── Stage 4 — Scales & musicianship ─────────────────────────────
+  // ── Stage 4 — Scales & musicianship I ───────────────────────────
+  //   Rebuilt to docs/stage-plans/stage-4.md (from stage-4-research.md, 20
+  //   passes). 4a/4b/4c grouping is a /learn divider, not stage numbers —
+  //   stage: 4 throughout. 48 concept + 7 repertoire. Owns the K.216
+  //   first-note debt (LESSONS-FROM-MOZART.md §2).
+  //
+  // 4a · Scales & keys
+  // 4a · Movement A — what a scale is
   { slug: "what-a-scale-is", title: "What a scale actually is", stage: 4, track: "ear", tag: "NOW", published: P },
+  { slug: "the-scale-degrees-and-their-pull", title: "The scale degrees, and their pull", stage: 4, track: "ear", tag: "NOW", published: P },
+  { slug: "do-re-mi-and-sa-re-ga", title: "Do-re-mi and Sa-re-ga", stage: 4, track: "ear", tag: "NOW", published: P },
+  // 4a · Movement B — steps & the major formula
   { slug: "whole-steps-and-half-steps", title: "Whole steps and half steps", stage: 4, track: "ear", tag: "NOW", published: P },
+  { slug: "the-major-scale-formula", title: "The major scale formula", stage: 4, track: "ear", tag: "NOW", published: P },
   { slug: "why-g-major-has-one-sharp", title: "Why G major has one sharp", stage: 4, track: "ear", tag: "NOW", published: P },
+  { slug: "key-signatures-in-full", title: "Key signatures in full", stage: 4, track: "reading", tag: "NOW", published: P },
+  // 4a · Movement C — the circle of fifths
   { slug: "the-circle-of-fifths", title: "The circle of fifths", stage: 4, track: "ear", tag: "NOW", published: P },
-  { slug: "major-and-minor", title: "What major and minor mean", stage: 4, track: "ear", tag: "NOW", published: P },
+  { slug: "near-keys-and-far-keys", title: "Near keys and far keys", stage: 4, track: "ear", tag: "NEXT", published: P },
+  // 4a · Movement D — minor
+  { slug: "what-major-and-minor-mean", title: "What major and minor mean", stage: 4, track: "ear", tag: "NOW", published: P },
   { slug: "the-three-minors", title: "The three minors", stage: 4, track: "ear", tag: "NEXT", published: P },
-  { slug: "parallel-and-relative", title: "Parallel and relative", stage: 4, track: "ear", tag: "NOW", published: P },
+  { slug: "relative-and-parallel", title: "Relative and parallel", stage: 4, track: "ear", tag: "NOW", published: P },
+  // 4a · Movement E — the twelve keys
   { slug: "the-twelve-keys", title: "The twelve keys", stage: 4, track: "ear", tag: "REFERENCE", published: P },
-  { slug: "intervals", title: "Intervals", stage: 4, track: "ear", tag: "NOW", published: P },
-  { slug: "triads", title: "Triads", stage: 4, track: "ear", tag: "NEXT", published: P },
-  { slug: "cadences", title: "Cadences", stage: 4, track: "ear", tag: "NEXT", published: P },
-  { slug: "arpeggios", title: "Arpeggios", stage: 4, track: "left-hand", tag: "NOW", published: P },
-  { slug: "other-scales", title: "The other scale families", stage: 4, track: "ear", tag: "REFERENCE", published: P },
+  { slug: "the-keys-the-violin-loves", title: "The keys the violin loves", stage: 4, track: "ear", tag: "NOW", published: P },
+  // 4b · Intervals, chords & harmony
+  // 4b · Movement F — intervals & the ear
+  { slug: "what-an-interval-is", title: "What an interval is", stage: 4, track: "ear", tag: "NOW", published: P },
+  { slug: "the-intervals-in-the-major-scale", title: "The intervals in the major scale", stage: 4, track: "ear", tag: "NOW", published: P },
+  { slug: "augmented-diminished-and-the-tritone", title: "Augmented, diminished, and the tritone", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "hearing-the-scale-degrees", title: "Hearing the scale degrees", stage: 4, track: "ear", tag: "NOW", published: P },
+  { slug: "tuning-by-ear", title: "Tuning by ear", stage: 4, track: "ear", tag: "NOW", published: P },
+  // 4b · Movement G — chords (triads)
+  { slug: "what-a-triad-is", title: "What a triad is", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "the-four-triad-qualities", title: "The four triad qualities", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "inversions-and-spelling", title: "Inversions, and spelling a triad", stage: 4, track: "ear", tag: "NEXT", published: P },
+  // 4b · Movement H — harmony
+  { slug: "the-chords-of-a-key", title: "The chords of a key", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "harmonising-a-tune-you-know", title: "Harmonising a tune you know", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "notes-that-arent-in-the-chord", title: "Notes that aren't in the chord", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "harmony-has-a-rhythm-too", title: "Harmony has a rhythm too", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "the-dominant-seventh", title: "The dominant seventh", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "the-other-seventh-chords", title: "The other seventh chords", stage: 4, track: "ear", tag: "REFERENCE", published: P },
+  // 4b · Movement I — cadences & phrase
+  { slug: "what-a-cadence-is", title: "What a cadence is", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "the-other-three-cadences", title: "The other three cadences", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "cadences-in-your-own-tunes", title: "Cadences in your own tunes", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "motif-phrase-and-period", title: "Motif, phrase, and period", stage: 4, track: "ear", tag: "NEXT", published: P },
+  { slug: "phrases-breathe", title: "Phrases breathe", stage: 4, track: "bow", tag: "NEXT", published: P },
+  // 4c · Arpeggios, the physics & the rest
+  // 4c · Movement J — arpeggios
+  { slug: "what-an-arpeggio-is", title: "What an arpeggio is", stage: 4, track: "left-hand", tag: "NOW", published: P },
+  { slug: "the-first-position-arpeggios", title: "The first-position arpeggios", stage: 4, track: "left-hand", tag: "NOW", published: P },
+  { slug: "broken-thirds-and-the-dominant-seventh-arpeggio", title: "Broken thirds, and the dominant-seventh arpeggio", stage: 4, track: "left-hand", tag: "NEXT", published: P },
+  { slug: "arpeggios-in-real-music", title: "Arpeggios in real music", stage: 4, track: "repertoire", tag: "NOW", published: P },
+  // 4c · Movement K — the physics
   { slug: "the-harmonic-series", title: "The harmonic series, and why open strings ring", stage: 4, track: "ear", tag: "NEXT", published: P },
-  { slug: "your-scale-practice-order", title: "Which scales to actually practise", stage: 4, track: "ear", tag: "NOW", published: P },
+  { slug: "why-your-violin-rings", title: "Why your violin rings", stage: 4, track: "ear", tag: "NOW", published: P },
+  { slug: "in-tune-is-not-one-thing", title: "In tune is not one thing", stage: 4, track: "ear", tag: "NEXT", published: P },
+  // 4c · Movement L — other scale families
+  { slug: "the-other-scales-and-the-modes", title: "The other scales, and the modes", stage: 4, track: "ear", tag: "REFERENCE", published: P },
+  { slug: "a-raga-is-not-a-scale", title: "A raga is not a scale", stage: 4, track: "ear", tag: "NEXT", published: P },
+  // 4c · Movement M — scale practice
+  { slug: "how-to-practise-a-scale", title: "How to practise a scale", stage: 4, track: "left-hand", tag: "NOW", published: P },
+  { slug: "which-scales-to-practise-now", title: "Which scales to practise now", stage: 4, track: "ear", tag: "NOW", published: P },
+  // 4c · Movement N — transposition
+  { slug: "transposing-a-tune", title: "Transposing a tune", stage: 4, track: "reading", tag: "NEXT", published: P },
+  // 4c · Movement O — putting it together
+  { slug: "read-the-harmony-of-a-line", title: "Read the harmony of a line", stage: 4, track: "reading", tag: "NEXT", published: P },
+  { slug: "the-first-note-of-mozart", title: "The first note of Mozart", stage: 4, track: "repertoire", tag: "NEXT", published: P },
+  { slug: "the-musicianship-check", title: "The musicianship check", stage: 4, track: "reading", tag: "NEXT", published: P },
+  // 4 · Movement P — the tunes (also on /practice)
+  { slug: "stage-4-scales-and-arpeggios", title: "Scales and arpeggios to play", stage: 4, track: "repertoire", tag: "NOW", published: P, piece: { key: "G / D / A / C major, E minor", position: "1st", skill: "the NOW one-octave scale & arpeggio set", inPdf: true } },
+  { slug: "tune-eine-kleine-nachtmusik", title: "Eine kleine Nachtmusik (opening)", stage: 4, track: "repertoire", tag: "NOW", published: P, piece: { key: "G major", position: "1st", skill: "arpeggios as music — a I arpeggio answered by a V7 arpeggio; the rocket", inPdf: false } },
+  { slug: "tune-canon-in-d", title: "Canon in D", stage: 4, track: "repertoire", tag: "NOW", published: P, piece: { key: "D major", position: "1st", skill: "hearing a chord progression — I–V–vi–iii–IV–I–IV–V under a floating melody", inPdf: false } },
+  { slug: "tune-scarborough-fair", title: "Scarborough Fair", stage: 4, track: "repertoire", tag: "NEXT", published: P, piece: { key: "E Dorian / E minor", position: "1st", skill: "modal colour — a minor key with the 6th raised; the period", inPdf: false } },
+  { slug: "tune-fur-elise-theme", title: "Für Elise (theme)", stage: 4, track: "repertoire", tag: "NEXT", published: P, piece: { key: "A minor", position: "1st", skill: "a minor key + hearing the leading tone pull; question and answer", inPdf: false } },
+  { slug: "tune-vivaldi-spring-theme", title: "Vivaldi — Spring (theme)", stage: 4, track: "repertoire", tag: "NEXT", published: P, piece: { key: "E major", position: "1st", skill: "a ritornello + an f/p echo; arpeggio and trill figures", inPdf: false } },
+  { slug: "tune-aura-lee", title: "Aura Lee", stage: 4, track: "repertoire", tag: "NOW", published: P, piece: { key: "C major", position: "1st", skill: "the C-major first-position hand; a IV-heavy harmony", inPdf: false } },
 
   // ── Stage 5 — The bow ──────────────────────────────────────────
   { slug: "how-the-bow-makes-sound", title: "How the bow makes sound", stage: 5, track: "bow", tag: "NOW", published: P },

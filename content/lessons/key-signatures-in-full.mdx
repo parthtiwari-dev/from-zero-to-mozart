@@ -1,0 +1,109 @@
+Stage 1 taught you what a key signature *is* — a standing instruction, at the front of every
+line: *these notes are sharp (or flat) every time, all the way through.* It also gave you the
+first three sharp keys. This lesson finishes the job: the **full order**, why it's that order,
+and two tricks that name any key signature in a second.
+
+## The order never changes
+
+Sharps always arrive in this order: **F C G D A E B.**
+Flats always arrive in the exact reverse: **B E A D G C F.**
+
+A key with three sharps has F♯, C♯ *and* G♯ — the first three of the list, always in that
+order. A key with two flats has B♭ and E♭. On the staff they sit in a fixed zig-zag shape, so
+you learn the *picture*, not a fresh calculation each time.
+
+<NotatedExample
+  abc={`X:1
+L:1/1
+K:A clef=treble
+A |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="Three sharps — F♯, C♯, G♯, in that order and that shape. This is A major (or its relative minor — see below)."
+  defaultBpm={60}
+/>
+
+<NotatedExample
+  abc={`X:1
+L:1/1
+K:Bb clef=treble
+F |]`}
+  labels={[
+    { name: "F", string: "D", finger: "low 2" },
+  ]}
+  caption="Two flats — B♭, E♭. This is B♭ major (or its relative minor). The note shown is F, the dominant."
+  defaultBpm={60}
+/>
+
+## Why *that* order
+
+Each new sharp, as you move to a new key, is a **perfect fifth above** the last (F → C → G →
+D…). Each new flat is a perfect fifth **below** the last. That's not a coincidence — it's
+because the *keys* march up (or down) in fifths, and each move forces exactly one new note:
+
+- Going **up a fifth** (C → G → D…), the note that has to change is the new key's **7th degree**
+  — it must be raised to a leading tone. G major's new sharp, F♯, is G major's 7th. D major
+  keeps F♯ and adds C♯, which is D major's 7th.
+- Going **down a fifth** (C → F → B♭…), the new note is the new key's **4th degree**, flattened.
+  F major's flat, B♭, is F major's 4th.
+
+## Trick 1 — sharp keys
+
+**The last sharp is the leading tone. Go up one half step and you're on the tonic.**
+
+- Last sharp is F♯ → up a half step → **G major**.
+- Last sharp is C♯ → **D major**.
+- Last sharp is G♯ → **A major**.
+
+## Trick 2 — flat keys
+
+**The second-to-last flat names the key.**
+
+- Flats B♭, E♭ → second-to-last is B♭ → **B♭ major**.
+- Flats B♭, E♭, A♭ → **E♭ major**.
+- Flats B♭, E♭, A♭, D♭ → **A♭ major**.
+
+**One flat is the exception:** B♭ alone is **F major** — memorise that one, because "second-
+to-last" needs at least two flats.
+
+## The other half of the answer
+
+Every key signature belongs to **one major key *or* its relative minor** — the two share all
+seven notes. One sharp is **G major or E minor**. No sharps or flats is **C major or A minor**.
+Which one a piece is actually in is a listening judgement, and it's the next movement's job.
+For now: read the signature, name the *major* possibility, and keep the minor one in mind.
+
+## Try it
+
+<Quiz
+  items={[
+    { q: "Three sharps (F♯ C♯ G♯) — what major key?", a: "A major. Last sharp G♯, up a half step to A." },
+    { q: "Four flats (B♭ E♭ A♭ D♭) — what major key?", a: "A♭ major. Second-to-last flat is A♭." },
+    { q: "One flat — what major key?", a: "F major. (The memorised exception.)" },
+    { q: "Two sharps — name the sharps and the key.", a: "F♯ and C♯; D major. Last sharp C♯, up a half step to D." },
+    { q: "No sharps, no flats — what are the two possibilities?", a: "C major, or A minor. The music tells you which." },
+    { q: "Five sharps — what are they, in order?", a: "F♯, C♯, G♯, D♯, A♯ — the first five of 'F C G D A E B'. (The key is B major, or G♯ minor.)" },
+  ]}
+  title="Name the key signature"
+/>
+
+<TryThis>
+  Pull up the *Minuet in G* and *Amazing Grace* tunes you've played. Look only at the front of
+  each line. Minuet in G (our version) is in D — two sharps, last sharp C♯. Amazing Grace is in
+  G — one sharp. Name each from the signature alone before you look at a single note.
+</TryThis>
+
+## The usual mistake
+
+Working out the scale from scratch to identify a key ("okay, one sharp, F♯, so W-W-H from
+where…"). You did that once, in *The major scale formula*. Now use the trick: last sharp plus a
+half step, or second-to-last flat. It takes a second, and a good sight-reader does it before
+playing a note.
+
+<Cite source="the flat sign — Italian 'be molle', 'soft B'; the oldest accidental in Western notation (c. 10th century)">
+  Long before key signatures, medieval singers were already flattening B to soften the harsh
+  F–B tritone — an unwritten habit called *musica ficta*. The ♭ sign is a stylised lowercase
+  b; the ♮ and ♯ signs are the "hard b" of the same medieval pair. Key signatures are that one
+  habit, formalised and extended.
+</Cite>

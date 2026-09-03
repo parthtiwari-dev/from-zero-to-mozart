@@ -1,0 +1,81 @@
+Three chords — **I, IV and V** — can accompany a startling amount of music. Here's why, and how
+to work out which one goes where.
+
+## Why three chords is often enough
+
+- **I** contains ^1 ^3 ^5 (do–mi–sol)
+- **IV** contains ^4 ^6 ^1 (fa–la–do)
+- **V** contains ^5 ^7 ^2 (sol–ti–re)
+
+Between them, those three chords hold **all seven degrees** of the scale. So whatever note the
+melody is on, at least one of I, IV, V has it — and usually the ear tells you which.
+
+**The rough rule:**
+
+- a bar leaning on **do / mi / sol** → **I**
+- a bar leaning on **sol / ti / re** (or **fa**) → **V** (or V7)
+- a bar leaning on **fa / la** → **IV**
+
+## Ode to Joy, harmonised
+
+The tune sits almost entirely on I and V, with one IV near the end. Play the melody, and where
+the chord symbol changes, hear the harmony underneath shift:
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+"^I" B B c d | d c B A | "^I" G G A B | "^V" B3/2 A/2 A2 |]`}
+  labels={[
+    { name: "B", string: "A", finger: "1" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="Ode to Joy, first phrase, in G major. Bars 1–3 rest on notes from the tonic chord (B, C, D, G, A are mostly ^3 ^4 ^5 ^1 ^2) — so: I. The last bar lands on A (^2), part of the V chord, and it sounds unfinished — a half cadence."
+  defaultBpm={90}
+  followPlayback
+/>
+
+## Try it
+
+<TryThis>
+  Turn on the drone bar with a G drone and play the Ode to Joy phrase above. For the first
+  three bars the melody agrees with the drone — it's all tonic. On the last bar, the A grinds a
+  little against the G: that's the melody wanting a V chord instead of the tonic drone. You can
+  *hear* where the harmony needs to change.
+</TryThis>
+
+<Quiz
+  items={[
+    { q: "A bar of melody that's mostly G, B and D — which chord?", a: "I (G major) — those are ^1 ^3 ^5, the tonic triad." },
+    { q: "A bar sitting on D, F♯ and A in G major — which chord?", a: "V (D major) — ^5 ^7 ^2." },
+    { q: "The melody is on C and A. Which of I, IV, V fits best?", a: "IV (C major) — it contains both ^4 (C) and ^6 (A)." },
+    { q: "Why can I, IV and V harmonise almost any diatonic tune?", a: "Together they contain all seven scale degrees, so every melody note belongs to at least one of them." },
+  ]}
+  title="Which chord?"
+/>
+
+## The usual mistake
+
+Forcing a chord change every bar, or never changing at all. Let the melody tell you: when it
+moves to notes that clash with the current chord and agree with a new one, that's your cue.
+And a tune can happily sit on one chord for several bars — Twinkle's whole first line is just
+I, then IV, then I.
+
+<Cite source="harmonising a melody with primary chords — the standard first exercise in every harmony course; Nancy Rogers, Music Theory I handout, and others">
+  "Measures that use mainly do, mi and sol should be harmonised with the tonic; measures using
+  mainly sol, ti, re and fa with the dominant." It really is that direct to start.
+</Cite>

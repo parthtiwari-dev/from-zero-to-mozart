@@ -1,17 +1,116 @@
-A **half step** (semitone) is the smallest ordinary step in this system — on the violin, your
-neighbouring low/high finger positions are a half step apart. Two half steps make a **whole
-step**. That's the entire vocabulary you need for what's next.
+Scales are built out of just two sizes of step. Get these two straight and the rest of the
+stage falls into place.
 
-Every major scale is built from the exact same recipe of whole (W) and half (H) steps, starting
-from the tonic:
+A **half step** (or *semitone*) is the smallest ordinary step in Western music — one note to
+its closest possible neighbour. A **whole step** (or *tone*) is two half steps. Steps are
+**distances**, not notes: "whole" and "half" describe the gap *between* two notes, not the
+notes themselves.
 
-**W – W – H – W – W – W – H**
+## Where the half steps hide
 
-| Degree | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
-|---|---|---|---|---|---|---|---|---|
-| Step to next | W | W | H | W | W | W | H | — |
+Here's the catch that makes scales interesting. On the musical alphabet — A B C D E F G — most
+neighbours are a **whole** step apart, but two pairs are only a **half** step:
 
-Apply that recipe starting on **any** note and you get *that* note's major scale — which is
-exactly how the next page derives G major from scratch instead of asking you to memorise it.
-The two half-steps in the pattern (between degrees 3–4 and 7–8) are the "glue" points — they're
-why a major scale sounds like it's pulling toward its tonic rather than just wandering.
+**E → F** and **B → C.**
+
+There's no note between E and F, and none between B and C. Everywhere else — C→D, D→E, F→G,
+G→A, A→B — you *can* fit a note between (that's what the sharps and flats are for), so those
+gaps are whole steps.
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:C clef=treble
+E F z2 B c z2 |]`}
+  labels={[
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+  ]}
+  caption="The two natural half steps: E–F and B–C. On the violin, the low 2nd finger sits right against the 1st — the fingers almost touch."
+  defaultBpm={60}
+/>
+
+## On the violin: fingers touching
+
+You already know this shape from Stage 1's finger patterns. **Fingers apart = a whole step.
+Fingers touching = a half step.** You feel the difference; there's nothing to see on the
+fingerboard.
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:C clef=treble
+D ^F z2 ^F G z2 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="D up to F♯ is a whole step (open string to a spread 2nd finger — a gap). F♯ up to G is a half step (high 2nd finger and 3rd finger touching)."
+  defaultBpm={60}
+/>
+
+## Hear it
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+A B z2 | A ^A z2 |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "A♯", string: "A", finger: "low 1" },
+  ]}
+  caption="First bar: A up to B, a whole step — an open, roomy move. Second bar: A up to A♯, a half step — the 1st finger pulled right back, close to the nut. Play both and listen for how much narrower the second one is."
+  defaultBpm={60}
+/>
+
+## Try it
+
+<TryThis>
+  On the D string, find every half step you can reach in first position: E→F (1st finger, then
+  low 2nd against it), F♯→G (high 2nd against 3rd), G♯→A (high 3rd against 4th). Each time, feel
+  the two fingers come together. Then play D→E, a whole step, and feel the gap.
+</TryThis>
+
+## The half steps in a scale
+
+Play G major slowly and listen for the two spots where the step is small — where the fingers
+touch:
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:G clef=treble
+G, A, B, C D E F G |]`}
+  labels={[
+    { name: "G", string: "G", finger: "0" },
+    { name: "A", string: "G", finger: "1" },
+    { name: "B", string: "G", finger: "high 2" },
+    { name: "C", string: "G", finger: "3" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="G major. The half steps are B→C (3rd degree to 4th) and F♯→G (7th to 8th) — both times the fingers touch. Every other step is a whole step."
+  defaultBpm={72}
+/>
+
+## The usual mistake
+
+Assuming every letter-to-next-letter step is the same size, and spacing your fingers evenly by
+default. They aren't and you can't. E–F and B–C are *half* the size of the others, and that
+built-in unevenness is the whole reason a scale has a shape — and the reason some keys need
+sharps and some need flats.
+
+<Cite source="the finger-pattern method — Doflein Method, Book I; the natural half steps E–F and B–C are a fixed feature of staff notation">
+  Doflein builds first position entirely out of whole-step / half-step hand shapes. Once you
+  can feel "fingers touching = half step," you can play any first-position scale by feel.
+</Cite>

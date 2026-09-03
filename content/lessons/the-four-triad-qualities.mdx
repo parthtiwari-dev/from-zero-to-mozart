@@ -1,0 +1,88 @@
+A triad is two thirds stacked. But a third can be **major** (4 half steps) or **minor** (3),
+and the two choices give you **four** kinds of triad — four different colours.
+
+| Quality | Lower 3rd | Upper 3rd | Root → 5th | Sound |
+|---|---|---|---|---|
+| **Major** | major | minor | perfect 5th | bright, settled |
+| **Minor** | minor | major | perfect 5th | dark, settled |
+| **Diminished** | minor | minor | **diminished** 5th | tense, unstable (it contains a tritone) |
+| **Augmented** | major | major | **augmented** 5th | floating, no gravity |
+
+## Hear all four on one root
+
+Built on D, played as broken chords (root, 3rd, 5th):
+
+<NotatedExample
+  abc={`X:1
+M:3/4
+L:1/4
+K:C clef=treble
+D ^F A | D =F A | D =F _A | D ^F ^A |]`}
+  labels={[
+    { name: "D · root", string: "D", finger: "0" },
+    { name: "F♯ · major 3rd", string: "D", finger: "high 2" },
+    { name: "A · perfect 5th", string: "A", finger: "0" },
+    { name: "D · root", string: "D", finger: "0" },
+    { name: "F♮ · minor 3rd", string: "D", finger: "low 2" },
+    { name: "A · perfect 5th", string: "A", finger: "0" },
+    { name: "D · root", string: "D", finger: "0" },
+    { name: "F♮ · minor 3rd", string: "D", finger: "low 2" },
+    { name: "A♭ · diminished 5th", string: "A", finger: "low 1" },
+    { name: "D · root", string: "D", finger: "0" },
+    { name: "F♯ · major 3rd", string: "D", finger: "high 2" },
+    { name: "A♯ · augmented 5th", string: "A", finger: "low 1" },
+  ]}
+  caption="D major, D minor, D diminished, D augmented — same root, four flavours. Major and minor differ by one note (the 3rd). Diminished pulls the 5th in too; augmented pushes it out. Play the four bars and listen: the last two won't sit still."
+  defaultBpm={72}
+  followPlayback
+/>
+
+## Major and minor rolled
+
+The two "settled" triads are playable as a rolled chord on the violin — here's G major and G
+minor, open G and open D with the 3rd on the A string:
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+[G,DB]4 | [G,D_B]4 |]`}
+  labels={[
+    { name: "G + D + B (major)", string: "G, D & A", finger: "0, 0 & 1" },
+    { name: "G + D + B♭ (minor)", string: "G, D & A", finger: "0, 0 & low 1" },
+  ]}
+  caption="G major, then G minor — rolled bottom to top. The only note that moves is the 3rd on the A string, a half step. That half step is the difference between bright and dark."
+  defaultBpm={56}
+/>
+
+## Try it
+
+<TryThis>
+  Play D and A (open D string, open A string) together as a drone-ish double stop. Now add F♯
+  (high 2 on the D string) in your ear — D major. Slide it back to F natural — D minor. You're
+  hearing the 3rd flip the chord's whole character while the outer two notes hold still.
+</TryThis>
+
+<Quiz
+  items={[
+    { q: "A triad with a major 3rd on the bottom and a minor 3rd on top is…", a: "Major." },
+    { q: "Two minor 3rds stacked gives which quality?", a: "Diminished — and the root-to-5th is a tritone." },
+    { q: "Which one has no perfect 5th and 'floats' with no clear home?", a: "Augmented (two major 3rds; the 5th is stretched wide)." },
+    { q: "C, E♭, G — what quality?", a: "Minor. C to E♭ is a minor 3rd; E♭ to G is a major 3rd; C to G is a perfect 5th." },
+  ]}
+  title="Triad qualities"
+/>
+
+## The usual mistake
+
+Hearing a diminished or augmented triad and assuming someone played a wrong note. They're
+*meant* to sound unsettled — that's their job. A diminished triad usually appears on the way
+to the tonic (it's built on the leading tone); an augmented one is a colour a composer reaches
+for deliberately.
+
+<Cite source="the four triad qualities — Rameau and the common-practice tradition; Zarlino on the major and minor third">
+  Zarlino noticed that the major third and minor third are the two thirds that sound
+  consonant. Stack them two ways and you get the bright triad and the dark one — the two
+  chords that hold up most of Western music.
+</Cite>

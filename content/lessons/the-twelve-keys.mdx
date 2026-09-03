@@ -1,24 +1,70 @@
-The full set of major-key spellings, for reference — you don't need to memorise this table,
-just know it exists and come back to it. "12 pitch classes" doesn't mean there are only 12
-possible *key signatures*; some keys can be spelled two ways (F♯ major and G♭ major are the
-same pitches, different names) — this table gives the practical, commonly-used spelling for
-each.
+A reference card. You don't memorise this — you come back to it.
 
-| Key | Scale |
+## Twelve keys, fifteen signatures
+
+There are **12** notes to build a major key on. But there are **15** possible written key
+signatures, because **three keys have two legal spellings**:
+
+| Sharp spelling | = Flat spelling |
 |---|---|
-| C | C D E F G A B C |
-| G | G A B C D E F♯ G |
-| D | D E F♯ G A B C♯ D |
-| A | A B C♯ D E F♯ G♯ A |
-| E | E F♯ G♯ A B C♯ D♯ E |
-| B | B C♯ D♯ E F♯ G♯ A♯ B |
-| F♯ | F♯ G♯ A♯ B C♯ D♯ E♯ F♯ |
-| D♭ | D♭ E♭ F G♭ A♭ B♭ C D♭ |
-| A♭ | A♭ B♭ C D♭ E♭ F G A♭ |
-| E♭ | E♭ F G A♭ B♭ C D E♭ |
-| B♭ | B♭ C D E♭ F G A B♭ |
-| F | F G A B♭ C D E F |
+| **B** major (5 sharps) | **C♭** major (7 flats) |
+| **F♯** major (6 sharps) | **G♭** major (6 flats) |
+| **C♯** major (7 sharps) | **D♭** major (5 flats) |
 
-The ones you'll actually use this year are near the top: **C, G, D, A** are your Stage 4
-practice scales, and you'll add a couple more (E minor, F, B♭) as your fingering vocabulary
-grows.
+Same piano keys, same violin fingers — different names on the page. So "12 pitch classes"
+does **not** mean "12 key signatures." A composer picks the spelling with **fewer
+accidentals** (D♭'s five flats beat C♯'s seven sharps), or the one that fits where the music
+is heading.
+
+## The practical spellings
+
+| Key | Sharps / flats | Scale |
+|---|---|---|
+| C | — | C D E F G A B C |
+| G | 1♯ | G A B C D E F♯ G |
+| D | 2♯ | D E F♯ G A B C♯ D |
+| A | 3♯ | A B C♯ D E F♯ G♯ A |
+| E | 4♯ | E F♯ G♯ A B C♯ D♯ E |
+| B | 5♯ | B C♯ D♯ E F♯ G♯ A♯ B |
+| F♯ | 6♯ | F♯ G♯ A♯ B C♯ D♯ E♯ F♯ |
+| F | 1♭ | F G A B♭ C D E F |
+| B♭ | 2♭ | B♭ C D E♭ F G A B♭ |
+| E♭ | 3♭ | E♭ F G A♭ B♭ C D E♭ |
+| A♭ | 4♭ | A♭ B♭ C D♭ E♭ F G A♭ |
+| D♭ | 5♭ | D♭ E♭ F G♭ A♭ B♭ C D♭ |
+| G♭ | 6♭ | G♭ A♭ B♭ C♭ D♭ E♭ F G♭ |
+
+The ones you'll actually play are at the top: **C, G, D, A** major this stage (plus **E
+minor**), and **F** and **B♭** as your fingering grows.
+
+## Double sharps and double flats
+
+A **double sharp** (𝄪) raises a note two half steps; a **double flat** (𝄫) lowers it two. They
+never sit in a standard key signature — but they appear as **accidentals**, most often as a
+**raised leading tone inside a sharp minor key**. G♯ minor's leading tone is written **F𝄪**
+(F♯ raised again — it *sounds* like G natural, but it's spelled as a raised 7th degree, and
+the 7th degree of G♯ is some kind of F).
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:C clef=treble
+^^F z G z |]`}
+  labels={[
+    { name: "F𝄪 (sounds as G)", string: "D", finger: "3" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="A double sharp: F𝄪 on the staff. It's played exactly where G is — same finger, same pitch — but it's spelled F𝄪 because of the key it's in. A first-position player in G / D / A / C / E minor essentially never meets one; recognise it and move on."
+  defaultBpm={60}
+/>
+
+## Where you land
+
+Read a signature, name the key with the tricks from *Key signatures in full*, check whether
+it's the major or the relative minor, and know that a strange-looking spelling (C♭, F𝄪) is
+just a familiar sound wearing an unfamiliar name.
+
+<Cite source="the 15 major key signatures and enharmonic keys — standard music notation">
+  Fifteen written signatures: seven sharp keys, seven flat keys, and C. The overlap at the
+  bottom of the circle of fifths is where the three double-named keys live.
+</Cite>

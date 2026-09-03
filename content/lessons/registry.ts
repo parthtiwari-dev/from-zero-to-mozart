@@ -210,22 +210,79 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "tune-minuet-in-g": () => import("./tune-minuet-in-g.mdx"),
   "tune-amazing-grace": () => import("./tune-amazing-grace.mdx"),
 
-  // Stage 4 — Scales & musicianship
+  // Stage 4 — Scales & musicianship I (docs/stage-plans/stage-4.md)
+  // 4a — Scales & keys
   "what-a-scale-is": () => import("./what-a-scale-is.mdx"),
+  "the-scale-degrees-and-their-pull": () =>
+    import("./the-scale-degrees-and-their-pull.mdx"),
+  "do-re-mi-and-sa-re-ga": () => import("./do-re-mi-and-sa-re-ga.mdx"),
   "whole-steps-and-half-steps": () => import("./whole-steps-and-half-steps.mdx"),
+  "the-major-scale-formula": () => import("./the-major-scale-formula.mdx"),
   "why-g-major-has-one-sharp": () => import("./why-g-major-has-one-sharp.mdx"),
+  "key-signatures-in-full": () => import("./key-signatures-in-full.mdx"),
   "the-circle-of-fifths": () => import("./the-circle-of-fifths.mdx"),
-  "major-and-minor": () => import("./major-and-minor.mdx"),
+  "near-keys-and-far-keys": () => import("./near-keys-and-far-keys.mdx"),
+  "what-major-and-minor-mean": () => import("./what-major-and-minor-mean.mdx"),
   "the-three-minors": () => import("./the-three-minors.mdx"),
-  "parallel-and-relative": () => import("./parallel-and-relative.mdx"),
+  "relative-and-parallel": () => import("./relative-and-parallel.mdx"),
   "the-twelve-keys": () => import("./the-twelve-keys.mdx"),
-  intervals: () => import("./intervals.mdx"),
-  triads: () => import("./triads.mdx"),
-  cadences: () => import("./cadences.mdx"),
-  arpeggios: () => import("./arpeggios.mdx"),
-  "other-scales": () => import("./other-scales.mdx"),
+  "the-keys-the-violin-loves": () => import("./the-keys-the-violin-loves.mdx"),
+  // 4b — Intervals, chords & harmony
+  "what-an-interval-is": () => import("./what-an-interval-is.mdx"),
+  "the-intervals-in-the-major-scale": () =>
+    import("./the-intervals-in-the-major-scale.mdx"),
+  "augmented-diminished-and-the-tritone": () =>
+    import("./augmented-diminished-and-the-tritone.mdx"),
+  "hearing-the-scale-degrees": () => import("./hearing-the-scale-degrees.mdx"),
+  "tuning-by-ear": () => import("./tuning-by-ear.mdx"),
+  "what-a-triad-is": () => import("./what-a-triad-is.mdx"),
+  "the-four-triad-qualities": () => import("./the-four-triad-qualities.mdx"),
+  "inversions-and-spelling": () => import("./inversions-and-spelling.mdx"),
+  "the-chords-of-a-key": () => import("./the-chords-of-a-key.mdx"),
+  "harmonising-a-tune-you-know": () =>
+    import("./harmonising-a-tune-you-know.mdx"),
+  "notes-that-arent-in-the-chord": () =>
+    import("./notes-that-arent-in-the-chord.mdx"),
+  "harmony-has-a-rhythm-too": () => import("./harmony-has-a-rhythm-too.mdx"),
+  "the-dominant-seventh": () => import("./the-dominant-seventh.mdx"),
+  "the-other-seventh-chords": () => import("./the-other-seventh-chords.mdx"),
+  "what-a-cadence-is": () => import("./what-a-cadence-is.mdx"),
+  "the-other-three-cadences": () => import("./the-other-three-cadences.mdx"),
+  "cadences-in-your-own-tunes": () =>
+    import("./cadences-in-your-own-tunes.mdx"),
+  "motif-phrase-and-period": () => import("./motif-phrase-and-period.mdx"),
+  "phrases-breathe": () => import("./phrases-breathe.mdx"),
+  // 4c — Arpeggios, the physics & the rest
+  "what-an-arpeggio-is": () => import("./what-an-arpeggio-is.mdx"),
+  "the-first-position-arpeggios": () =>
+    import("./the-first-position-arpeggios.mdx"),
+  "broken-thirds-and-the-dominant-seventh-arpeggio": () =>
+    import("./broken-thirds-and-the-dominant-seventh-arpeggio.mdx"),
+  "arpeggios-in-real-music": () => import("./arpeggios-in-real-music.mdx"),
   "the-harmonic-series": () => import("./the-harmonic-series.mdx"),
-  "your-scale-practice-order": () => import("./your-scale-practice-order.mdx"),
+  "why-your-violin-rings": () => import("./why-your-violin-rings.mdx"),
+  "in-tune-is-not-one-thing": () => import("./in-tune-is-not-one-thing.mdx"),
+  "the-other-scales-and-the-modes": () =>
+    import("./the-other-scales-and-the-modes.mdx"),
+  "a-raga-is-not-a-scale": () => import("./a-raga-is-not-a-scale.mdx"),
+  "how-to-practise-a-scale": () => import("./how-to-practise-a-scale.mdx"),
+  "which-scales-to-practise-now": () =>
+    import("./which-scales-to-practise-now.mdx"),
+  "transposing-a-tune": () => import("./transposing-a-tune.mdx"),
+  "read-the-harmony-of-a-line": () =>
+    import("./read-the-harmony-of-a-line.mdx"),
+  "the-first-note-of-mozart": () => import("./the-first-note-of-mozart.mdx"),
+  "the-musicianship-check": () => import("./the-musicianship-check.mdx"),
+  // 4 — Movement P: the tunes
+  "stage-4-scales-and-arpeggios": () =>
+    import("./stage-4-scales-and-arpeggios.mdx"),
+  "tune-eine-kleine-nachtmusik": () =>
+    import("./tune-eine-kleine-nachtmusik.mdx"),
+  "tune-canon-in-d": () => import("./tune-canon-in-d.mdx"),
+  "tune-scarborough-fair": () => import("./tune-scarborough-fair.mdx"),
+  "tune-fur-elise-theme": () => import("./tune-fur-elise-theme.mdx"),
+  "tune-vivaldi-spring-theme": () => import("./tune-vivaldi-spring-theme.mdx"),
+  "tune-aura-lee": () => import("./tune-aura-lee.mdx"),
 
   // Stage 5 — The bow
   "how-the-bow-makes-sound": () => import("./how-the-bow-makes-sound.mdx"),

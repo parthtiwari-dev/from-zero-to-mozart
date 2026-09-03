@@ -130,7 +130,7 @@ lesson 2–4 play-arounds + real music. Plan each stage with the user (`stage-pl
 | **1 · First position & the staff** | ✔ rebuilt — `stage-plans/stage-1.md`, Movements A–F, ~43 lessons + 10 published tunes (4 pending PD sources: song-of-the-wind, go-tell-aunt-rhody, long-long-ago, french-folk-song). Deferred: re-notating the published tunes in true (not simplified) rhythm. |
 | **2 · Rhythm** | ✔ rebuilt — `stage-plans/stage-2.md`, Movements A–I, 33 skill lessons + 3 tunes. Added `RhythmTree` `<Diagram>` + `rhythmOnly` mode on `<NotatedExample>`. Deferred: 3 tunes (Pop Goes the Weasel / Jolly Good Fellow / Deck the Halls) pending sources. |
 | **3 · Score symbols** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-3-research.md` + `stage-3.md`, Movements A–J, **46 lessons** (42 skill + 4 tunes). 1 tune deferred (Gossec Gavotte). Details below. |
-| **4 · Scales & musicianship** | 📋 **RESEARCH + DRAFT PLAN DONE 2026-09-03** — `stage-plans/stage-4-research.md` (20 passes) + `stage-4.md` (build list: 4a/4b/4c, Movements A–P, ~48 concept + 6 tune/scale, merges 63→48). **NEXT: user reviews `stage-4.md` (3 open questions), then build.** See "NEXT SESSION". |
+| **4 · Scales & musicianship** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-4-research.md` (20 passes) + `stage-4.md` (4a/4b/4c, Movements A–P). **55 lessons** (48 concept + 7 repertoire). Build green (216 pages), lint + tsc clean. Owns the K.216 first-note debt — `the-first-note-of-mozart` (O2). |
 | **5 · The bow** | first-draft skeleton live (14 lessons), not yet rebuilt. Then → Foundation gate. |
 
 **Stage 0–2 audit (`docs/stage-audit.md`, 2026-09-02):** every published lesson checked
@@ -144,7 +144,7 @@ left margin (`<Margin>`/`<Cite>`), lesson locator, spelled-out notation labels.
 **Pipeline (proven):** MDX + `<NotatedExample>` (abcjs render + violin-timbre playback + real
 name/string/finger label overlay + `rhythmOnly` + `followPlayback` + `howToPlay`) + `<Quiz>` +
 `<CircleOfFifths>` + `<Diagram>` family + the tuner/drone/metronome bar + `/learn` + `/practice`
-+ `/mozart`. Build: `npm run build` (176 pages), `npm run lint`, `npx tsc --noEmit` — all green.
++ `/mozart`. Build: `npm run build` (216 pages), `npm run lint`, `npx tsc --noEmit` — all green.
 - **K.216 module: deferred** (`docs/stage-plans/mozart-k216.md`). It's Phase 3 and far beyond
   the user now. Built as a proof: `/mozart` index + `mozart-k216` (orientation) +
   `mozart-k216-i-entrance` + `-i-b2` (the first solo, bars 9–19, from a `.mxl` +
@@ -207,31 +207,62 @@ worked diagram in `da-capo-dal-segno-and-the-coda` E2.)
 **Minor cosmetic:** the densest decode / ending examples (~11–14 labels) crowd the label row;
 single-note / single-chord examples render left-aligned in the well.
 
+**Stage 4 (Scales & musicianship I) — BUILT (2026-09-03).** Research:
+`docs/stage-plans/stage-4-research.md` (20 passes + a re-verification pass). Plan:
+`docs/stage-plans/stage-4.md` (4a/4b/4c, Movements A–P). Live: **55 lessons** (48
+concept/skill + 7 repertoire). Build green (216 pages), lint + tsc clean.
+
+- **4a — Scales & keys** (A–E, 14): what a scale is · scale degrees & their pull · do-re-mi /
+  Sa-re-ga · steps & the major formula · key signatures in full · the circle of fifths (the
+  violin's G-D-A-E = four spokes) · near/far keys · what major & minor mean · the three minors
+  · relative & parallel · the twelve keys (card) · the keys the violin loves (+ Schubart
+  affekt).
+- **4b — Intervals, chords & harmony** (F–I, 19 — the load-bearing block): what an interval
+  is · the intervals in the major scale (+ inversion) · aug/dim & the tritone (+ consonance/
+  dissonance) · **hearing the scale degrees** (the drone drill — first real ear-gym lesson) ·
+  tuning by ear · what a triad is · the four qualities · inversions & spelling · the chords of
+  a key (+ T/PD/D functions) · harmonising a tune you know · non-chord tones · harmonic rhythm
+  · the dominant seventh · other 7ths (card) · what a cadence is · the other three cadences (+
+  Picardy) · cadences in your own tunes · motif/phrase/period (+ sequence) · phrases breathe
+  (bow track).
+- **4c — Arpeggios, the physics & the rest** (J–O, 15): what an arpeggio is · the
+  first-position arpeggios · broken 3rds & the V7 arpeggio · **arpeggios in real music** (the
+  K.216 opening = a G-major arpeggio; the four numberings) · the harmonic series · why your
+  violin rings · in-tune-is-not-one-thing (3 temperaments; the drone/just bridge) · other
+  scales & the modes (card) · **`a-raga-is-not-a-scale`** (thaat vs raga, cited) · how to
+  practise a scale · which scales now · transposing a tune · **`read-the-harmony-of-a-line`**
+  (the capstone) · **`the-first-note-of-mozart`** (the K.216 debt paid) · the musicianship
+  check.
+- **Movement P — the tunes:** the scale/arpeggio set (`stage-4-scales-and-arpeggios`) · Eine
+  kleine Nachtmusik opening (G, I↔V7 arpeggios — *simplified*, flagged) · Canon in D (the
+  progression) · Scarborough Fair (E Dorian vs E minor) · Für Elise theme (A minor + leading
+  tone) · Vivaldi *Spring* theme (D, ritornello + f/p echo — *simplified/transposed*, flagged)
+  · Aura Lee (C major hand).
+- Old thin slugs deleted: `major-and-minor`, `parallel-and-relative`, `your-scale-practice-
+  order`, `other-scales`, `intervals`, `triads`, `cadences`, `arpeggios`. Seven kept-slug
+  lessons rewritten in place.
+- **Still to do:** browser spot-check per movement; `NOTATION-COVERAGE.md` Stage-4 symbols
+  (`^1` carets, Roman numerals, figured-bass 6/6-4, chord symbols, 𝄪/𝄫); verify P6 Vivaldi &
+  P2 EKN against sources.
+
 ---
 
-## NEXT SESSION — Stage 4 (Scales & musicianship I) : REVIEW the plan, then build
+## NEXT SESSION — the viral-melody appendix, then Stage 5
 
-**Research DONE** (2026-09-03) — `docs/stage-plans/stage-4-research.md`, 20 interleaved passes
-+ a re-verification pass, full sources list. Lineage quotes added to `docs/LINEAGE-QUOTES.md`.
+**Stage 4 is BUILT** (2026-09-03) — `docs/stage-plans/stage-4.md` §Status. 55 lessons,
+Movements A–P (4a Scales & keys · 4b Intervals, chords & harmony · 4c Arpeggios, physics &
+the rest · P the tunes). Build green (216 pages), lint + tsc clean.
 
-**Draft PLAN DONE** (2026-09-03) — `docs/stage-plans/stage-4.md`, the build list:
-- **4a/4b/4c split** (`stage: 4` throughout, a `/learn` divider — like Stage 3's 3a/3b):
-  4a Scales & keys (A–E, 14) · 4b Intervals, chords & harmony (F–I, 19 — the load-bearing block)
-  · 4c Arpeggios, the physics & the rest (J–O, 15).
-- **~48 concept lessons + 6 repertoire** (scale/arpeggio set + 5 tunes), merged down from the
-  research draft's ~63 (the merge table is in the plan).
-- All 15 existing Stage-4 slugs re-pointed or renamed (table in the plan).
+**Not yet done for Stage 4:**
+- **Browser spot-check** each movement (render + play + labels align; `RULES.md` #1, R5) —
+  especially the chord-stack examples, the double-sharp example (E1), and the tune playthroughs.
+- `docs/NOTATION-COVERAGE.md` — add the Stage-4 reading vocabulary (scale-degree carets `^1`,
+  Roman numerals I/V7/vii°, figured-bass 6 & 6/4, chord symbols, 𝄪/𝄫).
+- Verify **P6 Vivaldi *Spring*** against `docs/source/vivaldi-spring-easy.pdf` (it's a
+  simplified/transposed version, flagged in-lesson); **P2 Eine kleine Nachtmusik** likewise.
 
-**Next step: the user reviews `stage-4.md`** — it has **3 open questions** flagged:
-1. **Vivaldi *Spring* placement** — `PDF-MAP.md` says Phase-2 Vivaldi module; `THE-PATH.md` §6
-   says the theme is Stage 4. Plan recommends: build the theme here (P6), full movement later.
-2. **Ear thread as its own movement** — keep F4–F5 inside Movement F, or split into a visible
-   "Movement F′ — Hearing it"? Plan recommends: keep in F.
-3. **Cut deeper?** 48 concept is defensible but big; the plan names the first 3 to drop.
-
-Then build to the `PRD.md` §7 bar, movement by movement (4a → 4b → 4c). **No new components**
-(`RULES.md` #17). The **Indian-music claims** (A3, D2, K3, L2) get the strictest fact-check —
-the user *can* catch a wrong one.
+**Then — the viral-melody appendix (user's explicit ask, 2026-09-03).** Now that Stage 4 is
+built, **research the best-sounding / most-recognisable / "viral" melodies** — the tunes
 
 **Load-bearing, must not cut** (`PRD.md` §6.1, `LESSONS-FROM-MOZART.md` §2, the user's explicit
 ask): the ear thread (`hearing-the-scale-degrees` esp.); the K.216 bridge

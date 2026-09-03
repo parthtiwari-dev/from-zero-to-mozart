@@ -1,25 +1,120 @@
-Minor keys come in three related forms. All three share the same key signature — they're
-variations on how the top of the scale behaves, not different key signatures.
+Minor comes in **three forms**. They all share one key signature — they differ only in how the
+**6th and 7th degrees** behave near the top of the scale. Here's *why* there are three, using
+**E minor** (one sharp, F♯) throughout.
 
-**Natural minor** — the plain form from the last page: G A B♭ C D E♭ F G.
+## The problem natural minor has
 
-**Harmonic minor** — raises the 7th degree by a half step, creating a stronger pull back to
-the tonic (a proper "leading tone"):
+Play E natural minor up and stop on the 7th degree, **D**:
 
 <NotatedExample
   abc={`X:1
 L:1/4
-K:C clef=treble
-G A =B c | d =e ^f g |]`}
-  caption="G harmonic minor: the F is raised to F sharp. Notice the gap it creates between E♭ and F♯ — almost a step and a half, giving harmonic minor its distinctive, slightly exotic sound."
+K:Em clef=treble
+E F G A | B c d e |]`}
+  labels={[
+    { name: "E · ^1", string: "D", finger: "1" },
+    { name: "F♯ · ^2", string: "D", finger: "high 2" },
+    { name: "G · ^3", string: "D", finger: "3" },
+    { name: "A · ^4", string: "A", finger: "0" },
+    { name: "B · ^5", string: "A", finger: "1" },
+    { name: "C · ^6", string: "A", finger: "low 2" },
+    { name: "D · ^7", string: "A", finger: "3" },
+    { name: "E · ^8", string: "E", finger: "0" },
+  ]}
+  caption="E natural minor. The 7th degree, D, is a whole step below the tonic E. Stop on it: it doesn't ache to move the way F♯ does at the top of G major. It's a subtonic, not a leading tone."
   defaultBpm={72}
 />
 
-**Melodic minor** — in classical practice, raises **both** the 6th and 7th degrees going up
-(G A B♭ C D **E F♯** G), then reverts to the plain natural-minor notes coming back down. Real
-repertoire treats this more flexibly than the textbook rule suggests, but the classical version
-is the one worth knowing first.
+That whole step means natural minor has **no leading tone** — no strong pull home. Composers
+fix it by raising the 7th.
 
-You don't need to memorise all three forms in every key today — REFERENCE for now. Learn the
-*concept* (one key signature, three top-end variants), and drill specific minor keys only as
-your repertoire actually asks for them.
+## Harmonic minor — raise the 7th
+
+Raise **D to D♯**, a half step below the tonic. Now there's a real leading tone, and the chord
+built on the 5th degree becomes major and strong (that's the "harmonic" part — it's about the
+chords).
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:Em clef=treble
+E F G A | B c ^d e |]`}
+  labels={[
+    { name: "E · ^1", string: "D", finger: "1" },
+    { name: "F♯ · ^2", string: "D", finger: "high 2" },
+    { name: "G · ^3", string: "D", finger: "3" },
+    { name: "A · ^4", string: "A", finger: "0" },
+    { name: "B · ^5", string: "A", finger: "1" },
+    { name: "C · ^6", string: "A", finger: "low 2" },
+    { name: "D♯ · ^7", string: "A", finger: "high 3" },
+    { name: "E · ^8", string: "E", finger: "0" },
+  ]}
+  caption="E harmonic minor: D raised to D♯. Now the last step D♯→E leans in, hard. But listen to the gap between C (^6) and D♯ (^7) — three half steps, an 'augmented second'. That wide, jumpy step is harmonic minor's fingerprint: you hear it in Bach, in flamenco, in klezmer."
+  defaultBpm={72}
+/>
+
+## Melodic minor — raise the 6th too, going up
+
+The augmented 2nd sounds fine in a chord, but jumpy in a running melody. So when the line is
+**ascending**, raise the **6th as well** (C → C♯) to smooth it out. Coming **down**, there's
+nothing to smooth — no pull toward the tonic — so it reverts to plain natural minor.
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:Em clef=treble
+E F G A | B ^c ^d e |]`}
+  labels={[
+    { name: "E · ^1", string: "D", finger: "1" },
+    { name: "F♯ · ^2", string: "D", finger: "high 2" },
+    { name: "G · ^3", string: "D", finger: "3" },
+    { name: "A · ^4", string: "A", finger: "0" },
+    { name: "B · ^5", string: "A", finger: "1" },
+    { name: "C♯ · ^6", string: "A", finger: "high 2" },
+    { name: "D♯ · ^7", string: "A", finger: "high 3" },
+    { name: "E · ^8", string: "E", finger: "0" },
+  ]}
+  caption="E melodic minor, going up: both C and D raised (C♯, D♯) for a smooth climb to the tonic. No jumpy augmented 2nd now."
+  defaultBpm={76}
+/>
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:Em clef=treble
+e d c B | A G F E |]`}
+  labels={[
+    { name: "E · ^8", string: "E", finger: "0" },
+    { name: "D · ^7", string: "A", finger: "3" },
+    { name: "C · ^6", string: "A", finger: "low 2" },
+    { name: "B · ^5", string: "A", finger: "1" },
+    { name: "A · ^4", string: "A", finger: "0" },
+    { name: "G · ^3", string: "D", finger: "3" },
+    { name: "F♯ · ^2", string: "D", finger: "high 2" },
+    { name: "E · ^1", string: "D", finger: "1" },
+  ]}
+  caption="E melodic minor, coming down: C and D revert to natural — plain natural minor. Coming down there's no tonic to lean toward, so nothing needs smoothing. The two A-string notes (C, D) swap places between the ascent and the descent — the classic 'why is my C♯ suddenly natural' moment."
+  defaultBpm={76}
+/>
+
+## Hear the difference
+
+<TryThis>
+  On the A string: play C (low 2), then D (3rd), then E (open) — the top of natural minor,
+  smooth and mild. Now play C (low 2), then **D♯** (3rd finger stretched forward), then E — the
+  top of harmonic minor. Feel the stretch, hear the leap, then hear how hard that D♯ pulls up
+  to E. That leap is the price of the leading tone.
+</TryThis>
+
+## The usual mistake
+
+Trying to memorise all three forms in all twelve keys — the source book warns against exactly
+this, and it's right. Learn the **idea**: one key signature, and the 6th/7th get raised or not
+depending on whether you need a leading tone (harmonic) or a smooth melodic line (melodic).
+Then drill the specific minor keys your pieces are actually in. For this stage, that's E minor.
+
+<Cite source="the raised leading tone in minor — C.P.E. Bach and the common-practice theory tradition; the augmented-2nd colour is shared with flamenco, klezmer, and the pitch material of some ragas">
+  Raising the 7th in minor is done to borrow the major key's strong "arrival" cadence. The
+  wide ♭6–♯7 step it creates turns up in music all over the world — but a raga or a maqam is a
+  whole grammar, not just this scale, so don't equate them.
+</Cite>

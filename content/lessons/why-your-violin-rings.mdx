@@ -1,0 +1,91 @@
+Some notes, played in tune, make the whole instrument light up — the sound blooms and keeps
+going after the bow has moved on. That's **sympathetic resonance**, and it's a free intonation
+check built into the violin.
+
+## How it works
+
+Your open strings — G, D, A, E — are always sitting there ready to vibrate. When you play a
+stopped note that **matches** one of them, or matches a strong **overtone** of one (from the
+harmonic series), that open string picks up the vibration through the bridge and **rings along
+on its own**, even though you never touched it. The note you're playing gets fuller and
+louder.
+
+If your note is even slightly out of tune, the open string *doesn't* catch — so the ring is a
+yes/no signal: **it rings → you're in tune with your instrument.**
+
+## The ring-tone map — first position
+
+These are the notes that ring, string by string:
+
+| String | Ringing notes |
+|---|---|
+| **G string** | G, A, B |
+| **D string** | D, E, G |
+| **A string** | A, B, D |
+| **E string** | E, F♯, A |
+
+(The A's, D's and G's ring because they match open strings; **B rings** because it's a strong
+overtone of the open G.)
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+D z d z | G, z g z |]`}
+  labels={[
+    { name: "D (open) — rings on its own", string: "D", finger: "0" },
+    { name: "D (3rd finger, A string) — the open D rings underneath", string: "A", finger: "3" },
+    { name: "G (open)", string: "G", finger: "0" },
+    { name: "G (low 2, E string) — the open G rings", string: "E", finger: "low 2" },
+  ]}
+  caption="Play the stopped D (A string, 3rd finger) dead in tune and hold it — listen for the open D string below humming along. Then the stopped high G against the open G. When it's in tune, the instrument does half the work."
+  defaultBpm={54}
+/>
+
+## Use it as you practise scales
+
+Play a G major scale slowly and, on the ringing notes (B, D, E, the top G), pause and check
+for the bloom. If a note is a little flat or sharp, the ring dies — nudge the finger until it
+comes back.
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:G clef=treble
+G, A, B, C D E F G |]`}
+  labels={[
+    { name: "G — rings", string: "G", finger: "0" },
+    { name: "A — rings", string: "G", finger: "1" },
+    { name: "B — rings", string: "G", finger: "high 2" },
+    { name: "C", string: "G", finger: "3" },
+    { name: "D — rings", string: "D", finger: "0" },
+    { name: "E — rings", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G — rings", string: "D", finger: "3" },
+  ]}
+  caption="G major, with the ringing notes marked. Six of the eight notes have a built-in check — most of the scale tells you when you're in tune. C and F♯ are the two you have to place by ear alone."
+  defaultBpm={66}
+/>
+
+## Try it
+
+<TryThis>
+  On the D string, play the octave D (3rd finger, up near halfway) and move it by hair's
+  breadths until the open D underneath rings as loudly as possible. Memorise where your finger
+  is. Then do the same for A on the D string against the open A, and B on the G string against
+  the open G (that one's an overtone match, subtler — listen carefully). Your instrument is
+  teaching you where the notes live.
+</TryThis>
+
+## The usual mistake
+
+Not listening for it — playing scales fast and mechanically so the resonance never has a
+chance to speak. Slow down. The ring is the single best free feedback you have, and it works
+in every sharp key. It's also, not coincidentally, how a Hindustani player checks a swara
+against the tanpura.
+
+<Cite source="sympathetic resonance and 'ringing tones' — Suzuki's 'tonalization'; Simon Fischer, Basics, on resonance as an intonation guide">
+  Suzuki built a whole practice — *tonalization* — around finding and sustaining the ringing
+  tone. It's the fastest way to build a hand that lands in tune without tapes or a tuner.
+</Cite>

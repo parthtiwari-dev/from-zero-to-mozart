@@ -1,24 +1,71 @@
-Here's the physics underneath everything you've read so far, and the reason the "landing in
-tune" resonance trick from Stage 1 actually works.
+Play one note on the violin and you're actually hearing **many** notes at once. This is the
+physics under intonation, under "why the major scale sounds natural," and under why your open
+strings ring.
 
-When a string vibrates, it doesn't just vibrate as one whole length — it *simultaneously*
-vibrates in halves, thirds, quarters, and so on, each producing a fainter, higher pitch layered
-on top of the main one. That stack of extra pitches is the **harmonic series**, and it's why a
-violin (or any instrument) has a rich, complex tone instead of a bare electronic beep — you're
-actually hearing many pitches at once, blended.
+## One string, many pitches
 
-Two consequences that matter to you directly:
+A vibrating string moves as a whole length — *and*, at the same time, in halves, thirds,
+quarters, fifths, and so on. Each of those extra vibrations makes a fainter, higher pitch
+stacked on the main one. The stack is the **harmonic series**, and the pitches arrive at
+**exact whole-number multiples** of the lowest one (called the *fundamental*).
 
-- **Open strings ring with unusual richness** because nothing is damping their vibration —
-  that's part of why they're such reliable reference pitches.
-- **Sympathetic resonance** — when you stop a note that matches an open string's pitch (or an
-  octave/fifth of it) closely enough, that open string picks up the vibration through the
-  bridge and rings faintly on its own, even though you never touched it. That faint ring is a
-  built-in tuning check.
+Above an open **G**, the first several are:
 
-The harmonic series is also *why* octaves and fifths sound so naturally "consonant" together —
-they share so many overtones that your ear hears them as closely related, almost blended,
-rather than as two separate pitches. It's the same physics whether you call the underlying
-tuning system "just intonation" or the "equal temperament" your piano and tuner actually use
-(a practical compromise that makes every key sound equally good, at the cost of no interval
-being mathematically perfect).
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+G, z G z d z g z b z |]`}
+  labels={[
+    { name: "G · the fundamental (×1)", string: "G", finger: "0" },
+    { name: "G · ×2 — an octave up", string: "D", finger: "3" },
+    { name: "D · ×3 — an octave + a 5th", string: "A", finger: "3" },
+    { name: "G · ×4 — two octaves", string: "E", finger: "low 2" },
+    { name: "B · ×5 — + a major 3rd", string: "E", finger: "4" },
+  ]}
+  caption="The first five harmonics of the open G string. Notice the intervals: octave first, then a fifth, then a fourth, then a major third. They arrive in order of consonance — the most blended intervals first."
+  defaultBpm={60}
+/>
+
+## Two things fall out of this
+
+**Why some intervals are "perfect."** The octave, fifth and fourth sit at the very bottom of
+the series, with the simplest ratios (2:1, 3:2, 4:3). That's why they sound so pure, why they
+tune so cleanly by ear, and why the violin is strung in fifths.
+
+**Why the major triad sounds "natural."** Look at harmonics **4, 5 and 6** — G, B, D. That's a
+**G major chord**, sitting inside a single vibrating string. The major scale and the major
+triad aren't arbitrary; they're the low overtones of any note, written out.
+
+## Natural harmonics
+
+Touch the string *lightly* (don't press) at exactly the halfway point, and you silence the
+fundamental and let only the ×2 harmonic sound — a clear, glassy note an octave up. Touch at
+1/3 and you get the ×3 (an octave and a fifth). These are **natural harmonics** — Stage 3
+taught how they're written (a small circle over the note); Stage 6 will drill playing them.
+Here, they're proof the series is real: you can pick out one member of the stack and hear it
+alone.
+
+## Try it
+
+<TryThis>
+  On the open D string, rest your 3rd finger *lightly* where you'd normally stop the octave D
+  (about halfway up the string) — barely touching, no weight. Draw the bow. A pure, floaty D
+  an octave above the open string sings out. That's the ×2 harmonic, isolated. Slide the light
+  touch toward the bridge to about a third of the way and you'll find the ×3, a fifth higher
+  still.
+</TryThis>
+
+## The usual mistake
+
+Imagining a played note as a single clean frequency. It never is — it's a fundamental plus a
+whole ladder of overtones, and the particular mix is what makes a violin sound like a violin
+and not a flute or a beep. When you hear a note "bloom" or "ring," you're hearing its
+overtones line up and reinforce.
+
+<Cite source="the harmonic series — Pythagoras and the monochord (6th century BCE); the modern account is Hermann von Helmholtz, On the Sensations of Tone (1863)">
+  Pythagoras found the simple whole-number ratios by dividing a single string. Helmholtz
+  showed that those ratios are literally present in every note as overtones, and that our
+  sense of consonance follows from how much two notes' overtones overlap.
+</Cite>

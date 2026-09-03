@@ -1,0 +1,91 @@
+An **interval** is the distance between two notes. Its name has two parts: a **number** and a
+**quality**. This lesson is the number; the next one is the quality.
+
+## The number — count the letters, both ends included
+
+From C **up to** E: say the letters — **C, D, E** — that's **three** letters, so it's a
+**3rd**. From D up to A: D, E, F, G, A — five letters — a **5th**. Always count the starting
+note as "1".
+
+The number ignores sharps and flats. C→E and C→E♭ are both "some kind of 3rd" — the sharp only
+changes the *quality*.
+
+<NotatedExample
+  abc={`X:1
+M:2/4
+L:1/4
+K:C clef=treble
+C D | C E | C G | C c |]`}
+  labels={[
+    { name: "C", string: "G", finger: "3" },
+    { name: "D — a 2nd up", string: "D", finger: "0" },
+    { name: "C", string: "G", finger: "3" },
+    { name: "E — a 3rd up", string: "D", finger: "1" },
+    { name: "C", string: "G", finger: "3" },
+    { name: "G — a 5th up", string: "D", finger: "3" },
+    { name: "C", string: "G", finger: "3" },
+    { name: "C — an octave up", string: "A", finger: "low 2" },
+  ]}
+  caption="Four intervals up from C: a 2nd, a 3rd, a 5th, an octave. Count the letters, first note as 1 (C–D–E is a 3rd)."
+  defaultBpm={60}
+/>
+
+On the staff there's a quick visual check: a **2nd** is line-to-neighbouring-space; a **3rd**
+is line-to-line or space-to-space (both noteheads on lines, or both in spaces); a **5th** skips
+two.
+
+## Melodic or harmonic
+
+The same interval can arrive two ways:
+
+- **melodically** — one note then the other, as a leap in a tune;
+- **harmonically** — both together, as a double stop or part of a chord.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+C E z2 | [CE]4 |]`}
+  labels={[
+    { name: "C", string: "G", finger: "3" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "C + E", string: "G & D", finger: "3 & 1" },
+  ]}
+  caption="A major 3rd, C–E: first melodic (one after the other), then harmonic (both at once). Same interval, same name."
+  defaultBpm={60}
+/>
+
+On the violin, an interval is also a **hand shape**. A 3rd is two fingers close on adjacent
+strings; an octave is the wide 1st-and-4th-finger stretch across two strings. You'll *feel*
+common intervals long before you can name every one by ear.
+
+## Try it
+
+<TryThis>
+  On the A string, play open A, then each finger in turn, naming the interval from A each time:
+  A→B (1st finger) is a 2nd, A→C♯ (high 2) is a 3rd, A→D (3rd finger) is a 4th, A→E (4th
+  finger, or the open E) is a 5th. Say the number out loud as you drop each finger.
+</TryThis>
+
+<Quiz
+  items={[
+    { q: "G up to D — what number?", a: "A 5th. G A B C D — five letters." },
+    { q: "E up to E, an octave higher — what number?", a: "An 8th (an octave). Count E as 1 and the top E as 8." },
+    { q: "A up to F♯ — what number?", a: "A 6th. A B C D E F — six letters. (The sharp doesn't change the number.)" },
+    { q: "Two noteheads, one on the middle line and one on the line just above it — what interval?", a: "A 3rd. Line to the next line (skipping the space between) is always a 3rd." },
+  ]}
+  title="Counting intervals"
+/>
+
+## The usual mistake
+
+Counting the *gaps* instead of the *notes* — saying C to D is a "1st" because you moved one
+step. Count the notes, and count the one you start on. C to D touches two letters, so it's a
+2nd. C to C (same note) is a **unison** — a "1st".
+
+<Cite source="the word 'interval' — Latin intervallum, 'the space between ramparts'; Guido of Arezzo, c. 1030">
+  Medieval theorists measured melody by the *steps between* notes, not the notes themselves —
+  which is exactly how a violinist thinks, feeling the distance between one finger and the
+  next.
+</Cite>

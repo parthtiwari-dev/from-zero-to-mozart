@@ -1,0 +1,132 @@
+Every major scale — in every key — is built from the **same recipe** of whole (W) and half (H)
+steps, starting from the tonic:
+
+**W – W – H – W – W – W – H**
+
+Learn that one pattern and you never have to memorise a key's notes again. You *walk* the
+pattern from any starting note and it hands you the scale — sharps, flats and all.
+
+## See it — C major, with the steps marked
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:C clef=treble
+C D E F | G A B c |]`}
+  labels={[
+    { name: "C", string: "G", finger: "3" },
+    { name: "D  (W)", string: "D", finger: "0" },
+    { name: "E  (W)", string: "D", finger: "1" },
+    { name: "F  (H)", string: "D", finger: "low 2" },
+    { name: "G  (W)", string: "D", finger: "3" },
+    { name: "A  (W)", string: "A", finger: "0" },
+    { name: "B  (W)", string: "A", finger: "1" },
+    { name: "C  (H)", string: "A", finger: "low 2" },
+  ]}
+  caption="C major. The step to reach each note is in brackets: W W H, then W, then W W H. The two half steps land on E–F and B–C — the natural half steps, which is exactly why C major needs no sharps or flats."
+  defaultBpm={72}
+/>
+
+## It's two matching halves
+
+Split the scale in the middle: **C D E F** and **G A B C**. Each is a **tetrachord** ("four
+notes"), and each has the *same* internal shape — **W W H**. A whole step joins them.
+
+On the violin this is literally true: in G major the lower tetrachord (G A B C) and the upper
+tetrachord (D E F♯ G) use the **same first-position hand shape** — the lower one on the G
+string, the upper one on the D string, one string higher. The scale is one hand shape, stacked.
+
+## Build one on any note
+
+Start on **G** and walk the formula:
+
+G –(W)→ A –(W)→ B –(H)→ **C** –(W)→ D –(W)→ E –(W)→ **F♯** –(H)→ G
+
+The formula *demanded* an F♯: to make the step from the 7th degree up to the tonic a **half**
+step, plain F wasn't close enough — it had to be raised. Nobody had to tell you G major has one
+sharp; the recipe produced it.
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:C clef=treble
+G A B c d e ^f g |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "E", string: "E", finger: "0" },
+    { name: "F♯", string: "E", finger: "1" },
+    { name: "G", string: "E", finger: "low 2" },
+  ]}
+  caption="G major built by the formula (written here with an explicit ♯ so you can see where it came from). The F is sharp because the recipe needed a half step up to G."
+  defaultBpm={72}
+/>
+
+## Hear it — what happens if you break the recipe
+
+Play C major, then play it again with the **7th degree lowered** — B♭ instead of B. The last
+step is now a whole step, not a half, and the scale stops sounding "major" — it goes flat and
+folk-ish (that's actually a different scale, the *Mixolydian* mode, but that's for later).
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+G A B c | c B A G |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="The top of C major, done right — B natural, a half step below the C. It sounds like it's arriving."
+  defaultBpm={80}
+/>
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+G A _B c | c _B A G |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B♭", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B♭", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="The same notes with B♭ — the 7th lowered, so the step to C is a whole step. The 'arrival' pull is gone. That one note is the difference between major and not-major."
+  defaultBpm={80}
+/>
+
+## Try it
+
+<TryThis>
+  Build D major out loud, walking the formula from D: D –W→ E –W→ F♯ –H→ G –W→ A –W→ B –W→ C♯
+  –H→ D. Say "whole, whole, half…" as you go. You should find *two* sharps — F♯ and C♯. Then
+  play it, first position: D E F♯ G on the D string, A B C♯ D on the A string.
+</TryThis>
+
+## The usual mistake
+
+Learning each key's notes as a separate list to memorise. There's one recipe. If you can walk
+W-W-H-W-W-W-H from a starting note, you can spell any major scale — and later, work out its key
+signature — without looking anything up.
+
+<Cite source="the major scale = the Ionian mode, named by Heinrich Glarean, Dodecachordon (1547)">
+  Glarean added "Ionian" to the list of church modes to account for the bright, folk-flavoured
+  scale that was taking over secular music. Over the next 150 years it became *the* reference
+  scale, and Western harmony has been built on it since.
+</Cite>

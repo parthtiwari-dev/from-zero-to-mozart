@@ -1,0 +1,69 @@
+A **triad** is three notes stacked in **thirds**: a bottom note (the **root**), a **third**
+above it, and a **fifth** above the root. Stack two thirds and you have one. It's the atom of
+harmony — nearly every chord in tonal music is a triad, or a triad with something added.
+
+## See it — the snowman
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+[G,B,D]4 | G, B, D2 |]`}
+  labels={[
+    { name: "G (root) + B (3rd) + D (5th)", string: "G, G & D", finger: "0, high 2 & 0" },
+    { name: "G · root", string: "G", finger: "0" },
+    { name: "B · 3rd", string: "G", finger: "high 2" },
+    { name: "D · 5th", string: "D", finger: "0" },
+  ]}
+  caption="The G major triad — G, B, D — written in close position: three noteheads on one stem, all on lines, a little snowman. Then the same three notes one at a time. Root to 5th is a perfect 5th; the two thirds inside give it its flavour. (On the violin you'd spread this out to play it — see below.)"
+  defaultBpm={60}
+/>
+
+You've met this chord before — Stage 3's *Reading double stops and chords* printed exactly
+this stack and called it "a G major chord." Now you know *why* it's a G major chord: it's a
+triad built on G, and the third inside it (G up to B) is a major third.
+
+## Block or broken
+
+The same three notes can be a **chord** (all at once, stacked on one stem) or an **arpeggio**
+(one after another — you'll get a whole movement on those). Same notes, same triad, different
+surface:
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:C clef=treble
+[G,DB]4 | G, D B d |]`}
+  labels={[
+    { name: "G + D + B", string: "G, D & A", finger: "0, 0 & 1" },
+    { name: "G", string: "G", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "D", string: "A", finger: "3" },
+  ]}
+  caption="The G triad rolled as a chord (open G, open D, B on the A string — a playable voicing), then spread out as an arpeggio. Your ear hears 'G major' either way."
+  defaultBpm={66}
+/>
+
+## Try it
+
+<TryThis>
+  Build the G major triad note by note, low to high: open G, then B on the G string (high 2),
+  then D (open D string). Hold each note in your ear before you add the next. Then play them as
+  a fast roll, bottom to top, on one bow. That rolled shape is how a violinist plays a chord.
+</TryThis>
+
+## The usual mistake
+
+Reading a stack of noteheads as a fast run of separate notes. The tell is on the page: notes
+**side by side and beamed** happen one after another; notes **stacked on one stem** happen
+together. (Stage 2 and Stage 3 both hammered this — it's the single most common misreading of
+string music.)
+
+<Cite source="Jean-Philippe Rameau, Traité de l'harmonie (1722)">
+  Rameau's insight was that harmony isn't a soup of intervals — it's built from **triads**, and
+  a whole passage can be understood as a succession of them, each with a single "fundamental"
+  root. Every chord lesson from here rests on that idea.
+</Cite>

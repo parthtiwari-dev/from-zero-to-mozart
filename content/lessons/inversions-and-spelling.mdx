@@ -1,0 +1,102 @@
+A triad has three notes, and **any** of them can be the lowest. Which one is on the bottom is
+the triad's **inversion** — same chord, same name, different bass note, slightly different
+feel.
+
+## The three positions
+
+Take the G major triad — G, B, D:
+
+<NotatedExample
+  abc={`X:1
+M:3/4
+L:1/4
+K:C clef=treble
+G, B, D | B, D G | D G B |]`}
+  labels={[
+    { name: "G (root)", string: "G", finger: "0" },
+    { name: "B", string: "G", finger: "high 2" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "B (3rd on the bottom)", string: "G", finger: "high 2" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "D (5th on the bottom)", string: "D", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+  ]}
+  caption="Same three notes, three arrangements. Bar 1: G on the bottom — root position. Bar 2: B on the bottom — first inversion. Bar 3: D on the bottom — second inversion. It's a G major chord all three times."
+  defaultBpm={72}
+  followPlayback
+/>
+
+| Position | Bass note | Shorthand | Feel |
+|---|---|---|---|
+| **Root position** | the root | *(no figure)* | most stable — the chord standing up |
+| **First inversion** | the 3rd | **6** | lighter, mobile — very common under a melody |
+| **Second inversion** | the 5th | **6/4** | unstable, wants to resolve — often decorates a cadence |
+
+## Those numbers
+
+**6** and **6/4** are **figured bass** — an old shorthand where the numbers count *intervals
+above the bass note*. A "6" chord has a 6th and a 3rd above the bass; a "6/4" has a 6th and a
+4th. Baroque keyboardists read a bass line plus these figures and built the chords on the fly.
+You just need to **recognise** the figures when an edition or an analysis uses them.
+
+## Why a composer inverts a chord
+
+Two reasons, mostly:
+
+- to give the **bass line a smooth shape** instead of jumping around;
+- to keep a particular **melody note on top**.
+
+The harmony doesn't change — only which note is holding the floor.
+
+## Spelling a triad
+
+To spell the triad on any note: **stack two thirds**, then adjust to the key. On each degree of
+G major:
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:G clef=treble
+G B D z A c E z B D F z |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "E", string: "E", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "F♯", string: "E", finger: "1" },
+  ]}
+  caption="The triads on ^1, ^2 and ^3 of G major: G–B–D, A–C–E, B–D–F♯. Each is the note plus the one a 3rd up plus the one a 3rd above that, all drawn from the key's own notes."
+  defaultBpm={72}
+/>
+
+## Try it
+
+<Quiz
+  items={[
+    { q: "Spell the triad on ^4 of G major (built on C).", a: "C–E–G." },
+    { q: "Spell the triad on ^5 of G major (built on D).", a: "D–F♯–A." },
+    { q: "A G major chord with B in the bass is in which position, and what figure?", a: "First inversion — figure 6." },
+    { q: "Does inverting a chord change its name?", a: "No. G–B–D, B–D–G and D–G–B are all 'G major'. Only the bass note and the feel change." },
+  ]}
+  title="Inversions and spelling"
+/>
+
+## The usual mistake
+
+Treating an inverted triad as a new, different chord. It isn't — a first-inversion G major is
+still G major, still doing the tonic's job in G. Learn to spot the *root* even when it's in the
+middle or on top: find the two notes a 3rd apart at the bottom of the stack, and the lower of
+those is usually the 3rd, which means the root is the note just below it in the chord.
+
+<Cite source="figured bass / basso continuo — the standard Baroque method of notating harmony (17th–18th century)">
+  For over a century, a chord was written as a single bass note with numbers under it, and the
+  player realised the rest. Modern editions still use "6" and "6/4" to mark inversions — it's
+  worth knowing the code.
+</Cite>

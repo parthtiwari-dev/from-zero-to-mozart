@@ -1,0 +1,94 @@
+Build a triad on **every degree** of a scale, using **only that key's notes**, and you get
+seven chords — the harmonic vocabulary of the key. And the pattern of *which* chords are major,
+minor or diminished is **the same in every major key**, so you learn it once.
+
+## The seven triads of a major key
+
+| Degree | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|---|---|---|---|---|---|---|---|
+| Roman numeral | **I** | **ii** | **iii** | **IV** | **V** | **vi** | **vii°** |
+| Quality | major | minor | minor | major | major | minor | diminished |
+| in **G major** | G | Am | Bm | C | D | Em | F♯° |
+
+**UPPER-CASE numeral = major triad. Lower-case = minor. A little ° = diminished.** You can read
+a whole harmonic analysis — I, IV, V, vi — without naming a single letter.
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:G clef=treble
+G B d z c e g z d f a z |]`}
+  labels={[
+    { name: "G · I", string: "D", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "C · IV", string: "A", finger: "low 2" },
+    { name: "E", string: "E", finger: "0" },
+    { name: "G", string: "E", finger: "low 2" },
+    { name: "D · V", string: "A", finger: "3" },
+    { name: "F♯", string: "E", finger: "1" },
+    { name: "A", string: "E", finger: "3" },
+  ]}
+  caption="The three major triads of G major, as broken chords: I (G–B–D), IV (C–E–G), V (D–F♯–A). These three do most of the work in any key."
+  defaultBpm={76}
+/>
+
+In a **minor key**, using the harmonic-minor raised 7th (which gives a strong V), the pattern
+is **i – ii° – III⁺ – iv – V – VI – vii°**. In E minor: Em – F♯° – G⁺ – Am – **B** – C – D♯°.
+The three you'll actually use are **i, iv and V**.
+
+## What the chords are *for* — three jobs
+
+Every chord belongs to a **function family**:
+
+| Function | Chords | Feel |
+|---|---|---|
+| **Tonic (T)** | **I**, vi | home, rest |
+| **Predominant (PD)** | **IV**, ii | stepping away from home, building |
+| **Dominant (D)** | **V**, vii° | maximum tension — *must* resolve to I |
+
+The standard shape of a phrase is **T → PD → D → T**: home, step away, tension, home. Once you
+hear that arc, you hear the skeleton of almost every tune you've played.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/2
+K:G clef=treble
+[G,B,D] [CEG] | [DFA] [G,B,D] |]`}
+  labels={[
+    { name: "I (G–B–D) · Tonic", string: "G, G & D", finger: "0, high 2 & 0" },
+    { name: "IV (C–E–G) · Predominant", string: "G, D & D", finger: "3, 1 & 3" },
+    { name: "V (D–F♯–A) · Dominant", string: "D, D & A", finger: "0, high 2 & 0" },
+    { name: "I (G–B–D) · Tonic", string: "G, G & D", finger: "0, high 2 & 0" },
+  ]}
+  caption="I – IV – V – I in G major, written as block chords so you can see the harmony (a violinist rolls or breaks them). Home, away, tension, home. Play the roots — G, C, D, G — and feel the D pull back to the G."
+  defaultBpm={50}
+/>
+
+## Try it
+
+<Quiz
+  items={[
+    { q: "In G major, what is the chord on ^5 called, and what quality?", a: "V — D major (a major triad)." },
+    { q: "The vi chord of G major is…", a: "E minor — the relative minor's tonic chord, and it does a 'soft home' job." },
+    { q: "IV and ii both belong to which function family?", a: "Predominant — they lead toward the dominant." },
+    { q: "A phrase goes I – ii – V – I. Describe its journey in function terms.", a: "Tonic → predominant → dominant → tonic. Home, away, tension, home." },
+    { q: "Is the quality pattern (I major, ii minor, iii minor, IV major…) the same in D major?", a: "Yes — identical in every major key. In D: D, Em, F♯m, G, A, Bm, C♯°." },
+  ]}
+  title="The chords of a key"
+/>
+
+## The usual mistake
+
+Learning the chords of each key as a separate list. They follow **one pattern** — major, minor,
+minor, major, major, minor, diminished — in every major key. Learn the pattern and the roman
+numerals, and you can name the chords of any key on sight and know what each one is likely to
+do next.
+
+<Cite source="diatonic triads and Roman-numeral analysis — systematised by Gottfried Weber (1817–21); harmonic function from Hugo Riemann (1893)">
+  Weber's Roman numerals let you describe harmony independently of key. Riemann grouped the
+  seven chords into three functions — tonic, subdominant, dominant — and showed that a phrase
+  is a journey through them.
+</Cite>

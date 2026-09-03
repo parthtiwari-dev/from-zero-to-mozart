@@ -1,0 +1,121 @@
+A major key and a minor key can be linked in two different ways, and they're easy to mix up.
+One shares the **notes**; the other shares the **home**.
+
+## Relative — same key signature, different home
+
+**Relative** keys use the **same seven notes** (the same key signature) but treat a different
+one as home. G major and **E minor** are relatives: both have one sharp, F♯.
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:G clef=treble
+G, A, B, C D E F G |]`}
+  labels={[
+    { name: "G · ^1 of G major", string: "G", finger: "0" },
+    { name: "A", string: "G", finger: "1" },
+    { name: "B", string: "G", finger: "high 2" },
+    { name: "C", string: "G", finger: "3" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="G major — home is G."
+  defaultBpm={72}
+/>
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:G clef=treble
+E F G A B c d e |]`}
+  labels={[
+    { name: "E · ^1 of E minor", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "E", string: "E", finger: "0" },
+  ]}
+  caption="The exact same seven notes, started from E — now it's E minor. Nothing changed but which note feels like home. Play them back to back and hear the second one turn."
+  defaultBpm={72}
+/>
+
+**To find a major key's relative minor:** go down a **minor 3rd** (three half steps) from the
+tonic — or, same thing, start on the **6th degree**. G major's 6th is E → E minor. D major's
+6th is B → B minor. C major's 6th is A → A minor.
+
+**Going the other way** — a minor key's relative *major* is up a minor 3rd, on the **3rd
+degree**: E minor → G major; A minor → C major.
+
+## Parallel — same home, different key signature
+
+**Parallel** keys share the **tonic** but not the signature. G major and **G minor** both call
+G home — but G minor lowers the 3rd, 6th and 7th (B→B♭, E→E♭, F♯→F♮), which works out to a key
+signature of **two flats** instead of one sharp.
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:Gm clef=treble
+G, A, B, C D E F G |]`}
+  labels={[
+    { name: "G · ^1", string: "G", finger: "0" },
+    { name: "A · ^2", string: "G", finger: "1" },
+    { name: "B♭ · ♭^3", string: "G", finger: "low 2" },
+    { name: "C · ^4", string: "G", finger: "3" },
+    { name: "D · ^5", string: "D", finger: "0" },
+    { name: "E♭ · ♭^6", string: "D", finger: "low 1" },
+    { name: "F · ♭^7", string: "D", finger: "low 2" },
+    { name: "G · ^8", string: "D", finger: "3" },
+  ]}
+  caption="G natural minor — same starting note as G major, but three notes have dropped: B♭, E♭, F♮. Same home, different colour. This is 'the sun going behind a cloud'."
+  defaultBpm={72}
+/>
+
+Composers switch between parallel major and minor mid-piece for exactly that effect — a sudden
+shift of light without leaving home.
+
+## How to tell a major key from its relative minor
+
+One sharp on the page is **G major or E minor**. To decide:
+
+- **Where does it rest?** Does the tune keep landing on G, or on E?
+- **Is there a D♯ floating around?** E minor's leading tone is D♯, and it's *not* in the key
+  signature — it's added as an accidental every time it's wanted. A tune in "one sharp" that's
+  peppered with D♯ accidentals is almost certainly in E minor.
+
+## Try it
+
+<Quiz
+  items={[
+    { q: "The relative minor of D major", a: "B minor. Down a minor 3rd from D, or the 6th degree of D major." },
+    { q: "The relative major of A minor", a: "C major. Up a minor 3rd from A, or the 3rd degree of A minor." },
+    { q: "The relative minor of C major", a: "A minor. Both have no sharps or flats." },
+    { q: "G major and G minor — relative or parallel?", a: "Parallel. Same tonic (G), different key signature (1 sharp vs 2 flats)." },
+    { q: "You see one sharp and lots of D♯ accidentals. Major or minor?", a: "E minor — the D♯ is its raised leading tone, which never appears in the key signature." },
+  ]}
+  title="Relative and parallel"
+/>
+
+<TryThis>
+  Play a one-octave G major scale. Then, without changing a single finger, play the same
+  string of notes but *start and end on E* (E F♯ G A B C D E). Same hand, same notes — but now
+  you're in E minor, and your ear knows it. That's the relative relationship, felt.
+</TryThis>
+
+## The usual mistake
+
+Muddling the two words. Remember it by what each one keeps: **relative keys keep the notes**
+(so you can slip between them without an accidental), **parallel keys keep the home** (so the
+tonic stays put while the mood flips). And relatives do *not* sound the same — they share a
+note collection, but a different note has gravity, and that changes everything.
+
+<Cite source="relative and parallel keys — standard tonal theory; the parallel major/minor shift as an expressive device, e.g. Schubert">
+  Schubert was a master of the parallel switch — a phrase in the major, repeated in the minor,
+  same melody, the light gone out of it. It works because the home note never moves; only the
+  colour does.
+</Cite>

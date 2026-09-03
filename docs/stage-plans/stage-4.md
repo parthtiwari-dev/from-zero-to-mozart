@@ -31,17 +31,24 @@ separate milestones (`RULES.md` #7).
 
 ---
 
-## The decisions (proposed — confirm or adjust)
+## The decisions (user, 2026-09-03)
 
 The user's standing guidance (from Stage 3): *"keep it all but structure it so nothing feels
 bullshit"* · merge thin siblings · REFERENCE material as **cards**, not padded six-beats
-lessons · *"don't over-engineer"* · specifics are Claude's call. Applied here:
+lessons · *"don't over-engineer"* · specifics are Claude's call. **User, 2026-09-03: "no
+dropping just better structuring and writing" — keep every lesson; Q1 & Q2 as recommended.**
+Applied here:
 
-1. **Keep the full coverage.** Every topic the research found earns a place. The research draft
-   landed at **~63 concept lessons**; the merges below bring it to **48** (a 24% cut of real
-   duplication — Stage 3 did 53 → 46 the same way). Nothing is padding; thin siblings merged;
-   REFERENCE items (`the-twelve-keys`, `the-other-scales-and-the-modes`, `the-other-seventh-chords`)
-   written as cards.
+1. **Keep the full coverage — nothing dropped.** The research draft landed at **~63 concept
+   lessons**; the merges below (thin siblings folded, not deleted — every topic still taught)
+   bring it to **48** distinct lessons. REFERENCE items (`the-twelve-keys`,
+   `the-other-scales-and-the-modes`, `the-other-seventh-chords`) written as cards.
+   - **Q1 (Vivaldi *Spring*) — as recommended:** build the *theme* here as **P6**; the full
+     first movement stays in the Phase-2 Vivaldi module. So Stage 4 ships **6 tunes + the
+     scale/arpeggio set**.
+   - **Q2 (ear thread) — as recommended:** F4–F5 (`hearing-the-scale-degrees`, `tuning-by-ear`)
+     stay inside Movement F as its back half — no separate "Ear" movement.
+   - **Q3 (cut deeper) — no.** All 48 concept + 7 repertoire ship.
 
 2. **The stage reads in three parts** — a divider in `/learn`, **not** three stage numbers
    (`stage: 4` throughout, minimal code — exactly as Stage 3's 3a/3b):
@@ -58,25 +65,20 @@ lessons · *"don't over-engineer"* · specifics are Claude's call. Applied here:
    against ≥2 references (`THE-PATH.md` §7), same as Stages 1–3. **5–6 tunes + the scale/arpeggio
    set** (Stage 3 shipped 4) — 5 firm, Vivaldi *Spring* conditional (open question 1).
 
-**Net count: ~54–55 lessons** — 48 concept/skill + 6–7 repertoire (the scale set + 5–6 tunes).
+**Net count: 55 lessons** — 48 concept/skill + 7 repertoire (the scale set + 6 tunes).
 Larger than Stage 3 (46) on purpose: this is the widest concept block in the course, and
-`PRD.md` §6.1 calls the harmony/ear thread load-bearing. Still ~15% below the research draft.
+`PRD.md` §6.1 calls the harmony/ear thread load-bearing.
 
-### Open questions for the user
-
-1. **Vivaldi *Spring* theme.** `PDF-MAP.md` files it under the Phase-2 Vivaldi module;
-   `THE-PATH.md` §6 lists the *theme* for Stage 4. It's a strong fit here (major key,
-   ritornello form, arpeggio + trill figures, f/p echo) and the held source PDF
-   (`docs/source/vivaldi-spring-easy.pdf`) is beginner-level. **Recommendation: build the
-   theme here as P6; leave the full first movement for the Vivaldi module.** Confirm, or drop
-   it to keep Stage 4 at 5 tunes.
-2. **The ear thread as its own movement.** F4–F5 (`hearing-the-scale-degrees`, `tuning-by-ear`)
-   are the first real ear-gym lessons in the course. Keep them inside Movement F, or split them
-   into a visible **Movement F′ — "Hearing it"**? Recommendation: keep in F, they read fine
-   as the back half.
-3. **Cut deeper?** 48 concept lessons is defensible but big. If it feels heavy, the first
-   things to go: `the-other-seventh-chords` (H6, fold into H5), `broken-thirds-and-the-
-   dominant-seventh-arpeggio` (J3, fold into J2), `transposing-a-tune` (N1, → Stage 8).
+**BUILT 2026-09-03: all 55 live.** `npm run build` green (216 pages), `npm run lint` + `npx
+tsc --noEmit` clean. Movements A–P written to the six-beats bar; every pitched example
+name/string/finger labelled; chord stacks use combined labels; tune playthroughs unlabelled
+per `RULES.md` R3. The 8 old thin Stage-4 slugs (`major-and-minor`, `parallel-and-relative`,
+`your-scale-practice-order`, `other-scales`, `intervals`, `triads`, `cadences`, `arpeggios`)
+deleted; `what-a-scale-is` / `whole-steps-and-half-steps` / `why-g-major-has-one-sharp` /
+`the-circle-of-fifths` / `the-three-minors` / `the-twelve-keys` / `the-harmonic-series`
+rewritten in place. Vivaldi *Spring* (P6) and Eine kleine Nachtmusik (P2) are simplified
+versions, flagged in-lesson; verify P6 against `docs/source/vivaldi-spring-easy.pdf` when
+convenient.
 
 ### Merges from the research draft
 
@@ -277,7 +279,7 @@ note **and** a one-line harmony gloss per phrase (the new Stage-4 ingredient), e
 | P3 | `tune-canon-in-d` | **D**, 1st | the **chord progression you can hear** — I–V–vi–iii–IV–I–IV–V, a 2-bar ground repeated; circle-of-fifths motion; a melody floating on changing harmony | Pachelbel, PD (author a simple first-position line over the ground) |
 | P4 | `tune-scarborough-fair` | **E Dorian** (E minor, raised 6th = C♯), 1st | **modal colour** — a minor key with one note lifted; the period pair; a minor tune among the majors. Teach it in E Dorian *and* plain E natural minor and hear the C♯ change it (= the Movement L lesson) | trad. English, PD |
 | P5 | `tune-fur-elise-theme` | **A minor**, 1st | minor key **+ the leading tone you can hear** — the E–D♯ oscillation (D♯ = leading tone of the dominant); question/answer period | Beethoven, PD |
-| P6 | `tune-vivaldi-spring-theme` | **E major** (or transpose to **D**), 1st | a **ritornello** (a returning theme — recap Stage 3 form) + an **f/p echo** (recap Stage 3 dynamics) + arpeggio & trill figures | `docs/source/vivaldi-spring-easy.pdf` — **⚠ placement: confirm with the user** (see Open Questions) |
+| P6 | `tune-vivaldi-spring-theme` | **E major** (or transpose to **D** for the hand), 1st | a **ritornello** (a returning theme — recap Stage 3 form) + an **f/p echo** (recap Stage 3 dynamics) + arpeggio & trill figures | `docs/source/vivaldi-spring-easy.pdf` — the *theme* only; the full 1st movement stays in the Vivaldi module |
 | P7 | `tune-aura-lee` | **C major**, 1st | the **C-major first-position hand** — low 2 on D and A, 3rd-finger C on the G string; a **IV-heavy** hymn harmony; gives C major (the least-drilled NOW key) a real tune | Poulton (1861), PD |
 
 **Release mid-stage** where the notes are covered (`RULES.md` R2): the scale/arpeggio set with

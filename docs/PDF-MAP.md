@@ -7,10 +7,10 @@ Every section of the original 193-page PDF (`docs/source/original-violin-book.pd
 > **2026-09-03:** The Phase-1.5 rebuild has reached Stage 3.
 > - **Parts I–IV → Stages 0–3: ✔ BUILT to the `RULES.md` bar** — not a 1:1 page map; the
 >   research went far past the PDF (see each stage's `stage-plans/stage-N.md` + `-research.md`).
-> - **Part V → Stage 4: research + draft plan done** (`stage-plans/stage-4-research.md`, 20
->   passes; `stage-plans/stage-4.md`, the 4a/4b/4c build list) — user review, then build. Went
->   far past Part V (intervals, the ear thread, triads/harmony, cadences, phrase structure, the
->   physics, non-chord tones, the K.216 first-note bridge).
+> - **Part V → Stage 4: ✔ BUILT** (`stage-plans/stage-4-research.md`, 20 passes;
+>   `stage-plans/stage-4.md`, 4a/4b/4c, Movements A–P, **55 lessons**). Went far past Part V
+>   (intervals, a dedicated ear thread, triads/harmony, cadences, phrase structure, the
+>   physics, non-chord tones, the K.216 first-note bridge). Build green (216 pages).
 > - **Part VI → Stage 5:** first-draft skeleton live, not yet rebuilt.
 > - **Parts VII–IX (Stages 6–9 + Vivaldi/Mozart modules): `todo`** (Phase 2–3).
 
@@ -109,11 +109,13 @@ notation, H editions, I the capstone, J tunes).
 | 87–88 | §47 / 47A Score-language quiz + answers | `decode-a-dense-line` I1 · `the-score-language-check` I2 (`<Quiz>`, real glyphs) | done |
 | — | *(new — not in the PDF)* | `slides-and-octave-signs` G4 (glissando/portamento/8va); Movement J tunes | done |
 
-## Part V — Scales, Keys, Major & Minor (p89–110) → **Stage 4** — 📋 RESEARCH + DRAFT PLAN DONE (`stage-plans/stage-4-research.md` + `stage-4.md`) — user review, then build
+## Part V — Scales, Keys, Major & Minor (p89–110) → **Stage 4** — ✔ BUILT 2026-09-03
 
-Rebuilt far past the PDF: a **16-movement plan A–P** (4a Scales & keys · 4b Intervals, chords
-& harmony · 4c Arpeggios, the physics & the rest · P the tunes) — **~48 concept lessons + 6
-repertoire** in `stage-4.md`, merged down from the research draft's ~63.
+Rebuilt far past the PDF: **Movements A–P** (4a Scales & keys · 4b Intervals, chords & harmony
+· 4c Arpeggios, the physics & the rest · P the tunes) — **55 lessons** (48 concept + 7
+repertoire). Details: `stage-plans/stage-4.md`. The §59/59A scale-reading pages become
+`stage-4-scales-and-arpeggios` (P1) + the AnnotatedScore lines in Movement M — and fix the
+PDF's dropped F♯ in the §59A G-major answer.
 
 | PDF page | Section | → movement(s) | Status |
 |---|---|---|---|

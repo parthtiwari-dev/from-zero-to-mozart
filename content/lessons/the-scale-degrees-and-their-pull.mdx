@@ -1,0 +1,121 @@
+Every note of the scale has a **number** (1 to 7, then 8 = 1 again) and a **name**. The names
+aren't decoration — each one tells you what that note *does* in the key. Write the number with
+a little roof on it: **^1, ^2, ^3** … that's the standard shorthand for "scale degree one, two,
+three".
+
+## The seven names
+
+<NotatedExample
+  abc={`X:1
+L:1/4
+K:G clef=treble
+G, A, B, C | D E F G |]`}
+  labels={[
+    { name: "G · ^1", string: "G", finger: "0" },
+    { name: "A · ^2", string: "G", finger: "1" },
+    { name: "B · ^3", string: "G", finger: "high 2" },
+    { name: "C · ^4", string: "G", finger: "3" },
+    { name: "D · ^5", string: "D", finger: "0" },
+    { name: "E · ^6", string: "D", finger: "1" },
+    { name: "F♯ · ^7", string: "D", finger: "high 2" },
+    { name: "G · ^8", string: "D", finger: "3" },
+  ]}
+  caption="G major, numbered. In G major, ^1 is G, ^5 is D, ^7 is F♯."
+  defaultBpm={76}
+/>
+
+| Degree | Name | Why that name |
+|---|---|---|
+| ^1 | **Tonic** | *the* tone — home, and the key is named after it |
+| ^2 | **Supertonic** | "just above the tonic" |
+| ^3 | **Mediant** | "in the middle" — halfway between tonic and dominant; it's also the note that makes a key major or minor |
+| ^4 | **Subdominant** | "the dominant below" — a fifth *below* the tonic |
+| ^5 | **Dominant** | the second-most important note after the tonic — a fifth above, the note the harmony pulls through on the way home |
+| ^6 | **Submediant** | "the mediant below" — a third below the tonic |
+| ^7 | **Leading tone** | it *leads* to the tonic — a half step below it, and it aches to go up |
+
+The names come in mirror pairs around the tonic: **dominant** is a fifth up, **subdominant** a
+fifth down; **mediant** a third up, **submediant** a third down. The scale is symmetrical in
+its *naming*, even though it isn't in its steps.
+
+## Hear it — the notes that rest, and the notes that lean
+
+Three of the seven are **stable**: ^1, ^3, ^5 — the notes of the tonic chord. Land on one and
+a phrase can stop there.
+
+<NotatedExample
+  abc={`X:1
+M:3/4
+L:1/4
+K:G clef=treble
+G, B, D | B, G,3/2 z/2 |]`}
+  labels={[
+    { name: "G · ^1", string: "G", finger: "0" },
+    { name: "B · ^3", string: "G", finger: "high 2" },
+    { name: "D · ^5", string: "D", finger: "0" },
+    { name: "B · ^3", string: "G", finger: "high 2" },
+    { name: "G · ^1", string: "G", finger: "0" },
+  ]}
+  caption="^1, ^3, ^5, ^3, ^1 — the stable notes. Nothing here needs to move. It sounds finished."
+  defaultBpm={72}
+/>
+
+The other four — ^2, ^4, ^6, ^7 — **lean**, and mostly toward their nearest stable neighbour:
+**^7 → ^1** (up — the strongest pull of all), **^4 → ^3** (down), **^2 → ^1** (down),
+**^6 → ^5** (down).
+
+<NotatedExample
+  abc={`X:1
+M:2/4
+L:1/4
+K:G clef=treble
+F G | C B, | A, G, | E D |]`}
+  labels={[
+    { name: "F♯ · ^7", string: "D", finger: "high 2" },
+    { name: "G · ^1", string: "D", finger: "3" },
+    { name: "C · ^4", string: "G", finger: "3" },
+    { name: "B · ^3", string: "G", finger: "high 2" },
+    { name: "A · ^2", string: "G", finger: "1" },
+    { name: "G · ^1", string: "G", finger: "0" },
+    { name: "E · ^6", string: "D", finger: "1" },
+    { name: "D · ^5", string: "D", finger: "0" },
+  ]}
+  caption="Each restless note resolved to its neighbour: ^7 up to ^1, then ^4→^3, ^2→^1, ^6→^5. Play it and hear each pair 'click'."
+  defaultBpm={72}
+/>
+
+## Try it
+
+<TryThis>
+  Play the G major scale up. On every restless note (^2, ^4, ^6, ^7) stop, then play the
+  stable note it wants to reach, then carry on. So: G, A→G, B, C→B, D, E→D, F♯→G. Say the
+  degree numbers out loud as you go.
+</TryThis>
+
+## Know the names cold
+
+<Quiz
+  items={[
+    { q: "The dominant of D major", a: "A — the fifth degree, a perfect fifth above D." },
+    { q: "The leading tone of A major", a: "G♯ — a half step below the tonic A, and it pulls up to it." },
+    { q: "Which degree is C in G major, and what is it called?", a: "^4 — the subdominant." },
+    { q: "The subdominant of G major", a: "C — the fourth degree (a fifth below G, or a fourth above it)." },
+    { q: "Degree ^3 is called the…", a: "Mediant — and it's the note that decides major vs minor." },
+    { q: "^7 is a whole step below the tonic, not a half step. Is it still the leading tone?", a: "No — a whole step below, it's called the subtonic, and it doesn't pull home the same way. You meet it in natural minor and in folk tunes." },
+  ]}
+  title="Scale degrees"
+/>
+
+## The usual mistake
+
+Reading ^7 as "just the note before the top". It's the **leading tone** — a half step from
+home, the most restless note in the key, and the engine behind almost every "we've arrived"
+moment in music. Composers *raise* it in minor keys precisely to get that half-step pull
+(you'll see that in the minor scales). Treat it with respect: when you land on ^7, something
+has to happen next.
+
+<Cite source="the technical names — theory tradition; 'dominant' and 'subdominant' from Jean-Philippe Rameau, Traité de l'harmonie (1722)">
+  Rameau worked out that the chords a fifth above and a fifth below the tonic do most of the
+  harmonic work in a key — so those degrees got the strongest names. "Leading note" is even
+  more direct: it's the note that leads your ear to the tonic.
+</Cite>

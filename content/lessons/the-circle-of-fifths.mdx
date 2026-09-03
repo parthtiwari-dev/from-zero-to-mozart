@@ -1,17 +1,103 @@
-A map of every major key and its key signature, arranged so neighbours are as closely related
-as possible — each step clockwise adds one sharp; each step anticlockwise adds one flat.
+You now know the order of sharps (F C G D A E B) and that each new key going "sharpwards" is a
+fifth above the last. The **circle of fifths** is that idea drawn as a wheel — every key, in
+fifth order, so the keys that sit next to each other are the ones most closely related.
 
 <CircleOfFifths highlight="G" />
 
-Start at **C** (no sharps, no flats) at the top. Move one step clockwise and you land on **G**
-— one sharp, F♯, exactly the key you derived on the last page. Another step clockwise: **D**,
-two sharps. The new sharp added at each step is always the 7th degree of the new key — that's
-not a coincidence, it's the same "raise the note that doesn't fit" logic from the last page,
-repeating.
+- **C** sits at the top, with a clean signature — no sharps, no flats.
+- Each step **clockwise** goes **up a perfect fifth** and **adds one sharp**: C → G (1♯) → D
+  (2♯) → A (3♯) → …
+- Each step **anticlockwise** goes down a fifth and **adds one flat**: C → F (1♭) → B♭ (2♭) → …
+- The inner ring is each major key's **relative minor** — same signature, different home note.
+  That pairing is the next movement's job; for now just see that it's there.
 
-Go anticlockwise from C instead and you pick up flats the same way: **F** (one flat), **B♭**
-(two flats), and onward.
+## The wheel is already in your hands
 
-You don't need to memorise this circle today. Use it as a **map** you come back to — every time
-you meet a new key signature, you can find it here and see immediately how closely related it
-is to keys you already know.
+Look at four neighbouring keys near the top: **… F – C – G – D – A – E …**
+
+Now play your four open strings, low to high: **G, D, A, E.** Those are **four consecutive
+spokes of the circle** — the violin is tuned in perfect fifths, so the instrument itself *is* a
+slice of this diagram. That's also why **G, D and A major fall so naturally under the
+first-position hand**, and why so much beginner violin music lives in those keys. It isn't a
+coincidence; it's the circle.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/2
+K:C clef=treble
+G, D | A e |]`}
+  labels={[
+    { name: "G", string: "G", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "E", string: "E", finger: "0" },
+  ]}
+  caption="The four open strings — G, D, A, E. Each is a perfect fifth above the last: four steps around the circle of fifths, played on the instrument."
+  defaultBpm={60}
+/>
+
+## Hear a step around the circle
+
+Play C, then the note a fifth above (G), then a fifth above that (D). Each move "brightens" —
+and each new key it implies has one more sharp.
+
+<NotatedExample
+  abc={`X:1
+M:3/4
+L:1/4
+K:C clef=treble
+C E G | G B d | d ^f a |]`}
+  labels={[
+    { name: "C", string: "G", finger: "3" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "D", string: "A", finger: "3" },
+    { name: "F♯", string: "E", finger: "1" },
+    { name: "A", string: "E", finger: "3" },
+  ]}
+  caption="Three little chords, each a fifth higher than the last: C major, then G major, then D major. Moving one step clockwise on the circle each time. Listen to how each one sits 'up' from the one before."
+  defaultBpm={72}
+/>
+
+## Try it
+
+<TryThis>
+  Find G on the circle. One step clockwise is D — G major's **dominant**. One step
+  anticlockwise is C — G major's **subdominant**. So a key's two closest neighbours are its IV
+  and V, the two chords you'll use most to harmonise anything in that key. Say it for D major
+  too: neighbours A and G.
+</TryThis>
+
+<Quiz
+  items={[
+    { q: "Starting at C and going clockwise, name the first four keys and their sharp counts.", a: "C (0), G (1), D (2), A (3)." },
+    { q: "Which key is directly opposite C on the circle?", a: "F♯ (or its flat spelling G♭) — six steps away, the most distant key from C." },
+    { q: "E major is how many steps clockwise from C, and how many sharps?", a: "Four steps: C → G → D → A → E. Four sharps." },
+    { q: "What is A major's subdominant (the neighbour one step anticlockwise)?", a: "D major." },
+  ]}
+  title="Reading the circle"
+/>
+
+## The bottom of the wheel
+
+Where the sharp side and the flat side meet — around 6 o'clock — the same keys get two names:
+**B = C♭**, **F♯ = G♭**, **C♯ = D♭**. Same piano keys, same violin fingers, spelled
+differently. A first-position player never meets these as home keys; they're covered in *The
+twelve keys*.
+
+## The usual mistake
+
+Trying to memorise the circle like a poster you'll be tested on. It's a **map** — you come
+back to it. Every time you meet a new key signature, find it on the wheel and you can see at a
+glance how close it is to keys you already know, which of your open strings will ring in it,
+and what its dominant and subdominant are.
+
+<Cite source="the 'musical circle' — Johann David Heinichen, Der General-Bass in der Composition (1728), building on Nikolai Diletsky (1670s)">
+  Heinichen drew the keys as a closed circle to show composers how to move smoothly from one
+  to another. Three centuries later it's still the single most useful diagram in tonal music —
+  and for a violinist it's also a picture of the open strings.
+</Cite>

@@ -131,9 +131,9 @@ finger≠string≠position keystone). 1 tune (Gossec Gavotte) deferred for a cle
   properly this time).
 
 ### Stage 4 — Scales, keys, major & minor: musicianship I
-*PDF Part V. **📋 RESEARCH + DRAFT PLAN DONE 2026-09-03** — `stage-plans/stage-4-research.md`
-(20 passes) + `stage-4.md` (the 4a/4b/4c build list, Movements A–P, ~48 concept + 6 repertoire,
-merged down from ~63). User review (3 open questions), then build. `PRD.md` §6.1: the harmony/ear thread is load-bearing for K.216 — the
+*PDF Part V. **✔ BUILT 2026-09-03** — `stage-plans/stage-4-research.md` (20 passes) +
+`stage-4.md` (4a/4b/4c, Movements A–P, **55 lessons** = 48 concept + 7 repertoire). Build
+green (216 pages). Pays the K.216 first-note debt (`the-first-note-of-mozart`). `PRD.md` §6.1: the harmony/ear thread is load-bearing for K.216 — the
 research budgets real lesson count (intervals + a dedicated ear thread, triads → diatonic
 harmony → the dominant 7th, cadences, phrase/period). Owns the **K.216 first-note debt**
 (`LESSONS-FROM-MOZART.md` §2): after Stage 4, "I can't read the first note of Mozart" must be

@@ -1,0 +1,108 @@
+Music is built in nested units, like language builds words into sentences into paragraphs.
+Three sizes are worth naming.
+
+## Motif → phrase → period
+
+| Unit | Size | What it is |
+|---|---|---|
+| **Motif** | 2–6 notes | the smallest recognisable idea — the seed a piece grows from |
+| **Phrase** | ~4 bars | a musical sentence: a beginning, a middle, and an end (a cadence). "One breath." |
+| **Period** | ~8 bars | two phrases — a **question** and an **answer** |
+
+**The motif.** Ode to Joy's whole tune grows from one tiny stepwise idea. Beethoven's Fifth
+Symphony is built almost entirely from four notes — "da-da-da-DUM."
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+B B c d |]`}
+  labels={[
+    { name: "B", string: "A", finger: "1" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+  ]}
+  caption="The Ode to Joy motif — four notes, mostly stepwise. Nearly every bar of the tune is a version of this shape."
+  defaultBpm={92}
+/>
+
+## The period: question and answer
+
+A period is an **antecedent** phrase (ends weak — a half cadence — "?") followed by a
+**consequent** phrase (ends strong — a perfect cadence — "."). The two usually *start* the
+same and *end* differently.
+
+<NotatedExample
+  abc={`X:1
+M:4/4
+L:1/4
+K:G clef=treble
+G A B G | A B c2 | G A B G | F A G2 |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="A parallel period. Bars 1–2 (antecedent) rise and stop on C — open, a question. Bars 3–4 (consequent) begin the same way but fall F♯→A→G, closing on the tonic G — the answer. Same opening, different ending: that's the period."
+  defaultBpm={88}
+  followPlayback
+/>
+
+## Sequence — a motif that climbs
+
+One more device: a **melodic sequence** is a motif immediately repeated a step (or a third)
+higher or lower. It's how a tune develops without new material — and it's what a
+circle-of-fifths progression sounds like as a melody.
+
+<NotatedExample
+  abc={`X:1
+M:3/4
+L:1/4
+K:G clef=treble
+G A B | A B c | B c d |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "C", string: "A", finger: "low 2" },
+    { name: "D", string: "A", finger: "3" },
+  ]}
+  caption="The same three-note shape (up a step, up a step), started a step higher each time. A sequence — it drives the line upward with one idea."
+  defaultBpm={92}
+/>
+
+## Try it
+
+<TryThis>
+  Play the period example above. Stop at the end of bar 2 (on C) and wait — feel it hang,
+  unanswered. Then play bars 3–4 and let the G land. Now try playing *only* the antecedent, or
+  *only* the consequent: each sounds incomplete on its own. A period is a matched pair.
+</TryThis>
+
+## The usual mistake
+
+Reading a long melody as one undifferentiated stream. It has joints — every ~4 bars there's a
+cadence, a breath, a phrase boundary. Find them (the cadence lesson tells you how), and the
+tune stops being a wall of notes and becomes a set of sentences you can shape one at a time.
+
+<Cite source="Classical phrase structure — William Caplin, Classical Form (1998); Arnold Schoenberg, Fundamentals of Musical Composition">
+  The period and the sentence are the two standard 8-bar theme types of the Classical style.
+  The period is a question-and-answer built from two phrases with contrasting cadences.
+</Cite>
