@@ -843,3 +843,241 @@ passage → on-string staccato. This ambiguity *is* the lesson's "usual mistake"
 
 Ricochet/jeté, flying staccato, flying spiccato, fouetté — all are **thrown or flung**
 off-string strokes built on spiccato/sautillé. Pass 9 handles them as a single REFERENCE card.
+
+---
+
+## Pass 9 — The far shore: ricochet, flying staccato, fouetté, the Viotti stroke, chopping
+
+*(research batch 9: 2026-09-04 — violinspiration.com "Ricochet"; violinlounge.com "102 bowing
+techniques"; thestrad.com "How did Viotti influence the Tourte bow" & "Turtle Island Quartet
+techniques" & "Introducing the chop"; maestronet "Viotti stroke"; wbur.org on Richard Greene;
+Kreutzer/Galamian via secondary)*
+
+**One REFERENCE card for the whole group.** Goal: the reader can **name it, recognise its
+sound, and know what era/style asks for it.** None is remotely a Stage-5 target. The card's
+value is (a) so a marked-up score never contains a total mystery, and (b) the *Viotti stroke*
+carries a concept worth having.
+
+| Stroke | What it is | Built on | Notation | Where you hear it |
+|---|---|---|---|---|
+| **Ricochet / jeté / "thrown"** | throw/drop the bow and let it **bounce 2–6 times in one direction** — gravity + the stick do the work, almost always **down-bow** | spiccato | dots under a slur, down-bow | Rossini *William Tell* gallop; Paganini; Saint-Saëns; Mendelssohn concerto finale |
+| **Flying staccato / flying spiccato** | a row of short notes in **one** bow direction that **lift off** the string — controlled arm/finger bounce, not gravity | up-bow staccato + spiccato | dots under a slur, many notes | Wieniawski; virtuoso showpieces |
+| **Fouetté ("whipped")** | the bow is lifted and **flung at the string** for a single sharp accented note, usually **up-bow near the tip** | between spiccato and accented détaché | an accent + context | Mendelssohn concerto, 1st mvt |
+| **Viotti stroke** | *not a bounce* — a bowing **rhythm/character**: two notes on one bow, a **short weak note → a long strong accented note**, on the principle of **energy and release** (work the short note, and the long note comes out *released*, singing) | martelé / détaché | read from the rhythm + slur + accent | named for **G. B. Viotti**, whose singing style helped shape the modern **Tourte bow**; a staple of Kreutzer study |
+| **Chopping** | a **percussive** vertical strike of the bow near the frog, usually on two strings — a drum "chk"; combined with pitched notes for a rhythm-guitar effect | its own thing | a dedicated notation ("The Chop Notation Project") | invented by fiddler **Richard Greene** (mid-1960s, resting a sore wrist), spread by the **Turtle Island Quartet**; jazz, pop, contemporary fiddle |
+
+- **The one idea to lift out of this card: energy and release** (the Viotti principle). Tension
+  worked *into* a short note produces a *released*, ringing long note. It is "prepare the bite,
+  then let go" (martelé, Pass 6) generalised into a musical instinct, and it belongs in the
+  reader's ears even though the stroke itself is years away.
+- **Chopping** earns its place because the reader may well *want* it (it is all over modern
+  fiddle/pop violin), and because it is a good story about technique being invented, not
+  handed down. But it is genuinely a different idiom — flag it as "a door, not a step."
+
+---
+
+## Pass 10 — Colour strokes: tremolo, sul ponticello / sul tasto / flautando, col legno, au talon
+
+*(research batch 10: 2026-09-04 — violinonline.com "Bowing Directions" & glossary;
+violinspiration.com "Tremolo"; violinlounge.com "Tremolo"; newt.phys.unsw.edu.au "Articulation
+and vibrato"; andrewhugill.com *Orchestra Manual*; simplyforstrings glossary; the PDF Part VI
+§63)*
+
+**The hook:** these are the **sounding point** (Pass 1) pushed off the ends of the ruler, plus
+two "use the wood not the hair" oddities. The reader met all these *as words to read* in Stage
+3 (D3, `string-and-colour-words`); Stage 5 is where they *do* them — and most are a
+ten-second try, not a skill.
+
+| Term | What you do | Sound | Notation | Relation to the 5 lanes |
+|---|---|---|---|---|
+| **sul ponticello** (*sul pont.*) | bow **right by the bridge**, light and fast | glassy, metallic, thin, eerie — mostly upper partials | `sul pont.` … `ord.`/`nat.` to cancel | lane 1 and beyond |
+| **sul tasto** (*sul tasto* / *flautato*) | bow **over the fingerboard**, light and fast | veiled, hollow, soft | `sul tasto` … `ord.` | lane 5 and beyond |
+| **flautando / flautato** | extreme sul tasto, often less hair | flute-like, breathy, no core | `flautando` | past lane 5 |
+| **col legno battuto** | **tap** the string with the **wood** of the stick | dry percussive "tick", little pitch | `col legno` (`col legno battuto`) … `arco` | — (not a lane thing) |
+| **col legno tratto** | **draw** the wood across the string | ghostly, scratchy pitch | `col legno tratto` | — |
+| **con sordino** | fit the **mute** on the bridge | soft, dark, "muffled" — mechanically removes upper partials (like playing sul tasto — Fischer, Pass 2) | `con sord.` … `senza sord.` | — |
+| **au talon / à la pointe** | play **at the frog** / **at the tip** | heavier, more bite / lighter, less | `au talon`, `à la pointe`, `punta d'arco`, `Sp.`, `Pt.` | — (a bow-*place* instruction — Pass 11) |
+
+### Tremolo — the one the reader should really try
+
+**Tremolo** = rapid repetition of one note (or fast alternation of two).
+
+- **Unmeasured tremolo** — as fast as possible, no counted rhythm; a small fast wrist/forearm
+  oscillation, usually in the **upper half / near the tip**, arm relaxed. Notated with **three
+  slashes** through the stem (like a 32nd-note beam) or `trem.`. Sound: shimmer, tension,
+  storm.
+- **Measured tremolo** — the note divided into a *counted* number of repetitions (2 slashes =
+  sixteenths, etc.). **This is pure rhythm** — exactly what the reader is strong at. A measured
+  tremolo play-around ("this half note = eight even sixteenths, keep them dead level") is a
+  legitimate Stage-5 exercise and a confidence win.
+- **Usual mistake:** a stiff, clenched arm (tremolo comes from a *loose* hand) and, for
+  measured tremolo, letting the subdivision get ragged.
+
+Tremolo notation was previewed in Stage 2 (`beams-and-how-notes-group` / the note-value tree)
+and Stage 3; Stage 5 is where it makes a sound.
+
+### Build note
+
+sul pont / sul tasto / flautando are **safe, easy, genuinely fun play-arounds** — the reader
+just moves the bow and hears the sounding-point principle in the most vivid possible way. Put
+one in the *sounding point* lesson (Pass 1's content) as the "hear it" beat, not only in a
+separate colour lesson. col legno and con sordino: one short REFERENCE lesson or a shared card.
+
+---
+
+## Pass 11 — Reading a printed bowing (the make-or-break of the stage — `LESSONS-FROM-MOZART.md` §1)
+
+*(research batch 11: 2026-09-04 — violinonline.com "Bowing Directions" & glossary;
+musiciangoods.com "Violin Bowing Symbols Explained"; violinlounge.com "Up-Bow or Down-Bow? 22
+rules" & "Symbols of all 24 bowing techniques"; thestrad.com "Long read: Playing Baroque and
+Classical" & "From the archive: Interpreting Bach"; violinist.com "Rules of Bowing" &
+"Is bowing strictly a rule"; fiddlerman.com "Interpreting Bowing Notation"; Georg Muffat 1698
+on Lully's rules, via secondary)*
+
+**This is the reason Stage 5 exists as more than a stroke list.** A real part's bowing is
+*information the composer/editor is handing you* — and a beginner who can play a clean détaché
+still can't play a Mozart phrase, because they can't *read the plan*. This is the Stage-5
+analogue of Stage 3's `decode-a-dense-line`, and it should probably be **2–3 lessons**.
+
+### 1 — The direction signs, and "where in the bow"
+
+| Mark | Means |
+|---|---|
+| **⊓** (or `n`, or `⊓` printed above the note) | **down-bow** — pull, frog → tip. Naturally heavier (arm + gravity). |
+| **V** | **up-bow** — push, tip → frog. Naturally lighter. |
+| **WB** | whole bow |
+| **LH** (or **½L**, **Lo½**) | **lower half** — middle to frog |
+| **UH** (or **½U**, **Up½**) | **upper half** — middle to tip |
+| **M** / **MB** | middle of the bow (rarely marked — it's the default) |
+| **frog** / **at the frog** / **au talon** / **talon** / **nut** | at the heel, by the hand — most weight available |
+| **tip** / **point** / **punta d'arco** / **Sp.** (*Spitze*, German) / **Pt.** (*punta*) | at the far end — least weight, needs the most arm |
+| **a small comma / apostrophe / "lift" / a half-circle** | a **retake** — lift and reset (Pass 7) |
+
+The reader must simply **recognise every one of these** — that is a clean RECOGNISE lesson
+(quiz-friendly). `Sp.` and `Pt.` and `au talon` are the ones the K.216 edition actually uses.
+
+### 2 — Slurs are the bowing
+
+A slur = "one bow, this many notes, one direction". Reading a phrase, the reader asks of every
+slur: **how many notes, so how do I divide the bow (Pass 5)? which direction does it start —
+and does that leave me set up for the next strong beat?**
+
+### 3 — `f`–`p` echoes need a **bow** change, not just a volume knob
+
+The Classical "echo": a phrase at `f`, then the *same* phrase at `p`. This is the
+`dynamics-are-a-bow-thing` (Stage 3 B6) promise coming due:
+
+- `f` → faster bow, more weight, nearer the bridge (lane 2–3).
+- `p` → slower bow, less weight, toward the fingerboard (lane 3–4), often less hair.
+- `< >` on one long note = **messa di voce** — a bow that speeds up and slides toward the
+  bridge, then reverses. The purest "dynamics = bow" exercise there is.
+- **subito p** = the change is *instant* at the barline — plan the bow so you land with the
+  right speed/lane already set.
+
+### 4 — Editorial vs composer bowings (ties Stage 3 H — editions)
+
+Editions mark the difference, and the *preface* tells you the scheme. Common conventions:
+
+- **Solid slur = composer's; dotted / dashed slur = editor's** (very common in Bach editions).
+- **Square brackets** `[ ]` around a bow mark, fingering or dynamic = editorial.
+- **"Bowings above the staff are the composer's; those below are the editor's"** — the exact
+  footnote in the K.216 edition (`LESSONS-FROM-MOZART.md` §3).
+- **Fingerings and position numbers** (`1 2 3 4`, and roman `III` `IV` for *positions*) are
+  **almost always editorial** and are **not** bowing — the numeral-tangle keystone
+  (`finger-string-or-position` G3 in Stage 3; `the-first-note-of-mozart` O2 in Stage 4). One
+  beat of this lesson re-nails it.
+
+### 5 — The rule of the down-bow ("la règle du tiré")
+
+The **strong beat wants a down-bow.** Codified for Lully's orchestra (documented by **Georg
+Muffat, 1698**) and still the default instinct in Baroque/Classical playing:
+
+- The **first beat of the bar** falls on ⊓.
+- Consequence for counting: an **even** number of notes before the barline ⇒ start that group
+  **down-bow**; an **odd** number ⇒ start **up-bow** — so you *arrive* on a down-bow at the
+  bar. (violinlounge "22 rules".)
+- When the note-count doesn't work out, you fix it with a **retake** (two down-bows in a row,
+  Pass 7), a **hooked bow** (Pass 7), or by **choosing a slur** that re-aligns it.
+- Modern playing bends the rule for musical reasons, but "does the strong beat land
+  down-bow?" is the first question when you bow a passage yourself.
+
+This is a **satisfying lesson for a systems-minded, rhythm-strong reader** — it is a genuine
+*rule* with an audible reason, and the note-counting is arithmetic they'll enjoy.
+
+### 6 — Bowing a passage from scratch (the capstone)
+
+The method, as a checklist the reader can run:
+
+1. Find the **strong beats** — they want down-bows.
+2. **Count notes** between them; decide slurs, hooks, retakes so the strong beats land ⊓.
+3. **Plan bow distribution** (Pass 2) — will you run out? where does each phrase start in the
+   bow? where do you retake to reset?
+4. Mark it in, play it slow, adjust.
+
+**The capstone example should be the K.216 first solo phrase** — decode its printed bowing
+mark by mark (direction, `Sp.`, the slurs, the `f`, the editorial fingerings), exactly the way
+`decode-a-dense-line` walked a dense phrase's symbols. This pays the last of the
+`LESSONS-FROM-MOZART.md` §1 debt and closes the arc that `arpeggios-in-real-music` (Stage 4
+J4) and `the-first-note-of-mozart` (Stage 4 O2) began.
+
+---
+
+## Pass 12 — Dynamics as a bow decision (completes the Stage 3 `dynamics-are-a-bow-thing` bridge)
+
+*(research batch 12: 2026-09-04 — Wikipedia "Messa di voce"; violinist.com "The Messa di
+Voce" thread & "How do you play Dynamics"; thestrad.com "10 views on dynamics for bowed
+strings"; stringsmagazine.com "4 Ways to Achieve Masterful Bowing Dynamics"; violinlounge.com
+"Bow Control" exercises; Fischer & Galamian, Passes 1–2)*
+
+Stage 3 B "Dynamics" taught the reader to *read* `pp`–`ff`, hairpins, `sf`, `subito`, and the
+lesson `dynamics-are-a-bow-thing` (B6) planted the flag: **loud and soft on a violin are bow
+decisions, not a knob.** Stage 5 makes them.
+
+### The two recipes
+
+| | louder (`→ f`) | softer (`→ p`) |
+|---|---|---|
+| **bow speed / amount** | faster / more bow | slower / less bow |
+| **weight** | more arm weight in | lighter |
+| **sounding point** | toward the **bridge** (lane 2–3) | toward the **fingerboard** (lane 3–4) |
+| **hair** | flat (all the hair) | tilted (less hair) |
+
+All four move **together**. That is the physics of Pass 1: the three controls are
+interdependent, and dynamics is just "move all of them the same way at once."
+
+### Crescendo / diminuendo — two scales, two methods
+
+- **Across a phrase** (a hairpin over several notes / bars): **use gradually more bow** per
+  note into the crescendo, gradually less into the diminuendo; weight and lane drift with it.
+- **On one long note** (a hairpin on a single held note, or `< >` = **messa di voce**): you
+  **can't** just speed the bow up — you'd run out of bow. Instead **keep the bow speed roughly
+  even, add weight and slide toward the bridge for the crescendo, then release weight and
+  slide back for the diminuendo.** (This is the nuance the sources disagree on because they're
+  talking about different scales — name both.)
+
+### Messa di voce — the purest exercise there is
+
+**Messa di voce** ("placing of the voice") = a long crescendo then a long diminuendo **on one
+note**, *nothing changing but the volume* — not the pitch, not the timbre, not (for us) any
+vibrato. Do it on a whole bow, down and up, at the frog and at the tip. A player who owns messa
+di voce "is permanently ready to execute a crescendo on any bow, any part of the bow, any note
+length" (violinist.com). It is the graduation exercise of the whole tone thread — and it is
+`< >` on one note, a mark the reader already reads.
+
+### `sf` / `sfz` / `fp` — a bow *attack*
+
+A sforzando is a **prepared bite** on that one note (martelé's front end, Pass 6) then an
+immediate return to the prevailing dynamic. `fp` = that bite, then instantly soft. The reader
+already has the gesture from martelé; here it's applied to a single marked note in a line.
+
+### The usual mistake
+
+Trying to crescendo a **long held note by speeding the bow up** — you arrive at the tip with
+half the note left and nothing to give. The fix: on one note, crescendo with **weight + lane**,
+save the bow-speed method for **across** notes.
+
+### Subito
+
+`subito p` / `subito f` = the change is **instant**, usually at a barline or phrase start.
+Plan the bow: arrive at that point with the *new* speed, weight and lane already set — don't
+"fade into" a subito.
