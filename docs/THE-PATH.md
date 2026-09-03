@@ -138,7 +138,8 @@ Adding 30 songs is not the fix on its own. Each stage is (re)built to:
 Refined in each stage's own plan (`docs/stage-plans/stage-N.md`). Counts are targets.
 
 *Status (2026-09-03): Stages 0–3 built to the `RULES.md` bar. Stage 4 research done
-(`stage-plans/stage-4-research.md`, 20 passes) — plan (`stage-4.md`) with the user next.*
+(`stage-plans/stage-4-research.md`, 20 passes) + draft build plan (`stage-plans/stage-4.md`,
+4a/4b/4c, ~48 concept + 6 repertoire) — user review, then build.*
 
 | Stage | Skill focus | You can play… |
 |---|---|---|

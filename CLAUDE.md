@@ -103,7 +103,8 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 | `docs/stage-plans/stage-2.md` | Stage 2 (Rhythm) — the lesson-by-lesson plan (Movements A–I, ~33 skill lessons + tunes). **BUILT.** |
 | `docs/stage-plans/stage-3-research.md` | Stage 3 (Score symbols) — the deep research, 9 passes (Tempo · Dynamics · Articulation · Bow & string words · Repeats & the road map · Ornaments · String-part notation · Editions · Putting it together), each with draft lessons + a full sources list. |
 | `docs/stage-plans/stage-3.md` | Stage 3 (Score symbols) — the **build list**: Movements A–J, the 3a/3b split, the merges from the research draft, the quality bar. Status: **BUILT — 46 live** (42 skill + 4 tunes); Gossec Gavotte deferred. |
-| `docs/stage-plans/stage-4-research.md` | Stage 4 (Scales & musicianship I) — the deep research, **20 passes** (what a scale is · steps & the major formula · key signatures · circle of fifths · minor · the 12 keys · intervals · the ear thread · triads · diatonic harmony · the dominant 7th · cadences · phrase & structure · arpeggios · the physics · other scale families · scale practice · transposition · putting it together / the K.216 first note · repertoire), each with draft lessons; ends with a 16-movement plan (A–P, ~60 concept + 7 tune/scale) + merge candidates + a full sources list. **DONE 2026-09-03 — plan (`stage-4.md`) with the user next.** |
+| `docs/stage-plans/stage-4-research.md` | Stage 4 (Scales & musicianship I) — the deep research, **20 passes + a re-verification pass** (what a scale is · steps & the major formula · key signatures · circle of fifths · minor · the 12 keys · intervals · the ear thread · triads · diatonic harmony · the dominant 7th · cadences · phrase & structure · arpeggios · the physics · other scale families · scale practice · transposition · the K.216 first note · repertoire · non-chord tones / harmonic rhythm / key character from the re-verify), each with draft lessons; ends with a 16-movement plan (A–P, ~63 concept + 7 tune/scale) + merge candidates + a full sources list. |
+| `docs/stage-plans/stage-4.md` | Stage 4 — the **build list**: Movements A–P, the **4a/4b/4c split** (4a Scales & keys · 4b Intervals, chords & harmony · 4c Arpeggios, the physics & the rest), the merges from the research draft (63 → 48 concept), the existing-15-slugs table, the tune set, the quality bar, the "must not cut" set, and 3 open questions for the user (Vivaldi *Spring* placement · ear thread as its own movement · cut deeper?). Status: **DRAFT 2026-09-03 — user review, then build.** |
 | `docs/LESSONS-FROM-MOZART.md` | what the (deferred) K.216 run taught us the middle stages must teach deeply — bowing, chords, the dense score vocabulary, style. Read before planning Stages 2–7. |
 | `docs/stage-plans/mozart-k216.md` | the deferred K.216 module — what's built, the transcription pipeline, how to resume |
 | `docs/DESIGN_LOCK.md` | the locked visual language — Direction A ("The Critical Edition"); chosen and built |
@@ -129,7 +130,7 @@ lesson 2–4 play-arounds + real music. Plan each stage with the user (`stage-pl
 | **1 · First position & the staff** | ✔ rebuilt — `stage-plans/stage-1.md`, Movements A–F, ~43 lessons + 10 published tunes (4 pending PD sources: song-of-the-wind, go-tell-aunt-rhody, long-long-ago, french-folk-song). Deferred: re-notating the published tunes in true (not simplified) rhythm. |
 | **2 · Rhythm** | ✔ rebuilt — `stage-plans/stage-2.md`, Movements A–I, 33 skill lessons + 3 tunes. Added `RhythmTree` `<Diagram>` + `rhythmOnly` mode on `<NotatedExample>`. Deferred: 3 tunes (Pop Goes the Weasel / Jolly Good Fellow / Deck the Halls) pending sources. |
 | **3 · Score symbols** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-3-research.md` + `stage-3.md`, Movements A–J, **46 lessons** (42 skill + 4 tunes). 1 tune deferred (Gossec Gavotte). Details below. |
-| **4 · Scales & musicianship** | 🔬 **RESEARCH DONE 2026-09-03** — `stage-plans/stage-4-research.md` (20 passes, 16-movement plan A–P). **NEXT: plan (`stage-4.md`) with the user, then build.** See "NEXT SESSION". |
+| **4 · Scales & musicianship** | 📋 **RESEARCH + DRAFT PLAN DONE 2026-09-03** — `stage-plans/stage-4-research.md` (20 passes) + `stage-4.md` (build list: 4a/4b/4c, Movements A–P, ~48 concept + 6 tune/scale, merges 63→48). **NEXT: user reviews `stage-4.md` (3 open questions), then build.** See "NEXT SESSION". |
 | **5 · The bow** | first-draft skeleton live (14 lessons), not yet rebuilt. Then → Foundation gate. |
 
 **Stage 0–2 audit (`docs/stage-audit.md`, 2026-09-02):** every published lesson checked
@@ -208,28 +209,29 @@ single-note / single-chord examples render left-aligned in the well.
 
 ---
 
-## NEXT SESSION — Stage 4 (Scales & musicianship I) : PLAN then build
+## NEXT SESSION — Stage 4 (Scales & musicianship I) : REVIEW the plan, then build
 
-**Research is DONE** (2026-09-03) — `docs/stage-plans/stage-4-research.md`, **20 interleaved
-passes**, ends with a **16-movement plan (A–P, ~60 concept lessons + ~7 tune/scale entries)**,
-a 4a/4b/4c sub-grouping proposal, merge candidates to land near ~46–50, a "must not cut" set,
-and a full sources list. Lineage quotes added to `docs/LINEAGE-QUOTES.md` (Stage 4 section).
+**Research DONE** (2026-09-03) — `docs/stage-plans/stage-4-research.md`, 20 interleaved passes
++ a re-verification pass, full sources list. Lineage quotes added to `docs/LINEAGE-QUOTES.md`.
 
-**Next step: the plan (`docs/stage-plans/stage-4.md`) WITH THE USER** — same as Stage 3's
-research→plan→build. Bring the user:
-- the 4a/4b/4c split (or a different grouping) and which merges to apply (target lesson count);
-- the tune set (research proposes EKN · Vivaldi *Spring* · Canon in D · Scarborough Fair ·
-  Für Elise · Aura Lee + the scale/arpeggio set — Stage 3 shipped 4 tunes, so prune to ~4–5);
-- **⚠ resolve the Vivaldi *Spring* placement** — `PDF-MAP.md` files it under the Phase-2 Vivaldi
-  module; `THE-PATH.md` §6 puts the *theme* in Stage 4. Research recommends: theme here, full
-  movement in the Vivaldi module;
-- whether F6–F8 (the ear thread) become their own "Ear" movement.
+**Draft PLAN DONE** (2026-09-03) — `docs/stage-plans/stage-4.md`, the build list:
+- **4a/4b/4c split** (`stage: 4` throughout, a `/learn` divider — like Stage 3's 3a/3b):
+  4a Scales & keys (A–E, 14) · 4b Intervals, chords & harmony (F–I, 19 — the load-bearing block)
+  · 4c Arpeggios, the physics & the rest (J–O, 15).
+- **~48 concept lessons + 6 repertoire** (scale/arpeggio set + 5 tunes), merged down from the
+  research draft's ~63 (the merge table is in the plan).
+- All 15 existing Stage-4 slugs re-pointed or renamed (table in the plan).
 
-Then build to the `PRD.md` §7 bar (six beats · 2–4 play-arounds · every note labelled · cited
-lineage · ends at real music). Existing thin Stage-4 slugs (15 in `lib/curriculum.ts`;
-`why-g-major-has-one-sharp` + `detache` already rebuilt) get replaced/deepened per the
-research doc's "(rewrite of …)" notes. `<CircleOfFifths>` component exists — no new components
-planned (`RULES.md` #17).
+**Next step: the user reviews `stage-4.md`** — it has **3 open questions** flagged:
+1. **Vivaldi *Spring* placement** — `PDF-MAP.md` says Phase-2 Vivaldi module; `THE-PATH.md` §6
+   says the theme is Stage 4. Plan recommends: build the theme here (P6), full movement later.
+2. **Ear thread as its own movement** — keep F4–F5 inside Movement F, or split into a visible
+   "Movement F′ — Hearing it"? Plan recommends: keep in F.
+3. **Cut deeper?** 48 concept is defensible but big; the plan names the first 3 to drop.
+
+Then build to the `PRD.md` §7 bar, movement by movement (4a → 4b → 4c). **No new components**
+(`RULES.md` #17). The **Indian-music claims** (A3, D2, K3, L2) get the strictest fact-check —
+the user *can* catch a wrong one.
 
 **Load-bearing, must not cut** (`PRD.md` §6.1, `LESSONS-FROM-MOZART.md` §2, the user's explicit
 ask): the ear thread (`hearing-the-scale-degrees` esp.); the K.216 bridge

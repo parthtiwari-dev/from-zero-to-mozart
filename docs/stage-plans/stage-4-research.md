@@ -32,9 +32,10 @@ just jumped, the cadence you just heard. `read` and `understand` and `perform` s
 milestones (`RULES.md` #7).
 
 **Lesson count.** Deliberately broad — this is the widest concept block in the course after
-Stage 3. The research is landing near **~40–48 lessons across Movements A–O** (see the movement
-plan at the end). `stage-4.md` is where we prune, merge thin siblings, and split it into
-sub-groupings with the user — the same way Stage 3 became 3a/3b.
+Stage 3. The research landed at **~63 concept lessons + ~7 tune/scale entries across Movements
+A–P** (see the movement plan at the end). **`docs/stage-plans/stage-4.md` (drafted 2026-09-03)**
+prunes this to **~48 concept + 6 repertoire** via the merge table, splits it 4a/4b/4c, and
+carries 3 open questions for the user — the same way Stage 3 became 3a/3b.
 
 ---
 
@@ -1614,9 +1615,78 @@ loves` / the C-major scale.
 
 ---
 
+## Pass 21 — Re-verification: gaps found and closed
+
+*(2026-09-03 — audited the 20 passes against a music-theory-fundamentals syllabus
+(NYU / Juilliard *Elements of Theory* / AP Music Theory / Coursera Edinburgh), `PLAN.md`
+Part A Stage 4, `CURRICULUM.md` §Stage 4, and the PDF's Part V. Four real gaps, several
+one-line touches.)*
+
+### Real gaps — three new lessons
+
+1. **Non-chord tones.** Every fundamentals syllabus pairs "chords" with **non-harmonic /
+   non-chord tones** — the melody note that *isn't* in the chord under it. Without this,
+   `harmonising-a-tune-you-know` (H3) and `read-the-harmony-of-a-line` (O1) are dishonest: not
+   every melody note is a chord tone, and the reader will hit one and think they've got the
+   harmony wrong. The four to name: **passing tone** (step in, step on through), **neighbour
+   tone** (step away and back), **suspension** (held over, resolves down by step), **appoggiatura**
+   (leap in, step out — Stage 3 already taught the *ornament* spelling; here it's the
+   *harmonic* idea). → **new lesson `notes-that-arent-in-the-chord`, Movement H, NEXT.**
+
+2. **Harmonic rhythm.** The rate the chords change — once a bar, twice a bar, every beat — and
+   the way it **speeds up into a cadence.** This is a natural bridge lesson *for this user*:
+   harmony has a pulse, and hearing that pulse is a rhythm skill (their strength) pointed at
+   harmony (their growth axis). Short. → **new atom `harmony-has-a-rhythm-too`, Movement H, NEXT.**
+
+3. **Key character (*affekt*).** Before equal temperament flattened every key to the same
+   colour, keys had *personalities* — **Schubart** (1806): D major "the key of triumph, of
+   hallelujahs, of victory"; C minor "the lament of unhappy love." **Charpentier**, **Rameau**,
+   **Mattheson** all wrote key-character tables. It's mostly lost to modern ears *because* of
+   equal temperament (Movement K3) — which makes it a perfect REFERENCE aside that ties
+   `the-twelve-keys`, `the-keys-the-violin-loves`, `in-tune-is-not-one-thing` and Stage 3's
+   "the era tells you how" together. → **new atom `keys-used-to-have-characters`, Movement E,
+   REFERENCE.**
+
+### One-line touches folded into planned lessons
+
+- **`the-intervals-in-the-major-scale` (F2)** — add the method + play-around for working out
+  the quality of *any* interval, not just from the tonic: number by counting letters, quality
+  by half-steps *or* by comparing the top note to the bottom note's major scale (D→F: F is not
+  in D major → it's been lowered → **minor** 3rd).
+- **`near-keys-and-far-keys` (C2)** + **`cadences-in-your-own-tunes` (I3)** — make **modulation**
+  explicit: "the music changes home key mid-piece; you spot it by a new accidental appearing
+  consistently, and a cadence in the new key." The Minuet-in-G double bar is the worked case.
+- **`motif-phrase-and-period` (I4)** — name the **melodic sequence** (a motif repeated a step
+  or a third higher/lower — the engine of Ode to Joy's development, and of circle-of-fifths
+  progressions).
+- **`what-an-arpeggio-is` (J1)** / **`what-a-scale-is` (A1)** — the unifying line: **every
+  melody is some mix of steps (scale) and leaps (arpeggio)** — the two things Movements A and
+  J teach are the two things a tune is *made of*.
+- **`relative-major-and-minor` (D4)** — state the reverse direction too: **relative major =
+  the 3rd degree of the minor = a minor 3rd up** (E minor → G major).
+- **`what-a-scale-is` (A1)** — beat-1 flavour: *scala* = Latin for **"ladder."**
+- **`what-a-cadence-is` (I1)** — one line on the **cadential 6/4** (the I⁶⁴–V–I "double
+  suspension" that decorates so many perfect cadences).
+
+### Checked and deliberately **not** added (out of scope for musicianship *I*)
+
+- Secondary dominants / applied chords (V/V), modulation *technique*, Neapolitan & augmented-
+  sixth chords, four-part voice-leading rules, species counterpoint, non-dominant 7th
+  *resolution*, the cadential 6/4 as a *full lesson* — all belong to a later "musicianship II"
+  / harmony stage. Named-only or one-line where they touch Stage 4.
+- Chromatic-scale *fingering*, double-stop scales, 3-octave scales — Stage 6 + the practice
+  ladder (already flagged in Movement M).
+
+### Net effect
+
+**16 movements A–P, ~63 concept lessons + ~7 tune/scale entries** (was ~60). The merge
+candidates below still bring the build to ~46–50.
+
+---
+
 ## The movement plan (draft — to be pruned with the user in `stage-4.md`)
 
-**16 movements A–P, ~60 concept/skill lessons + ~7 tune/scale entries** — larger than Stage 3
+**16 movements A–P, ~63 concept/skill lessons + ~7 tune/scale entries** — larger than Stage 3
 (46) on purpose, because this is the widest concept block in the course and `PRD.md` §6.1
 calls the harmony/ear thread load-bearing. `stage-4.md` prunes and merges (Stage 3's research
 went 53 → 46 the same way).
@@ -1625,8 +1695,8 @@ went 53 → 46 the same way).
 
 | Group | Movements | Theme | ~Lessons |
 |---|---|---|---|
-| **4a — Scales & keys** | A, B, C, D, E | what a scale is · steps & the major formula · the circle of fifths · minor · the 12 keys | ~20 |
-| **4b — Intervals, chords & harmony** | F, G, H, I | intervals & the ear thread · triads · diatonic harmony & the dominant 7th · cadences & phrase | ~22 |
+| **4a — Scales & keys** | A, B, C, D, E | what a scale is · steps & the major formula · the circle of fifths · minor · the 12 keys | ~21 |
+| **4b — Intervals, chords & harmony** | F, G, H, I | intervals & the ear thread · triads · diatonic harmony (+ non-chord tones, harmonic rhythm) & the dominant 7th · cadences & phrase | ~24 |
 | **4c — Arpeggios, the physics & the rest** | J, K, L, M, N, O | arpeggios (+ the K.216 bridge) · the physics · other scale families · scale practice · transposition · the capstone | ~18 |
 | **P** | P | the tunes + the scale/arpeggio set — woven through, released mid-group | ~7 |
 
@@ -1641,10 +1711,10 @@ Stage 3 did 3a/3b).
 | **B** | Steps & the major formula | `whole-steps-and-half-steps` · `the-four-finger-patterns` · `the-major-scale-formula` · `why-g-major-has-one-sharp` (keep) · `the-order-of-sharps-and-flats` · `reading-any-key-signature` | NOW |
 | **C** | The circle of fifths | `the-circle-of-fifths` · `near-keys-and-far-keys` | NOW |
 | **D** | Minor | `what-major-and-minor-mean` · `the-natural-minor-scale` · `the-three-minors` · `relative-major-and-minor` · `parallel-major-and-minor` | NOW/NEXT |
-| **E** | The twelve keys | `the-twelve-keys` (REF) · `double-sharps-and-double-flats` (REF) · `the-keys-the-violin-loves` (NOW) | REFERENCE + 1 NOW |
+| **E** | The twelve keys | `the-twelve-keys` (REF) · `double-sharps-and-double-flats` (REF) · `the-keys-the-violin-loves` (NOW) · `keys-used-to-have-characters` (REF) | REFERENCE + 1 NOW |
 | **F** | Intervals & ear | `what-an-interval-is` · `the-intervals-in-the-major-scale` · `augmented-diminished-and-the-tritone` · `flipping-an-interval` · `consonance-and-dissonance` · `hearing-the-scale-degrees` · `interval-anchors-from-your-own-tunes` · `tuning-by-ear` | NOW/NEXT — *F6–F8 may split into an "Ear" movement* |
 | **G** | Chords (triads) | `what-a-triad-is` · `the-four-triad-qualities` · `chord-inversions` · `spelling-any-triad` | NEXT |
-| **H** | Harmony | `the-chords-of-a-key` · `the-three-jobs-chords-do` · `harmonising-a-tune-you-know` · `the-dominant-seventh` · `the-other-seventh-chords` (REF) | NEXT |
+| **H** | Harmony | `the-chords-of-a-key` · `the-three-jobs-chords-do` · `harmonising-a-tune-you-know` · `notes-that-arent-in-the-chord` · `harmony-has-a-rhythm-too` · `the-dominant-seventh` · `the-other-seventh-chords` (REF) | NEXT |
 | **I** | Cadences & phrase | `what-a-cadence-is` · `the-other-three-cadences` · `cadences-in-your-own-tunes` · `motif-phrase-and-period` · `phrases-breathe` | NEXT |
 | **J** | Arpeggios | `what-an-arpeggio-is` · `the-first-position-arpeggios` · `broken-thirds-and-the-dominant-seventh-arpeggio` · `arpeggios-in-real-music` (K.216) | NOW/NEXT |
 | **K** | The physics | `the-harmonic-series` (keep) · `why-your-violin-rings` (NOW) · `in-tune-is-not-one-thing` (NEXT/REF) | NEXT/REF + 1 NOW |
@@ -1857,6 +1927,18 @@ four standing references.
 - Vivaldi *Spring*: `docs/source/vivaldi-spring-easy.pdf`; `docs/PDF-MAP.md` Part VIII;
   `docs/THE-PATH.md` §6
 - Aura Lee: George R. Poulton (1861), public domain; standard fake-book melody (verify ×2)
+
+**Pass 21 — re-verification**
+- Non-chord tones: pressbooks.pub "Nonharmonic Tones"; milnepublishing "Nonharmonic Tones";
+  intmus.github.io "Non-chord tones"; legacy.wmich.edu "Non-Chord Tones"
+- Harmonic rhythm: en.wikipedia.org "Harmonic rhythm"; berklee.edu "Telling a Story with
+  Harmonic Rhythm"; iastate.pressbooks.pub "Harmonic Rhythm"
+- Key character: legacy.wmich.edu "Affective Musical Key Characteristics" (Schubart 1806);
+  biteyourownelbow.com "Characteristics of Musical Keys" (Schubart / Charpentier / Mattheson);
+  johncarlosbaez.wordpress.com "Well Temperaments"
+- Syllabus cross-check: NYU Music Theory curriculum; Juilliard *Elements of Theory* syllabus;
+  AP Music Theory sample syllabus (collegeboard); coursera.org "Fundamentals of Music Theory"
+  (Edinburgh)
 
 **Standing references** (all passes): `docs/PRD.md`, `docs/RULES.md`, `docs/CONTENT-STANDARD.md`,
 `docs/THE-PATH.md`, `docs/LESSONS-FROM-MOZART.md`, `docs/CURRICULUM.md` §Stage 4,
