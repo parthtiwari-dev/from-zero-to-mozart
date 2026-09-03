@@ -1,28 +1,95 @@
-Two NEXT-level strokes that sit between the ones you already have.
+Two NEXT-level strokes that sit between the ones you have. **Portato** is the expressive one
+you'll actually use soon. **Collé** is a training stroke that quietly makes everything else
+better.
 
-## Portato
+## Portato — pulsed notes in one bow
 
-**Portato** (also called *louré*) is gently pulsed notes **under one bow** — the bow keeps
-moving in one direction, but you give each note a soft swell and a slight separation, so it's
-neither fully connected (legato) nor fully stopped (staccato). Written as **tenuto dashes under
-a slur**.
+**Portato** (also called *louré*) is several notes under **one bow**, gently **pulsed** — each
+note swelled a little, with a faint separation, but the bow **never stops or changes
+direction.** It's neither fully connected (legato) nor stopped (staccato) — a soft "ta… ta…
+ta…" carried on one stroke. Written as **tenuto dashes under a slur** (sometimes dots under a
+slur).
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/4
+K:D clef=treble
+(!tenuto!A !tenuto!A !tenuto!A !tenuto!A) |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="Four pulses on one down-bow — the bow keeps moving the whole time, but you give each note a little swell with bow speed. A gentle throb, no gaps, no stops."
+  howToPlay="One slow down-bow, whole bow. Push the bow a touch faster for each note's middle, ease at each join — four little speed-bumps in one continuous stroke. Or use a small pulse from the index finger."
+  defaultBpm={50}
+/>
+
+Portato is **`dynamics-are-a-bow-thing` in miniature** — you're shaping every note with the
+bow, on one stroke. It's the sound of a tender phrase in a slow movement, and it connects
+straight back to Stage 3, where you read the dash-under-a-slur.
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/4
+K:D clef=treble
+(!tenuto!F !tenuto!E !tenuto!D) A, |]`}
+  labels={[
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "A", string: "G", finger: "1" },
+  ]}
+  caption="Portato on a little descending figure — three pulsed notes falling to a plain low A. Play it sighing, unhurried."
+  defaultBpm={54}
+/>
+
+## Collé — "pizzicato with the bow"
+
+**Collé** (French, "glued" — the name is about the *release*, oddly) is a tiny, pinched stroke
+driven by the **bow-hand fingers**: from the string (or a hair above it), a sharp short pinch,
+then an immediate stop or lift. Galamian called it "a pizzicato with the bow."
 
 <NotatedExample
   abc={`X:1
 M:C
 L:1/4
 K:C clef=treble
-(!tenuto!D !tenuto!E !tenuto!F !tenuto!G) |]`}
-  caption="Four notes in one bow, each gently pulsed — a soft 'ta, ta, ta, ta' without the bow ever stopping."
-  defaultBpm={58}
+.D z .D z |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  caption="Collé on the open D string: a short, sharp finger-pinch, then nothing. The sound is close to a pizzicato pluck. It's mostly the fingers of the bow hand doing the work, the arm barely moving."
+  howToPlay="Rest the bow on the string near the frog. Pinch the string with the bow-hand fingers — a small sharp flick — and let the bow rebound. Four of these, from the fingers, arm still."
+  defaultBpm={60}
 />
 
-## Collé
+**Its real value is as a training stroke.** It builds **bow-hand finger flexibility** and a
+clean, instant string "catch" — which feed détaché, martelé, and every off-string stroke
+later. Your tabla background helps here: the finger independence you have in the right hand
+transfers straight to this. Four collé notes on open D, from the fingers, is a better daily
+minute than "learning collé" as a piece of repertoire.
 
-**Collé** ("glued") is a tiny, pinched stroke that **starts from the air**: the bow drops onto
-the string, pinches a short note with the fingers, and lifts off again. It trains the
-independence of the bow-hand fingers, which everything faster and bouncier later depends on.
-There's no unique symbol — it's a practice stroke and a component of other techniques more
-than something you'll see written.
+## Try it
 
-Both are NEXT: worth touching once détaché, legato and a clean stopped stroke are comfortable.
+<TryThis>
+  Portato: play a one-octave D major scale, four notes per slur, each note gently pulsed, the
+  bow never stopping. Then collé: on open D, twenty short finger-pinches, arm still, listening
+  for a clean pluck-like start every time. The portato is music; the collé is gym.
+</TryThis>
+
+## The usual mistake
+
+For portato — **stopping** the bow between the pulses, which turns it into slurred staccato.
+The bow must keep travelling; the pulse is a swell, not a halt. For collé — using the **arm**
+to make the pinch instead of the fingers, which defeats the point (it's a finger exercise).
+
+<Cite source="Ivan Galamian, Principles (1962); the term louré — French, 'tied/slurred with pulses'">
+  Galamian grouped portato with legato (it's a connected stroke) and collé with the "pinched"
+  strokes. Collé, he taught, is where a student first trains the bow-hand fingers to act on
+  their own — the foundation of every controlled bounce.
+</Cite>

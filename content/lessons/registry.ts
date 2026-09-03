@@ -317,16 +317,26 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "how-to-practise-a-bow-stroke": () =>
     import("./how-to-practise-a-bow-stroke.mdx"),
   // 5b — The strokes
-  "string-crossings": () => import("./string-crossings.mdx"),
   detache: () => import("./detache.mdx"),
+  "the-detache-family": () => import("./the-detache-family.mdx"),
   "legato-and-slurs": () => import("./legato-and-slurs.mdx"),
+  "string-crossings": () => import("./string-crossings.mdx"),
+  "slurred-crossings-and-bariolage": () =>
+    import("./slurred-crossings-and-bariolage.mdx"),
   martele: () => import("./martele.mdx"),
   staccato: () => import("./staccato.mdx"),
   "portato-and-colle": () => import("./portato-and-colle.mdx"),
+  "hooked-bowing-and-retakes": () => import("./hooked-bowing-and-retakes.mdx"),
   spiccato: () => import("./spiccato.mdx"),
-  "sautille-and-beyond": () => import("./sautille-and-beyond.mdx"),
-  "bow-effects": () => import("./bow-effects.mdx"),
+  "sautille-and-the-continuum": () =>
+    import("./sautille-and-the-continuum.mdx"),
+  "the-far-shore": () => import("./the-far-shore.mdx"),
+  "colour-strokes": () => import("./colour-strokes.mdx"),
+  pizzicato: () => import("./pizzicato.mdx"),
+  "rolling-a-chord-with-the-bow": () =>
+    import("./rolling-a-chord-with-the-bow.mdx"),
   "the-bow-stroke-atlas": () => import("./the-bow-stroke-atlas.mdx"),
+  // 5c — Reading & shaping with the bow, and the gate
   "reading-bowings": () => import("./reading-bowings.mdx"),
   "the-foundation-check": () => import("./the-foundation-check.mdx"),
 };

@@ -1,5 +1,13 @@
 To move the bow from one string to the next, the **whole arm** changes level — like a lift
-stopping on a different floor. The hand and bow just come along for the ride.
+stopping on a different floor. Get this smooth and quiet and a lot of music opens up; leave it
+jerky and every scale and arpeggio fights you.
+
+## Four levels, and the one in between
+
+Each string sits at its own height of the **whole arm** — elbow and upper arm **high for G**,
+dropping for D, lower for A, **lowest for E**. Between any two there's a level where the hair
+touches *both* strings at once — you pass through it on the way across (and you'll use it for
+double stops in Stage 6).
 
 <NotatedExample
   abc={`X:1
@@ -7,21 +15,103 @@ M:C
 L:1/4
 K:C clef=treble
 D A D A | D A D A |]`}
-  caption="Open D and open A, alternating. Cross with the arm, not the wrist — the wrist and fingers only smooth the very end of the motion."
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="Open D and open A, alternating. The arm rises to the D level and drops to the A level as one unit. The wrist and fingers only smooth the very end of each move."
+  howToPlay="Slow, in the middle of the bow. Watch your elbow — it should lift and lower between the two levels. If the elbow is frozen and the wrist is flapping to reach, reset."
   defaultBpm={60}
 />
 
-Each string sits at its own arm height. G is highest (arm up), E is lowest (arm down), D and A
-are in between. Once you know those four levels, a string crossing is just moving between two
-of them smoothly, without a jerk and without accidentally catching the string in between.
+## The arm leads, the forearm rotates
 
-When the crossing is fast and repeated between two neighbouring strings (like the drill above,
-sped up), it's sometimes called **bariolage** — a rocking motion where the wrist and fingers do
-more of the work and the arm stays fairly still. But learn the big arm-level version first; the
-small fast version grows out of it.
+The **impulse comes from the upper arm** moving up and down — that's what changes strings. But
+the fine, fast version adds a small **forearm rotation** — the same movement as turning a
+doorknob — plus a slight wrist adjustment: **higher string = higher wrist, lower string = lower
+wrist.** A little rotation replaces a lot of arm movement, so a fast crossing passage becomes a
+small operation instead of a big one.
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/8
+K:C clef=treble
+D A D A D A D A | E B E B E B E B |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "B", string: "A", finger: "1" },
+  ]}
+  caption="Fast alternation, D↔A then E↔B. At this speed the upper arm barely moves — the crossing is almost all forearm rotation. Try it with your right elbow resting lightly against a wall so the upper arm can't help: the forearm does the work."
+  defaultBpm={80}
+/>
+
+## The keystone: cross *early*
+
+The single most useful rule: **the bow starts moving toward the new string while it's still
+playing the old one.** When you want the note to *sound* is one thing; when the bow has to
+*move* is always a little before that.
+
+Cross too late and fast passages feel clumsy, and slow ones get an unwanted accent at every
+crossing. The fix, and it suits your ear for timing: **play the note before the crossing and
+the note after it as a double stop** — both strings sounding together — then separate them
+again. Start slow and deep in the string, speed up toward tempo.
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/4
+K:G clef=treble
+[DA]2 [DA]2 | [GB]2 [GB]2 |]`}
+  labels={[
+    { name: "D + A", string: "D & A", finger: "0 & 0" },
+    { name: "D + A", string: "D & A", finger: "0 & 0" },
+    { name: "G + B", string: "D & A", finger: "3 & 1" },
+    { name: "G + B", string: "D & A", finger: "3 & 1" },
+  ]}
+  caption="The 'cross early' practice trick: play the D-string note and the A-string note it's about to cross to as a double stop. Once that's comfortable, separate them — you'll find the crossing already prepared."
+  howToPlay="Bow both strings at once, in the in-between level. Deep, slow, even. Then play them one at a time and notice the arm is already at the right height."
+  defaultBpm={54}
+/>
+
+## Try it
 
 <TryThis>
-  Play the drill above very slowly, watching your arm. It should rise and fall as one unit
-  between the D level and the A level. If your elbow is staying still and your wrist is
-  flapping, reset.
+  Open D and open A, alternating, sixteen slow crossings. First exaggerate — big arm-level
+  moves, watching the elbow. Then shrink it: same crossing, but tiny, from the forearm, elbow
+  almost still. Then a one-octave G scale slurred two-per-bow, letting the D→A crossing happen
+  smoothly inside the bow.
 </TryThis>
+
+## The usual mistake
+
+Two, and they're opposites. **Moving too big and too late** — a lurch right on the beat that
+bumps the sound. And **flapping the wrist** to reach a string while the elbow stays frozen,
+which never quite gets there and tires the hand. The arm sets the level, early and smoothly;
+the wrist and forearm only finish the move.
+
+<Cite source="Simon Fischer, Basics, 'Smooth string crossings' and 'Forearm rotation'">
+  Fischer's principle: musical timing is when you want the note to sound; technical timing —
+  the bow's move — is always before that. Practising a crossing by deliberately doing it *too
+  early*, as a double stop, is one of the most effective fixes there is.
+</Cite>

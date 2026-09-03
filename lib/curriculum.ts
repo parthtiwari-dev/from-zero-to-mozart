@@ -436,25 +436,27 @@ export const LESSONS: Lesson[] = [
   // 5b · The strokes
   // 5b · Movement D — the core strokes to perform
   { slug: "detache", title: "Détaché", stage: 5, track: "bow", tag: "NOW", published: P },
-  { slug: "the-detache-family", title: "The détaché family", stage: 5, track: "bow", tag: "NEXT" },
+  { slug: "the-detache-family", title: "The détaché family", stage: 5, track: "bow", tag: "NEXT", published: P },
   { slug: "legato-and-slurs", title: "Legato, and slurred bowing", stage: 5, track: "bow", tag: "NOW", published: P },
   { slug: "string-crossings", title: "String crossings", stage: 5, track: "bow", tag: "NOW", published: P },
-  { slug: "slurred-crossings-and-bariolage", title: "Slurred crossings, and bariolage", stage: 5, track: "bow", tag: "NEXT" },
+  { slug: "slurred-crossings-and-bariolage", title: "Slurred crossings, and bariolage", stage: 5, track: "bow", tag: "NEXT", published: P },
   // 5b · Movement E — martelé and the marked strokes
   { slug: "martele", title: "Martelé", stage: 5, track: "bow", tag: "NEXT", published: P },
   { slug: "staccato", title: "Staccato", stage: 5, track: "bow", tag: "NEXT", published: P },
   { slug: "portato-and-colle", title: "Portato and collé", stage: 5, track: "bow", tag: "NEXT", published: P },
-  { slug: "hooked-bowing-and-retakes", title: "Hooked bowing, and retakes", stage: 5, track: "bow", tag: "NEXT" },
+  { slug: "hooked-bowing-and-retakes", title: "Hooked bowing, and retakes", stage: 5, track: "bow", tag: "NEXT", published: P },
   // 5b · Movement F — off the string (recognise)
   { slug: "spiccato", title: "Spiccato", stage: 5, track: "bow", tag: "LATER", published: P },
-  { slug: "sautille-and-the-continuum", title: "Sautillé, and the continuum", stage: 5, track: "bow", tag: "LATER" },
-  { slug: "the-far-shore", title: "The far shore", stage: 5, track: "bow", tag: "REFERENCE" },
+  { slug: "sautille-and-the-continuum", title: "Sautillé, and the continuum", stage: 5, track: "bow", tag: "LATER", published: P },
+  { slug: "the-far-shore", title: "The far shore", stage: 5, track: "bow", tag: "REFERENCE", published: P },
   // 5b · Movement G — colour
-  { slug: "colour-strokes", title: "Colour strokes", stage: 5, track: "bow", tag: "REFERENCE" },
-  { slug: "tremolo", title: "Tremolo", stage: 5, track: "bow", tag: "NEXT" },
+  // tremolo lives in Stage 3 (`tremolo`, reading track) — it already covers doing
+  // it (bowed + fingered, measured + unmeasured). Not repeated here; `colour-strokes`
+  // points back to it.
+  { slug: "colour-strokes", title: "Colour strokes", stage: 5, track: "bow", tag: "REFERENCE", published: P },
   // 5b · Movement H — the bow hand does more than bow
-  { slug: "pizzicato", title: "Pizzicato", stage: 5, track: "bow", tag: "NEXT" },
-  { slug: "rolling-a-chord-with-the-bow", title: "Rolling a chord with the bow", stage: 5, track: "bow", tag: "NEXT" },
+  { slug: "pizzicato", title: "Pizzicato", stage: 5, track: "bow", tag: "NEXT", published: P },
+  { slug: "rolling-a-chord-with-the-bow", title: "Rolling a chord with the bow", stage: 5, track: "bow", tag: "NEXT", published: P },
   { slug: "the-bow-stroke-atlas", title: "The bow-stroke atlas", stage: 5, track: "bow", tag: "REFERENCE", published: P },
 
   // 5c · Reading & shaping with the bow, and the gate
@@ -471,6 +473,9 @@ export const LESSONS: Lesson[] = [
   { slug: "finding-a-tune-by-ear", title: "Finding a tune by ear", stage: 5, track: "ear", tag: "NOW" },
   // 5c · Movement L — reference
   { slug: "the-baroque-bow-and-the-modern-bow", title: "The Baroque bow and the modern bow", stage: 5, track: "bow", tag: "REFERENCE" },
+  // interim: the thin `reading-bowings` skeleton stays live until it's split into
+  // where-in-the-bow + reading-a-bowing above (5c build).
+  { slug: "reading-bowings", title: "Reading a bowing (draft)", stage: 5, track: "reading", tag: "NOW", published: P },
 
   // 5 · Movement P — the repertoire (also on /practice)
   { slug: "stage-5-tone-and-strokes", title: "Tone and strokes to play", stage: 5, track: "repertoire", tag: "NOW", piece: { key: "G / D / A / C", position: "1st", skill: "the daily bow routine — son filé, détaché, slurred and martelé scales, the bowing-variation drill", inPdf: true } },

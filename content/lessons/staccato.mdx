@@ -1,27 +1,93 @@
-**Staccato** means short and separated — each note gets roughly half its written value, then
-silence. The bow stops on the string between notes.
+**Staccato** means short and separated — each note clipped well under its written length, then
+silence, with the bow **staying on the string** between notes. On the violin, the plainest
+staccato is basically **a small martelé**: the same prepare–bite–stop, just less bow and a
+quicker release.
+
+## On the page
+
+A **dot** above or below the notehead. (Remember from Stage 2: a dot *beside* the notehead is a
+duration dot — a completely different thing.) The dot doesn't tell you *how* short or *how*
+hard — the tempo and the style do that.
 
 <NotatedExample
   abc={`X:1
 M:C
 L:1/4
-K:C clef=treble
+K:G clef=treble
 .D .E .F .G | .A .G .F .E |]`}
-  caption="Staccato dots above the notes: play each one short, stop, then the next. On separate bows here — down, up, down, up."
-  defaultBpm={64}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "E", string: "D", finger: "1" },
+  ]}
+  caption="Staccato dots, separate bows — down, up, down, up. Each note short and clean, the bow stopping on the string between them. Crisper and lighter than martelé, not hammered."
+  howToPlay="Middle of the bow, small strokes. A little catch at the start of each note, a short travel, a clean stop. The stop is on the string — the bow doesn't lift."
+  defaultBpm={72}
 />
 
-Two common versions:
+## Two kinds
 
-- **Separate-bow staccato** — one bow direction per note, as above. This is the one to start
-  with.
-- **One-bow staccato** (staccato dots *under a slur*) — a whole string of short, stopped notes
-  all in the **same** bow direction, the bow travelling in tiny stops-and-starts. That's a
-  later, trickier technique.
+- **Separate-bow staccato** — one bow direction per note, as above. Start here. It's a short
+  martelé and it's a real, usable stroke.
+- **Slurred (one-bow) staccato** — staccato dots written *under a slur*: a whole string of
+  short, bitten, stopped notes all in the **same** bow direction, the bow travelling in tiny
+  stop-starts. This is a virtuoso stroke (Wieniawski, Paganini) and even professionals argue
+  about how it works. **Recognise it on the page; don't drill it now.**
 
-**Notation:** a dot above or below each notehead. (Remember: a dot *beside* the notehead is a
-duration dot — completely different.)
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/8
+K:G clef=treble
+(.D .E .F .G .A .B .c .d) |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "c", string: "A", finger: "low 2" },
+    { name: "d", string: "A", finger: "3" },
+  ]}
+  caption="Slurred staccato: eight short notes, one up-bow, the bow inching along in little stops. This is the far-shore version — know it when you see the slur-with-dots, and move on."
+  defaultBpm={88}
+/>
 
-**How to practise:** open string, four short stopped notes on separate bows, listening for a
-clean stop and a clean restart each time. The bite is gentler than martelé — staccato is
-*crisp*, martelé is *hammered*.
+## Staccato is not spiccato
+
+Both give you short notes, but:
+
+- **Staccato** — the bow **stays on the string**. It's an on-string stroke you can do now.
+- **Spiccato** — the bow **leaves the string**, bouncing. That's a later stroke (`spiccato`).
+
+If the dots are in a slow or moderate passage, they mean on-string staccato. In a fast, light
+Classical passage they usually mean spiccato. The tempo and era decide — same as Stage 3 said
+about every ambiguous mark.
+
+## Try it
+
+<TryThis>
+  Open D, four separate-bow staccato notes: small catch, short stroke, clean stop, repeat.
+  Then a G major scale, one staccato note per bow, all crisp and even. Then play the same scale
+  détaché and switch between the two on a signal — hear the difference between "connected" and
+  "clipped".
+</TryThis>
+
+## The usual mistake
+
+Making staccato as heavy as martelé — a row of hammer blows when the music wants something
+light and pointed. Staccato is *crisp*, not *hard*. The other mistake: lifting the bow off the
+string to get the note short. That's an off-string stroke, and it's harder to control — keep
+the hair on the string and just stop it.
+
+<Cite source="from the archive of right-hand pedagogy — Galamian (1962) on 'solid' vs 'firm' staccato; The Strad, 'Staccato — the most controversial element of right-hand technique'">
+  Slow staccato is built on martelé: a prepared bite, released, then a stop. The fast,
+  "nervous" one-bow staccato keeps the pressure constant instead — and teachers have argued
+  about the right way to do it for a century.
+</Cite>

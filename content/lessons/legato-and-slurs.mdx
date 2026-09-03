@@ -1,6 +1,13 @@
-**Legato** means smoothly connected — no gap, no re-attack between notes. On the violin, the
-usual way to write "play these connected" is a **slur**: a curved line over a group of notes,
-telling you to take them all **in one bow**.
+**Legato** means smoothly connected — no gap, no re-attack between notes. The way the music
+tells you to play connected is a **slur**: a curved line over a group of notes meaning *take
+all of these in one bow*. You met the symbol in Stage 2 and Stage 3; here you make it work.
+
+## A slur is a bowing instruction
+
+The bow **moves continuously in one direction** while the **left-hand fingers change the
+notes**. That split — right arm doing one smooth thing, left hand doing a busy different thing
+— is the whole difficulty of legato. Nothing about the bow stops or restarts; only the fingers
+move.
 
 <NotatedExample
   abc={`X:1
@@ -18,15 +25,124 @@ K:C clef=treble
     { name: "F", string: "D", finger: "low 2" },
     { name: "E", string: "D", finger: "1" },
   ]}
-  caption="Four notes under one slur — one down-bow — then four under the next, one up-bow. The left-hand fingers change; the bow doesn't stop."
-  defaultBpm={66}
+  caption="Four notes under one slur — one down-bow — then four under the next, one up-bow. The bow travels at an even speed the whole way; the fingers do all the work. No bump when a finger drops or lifts."
+  howToPlay="Down-bow from the frog for the first four, up-bow back for the next four. Divide the bow into four equal parts — a quarter per note. Listen for a completely unbroken sound."
+  defaultBpm={60}
 />
 
-The skill is bow distribution: four notes in one bow means each note gets about a quarter of
-the bow, so plan where you start (near the frog for a down-bow slur) and pace it so you don't
-run out of bow before the last note. The left hand does all the note-changing; the right arm
-just keeps travelling at an even speed.
+## Dividing the bow — stop first, then smooth
 
-You met the slur symbol back in Stage 2 as "the curve over notes that move." Here it is as a
-**bowing instruction** — and this is also the foundation for playing an entire phrase as one
-musical breath, which is where Stage 7 picks it up.
+Four notes in one bow means each note gets **a quarter of the bow**. The way to get that even:
+
+1. Play the slur as **separate stops** — actually halt the bow a moment at each quarter-point.
+   Now you can hear and feel the four equal portions. (This is really a rhythm exercise, and
+   rhythm is your strong suit.)
+2. **Take the stops away**, keep the portions identical. Now it's legato.
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/4
+K:C clef=treble
+(.D .E .F .G) | (D E F G) |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="Bar 1: the slur played with a deliberate stop at each quarter of the bow (portato — you'll meet it properly soon). Bar 2: the same, stops removed, portions kept. That's the trick for an even slur."
+  defaultBpm={60}
+/>
+
+## Slurring across a string
+
+When a slur crosses from one string to the next, the connection lives in the **left hand**:
+**don't lift the finger on the old string until the new note has already sounded** — a hair of
+overlap, never a gap. The bow rolls between the arm levels (the crescent path from
+`string-crossings`) without a bump.
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/4
+K:G clef=treble
+(D E F G) | (A B c d) |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "c", string: "A", finger: "low 2" },
+    { name: "d", string: "A", finger: "3" },
+  ]}
+  caption="A one-octave G scale, four notes slurred per bow — the second slur crosses from the D string to the A string mid-bow. Keep the bow speed even straight through the crossing so there's no accent where the strings change."
+  howToPlay="Down-bow for the first four, up-bow for the next four. The crossing happens between beats 4 and 5, inside the up-bow — let the arm roll to the new level without slowing the bow."
+  defaultBpm={60}
+/>
+
+## Bowing variations — the best bow workout there is
+
+Take a one-octave scale and apply **one bowing pattern** to the whole thing: all separate; two
+slurred + two separate; three slurred + one separate; one + three; hooked. Then the next
+pattern. The Russian teacher Yuri Yankelevich drilled his advanced students on the Kreutzer
+studies this way for years — *"one of the single most effective methods of practising and
+improving bow control."*
+
+Each pattern is a small **rhythmic cell** laid over the notes — which plays straight to your
+ear for grouping. Feel "2 + 2" or "3 + 1" first, then let the bow follow.
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/8
+K:G clef=treble
+(D E) (F G) (A B) (c d) | (D E F) G (A B c) d |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "c", string: "A", finger: "low 2" },
+    { name: "d", string: "A", finger: "3" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "c", string: "A", finger: "low 2" },
+    { name: "d", string: "A", finger: "3" },
+  ]}
+  caption="G major, two patterns: bar 1 is 'two slurred' all the way up; bar 2 is 'three slurred + one separate'. Make up your own — 'one + three', hooked, a long slur the whole octave. Same notes, a different bow puzzle each time."
+  defaultBpm={72}
+/>
+
+## Try it
+
+<TryThis>
+  One octave of G major, three ways: (1) all separate détaché; (2) two notes slurred per bow;
+  (3) the whole octave in one slow bow, up and down. For (3), you have to save bow — use less
+  than feels natural early so you don't run out before the top. Then invent a fourth pattern.
+</TryThis>
+
+## The usual mistake
+
+Letting the bow **bump** every time a finger drops — an accent on each note inside the slur,
+so it comes out as a row of little separate sounds instead of one line. The bow speed and
+weight stay flat and even; the fingers move independently underneath. The other mistake: a
+long slur that starts with big bow and runs out — plan it backwards from the last note.
+
+<Cite source="Leopold Mozart, Versuch einer gründlichen Violinschule (1756); Simon Fischer, Basics, 'Bowing patterns'">
+  Leopold Mozart taught that a left-hand finger should stay down until it absolutely must move,
+  precisely so the line stays smooth — the same rule violinists use today for a seamless
+  slurred string crossing.
+</Cite>
