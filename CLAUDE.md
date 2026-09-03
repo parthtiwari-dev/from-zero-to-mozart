@@ -131,7 +131,7 @@ lesson 2–4 play-arounds + real music. Plan each stage with the user (`stage-pl
 | **2 · Rhythm** | ✔ rebuilt — `stage-plans/stage-2.md`, Movements A–I, 33 skill lessons + 3 tunes. Added `RhythmTree` `<Diagram>` + `rhythmOnly` mode on `<NotatedExample>`. Deferred: 3 tunes (Pop Goes the Weasel / Jolly Good Fellow / Deck the Halls) pending sources. |
 | **3 · Score symbols** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-3-research.md` + `stage-3.md`, Movements A–J, **46 lessons** (42 skill + 4 tunes). 1 tune deferred (Gossec Gavotte). Details below. |
 | **4 · Scales & musicianship** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-4-research.md` (20 passes) + `stage-4.md` (4a/4b/4c, Movements A–P). **70 lessons** (63 concept + 7 repertoire). Build green (231 pages), lint + tsc clean. Owns the K.216 first-note debt — `the-first-note-of-mozart` (O2). |
-| **5 · The bow** | first-draft skeleton live (14 lessons), not yet rebuilt. Then → Foundation gate. |
+| **5 · The bow** | ⏳ **NEXT** — first-draft skeleton live (14 lessons), not yet rebuilt. Research-first, then deep rebuild (bow physics · tone & distribution · the core strokes to *perform* · the bow-stroke atlas · **reading a printed bowing** — `LESSONS-FROM-MOZART.md` §1). See "NEXT SESSION". Then → **Foundation gate**. |
 
 **Stage 0–2 audit (`docs/stage-audit.md`, 2026-09-02):** every published lesson checked
 against `PRD.md` §7; 7 thin Stage-1 lessons deepened, 4 partial Stage-1 tunes completed, a
@@ -254,55 +254,157 @@ Research: `docs/stage-plans/stage-4-research.md` (20 passes + a re-verification 
 - **2026-09-04 expansion** (user: *"all type of scales and all type of chords… add more
   lessons"*): +15 lessons — Movement L 2→9, Movement G 3→6, Movement H 6→11. Every scale
   family and every chord type now has a real lesson or a cited REFERENCE card.
-- **Still to do:** finish browser spot-check (~12/70 done); `NOTATION-COVERAGE.md` Stage-4
-  symbols (`^1` carets, Roman numerals, figured-bass 6/6-4, chord symbols); verify P6 Vivaldi &
-  P2 EKN against sources.
+- **2026-09-04 audit** (user: *"recheck everything from my lens"*): `tools/abc-barcheck.py`
+  built (catches metrically-wrong bars — abcjs renders them silently) + a music-fact re-read.
+  **15 fixes**: 8 bar-sum/metre errors, 2 tune rewrites (Scarborough Fair, Für Elise —
+  didn't scan / wrong pitches), 2 music-fact fixes (augmented scale, enigmatic scale),
+  3 quality-bar fixes. Details in `stage-plans/stage-4.md` §Audit. Stage 4 now barcheck-clean.
+- **Still to do:** finish browser spot-check (~15/70 done); verify `tune-vivaldi-spring-theme`
+  vs `source/vivaldi-spring-easy.pdf`, and `tune-eine-kleine-nachtmusik` / `tune-aura-lee`
+  melodies against a second source (all three flagged in-lesson). `NOTATION-COVERAGE.md`
+  Stage-4 section: **done**.
 
 ---
 
-## NEXT SESSION — the viral-melody appendix, then Stage 5
+## NEXT SESSION — Stage 4 loose ends → viral-melody appendix → Stage 5 (The bow)
 
-**Stage 4 is BUILT** (2026-09-03, expanded 2026-09-04) — `docs/stage-plans/stage-4.md`
-§Status. **70 lessons**, Movements A–P (4a Scales & keys · 4b Intervals, chords & harmony ·
-4c Arpeggios, physics & the rest · P the tunes). The user asked for *"all type of scales and
-all type of chords"* → Movement L expanded 2 → 9 (modes, pentatonic, blues, chromatic,
-symmetrical, world scales); Movement G 3 → 6 + Movement H 6 → 11 (suspended/added, chord
-symbols, chords-on-the-violin, extended, secondary dominants, borrowed chords, chromatic
-chords, altered/quartal). Build green (231 pages), lint + tsc clean.
+User (2026-09-04): *"all these things and more … everything you need to research above and
+beyond without making the mistakes that you have been making throughout."* Do all three, in
+order. **Read `## Mistakes to avoid` below before writing a single lesson.**
 
-**Not yet done for Stage 4:**
-- **Browser spot-check** the rest of the movements (render + play + labels align; `RULES.md`
-  #1, R5) — ~12 of 70 checked so far.
-- `docs/NOTATION-COVERAGE.md` — add the Stage-4 reading vocabulary (scale-degree carets `^1`,
-  Roman numerals I/V7/vii°, figured-bass 6 & 6/4, chord symbols).
-- Verify **P6 Vivaldi *Spring*** against `docs/source/vivaldi-spring-easy.pdf` (it's a
-  simplified/transposed version, flagged in-lesson); **P2 Eine kleine Nachtmusik** likewise.
+### 1 — Stage 4 loose ends (small)
+- **Browser spot-check** the ~55 unverified lessons (render + press play + reveal labels;
+  they must align under the noteheads, no horizontal scroll — `RULES.md` #1, R5, #2). ~15
+  checked so far.
+- **Verify three tune melodies** against a 2nd source (all flagged in-lesson as
+  simplified/unverified): `tune-vivaldi-spring-theme` vs `source/vivaldi-spring-easy.pdf`;
+  `tune-eine-kleine-nachtmusik`; `tune-aura-lee`.
+- **Run `python tools/abc-barcheck.py`** — should stay clean for Stage 4. (Pre-Stage-4 flags
+  it prints are known: mostly anacrusis false-positives + `tune-london-bridge` /
+  `tune-perpetual-motion` / `slides-and-octave-signs` worth a real look later.)
 
-**Then — the viral-melody appendix (user's explicit ask, 2026-09-03).** Now that Stage 4 is
-built, **research the best-sounding / most-recognisable / "viral" melodies** — the tunes
+### 2 — The viral-melody research appendix (user's standing ask, 2026-09-03)
+Research the **best-sounding / most-recognisable / "viral" melodies** — the tunes people
+actually want to play. Same discipline as Stage 3/4: **search ~10, write that section, repeat.**
+Append a curated, tagged list to `docs/REPERTOIRE.md` (the section spec is already there:
+"The best-sounding / viral melodies appendix — TO RESEARCH"). Four buckets: **film / TV / game
+themes** (Hedwig's, Married Life, He's a Pirate, Interstellar, Skyrim/Zelda/GoT, La La Land,
+Requiem for a Dream, My Heart Will Go On, Over the Rainbow); **famous classical openings**
+(Canon in D, Ave Maria ×2, Méditation, The Swan, Air on the G String, Salut d'Amour, Vivaldi
+Spring, Für Elise, Jesu Joy, Clair de Lune); **trad / fiddle tunes that go viral** (Ashokan
+Farewell, Orange Blossom Special / Devil Went Down to Georgia as goals, Czardas, Irish session
+standards, Amazing Grace, Danny Boy, Scarborough Fair, Greensleeves, klezmer/Balkan hooks);
+**pop hooks** (one-phrase songs — targets, flag the afternoon-easy ones). Tag each: **key ·
+lowest position · the hook · first-position-playable now? · PD status or licensed-arrangement
+target · which stage's skill it fits.** Feeds `/practice` + the Tier-0/1 song bank.
 
-**Load-bearing, must not cut** (`PRD.md` §6.1, `LESSONS-FROM-MOZART.md` §2, the user's explicit
-ask): the ear thread (`hearing-the-scale-degrees` esp.); the K.216 bridge
-(`the-first-position-arpeggios` → `arpeggios-in-real-music` → `the-first-note-of-mozart`, +
-the numeral tangle); `the-chords-of-a-key` / `the-dominant-seventh` / `what-a-cadence-is`;
-`why-your-violin-rings` + `tuning-by-ear`; `a-raga-is-not-a-scale`. **After Stage 4, "I can't
-even read the first note of Mozart" must be impossible** — that was the ask.
+### 3 — Stage 5: The bow — RESEARCH FIRST, go deep (user: "above and beyond")
+The campaign's next stage; ends at the **Foundation gate**. PDF Part VI (p111–133, take
+p113–120 + p124). Existing first-draft skeleton — **14 lessons in `lib/curriculum.ts`** (all `published`, all
+thin, all need the rebuild): `how-the-bow-makes-sound` · `one-long-tone` · `string-crossings`
+· `detache` (already rebuilt, `CONTENT-STANDARD.md` §6 — stays, polished at build) ·
+`legato-and-slurs` · `martele` · `staccato` · `portato-and-colle` · `spiccato` ·
+`sautille-and-beyond` · `bow-effects` (REF) · `the-bow-stroke-atlas` (REF) · `reading-bowings`
+· `the-foundation-check`. The rebuild will expand this a lot (bow physics, tone, distribution,
+bariolage, the atlas as real cards, the printed-bowing decode). Research to
+`docs/stage-plans/stage-5-research.md`, ~10–14 passes,
+every fact ≥2 sources (`RULES.md` #8), then plan (`stage-5.md`) **with the user**, then build.
 
-**Then — the viral-melody appendix (user's explicit ask, 2026-09-03).** *After* Stage 4 is
-planned, **research the best-sounding / most-recognisable / "viral" melodies** — the tunes
-people actually want to play (film & game themes in the public domain or as *targets*,
-famous classical openings, the "20 famous works" thread in `docs/REPERTOIRE.md` §"20+ famous
-works", TikTok/reels-viral fiddle tunes, wedding/known hymns) — and **append them after the
-Stage-4 plan** as a curated, tagged list (key · lowest position · what makes it catchy · is
-it first-position-playable now · PD status / licensed-arrangement target). Same research
-discipline: search, verify, write, repeat. This feeds `/practice` and the Stage-9 song bank.
+**Scope — research all of this and more:**
+- **Bow physics in full** — the three controls (speed × weight/pressure × sounding point /
+  contact point) and the trade-offs between them; hair amount, bow angle, keeping the bow
+  straight ("the highway"); how each control changes tone; Galamian's model; Simon Fischer's
+  "tone production" chapter; the *bow-speed* vs *bow-pressure* distinction beginners get wrong.
+- **Tone** — *son filé* (a sustained tone, frog to tip, even); whole-bow control; the
+  resonance/sounding point; catching the string (the start of the stroke); bow changes that
+  don't bump; **bow distribution as a planned skill** (not just "use more bow" — deciding in
+  advance where in the bow each note falls so you don't run out). `LESSONS-FROM-MOZART.md` §1.
+- **String crossings** — arm planes / levels; the wrist and fingers smoothing the change;
+  crossing on a slur vs separate; **bariolage** (rocking between a stopped note and an open
+  string); double-stop crossings (Stage 6 tie-in, reading here).
+- **The core strokes — to PERFORM now** (Stage 3 taught reading them; this is doing them):
+  **détaché** and its family (simple / grand / accented / lancé / porté / détaché porté);
+  **legato / slur** (one bow, many notes; dividing the bow; the slur that crosses a string);
+  **martelé** (the "hammered" stroke — bite, release, stop; from the frog and from the middle;
+  martelé vs a plain accent).
+- **The next layer (NEXT-tagged)** — **staccato** (on-string, and one-bow up/down-bow staccato
+  — a row of martelés in one bow); **portato / louré** (pulsed notes under one slur —
+  connects to Stage 3 C3); **collé** (a pinched pluck-with-the-bow); the **brush stroke**;
+  **hooked bowing** (two notes same direction, a stop between); **retakes / circles** (lift
+  and reset — links to Stage 3 D1 and `phrases-breathe` I5).
+- **Off the string (NEXT / LATER)** — **spiccato** (a controlled bounce, from the middle);
+  **sautillé** (a fast wrist bounce, the bow doing the work); the **spiccato ↔ sautillé
+  continuum** and how tempo moves you along it; a clear "you're not there yet, but here's what
+  it is" framing.
+- **The far shore (LATER / REFERENCE cards)** — **ricochet / jeté** (a thrown, rebounding
+  bounce); **flying staccato / flying spiccato**; **fouetté** (whipped); the **Viotti stroke**;
+  **chopping** (fiddle percussion). Name, recognise, know what era / style asks for each.
+- **Colour strokes** — **tremolo** (unmeasured — recap Stage 2/3 notation, *do* it here);
+  **sul ponticello** / **sul tasto** / **flautando** as bow-placement colours (recap Stage 3
+  D3); **col legno** (battuto / tratto); **au talon** / **à la pointe** (at the frog / at the
+  tip) as instructions.
+- **Reading a printed bowing** (`LESSONS-FROM-MOZART.md` §1, the make-or-break bit) — a real
+  part's bowing is information: `⊓`/`V` direction, the retakes, *where in the bow* (frog /
+  middle / tip / `Sp.` = *Spitze* / `Pt.` = *punta* / `au talon`), the slur groups, `f`–`p`
+  echoes needing a **bow-speed** change (messa di voce, subito p). Editorial vs composer
+  bowings (the K.216 "above the staff = Mozart's, below = the editor's" footnote). A lesson
+  that walks a marked-up phrase the way `decode-a-dense-line` walked the symbols.
+- **Dynamics as a bow decision** — completes the Stage 3 `dynamics-are-a-bow-thing` bridge:
+  forte near the bridge / more weight / faster bow; piano toward the fingerboard / lighter /
+  slower; `< >` on one long note = *messa di voce*; the crescendo that's a bow-speed change.
+- **The bow-stroke atlas** — one *real* card per stroke (name · stage · notation · sound ·
+  how to practise · what NOT to confuse it with · a listening example). This is the PDF's worst
+  padding (copy-pasted paragraphs) done right. Also a reference library candidate.
+- **Bow-arm health** — tension audits, the flexible bow hold under load, the pinky, thumb
+  counter-pressure, warming up the stroke; ties Stage 0's `holding-the-bow`.
+- **The Foundation gate** — end-of-Stage-5 check: *you can play any first-position tune in
+  G/D/A/C at sight, keep steady time, produce an even controlled tone with the core strokes,
+  hear when a note is out and fix it, play ~30 real melodies* (`PRD.md` §4). A check-piece +
+  the repertoire: **a legato *Air* (simplified) · a détaché Gavotte · a martelé study-piece ·
+  the gate check-piece** (`THE-PATH.md` §6). Some of these are on the viral-melody list.
 
-**Deferred from Stage 3:** `tune-gossec-gavotte` (Movement J5) — the source PDF is a raster
-full score; it needs the Suzuki Book 1 first-position arrangement or a MusicXML export. Its
-one concept (D.C. al Fine) is already taught. Also verify `tune-minuet-in-g`'s two endings
-and `tune-amazing-grace`'s melody against the source PDFs when convenient.
+**Deferred from earlier stages:** `tune-gossec-gavotte` (Stage 3 J5 — needs the Suzuki Bk 1
+first-position arrangement or a MusicXML export; its D.C. al Fine is already taught). Stage 1's
+4 tunes pending PD sources (song-of-the-wind, go-tell-aunt-rhody, long-long-ago,
+french-folk-song); Stage 2's 3 (Pop Goes the Weasel, Jolly Good Fellow, Deck the Halls). The
+10 Stage-1 tunes to re-notate in true (not simplified) rhythm.
 
-Stages 5–9 + the Vivaldi and Mozart modules come after Stage 4.
+## Mistakes to avoid (learned the hard way, Stages 1–4 — DO NOT repeat)
+
+1. **Bar sums.** Every `<NotatedExample>` with an explicit `M:` and `L:` — the notes in each
+   bar must sum to the metre. abcjs renders a short/long bar **silently**; `npm run build`
+   never catches it. **Run `python tools/abc-barcheck.py` before every commit.** (Stage 4
+   shipped with 8 of these before the audit.)
+2. **Octave in first-position scales.** In `K:G` / `K:C` treble, the first-position violin
+   octave is `G, A, B, C  D E F G` (with commas / capitals) — **not** `G A B c d e f g` (that's
+   an octave up). Getting this wrong makes every fingering label wrong. `G,`=G3, `D`=D4,
+   `A`=A4, `c`=C5, `e`=E5. Cross-check the ABC pitch against the label every time.
+3. **Playable chords.** A rolled 3-/4-note chord needs its notes on **3+ different strings**
+   (`[G,DB]` = open G + open D + B-on-A-string works; `[G,B,D]` = two notes on the G string
+   does not). If it's not playable, say so in the caption ("written as a block chord; a
+   violinist rolls or breaks it") and label the strings honestly.
+4. **Tune melodies.** Do **not** reconstruct a famous tune from memory. Verify pitches *and*
+   rhythm against ≥2 sources (`RULES.md` #8). If you can't, notate a deliberately simplified
+   version and **flag it in the lesson and its `<Cite>`** ("simplified; verify against a lead
+   sheet"). Scarborough Fair and Für Elise both shipped wrong first.
+5. **Don't compress a topic into a table-only card.** The user pushed back twice on this.
+   Every distinct scale / chord / stroke gets a real lesson with notation, or a REFERENCE
+   card that still **shows the thing in notation**, not just a row in a grid.
+6. **Label length.** The `name` field is `note + one short qualifier` (e.g. `"F♯ · ^7"`,
+   `"G+D+B chord"`). Explanatory sentences go in the **caption**. Long `name` text wraps and
+   overlaps the neighbouring labels / the play button.
+7. **Unrenderable glyphs.** The double-sharp/double-flat Unicode chars (𝄪 U+1D12A, 𝄫 U+1D12B)
+   show as tofu in the site font — spell them out in prose and labels ("x-shaped sign",
+   "♭♭", "F-double-sharp"). The abcjs staff renders the real glyph fine from `^^F` / `__B`.
+8. **The six beats.** Every concept/skill lesson needs **beat 5 (the usual mistake)** and
+   **beat 6 (a cited lineage aside)** — not just the fact + an example. Grep your new lessons
+   for "usual mistake" / "<Cite" before committing.
+9. **The project path.** It is `C:\great learning self paced\z Final Projects\from-zero-to-mozart`
+   — "Projects", not "Positions". A path typo has created a stray sibling directory twice.
+10. **Indian-music facts** — the user *can* catch these. Thaat = scale (pitch-set); raga =
+    grammar (aaroha/avaroha/pakad/rasa) — compare pitch-sets, never equate. Intonation is
+    drone-referenced just intonation; **no shruti-to-cents claims**. Cite Bhatkhande / a raga
+    reference.
 
 ### Authoring notes
 
@@ -335,6 +437,12 @@ Stages 5–9 + the Vivaldi and Mozart modules come after Stage 4.
   (`components/Diagram.tsx`) — hand-drawn labelled SVG line art in the notation well. Each
   takes an optional `caption` prop. Keep in-SVG labels to one or two words; detail goes in the
   caption. Tall diagrams get a `maxW` so they don't fill the screen.
-- Verify every notated example in the browser (render + press play + reveal the labels — check
-  they line up with the notes and are legible on a busy line) and every music fact against
-  `docs/RESEARCH.md` sources before it ships. Keep `docs/PDF-MAP.md` status current.
+- **Before committing lesson work: `python tools/abc-barcheck.py`** — sums every bar of every
+  `<NotatedExample>` against its metre. abcjs draws a wrong bar silently; the build won't
+  catch it. Then verify each example in the browser (render + press play + reveal the labels —
+  they must line up with the noteheads and stay legible on a busy line) and every music fact
+  against `docs/RESEARCH.md` / a syllabus before it ships. Keep `docs/PDF-MAP.md` current.
+- **See `## Mistakes to avoid` in the NEXT SESSION block** — the concrete errors Stages 1–4
+  shipped with (bar sums, first-position octave in the ABC, unplayable chords, tunes from
+  memory, table-only cards, long labels, tofu glyphs, missing beat 5/6). Read it before
+  writing lessons.

@@ -124,6 +124,27 @@ Status: `taught` = a lesson explains it · `pointer` = appears earlier with a fo
 | decoding a densely-marked line by category (pitch/rhythm/bow/dynamic/navigation/editorial) | `decode-a-dense-line` (I1) | taught |
 | stage-wide symbol quiz + the read-vs-play-in-style checkpoint | `the-score-language-check` (I2) | taught |
 
+## Musicianship notation (Stage 4)
+
+Stage 4 is mostly concepts, but it adds a layer of **analytic / harmonic notation** a reader
+meets on real parts, in editions, and in lead sheets:
+
+| Symbol / notation | Lesson | Status |
+|---|---|---|
+| scale-degree carets — `^1` … `^7` (written with a roof over the number; `^7` = leading tone, subtonic if a whole step) | `the-scale-degrees-and-their-pull` (A2) | taught |
+| movable-do syllables / sargam — Do Re Mi… / Sa Re Ga… as degree-and-function names | `do-re-mi-and-sa-re-ga` (A3) | taught |
+| the order of sharps / flats on the staff (fixed zig-zag); the two key-reading tricks | `key-signatures-in-full` (B4) | taught |
+| the circle-of-fifths diagram (`<CircleOfFifths>`); enharmonic keys | `the-circle-of-fifths` (C1), `the-twelve-keys` (E1) | taught |
+| **double sharp** (x-shaped sign) / **double flat** (♭♭) as accidentals — the 𝄪/𝄫 Unicode chars don't render in the site font, so prose/labels spell them out; abcjs renders the real glyph | `the-twelve-keys` (E1) | taught |
+| interval names — number + quality (P / M / m / A / d); the tritone (aug 4 / dim 5) | `what-an-interval-is` (F1), `augmented-diminished-and-the-tritone` (F3) | taught |
+| stacked-thirds triads on the staff (the "snowman"); the four qualities | `what-a-triad-is` (G1), `the-four-triad-qualities` (G2) | taught |
+| **figured-bass figures** — 6 (first inversion), 6/4 (second inversion) | `inversions-and-spelling` (G3) | taught |
+| **chord symbols** — C · Cm · C° · C+ · C7 · Cmaj7 · Cm7♭5 (Cø) · C°7 · Csus2/4 · C6 · Cadd9 · C5 · C/E (slash) | `reading-a-chord-symbol` (G5) | taught |
+| **Roman-numeral analysis** — I ii iii IV V vi vii° (upper = major, lower = minor, ° = dim, ⁺ = aug); V7, V7/V; ♭VI ♭VII iv (borrowed); ♭II6 (Neapolitan), It/Fr/Ger +6 | `the-chords-of-a-key` (H1), `secondary-dominants` (H8), `borrowed-chords-and-mode-mixture` (H9), `the-chromatic-chords` (H10, card) | taught |
+| extended / altered / quartal chord symbols — 9, 11, 13, 7♯9, quartal, polychord, cluster | `extended-chords` (H7, card), `altered-and-quartal-chords` (H11, card) | taught (recognise only) |
+| cadence labels — PAC / IAC / plagal / half / deceptive; the cadential 6/4; the Picardy third | `what-a-cadence-is` (I1), `the-other-three-cadences` (I2) | taught |
+| phrase mark (long curve, crosses barlines) vs slur (short, one bow) — the distinction | `phrases-breathe` (I5); recaps Stage 3 `a-slur-is-one-bow` | taught |
+
 ## Still to place
 
 - **Overdotting / notes inégales** — Stage 3 `non-legato-was-normal` touches the un-learning
