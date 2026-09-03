@@ -1,0 +1,78 @@
+A real violin part doesn't just tell you the notes — it often tells you **which part of the
+bow** to play them in, and **which direction**. These marks are a vocabulary, and the whole
+point of this short lesson is that you can **recognise every one** when you meet it in
+Vivaldi, or Mozart, or a study.
+
+## Direction
+
+| Mark | Means |
+|---|---|
+| **⊓** (a bracket, open at the bottom) | **down-bow** — pull the bow, frog toward tip. Naturally the heavier, stronger stroke. |
+| **V** | **up-bow** — push the bow, tip toward frog. Naturally the lighter stroke. |
+
+You met these in Stage 3. The strong beats of a bar tend to fall on ⊓ — there's a whole
+lesson on why (`the-rule-of-the-down-bow`).
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/4
+K:G clef=treble
+!downbow!"^WB"G !upbow!A !downbow!B "^Sp."!upbow!c |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "c", string: "A", finger: "low 2" },
+  ]}
+  caption="A marked-up bar: down-bow the G (whole bow), up-bow A, down-bow B, up-bow the C at the tip ('Sp.'). The marks above the staff are the bowing plan — the direction signs, where in the bow, when to change."
+  defaultBpm={66}
+/>
+
+## Which part of the bow
+
+| Abbreviation | In full | Where |
+|---|---|---|
+| **WB** | whole bow | frog to tip |
+| **LH** (also **½L**, **Lo. ½**) | lower half | middle → frog |
+| **UH** (also **½U**, **Up. ½**) | upper half | middle → tip |
+| **M** / **MB** | middle | the balance point (rarely marked — it's the default) |
+| **frog** / **at the frog** / **au talon** / **talon** / **nut** | — | the heel end, by your hand — most weight available |
+| **tip** / **point** / **punta d'arco** / **Sp.** (*Spitze*, German) / **Pt.** (*punta*, Italian) | — | the far end — least weight, needs the most arm |
+
+Different editions and countries use different words for the same places — `au talon`
+(French), `Sp.` (German), `punta` (Italian) all just mean "frog" or "tip". The K.216 edition
+uses `Sp.` and `au talon`, so those are worth knowing by sight.
+
+## The retake
+
+A small comma, an apostrophe, a half-circle, or the written word **"lift"** — all mean
+**retake the bow**: lift it off the string and reset it (you practised this in
+`hooked-bowing-and-retakes`). It's a silent gap, not a played note.
+
+## Check yourself
+
+<Quiz
+  items={[
+    { q: "You see 'Sp.' over a note. Where do you play it?", a: "At the tip (Spitze is German for 'point')." },
+    { q: "'au talon' — where's that?", a: "At the frog / heel — the end nearest your hand." },
+    { q: "A part is marked 'WB' at the start of a long slow phrase. What does it want?", a: "Whole bows — use the full length of the bow for each stroke." },
+    { q: "⊓ over the first note of a bar, V over the second. What are you being told?", a: "Down-bow the first note, up-bow the second." },
+    { q: "A little apostrophe-like mark appears between two notes. What is it?", a: "A retake — lift the bow and reset it; a silent moment, not a note." },
+    { q: "'UH' — and why might a fast passage be marked that way?", a: "Upper half of the bow. Fast notes are easier to control with small strokes near the tip, where the bow is lighter." },
+  ]}
+/>
+
+## The usual mistake
+
+Reading a position number (roman `III`, `IV`) or a fingering (`1 2 3 4`) as a *bowing*
+instruction. They're not — positions and fingers are the **left** hand; bowings are the
+**right** arm. This is the same numeral tangle you met in Stage 3 (`finger-string-or-position`)
+and Stage 4 (`the-first-note-of-mozart`). A `⊓`, a `V`, `Sp.`, `WB` — those are bowings. A
+`3` or a `IV` is not.
+
+<Cite source="editorial practice across the standard editions (Peters, Bärenreiter, International); the K.216 solo part's own abbreviations">
+  The bow-place abbreviations are old and mostly untranslated between languages — an editor
+  working from a German source keeps `Sp.`, one working from a French source writes `au
+  talon`. They mean the same spot. Learn them as a small foreign vocabulary.
+</Cite>

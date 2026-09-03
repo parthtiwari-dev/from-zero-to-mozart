@@ -461,21 +461,18 @@ export const LESSONS: Lesson[] = [
 
   // 5c · Reading & shaping with the bow, and the gate
   // 5c · Movement I — reading a printed bowing
-  { slug: "where-in-the-bow", title: "Where in the bow", stage: 5, track: "reading", tag: "NOW" },
-  { slug: "the-rule-of-the-down-bow", title: "The rule of the down-bow", stage: 5, track: "reading", tag: "NOW" },
-  { slug: "reading-a-bowing", title: "Reading a bowing", stage: 5, track: "reading", tag: "NOW" },
-  { slug: "bowing-a-passage-yourself", title: "Bowing a passage yourself", stage: 5, track: "reading", tag: "NOW" },
+  { slug: "where-in-the-bow", title: "Where in the bow", stage: 5, track: "reading", tag: "NOW", published: P },
+  { slug: "the-rule-of-the-down-bow", title: "The rule of the down-bow", stage: 5, track: "reading", tag: "NOW", published: P },
+  { slug: "reading-a-bowing", title: "Reading a bowing", stage: 5, track: "reading", tag: "NOW", published: P },
+  { slug: "bowing-a-passage-yourself", title: "Bowing a passage yourself", stage: 5, track: "reading", tag: "NOW", published: P },
   // 5c · Movement J — shaping with the bow
-  { slug: "dynamics-with-the-bow", title: "Dynamics with the bow", stage: 5, track: "bow", tag: "NOW" },
-  { slug: "messa-di-voce", title: "Messa di voce", stage: 5, track: "bow", tag: "NOW" },
-  { slug: "phrasing-with-the-bow", title: "Phrasing with the bow", stage: 5, track: "bow", tag: "NOW" },
+  { slug: "dynamics-with-the-bow", title: "Dynamics with the bow", stage: 5, track: "bow", tag: "NOW", published: P },
+  { slug: "messa-di-voce", title: "Messa di voce", stage: 5, track: "bow", tag: "NOW", published: P },
+  { slug: "phrasing-with-the-bow", title: "Phrasing with the bow", stage: 5, track: "bow", tag: "NOW", published: P },
   // 5c · Movement K — playing by ear
-  { slug: "finding-a-tune-by-ear", title: "Finding a tune by ear", stage: 5, track: "ear", tag: "NOW" },
+  { slug: "finding-a-tune-by-ear", title: "Finding a tune by ear", stage: 5, track: "ear", tag: "NOW", published: P },
   // 5c · Movement L — reference
-  { slug: "the-baroque-bow-and-the-modern-bow", title: "The Baroque bow and the modern bow", stage: 5, track: "bow", tag: "REFERENCE" },
-  // interim: the thin `reading-bowings` skeleton stays live until it's split into
-  // where-in-the-bow + reading-a-bowing above (5c build).
-  { slug: "reading-bowings", title: "Reading a bowing (draft)", stage: 5, track: "reading", tag: "NOW", published: P },
+  { slug: "the-baroque-bow-and-the-modern-bow", title: "The Baroque bow and the modern bow", stage: 5, track: "bow", tag: "REFERENCE", published: P },
 
   // 5 · Movement P — the repertoire (also on /practice)
   { slug: "stage-5-tone-and-strokes", title: "Tone and strokes to play", stage: 5, track: "repertoire", tag: "NOW", piece: { key: "G / D / A / C", position: "1st", skill: "the daily bow routine — son filé, détaché, slurred and martelé scales, the bowing-variation drill", inPdf: true } },

@@ -1,0 +1,94 @@
+Back in Stage 3 you learned to *read* `pp` through `ff`, hairpins, `sf`, `subito`. And one
+lesson there — `dynamics-are-a-bow-thing` — planted a flag: **on a violin, loud and soft are
+bow decisions, not a volume knob.** This is where you make them.
+
+## The two recipes
+
+Everything you know about the three controls (`speed-weight-and-sounding-point`), pointed at
+dynamics:
+
+| | louder (**→ f**) | softer (**→ p**) |
+|---|---|---|
+| bow speed / amount | **faster / more bow** | slower / less bow |
+| weight | **more** arm weight | lighter |
+| sounding point | toward the **bridge** (lane 2–3) | toward the **fingerboard** (lane 3–4) |
+| hair | **flat** (all of it) | tilted (less) |
+
+All four move **together**, in the same direction. That's the physics from
+`speed-weight-and-sounding-point`: the controls are a set, and a dynamic is "move the whole
+set one way".
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/2
+K:D clef=treble
+!p!A2 | A2 | !f!A2 | A2 |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="Open A, four half-notes growing from p to f. Each note: a little more bow, a little more weight, a little nearer the bridge, hair a little flatter. Do it smoothly and it's a crescendo you completely control."
+  howToPlay="Start slow, light, over the fingerboard, tilted hair. Add all four ingredients gradually and evenly across the four notes. Keep the sound clean — if it scratches, one control jumped ahead of the others."
+  defaultBpm={50}
+/>
+
+## Crescendo: two situations, two methods
+
+- **Across a phrase** (a hairpin over several notes or bars): **use gradually more bow** per
+  note into the crescendo, gradually less into the diminuendo. Weight and lane drift along
+  with it.
+- **On one long held note** (a hairpin on a single note): you **can't** just speed the bow up
+  — you'd run out. Instead, keep the bow speed roughly even and **add weight and slide toward
+  the bridge** for the crescendo, then release for the diminuendo. (That's *messa di voce* —
+  its own lesson.)
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/4
+K:D clef=treble
+!<(!A A A A!<)! | !>(!A A A A!>)! |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="A crescendo across four notes, then a diminuendo across four. Across notes like this, the main tool is bow amount: a bit more bow each note going up, a bit less coming down."
+  defaultBpm={66}
+/>
+
+## `sf` and `fp` are a bow attack
+
+A **sforzando** (`sf`, `sfz`) is a **prepared bite** on that one note — the front end of a
+martelé (`martele`) — then straight back to the prevailing dynamic. **`fp`** is that bite, then
+instantly soft. You already have the gesture; here it lands on a single marked note in a line.
+
+## Try it
+
+<TryThis>
+  Open D, one long note: play it p (slow, light, over the fingerboard), then the same note f
+  (fast, weighted, near the bridge), then a smooth crescendo from one to the other across a
+  slow count of eight. Then take a tune you know and add a dynamic scheme with the bow — a
+  quiet first phrase, a loud answer.
+</TryThis>
+
+## The usual mistake
+
+Trying to crescendo a **long held note by speeding the bow up** — you reach the tip with half
+the note still to play and nothing left to give. On one note, crescendo with **weight and
+lane**; save the bow-speed method for **across** notes. The other mistake: making a dynamic
+with weight alone — pressing for *f*, which just chokes the tone (`speed-not-pressure`).
+
+<Cite source="Ivan Galamian, Principles (1962) — bow speed as the tool of nuance; The Strad, '10 views on dynamics for bowed strings'">
+  Galamian: "the climax note should have more bow, while the closing note, tapering off as it
+  ought to, will have less." Dynamics on a string instrument are, first and last, a decision
+  about how the bow moves.
+</Cite>

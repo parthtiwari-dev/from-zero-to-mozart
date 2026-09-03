@@ -337,6 +337,15 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
     import("./rolling-a-chord-with-the-bow.mdx"),
   "the-bow-stroke-atlas": () => import("./the-bow-stroke-atlas.mdx"),
   // 5c — Reading & shaping with the bow, and the gate
-  "reading-bowings": () => import("./reading-bowings.mdx"),
+  "where-in-the-bow": () => import("./where-in-the-bow.mdx"),
+  "the-rule-of-the-down-bow": () => import("./the-rule-of-the-down-bow.mdx"),
+  "reading-a-bowing": () => import("./reading-a-bowing.mdx"),
+  "bowing-a-passage-yourself": () => import("./bowing-a-passage-yourself.mdx"),
+  "dynamics-with-the-bow": () => import("./dynamics-with-the-bow.mdx"),
+  "messa-di-voce": () => import("./messa-di-voce.mdx"),
+  "phrasing-with-the-bow": () => import("./phrasing-with-the-bow.mdx"),
+  "finding-a-tune-by-ear": () => import("./finding-a-tune-by-ear.mdx"),
+  "the-baroque-bow-and-the-modern-bow": () =>
+    import("./the-baroque-bow-and-the-modern-bow.mdx"),
   "the-foundation-check": () => import("./the-foundation-check.mdx"),
 };

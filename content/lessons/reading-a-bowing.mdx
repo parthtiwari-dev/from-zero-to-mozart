@@ -1,0 +1,94 @@
+This is the make-or-break skill of the whole stage. A real part's bowing is **information the
+composer or editor is handing you** — and a player who can play a clean détaché but can't read
+the plan still can't play a Mozart phrase. Reading a bowing is the right-hand version of
+`decode-a-dense-line` from Stage 3: you walk the phrase mark by mark before you play a note.
+
+## Walk it mark by mark
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/4
+K:G clef=treble
+(!downbow!"^f"D E) !upbow!.F .G | !downbow!"^p"A2 !upbow!G2 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  reveal="hidden"
+  caption="Six notes with a bowing written in. Work out the plan before you reveal it: which notes share a bow? which direction? where does each stroke start and stop? loud or soft?"
+  defaultBpm={60}
+/>
+
+**The plan, mark by mark:**
+
+- **D and E** are under one slur, marked **⊓** (down-bow) and **f** — so: *two notes, one
+  down-bow, loud.* Two notes in one bow means about half the bow; start near the frog. Loud
+  means a fast bow, a bit of weight, near the bridge.
+- **F♯ and G** have **staccato dots** and are **up-bows** — wait, two up-bows in a row? Yes:
+  they're **hooked** (or you retake). Short, stopped, on separate small strokes in the upper
+  half — save bow, because you just spent half of it on the slur.
+- **Bar 2, A** is **⊓** and marked **p** — a *sudden soft*. So the bow arrives with a new
+  setting already prepared: slower, lighter, toward the fingerboard. Half note = more bow, but
+  slow.
+- **G** is the answering **V**, still soft, easing off.
+
+You'd never work all that out mid-phrase. You read it first, once, like a sentence.
+
+## The `f`–`p` echo needs a bow change, not a knob
+
+A very common Classical marking: a phrase at **f**, then the *same* phrase at **p** — an echo.
+This is the Stage 3 promise (`dynamics-are-a-bow-thing`) coming due. **p isn't just quieter:**
+
+- **f** → faster bow, more weight, nearer the bridge.
+- **p** → slower bow, less weight, toward the fingerboard, less hair.
+- **`< >`** on one long note = *messa di voce* — a bow that speeds up and slides toward the
+  bridge, then reverses (its own lesson, `messa-di-voce`).
+
+## Editorial marks vs the composer's
+
+Old music comes to you through an **editor**, and editions mark which is which. The
+conventions:
+
+| You see | It usually means |
+|---|---|
+| a **solid slur** | the composer's own |
+| a **dotted or dashed slur** | the editor's addition |
+| **square brackets** `[ ]` around a dynamic, bowing or fingering | editorial |
+| a preface note like *"bowings above the staff are the composer's, those below are the editor's"* | exactly that — read the preface |
+
+The K.216 solo part has that last footnote. It matters: a bowing Mozart wrote carries
+different weight from one an editor guessed.
+
+## Fingerings and positions are not bowings
+
+Worth saying again because it's the classic trap: the little numbers `1 2 3 4` are **fingers**,
+the roman `III` `IV` are **positions** — both the **left** hand, both almost always the
+editor's, and **neither is a bowing**. A `⊓`, a `V`, `Sp.`, `WB`, a slur — those are the
+right arm. (Stage 3 `finger-string-or-position`; Stage 4 `the-first-note-of-mozart`.)
+
+## Try it
+
+<TryThis>
+  Take `tune-minuet-in-g` or `tune-amazing-grace` from Stage 3 — pieces you've played with the
+  marks. Before playing, go through one line and say out loud, for each group: how many notes
+  per bow, which direction, where in the bow, how loud. Then play it and check your plan
+  survived contact.
+</TryThis>
+
+## The usual mistake
+
+Playing first and reading the bowing later — discovering mid-phrase that four notes are
+slurred when you've already used all your bow, or that a **p** was coming when you're still
+playing **f**. The bowing is part of the reading. Group the notes into bow-strokes with your
+eye the same way you already group them into rhythms and pitches.
+
+<Cite source="the annotated-edition tradition; the Stage 3 keystone — 'the symbol tells you what, the era tells you how'">
+  A printed bowing is the closest thing you get to the composer standing behind you saying
+  "one bow here, lift there, save some for the end." Reading it well is most of what separates
+  "I played the notes" from "I played the phrase."
+</Cite>

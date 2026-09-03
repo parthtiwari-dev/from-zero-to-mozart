@@ -1,0 +1,98 @@
+Here's a genuine rule — one with a clear reason and a little arithmetic, which should suit the
+way you like to learn. **The strong beat wants a down-bow.**
+
+## Why
+
+A down-bow is naturally the **heavier, stronger** stroke: gravity and the weight of your arm
+both help it. An up-bow is naturally lighter. So it makes sense to line them up with the
+music: the **first beat of the bar**, and any accented note, falls on a **⊓** (down-bow); weak
+beats and upbeats take the **V** (up-bow).
+
+French players called it *"la règle du tiré"* — the rule of the down-bow — and Lully's
+orchestra at Versailles was famous for playing every downbeat down-bow in perfect unison.
+Leopold Mozart put it plainly in 1756: *a bar that doesn't begin with a rest should begin with
+a down-bow.*
+
+<NotatedExample
+  abc={`X:1
+M:3/4
+L:1/4
+K:G clef=treble
+!downbow!G !upbow!A !downbow!B | !downbow!c !upbow!B !downbow!A | !downbow!G3 |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "c", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="A 3/4 bar bowed 'down–up–down'. Every bar starts on a down-bow, so the strong first beat always gets the strong stroke. This is the default pattern for a minuet or a waltz."
+  howToPlay="Down on beat 1, up on beat 2, down on beat 3 — then the next bar starts down again (two downs in a row across the barline, with a tiny retake). Feel the downbeat land heavy every time."
+  defaultBpm={72}
+/>
+
+## The arithmetic
+
+If you know a passage should **arrive on a down-bow** at the next barline, you can count
+backwards:
+
+- An **even** number of notes before the barline → start that group **down-bow** (down, up,
+  down, up … lands you on a down at the bar).
+- An **odd** number → start **up-bow** (so the count still lands on a down).
+
+When the maths doesn't work out — the phrase would put a strong beat on an up-bow — you fix it
+with one of the moves you already have:
+
+- a **retake** (two down-bows in a row, `hooked-bowing-and-retakes`),
+- a **hooked bowing** (two notes one direction),
+- or **choosing a slur** that re-groups the notes.
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/4
+K:G clef=treble
+!upbow!D | !downbow!G !upbow!A !downbow!B !upbow!c | !downbow!d2 z2 |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "c", string: "A", finger: "low 2" },
+    { name: "d", string: "A", finger: "3" },
+  ]}
+  caption="A pickup note (D) before the barline. One note before the bar → start it up-bow, so the downbeat G lands on a down-bow. Then it alternates cleanly and the next strong note (the high d) is a down-bow too."
+  howToPlay="Up-bow the pickup, then down on the G downbeat. Count the notes to the next barline and check: does the strong beat land down? Here it does."
+  defaultBpm={80}
+/>
+
+## When to bend it
+
+Modern playing breaks the rule all the time for musical reasons — a phrase might *want* to
+start soft on an up-bow, or a slur might carry the strong beat. The rule isn't a law; it's the
+**first question** you ask when you bow a passage yourself: *does the strong beat land
+down-bow?* If yes, you're probably fine. If no, you need a reason, or a fix.
+
+## Try it
+
+<TryThis>
+  Take any tune you know in 3/4 or 4/4. Bow it "by the rule": every bar starts down-bow, and
+  you alternate from there, using a retake across the barline when you end a bar on a down-bow.
+  Feel how the downbeats come out naturally stronger. Then find a spot where the rule fights
+  the music, and decide what you'd do about it.
+</TryThis>
+
+## The usual mistake
+
+Following the rule so rigidly that the music suffers — forcing a delicate upbeat to be a heavy
+down-bow because "bar one is down". The rule serves the phrasing, not the other way round. The
+opposite mistake: never thinking about bow direction at all, so strong beats land on weak
+up-bows and the whole passage sounds limp.
+
+<Cite source="Georg Muffat, Florilegium Secundum (1698), describing Lully's orchestral bowing; Leopold Mozart, Versuch einer gründlichen Violinschule (1756)">
+  Muffat travelled to Paris, studied Lully's band, and wrote down its rules for German players
+  — the down-bow on every downbeat was the most striking. Leopold Mozart made the same rule the
+  starting point of his bowing chapter fifty years later.
+</Cite>
