@@ -413,20 +413,72 @@ export const LESSONS: Lesson[] = [
   { slug: "tune-aura-lee", title: "Aura Lee", stage: 4, track: "repertoire", tag: "NOW", published: P, piece: { key: "C major", position: "1st", skill: "the C-major first-position hand; a IV-heavy harmony", inPdf: false } },
 
   // ── Stage 5 — The bow ──────────────────────────────────────────
+  //   Plan: docs/stage-plans/stage-5.md (research: stage-5-research.md, 15 passes).
+  //   5a/5b/5c is a /learn grouping, not stage numbers (stage: 5 throughout).
+  //   The play-by-ear thread runs through the stage (PRD.md §3): each part ends
+  //   with a "play it back" beat, `finding-a-tune-by-ear` is its own lesson, and
+  //   the Foundation check gains an ear-to-instrument test.
+
+  // 5a · Tone: how the bow makes a sound
+  // 5a · Movement A — the sustained note
   { slug: "how-the-bow-makes-sound", title: "How the bow makes sound", stage: 5, track: "bow", tag: "NOW", published: P },
   { slug: "one-long-tone", title: "One long tone, frog to tip", stage: 5, track: "bow", tag: "NOW", published: P },
-  { slug: "string-crossings", title: "String crossings", stage: 5, track: "bow", tag: "NOW", published: P },
+  { slug: "the-bow-change", title: "The bow change", stage: 5, track: "bow", tag: "NOW", published: P },
+  // 5a · Movement B — the three controls
+  { slug: "speed-weight-and-sounding-point", title: "Speed, weight, and sounding point", stage: 5, track: "bow", tag: "NOW", published: P },
+  { slug: "speed-not-pressure", title: "Speed, not pressure", stage: 5, track: "bow", tag: "NOW", published: P },
+  { slug: "the-five-lanes", title: "The five lanes", stage: 5, track: "bow", tag: "NOW", published: P },
+  // 5a · Movement C — planning and holding
+  { slug: "planning-the-bow", title: "Planning the bow", stage: 5, track: "bow", tag: "NOW", published: P },
+  { slug: "the-flexible-bow-hand", title: "The flexible bow hand", stage: 5, track: "bow", tag: "NOW", published: P },
+  { slug: "how-to-practise-a-bow-stroke", title: "How to practise a bow stroke", stage: 5, track: "bow", tag: "NOW", published: P },
+
+  // 5b · The strokes
+  // 5b · Movement D — the core strokes to perform
   { slug: "detache", title: "Détaché", stage: 5, track: "bow", tag: "NOW", published: P },
+  { slug: "the-detache-family", title: "The détaché family", stage: 5, track: "bow", tag: "NEXT" },
   { slug: "legato-and-slurs", title: "Legato, and slurred bowing", stage: 5, track: "bow", tag: "NOW", published: P },
+  { slug: "string-crossings", title: "String crossings", stage: 5, track: "bow", tag: "NOW", published: P },
+  { slug: "slurred-crossings-and-bariolage", title: "Slurred crossings, and bariolage", stage: 5, track: "bow", tag: "NEXT" },
+  // 5b · Movement E — martelé and the marked strokes
   { slug: "martele", title: "Martelé", stage: 5, track: "bow", tag: "NEXT", published: P },
   { slug: "staccato", title: "Staccato", stage: 5, track: "bow", tag: "NEXT", published: P },
   { slug: "portato-and-colle", title: "Portato and collé", stage: 5, track: "bow", tag: "NEXT", published: P },
+  { slug: "hooked-bowing-and-retakes", title: "Hooked bowing, and retakes", stage: 5, track: "bow", tag: "NEXT" },
+  // 5b · Movement F — off the string (recognise)
   { slug: "spiccato", title: "Spiccato", stage: 5, track: "bow", tag: "LATER", published: P },
-  { slug: "sautille-and-beyond", title: "Sautillé, and the strokes beyond", stage: 5, track: "bow", tag: "LATER", published: P },
-  { slug: "bow-effects", title: "Bow effects and colours", stage: 5, track: "bow", tag: "REFERENCE", published: P },
+  { slug: "sautille-and-the-continuum", title: "Sautillé, and the continuum", stage: 5, track: "bow", tag: "LATER" },
+  { slug: "the-far-shore", title: "The far shore", stage: 5, track: "bow", tag: "REFERENCE" },
+  // 5b · Movement G — colour
+  { slug: "colour-strokes", title: "Colour strokes", stage: 5, track: "bow", tag: "REFERENCE" },
+  { slug: "tremolo", title: "Tremolo", stage: 5, track: "bow", tag: "NEXT" },
+  // 5b · Movement H — the bow hand does more than bow
+  { slug: "pizzicato", title: "Pizzicato", stage: 5, track: "bow", tag: "NEXT" },
+  { slug: "rolling-a-chord-with-the-bow", title: "Rolling a chord with the bow", stage: 5, track: "bow", tag: "NEXT" },
   { slug: "the-bow-stroke-atlas", title: "The bow-stroke atlas", stage: 5, track: "bow", tag: "REFERENCE", published: P },
-  { slug: "reading-bowings", title: "Reading a bowing", stage: 5, track: "bow", tag: "NOW", published: P },
-  { slug: "the-foundation-check", title: "The Foundation check", stage: 5, track: "bow", tag: "NOW", published: P },
+
+  // 5c · Reading & shaping with the bow, and the gate
+  // 5c · Movement I — reading a printed bowing
+  { slug: "where-in-the-bow", title: "Where in the bow", stage: 5, track: "reading", tag: "NOW" },
+  { slug: "the-rule-of-the-down-bow", title: "The rule of the down-bow", stage: 5, track: "reading", tag: "NOW" },
+  { slug: "reading-a-bowing", title: "Reading a bowing", stage: 5, track: "reading", tag: "NOW" },
+  { slug: "bowing-a-passage-yourself", title: "Bowing a passage yourself", stage: 5, track: "reading", tag: "NOW" },
+  // 5c · Movement J — shaping with the bow
+  { slug: "dynamics-with-the-bow", title: "Dynamics with the bow", stage: 5, track: "bow", tag: "NOW" },
+  { slug: "messa-di-voce", title: "Messa di voce", stage: 5, track: "bow", tag: "NOW" },
+  { slug: "phrasing-with-the-bow", title: "Phrasing with the bow", stage: 5, track: "bow", tag: "NOW" },
+  // 5c · Movement K — playing by ear
+  { slug: "finding-a-tune-by-ear", title: "Finding a tune by ear", stage: 5, track: "ear", tag: "NOW" },
+  // 5c · Movement L — reference
+  { slug: "the-baroque-bow-and-the-modern-bow", title: "The Baroque bow and the modern bow", stage: 5, track: "bow", tag: "REFERENCE" },
+
+  // 5 · Movement P — the repertoire (also on /practice)
+  { slug: "stage-5-tone-and-strokes", title: "Tone and strokes to play", stage: 5, track: "repertoire", tag: "NOW", piece: { key: "G / D / A / C", position: "1st", skill: "the daily bow routine — son filé, détaché, slurred and martelé scales, the bowing-variation drill", inPdf: true } },
+  { slug: "tune-bach-air", title: "Bach — Air (opening)", stage: 5, track: "repertoire", tag: "NOW", piece: { key: "D major", position: "1st", skill: "legato and son filé — a seamless singing line, bow distribution", inPdf: false } },
+  { slug: "tune-gossec-gavotte", title: "Gossec — Gavotte", stage: 5, track: "repertoire", tag: "NEXT", piece: { key: "G major", position: "1st", skill: "the bow-stroke piece — détaché, staccato, retakes, hooked bows, slurs", inPdf: true } },
+  { slug: "tune-conquering-hero", title: "Handel — See, the Conqu'ring Hero Comes", stage: 5, track: "repertoire", tag: "NEXT", piece: { key: "G major", position: "1st", skill: "martelé and grand détaché in real music — the prepared bite with a purpose", inPdf: false } },
+  { slug: "tune-foundation-gate-piece", title: "The Foundation gate piece", stage: 5, track: "repertoire", tag: "NOW", piece: { key: "D major", position: "1st", skill: "everything at once — even détaché, a dynamic scheme, a clean crossing, in tune", inPdf: false } },
+  { slug: "the-foundation-check", title: "The Foundation check", stage: 5, track: "reading", tag: "NOW", published: P },
 
   // ── Stage 9 — The repertoire journey ───────────────────────────
   // The K.216 module. `mozart-k216` is the orientation; each page of the solo

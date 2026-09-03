@@ -1,25 +1,81 @@
-Everything the right arm does comes down to three variables, and learning to hear how they
-trade against each other is most of bow technique.
+You've been making a sound with the bow since Stage 0. Now it's worth knowing *how*, because
+every stroke in this stage is a different way of steering the one thing that's actually
+happening between the hair and the string.
 
-- **Bow speed** — how fast the hair travels across the string.
-- **Bow weight** — how much of the arm's weight rests into the string (through a relaxed hand
-  — you *lean*, you don't press).
-- **Contact point** — where the hair meets the string, between the bridge and the fingerboard.
+## The one thing that happens
 
-Galamian's teaching framed it simply: those three are always in balance. Near the bridge, the
-string needs more weight and/or slower speed to speak cleanly — get it wrong and it whistles or
-crushes. Near the fingerboard, it wants less weight and often more speed, and the sound turns
-soft and flute-like. The "middle lane" is the forgiving default you started with in Stage 0.
+The hair of the bow is coated in rosin, which makes it sticky. Drag it across the string and
+it **catches** the string and pulls it sideways. The string stretches, its tension builds,
+and at some point it **snaps back** the other way — where the hair catches it again and pulls
+it back. Catch, pull, release, catch. On the open A string that cycle repeats **440 times a
+second**, and that repeating tug is the note.
 
-You also control **how much hair** touches the string (tilt the stick for less, flat for more)
-and the **straightness** of the bow (staying parallel to the bridge).
+The bow doesn't "put sound into" the string so much as keep a swing going — like pushing a
+child on a swing, one small shove per pass.
 
-None of this is a stroke to learn — it's the underlying physics that every stroke on the
-following pages is a particular *use* of. When a stroke won't work, the fix is almost always
-one of these three variables, not a new technique.
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/1
+K:C clef=treble
+!downbow!D | !upbow!D |]`}
+  labels={[
+    { name: "D", string: "D", finger: "0" },
+    { name: "D", string: "D", finger: "0" },
+  ]}
+  caption="Open D, one down-bow and one up-bow, slow. Watch the string itself while it sounds — you can see it blur into a wide band. That blur is the swing the bow is keeping going."
+  defaultBpm={40}
+/>
+
+## The whole string moves — and wider means louder
+
+The blur is widest halfway between the bridge and your finger (or the nut). The **wider** that
+swing, the more the sound carries across a room. And here's the part that catches beginners
+out: **the pitch never changes with the width.** Loud and soft are the *same* 440 swings a
+second — the string just travels further side to side when it's loud.
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/1
+K:C clef=treble
+!f!A | !p!A |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "A", string: "A", finger: "0" },
+  ]}
+  caption="Open A loud, then open A soft. Same note, same speed of vibration — only the width of the string's swing changes. Play both and watch the string get narrower for the quiet one."
+  defaultBpm={40}
+/>
+
+## One note is really a stack of notes
+
+When the string swings, it doesn't only vibrate as one long band — it also vibrates in halves,
+thirds, quarters, all at once, each adding a faint higher note called a **partial** (this is
+Stage 4's harmonic series — `the-harmonic-series`, `why-your-violin-rings`). You don't hear
+them separately; together they're the *colour* of the sound. Changing where and how the bow
+meets the string changes which partials come through — which is why the next few lessons are
+about exactly that.
+
+## Try it
 
 <TryThis>
-  On one open string, play a slow whole bow and deliberately drift the contact point from near
-  the fingerboard toward the bridge and back. Listen to the sound change. Find the spot where
-  it's fullest and most stable.
+  On the open D string, play one very slow whole bow and just look at the string. Use more bow
+  (faster) and watch the blur widen; use less bow and watch it narrow. Then try pressing down
+  harder without moving faster — notice the blur gets *thinner* and the sound gets rougher,
+  not louder. The bow's job is to keep the string swinging freely, not to squash it.
 </TryThis>
+
+## The usual mistake
+
+Believing "louder means press harder." Pressing down works *against* the sideways swing — past
+a point it chokes the string and the tone turns scratchy and small. Loudness comes mostly from
+a **wider swing**, and a wider swing comes mostly from a **faster bow** (more bow per note).
+The next lesson, `speed-not-pressure`, is entirely about this.
+
+<Cite source="Hermann von Helmholtz, On the Sensations of Tone (1863); described by Simon Fischer as an ultra-slow-motion film of the bow">
+  Helmholtz was the first to describe the "catch and release" cycle precisely, and it's still
+  called *Helmholtz motion*. Fischer's image for students: imagine the string and the hair
+  magnified huge and filmed in slow motion — you'd watch the hair grip the string, drag it,
+  and let it spring back, over and over.
+</Cite>

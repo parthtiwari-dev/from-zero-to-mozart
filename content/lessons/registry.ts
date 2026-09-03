@@ -304,8 +304,19 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "tune-aura-lee": () => import("./tune-aura-lee.mdx"),
 
   // Stage 5 — The bow
+  // 5a — Tone
   "how-the-bow-makes-sound": () => import("./how-the-bow-makes-sound.mdx"),
   "one-long-tone": () => import("./one-long-tone.mdx"),
+  "the-bow-change": () => import("./the-bow-change.mdx"),
+  "speed-weight-and-sounding-point": () =>
+    import("./speed-weight-and-sounding-point.mdx"),
+  "speed-not-pressure": () => import("./speed-not-pressure.mdx"),
+  "the-five-lanes": () => import("./the-five-lanes.mdx"),
+  "planning-the-bow": () => import("./planning-the-bow.mdx"),
+  "the-flexible-bow-hand": () => import("./the-flexible-bow-hand.mdx"),
+  "how-to-practise-a-bow-stroke": () =>
+    import("./how-to-practise-a-bow-stroke.mdx"),
+  // 5b — The strokes
   "string-crossings": () => import("./string-crossings.mdx"),
   detache: () => import("./detache.mdx"),
   "legato-and-slurs": () => import("./legato-and-slurs.mdx"),
