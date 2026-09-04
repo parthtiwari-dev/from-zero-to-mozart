@@ -541,10 +541,10 @@ export const LESSONS: Lesson[] = [
   { slug: "the-ear-gym-routine", title: "The ear-gym routine", stage: 8, track: "ear", tag: "NOW", published: P },
   { slug: "the-dictation-drills", title: "The dictation drills", stage: 8, track: "ear", tag: "NOW", published: P },
   // 8a · Movement H — playing by ear (the payoff)
-  { slug: "learning-a-tune-by-ear", title: "Learning a tune by ear", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "play-along", title: "Play along", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "reading-with-your-ear-on", title: "Reading with your ear on", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "the-tunes-to-find-by-ear", title: "Tunes to find by ear", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "learning-a-tune-by-ear", title: "Learning a tune by ear", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "play-along", title: "Play along", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "reading-with-your-ear-on", title: "Reading with your ear on", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "the-tunes-to-find-by-ear", title: "Tunes to find by ear", stage: 8, track: "ear", tag: "NOW", published: P },
   // 8b · after Stage 6–7 — positions at sight + the Intermediate gate
   { slug: "reading-a-shift", title: "Reading a shift", stage: 8, track: "reading", tag: "NEXT" },
   { slug: "the-grade-4-line", title: "The Grade-4 line", stage: 8, track: "reading", tag: "NEXT" },
