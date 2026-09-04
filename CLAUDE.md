@@ -114,7 +114,8 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 | `docs/stage-plans/stage-5.md` | Stage 5 — the **build list**: Movements A–L + P, the **5a/5b/5c split** (5a Tone: how the bow makes a sound · 5b The strokes · 5c Reading & shaping with the bow + the gate). **~36 concept + 5 repertoire ≈ 41 lessons.** Records the 6 delegated decisions (2026-09-04): PERFORM set = détaché/legato/martelé/clean crossing/son filé (off-string = recognise); "reading a printed bowing" = 4 lessons; the **play-by-ear thread** runs through the stage; pizzicato + rolling-a-chord folded in. Status: **BUILT 2026-09-04 (38 lessons; 3 of 5 P tunes live).** |
 | `docs/stage-plans/stage-8-research.md` | Stage 8 (Sight-reading & ear training) — the deep research, **22 passes + a re-verification pass** — done out of sequence (2026-09-04, user's request) because it carries the play-by-ear goal and needs neither Stage 6 nor 7. **Reading fluency** (the cognition — chunking / eye-hand span; the pre-read; reading by pattern; rhythm-first; never-stop + recovery; the four-layer rescue; scaffold A→E; the graded card ladder; flat keys / chromatics / double stops / chord charts) + **the ear gym from the ground up** (functional > interval per Karpinski 2000; **sargam IS functional ear training**; audiation + singing + the drone; the scale-degree gym = the core; hearing harmony; melodic + rhythmic dictation; **play by ear** = the payoff; reading-with-your-ear-on welds the halves). Ends with a **movement plan (8a/8b split)** — 8a is position-independent; 8b (positions at sight + the Intermediate gate) closes after Stage 6–7. Status: **research DONE 2026-09-04.** |
 | `docs/stage-plans/stage-8.md` | Stage 8 — the **build list**: 6 delegated decisions, Movements A–H (8a) + 8b sketch, the bar every lesson clears. Status: **8a BUILT 2026-09-04 — 44 lessons** (A reading fluently 8 · B the sight-reading method 7 · C reading across contexts 4 · D what a good ear is 5 · E the scale-degree gym 6 · F hearing harmony 5 · G taking music down 5 · H playing by ear 4). Play-by-ear (`PRD.md` §3) is the spine: Movement E (scale-degree gym) is the core, H1 `learning-a-tune-by-ear` the payoff, H3 `reading-with-your-ear-on` the weld. `DRONE_NOTES` gained B + C; `abc-barcheck.py` gained a label-count check. 8b deferred (needs Stage 6–7). |
-| `docs/stage-plans/stage-6-research.md` | Stage 6 (Shifting & the higher positions) — the deep research, **20 passes + a re-verification pass** (2026-09-05). What a position is + half position · **the verified position-teaching order (1st→3rd→5th→2nd→4th, 6th/7th REFERENCE) — corrects the placeholder order this file used to state** · shifting mechanics (arm/thumb roles) · Galamian's four shift types + guide notes · shift timing (steal it from the note before — Fischer/Galamian, cited) · shift vs portamento vs glissando + Classical/Romantic style · 3rd/5th/2nd/4th position note maps + landmarks · the roman-numeral position-vs-string reading, made physical · double stops (the stopped+stopped ladder, finger patterns for 3rds/6ths/octaves) · fingered octaves (REFERENCE) · **stopped chords** (the left-hand half of the Stage-5/K.216 chord debt) · trills as finger action · natural harmonics (performed) / artificial harmonics (REFERENCE) · LH pizzicato, glissando execution, finger substitution · practice method · the Stage-8 ear-thread tie-in (no new ear lessons needed). Ends with a movement-plan sketch (A–H + P) + 3 flagged decisions + full sources. Status: **research DONE 2026-09-05.** |
+| `docs/stage-plans/stage-6-research.md` | Stage 6 (Shifting & the higher positions) — the deep research, **20 passes + a re-verification pass** (2026-09-05). What a position is + half position · **the verified position-teaching order (1st→3rd→5th→2nd→4th, 6th/7th REFERENCE) — corrects the placeholder order this file used to state** · shifting mechanics (arm/thumb roles) · Galamian's four shift types + guide notes · shift timing (steal it from the note before — Fischer/Galamian, cited) · shift vs portamento vs glissando + Classical/Romantic style · 3rd/5th/2nd/4th position note maps + landmarks · the roman-numeral position-vs-string reading, made physical · double stops (the stopped+stopped ladder, finger patterns for 3rds/6ths/octaves) · fingered octaves (REFERENCE) · **stopped chords** (the left-hand half of the Stage-5/K.216 chord debt) · trills as finger action · natural harmonics (performed) / artificial harmonics (REFERENCE) · LH pizzicato, glissando execution, finger substitution · practice method · the Stage-8 ear-thread tie-in (no new ear lessons needed). Ends with a movement-plan sketch (A–H + P) + 3 flagged decisions + full sources. **Re-verification pass (Pass 20) caught and fixed real errors** — the 4th/5th-position note maps were muddled against each other and one 2nd-position note was wrong; fixed via an explicit-chart re-fetch plus a mechanical self-consistency proof (adjacent strings within one position must be a perfect 5th apart) that's worth reusing for any future position claim. **Pass 21 fills a real gap** the re-verify found: finger extensions/contractions + pivoting, named in the original Phase-0 plan but never actually researched until caught. Status: **research DONE 2026-09-05, re-verified.** |
+| `docs/stage-plans/stage-6.md` | Stage 6 — the **build list**: 5 decisions (the corrected position order; 6th/7th + artificial harmonics as REFERENCE; pivoting as REFERENCE; the self-check doesn't gate; Movement P deferred pending PD sourcing), Movements A–H (31 lessons) + a deferred Movement P, the position-note-map table as the single source of truth every lesson must copy from (not re-derive), the bar every lesson clears (with two Stage-6-specific standards: every "try it" must be self-checkable, and the genuinely new-motion lessons state plainly where a teacher's eye would catch what this course can't). Status: **PLANNED 2026-09-05; not yet built.** |
 | `docs/LESSONS-FROM-MOZART.md` | what the (deferred) K.216 run taught us the middle stages must teach deeply — bowing, chords, the dense score vocabulary, style. Read before planning Stages 2–7. |
 | `docs/stage-plans/mozart-k216.md` | the deferred K.216 module — what's built, the transcription pipeline, how to resume |
 | `docs/DESIGN_LOCK.md` | the locked visual language — Direction A ("The Critical Edition"); chosen and built |
@@ -282,7 +283,7 @@ Research: `docs/stage-plans/stage-4-research.md` (20 passes + a re-verification 
 
 ---
 
-## NEXT SESSION — Stage 6 research → browser spot-checks → Stage 5/8 loose ends
+## NEXT SESSION — build Stage 6 → browser spot-checks → Stage 5/8 loose ends
 
 **Stages 0–5 built; Stage 8a built (44 lessons, 299 pages).** v1 (PDF Parts I–VI) complete;
 the Foundation gate is written; the ear gym / play-by-ear stage is live.
@@ -333,19 +334,21 @@ Help Falling in Love", C, Stage 5–6) · **Shenandoah** (D, son-filé, Stage 5)
 (A minor, Stage 4–5) · **Shchedryk** ("Carol of the Bells" melody, A minor, fast détaché,
 Stage 5) · the folk pool (Simple Gifts / Ash Grove / Loch Lomond).
 
-### 4 — Phase 2 — **Stage 8a is BUILT** (2026-09-04); Stage 6 is next
+### 4 — Phase 2 — **Stage 8a is BUILT** (2026-09-04); **Stage 6 is PLANNED, ready to build**
 Stage 8a done — 44 lessons, Movements A–H, `stage-plans/stage-8.md` §Status. The ear gym
 (Movement E) + play-by-ear (Movement H) are live; `DRONE_NOTES` now has B + C;
 `abc-barcheck.py` now checks label counts.
 
-Next: **Stage 6 (Shifting & the higher positions)** — research-first
-(`stage-6-research.md`), plan with the user, build. Scope: what a *position* is; shifting
-mechanics (release the thumb, arm leads, guide/ghost notes, same-finger vs new-finger,
-Classical vs Romantic portamento, silent shifts); positions one at a time (**3rd** first, then
-2nd, 4th, 5th+); **double stops** (open+open → open+stopped → stopped+stopped; 3rds, 6ths,
-octaves) — the technique half of the Stage-4/5 chord debt (`LESSONS-FROM-MOZART.md` §2);
-**stopped chords** (the 3-/4-note versions of `rolling-a-chord-with-the-bow`); trills as
-finger action; harmonics. Then **Stage 7 (vibrato)** → **Stage 8b** → **Intermediate gate**.
+**Stage 6 (Shifting & the higher positions)** is researched (`stage-6-research.md`, 21 passes
++ a re-verification pass that caught real note-map errors — see that doc's Pass 20) and
+planned (`stage-6.md`, 2026-09-05): Movements A–H, 31 lessons, + a deferred Movement P. Build
+order: A (mechanics) → B (3rd) → C (5th) → D (2nd/4th) → E (stopped double stops) → F (stopped
+chords — pays the `LESSONS-FROM-MOZART.md` §2 debt) → G (trills/harmonics/pizz/substitution)
+→ H (6th/7th REFERENCE + the practice-method + self-check capstone). **The corrected position
+order is 1st→3rd→5th→2nd→4th** (not the old 3rd→2nd→4th→5th note this file used to carry).
+**Next action: build Stage 6, movement by movement**, per `stage-6.md` "Build order & wiring."
+
+Then **Stage 7 (vibrato)** → **Stage 8b** → **Intermediate gate**.
 
 **Deferred from earlier stages:** Stage 1's 4 tunes pending PD sources (song-of-the-wind,
 go-tell-aunt-rhody, long-long-ago, french-folk-song); Stage 2's 3 (Pop Goes the Weasel, Jolly
