@@ -1,0 +1,60 @@
+The capstone of the harmony movement, and the ear half of `reading-a-chord-chart`: play a
+plain tune and hear, bar by bar, **which chord is under it** — even though no chord is
+sounding. This is what lets you harmonise a melody, join a jam, or write the chart yourself.
+
+## Most bars sit on one chord
+
+In simple tunes the harmony changes slowly — often once a bar, sometimes once every two. And
+the melody notes in that bar are mostly **chord tones** of whatever chord it is. So:
+
+1. **Which notes does this bar dwell on?** The long notes, the downbeats, the first and last
+   notes.
+2. **What chord contains those?** Usually I, IV or V of the key.
+3. **Check it against the three functions** (`home-leaving-pulling`) — does a resting chord
+   fit here, or a pulling one?
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:C
+L:1/4
+K:G clef=treble
+"G"G2 B2 | "C"c2 A2 | "D"B2 d2 | "G"G4 |]`}
+  labels={[
+    { name: "G · ^1", string: "D", finger: "3" },
+    { name: "B · ^3", string: "A", finger: "1" },
+    { name: "c · ^4", string: "A", finger: "low 2" },
+    { name: "A · ^2", string: "A", finger: "0" },
+    { name: "B · ^3", string: "A", finger: "1" },
+    { name: "d · ^5", string: "A", finger: "3" },
+    { name: "G · ^1", string: "D", finger: "3" },
+  ]}
+  caption="Play the melody (no chords). Bar 1 dwells on G and B — a G chord (I). Bar 2 on C and A — a C chord (IV). Bar 3 on B and D, and it feels like it's pulling — a D chord (V). Bar 4 home — G (I). Reveal shows the chart; hear it before you look."
+  followPlayback
+  defaultBpm={66}
+/>
+
+## Try it
+
+<TryThis>
+  Take Twinkle in G (you numbered it in `degrees-in-your-tunes`). Sing the first line and, for
+  each bar, try a G chord and a D chord underneath in your head — one will fit and one will
+  clash. Bar 1 (^1 ^1 ^5 ^5) wants G; the "^6 ^6 ^5" bar wants D (or G, depending on the
+  version); the descent ^4 ^3 ^2 ^1 lands back on G. Write your guessed chart, then play the
+  melody with a friend or a drone and hear if it holds.
+</TryThis>
+
+## The usual mistake
+
+Trying to name the chord from a single note. One melody note usually fits two or three
+chords — B in G major is in G (as ^3), in E minor (as ^5), in a D chord... only later. Use
+the *whole bar*, weight the long notes, and lean on function. The other mistake: expecting
+the chord to change on every note. In most simple tunes it's one chord per bar or slower —
+harmonic rhythm (Stage 4 `harmonic-rhythm`) is usually slow.
+
+<Cite source="Stage 4 'harmonising-a-tune-you-know' and 'harmonic-rhythm'; 'reading-a-chord-chart' (C4); melody-harmonisation practice">
+  Hearing the implied harmony of a melody is the skill under lead-sheet playing, folk
+  accompaniment and arranging. It works because tonal melodies are built largely from the
+  notes of their underlying chords — the harmony is already *in* the tune, waiting to be
+  heard.
+</Cite>

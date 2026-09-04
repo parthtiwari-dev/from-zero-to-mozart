@@ -529,11 +529,11 @@ export const LESSONS: Lesson[] = [
   { slug: "degrees-in-your-tunes", title: "Degrees in your tunes", stage: 8, track: "ear", tag: "NOW", published: P },
   { slug: "the-scale-degree-drills", title: "The scale-degree drills", stage: 8, track: "ear", tag: "NOW", published: P },
   // 8a · Movement F — hearing harmony
-  { slug: "major-or-minor", title: "Major or minor?", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "hearing-the-bass", title: "Hearing the bass", stage: 8, track: "ear", tag: "NEXT" },
-  { slug: "home-leaving-pulling", title: "Home, leaving, pulling", stage: 8, track: "ear", tag: "NEXT" },
-  { slug: "hearing-a-cadence", title: "Hearing a cadence", stage: 8, track: "ear", tag: "NEXT" },
-  { slug: "hearing-the-chord-under-the-tune", title: "Hearing the chord under the tune", stage: 8, track: "ear", tag: "NEXT" },
+  { slug: "major-or-minor", title: "Major or minor?", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "hearing-the-bass", title: "Hearing the bass", stage: 8, track: "ear", tag: "NEXT", published: P },
+  { slug: "home-leaving-pulling", title: "Home, leaving, pulling", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "hearing-a-cadence", title: "Hearing a cadence", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "hearing-the-chord-under-the-tune", title: "Hearing the chord under the tune", stage: 8, track: "ear", tag: "NEXT", published: P },
   // 8a · Movement G — taking music down
   { slug: "hearing-a-leap", title: "Hearing a leap", stage: 8, track: "ear", tag: "NOW" },
   { slug: "taking-a-rhythm-down", title: "Taking a rhythm down", stage: 8, track: "ear", tag: "NOW" },

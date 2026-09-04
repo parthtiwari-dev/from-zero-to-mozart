@@ -393,4 +393,11 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "degrees-on-the-fingerboard": () => import("./degrees-on-the-fingerboard.mdx"),
   "degrees-in-your-tunes": () => import("./degrees-in-your-tunes.mdx"),
   "the-scale-degree-drills": () => import("./the-scale-degree-drills.mdx"),
+
+  // 8a · Movement F — hearing harmony
+  "major-or-minor": () => import("./major-or-minor.mdx"),
+  "hearing-the-bass": () => import("./hearing-the-bass.mdx"),
+  "home-leaving-pulling": () => import("./home-leaving-pulling.mdx"),
+  "hearing-a-cadence": () => import("./hearing-a-cadence.mdx"),
+  "hearing-the-chord-under-the-tune": () => import("./hearing-the-chord-under-the-tune.mdx"),
 };
