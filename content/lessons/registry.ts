@@ -384,6 +384,9 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   octaves: () => import("./octaves.mdx"),
   "fingered-octaves-and-tenths": () =>
     import("./fingered-octaves-and-tenths.mdx"),
+  // Movement F — stopped chords
+  "holding-a-stopped-chord": () => import("./holding-a-stopped-chord.mdx"),
+  "which-notes-to-hold": () => import("./which-notes-to-hold.mdx"),
 
   // Stage 8 — Sight-reading & ear training
   // 8a · Movement A — reading fluently

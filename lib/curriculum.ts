@@ -520,6 +520,10 @@ export const LESSONS: Lesson[] = [
   { slug: "octaves", title: "Octaves", stage: 6, track: "left-hand", tag: "NOW", published: P },
   { slug: "fingered-octaves-and-tenths", title: "Fingered octaves and tenths", stage: 6, track: "left-hand", tag: "REFERENCE", published: P },
 
+  // Movement F — stopped chords
+  { slug: "holding-a-stopped-chord", title: "Holding a stopped chord", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "which-notes-to-hold", title: "Which notes to hold", stage: 6, track: "left-hand", tag: "NOW", published: P },
+
   // ── Stage 8 — Sight-reading & ear training ─────────────────────
   //   Plan: docs/stage-plans/stage-8.md (research: stage-8-research.md, 22 passes).
   //   Built out of sequence (before Stage 6/7) — it carries the play-by-ear goal
