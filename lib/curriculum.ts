@@ -511,10 +511,10 @@ export const LESSONS: Lesson[] = [
   { slug: "the-sight-reading-habit", title: "The sight-reading habit", stage: 8, track: "reading", tag: "NOW", published: P },
   { slug: "sight-reading-cards", title: "Sight-reading cards", stage: 8, track: "reading", tag: "NOW", published: P },
   // 8a · Movement C — reading across contexts
-  { slug: "reading-the-flat-keys", title: "Reading the flat keys", stage: 8, track: "reading", tag: "NOW" },
-  { slug: "reading-a-chromatic-note", title: "Reading a chromatic note", stage: 8, track: "reading", tag: "NOW" },
-  { slug: "reading-two-notes-at-once", title: "Reading two notes at once", stage: 8, track: "reading", tag: "NEXT" },
-  { slug: "reading-a-chord-chart", title: "Reading a chord chart", stage: 8, track: "reading", tag: "NEXT" },
+  { slug: "reading-the-flat-keys", title: "Reading the flat keys", stage: 8, track: "reading", tag: "NOW", published: P },
+  { slug: "reading-a-chromatic-note", title: "Reading a chromatic note", stage: 8, track: "reading", tag: "NOW", published: P },
+  { slug: "reading-two-notes-at-once", title: "Reading two notes at once", stage: 8, track: "reading", tag: "NEXT", published: P },
+  { slug: "reading-a-chord-chart", title: "Reading a chord chart", stage: 8, track: "reading", tag: "NEXT", published: P },
   // 8a · Movement D — what a good ear is
   { slug: "what-a-good-ear-is", title: "What a good ear is", stage: 8, track: "ear", tag: "NOW" },
   { slug: "hearing-it-first", title: "Hearing it first", stage: 8, track: "ear", tag: "NOW" },

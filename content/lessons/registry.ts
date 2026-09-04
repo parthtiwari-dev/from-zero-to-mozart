@@ -372,4 +372,10 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "how-sight-reading-cards-work": () => import("./how-sight-reading-cards-work.mdx"),
   "the-sight-reading-habit": () => import("./the-sight-reading-habit.mdx"),
   "sight-reading-cards": () => import("./sight-reading-cards.mdx"),
+
+  // 8a · Movement C — reading across contexts
+  "reading-the-flat-keys": () => import("./reading-the-flat-keys.mdx"),
+  "reading-a-chromatic-note": () => import("./reading-a-chromatic-note.mdx"),
+  "reading-two-notes-at-once": () => import("./reading-two-notes-at-once.mdx"),
+  "reading-a-chord-chart": () => import("./reading-a-chord-chart.mdx"),
 };
