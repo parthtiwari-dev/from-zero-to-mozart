@@ -237,7 +237,7 @@ much more (the ear thread, the physics, transposition, the modes, an accurate ra
   dynamics as a line, agogics / rubato, tone colour, character words, listening & imitation.
 
 ### Stage 8 — Sight-reading & ear training  →  **INTERMEDIATE GATE**
-*PDF Part VII (thin) + a large new ear-training track. **RESEARCHED 2026-09-04** — `stage-plans/stage-8-research.md` (22 passes). Split 8a (reading fluency + ear gym, position-independent, builds next) / 8b (positions at sight + the Intermediate gate). ~34 concept lessons + card/drill ladders. Functional ear training (sargam bridge) is the core.*
+*PDF Part VII (thin) + a large new ear-training track. **8a BUILT 2026-09-04 — 44 lessons** (`stage-plans/stage-8.md`, Movements A–H): A reading fluently 8 · B the sight-reading method 7 · C reading across contexts 4 · D what a good ear is 5 · E the scale-degree gym 6 (**the core** — functional/sargam ear training) · F hearing harmony 5 · G taking music down 5 · H playing by ear 4. Built out of sequence (position-independent, carries the play-by-ear goal). **8b** (positions at sight + the Intermediate gate) waits for Stage 6–7.*
 
 - **The 20-second pre-read:** clef → key → time → tempo → lowest/highest pitch → accidentals →
   rhythm traps → slurs / bow marks → repeats → then hear & count beat 1 before the bow moves.

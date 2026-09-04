@@ -164,13 +164,14 @@ PDF's dropped F♯ in the §59A G-major answer.
 | PDF page | Section | → target | Status |
 |---|---|---|---|
 | 134 | Part VII divider | — | — |
-| 135 | §77 The 20-second pre-read | **Stage 8** | todo |
-| 136 | §78 The four-layer rescue method | **Stage 8** | todo |
-| 137 | §79 Progressive scaffold removal | **Stage 8** (formalised) | todo |
-| 138–153 | §80.1–80.8 Sight-reading cards + answers | **Stage 8** graded cards (8, → expand to 20+) | todo |
-| 154 | §81 Twinkle theme in A major (PD mini-piece) | **Stage 9** Tier 0–1 | todo |
-| 155 | §82 Ode to Joy fragment in G (PD mini-piece) | **Stage 9** Tier 0 | todo |
-| 156 | §83 Original melody drill "G-major steps and skips" | **Stage 8** + Stage 9 | todo |
+| 135 | §77 The 20-second pre-read | **Stage 8** `the-pre-read` (A3) | ✅ done (8a) |
+| 136 | §78 The four-layer rescue method | **Stage 8** `the-four-layer-rescue` (B3) | ✅ done (8a) |
+| 137 | §79 Progressive scaffold removal | **Stage 8** `taking-more-help-away` (B4) | ✅ done (8a) |
+| 138–153 | §80.1–80.8 Sight-reading cards + answers | **Stage 8** `how-sight-reading-cards-work` (B5) + `sight-reading-cards` ladder (seed levels 1–8) | ✅ done (8a) |
+| 154 | §81 Twinkle theme in A major (PD mini-piece) | **Stage 9** Tier 0–1 (also `the-tunes-to-find-by-ear` L1) | todo |
+| 155 | §82 Ode to Joy fragment in G (PD mini-piece) | **Stage 9** Tier 0 (also `the-tunes-to-find-by-ear` L2) | todo |
+| 156 | §83 Original melody drill "G-major steps and skips" | **Stage 8** `the-dictation-drills` / `the-scale-degree-drills` | ✅ done (8a) |
+| — | *(new)* the ear-training gym — functional scale-degree hearing, dictation, play by ear | **Stage 8** Movements D–H (24 lessons) — expands PDF §8/§28 intonation-by-ear + §101 test into the play-by-ear goal (`PRD.md` §3) | ✅ done (8a) |
 | 157 | §84 A Hahn-inspired repertoire spine | `REPERTOIRE.md` + Stage 9 | todo |
 | 158–162 | §85 Popular / viral repertoire targets (1–5/5) | `REPERTOIRE.md` song bank (targets) | todo |
 | 163–166 | §86 Classical ladder before/around Mozart (1–4/4) | `REPERTOIRE.md` Tiers 2–5 | todo |

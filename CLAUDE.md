@@ -112,7 +112,8 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 | `docs/stage-plans/stage-4.md` | Stage 4 — the **build list**: Movements A–P, the **4a/4b/4c split** (4a Scales & keys · 4b Intervals, chords & harmony · 4c Arpeggios, the physics & the rest · P the tunes). Status: **BUILT 2026-09-03, expanded 2026-09-04 → 70 lessons** (63 concept + 7 repertoire). Every scale (modes, pentatonic, blues, chromatic, symmetrical, world) and every chord (triads, 7ths, suspended/added, extended, secondary dominants, borrowed, chromatic, altered/quartal) covered as real lessons or cited cards. |
 | `docs/stage-plans/stage-5-research.md` | Stage 5 (The bow) — the deep research, **15 passes + a re-verification pass** (bow physics / Helmholtz & the three controls · tone & son filé · string crossings & bariolage · détaché & its family · legato & dividing the bow · martelé · the NEXT layer: staccato/portato/collé/hooked/retakes · off the string: spiccato/sautillé/the continuum · the far shore: ricochet/fouetté/Viotti/chop · colour strokes · **reading a printed bowing** · dynamics as a bow decision · bow-arm health & the tabla bridge · the atlas & the Foundation gate · re-verify — folds in pizzicato + rolling a chord with the bow). Ends with a movement-plan sketch + merge candidates + the 14-skeleton-slug fate table + full sources. |
 | `docs/stage-plans/stage-5.md` | Stage 5 — the **build list**: Movements A–L + P, the **5a/5b/5c split** (5a Tone: how the bow makes a sound · 5b The strokes · 5c Reading & shaping with the bow + the gate). **~36 concept + 5 repertoire ≈ 41 lessons.** Records the 6 delegated decisions (2026-09-04): PERFORM set = détaché/legato/martelé/clean crossing/son filé (off-string = recognise); "reading a printed bowing" = 4 lessons; the **play-by-ear thread** runs through the stage; pizzicato + rolling-a-chord folded in. Status: **BUILT 2026-09-04 (38 lessons; 3 of 5 P tunes live).** |
-| `docs/stage-plans/stage-8-research.md` | Stage 8 (Sight-reading & ear training) — the deep research, **22 passes + a re-verification pass** — done out of sequence (2026-09-04, user's request) because it carries the play-by-ear goal and needs neither Stage 6 nor 7. **Reading fluency** (the cognition — chunking / eye-hand span; the pre-read; reading by pattern; rhythm-first; never-stop + recovery; the four-layer rescue; scaffold A→E; the graded card ladder; flat keys / chromatics / double stops / chord charts) + **the ear gym from the ground up** (functional > interval per Karpinski 2000; **sargam IS functional ear training**; audiation + singing + the drone; the scale-degree gym = the core; hearing harmony; melodic + rhythmic dictation; **play by ear** = the payoff; reading-with-your-ear-on welds the halves). Ends with a **movement plan (8a/8b split)** — **8a (reading fluency + the whole ear gym) is position-independent and should build next, in parallel with Stage 6**; 8b (positions at sight + the Intermediate gate) closes after Stage 6–7. Flags a drone-bar infra dependency (must hold any of 12 tonics). Status: **research DONE 2026-09-04; `stage-8.md` not yet written.** |
+| `docs/stage-plans/stage-8-research.md` | Stage 8 (Sight-reading & ear training) — the deep research, **22 passes + a re-verification pass** — done out of sequence (2026-09-04, user's request) because it carries the play-by-ear goal and needs neither Stage 6 nor 7. **Reading fluency** (the cognition — chunking / eye-hand span; the pre-read; reading by pattern; rhythm-first; never-stop + recovery; the four-layer rescue; scaffold A→E; the graded card ladder; flat keys / chromatics / double stops / chord charts) + **the ear gym from the ground up** (functional > interval per Karpinski 2000; **sargam IS functional ear training**; audiation + singing + the drone; the scale-degree gym = the core; hearing harmony; melodic + rhythmic dictation; **play by ear** = the payoff; reading-with-your-ear-on welds the halves). Ends with a **movement plan (8a/8b split)** — 8a is position-independent; 8b (positions at sight + the Intermediate gate) closes after Stage 6–7. Status: **research DONE 2026-09-04.** |
+| `docs/stage-plans/stage-8.md` | Stage 8 — the **build list**: 6 delegated decisions, Movements A–H (8a) + 8b sketch, the bar every lesson clears. Status: **8a BUILT 2026-09-04 — 44 lessons** (A reading fluently 8 · B the sight-reading method 7 · C reading across contexts 4 · D what a good ear is 5 · E the scale-degree gym 6 · F hearing harmony 5 · G taking music down 5 · H playing by ear 4). Play-by-ear (`PRD.md` §3) is the spine: Movement E (scale-degree gym) is the core, H1 `learning-a-tune-by-ear` the payoff, H3 `reading-with-your-ear-on` the weld. `DRONE_NOTES` gained B + C; `abc-barcheck.py` gained a label-count check. 8b deferred (needs Stage 6–7). |
 | `docs/LESSONS-FROM-MOZART.md` | what the (deferred) K.216 run taught us the middle stages must teach deeply — bowing, chords, the dense score vocabulary, style. Read before planning Stages 2–7. |
 | `docs/stage-plans/mozart-k216.md` | the deferred K.216 module — what's built, the transcription pipeline, how to resume |
 | `docs/DESIGN_LOCK.md` | the locked visual language — Direction A ("The Critical Edition"); chosen and built |
@@ -132,8 +133,10 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 then rebuild **stage by stage 0 → 5** to the six beats, every pitched example fully labelled,
 every concept lesson 2–4 play-arounds + real music. **Stages 0–5 are all built** (Stage 5:
 2026-09-04). **v1 = PDF Parts I–VI is done** (bar 2 Stage-5 gate tunes — Bach *Air*, Gossec
-*Gavotte* — and a few earlier deferred tunes; see NEXT SESSION). Phase 2 (Stage 6, shifting)
-begins next. Plan each stage with the user (`stage-plans/stage-N.md`).
+*Gavotte* — and a few earlier deferred tunes; see NEXT SESSION). **Stage 8a built out of
+sequence 2026-09-04** (44 lessons — it carries the play-by-ear goal and needs neither Stage 6
+nor 7). Phase 2 continues with **Stage 6 (shifting)**. Plan each stage with the user
+(`stage-plans/stage-N.md`).
 
 | Stage | State |
 |---|---|
@@ -143,6 +146,7 @@ begins next. Plan each stage with the user (`stage-plans/stage-N.md`).
 | **3 · Score symbols** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-3-research.md` + `stage-3.md`, Movements A–J, **46 lessons** (42 skill + 4 tunes). 1 tune deferred (Gossec Gavotte). Details below. |
 | **4 · Scales & musicianship** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-4-research.md` (20 passes) + `stage-4.md` (4a/4b/4c, Movements A–P). **70 lessons** (63 concept + 7 repertoire). Build green (231 pages), lint + tsc clean. Owns the K.216 first-note debt — `the-first-note-of-mozart` (O2). |
 | **5 · The bow** | ✔ **BUILT 2026-09-04 — 38 lessons.** `stage-plans/stage-5-research.md` (15 passes) + `stage-5.md` (5a 9 · 5b 16 · 5c 10 · P 3). Build green (255 pages), lint + tsc + barcheck clean. **Play-by-ear thread runs through the stage** (`PRD.md` §3): `finding-a-tune-by-ear` + the Foundation check's new hear-and-play-back item. **Movement P: 3 of 5 live** — `stage-5-tone-and-strokes` + `tune-conquering-hero` (Handel, martelé) + `tune-bach-musette` (the gate piece). `tune-bach-air` + `tune-gossec-gavotte` still deferred (need clean first-position sources). Then → **Foundation gate** (end of v1). |
+| **8 · Sight-reading & ear training** | ✔ **8a BUILT 2026-09-04 — 44 lessons.** `stage-plans/stage-8-research.md` (22 passes) + `stage-8.md` (Movements A–H). Built out of sequence (user's call) because it carries the play-by-ear goal and needs neither Stage 6 nor 7. Build green (299 pages), barcheck + label-count + tsc + lint clean. **A** reading fluently 8 · **B** the sight-reading method 7 (+ card ladder) · **C** reading across contexts 4 · **D** what a good ear is 5 · **E** the scale-degree gym 6 — *the core* · **F** hearing harmony 5 · **G** taking music down 5 (+ dictation ladder) · **H** playing by ear 4 (+ tune ladder). `DRONE_NOTES` gained B + C. **8b deferred** (positions at sight + the Intermediate check — needs Stage 6–7). Browser spot-check pending. |
 
 **Stage 0–2 audit (`docs/stage-audit.md`, 2026-09-02):** every published lesson checked
 against `PRD.md` §7; 7 thin Stage-1 lessons deepened, 4 partial Stage-1 tunes completed, a
@@ -277,11 +281,24 @@ Research: `docs/stage-plans/stage-4-research.md` (20 passes + a re-verification 
 
 ---
 
-## NEXT SESSION — write stage-8.md → build Stage 8a (+ Stage 6 research)
+## NEXT SESSION — Stage 6 research → browser spot-checks → Stage 5/8 loose ends
 
-**Stages 0–5 are all BUILT.** v1 (PDF Parts I–VI) is essentially complete — 255 pages, the
-Foundation gate is written (`the-foundation-check`), the viral-melody appendix is researched.
+**Stages 0–5 built; Stage 8a built (44 lessons, 299 pages).** v1 (PDF Parts I–VI) complete;
+the Foundation gate is written; the ear gym / play-by-ear stage is live.
 **Read `## Mistakes to avoid` below before writing a single lesson.**
+
+### 0 — Stage 8a follow-ups
+- **Browser spot-check the 44 Stage-8 lessons** (Chrome extension was down this session).
+  Priority: the ear-drill `<NotatedExample reveal="hidden">` chords render + play (esp. the
+  rolled open-string triads in Movement F, and the `M:none` free-metre drills in D/E/G); the
+  6-pill drone row in `PracticeBar` isn't cramped; dense degree-label rows stay legible.
+- The three **ladder pages** (`sight-reading-cards`, `the-scale-degree-drills`,
+  `the-dictation-drills`) and `the-tunes-to-find-by-ear` are **seed sets** — extend with more
+  cards/keys over time.
+- `docs/PDF-MAP.md` Part VII, `docs/CURRICULUM.md` Stage 8, `docs/THE-PATH.md` §6,
+  `docs/NOTATION-COVERAGE.md`: updated to "8a built".
+- **8b** (`reading-a-shift`, `the-grade-4-line`, `the-intermediate-check`, card levels 11+)
+  waits for Stage 6–7.
 
 ### 1 — Stage 5 loose ends (small)
 - **2 remaining gate tunes** (`stage-plans/stage-5.md` §Status): `tune-bach-air` (Bach Air
@@ -315,17 +332,12 @@ Help Falling in Love", C, Stage 5–6) · **Shenandoah** (D, son-filé, Stage 5)
 (A minor, Stage 4–5) · **Shchedryk** ("Carol of the Bells" melody, A minor, fast détaché,
 Stage 5) · the folk pool (Simple Gifts / Ash Grove / Loch Lomond).
 
-### 4 — Phase 2 — **Stage 8a builds NEXT** (user's call, 2026-09-04), in parallel with Stage 6
-**`docs/stage-plans/stage-8-research.md` is DONE** (22 passes). Recommendation it reached:
-**build Stage 8a next** — the **reading-fluency block + the whole ear gym** are
-position-independent, and the ear gym is the operative goal (`PRD.md` §3), so every month it
-runs earlier is a month of ear it gains. Next: write **`stage-8.md`** (confirm the 8a/8b split
-+ the **drone-bar infra dependency** — must hold a drone on any of the 12 tonics — with the
-user), then build 8a. Movement plan in the research doc: 8a ≈ 34 concept lessons + 2
-disposable ladders (sight-reading cards, ear drills), Movements A–H; 8b (positions at sight +
-the Intermediate gate) waits for Stage 6–7.
+### 4 — Phase 2 — **Stage 8a is BUILT** (2026-09-04); Stage 6 is next
+Stage 8a done — 44 lessons, Movements A–H, `stage-plans/stage-8.md` §Status. The ear gym
+(Movement E) + play-by-ear (Movement H) are live; `DRONE_NOTES` now has B + C;
+`abc-barcheck.py` now checks label counts.
 
-Then / alongside: **Stage 6 (Shifting & the higher positions)** — research-first
+Next: **Stage 6 (Shifting & the higher positions)** — research-first
 (`stage-6-research.md`), plan with the user, build. Scope: what a *position* is; shifting
 mechanics (release the thumb, arm leads, guide/ghost notes, same-finger vs new-finger,
 Classical vs Romantic portamento, silent shifts); positions one at a time (**3rd** first, then
@@ -341,10 +353,12 @@ rhythm; `tune-gossec-gavotte` (now a Stage-5 gate tune — see part 1).
 
 ## Mistakes to avoid (learned the hard way, Stages 1–5 — DO NOT repeat)
 
-1. **Bar sums.** Every `<NotatedExample>` with an explicit `M:` and `L:` — the notes in each
-   bar must sum to the metre. abcjs renders a short/long bar **silently**; `npm run build`
-   never catches it. **Run `python tools/abc-barcheck.py` before every commit.** (Stage 4
-   shipped with 8 of these before the audit.)
+1. **Bar sums & label counts.** Every `<NotatedExample>` with an explicit `M:` and `L:` — the
+   notes in each bar must sum to the metre (abcjs renders a short/long bar **silently**). And
+   `labels.length` must equal the notehead count (a chord `[GBd]` = one; a grace note `{c}`
+   and a non-`rhythmOnly` rest = none) — a mismatch means unlabelled notes or labels under the
+   wrong notes. **`python tools/abc-barcheck.py` checks both** — run it before every commit.
+   (Stage 4 shipped with 8 bad bars; the label check found 5 pre-existing mismatches.)
 2. **Octave in first-position scales.** In `K:G` / `K:C` treble, the first-position violin
    octave is `G, A, B, C  D E F G` (with commas / capitals) — **not** `G A B c d e f g` (that's
    an octave up). Getting this wrong makes every fingering label wrong. `G,`=G3, `D`=D4,

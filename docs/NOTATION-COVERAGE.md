@@ -161,6 +161,19 @@ and *planning* vocabulary a real part carries.
 | **editorial vs composer marks** — solid slur (composer) vs dotted/dashed slur (editor); `[ ]` brackets = editorial; "bowings above the staff = composer's, below = editor's" | `reading-a-bowing` (I3); recaps Stage 3 editions | taught |
 | **the détaché family / stroke names** — grand · accented · porté · lancé; martelé wedge/accent; spiccato/sautillé (from dots + tempo + era) | `the-detache-family` (D2), `martele` (E1), `spiccato` (F1), `the-bow-stroke-atlas` (H3) | taught (perform core, recognise rest) |
 
+## Reading fluency & the ear (Stage 8a)
+
+Stage 8 introduces **no new glyphs** — it makes the *reading* of what's already been taught
+fluent, and builds the ear. The one place it revisits notation:
+
+| Symbol / notation | Lesson | Status |
+|---|---|---|
+| **stacked noteheads (double stop) at speed** — read the bottom note as the string level, one moving voice above; the four kinds (open+open, open+stopped, stopped+open readable now; stopped+stopped → Stage 6) | `reading-two-notes-at-once` (C3); recaps Stage 3 `beamed-notes-double-stops-and-vibrato` | taught (reading) |
+| **a lead sheet / chord chart** (chord names above a melody) — what a violinist does with one: melody, root, chord tone, or an arpeggiated sketch | `reading-a-chord-chart` (C4); recaps Stage 4 `reading-a-chord-symbol` | taught |
+| **an accidental in context** — read it as a half-step nudge from a known note, predict its resolution; bar-line reset; courtesy accidentals | `reading-a-chromatic-note` (C2); recaps Stage 1 `accidentals-inside-a-bar` | taught |
+| **the flat-key hand on the page** — a flat in the signature → low-1 hand; F / D minor / B♭ major | `reading-the-flat-keys` (C1) | taught |
+| **scale-degree shorthand `^1`–`^7`** — used throughout the ear gym alongside solfège + sargam | `what-a-good-ear-is` (D1), Movement E | taught |
+
 ## Still to place
 
 - **Overdotting / notes inégales** — Stage 3 `non-legato-was-normal` touches the un-learning

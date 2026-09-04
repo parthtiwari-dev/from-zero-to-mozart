@@ -267,5 +267,42 @@ fucked up something in the research… continue with Stage 8 and then also imple
 
 ## Status
 
-**PLANNED 2026-09-04.** Research: `stage-8-research.md` (22 passes + re-verify). Next: build
-8a — Movements A → H, movement by movement, to the bar above. 8b waits for Stage 6–7.
+**8a BUILT 2026-09-04 — 44 lessons, Movements A–H.** Research: `stage-8-research.md` (22
+passes + re-verify). Build green (299 pages), `tools/abc-barcheck.py` (now also checks
+notehead-vs-label counts) + tsc + lint clean.
+
+- **A — reading fluently (8):** what-fluent-reading-is · reading-notes-fast · the-pre-read ·
+  landmarks-and-guide-notes · reading-the-shape · the-patterns-in-real-music ·
+  your-eye-runs-ahead · read-the-rhythm-first.
+- **B — the sight-reading method (7):** the-never-stop-rule · getting-lost-and-getting-back ·
+  the-four-layer-rescue · taking-more-help-away · how-sight-reading-cards-work ·
+  the-sight-reading-habit · **sight-reading-cards** (ladder page, levels 1–8 seed).
+- **C — reading across contexts (4):** reading-the-flat-keys · reading-a-chromatic-note ·
+  reading-two-notes-at-once (NEXT) · reading-a-chord-chart (NEXT).
+- **D — what a good ear is (5):** what-a-good-ear-is · hearing-it-first ·
+  singing-is-not-optional · finding-home · the-hand-signs (REFERENCE). **`DRONE_NOTES`
+  (`lib/audio.ts`) gained B and C** so the gym can set C-major / B-minor / E-minor tonics;
+  open strings kept at pitch for `tuning.mdx`.
+- **E — the scale-degree gym (6, the core):** the-stable-three (Wave 1) · the-tendency-tones
+  (Wave 2) · all-seven-degrees (Wave 3 + the bounded sargam/Bilawal-thaat bridge) ·
+  degrees-on-the-fingerboard · degrees-in-your-tunes · **the-scale-degree-drills** (ladder).
+- **F — hearing harmony (5):** major-or-minor · hearing-the-bass (NEXT) · home-leaving-pulling
+  · hearing-a-cadence · hearing-the-chord-under-the-tune (NEXT). All drill chords are
+  playable open-string voicings.
+- **G — taking music down (5):** hearing-a-leap · taking-a-rhythm-down · taking-a-tune-down ·
+  the-ear-gym-routine · **the-dictation-drills** (ladder, rhythmic + melodic).
+- **H — playing by ear (4, the payoff):** learning-a-tune-by-ear · play-along ·
+  reading-with-your-ear-on · **the-tunes-to-find-by-ear** (ladder — L1–2 verified course
+  tunes as hidden targets, L3–4 real recordings).
+
+**Also this build:** `tools/abc-barcheck.py` now compares notehead count to `labels.length`
+per `<NotatedExample>` — caught + fixed 5 pre-existing label mismatches
+(`grace-notes-the-long-and-the-short`, `the-other-seventh-chords`,
+`suspended-and-added-tone-chords`, `the-blues-scale`, `tune-conquering-hero`). Softened the
+interval-vs-functional claim in Stage 4 `hearing-the-scale-degrees` to match the corrected
+research.
+
+**Not done / deferred:** browser spot-check of the 44 lessons (Chrome extension down this
+session; build + barcheck + tsc + lint all pass). Ladder pages are seed sets — extend with
+more cards over time. **8b** (`reading-a-shift`, `the-grade-4-line`, `the-intermediate-check`,
+card levels 11+) waits for Stage 6–7.
