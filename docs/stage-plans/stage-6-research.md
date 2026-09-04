@@ -247,6 +247,16 @@ range** without leaving the comfortable low-2/high-2 hand vocabulary, which is w
 concertos (Vivaldi A minor, Seitz, Rieding — all already in `REPERTOIRE.md` Tier 2/3) lean on
 it immediately after 1st position repertoire.
 
+**Correction to the self-check wording (caught while building `third-position`, B1):** on
+three of the four strings (D, A, E), the 3rd-position 1st-finger note shares its letter name
+with an open string **one octave higher** — not "a fourth away," and not a unison. Checked
+directly: D-string's G4 vs. open G3, A-string's D5 vs. open D4, E-string's A5 vs. open A4 —
+each pair is the same letter name, one octave apart, verified against the canonical note-map
+table (Pass 20) rather than restated from memory. The G string is the one outlier — its
+3rd-position note (C) has no open-string letter match at all, which is why the phrasing says
+"several," not "every." This is the accurate form of the self-check; use it, not "a fourth
+away."
+
 <Cite>Violinspiration "How to Play in 3rd Position on the Violin"; Violin Lounge "Violin Third
 Position — all notes, finger chart and exercises"; cross-checked against the D-string
 1-2-3-4 = G-A-B-C 3rd-position pattern independently confirmed in a second search result.</Cite>

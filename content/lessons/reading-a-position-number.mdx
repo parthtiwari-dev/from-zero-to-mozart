@@ -1,0 +1,57 @@
+Stage 3's `finger-string-or-position` already told you a roman numeral over a note can mean a
+**string** or a **position**, decided by context. Now that your hand actually has a 3rd
+position to go to, that fact stops being trivia.
+
+## What `III` is asking you to do
+
+In a real edition, `III` written over a passage — or, in a modern edition, the plain words "3rd
+pos." — is an instruction: **move your hand to 3rd position before this note, and stay there
+until told otherwise.** It's not naming a finger, and it's not naming a string (context tells
+you which meaning is in play — a numeral sitting where fingerings usually go, next to Arabic
+1-2-3-4s, is almost always a position, not a string).
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+"III"C G |]`}
+  labels={[
+    { name: "C · III", string: "G", finger: "1" },
+    { name: "G · III", string: "D", finger: "1" },
+  ]}
+  caption="A roman numeral III printed above the first note of a passage means: shift to 3rd position here, and the fingerings that follow assume you're there. It's the same C and G you just learned in third-position — now with the editorial mark that tells you when to use them."
+  defaultBpm={54}
+/>
+
+The numeral doesn't repeat on every note — it appears once, at the moment the hand needs to
+move, and stays in force until either a new position numeral appears or the music clearly drops
+back to 1st (often marked, sometimes just implied by the notes themselves getting low again).
+
+## Now you can verify you're actually there
+
+This is the part that's new: up to now, `III` was a fact you noted. Now it's a fact you can
+**check** — play the passage, then confirm against the octave self-check from `third-position`
+(D/A/E strings against their matching open string) that your hand really did land in 3rd
+position, not just somewhere approximately close.
+
+## Try it
+
+<TryThis>
+  Find any passage you know that uses a note now reachable in 3rd position — or use the example
+  above. Read the `III`, shift there, play the notes, then check yourself against an open
+  string. That loop — read the numeral, shift, verify by ear — is what "reading a position
+  number" actually means once you can do something with it.
+</TryThis>
+
+## The usual mistake
+
+Reading `III` as "use your 3rd finger" — the exact confusion `what-a-position-is` warned about,
+now showing up in real notation instead of in the abstract. A position numeral tells the hand
+where to live, not which finger to use for any particular note.
+
+<Cite source="Stage 3 'finger-string-or-position'; notat.io 'Violin Family — String Numbering'">
+  Editions vary in how explicitly they mark positions — some use roman numerals liberally,
+  others only at the trickiest spots and leave the rest to the player's judgement. Either way,
+  the numeral is an instruction to the hand, never to a single finger.
+</Cite>

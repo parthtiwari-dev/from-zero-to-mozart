@@ -62,7 +62,7 @@ lesson may restate a position's note map from memory, only copy that table.)*
 
 | # | Slug | Teaches | Cite |
 |---|---|---|---|
-| B1 | `third-position` | the note map (G→C, D→G, A→D, E→A) and *why*: 1st finger lands where 3rd finger sat in 1st position, so the whole hand-frame (low-2/high-2 etc.) transfers unchanged; the open-string self-check (several 3rd-position notes match an open string a 4th away) | research Pass 7 |
+| B1 | `third-position` | the note map (G→C, D→G, A→D, E→A) and *why*: 1st finger lands where 3rd finger sat in 1st position, so the whole hand-frame (low-2/high-2 etc.) transfers unchanged; the open-string self-check (D/A/E-string 3rd-position notes share a letter name with an open string, **one octave higher** — corrected wording, verified during build; G string is the one outlier) | research Pass 7, corrected |
 | B2 | `reading-a-position-number` | the roman numeral `III` over a note, in a real edition, now means something the hand can do — recaps + completes Stage 3's numeral-tangle keystone with 3rd position as the first live example | research Pass 11; Stage 3 `finger-string-or-position` |
 | B3 | `third-position-in-your-tunes` | short 3rd-position fragments in tunes already known from earlier stages, played in the new position — the bridge from drill to music (mirrors Stage 8's `degrees-in-your-tunes` bridge pattern) | course's own verified tunes |
 
