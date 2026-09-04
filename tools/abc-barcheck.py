@@ -8,10 +8,17 @@ catches a bar that doesn't add up. This does. Run it before committing lesson wo
     python tools/abc-barcheck.py                # scan all content/lessons/*.mdx
     python tools/abc-barcheck.py the-modes ...  # scan named slugs only
 
-For each ABC block with an explicit `M:` (metre) and `L:` (unit note length) it
-sums the duration of every bar and reports any that don't equal the metre. It
-skips `M:none` and metreless blocks (free-time examples are legitimate). It is a
-heuristic — a clean run is not a proof, but a dirty run is a real bug.
+Two checks, both heuristic (a clean run is not a proof, a dirty run is a real bug):
+
+1. BAR SUMS — for each ABC block with an explicit `M:` (metre) and `L:` (unit
+   note length) it sums the duration of every bar and reports any that don't
+   equal the metre. Skips `M:none` and metreless blocks (free-time is legit).
+
+2. LABEL COUNTS — `<NotatedExample>` positions one entry of `labels={[...]}`
+   under each notehead, in order. A mismatch means noteheads with no label or
+   labels that never render (RULES.md #1). A chord `[GBd]` is ONE notehead / one
+   label slot; a grace note `{c}` and (outside `rhythmOnly`) a rest get NONE;
+   inside `rhythmOnly` a rest DOES get a counting-syllable slot.
 
 Known limits: handles simple tuplets `(3abc` / `(5abcde` (assumes the usual
 "fit p notes into the time of q" where q is 2 for (3/(5/(6/(7 and 3 for (2/(4);
@@ -98,12 +105,63 @@ def check_block(abc):
             out.append((i + 1, total, metre, bar[:64]))
     return out
 
+def count_noteheads(abc, rhythm_only):
+    """How many label slots this ABC block produces (one per rendered notehead)."""
+    body = "\n".join(
+        ln for ln in abc.splitlines() if not re.match(r"^[A-Za-z]:", ln)
+    )
+    body = re.sub(r"\[[A-Za-z]:[^\]]*\]", "", body)  # inline fields [K:G] [M:3/4]
+    body = re.sub(r'"[^"]*"', "", body)               # chord symbols / annotations
+    body = re.sub(r"![^!]*!", "", body)                # decorations
+    body = re.sub(r"\{[^}]*\}", "", body)              # grace notes — no slot
+    n = 0
+    for m in TOKEN.finditer(body):
+        tok = m.group(0)
+        if not tok:
+            continue
+        core = re.sub(r"(\d+)?(/+\d*)?$", "", tok)     # drop the duration
+        if core.startswith("["):
+            n += 1                                     # chord = one notehead
+        elif re.match(r"^[\^_=]*[A-Ga-g][,']*$", core):
+            n += 1                                     # a pitched note
+        elif core in ("z", "Z", "x") and rhythm_only:
+            n += 1                                     # rest: slot only in rhythmOnly
+    return n
+
+
+def label_blocks(txt):
+    """Yield (abc, rhythm_only, label_count|None) for each <NotatedExample>."""
+    for chunk in txt.split("<NotatedExample")[1:]:
+        am = re.search(r"abc=\{`([^`]*)`\}", chunk)
+        if not am:
+            continue
+        end = chunk.find("/>")
+        scope = chunk[:end] if end != -1 else chunk
+        rhythm_only = bool(re.search(r"\brhythmOnly\b", scope))
+        lm = re.search(r"labels=\{\[", scope)
+        if not lm:
+            yield am.group(1), rhythm_only, None
+            continue
+        i = lm.end() - 1
+        depth, arr = 0, scope[i:]
+        for j in range(i, len(scope)):
+            if scope[j] == "[":
+                depth += 1
+            elif scope[j] == "]":
+                depth -= 1
+                if depth == 0:
+                    arr = scope[i : j + 1]
+                    break
+        yield am.group(1), rhythm_only, len(re.findall(r"\{\s*name\s*:", arr))
+
+
 def main(argv):
     if argv:
         files = [os.path.join(ROOT, s if s.endswith(".mdx") else s + ".mdx") for s in argv]
     else:
         files = sorted(glob.glob(os.path.join(ROOT, "*.mdx")))
     problems = 0
+    mismatches = 0
     for fn in files:
         if not os.path.exists(fn):
             print("MISSING", os.path.basename(fn))
@@ -113,8 +171,22 @@ def main(argv):
             for barno, total, metre, snippet in check_block(m.group(1)):
                 problems += 1
                 print(f"{os.path.basename(fn)}: bar {barno} = {total} beats (metre {metre})  ::  {snippet}")
-    print(f"\n{problems} suspicious bar(s)." if problems else "\nclean.")
-    return 1 if problems else 0
+        for abc, rhythm_only, nlabels in label_blocks(txt):
+            if nlabels is None:
+                continue
+            nheads = count_noteheads(abc, rhythm_only)
+            if nheads != nlabels:
+                mismatches += 1
+                first = next((l for l in abc.splitlines() if l and not re.match(r"^[A-Za-z]:", l)), "")
+                print(f"{os.path.basename(fn)}: {nheads} noteheads vs {nlabels} labels"
+                      f"{' (rhythmOnly)' if rhythm_only else ''}  ::  {first[:64]}")
+    tally = []
+    if problems:
+        tally.append(f"{problems} suspicious bar(s)")
+    if mismatches:
+        tally.append(f"{mismatches} label-count mismatch(es)")
+    print("\n" + ("; ".join(tally) + "." if tally else "clean."))
+    return 1 if (problems or mismatches) else 0
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))
