@@ -513,6 +513,13 @@ export const LESSONS: Lesson[] = [
   { slug: "fourth-position", title: "Fourth position", stage: 6, track: "left-hand", tag: "NEXT", published: P },
   { slug: "the-full-fingerboard-map", title: "The full fingerboard map", stage: 6, track: "reading", tag: "REFERENCE", published: P },
 
+  // Movement E — double stops, stopped
+  { slug: "double-stops-both-fingers-down", title: "Double stops, both fingers down", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "thirds", title: "Thirds", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "sixths", title: "Sixths", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "octaves", title: "Octaves", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "fingered-octaves-and-tenths", title: "Fingered octaves and tenths", stage: 6, track: "left-hand", tag: "REFERENCE", published: P },
+
   // ── Stage 8 — Sight-reading & ear training ─────────────────────
   //   Plan: docs/stage-plans/stage-8.md (research: stage-8-research.md, 22 passes).
   //   Built out of sequence (before Stage 6/7) — it carries the play-by-ear goal

@@ -376,6 +376,14 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "second-position": () => import("./second-position.mdx"),
   "fourth-position": () => import("./fourth-position.mdx"),
   "the-full-fingerboard-map": () => import("./the-full-fingerboard-map.mdx"),
+  // Movement E — double stops, stopped
+  "double-stops-both-fingers-down": () =>
+    import("./double-stops-both-fingers-down.mdx"),
+  thirds: () => import("./thirds.mdx"),
+  sixths: () => import("./sixths.mdx"),
+  octaves: () => import("./octaves.mdx"),
+  "fingered-octaves-and-tenths": () =>
+    import("./fingered-octaves-and-tenths.mdx"),
 
   // Stage 8 — Sight-reading & ear training
   // 8a · Movement A — reading fluently

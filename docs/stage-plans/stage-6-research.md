@@ -362,15 +362,25 @@ ladder, confirmed by two independent sources in near-identical language:
    once, in tune with each other, not just each in tune with an open string.
 
 **Specific finger patterns for the common intervals** (all in first position to start, then
-transferable to 3rd/5th once those exist):
+transferable to 3rd/5th once those exist). **Correction, checked while building Movement E:**
+the source material's own wording here ("1st with 3rd" for thirds, "1st with 4th" for sixths)
+turned out to describe the finger *numbers* without being precise about which string carries
+which — read literally it produces the wrong interval. Verified instead by direct semitone
+computation across every 1st-position finger combination on an adjacent-string pair (G+D), the
+same kind of mechanical check Pass 20 used for the position table:
 
-- **Thirds:** typically 1st finger on the lower string with 3rd finger on the string above (or
-  2nd with 4th) — a "skip one finger" shape. Major vs minor 3rd changes *which* low/high
-  finger variant you use on each string, not the finger numbers themselves.
-- **Sixths:** typically 1st finger on the lower string with 4th finger on the string above (or
-  the reverse spacing) — a wider stretch than a 3rd, needing more hand flexibility.
+- **Thirds:** the **higher-numbered finger sits on the lower string**, paired with a
+  lower-numbered finger on the string above — e.g. G string 3rd finger (C) + D string 1st
+  finger (E) = a major 3rd; G string 4th finger (D) + D string low-2nd finger (F) = a minor
+  3rd. Major vs minor 3rd changes *which* low/high finger variant you use, exactly as
+  originally claimed — the correction is about which string gets the higher finger.
+- **Sixths:** a wider stretch, e.g. G string 1st finger (A) + D string low-2nd finger (F) = a
+  minor 6th; the same G-string 1st finger + D string high-2nd finger (F♯) = a major 6th — again,
+  major/minor is a low/high choice on the upper string, not a different finger pair.
 - **Octaves:** 1st and 4th finger, one string apart, in a fixed "frame" shape that moves as a
-  unit — the hand carries the interval rather than each finger being placed independently.
+  unit — the hand carries the interval rather than each finger being placed independently. This
+  one checks out exactly as originally stated: G string 1st finger (A) + D string 4th finger
+  (A) = a clean octave.
 
 **Intonation reference:** double stops are tuned "by feel and by wiggle" against each other,
 not purely by finding each note in isolation — the source material is explicit that you
