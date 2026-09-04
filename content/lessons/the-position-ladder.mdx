@@ -1,0 +1,66 @@
+Stage 8's `taking-more-help-away` taught you a five-rung scaffold (A: everything labelled → E:
+a clean score) and told you to re-run it every time the material jumps to something new. A new
+**position** is exactly that kind of jump — and it gets its own trip up the ladder, same as a
+new key did.
+
+## The ladder, aimed at a position
+
+| Stage | What the page shows | What you supply |
+|---|---|---|
+| **A** | note name + string + finger, fully labelled | nothing — just find the position and play |
+| **B** | notation only, labels hidden, tap to reveal | working out the note, string and finger yourself |
+| **C** | a passage mixing this position with 1st position | recognising *when* to shift, not just where the notes are |
+| **D** | a passage with no numeral cue at all | judging from the notes alone that a shift is needed |
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+C G d a |]`}
+  labels={[
+    { name: "C · 3rd pos", string: "G", finger: "1" },
+    { name: "G · 3rd pos", string: "D", finger: "1" },
+    { name: "D · 3rd pos", string: "A", finger: "1" },
+    { name: "A · 3rd pos", string: "E", finger: "1" },
+  ]}
+  caption="3rd position at Stage A — every label showing, straight after you've just learned it. This is where you start with any brand-new position."
+  defaultBpm={54}
+/>
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+E B ^f ^c' |]`}
+  labels={[
+    { name: "E · 5th pos", string: "G", finger: "1" },
+    { name: "B · 5th pos", string: "D", finger: "1" },
+    { name: "F♯ · 5th pos", string: "A", finger: "1" },
+    { name: "C♯ · 5th pos", string: "E", finger: "1" },
+  ]}
+  caption="5th position at Stage B: labels hidden. Find the thumb-touch landmark, work out each note, then reveal to check. You might be at Stage D in 3rd position and Stage A in 5th on the very same afternoon — that's normal, not a failure."
+  defaultBpm={50}
+/>
+
+## Try it
+
+<TryThis>
+  Pick whichever position you learned most recently. Play its note map with the labels showing
+  once, then again with them hidden, working each note out before you check. Once that's easy,
+  find a moment in a piece — or a fragment from `third-position-in-your-tunes` — where you have
+  to decide *whether* to shift there at all, with no numeral telling you.
+</TryThis>
+
+## The usual mistake
+
+Assuming a position you know well in isolation is automatically ready for Stage D. Reading a
+note map cold is not the same skill as recognising, mid-phrase, that a shift is the right move —
+that judgement is its own rung, and it's usually the last one to feel solid.
+
+<Cite source="Stage 8 'taking-more-help-away' (the same scaffold, a new axis); the original PDF course's progressive-scaffold-removal principle">
+  The scaffold works the same way for a key, a rhythm, or a position — the axis changes, the
+  principle (help removed only once it's no longer needed) doesn't.
+</Cite>

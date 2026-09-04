@@ -503,6 +503,11 @@ export const LESSONS: Lesson[] = [
   { slug: "reading-a-position-number", title: "Reading a position number", stage: 6, track: "reading", tag: "NOW", published: P },
   { slug: "third-position-in-your-tunes", title: "Third position in your tunes", stage: 6, track: "left-hand", tag: "NOW", published: P },
 
+  // Movement C — 5th position
+  { slug: "fifth-position", title: "Fifth position", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "moving-between-first-third-and-fifth", title: "Moving between 1st, 3rd, and 5th", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "the-position-ladder", title: "The position ladder", stage: 6, track: "reading", tag: "NOW", published: P },
+
   // ── Stage 8 — Sight-reading & ear training ─────────────────────
   //   Plan: docs/stage-plans/stage-8.md (research: stage-8-research.md, 22 passes).
   //   Built out of sequence (before Stage 6/7) — it carries the play-by-ear goal

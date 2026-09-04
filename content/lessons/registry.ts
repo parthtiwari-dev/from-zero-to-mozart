@@ -367,6 +367,11 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "reading-a-position-number": () => import("./reading-a-position-number.mdx"),
   "third-position-in-your-tunes": () =>
     import("./third-position-in-your-tunes.mdx"),
+  // Movement C — 5th position
+  "fifth-position": () => import("./fifth-position.mdx"),
+  "moving-between-first-third-and-fifth": () =>
+    import("./moving-between-first-third-and-fifth.mdx"),
+  "the-position-ladder": () => import("./the-position-ladder.mdx"),
 
   // Stage 8 — Sight-reading & ear training
   // 8a · Movement A — reading fluently
