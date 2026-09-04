@@ -19,18 +19,19 @@ speeds. Hear the loop and you can predict where the harmony is going.
 <NotatedExample
   reveal="hidden"
   abc={`X:1
-M:none
+M:C
 L:1/4
 K:G clef=treble
-[G,DB]4 z2 [CGe]4 z2 [DA^F]4 z2 [G,DB]4 |]`}
+G, B, D z | C E G z | D F A z | G, B, D z |]`}
   labels={[
-    { name: "I — home", string: "G, D, A", finger: "0, 0, 1" },
-    { name: "IV — leaving", string: "G, D, E", finger: "3, 3, 0" },
-    { name: "V — pulling home", string: "D, A, E", finger: "0, 0, 1" },
-    { name: "I — home", string: "G, D, A", finger: "0, 0, 1" },
+    { name: "I", string: "G", finger: "0" }, { name: "I", string: "G", finger: "high 2" }, { name: "I — home", string: "D", finger: "0" },
+    { name: "IV", string: "G", finger: "3" }, { name: "IV", string: "D", finger: "1" }, { name: "IV — leaving", string: "D", finger: "3" },
+    { name: "V", string: "D", finger: "0" }, { name: "V", string: "D", finger: "high 2" }, { name: "V — pulling home", string: "A", finger: "0" },
+    { name: "I", string: "G", finger: "0" }, { name: "I", string: "G", finger: "high 2" }, { name: "I — home", string: "D", finger: "0" },
   ]}
-  caption="G major. Four chords: I, then IV, then V, then I. Name each one's JOB — home, leaving, or pulling home — before revealing. Feel how the third chord strains and the fourth releases."
-  defaultBpm={52}
+  caption="G major, four broken chords: I, then IV, then V, then I. Name each one's JOB — home, leaving, or pulling home — before revealing. Feel how the third strains and the fourth releases."
+  followPlayback
+  defaultBpm={60}
 />
 
 ## Try it

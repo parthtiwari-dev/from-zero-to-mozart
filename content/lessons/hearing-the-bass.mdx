@@ -21,17 +21,24 @@ Why it matters:
 <NotatedExample
   reveal="hidden"
   abc={`X:1
-M:none
+M:C
 L:1/4
-K:C clef=treble
-[G,DB]4 z2 [DA^F]4 z2 [CGe]4 |]`}
+K:G clef=treble
+G, B, D z | D F A z | C E G z |]`}
   labels={[
-    { name: "bass: G", string: "G, D, A", finger: "0, 0, 1" },
-    { name: "bass: D", string: "D, A, E", finger: "0, 0, 1" },
-    { name: "bass: C", string: "G, D, E", finger: "3, 3, 0" },
+    { name: "G · bass", string: "G", finger: "0" },
+    { name: "B", string: "G", finger: "high 2" },
+    { name: "D", string: "D", finger: "0" },
+    { name: "D · bass", string: "D", finger: "0" },
+    { name: "F♯", string: "D", finger: "high 2" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "C · bass", string: "G", finger: "3" },
+    { name: "E", string: "D", finger: "1" },
+    { name: "G", string: "D", finger: "3" },
   ]}
-  caption="Three rolled chords. Ignore the top; hum the LOWEST note of each, then find it on the violin. Reveal to check. (Basses: G, D, C.)"
-  defaultBpm={54}
+  caption="Three chords, each broken low-to-high (G, then D, then C). Ignore the top notes; hum the LOWEST note of each — the bass — then find it on the violin. Reveal to check. (Basses: G, D, C.)"
+  followPlayback
+  defaultBpm={60}
 />
 
 ## Try it
