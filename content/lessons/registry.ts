@@ -385,4 +385,12 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "singing-is-not-optional": () => import("./singing-is-not-optional.mdx"),
   "finding-home": () => import("./finding-home.mdx"),
   "the-hand-signs": () => import("./the-hand-signs.mdx"),
+
+  // 8a · Movement E — the scale-degree gym
+  "the-stable-three": () => import("./the-stable-three.mdx"),
+  "the-tendency-tones": () => import("./the-tendency-tones.mdx"),
+  "all-seven-degrees": () => import("./all-seven-degrees.mdx"),
+  "degrees-on-the-fingerboard": () => import("./degrees-on-the-fingerboard.mdx"),
+  "degrees-in-your-tunes": () => import("./degrees-in-your-tunes.mdx"),
+  "the-scale-degree-drills": () => import("./the-scale-degree-drills.mdx"),
 };

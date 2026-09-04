@@ -522,12 +522,12 @@ export const LESSONS: Lesson[] = [
   { slug: "finding-home", title: "Finding home", stage: 8, track: "ear", tag: "NOW", published: P },
   { slug: "the-hand-signs", title: "The hand signs", stage: 8, track: "ear", tag: "REFERENCE", published: P },
   // 8a · Movement E — the scale-degree gym (the core)
-  { slug: "the-stable-three", title: "The stable three", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "the-tendency-tones", title: "The tendency tones", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "all-seven-degrees", title: "All seven degrees", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "degrees-on-the-fingerboard", title: "Degrees on the fingerboard", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "degrees-in-your-tunes", title: "Degrees in your tunes", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "the-scale-degree-drills", title: "The scale-degree drills", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "the-stable-three", title: "The stable three", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "the-tendency-tones", title: "The tendency tones", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "all-seven-degrees", title: "All seven degrees", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "degrees-on-the-fingerboard", title: "Degrees on the fingerboard", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "degrees-in-your-tunes", title: "Degrees in your tunes", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "the-scale-degree-drills", title: "The scale-degree drills", stage: 8, track: "ear", tag: "NOW", published: P },
   // 8a · Movement F — hearing harmony
   { slug: "major-or-minor", title: "Major or minor?", stage: 8, track: "ear", tag: "NOW" },
   { slug: "hearing-the-bass", title: "Hearing the bass", stage: 8, track: "ear", tag: "NEXT" },
