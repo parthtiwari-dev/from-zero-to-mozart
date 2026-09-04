@@ -566,11 +566,13 @@ number that's never actually been checked against a real source).
    checks bar sums mechanically, this is a mechanical check for position tables).
 
 **Corrected table** (1st finger, all positions, all strings — now cross-verified by 3
-independent sources plus the P5-consistency proof):
+independent sources plus the P5-consistency proof). The half-position row is the one row
+derived by definition (a semitone below 1st position) rather than read off a source — it was
+not exempted from the check: G♯→D♯ = 7 semitones, D♯→A♯ = 7, A♯→F = 7. It passes.
 
 | Position | G string | D string | A string | E string |
 |---|---|---|---|---|
-| Half | G♯/A♭ | D♯/E♭ | A♯/B♭ | F♮ |
+| Half | G♯/A♭ | D♯/E♭ | A♯/B♭ | F♮ (no enharmonic partner worth naming — a semitone above E is just F) |
 | 1st | A | E | B | F♯ |
 | 2nd | B♭ | F | C | G |
 | 3rd | C | G | D | A |
