@@ -400,4 +400,11 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "home-leaving-pulling": () => import("./home-leaving-pulling.mdx"),
   "hearing-a-cadence": () => import("./hearing-a-cadence.mdx"),
   "hearing-the-chord-under-the-tune": () => import("./hearing-the-chord-under-the-tune.mdx"),
+
+  // 8a · Movement G — taking music down
+  "hearing-a-leap": () => import("./hearing-a-leap.mdx"),
+  "taking-a-rhythm-down": () => import("./taking-a-rhythm-down.mdx"),
+  "taking-a-tune-down": () => import("./taking-a-tune-down.mdx"),
+  "the-ear-gym-routine": () => import("./the-ear-gym-routine.mdx"),
+  "the-dictation-drills": () => import("./the-dictation-drills.mdx"),
 };

@@ -535,11 +535,11 @@ export const LESSONS: Lesson[] = [
   { slug: "hearing-a-cadence", title: "Hearing a cadence", stage: 8, track: "ear", tag: "NOW", published: P },
   { slug: "hearing-the-chord-under-the-tune", title: "Hearing the chord under the tune", stage: 8, track: "ear", tag: "NEXT", published: P },
   // 8a · Movement G — taking music down
-  { slug: "hearing-a-leap", title: "Hearing a leap", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "taking-a-rhythm-down", title: "Taking a rhythm down", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "taking-a-tune-down", title: "Taking a tune down", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "the-ear-gym-routine", title: "The ear-gym routine", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "the-dictation-drills", title: "The dictation drills", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "hearing-a-leap", title: "Hearing a leap", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "taking-a-rhythm-down", title: "Taking a rhythm down", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "taking-a-tune-down", title: "Taking a tune down", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "the-ear-gym-routine", title: "The ear-gym routine", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "the-dictation-drills", title: "The dictation drills", stage: 8, track: "ear", tag: "NOW", published: P },
   // 8a · Movement H — playing by ear (the payoff)
   { slug: "learning-a-tune-by-ear", title: "Learning a tune by ear", stage: 8, track: "ear", tag: "NOW" },
   { slug: "play-along", title: "Play along", stage: 8, track: "ear", tag: "NOW" },
