@@ -1144,3 +1144,368 @@ and the scale routine (Stage 4).
   notation hidden, reveal to check).
 - **`play-along`** — the last step: playing *with* a recording, matching pitch and time, the
   ultimate "keep going" and the ultimate ear check.
+
+---
+
+## Pass 19 — The ear gym as a daily habit, and the tools
+
+*(research batch 19: 2026-09-04 — musical-u "An Approach to Ear Training" (practice routine);
+the Functional Ear Trainer (Alain Benbassat) / tonedear / teoria / EarMaster; Karpinski on
+distributed practice; the drone bar; Stage 4/5 practice-routine lessons)*
+
+### What a daily ear session looks like
+
+**10 minutes, every practice session** — separate from, and ideally before, the instrument
+work (a tired ear judges badly). A rotating menu:
+
+- **2 min — sing & match** (Pass 12): drone plays, hum it, play it, check. Sing the tonic
+  from a random note.
+- **3 min — the scale-degree gym** (Pass 13): drone in a key; random degrees; name/sing/play;
+  whichever wave the reader is on.
+- **2 min — one harmony drill** (Pass 15): major/minor, or a cadence, or chord-under-a-tune.
+- **2 min — one dictation** (Pass 16/17): a 2-bar phrase or rhythm; write the degrees; check.
+- **~once every few days — a new tune by ear** (Pass 18), longer.
+
+**Distributed, not massed** — a little every day beats an hour once a week; the ear consolidates
+overnight (Karpinski). And **always sing** — a silent ear session isn't one.
+
+### Tools
+
+- **The drone bar** — our own, always present. It *is* the ear gym's home base (set the
+  tonic, and every drill runs against it). Make sure it can hold a drone on any of the 12
+  tonics, not just the open strings.
+- **The metronome bar** — for the rhythm dictation and the "keep the pulse while you figure
+  out the pitch" work.
+- **External, named honestly** (REFERENCE aside): the **Functional Ear Trainer** (the
+  Benbassat method — free, and it is *exactly* the Pass 13 drill), **tonedear.com**,
+  **teoria.com**, **EarMaster**, the **Complete Ear Trainer** app. Endless drilling material.
+  Our lessons teach the *method and the framing*; the apps sustain the *reps*. This is the
+  same division of labour as the sight-reading apps (Pass 10).
+- **A piano / keyboard app** — useful for playing yourself a target to sing back, or checking
+  a dictation, without the violin's intonation getting in the way.
+
+### Build
+
+- **`the-ear-gym-routine`** — the 10-minute menu, "distributed not massed", "always sing", the
+  tools. Mirrors `the-sight-reading-habit` (Pass 10) and the Stage-4/5 practice lessons — same
+  spine, third application.
+
+---
+
+## Pass 20 — How reading and the ear feed each other
+
+*(research batch 20: 2026-09-04 — makemusic "Taking the Pain Out of Sight Reading"; Karpinski
+on the reading/aural link; the audiation material (Pass 12); Gordon "sound before symbol";
+Kodály sequence "sound → sign → theory")*
+
+### The two halves of this stage are one skill
+
+They are usually taught in separate rooms; they shouldn't be:
+
+- **Read with the ear on.** The pre-read (Pass 2) ends with "audiate beat 1" — but a fluent
+  reader audiates the *whole line* as the eyes cross it. You hear the tune in your head a
+  half-second before you play it, and your fingers are then chasing a sound you already know,
+  not decoding symbols cold. This is why functional reading (Pass 3 — "up a step, skip down")
+  is powerful: a scale-degree shape is *both* a visual pattern and an audiated sound.
+- **Play by ear teaches you what the notation is *for*.** Once you've worked out a tune's
+  degrees by ear (Pass 18) and *then* seen it written, the notation stops being arbitrary —
+  "oh, *that* squiggle is the ^7→^1 I heard." The Kodály / Gordon principle: **sound before
+  sign.** The reader has been doing sign-first for Stages 1–3; Stage 8 closes the loop by
+  doing sound-first too, and letting them meet.
+- **Sight-singing is the bridge.** Sing a written line (in degrees / solfège) *before* playing
+  it — it forces you to audiate the page, and it's the single exercise that trains reading and
+  ear at once. Every conservatoire aural course is built on it.
+
+### The combined drill
+
+**Sight-sing, then sight-play.** Take an unseen card: pre-read it, **sing it through in degree
+numbers** (no violin), *then* play it. The singing is the audiation made audible; the playing
+is then almost a formality. Do this with the lower-level cards.
+
+### Build
+
+- **`reading-with-your-ear-on`** — audiate the line as you read; "sound before sign"; the
+  sight-sing-then-sight-play drill. One lesson that explicitly welds the two halves of the
+  stage together — probably the last concept lesson before the gate.
+
+---
+
+## Pass 21 — The Intermediate gate
+
+*(research batch 21: 2026-09-04 — `PRD.md` §4; `THE-PATH.md` §6; ABRSM/RCM Grade 4 sight-reading
++ aural test specs; the Stage 3 `the-score-language-check` / Stage 4 `the-musicianship-check`
+/ Stage 5 `the-foundation-check` pattern)*
+
+### What the gate tests (`PRD.md` §4)
+
+The Intermediate gate closes the whole intermediate half (Stages 6–8). Its items:
+
+1. **shift cleanly to 3rd** (touch 2nd/4th/5th) — *Stage 6.*
+2. **vibrate on a sustained note** — *Stage 7.*
+3. **sight-read a Grade-4-ish line cold** — *Stage 8.* First-to-third position, a real key
+   (up to ~3 sharps/flats), real rhythm (dotted, 6/8, a triplet), real marks (dynamics,
+   articulation, a bowing). One look, one go, steady pulse, ≥ 8/10 pitches, no panic pause.
+4. **take dictation of a short phrase** — *Stage 8.* A 2–4 bar diatonic phrase; write the
+   degrees / play it back accurately.
+5. **learn a song by ear from a recording** — *Stage 8, the headline.* A short unfamiliar
+   tune; find the key, work out the melody, play it along with the track. (This is the
+   Foundation gate's "play back a 4-bar tune" item, raised.)
+6. **play student concertos and Baroque sonatas musically** — *Stages 6–9 repertoire.*
+
+### The check lesson
+
+`the-intermediate-check` — a self-audit (not a gate — `RULES.md` #4), mould of the three
+prior check lessons. Lists the six items; provides **the gate sight-reading card** (an
+authored Grade-4-ish line) and **the gate dictation** (a phrase to take down); points at a
+"learn this by ear" tune. Honest that this is the threshold to **the giants** — Bach, Vivaldi,
+Kreisler, and the K.216 module.
+
+### Build
+
+- **`the-intermediate-check`** — in 8b, at the very end, after Stage 6–7 exist.
+
+---
+
+## Pass 22 — Re-verification: gaps, contradictions, the sequencing decision
+
+*(research batch 22: 2026-09-04 — re-read passes 1–21 against `PRD.md` §3/§4/§6, the
+inherited-lessons table, `CLAUDE.md` Mistakes to avoid, `CONTENT-STANDARD.md`, the campaign
+order)*
+
+### Gap 1 — solfège hand signs (Curwen/Kodály): include, lightly
+
+The physical hand signs for do-re-mi (Curwen, adopted by Kodály) are a genuine aid — they give
+each degree a *kinaesthetic* anchor to go with the aural one, and they're used precisely for
+functional ear training. But they're a **REFERENCE aside**, not a spine: one short lesson
+`the-hand-signs` showing the seven signs and "use them if they help you feel the degrees;
+skip them if not." The user's sargam counting already gives him a syllable system; the signs
+are an optional extra body-cue.
+
+### Gap 2 — the drone bar's capability
+
+Passes 12/13/15/19 all assume the drone can sound **any of the 12 tonics** and hold it. If the
+current drone bar only does the four open strings (likely), that's a **real infra dependency**
+for Stage 8 — flag it for the plan: the drone needs a full chromatic tonic selector (a small,
+contained change — `RULES.md` #17 — not a new component, an extension of one).
+
+### Gap 3 — "which note did the violin play?" (the CURRICULUM's own bullet)
+
+Absolute single-note ID against no reference is *not* worth training (it's near-perfect-pitch).
+But **"the violin plays a note; sing it / find it"** *with* the drone or an open string as
+reference IS the pitch-matching drill (Pass 12) — already covered. Reframe the CURRICULUM
+bullet as "match it / place it", not "name it cold."
+
+### Gap 4 — reading *chords and lead-sheet symbols* (the user's phrasing: "any notes and chords and shit")
+
+The user asked specifically about reading **chords**. Stage 4 built `reading-a-chord-symbol`
+(C, Cm, C7, Cmaj7, C/E…) and the roman-numeral analysis. Stage 8 should have one reading
+lesson `reading-a-chord-chart` — a lead sheet / a chord chart above a melody, how a violinist
+uses it (play the melody; know the harmony; be able to play a chord tone or a bass note if
+asked; improvise an arpeggiated accompaniment). Ties `hearing-the-chord-under-the-tune`
+(Pass 15) — read it *and* hear it. Add to the reading block.
+
+### Contradiction check — none material
+
+- **"Rhythm first" (Pass 4/16/17) vs "the pre-read scans everything" (Pass 2)** — no conflict:
+  the pre-read *flags* the rhythm traps; "rhythm first" is what you do with the flagged bar.
+- **Interval method (Pass 14) vs "functional beats interval" (Pass 11)** — resolved in-text:
+  intervals are taught *as two degrees*, as a backup, lean.
+- **"Don't replay a card" (Pass 8) vs "practise a little every day" (Pass 10/19)** — no
+  conflict: you don't replay *the same* card; you read a *new* one daily.
+
+### The sequencing decision (for the plan, with the user)
+
+The research confirms the split:
+
+- **Stage 8a — Reading fluency + the ear foundation** (Passes 1–20 minus the position-dependent
+  bits): **position-independent, builds next, in parallel with Stage 6.** The ear gym
+  especially should start ASAP — it's the user's #1 goal and it takes months to mature.
+  Roughly: the reading-fluency block (~10) + the sight-reading method + the low card levels
+  (1–10) + the whole ear gym (~18). **~35 lessons + the card/drill ladders.**
+- **Stage 8b — Sight-reading to the gate** (the position-dependent bits): the card ladder's
+  levels 11+, reading positions at sight, the Grade-4 gate line, `the-intermediate-check`.
+  **Closes after Stage 6–7.** ~5 lessons + the upper ladder.
+
+**Recommendation:** build **Stage 8a next** (before or alongside Stage 6 research), because the
+ear gym is the operative goal and every month it runs earlier is a month of ear it gets. Then
+Stage 6 (shifting), Stage 7 (vibrato), then Stage 8b + the Intermediate gate.
+
+---
+
+## The movement plan (drafted 2026-09-04)
+
+One `stage: 8`, split **8a / 8b** on `/learn` (like 3a/3b, 4a/4b/4c, 5a/5b/5c). Tags: **N**OW
+/ **X**=NEXT / **L**ATER / **R**EFERENCE.
+
+### 8a — Reading fluently & the ear from the ground up *(builds next; position-independent)*
+
+**Movement A — Reading fluently (`reading` track, ~7)**
+| Slug | Teaches |
+|---|---|
+| `what-fluent-reading-is` | patterns not notes; chunking; the eye runs ahead; "sight-reading is its own skill, practised easy and daily" |
+| `the-pre-read` | the 9-step scan (clef → key → time → range → accidentals → rhythm → bows → roadmap → audiate beat 1); S-T-A-R-S as the compact version |
+| `landmarks-and-guide-notes` | anchor notes, read *from* them (consolidates Stage 1) |
+| `reading-the-shape` | step / skip / leap, contour, "a string on the page" (extends Stage 1 `steps-and-skips`) |
+| `the-patterns-in-real-music` | scale fragment · broken chord · turn · **the sequence** · the leap · repeated note — each hunted in known tunes |
+| `your-eye-runs-ahead` | the eye-hand span; read the gaps; pre-scan the hard bar; the card-over-the-note drill |
+| `read-the-rhythm-first` | clap–tap–play, subdivide, the rhythm skeleton; **names the tabla head start** |
+
+**Movement B — Sight-reading as a trained skill (`reading` track, ~6)**
+| Slug | Teaches |
+|---|---|
+| `the-never-stop-rule` | "once you start you don't stop"; the pulse is the thread |
+| `getting-lost-and-getting-back` | the downbeat lifeline; regrouping points; strong-beat priority; skilled faking |
+| `the-four-layer-rescue` | pitch / rhythm / left hand / bow — isolate the break, don't replay |
+| `taking-more-help-away` | the A→E scaffold ladder in full; re-run it each level-up |
+| `how-sight-reading-cards-work` | the ladder, the format, the pass condition, "one a day, always new, always easier" |
+| `the-sight-reading-habit` | the 5-min routine; the tools (drone/metronome bar, the card ladder, the apps, duet reading) |
+| **the card ladder** (levels 1–10) | a page of authored ABC cards, `reveal="hidden"`, disposable — *material, not lessons* |
+
+**Movement C — Reading across contexts (`reading` track, ~4)**
+| Slug | Teaches |
+|---|---|
+| `reading-the-flat-keys` | the low-1 hand; F major / D minor / B♭ major; how flats *feel* vs sharps |
+| `reading-a-chromatic-note` | an accidental leans → predict its resolution; the common shapes |
+| `reading-two-notes-at-once` | the four double-stop kinds (first 3 readable now); bottom = string level |
+| `reading-a-chord-chart` | a lead sheet above a melody; how a violinist uses one (melody + know the harmony + play a chord tone / bass / arpeggiated accompaniment) — ties Pass 15 |
+
+**Movement D — What a good ear is (`ear` track, ~4)**
+| Slug | Teaches |
+|---|---|
+| `what-a-good-ear-is` | the skill stack; "not perfect pitch — *functional* pitch"; **"you already have this — it's sargam"**; the order of the gym |
+| `hearing-it-first` | audiation (Gordon); the imagine → sing → check loop |
+| `singing-is-not-optional` | the voice as the test instrument; the "I can't sing" answer; sing-then-play-then-sing-along + the matching drills |
+| `finding-home` | set the key (drone or I–IV–V–I); feel the tonic; the "is this home?" drill |
+| `the-hand-signs` (R) | Curwen/Kodály signs — an optional kinaesthetic anchor |
+
+**Movement E — The scale-degree gym (`ear` track, ~5 — the core)**
+| Slug | Teaches |
+|---|---|
+| `the-stable-three` | ^1/^3/^5 as handbells — the tonic triad rests |
+| `the-tendency-tones` | ^2/^4/^6/^7 by their pull (^7→^1, ^4→^3, ^2→^1, ^6→^5) |
+| `all-seven-degrees` | the full drill; the **sargam bridge table** (Bilawal-thaat alignment, cited) |
+| `degrees-on-the-fingerboard` | hear a degree → *play* it; the reverse map (ties Stage 5 K1) |
+| `degrees-in-your-tunes` | name the degrees of Ode to Joy / Twinkle / a folk tune by ear |
+
+**Movement F — Hearing harmony (`ear` track, ~5)**
+| Slug | Teaches |
+|---|---|
+| `major-or-minor` | the quality drill; then dim/aug; sing the 3rd |
+| `hearing-the-bass` | hum the bottom note of a chord |
+| `home-leaving-pulling` | T / PD / D by ear (I·vi / IV·ii / V·vii°·V7) |
+| `hearing-a-cadence` | the four endings — perfect / plagal / half / deceptive (**gate skill**) |
+| `hearing-the-chord-under-the-tune` | bar-by-bar, which chord fits (ties Stage 4 H2; read+hear with `reading-a-chord-chart`) |
+
+**Movement G — Taking music down (`ear` track, ~4)**
+| Slug | Teaches |
+|---|---|
+| `hearing-a-leap` | interval = two degrees; ascending/descending/harmonic; anchor songs as backup |
+| `taking-a-rhythm-down` | rhythmic dictation, L1–L5 — **"the half you came in good at"** (confidence, placed early) |
+| `taking-a-tune-down` | melodic dictation: rhythm → contour → degrees; sing it back before you play it; L1–L5 |
+| `the-ear-gym-routine` | the 10-min daily menu; distributed not massed; always sing; the tools |
+
+**Movement H — Playing by ear (`ear` track, ~3 — the payoff)**
+| Slug | Teaches |
+|---|---|
+| `learning-a-tune-by-ear` | the 6-step method (listen whole → rhythm → home → degree-by-degree → guess-hear-fix → chunk & join); L1–L4 |
+| `play-along` | playing *with* a recording — matching pitch and time |
+| `reading-with-your-ear-on` | audiate the line as you read; **sound before sign**; sight-sing then sight-play — welds the two halves together |
+
+### 8b — Sight-reading to the gate *(after Stage 6–7)*
+
+- `reading-a-shift` · `reading-position-numbers` (recap Stage 3 G3 / Stage 5 I1) · the card
+  ladder **levels 11+** (positions, key changes, longer lines) · `the-grade-4-line` (a worked
+  hard card) · **`the-intermediate-check`** (the self-audit + the gate card + the gate
+  dictation + a "learn this by ear" tune).
+
+**Count:** 8a ≈ **34 concept lessons + 2 disposable ladders (cards + drills)**; 8b ≈ 5 + the
+upper ladder. Total in the Stage-4/5 range, weighted to the ear per `PRD.md` §6.1.
+
+### Merge candidates (for the `stage-8.md` plan to weigh with the user)
+
+- `hearing-it-first` + `singing-is-not-optional` could be one `the-ear-is-your-voice` lesson.
+- `hearing-the-bass` could fold into `major-or-minor` (both are "hear one note of the chord").
+- `hearing-a-leap` (intervals) could fold into `all-seven-degrees` — the research says
+  intervals fall out of degrees anyway. Keeping it separate only if the user wants the
+  interval vocabulary named explicitly.
+- The **card ladder** and the **drill sets** (degree drills, dictation drills) are *material*,
+  not lessons — build as one or two `/practice`-style pages, not 60 MDX files.
+- `read-the-rhythm-first` + `taking-a-rhythm-down` — the reading and the dictation halves of
+  the same rhythm skill; could pair.
+
+### Infra dependency (flag for the plan)
+
+**The drone bar must hold a drone on any of the 12 tonics** (Passes 12/13/15/19). If it
+currently only does the four open strings, that's a contained extension (`RULES.md` #17 — not
+a new component). Confirm before building Movement D–H.
+
+---
+
+## Sources
+
+**Reading / sight-reading — research**
+
+- **Review on Eye-Hand Span in Sight-Reading of Music** (PMC, 2021) — EHS numbers (~3–6 notes
+  for skilled violinists), perceptual flexibility, chunking, "look-as-far-ahead-as-possible is
+  wrong", ~1 s processing buffer.
+- **"Markers of Musical Expertise in a Sight-Reading Task: An Eye-Tracking Study"** (2024) —
+  experts modulate gaze by complexity; extra fixations on key/time signature in hard passages.
+- **Kopiez & Lee, "Towards a general model of skills involved in sight reading music"** — the
+  pattern-recognition + prediction + chunking model.
+- **"Early Attraction in Temporally Controlled Sight Reading of Music"** (PMC, 2020) — the eye
+  jumps to trouble before you get there.
+- **Sloboda** — the original eye-hand-span work.
+
+**Sight-reading — pedagogy**
+
+- **ABRSM** — "golden rule" (once you start you can't stop); the Bowed Strings Practical
+  Grades Initial–8 sight-reading parameters (cumulative by grade); the Violin Sight-Reading
+  Trainer app.
+- **Trinity College London** — Sound at Sight / sight-reading Initial–Grade 8, the stepped
+  parameters.
+- **S-T-A-R-S** — Terry Ownby sight-reading clinic; the band-method tradition.
+- violinspiration.com "Violin Sight Reading"; stringsmagazine "3 Ways to Improve Your
+  Sight-Reading"; bulletproofmusician "Are Great Sight-Readers Born or Made?"; makemusic
+  "Definitive Guide to Sight Reading" / "Taking the Pain Out of Sight Reading" / "Rhythmic
+  Sight-Reading: Friend or Foe"; cellobello "A New Look at Sight-Reading"; pas.org "Subdivide
+  and Conquer"; the four-layer rescue + the 8 cards from **the PDF, Part VII §77–83**.
+
+**Ear training — research & method**
+
+- **Karpinski, *Aural Skills Acquisition* (2000)** — tonal/scale-degree ear training
+  significantly outperforms interval-based; "do-mi-sol as a functional unit".
+- **Edwin Gordon, Music Learning Theory** — audiation; "sound before sign"; singing as the
+  externalising step.
+- **Kodály / Curwen** — movable-do solfège, the hand signs, the LA-SOL-MI → RE-DO-LA motive
+  sequence.
+- musical-u "An Approach to Ear Training" / "Ultimate Guide to Interval Ear Training" /
+  "Audiation — It's All In Your Head"; the-maestro-online "Solfège vs Harmony — a
+  research-driven comparison"; stringkick "Ear Training — The Ultimate Guide"; pitchd.net
+  "Solfège Ear Training"; risingsoftware "Mastering Melodic Dictation"; openmusictheory
+  "Basics of Sight-Singing and Dictation"; Clendinning & Marvin *Musician's Guide* dictation
+  chapter.
+- **Tools:** the Functional Ear Trainer (Benbassat); tonedear.com; teoria.com; EarMaster;
+  tonesavvy; sonicfit "Scale Degree Ear Training".
+
+**The sargam bridge**
+
+- Stage 4 `stage-4-research.md` Pass 1 (sargam = functional, sung against a drone, "emphasis
+  on the intervals"); Bhatkhande's thaat system; a sargam / raga reference for any named
+  swara (`RULES.md` #8, `CLAUDE.md` Mistakes to avoid #10 — shuddha swaras align with the
+  major scale = Bilawal thaat; the *functions* transfer; not "sargam = major scale").
+
+**Inherited from earlier stages** — Stage 1 (`steps-and-skips`, `all-the-first-position-landmarks`,
+`taking-the-help-away`, `sa-and-the-letter-names`, `hearing-a-wrong-note`, `ringing-tones`);
+Stage 2 (`counting-the-beat`, `subdivision`, `rhythmOnly` mode, `if-you-count-in-bols`); Stage
+3 (`decode-a-dense-line`); Stage 4 (`the-scale-degrees-and-their-pull`, `hearing-the-scale-degrees`,
+`tuning-by-ear`, `do-re-mi-and-sa-re-ga`, the harmony movement H, the cadence movement I,
+`reading-a-chord-symbol`); Stage 5 (`finding-a-tune-by-ear`, `reading-a-bowing`).
+
+---
+
+## Status
+
+**RESEARCH DONE 2026-09-04** — 22 passes + re-verification + movement plan. `stage-8.md` (the
+build plan) not yet written. **Recommendation: build Stage 8a next** (the ear gym is the
+operative goal; every month earlier is a month of ear). Confirm the 8a/8b split and the drone-
+bar dependency with the user before writing `stage-8.md`.

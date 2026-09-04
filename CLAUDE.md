@@ -111,7 +111,8 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 | `docs/stage-plans/stage-4-research.md` | Stage 4 (Scales & musicianship I) — the deep research, **20 passes + a re-verification pass** (what a scale is · steps & the major formula · key signatures · circle of fifths · minor · the 12 keys · intervals · the ear thread · triads · diatonic harmony · the dominant 7th · cadences · phrase & structure · arpeggios · the physics · other scale families · scale practice · transposition · the K.216 first note · repertoire · non-chord tones / harmonic rhythm / key character from the re-verify), each with draft lessons; ends with a 16-movement plan (A–P, ~63 concept + 7 tune/scale) + merge candidates + a full sources list. |
 | `docs/stage-plans/stage-4.md` | Stage 4 — the **build list**: Movements A–P, the **4a/4b/4c split** (4a Scales & keys · 4b Intervals, chords & harmony · 4c Arpeggios, the physics & the rest · P the tunes). Status: **BUILT 2026-09-03, expanded 2026-09-04 → 70 lessons** (63 concept + 7 repertoire). Every scale (modes, pentatonic, blues, chromatic, symmetrical, world) and every chord (triads, 7ths, suspended/added, extended, secondary dominants, borrowed, chromatic, altered/quartal) covered as real lessons or cited cards. |
 | `docs/stage-plans/stage-5-research.md` | Stage 5 (The bow) — the deep research, **15 passes + a re-verification pass** (bow physics / Helmholtz & the three controls · tone & son filé · string crossings & bariolage · détaché & its family · legato & dividing the bow · martelé · the NEXT layer: staccato/portato/collé/hooked/retakes · off the string: spiccato/sautillé/the continuum · the far shore: ricochet/fouetté/Viotti/chop · colour strokes · **reading a printed bowing** · dynamics as a bow decision · bow-arm health & the tabla bridge · the atlas & the Foundation gate · re-verify — folds in pizzicato + rolling a chord with the bow). Ends with a movement-plan sketch + merge candidates + the 14-skeleton-slug fate table + full sources. |
-| `docs/stage-plans/stage-5.md` | Stage 5 — the **build list**: Movements A–L + P, the **5a/5b/5c split** (5a Tone: how the bow makes a sound · 5b The strokes · 5c Reading & shaping with the bow + the gate). **~36 concept + 5 repertoire ≈ 41 lessons.** Records the 6 delegated decisions (2026-09-04): PERFORM set = détaché/legato/martelé/clean crossing/son filé (off-string = recognise); "reading a printed bowing" = 4 lessons; the **play-by-ear thread** runs through the stage (each part ends with a "play it back" beat, `finding-a-tune-by-ear` lesson, the gate gains an ear-to-instrument check); pizzicato + rolling-a-chord folded in as real lessons; the 14-slug fate table. Status: **PLANNED 2026-09-04; not yet built.** |
+| `docs/stage-plans/stage-5.md` | Stage 5 — the **build list**: Movements A–L + P, the **5a/5b/5c split** (5a Tone: how the bow makes a sound · 5b The strokes · 5c Reading & shaping with the bow + the gate). **~36 concept + 5 repertoire ≈ 41 lessons.** Records the 6 delegated decisions (2026-09-04): PERFORM set = détaché/legato/martelé/clean crossing/son filé (off-string = recognise); "reading a printed bowing" = 4 lessons; the **play-by-ear thread** runs through the stage; pizzicato + rolling-a-chord folded in. Status: **BUILT 2026-09-04 (38 lessons; 3 of 5 P tunes live).** |
+| `docs/stage-plans/stage-8-research.md` | Stage 8 (Sight-reading & ear training) — the deep research, **22 passes + a re-verification pass** — done out of sequence (2026-09-04, user's request) because it carries the play-by-ear goal and needs neither Stage 6 nor 7. **Reading fluency** (the cognition — chunking / eye-hand span; the pre-read; reading by pattern; rhythm-first; never-stop + recovery; the four-layer rescue; scaffold A→E; the graded card ladder; flat keys / chromatics / double stops / chord charts) + **the ear gym from the ground up** (functional > interval per Karpinski 2000; **sargam IS functional ear training**; audiation + singing + the drone; the scale-degree gym = the core; hearing harmony; melodic + rhythmic dictation; **play by ear** = the payoff; reading-with-your-ear-on welds the halves). Ends with a **movement plan (8a/8b split)** — **8a (reading fluency + the whole ear gym) is position-independent and should build next, in parallel with Stage 6**; 8b (positions at sight + the Intermediate gate) closes after Stage 6–7. Flags a drone-bar infra dependency (must hold any of 12 tonics). Status: **research DONE 2026-09-04; `stage-8.md` not yet written.** |
 | `docs/LESSONS-FROM-MOZART.md` | what the (deferred) K.216 run taught us the middle stages must teach deeply — bowing, chords, the dense score vocabulary, style. Read before planning Stages 2–7. |
 | `docs/stage-plans/mozart-k216.md` | the deferred K.216 module — what's built, the transcription pipeline, how to resume |
 | `docs/DESIGN_LOCK.md` | the locked visual language — Direction A ("The Critical Edition"); chosen and built |
@@ -276,7 +277,7 @@ Research: `docs/stage-plans/stage-4-research.md` (20 passes + a re-verification 
 
 ---
 
-## NEXT SESSION — Stage 5/4 loose ends → Phase 2 (Stage 6)
+## NEXT SESSION — write stage-8.md → build Stage 8a (+ Stage 6 research)
 
 **Stages 0–5 are all BUILT.** v1 (PDF Parts I–VI) is essentially complete — 255 pages, the
 Foundation gate is written (`the-foundation-check`), the viral-melody appendix is researched.
@@ -314,17 +315,24 @@ Help Falling in Love", C, Stage 5–6) · **Shenandoah** (D, son-filé, Stage 5)
 (A minor, Stage 4–5) · **Shchedryk** ("Carol of the Bells" melody, A minor, fast détaché,
 Stage 5) · the folk pool (Simple Gifts / Ash Grove / Loch Lomond).
 
-### 4 — Phase 2 begins: Stage 6 (Shifting & the higher positions)
-The **Intermediate half.** Research-first (`stage-6-research.md`), plan with the user, build.
-Scope: what a *position* is (whole-hand location ≠ finger); shifting mechanics (release the
-thumb, arm leads, guide/ghost notes, same-finger vs new-finger, Classical vs Romantic
-portamento, silent shifts); positions one at a time (**3rd** first, then 2nd, 4th, 5th+);
-**double stops** (open+open → open+stopped → stopped+stopped; 3rds, 6ths, octaves) — the
-technique half of the Stage-4/5 chord debt (`LESSONS-FROM-MOZART.md` §2); **chords** (the
-stopped 3-/4-note versions of `rolling-a-chord-with-the-bow`); trills as finger action;
-harmonics; the ear thread continues (`PRD.md` §6.1 — the play-by-ear goal). Then Stage 7
-(vibrato), Stage 8 (sight-reading + the ear gym — now the course's centre of gravity) →
-**Intermediate gate**.
+### 4 — Phase 2 — **Stage 8a builds NEXT** (user's call, 2026-09-04), in parallel with Stage 6
+**`docs/stage-plans/stage-8-research.md` is DONE** (22 passes). Recommendation it reached:
+**build Stage 8a next** — the **reading-fluency block + the whole ear gym** are
+position-independent, and the ear gym is the operative goal (`PRD.md` §3), so every month it
+runs earlier is a month of ear it gains. Next: write **`stage-8.md`** (confirm the 8a/8b split
++ the **drone-bar infra dependency** — must hold a drone on any of the 12 tonics — with the
+user), then build 8a. Movement plan in the research doc: 8a ≈ 34 concept lessons + 2
+disposable ladders (sight-reading cards, ear drills), Movements A–H; 8b (positions at sight +
+the Intermediate gate) waits for Stage 6–7.
+
+Then / alongside: **Stage 6 (Shifting & the higher positions)** — research-first
+(`stage-6-research.md`), plan with the user, build. Scope: what a *position* is; shifting
+mechanics (release the thumb, arm leads, guide/ghost notes, same-finger vs new-finger,
+Classical vs Romantic portamento, silent shifts); positions one at a time (**3rd** first, then
+2nd, 4th, 5th+); **double stops** (open+open → open+stopped → stopped+stopped; 3rds, 6ths,
+octaves) — the technique half of the Stage-4/5 chord debt (`LESSONS-FROM-MOZART.md` §2);
+**stopped chords** (the 3-/4-note versions of `rolling-a-chord-with-the-bow`); trills as
+finger action; harmonics. Then **Stage 7 (vibrato)** → **Stage 8b** → **Intermediate gate**.
 
 **Deferred from earlier stages:** Stage 1's 4 tunes pending PD sources (song-of-the-wind,
 go-tell-aunt-rhody, long-long-ago, french-folk-song); Stage 2's 3 (Pop Goes the Weasel, Jolly
