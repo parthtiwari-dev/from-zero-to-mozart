@@ -485,6 +485,71 @@ export const LESSONS: Lesson[] = [
   { slug: "tune-gossec-gavotte", title: "Gossec — Gavotte", stage: 5, track: "repertoire", tag: "NEXT", piece: { key: "D major", position: "1st", skill: "the détaché piece — détaché, staccato, retakes, hooked bows, slurs", inPdf: true } },
   { slug: "the-foundation-check", title: "The Foundation check", stage: 5, track: "reading", tag: "NOW", published: P },
 
+  // ── Stage 8 — Sight-reading & ear training ─────────────────────
+  //   Plan: docs/stage-plans/stage-8.md (research: stage-8-research.md, 22 passes).
+  //   Built out of sequence (before Stage 6/7) — it carries the play-by-ear goal
+  //   (PRD §3) and needs neither positions nor vibrato. 8a/8b is a /learn grouping.
+  //   8a = reading fluency (A–C) + the whole ear gym (D–H), position-independent.
+  //   8b = positions at sight + the Intermediate check — waits for Stage 6–7.
+  //   Drills/cards are material (a few big lessons), not one MDX per card.
+
+  // 8a · Movement A — reading fluently
+  { slug: "what-fluent-reading-is", title: "What fluent reading is", stage: 8, track: "reading", tag: "NOW", published: P },
+  { slug: "reading-notes-fast", title: "Reading notes fast", stage: 8, track: "reading", tag: "NOW", published: P },
+  { slug: "the-pre-read", title: "The pre-read", stage: 8, track: "reading", tag: "NOW", published: P },
+  { slug: "landmarks-and-guide-notes", title: "Landmarks and guide notes", stage: 8, track: "reading", tag: "NOW", published: P },
+  { slug: "reading-the-shape", title: "Reading the shape", stage: 8, track: "reading", tag: "NOW", published: P },
+  { slug: "the-patterns-in-real-music", title: "The patterns in real music", stage: 8, track: "reading", tag: "NOW", published: P },
+  { slug: "your-eye-runs-ahead", title: "Your eye runs ahead", stage: 8, track: "reading", tag: "NOW", published: P },
+  { slug: "read-the-rhythm-first", title: "Read the rhythm first", stage: 8, track: "reading", tag: "NOW", published: P },
+  // 8a · Movement B — sight-reading as a trained skill
+  { slug: "the-never-stop-rule", title: "The never-stop rule", stage: 8, track: "reading", tag: "NOW", published: P },
+  { slug: "getting-lost-and-getting-back", title: "Getting lost, and getting back", stage: 8, track: "reading", tag: "NOW", published: P },
+  { slug: "the-four-layer-rescue", title: "The four-layer rescue", stage: 8, track: "reading", tag: "NOW", published: P },
+  { slug: "taking-more-help-away", title: "Taking more help away", stage: 8, track: "reading", tag: "NOW", published: P },
+  { slug: "how-sight-reading-cards-work", title: "How the sight-reading cards work", stage: 8, track: "reading", tag: "NOW", published: P },
+  { slug: "the-sight-reading-habit", title: "The sight-reading habit", stage: 8, track: "reading", tag: "NOW", published: P },
+  { slug: "sight-reading-cards", title: "Sight-reading cards", stage: 8, track: "reading", tag: "NOW", published: P },
+  // 8a · Movement C — reading across contexts
+  { slug: "reading-the-flat-keys", title: "Reading the flat keys", stage: 8, track: "reading", tag: "NOW" },
+  { slug: "reading-a-chromatic-note", title: "Reading a chromatic note", stage: 8, track: "reading", tag: "NOW" },
+  { slug: "reading-two-notes-at-once", title: "Reading two notes at once", stage: 8, track: "reading", tag: "NEXT" },
+  { slug: "reading-a-chord-chart", title: "Reading a chord chart", stage: 8, track: "reading", tag: "NEXT" },
+  // 8a · Movement D — what a good ear is
+  { slug: "what-a-good-ear-is", title: "What a good ear is", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "hearing-it-first", title: "Hearing it first", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "singing-is-not-optional", title: "Singing is not optional", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "finding-home", title: "Finding home", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "the-hand-signs", title: "The hand signs", stage: 8, track: "ear", tag: "REFERENCE" },
+  // 8a · Movement E — the scale-degree gym (the core)
+  { slug: "the-stable-three", title: "The stable three", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "the-tendency-tones", title: "The tendency tones", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "all-seven-degrees", title: "All seven degrees", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "degrees-on-the-fingerboard", title: "Degrees on the fingerboard", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "degrees-in-your-tunes", title: "Degrees in your tunes", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "the-scale-degree-drills", title: "The scale-degree drills", stage: 8, track: "ear", tag: "NOW" },
+  // 8a · Movement F — hearing harmony
+  { slug: "major-or-minor", title: "Major or minor?", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "hearing-the-bass", title: "Hearing the bass", stage: 8, track: "ear", tag: "NEXT" },
+  { slug: "home-leaving-pulling", title: "Home, leaving, pulling", stage: 8, track: "ear", tag: "NEXT" },
+  { slug: "hearing-a-cadence", title: "Hearing a cadence", stage: 8, track: "ear", tag: "NEXT" },
+  { slug: "hearing-the-chord-under-the-tune", title: "Hearing the chord under the tune", stage: 8, track: "ear", tag: "NEXT" },
+  // 8a · Movement G — taking music down
+  { slug: "hearing-a-leap", title: "Hearing a leap", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "taking-a-rhythm-down", title: "Taking a rhythm down", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "taking-a-tune-down", title: "Taking a tune down", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "the-ear-gym-routine", title: "The ear-gym routine", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "the-dictation-drills", title: "The dictation drills", stage: 8, track: "ear", tag: "NOW" },
+  // 8a · Movement H — playing by ear (the payoff)
+  { slug: "learning-a-tune-by-ear", title: "Learning a tune by ear", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "play-along", title: "Play along", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "reading-with-your-ear-on", title: "Reading with your ear on", stage: 8, track: "ear", tag: "NOW" },
+  { slug: "the-tunes-to-find-by-ear", title: "Tunes to find by ear", stage: 8, track: "ear", tag: "NOW" },
+  // 8b · after Stage 6–7 — positions at sight + the Intermediate gate
+  { slug: "reading-a-shift", title: "Reading a shift", stage: 8, track: "reading", tag: "NEXT" },
+  { slug: "the-grade-4-line", title: "The Grade-4 line", stage: 8, track: "reading", tag: "NEXT" },
+  { slug: "the-intermediate-check", title: "The Intermediate check", stage: 8, track: "reading", tag: "NEXT" },
+
   // ── Stage 9 — The repertoire journey ───────────────────────────
   // The K.216 module. `mozart-k216` is the orientation; each page of the solo
   // part becomes its own annotated-line lesson (mozart-k216-i-*, -ii-*, -iii-*)

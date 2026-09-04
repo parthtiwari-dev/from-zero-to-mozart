@@ -352,4 +352,24 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "tune-conquering-hero": () => import("./tune-conquering-hero.mdx"),
   "tune-bach-musette": () => import("./tune-bach-musette.mdx"),
   "the-foundation-check": () => import("./the-foundation-check.mdx"),
+
+  // Stage 8 — Sight-reading & ear training
+  // 8a · Movement A — reading fluently
+  "what-fluent-reading-is": () => import("./what-fluent-reading-is.mdx"),
+  "reading-notes-fast": () => import("./reading-notes-fast.mdx"),
+  "the-pre-read": () => import("./the-pre-read.mdx"),
+  "landmarks-and-guide-notes": () => import("./landmarks-and-guide-notes.mdx"),
+  "reading-the-shape": () => import("./reading-the-shape.mdx"),
+  "the-patterns-in-real-music": () => import("./the-patterns-in-real-music.mdx"),
+  "your-eye-runs-ahead": () => import("./your-eye-runs-ahead.mdx"),
+  "read-the-rhythm-first": () => import("./read-the-rhythm-first.mdx"),
+
+  // 8a · Movement B — the sight-reading method
+  "the-never-stop-rule": () => import("./the-never-stop-rule.mdx"),
+  "getting-lost-and-getting-back": () => import("./getting-lost-and-getting-back.mdx"),
+  "the-four-layer-rescue": () => import("./the-four-layer-rescue.mdx"),
+  "taking-more-help-away": () => import("./taking-more-help-away.mdx"),
+  "how-sight-reading-cards-work": () => import("./how-sight-reading-cards-work.mdx"),
+  "the-sight-reading-habit": () => import("./the-sight-reading-habit.mdx"),
+  "sight-reading-cards": () => import("./sight-reading-cards.mdx"),
 };

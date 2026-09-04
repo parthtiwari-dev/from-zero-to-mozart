@@ -1,0 +1,147 @@
+Real music is made of a small number of shapes, repeated endlessly. Once your eye catches
+"that's *that* shape again," a whole bar becomes one chunk. Here are the ones to know on
+sight.
+
+## The scale fragment
+
+Notes marching up or down by step — line-space-line-space, one direction. Your hand plays a
+piece of a scale it has drilled (Stage 4). See it, and you know the fingering without reading
+the notes.
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/8
+K:G clef=treble
+G A B c d c B A | G4 z4 |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "c", string: "A", finger: "low 2" },
+    { name: "d", string: "A", finger: "3" },
+    { name: "c", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "G", string: "D", finger: "3" },
+  ]}
+  caption="A scale up to d and back. One shape, one chunk — 'G scale, up five and down.'"
+  defaultBpm={80}
+  followPlayback
+/>
+
+## The broken chord
+
+Notes skipping in the same direction, same-colour to same-colour (line-line-line). Your hand
+plays an arpeggio shape (Stage 4 J). G–B–D is the G chord; D–F♯–A is the D chord.
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/4
+K:G clef=treble
+G B d B | G B d g |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "d", string: "A", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "d", string: "A", finger: "3" },
+    { name: "g", string: "E", finger: "low 2" },
+  ]}
+  caption="A broken G-major chord — the notes of the G triad, one at a time. 'G arpeggio' is the whole read."
+  defaultBpm={76}
+  followPlayback
+/>
+
+## The turn / neighbour figure
+
+Up-and-back, or down-and-back, around one note. One finger wiggles to its neighbour and
+returns.
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/8
+K:G clef=treble
+d e d c d2 z2 | B c B A B2 z2 |]`}
+  labels={[
+    { name: "d", string: "A", finger: "3" },
+    { name: "e — upper neighbour", string: "E", finger: "0" },
+    { name: "d", string: "A", finger: "3" },
+    { name: "c — lower neighbour", string: "A", finger: "low 2" },
+    { name: "d", string: "A", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "c — upper neighbour", string: "A", finger: "low 2" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "A — lower neighbour", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+  ]}
+  caption="A note, its upper neighbour, back, its lower neighbour, back. A tiny decorated wiggle around one pitch — read it as 'd, decorated' and 'B, decorated'."
+  defaultBpm={84}
+/>
+
+## The sequence — the highest-leverage shape
+
+A small shape **repeated a step or a third higher (or lower)**. Read the *first* copy
+carefully; then your eye just says "and again, up a step" — a whole bar in one glance. A
+huge amount of Baroque and Classical music is sequences.
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/8
+K:G clef=treble
+G A B G A B c A | B c d B c d e c |]`}
+  labels={[
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "c", string: "A", finger: "low 2" },
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "c", string: "A", finger: "low 2" },
+    { name: "d", string: "A", finger: "3" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "c", string: "A", finger: "low 2" },
+    { name: "d", string: "A", finger: "3" },
+    { name: "e", string: "E", finger: "0" },
+    { name: "c", string: "A", finger: "low 2" },
+  ]}
+  caption="The 4-note shape from beat 1 (G–A–B–G) climbs a step each time. Once you see the pattern, you've read the whole two bars: 'that figure, four times, going up.'"
+  defaultBpm={88}
+  followPlayback
+/>
+
+## The leap, and the repeated note
+
+A **leap** — a 4th, 5th, 6th, octave — you recognise by size and play as a string crossing
+and/or a finger jump; don't name both notes, know the interval and the target. A **repeated
+note** — one finger stays put, the bow does the work (Stage 5); read "that note, ×4," not four
+notes.
+
+## Try it
+
+<TryThis>
+  Take *Ode to Joy* or *Twinkle*. Go through it once and label every bar with a shape name —
+  "steps up," "steps down," "broken chord," "repeated note," "turn." Then play it thinking
+  only the shape names. You'll find the whole tune is five or six shapes.
+</TryThis>
+
+## The usual mistake
+
+Reading a sequence as if each repetition were new material — decoding "G A B G," then "A B c
+A," then "B c d B" from scratch. The point of a sequence is that after the first copy you
+*stop reading the notes* and just track the transposition. Same for a scale run: read "up,"
+not eight notes.
+
+<Cite source="pattern-recognition research in sight-reading (Kopiez & Lee; the chunking literature); the prevalence of sequences in tonal music (any Baroque or Classical score)">
+  The reason experts read fast isn't faster eyes — it's that they carry a large library of
+  these shapes in memory and match against it. A sequence, a scale, an arpeggio: each is one
+  stored pattern, read as a unit.
+</Cite>

@@ -1,0 +1,79 @@
+Way back in Stage 1 (`taking-the-help-away`) you started reading with the note name, the
+string and the finger printed under every note — and then, lesson by lesson, that help came
+away. Stage 8 runs the whole ladder, all the way to a clean score, and re-runs it every time
+the music gets harder.
+
+## The five stages of help
+
+| Stage | What the page shows | What you supply |
+|---|---|---|
+| **A** | note name + string + finger + staff | nothing — just play |
+| **B** | finger + staff | the note name (you read it) |
+| **C** | staff + an occasional string cue | finger and string |
+| **D** | normal notation; a finger only where it's non-obvious | fingering, mostly |
+| **E** | a clean score | fingering **and** bowing, where the edition leaves it open |
+
+The principle: **take the help away before it becomes a crutch — but not so early that you
+practise wrong notes.** If Stage C is still shaky, you're not ready for D. If A is boringly
+easy, you're wasting time there.
+
+## Re-run it at every level-up
+
+You don't do A→E once and you're done. Every time the material jumps — a new key, then
+accidentals, then (after Stage 6) a new position — **you start further back up the ladder in
+that new context.** You might be at Stage E in G major and Stage B in B♭ major on the same
+day. That's correct. Each new thing gets its own scaffold, briefly.
+
+<NotatedExample
+  reveal="hidden"
+  abc={`X:1
+M:C
+L:1/4
+K:F clef=treble
+F G A B | c A F2 |]`}
+  labels={[
+    { name: "F", string: "D", finger: "low 2" },
+    { name: "G", string: "D", finger: "3" },
+    { name: "A", string: "D", finger: "4" },
+    { name: "B♭", string: "A", finger: "low 1" },
+    { name: "c", string: "A", finger: "low 2" },
+    { name: "A", string: "D", finger: "4" },
+    { name: "F", string: "D", finger: "low 2" },
+  ]}
+  caption="F major — a new key. Even if you read G major fluently at Stage E, read this one at Stage B or C: work out the fingering (note the LOW 1st finger for B♭ on the A string, and low 2 for F on the D string), reveal to check, and only drop the help once F major feels as easy as G."
+  defaultBpm={72}
+/>
+
+## How the site does it
+
+The scaffold *is* the `<NotatedExample>`'s `reveal` setting:
+
+- **Stage A** — labels visible (`reveal="shown"`, the default). Full help.
+- **Stage B–C** — `reveal="hidden"` (the worksheet): plain notation, you work it out, tap to
+  reveal the answer.
+- **Stage D–E** — a card with **no labels at all**, just the notes and a pass condition. You
+  own it.
+
+So the sight-reading cards you're about to meet are just `reveal="hidden"` worksheets, with
+the harder ones dropping the labels entirely.
+
+## Try it
+
+<TryThis>
+  Take a first-position tune you can play in G. Now find it (or write it) transposed to D, and
+  to F. In G, play it at Stage E — clean, no help. In D, allow yourself Stage C. In F, go
+  back to Stage B and work the fingering out. Feel how the same tune sits at different rungs
+  in different keys.
+</TryThis>
+
+## The usual mistake
+
+Two opposite ones. **Clinging to the help** — keeping the finger numbers because it's
+comfortable, so you never actually read. And **dropping it too fast** — playing a scaffold-D
+card when you're really a scaffold-B reader in that key, so you groove wrong notes. Be honest
+about which rung you're on, per key.
+
+<Cite source="the original PDF course, Part VII §79 ('Progressive scaffold removal'); the fading-prompts principle in skill learning; extends Stage 1 'taking-the-help-away'">
+  The PDF's phrasing is the whole idea: *"remove help before it becomes a crutch, but not so
+  early that you practise wrong notes."* The scaffold is temporary by design.
+</Cite>

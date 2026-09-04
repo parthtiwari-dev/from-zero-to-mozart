@@ -1,0 +1,70 @@
+A card fails. Now what? The wrong answer is to play it ten more times hoping it fixes itself.
+The right answer is to work out **which layer broke** and fix only that.
+
+## The four layers
+
+A line has four things going on at once, and when it collapses, usually only *one* of them is
+dragging the others down. Pull them apart:
+
+| Layer | Isolate it by | You're checking |
+|---|---|---|
+| **Pitch** | **say the note names**, out loud, in order — *no rhythm* | did you read the notes? the key? the accidentals? |
+| **Rhythm** | **clap / tap / count**, on one pitch or none, with the metronome | did the durations and the pulse hold? |
+| **Left hand** | **finger the notes silently**, or **pizzicato slowly** — off the pulse | do the fingers know where to go? the string crossings? |
+| **Bow** | **air-bow** the rhythm and the slurs — no string | is the bowing plan clear? the slur groups? |
+
+Then **combine two at a time** — pitch + rhythm, then left hand + bow — then all four. One
+recurring problem, one specific fix, and move on. Don't rehearse the whole line; repair the
+break.
+
+<NotatedExample
+  abc={`X:1
+M:C
+L:1/8
+K:D clef=treble
+(A B) c2 (d =c) d2 | (e f) g2 (f e) d2 |]`}
+  labels={[
+    { name: "A", string: "A", finger: "0" },
+    { name: "B", string: "A", finger: "1" },
+    { name: "c♯", string: "A", finger: "high 2" },
+    { name: "d", string: "A", finger: "3" },
+    { name: "c♮ — the trap", string: "A", finger: "low 2" },
+    { name: "d", string: "A", finger: "3" },
+    { name: "e", string: "E", finger: "0" },
+    { name: "f♯", string: "E", finger: "1" },
+    { name: "g", string: "E", finger: "low 2" },
+    { name: "f♯", string: "E", finger: "1" },
+    { name: "e", string: "E", finger: "0" },
+    { name: "d", string: "A", finger: "3" },
+  ]}
+  caption="If this collapses, diagnose. Pitch layer: the C♮ in bar 1 (a natural after the key's C♯) — say the names and catch it. Rhythm layer: the slurred-pair-then-quarter figure — clap it. Left-hand layer: the c♯→c♮ finger creep, and the A-to-E string jumps — pizz it slowly. Bow layer: two-slurred, one-separate — air-bow it. Fix the one that broke, not all four."
+  howToPlay="Once, at a slow pulse. If it fails, don't replay — run the four checks, find the weak layer, fix that, then combine and try a NEW card tomorrow."
+  defaultBpm={72}
+/>
+
+## Why isolating works on the violin especially
+
+On the violin the bow and the left hand are doing completely different jobs at the same time —
+the rhythm can even come from either one. When a line breaks, a beginner who replays it over
+and over never learns *which hand* caused it. Splitting the layers makes the diagnosis obvious,
+and then the fix is quick.
+
+## Try it
+
+<TryThis>
+  Take a card that beat you. Instead of replaying it: say the pitches (no rhythm) — clean?
+  Clap the rhythm (no pitches) — clean? Pizz it slowly — clean? Air-bow the slurs — clean?
+  Whichever one *wasn't* clean is your problem. Fix that, combine it back, and leave the card.
+</TryThis>
+
+## The usual mistake
+
+Replaying the whole line, full speed, again and again — which just grooves the mistake and
+tells you nothing. The other mistake: trying to fix all four layers in one pass (say the
+notes *and* count *and* watch the bow…) — you can't, and you end up fixing none. One layer at
+a time.
+
+<Cite source="the original PDF course, Part VII §78 ('The four-layer rescue method'); the deliberate-practice principle — isolate the failing component, correct it specifically">
+  The PDF puts it bluntly: *"if a line fails, identify the layer. Do not mindlessly replay the
+  whole line ten times."* Diagnosis before repetition.
+</Cite>

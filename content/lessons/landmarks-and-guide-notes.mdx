@@ -1,0 +1,63 @@
+Back in Stage 1 you learned the staff has a few **landmark notes** you know on sight, and that
+you read *from* them rather than counting up from the bottom line every time. That idea is the
+foundation of fluent reading, and now it becomes the *only* way you read.
+
+## The anchors
+
+On the treble staff, a handful of notes should be as instant as your own name:
+
+- **The lines, bottom to top: E – G – B – D – F.** Of these, **G (line 2)**, **B (the middle
+  line)** and **D (line 4)** are the strongest anchors — evenly spaced, easy to spot.
+- **The open strings, written**: G below the staff, D in the bottom space, A in the second
+  space, E in the top space (Stage 1, `open-strings-on-the-staff`). These double as landmarks
+  *and* as "that's an open string, no finger."
+- **Middle C**, one ledger line below — the edge of your low range.
+
+Everything else you read as *"a step / a skip / a leap from the nearest anchor."* A note
+sitting just above the middle line? That's a step above B — it's C. A note on the next line up
+from B? A skip — B to D. You find the anchor, then move.
+
+<NotatedExample
+  abc={`X:1
+M:none
+L:1/4
+K:C clef=treble
+G B c d e a |]`}
+  labels={[
+    { name: "G — line 2 (anchor)", string: "D", finger: "3" },
+    { name: "B — middle line (anchor)", string: "A", finger: "1" },
+    { name: "c — a step above B", string: "A", finger: "low 2" },
+    { name: "d — line 4 (anchor)", string: "A", finger: "3" },
+    { name: "e — a step above d", string: "E", finger: "0" },
+    { name: "a — a leap (a 4th) above e", string: "E", finger: "3" },
+  ]}
+  caption="The line-anchors G, B, d — then notes read as steps and leaps from them. c is one step above B. e is one step above the d anchor. a is a 4th above e (the open E string plus a 3rd finger). You never count from the bottom line; you jump to the nearest anchor and move."
+  defaultBpm={66}
+/>
+
+## Mnemonics were a crutch — let them go
+
+"*Every Good Boy Deserves Fudge*" and "FACE" got you started. But a reader who recites a
+mnemonic for every note is far too slow, and worse, they have no idea how the line *sounds*
+until they've decoded it all. Landmark-plus-interval reading is faster and it keeps the music
+audible as you go. If you still catch yourself reciting, that's the sign to drill
+`reading-notes-fast` until the anchors are automatic.
+
+## Try it
+
+<TryThis>
+  Open any first-position tune. Cover everything but the first note of each bar. For each one,
+  name it by *anchor* — "that's on the middle line, it's B" — not by counting. Then uncover and
+  read the rest of each bar as steps and skips *from* that first note. This is reading.
+</TryThis>
+
+## The usual mistake
+
+Having *too many* anchors, or the wrong ones. You need about three rock-solid ones (G, B, D
+lines) plus the open strings — not all nine line-and-space notes memorised as separate facts.
+Three anchors and the ability to step/skip from them covers the whole staff.
+
+<Cite source="landmark (guide-note) reading vs mnemonic reading — piano and string pedagogy (Faber, Snell, the 'Super Sight Readers' approach); consolidates Stage 1 'lines-and-spaces' and 'all-the-first-position-landmarks'">
+  Good sight-readers at every level agree on this: you do not read by letter name. You read
+  from a few guide notes, by interval, following the shape of the line.
+</Cite>
