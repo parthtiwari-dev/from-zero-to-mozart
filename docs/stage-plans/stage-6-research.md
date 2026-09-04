@@ -374,9 +374,16 @@ same kind of mechanical check Pass 20 used for the position table:
   finger (E) = a major 3rd; G string 4th finger (D) + D string low-2nd finger (F) = a minor
   3rd. Major vs minor 3rd changes *which* low/high finger variant you use, exactly as
   originally claimed — the correction is about which string gets the higher finger.
-- **Sixths:** a wider stretch, e.g. G string 1st finger (A) + D string low-2nd finger (F) = a
-  minor 6th; the same G-string 1st finger + D string high-2nd finger (F♯) = a major 6th — again,
-  major/minor is a low/high choice on the upper string, not a different finger pair.
+- **Sixths:** e.g. G string 1st finger (A) + D string low-2nd finger (F) = a minor 6th; the same
+  G-string 1st finger + D string high-2nd finger (F♯) = a major 6th — again, major/minor is a
+  low/high choice on the upper string, not a different finger pair. **Caught during the
+  advisor's review of the built lesson:** an exhaustive semitone check across every finger
+  combination on the G-D pair shows sixths only arise from near-adjacent finger numbers (1+low2,
+  1+high2, high2+3, 3+4) — never a wide skip like thirds' 3-and-1 gap. So "sixths need more hand
+  flexibility than thirds," while a real, sourced pedagogical claim, does **not** reduce to "this
+  specific fingering is a wider stretch than that specific third" — the lesson's language was
+  corrected to state the interval fact plainly and cite the general flexibility claim without
+  tying it to a specific unverified stretch comparison between the two worked examples.
 - **Octaves:** 1st and 4th finger, one string apart, in a fixed "frame" shape that moves as a
   unit — the hand carries the interval rather than each finger being placed independently. This
   one checks out exactly as originally stated: G string 1st finger (A) + D string 4th finger
