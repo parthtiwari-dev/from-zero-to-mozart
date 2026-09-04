@@ -909,3 +909,238 @@ now.
   of Ode to Joy / Twinkle / a folk tune by ear).
 - Each is a short lesson + a repeatable drill (drone bar + `<NotatedExample>` playing the
   target; the reader sings/plays; the answer reveals).
+
+---
+
+## Pass 14 — Intervals: the backup skill (learned as two scale degrees)
+
+*(research batch 14: 2026-09-04 — musical-u "Ultimate Guide to Interval Ear Training" /
+"Interval Ear Training Tips" / "How can I improve at harmonic intervals"; music-theory-practice
+"Ascending Interval Ear Training"; musiversal "Songs to Practice Intervals"; deftdigits "Scale
+Degrees vs. Intervals"; Stage 4 F1–F3 (`what-an-interval-is`, the interval anchors))*
+
+### Intervals matter — but they're not the primary method
+
+The research (Pass 11, Karpinski) is clear that **isolated** interval drilling builds weaker
+real-world hearing than functional work. But intervals still matter because:
+
+- a **leap** in a tune has to be measured *somehow* (Pass 3 — the leap is one of the reading
+  shapes);
+- **harmonic intervals** (two notes together) are how you hear a double stop, and the seed of
+  chord hearing (Pass 15);
+- the same interval **sounds different in different functional contexts** (a descending 5th
+  ^5→^1 = a cadence; ^3→^6 = something darker) — which is itself an argument for hearing it
+  *as two degrees*, not as a context-free distance.
+
+### The fix: hear an interval as *two scale degrees*
+
+Instead of "that's a perfect 4th," hear "that's ^5 up to ^1" or "^1 up to ^4." The interval
+falls out of the functional hearing you're already building (Pass 13). This is why Stage 8
+teaches degrees *first* and intervals *second* — the second is nearly free once the first is
+solid.
+
+- The three forms: **ascending** (easiest — the low note anchors), **descending**,
+  **harmonic** (both at once). Drill all three; each helps the others.
+- **Anchor songs** as a bootstrap only (Stage 4 F4 already gave a few): Twinkle = P5 (^1→^5),
+  *When the Saints* = M3 (^1→^3), *Amazing Grace* = P4 (^5→^1), the *Jaws* / semitone = m2,
+  *Bridal Chorus* = P4, NBC chimes = the arpeggio. Fallback, not the method.
+
+### On the violin
+
+Every interval is also a **hand shape / string relationship** the reader half-knows:
+- a **P5** = the same finger on the next string (Stage 0), or open-string to open-string
+- a **P4** = across a string, roughly one finger's difference
+- an **octave** = same note, string + two-away (Stage 1 open-string checks)
+- a **3rd / 6th** = a double-stop shape (Stage 6, but readable now)
+
+### Build
+
+- **`hearing-a-leap`** — an interval = two degrees; the three forms; the anchor songs as
+  backup; on the fingerboard. One lesson, one drill (a leap sounds; name the two degrees).
+  Keeps it lean — the functional gym (Pass 13) does the heavy lifting.
+
+---
+
+## Pass 15 — Hearing harmony: chord quality, the bass, cadences
+
+*(research batch 15: 2026-09-04 — musical-u chord ear-training material; tonedear / tonesavvy
+chord & cadence trainers; Karpinski on chord-function hearing; Stage 4 G (`the-four-triad-
+qualities`), H1 (`the-chords-of-a-key`), H5 (`the-dominant-seventh`), I1–I2 (cadences),
+H2 (`harmonising-a-tune-you-know`))*
+
+### Stage 4 analysed harmony — Stage 8 *hears* it
+
+The reader can already spell and name I / IV / V / V7 and the cadences. The ear gym makes
+them **audible**:
+
+**1 · Chord quality — major vs minor first.** The single most useful harmonic ear skill. A
+chord sounds; **major or minor?** (bright / dark; Stage 4 D1). Then add **diminished** (tense,
+unstable) and **augmented** (uneasy, floating) — Stage 4 G2. Drill: a triad on a random root;
+name the quality; then sing the 3rd (the note that decides it).
+
+**2 · The bass line.** Hear the *lowest* note of a chord — it's what a violinist most needs
+(you often play the bass or the top of a texture, not the middle). Drill: a chord sounds;
+**hum the bottom note.**
+
+**3 · The three functions — T / PD / D.** A chord (or short progression) sounds against the
+established key; is it **home (I, vi)**, **leaving home (IV, ii)**, or **pulling home (V,
+vii°, V7)**? (Stage 4 H1.) This is harder than quality and more useful — it's how you follow
+a piece's harmony by ear.
+
+**4 · Cadences.** A phrase ends; **which cadence?** — perfect (V→I, full stop) · plagal (IV→I,
+the "amen") · half (ends on V, a comma) · deceptive (V→vi, the swerve). Stage 4 I1–I2 taught
+the theory; here you hear the *four endings* and tell them apart. This is a genuine
+Intermediate-gate skill.
+
+**5 · The dominant 7th.** Its specific sound — the tritone inside it, the "we must go home
+now" (Stage 4 H5). Drill: I chord, then V7, then resolve — and *sing the ^7→^1 and ^4→^3* that
+collapse it onto I.
+
+**6 · Hear the harmony *under* a melody.** The capstone — play a simple tune (Ode to Joy,
+Twinkle) and, bar by bar, *hear which chord fits* (Stage 4 H2). This is what lets you
+harmonise a tune, or play a bass line to one, by ear.
+
+### Build
+
+- **`major-or-minor`** (the quality drill) · **`hearing-the-bass`** · **`home-leaving-pulling`**
+  (the three functions) · **`hearing-a-cadence`** (the four endings — gate skill) ·
+  **`hearing-the-chord-under-the-tune`** (the capstone).
+- Each: a drill using the drone bar + `<NotatedExample>` chords (rolled, per Stage 5) + reveal.
+
+---
+
+## Pass 16 — Melodic dictation: taking a tune down by ear
+
+*(research batch 16: 2026-09-04 — risingsoftware "Mastering Melodic Dictation"; the Clendinning
+& Marvin *Musician's Guide* dictation chapter (routledgetextbooks); openmusictheory "Basics of
+Sight-Singing and Dictation"; musicstudent101 ep. 78; fiveable melodic-dictation guides;
+tonedear / tonesavvy melodic-dictation trainers)*
+
+### The method — the same order every time
+
+A tune plays; you write it (or play it back). The universal 3-step order:
+
+1. **Rhythm first — *where* before *what*.** Find the beat, the metre (simple/compound), tap
+   it, and write down the rhythm on one line — no pitches yet. (The reader's strength; this
+   step should be quick for him.)
+2. **Contour — up / down / same, and mark the leaps.** A rough shape line over the rhythm.
+   Stars where the line jumps rather than steps.
+3. **Scale degrees — find the tonic, then fill in.** Using the functional ear from Pass 13:
+   "starts on ^5… steps up to ^6… leaps down to ^1…" — write the degree numbers, then check
+   by singing it back in numbers/solfège before you play it.
+
+**Sing it back before you play it** — every source says this. If you can sing the phrase in
+degree numbers, you've *got* it; playing it is then just the reverse map (Pass 13).
+
+### Levels
+
+- **L1:** 2–3 notes, stepwise, in the tonic triad, one key (G). "Where's home, and which way
+  did it move?"
+- **L2:** a 4–5 note fragment, steps + one skip, still diatonic.
+- **L3:** a full 2-bar phrase with a leap and a simple rhythm.
+- **L4:** a 4-bar phrase, a dotted rhythm, a tendency tone resolving.
+- **L5:** an 8-bar tune (a folk melody the reader *doesn't* know), any first-position key.
+
+### Build
+
+- **`taking-a-tune-down`** — the 3-step method, walked on a short phrase; then a drill (a
+  phrase plays; you write degrees; reveal). The drill card plays the target with the drone,
+  hides the notation, reveals on tap — same shape as the sight-reading cards, reversed.
+- Levels L1–L5 as a small ladder, not one lesson each.
+
+---
+
+## Pass 17 — Rhythmic dictation and the rhythm ear (build confidence here)
+
+*(research batch 17: 2026-09-04 — the dictation sources above (rhythmic portion); Stage 2
+(`counting-the-beat`, `subdivision`, the `rhythmOnly` mode); the tabla-advantage framing from
+Pass 4)*
+
+### The reader's home ground — use it to build confidence
+
+Rhythmic dictation is where the tabla background makes the reader *strong*. Deliberately place
+it **early in the ear gym** (right after pitch matching, before the hard degree work) so the
+reader has a **win** — "oh, I can already do this half" — before the pitch work gets
+demanding. Confidence is a real pedagogical input for an adult beginner on their weak axis.
+
+### The method
+
+A rhythm plays (on one pitch / a click); you write it. Steps:
+
+1. **Find the beat and the metre** — tap along, feel strong/weak, 2s or 3s, simple or compound.
+2. **Feel the phrase as a whole** — a tabla player's instinct (Pass 4): don't go note-by-note,
+   catch the *cell* (long-short-short, the dotted pair, the triplet, the syncopated push).
+3. **Write it against the grid** — subdivide in the smallest value, place each note.
+4. **Clap it back** to check.
+
+### Levels
+
+L1 quarters + halves, 2/4 → L2 add eighths → L3 dotted figures + ties → L4 syncopation +
+triplets → L5 compound metre (6/8) + a rest on a strong beat.
+
+### The reverse — reading complex rhythm
+
+The other direction (belongs half here, half in Pass 4): *seeing* a hard rhythm and playing
+it right first time. The link: **if you can take it down by ear, you can read it** — the
+notation is just a picture of the thing you can already hear and clap.
+
+### Build
+
+- **`taking-a-rhythm-down`** — the method + L1–L5 ladder; framed as "the half of ear training
+  you came in already good at." Uses `rhythmOnly` mode for both the target and the answer.
+
+---
+
+## Pass 18 — Play by ear: the operative goal
+
+*(research batch 18: 2026-09-04 — Stage 5 K1 (`finding-a-tune-by-ear`); the transcription /
+learn-by-ear method (musicstudent101, risingsoftware, fiddlehed "learn tunes by ear");
+Suzuki "mother-tongue" listening; `PRD.md` §3; `play-by-ear-is-the-goal.md`)*
+
+### This is what the whole stage is for
+
+`PRD.md` §3: *"if I hear something, I should be able to play it on my own."* Stage 5's
+`finding-a-tune-by-ear` (K1) was the first real attempt — find home, sing each note as a
+degree, play a guess, hear the error, fix it. Stage 8 makes it **systematic and graded**, and
+extends it from "a tune you already know" to "**a song off a recording you've never played.**"
+
+### The full method (combines Passes 13, 16, 17)
+
+1. **Listen to the whole thing** a few times. Don't touch the violin. Get the tune *in your
+   head* (audiation, Pass 12) — you should be able to hum it.
+2. **Rhythm and phrases first** (Pass 17) — where are the beats, how long is a phrase, where
+   does it breathe.
+3. **Find home** (Pass 12) — hum the tune, find the note it rests on, locate it on the violin.
+   Now you know the key and the finger pattern (Stage 4).
+4. **Degree by degree** (Pass 13) — for each note: sing it, name its degree (or the interval
+   from the last note), put the finger where the degree lives (the reverse map), play it.
+5. **Play a guess, hear the error, correct** — the intonation loop (Stage 4 `tuning-by-ear`).
+   Wrong guesses map the fingerboard; they're the method, not failure.
+6. **Chunk and join** — phrase by phrase, then join them, then play along with the recording.
+
+### The graded ladder
+
+- **L1:** a nursery tune in G, you already know it (Happy Birthday — Stage 5 K1's example).
+- **L2:** a folk tune you *don't* know well, first-position key, we give you the recording.
+- **L3:** a pop hook / film theme's melody (`REPERTOIRE.md` appendix — Hedwig's, Over the
+  Rainbow, Someone You Loved) — from a recording, first phrase.
+- **L4:** a whole short tune, any key, phrase by phrase, then along with the track.
+- **gate:** *hear a simple 4-bar tune in a known key and play it back unaided* (`PRD.md` §4,
+  the Foundation-gate item — reused and raised for the Intermediate gate: *learn a song by ear
+  from a recording*).
+
+### The practice loop
+
+**A new short tune by ear, every few days.** Slow, full of wrong guesses at first, fast within
+weeks (Suzuki's whole method is built on this — children learn tunes by ear before reading,
+"like learning to speak"). This is the single practice habit that most directly serves the
+user's stated goal — it should be prescribed as plainly as the sight-reading habit (Pass 10)
+and the scale routine (Stage 4).
+
+### Build
+
+- **`learning-a-tune-by-ear`** — the 6-step method, walked on L2; then the ladder L1–L4 as
+  small "try this tune" cards (a recording / an `<NotatedExample>` playthrough as the target,
+  notation hidden, reveal to check).
+- **`play-along`** — the last step: playing *with* a recording, matching pitch and time, the
+  ultimate "keep going" and the ultimate ear check.
