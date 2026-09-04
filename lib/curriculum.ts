@@ -524,6 +524,13 @@ export const LESSONS: Lesson[] = [
   { slug: "holding-a-stopped-chord", title: "Holding a stopped chord", stage: 6, track: "left-hand", tag: "NOW", published: P },
   { slug: "which-notes-to-hold", title: "Which notes to hold", stage: 6, track: "left-hand", tag: "NOW", published: P },
 
+  // Movement G — trills, harmonics, and the rest
+  { slug: "the-trill-in-your-fingers", title: "The trill in your fingers", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "natural-harmonics", title: "Natural harmonics", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "artificial-harmonics", title: "Artificial harmonics", stage: 6, track: "left-hand", tag: "REFERENCE", published: P },
+  { slug: "left-hand-pizzicato", title: "Left-hand pizzicato", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "finger-substitution", title: "Finger substitution", stage: 6, track: "left-hand", tag: "NOW", published: P },
+
   // ── Stage 8 — Sight-reading & ear training ─────────────────────
   //   Plan: docs/stage-plans/stage-8.md (research: stage-8-research.md, 22 passes).
   //   Built out of sequence (before Stage 6/7) — it carries the play-by-ear goal

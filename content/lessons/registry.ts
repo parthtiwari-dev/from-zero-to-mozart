@@ -387,6 +387,13 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   // Movement F — stopped chords
   "holding-a-stopped-chord": () => import("./holding-a-stopped-chord.mdx"),
   "which-notes-to-hold": () => import("./which-notes-to-hold.mdx"),
+  // Movement G — trills, harmonics, and the rest
+  "the-trill-in-your-fingers": () =>
+    import("./the-trill-in-your-fingers.mdx"),
+  "natural-harmonics": () => import("./natural-harmonics.mdx"),
+  "artificial-harmonics": () => import("./artificial-harmonics.mdx"),
+  "left-hand-pizzicato": () => import("./left-hand-pizzicato.mdx"),
+  "finger-substitution": () => import("./finger-substitution.mdx"),
 
   // Stage 8 — Sight-reading & ear training
   // 8a · Movement A — reading fluently
