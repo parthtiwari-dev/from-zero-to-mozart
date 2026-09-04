@@ -353,6 +353,16 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "tune-bach-musette": () => import("./tune-bach-musette.mdx"),
   "the-foundation-check": () => import("./the-foundation-check.mdx"),
 
+  // Stage 6 — Beyond first position
+  // Movement A — what a position is, and the first shift
+  "what-a-position-is": () => import("./what-a-position-is.mdx"),
+  "how-the-arm-shifts": () => import("./how-the-arm-shifts.mdx"),
+  "the-four-kinds-of-shift": () => import("./the-four-kinds-of-shift.mdx"),
+  "how-to-practise-a-shift": () => import("./how-to-practise-a-shift.mdx"),
+  "shift-glissando-or-portamento": () =>
+    import("./shift-glissando-or-portamento.mdx"),
+  "reaching-one-more-note": () => import("./reaching-one-more-note.mdx"),
+
   // Stage 8 — Sight-reading & ear training
   // 8a · Movement A — reading fluently
   "what-fluent-reading-is": () => import("./what-fluent-reading-is.mdx"),

@@ -485,6 +485,19 @@ export const LESSONS: Lesson[] = [
   { slug: "tune-gossec-gavotte", title: "Gossec — Gavotte", stage: 5, track: "repertoire", tag: "NEXT", piece: { key: "D major", position: "1st", skill: "the détaché piece — détaché, staccato, retakes, hooked bows, slurs", inPdf: true } },
   { slug: "the-foundation-check", title: "The Foundation check", stage: 5, track: "reading", tag: "NOW", published: P },
 
+  // ── Stage 6 — Beyond first position ─────────────────────────────
+  //   Plan: docs/stage-plans/stage-6.md (research: stage-6-research.md, 21 passes +
+  //   a re-verification pass). Position order: 1st (recap) → half → 3rd → 5th →
+  //   2nd → 4th, 6th/7th REFERENCE. Every fingering copied from the Pass-20 table.
+
+  // Movement A — what a position is, and the first shift
+  { slug: "what-a-position-is", title: "What a position is", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "how-the-arm-shifts", title: "How the arm shifts", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "the-four-kinds-of-shift", title: "The four kinds of shift", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "how-to-practise-a-shift", title: "How to practise a shift", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "shift-glissando-or-portamento", title: "Shift, glissando, or portamento", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "reaching-one-more-note", title: "Reaching one more note", stage: 6, track: "left-hand", tag: "NOW", published: P },
+
   // ── Stage 8 — Sight-reading & ear training ─────────────────────
   //   Plan: docs/stage-plans/stage-8.md (research: stage-8-research.md, 22 passes).
   //   Built out of sequence (before Stage 6/7) — it carries the play-by-ear goal
