@@ -35,7 +35,11 @@ the page and the sound are one thing.
 **Two axes, one stage:**
 
 - **Reading fluency & sight-reading** — the practical bridge from "I can work this out" to "I
-  can play this line I've never seen." PDF Part VII (§77–80).
+  can play this line I've never seen." PDF Part VII (§77–80). Includes **reading everything on
+  the page** (the user's phrasing: "any notes and chords and shit"): notes fast and by
+  pattern; rhythm; the flat keys; chromatic notes; **stacked noteheads / double stops**;
+  **a chord chart / lead sheet** above a melody. (The chord *vocabulary* — symbols, roman
+  numerals, figured bass — was built in Stage 4; Stage 8 reads it *at speed and in context*.)
 - **Ear training from the ground up** — pitch, relative pitch, **functional/scale-degree
   hearing** (the sargam bridge, the centrepiece), chord & cadence hearing, melodic &
   rhythmic dictation, and the operative goal: transcription / play-by-ear. Entirely new — the
@@ -68,7 +72,7 @@ A real foundation is already built and must be *named and consolidated*, not re-
 
 ### Sequencing note — what can build before Stages 6–7
 
-To settle in the plan (Pass 25). First read:
+To settle in the plan (see Pass 22, the re-verification). First read:
 
 - **The reading-fluency block** and **the whole ear-training gym** are **position-independent**
   — they can be built and started **now**, in parallel with Stage 6–7, or even pulled earlier
@@ -289,8 +293,32 @@ Skilled readers let this happen — they *pre-scan* the difficulty during an ear
 The lesson: when the pre-read (Pass 2) flags a hard bar, your eye should visit it again *early*
 while you're playing the easy bars before it.
 
+### The other half of "not note-by-note": note-recognition *speed*
+
+*(added at re-verification, Pass 22 — a genuine gap in the first draft)*
+
+Reading by pattern (above) is the top layer. Under it there has to be **instant single-note
+recognition** — "the bottleneck in most players' sight-reading isn't the fingers, it's how
+fast the eye names a note" (notemasterapp; note-reading-speed sources). A fluent reader names
+**any note in under ~2 seconds**, with **no mnemonic recital** ("E-G-B-D-F → count up…" is
+too slow). This is a distinct, *drillable* sub-skill:
+
+- **The one-minute challenge** — how many random notes can you correctly name in 60 seconds?
+  A reasonable fluency target is **15+**. Repeat daily; watch the number climb.
+- **10 minutes a day of timed recognition** builds lasting fluency in **2–4 weeks** (the same
+  timescale as learning the landmarks in the first place — Stage 1).
+- On the violin the target is really "name it *and* know the string+finger" instantly — so the
+  drill doubles as fingerboard automaticity (ties Stage 5 K1's reverse map).
+
+**Build:** `reading-notes-fast` — the timed-recognition drill (a `<NotatedExample>` or a
+`<Quiz>`-style card showing single notes; the reader names/plays; a timer/score). This is a
+*drill*, released as repeatable material like the sight-reading cards, plus one short framing
+lesson.
+
 ### Build
 
+- **`reading-notes-fast`** — instant single-note recognition; the one-minute challenge; the
+  2-week timescale (the re-verification gap).
 - **`landmarks-and-guide-notes`** — the anchor notes, read *from* them (consolidates Stage 1).
 - **`reading-the-shape`** — step / skip / leap, contour, "a string on the page" (extends
   Stage 1 `steps-and-skips`).
@@ -729,21 +757,33 @@ Three ways people train relative pitch:
 1. **Reference songs** — "that leap is the start of *Twinkle*, so it's a 5th." Fine as a
    *bootstrap*, useless at speed (you can't name a song for every interval fast enough). Stage
    4 F4 already planted a few anchors — keep them as a fallback, not the method.
-2. **Interval drills** — brute-force "name the interval." Simple, common, and **the research
-   says it's the weaker method** — students trained on isolated intervals develop *worse*
-   real-world relative pitch than students trained functionally (Karpinski 2000).
-3. **Functional / scale-degree (movable-do or numbers)** — hear every note as its **degree
-   and its pull** relative to the tonic. *"Do sounds home, Ti aches upward, Fa sags, Sol
-   sounds open and expectant."* This is **the strongest, most transferable method** — it's
-   the Kodály tradition, it's what Karpinski's research supports, and it's how music actually
-   works (notes have functions, not just distances).
+2. **Interval drills** — "name the interval," context-free. A **real, useful skill** — you
+   need it for a bare leap with no tonal context, and for harmonic (two-note-together)
+   hearing. But **on its own it's not how tonal music is heard:** the same interval means
+   different things in different functional contexts (a descending 5th ^5→^1 = a cadence;
+   ^3→^6 = something darker), so an ear trained *only* on isolated intervals struggles to name
+   them inside real music.
+3. **Functional / scale-degree (numbers, or movable-do)** — hear every note as its **degree
+   and its pull** relative to the tonic. *"Do/^1 sounds home, ti/^7 aches upward, fa/^4 sags,
+   sol/^5 sounds open and expectant."* This models **how tonal listening actually works** —
+   Karpinski's cognitive account (2000) puts **tonic inference first**: you locate "home", and
+   every other pitch's identity and function *derives from its relationship to that tonic*.
+   It's the Kodály tradition, and it's the primary method here.
 
-**For this user it is not even close.** The sargam system he already carries **is functional
-ear training** — Sa/Re/Ga/Ma/Pa/Dha/Ni are scale degrees sung against a drone, "the emphasis
-is not on the scale but on the intervals [i.e. the functional relationships]" (Stage 4 A3).
-The entire ear gym is: **take the ear he has for Sa-relative hearing and point it at Western
-tunes, Western harmony, and the violin fingerboard.** Movable-do syllables (or plain
-`^1`–`^7` numbers) are the bridge notation; sargam is the instinct underneath.
+**Both matter — but functional is the spine and it plays to this user's strength.** The
+sargam system he already carries **is functional ear training** — Sa/Re/Ga/Ma/Pa/Dha/Ni are
+scale degrees heard against a drone, "the emphasis is not on the scale but on the intervals
+[i.e. the functional relationships]" (Stage 4 A3). The entire ear gym is: **take the ear he
+has for Sa-relative hearing and point it at Western tunes, Western harmony, and the violin
+fingerboard.** Intervals (Pass 14) are taught as *two scale degrees* and as a lighter,
+complementary track.
+
+**Notation choice — use scale-degree *numbers* (`^1`–`^7`) as the primary system.** They work
+**identically in major and minor** (^1 is always the tonic; the minor scale is ^1 ^2 ♭^3 ^4
+^5 ♭^6 ♭^7), which sidesteps the movable-do "do-based vs la-based minor" debate that Karpinski
+(2021, *Choosing a Solmization System*) spends a whole article on. Movable-do syllables and
+sargam ride along as the *familiar overlay* (the reader already thinks in Sa-Re-Ga), but the
+course's written shorthand is the caret numbers it has used since Stage 4 A2.
 
 ### The order to build it
 
@@ -919,10 +959,11 @@ now.
 "Ascending Interval Ear Training"; musiversal "Songs to Practice Intervals"; deftdigits "Scale
 Degrees vs. Intervals"; Stage 4 F1–F3 (`what-an-interval-is`, the interval anchors))*
 
-### Intervals matter — but they're not the primary method
+### Intervals matter — but they're the *second* method, not the first
 
-The research (Pass 11, Karpinski) is clear that **isolated** interval drilling builds weaker
-real-world hearing than functional work. But intervals still matter because:
+Per Pass 11: tonal music is heard **functionally** (against the tonic), so the scale-degree
+gym (Pass 13) is the spine. But intervals are a real complementary skill, and they matter
+because:
 
 - a **leap** in a tune has to be measured *somehow* (Pass 3 — the leap is one of the reading
   shapes);
@@ -1281,12 +1322,28 @@ functional ear training. But they're a **REFERENCE aside**, not a spine: one sho
 skip them if not." The user's sargam counting already gives him a syllable system; the signs
 are an optional extra body-cue.
 
-### Gap 2 — the drone bar's capability
+### Gap 2 — how a lesson "plays a drone" (checked the code)
 
-Passes 12/13/15/19 all assume the drone can sound **any of the 12 tonics** and hold it. If the
-current drone bar only does the four open strings (likely), that's a **real infra dependency**
-for Stage 8 — flag it for the plan: the drone needs a full chromatic tonic selector (a small,
-contained change — `RULES.md` #17 — not a new component, an extension of one).
+`components/PracticeBar.tsx` + `lib/audio.ts`: the persistent drone bar has a `Drone` class
+that accepts **any frequency**, but `DRONE_NOTES` (the pill buttons) is **only the four open
+strings — G, D, A, E**. A *lesson* can't drive the PracticeBar anyway (it's separate
+persistent UI). So the ear-gym drills need their own way to establish a key. **The clean
+answer, no new component (`RULES.md` #17):**
+
+- **The drill card uses `<NotatedExample>`** to play **"key-setting → rest → target"** in one
+  ABC snippet — e.g. a rolled **I chord** (or a I–IV–V–I) `[G,B,D]2 z2 | e4 |` establishes G
+  major harmonically, then the target degree sounds. `reveal="hidden"` gives the answer on
+  tap. This is exactly the existing sight-reading-card shape, reversed (sound is the question,
+  notation is the answer). No sustained drone needed for the *drills*.
+- **Separately, expand `DRONE_NOTES`** in `lib/audio.ts` from 4 entries to a fuller set — at
+  minimum **G · A · D · C · E · B · F♯ · F · B♭** (the tonics of every key the reader works
+  in, major and relative-minor), ideally the **chromatic 12**. That's a **one-array data
+  change**, and it makes the persistent drone bar genuinely usable for the reader's *own*
+  practice against a held drone (which the sargam ear wants). Optional nicety: a small
+  "12 notes / open strings" toggle so the bar isn't cluttered.
+
+**So: no blocking infra dependency.** One tiny data edit (`DRONE_NOTES`) is a *nice-to-have*;
+the drills themselves ship on `<NotatedExample>` as-is.
 
 ### Gap 3 — "which note did the violin play?" (the CURRICULUM's own bullet)
 
@@ -1339,10 +1396,11 @@ One `stage: 8`, split **8a / 8b** on `/learn` (like 3a/3b, 4a/4b/4c, 5a/5b/5c). 
 
 ### 8a — Reading fluently & the ear from the ground up *(builds next; position-independent)*
 
-**Movement A — Reading fluently (`reading` track, ~7)**
+**Movement A — Reading fluently (`reading` track, ~8)**
 | Slug | Teaches |
 |---|---|
 | `what-fluent-reading-is` | patterns not notes; chunking; the eye runs ahead; "sight-reading is its own skill, practised easy and daily" |
+| `reading-notes-fast` | instant single-note recognition (no mnemonic recital); the one-minute challenge (target 15+); "name it *and* the string+finger". A drill + short framing. |
 | `the-pre-read` | the 9-step scan (clef → key → time → range → accidentals → rhythm → bows → roadmap → audiate beat 1); S-T-A-R-S as the compact version |
 | `landmarks-and-guide-notes` | anchor notes, read *from* them (consolidates Stage 1) |
 | `reading-the-shape` | step / skip / leap, contour, "a string on the page" (extends Stage 1 `steps-and-skips`) |
@@ -1418,8 +1476,9 @@ One `stage: 8`, split **8a / 8b** on `/learn` (like 3a/3b, 4a/4b/4c, 5a/5b/5c). 
   hard card) · **`the-intermediate-check`** (the self-audit + the gate card + the gate
   dictation + a "learn this by ear" tune).
 
-**Count:** 8a ≈ **34 concept lessons + 2 disposable ladders (cards + drills)**; 8b ≈ 5 + the
-upper ladder. Total in the Stage-4/5 range, weighted to the ear per `PRD.md` §6.1.
+**Count:** 8a ≈ **35 concept lessons + 3 disposable ladders** (sight-reading cards ·
+note-speed / degree / dictation drill sets · the play-by-ear tune list); 8b ≈ 5 + the upper
+card ladder. Total in the Stage-4/5 range, weighted to the ear per `PRD.md` §6.1.
 
 ### Merge candidates (for the `stage-8.md` plan to weigh with the user)
 
@@ -1433,11 +1492,24 @@ upper ladder. Total in the Stage-4/5 range, weighted to the ear per `PRD.md` §6
 - `read-the-rhythm-first` + `taking-a-rhythm-down` — the reading and the dictation halves of
   the same rhythm skill; could pair.
 
-### Infra dependency (flag for the plan)
+### Infra — checked, not blocking
 
-**The drone bar must hold a drone on any of the 12 tonics** (Passes 12/13/15/19). If it
-currently only does the four open strings, that's a contained extension (`RULES.md` #17 — not
-a new component). Confirm before building Movement D–H.
+Per Pass 22 Gap 2: the ear-gym drills ship on **`<NotatedExample>`** playing "key-setting →
+target" — no new component, no blocker. The one *nice-to-have* is expanding `DRONE_NOTES` in
+`lib/audio.ts` (4 → ~9–12 tonics) so the persistent drone bar is usable for the reader's own
+drone practice — a one-array data edit, do it early in the build, not a dependency.
+
+### Small fixes applied at re-verification (Pass 22)
+
+- Softened the Karpinski claim (Pass 11, 14, sources): functional hearing is *primary*
+  (tonic-inference-first, per Karpinski's cognitive model) — **not** "interval training is
+  worse." Intervals are a real complementary skill, taught as two degrees.
+- Chose **scale-degree numbers `^1`–`^7`** as the primary shorthand (works in major & minor,
+  avoids the do-based/la-based minor problem); movable-do + sargam are the familiar overlay.
+- Added **`reading-notes-fast`** (Movement A) — instant single-note recognition speed, the
+  one-minute challenge — a genuine gap in the first draft.
+- Corrected the drone-bar infra story (above).
+- Fixed a stray "Pass 25" reference (there are 22 passes).
 
 ---
 
@@ -1469,11 +1541,18 @@ a new component). Confirm before building Movement D–H.
   "Definitive Guide to Sight Reading" / "Taking the Pain Out of Sight Reading" / "Rhythmic
   Sight-Reading: Friend or Foe"; cellobello "A New Look at Sight-Reading"; pas.org "Subdivide
   and Conquer"; the four-layer rescue + the 8 cards from **the PDF, Part VII §77–83**.
+- **Note-recognition speed:** notemasterapp "Note-Reading Speedruns"; noterushapp / practito /
+  "Name That Note" — the "bottleneck is recognition speed not fingers" finding, the one-minute
+  challenge (target 15+), the 2–4-week timescale.
 
 **Ear training — research & method**
 
-- **Karpinski, *Aural Skills Acquisition* (2000)** — tonal/scale-degree ear training
-  significantly outperforms interval-based; "do-mi-sol as a functional unit".
+- **Karpinski, *Aural Skills Acquisition* (2000)** — the cognitive model of tonal listening:
+  **tonic inference is the first and most fundamental process**, and every scale degree's
+  identity and function *derives from its relationship to the tonic*. This is the argument for
+  scale-degree hearing as the *primary* method (not "interval training is bad" — intervals are
+  a real complementary skill). Also Karpinski, *Choosing a Solmization System* (MTO 27.2,
+  2021) — the do-based vs la-based minor problem, which using **numbers** avoids.
 - **Edwin Gordon, Music Learning Theory** — audiation; "sound before sign"; singing as the
   externalising step.
 - **Kodály / Curwen** — movable-do solfège, the hand signs, the LA-SOL-MI → RE-DO-LA motive
