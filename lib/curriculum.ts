@@ -508,6 +508,11 @@ export const LESSONS: Lesson[] = [
   { slug: "moving-between-first-third-and-fifth", title: "Moving between 1st, 3rd, and 5th", stage: 6, track: "left-hand", tag: "NOW", published: P },
   { slug: "the-position-ladder", title: "The position ladder", stage: 6, track: "reading", tag: "NOW", published: P },
 
+  // Movement D — 2nd and 4th position
+  { slug: "second-position", title: "Second position", stage: 6, track: "left-hand", tag: "NEXT", published: P },
+  { slug: "fourth-position", title: "Fourth position", stage: 6, track: "left-hand", tag: "NEXT", published: P },
+  { slug: "the-full-fingerboard-map", title: "The full fingerboard map", stage: 6, track: "reading", tag: "REFERENCE", published: P },
+
   // ── Stage 8 — Sight-reading & ear training ─────────────────────
   //   Plan: docs/stage-plans/stage-8.md (research: stage-8-research.md, 22 passes).
   //   Built out of sequence (before Stage 6/7) — it carries the play-by-ear goal
