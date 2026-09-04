@@ -585,3 +585,327 @@ don't each need a six-beats lesson — they're *material*, like the scale set.
 - **the card ladder itself** — a page of levelled cards (authored ABC), released alongside the
   reading-fluency lessons. Not 60 lessons — one page, many cards.
 - The **gate card** lives with `the-intermediate-check` (Pass 24).
+
+---
+
+## Pass 9 — Reading across keys, chromatics, textures (and, later, positions)
+
+*(research batch 9: 2026-09-04 — violinist.com key-signature threads;
+violinspiration.com "Violin Key Signatures" & "Double Stops"; musiciangoods "Violin Key
+Signatures"; charveypublications "Playing in Keys" / "Double Stop Beginnings"; Stage 3
+`beamed-notes-double-stops-and-vibrato`, Stage 4 `key-signatures-in-full`)*
+
+### Sharp keys vs flat keys — a real reading shift for a violinist
+
+Stages 1–5 lived almost entirely in **sharp keys** (G, D, A) plus C — because the open strings
+G-D-A-E *are* the sharp side of the circle, and the finger patterns fall naturally
+(`the-keys-the-violin-loves`, Stage 4 E2). **Flat keys read differently under the hand:**
+
+- **F major** (1 flat) → **low 1st finger** where the reader is used to a normal 1: B♭ on the
+  A string, F on the E string. The whole hand shifts its sense of "1".
+- **B♭ major** (2 flats) → low 1 on A *and* E; the 2nd finger sits where a low-2 used to be.
+- The mnemonic pair (`F C G D A E B` sharps / `B E A D G C F` flats) is Stage 4 material; the
+  *reading* skill is recognising **"flats in the signature → my 1st finger creeps back."**
+
+**For the build:** the card ladder introduces F major / D minor as its own level (level 5),
+and there's a short lesson `reading-the-flat-keys` — the low-1 hand, the two or three flat
+signatures a first-position player meets, how they *feel* different from the sharp keys.
+
+### Chromatic notes at sight
+
+An accidental *outside* the key — the reader has read these since Stage 1
+(`accidentals-inside-a-bar`), but reading one **at speed** while keeping the pulse is the
+skill. The pattern: an accidental almost always **leans** (a chromatic passing/neighbour note,
+Stage 4 H3) — so you can *predict* it resolves by a half step to the note next to it. The
+lesson `reading-a-chromatic-note` shows the common shapes (the raised leading tone, the
+chromatic passing tone, the ♭6) and the "it leans, so I know where it's going" trick.
+
+### Reading a vertical stack — double stops & light chords
+
+Stage 3 taught *seeing* the stack (`beamed-notes-double-stops-and-vibrato` — "two in a row,
+two at once, or a wobble") and the "Vivaldi visual problem." Stage 8 reads it at sight:
+
+- **the four kinds of double stop** — open+open, open+stopped-above, open+stopped-below,
+  stopped+stopped — and which are readable *now* (the first three; stopped+stopped is Stage 6).
+- reading the **bottom note as the string level** and the top as the fingered note.
+- a rolled 3-/4-note chord = read the top note (the melody) + know the roll is bottom-to-top
+  (Stage 5 `rolling-a-chord-with-the-bow`).
+
+A light lesson `reading-two-notes-at-once` — recognise the stack, read it as string + finger,
+the first-three double-stop kinds; defers the real double-stop *technique* to Stage 6.
+
+### Positions (Stage 8b — after Stage 6)
+
+Once shifting exists: reading a line that leaves first position — recognising **from the
+notation + the fingering + the phrase** that a shift is coming, reading the roman position
+numbers (Stage 3 G3, Stage 5 I1), and the graded ladder's levels 11+. Flagged here, planned
+in Stage 6's own plan and revisited in Stage 8b.
+
+### Build
+
+- **`reading-the-flat-keys`** · **`reading-a-chromatic-note`** · **`reading-two-notes-at-once`**
+  — three short reading lessons.
+- Positions-at-sight = Stage 8b.
+
+---
+
+## Pass 10 — Sight-reading as a daily habit, and the tools
+
+*(research batch 10: 2026-09-04 — bulletproofmusician "Born or Made?"; pianochronicles
+"10-Minute Practice System"; ABRSM Violin Sight-Reading Trainer app; Read Ahead / Sight
+Reading Factory; violinist.com "catching up on missed basics"; the PDF's practice-hygiene
+material)*
+
+### The habit that actually builds the skill
+
+Consensus across every source: **sight-reading is built by daily volume of easy new
+material**, not by occasional hard tests. The routine:
+
+- **5–10 minutes, every practice session**, at the start (before the ear tires and the
+  standards slip).
+- **Always something you have never seen**, and **a level or two below** your current
+  repertoire.
+- **One look (the pre-read), one go (no stopping), then move on.** Do not replay.
+- Nudge the level up only when a whole level goes cleanly at a *slow* pulse.
+- Over months, this is the difference — "great sight-readers are *made*, by reading a very
+  large amount of music" (bulletproofmusician).
+
+### Tools
+
+- **The drone / metronome bar** (our own, always-present) — the metronome *is* the
+  no-stopping enforcer; set it slow, and it drags the eyes forward.
+- **The card ladder** (Pass 8) — the disposable stream.
+- **External, named honestly** — the ABRSM *Violin Sight-Reading Trainer* app (Grades 1–5),
+  *Read Ahead*, *Sight Reading Factory* — endless fresh graded material, which is exactly what
+  the habit needs. A REFERENCE aside, not a dependency: our cards seed it, the apps sustain it.
+- **Duet reading** — reading *with* someone (or a backing track) is the best forcing function
+  for "keep going" because you literally can't stop. Flag it as the next step once the reader
+  has a teacher or a group.
+
+### Build
+
+- **`the-sight-reading-habit`** — the 5-minutes-a-day routine, the "always new, always easier"
+  rule, the tools; ties `how-to-practise-a-scale` (Stage 4) and `how-to-practise-a-bow-stroke`
+  (Stage 5) — same deliberate-practice spine.
+
+---
+
+# THE EAR GYM — building the ear from the ground up
+
+*This is the larger half of Stage 8 and the part that carries `PRD.md` §3. Passes 11–22.*
+
+---
+
+## Pass 11 — The architecture of an ear: what to build, and in what order
+
+*(research batch 11: 2026-09-04 — musical-u "An Approach to Ear Training" / "Ultimate Guide to
+Interval Ear Training"; the-maestro-online "Solfège vs Harmony — a research-driven comparison";
+Karpinski, *Aural Skills Acquisition* (2000); tonesavvy / tonedear "Functional (Scale Degree)
+Ear Training"; pitchd.net "Solfège Ear Training"; Edwin Gordon on audiation; the sargam
+material in Stage 4 A3, Stage 1 `sa-and-the-letter-names`)*
+
+### What "a good ear" is actually made of
+
+Not one skill — a stack:
+
+| Layer | The skill | Built by |
+|---|---|---|
+| **Pitch memory** | hold a pitch in your head, match it with your voice | singing, matching a drone (Pass 12) |
+| **Tonal / functional hearing** | hear a note as *"the 5th"*, *"the leading tone"* — its role and pull in a key | scale-degree work against a drone (Pass 13) — **the core** |
+| **Relative pitch** | hear the distance between two notes | falls out of functional hearing; interval drills as backup (Pass 14) |
+| **Harmonic hearing** | hear chords, the bass, the progression, cadences | chord-quality + cadence drills (Pass 15) |
+| **Rhythmic hearing** | take down a rhythm by ear | the reader's strength — build confidence (Pass 17) |
+| **Timbre / instrument ID** | which instrument, which string | minor for us — one aside |
+| **Melodic memory & transcription** | hold a whole tune, write it / play it | dictation + play-by-ear (Passes 16, 18) |
+
+Absolute (perfect) pitch is **not** on this list — it's rare, mostly fixed in early childhood,
+and **not needed**. Relative/functional pitch is the whole game, and it is trainable at any
+age.
+
+### The method question — and the answer for this user
+
+Three ways people train relative pitch:
+
+1. **Reference songs** — "that leap is the start of *Twinkle*, so it's a 5th." Fine as a
+   *bootstrap*, useless at speed (you can't name a song for every interval fast enough). Stage
+   4 F4 already planted a few anchors — keep them as a fallback, not the method.
+2. **Interval drills** — brute-force "name the interval." Simple, common, and **the research
+   says it's the weaker method** — students trained on isolated intervals develop *worse*
+   real-world relative pitch than students trained functionally (Karpinski 2000).
+3. **Functional / scale-degree (movable-do or numbers)** — hear every note as its **degree
+   and its pull** relative to the tonic. *"Do sounds home, Ti aches upward, Fa sags, Sol
+   sounds open and expectant."* This is **the strongest, most transferable method** — it's
+   the Kodály tradition, it's what Karpinski's research supports, and it's how music actually
+   works (notes have functions, not just distances).
+
+**For this user it is not even close.** The sargam system he already carries **is functional
+ear training** — Sa/Re/Ga/Ma/Pa/Dha/Ni are scale degrees sung against a drone, "the emphasis
+is not on the scale but on the intervals [i.e. the functional relationships]" (Stage 4 A3).
+The entire ear gym is: **take the ear he has for Sa-relative hearing and point it at Western
+tunes, Western harmony, and the violin fingerboard.** Movable-do syllables (or plain
+`^1`–`^7` numbers) are the bridge notation; sargam is the instinct underneath.
+
+### The order to build it
+
+1. **Sing and match** — you can't train an ear you can't check; the voice is the test
+   instrument. (Pass 12.)
+2. **The tonic, and home** — establish a key with a drone/cadence, *feel* the tonic. (Pass 12.)
+3. **The scale degrees, one at a time, against the drone** — the core drill, straight out of
+   Stage 4 F4. (Pass 13.)
+4. **Then**: intervals (Pass 14), chord quality & cadences (Pass 15), melodic dictation
+   (Pass 16), rhythmic dictation (Pass 17), and **play-by-ear / transcription** (Pass 18) —
+   the goal everything feeds.
+
+### Build
+
+- **`what-a-good-ear-is`** — the stack above; "not perfect pitch — *functional* pitch";
+  "you already have this ear, it's called sargam" (cite a raga/sargam reference, `RULES.md`
+  #8); the order of the gym. One framing lesson, then the drills.
+
+---
+
+## Pass 12 — Sing and match, audiate, and find home (the drone)
+
+*(research batch 12: 2026-09-04 — Gordon, *Music Learning Theory* / audiation (letsplaymusic,
+prodigies, allianceamm, makemusic "Developing the Skill of Audiation"); musical-u
+"Audiation — It's All In Your Head"; fiddlehed "Audiation"; stringkick "Ear Training — The
+Ultimate Guide"; Stage 4 F4/F5, Stage 1 `ringing-tones` / `hearing-a-wrong-note`)*
+
+### Audiation — hear it before you play it
+
+**Audiation** (Edwin Gordon's term): *hearing and comprehending music whose sound is not
+physically present* — the mind's ear, the equivalent of the mind's eye. It is the foundation
+skill under both halves of this stage: you **audiate the page** when you sight-read (Pass 2),
+and you **audiate the target** when you play by ear (Pass 18). Everything in the ear gym is a
+way of building it.
+
+The training loop is always the same: **imagine the sound → produce it → let the ear judge
+the match → adjust.** Repeated, this *is* ear training.
+
+### The voice is the test instrument — and yes, he has to sing
+
+Every ear-training tradition makes you **sing**, because singing is the only way to *externalise*
+what you're audiating so the ear can check it. You imagine a pitch, you sing it, your ear
+tells you if it matched. There's no substitute — playing it on the violin adds a layer of
+"did my finger land right" that hides whether your *ear* was right.
+
+**The "I can't sing" objection** — head it off directly, because an adult beginner will raise
+it:
+
+- The goal is **not** a beautiful voice — it's a *checkable* one. Humming quietly, in your
+  own range, alone, is enough.
+- "Can't sing in tune" is almost always an **untrained ear**, not a broken voice — and it's
+  exactly what this training fixes. Matching improves fast.
+- The violin *helps*: **sing a note, then play it, then sing along with the string.** The
+  string is a perfectly in-tune reference to pull your voice onto. (This also improves your
+  *intonation* — Stage 4 `tuning-by-ear`.)
+
+### Pitch matching — the first drill
+
+1. The drone bar plays a pitch. **Hum it.** Play it on the violin. Do the three match?
+2. Play a note. **Hum it back** without looking. Check.
+3. The drone plays; **hum a note a step above / a fifth above**; check against the violin.
+
+This is Stage 4 `tuning-by-ear` turned into a daily 2-minute drill, and it's the base of
+everything else.
+
+### Find home — establish the tonic
+
+Before any functional work you have to **set the key in the ear**:
+
+- Play a **drone on the tonic** (our drone bar — the reader has used it since Stage 4 F4), or
+- Play a **short I–IV–V–I** (Stage 4 H1) to plant the key harmonically.
+
+Then the tonic *feels* like home — and every other note is heard *against* that feeling. This
+is the sargam instinct exactly: choose Sa, and every swara is a distance-and-flavour from it.
+The reader already does this; the drill makes it explicit and Western.
+
+- **`hearing-home`** drill: drone plays; a random scale note sounds; *is that the tonic or
+  not?* Then: *sing the tonic* (find your way home from wherever the note was). Then hum a
+  short phrase and end it "at home."
+
+### Build
+
+- **`hearing-it-first`** — audiation, the imagine→sing→check loop, "the sound is made inside
+  your head first"; cites Gordon.
+- **`singing-is-not-optional`** — the voice as the test instrument; the "I can't sing"
+  answer; sing-then-play-then-sing-along; the matching drills.
+- **`finding-home`** — set the key (drone or cadence), feel the tonic, the "is this home?"
+  drill. Straight extension of Stage 4 F4.
+
+---
+
+## Pass 13 — The scale-degree gym (the core of the whole stage)
+
+*(research batch 13: 2026-09-04 — tonesavvy / tonedear "Functional (Scale Degree) Ear
+Training" (the 3-unit / 5-level progression); the Kodály "LA SOL MI / RE DO LA" motive
+sequence; sonicfit "Scale Degree Ear Training"; intmus "Integrated Aural Skills"; Karpinski
+2000; Stage 4 A2 `the-scale-degrees-and-their-pull`, F4 `hearing-the-scale-degrees`)*
+
+### This is the drill everything else is built on
+
+Stage 4 F4 (`hearing-the-scale-degrees`) *introduced* it: drone on, play the scale, hear each
+note pull against home — ^7 grinds up, ^4 sags to ^3, ^1/^3/^5 settle — then name a random
+degree. Stage 8 turns that into a **systematic, levelled gym**, done a few minutes daily, and
+it is the single highest-value thing in the course for this user.
+
+### The progression (from the functional-ear-training research)
+
+Build the seven degrees in **three waves**, each "locked in as a handbell" — a sound you know
+instantly:
+
+**Wave 1 — the stable three (the tonic triad): ^1 / ^3 / ^5** — *do, mi, sol*. These *rest*.
+Drill: drone plays; one of ^1/^3/^5 sounds; name it (sing it, then check on the violin).
+Then two in a row. Then a 3-note fragment (`do-mi-sol`, `sol-mi-do`).
+
+**Wave 2 — the tendency four, by their pull: ^2 / ^4 / ^6 / ^7** — *re, fa, la, ti*. Don't
+learn these as pitches — learn them as **motion toward a stable note**:
+- **^7 → ^1** (*ti → do*) — the strongest pull, a half step, aches up
+- **^4 → ^3** (*fa → mi*) — sags down, a half step
+- **^2 → ^1** (*re → do*) — leans down, gently
+- **^6 → ^5** (*la → sol*) — the melancholy one, falls to sol
+Drill: a tendency note sounds; *sing where it wants to go*, then name the note itself.
+
+**Wave 3 — all seven at once** — using the pull to disambiguate. Drone; any scale note; name
+it. Then random sequences of 3, 4, 5 notes. Then **a phrase from a tune the reader knows**,
+degree by degree.
+
+**Wave 4 (LATER / Stage 8b) — the chromatic five** — ♯4, ♭6, ♭7, ♯1/♭2, ♯5 — each as an
+altered version of a diatonic degree with its own lean (Stage 4 K3, H10). Recognise, don't
+drill hard.
+
+### The sargam bridge, made concrete
+
+The reader can already do wave 1–2 *in sargam*. So the lesson is short and the drill is
+familiar:
+
+| Western | Sargam | Feel |
+|---|---|---|
+| ^1 *do* | **Sa** | home |
+| ^2 *re* | **Re** (shuddha) | leans to Sa |
+| ^3 *mi* | **Ga** (shuddha) | bright, stable |
+| ^4 *fa* | **Ma** (shuddha) | sags to Ga |
+| ^5 *sol* | **Pa** | open, expectant |
+| ^6 *la* | **Dha** (shuddha) | melancholy, falls to Pa |
+| ^7 *ti* | **Ni** (shuddha) | tense, aches to Sa |
+
+*(Accuracy: this is the **major-scale / Bilawal-thaat** alignment. Say that — it's not "sargam
+= the major scale", it's "the shuddha swaras line up with the major scale, and the *functions*
+transfer." Cite Bhatkhande / a sargam reference. `RULES.md` #8, `CLAUDE.md` Mistakes #10.)*
+
+### On the violin — the reverse map falls out of this
+
+Once the reader can hear "that's ^5" against a G-major drone, they also know **^5 of G = D =
+open D string / or 4th finger on the G string**. The scale-degree gym and the *reverse
+fingerboard map* (Stage 5 K1, `finding-a-tune-by-ear`) are the same skill from two directions.
+A drill: drone in D; a degree sounds; *play it* (not name it) — find ^6 of D on the violin,
+now.
+
+### Build — the biggest sub-block of the stage
+
+- **`the-stable-three`** (^1/^3/^5 as handbells) · **`the-tendency-tones`** (^2/^4/^6/^7 by
+  their pull) · **`all-seven-degrees`** (the full drill) · **`degrees-on-the-fingerboard`**
+  (hear a degree → play it, the reverse map) · **`degrees-in-your-tunes`** (name the degrees
+  of Ode to Joy / Twinkle / a folk tune by ear).
+- Each is a short lesson + a repeatable drill (drone bar + `<NotatedExample>` playing the
+  target; the reader sings/plays; the answer reveals).
