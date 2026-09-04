@@ -197,27 +197,34 @@ much more (the ear thread, the physics, transposition, the modes, an accurate ra
 
 ## Phase 2 — Stages 6–8 (PDF Part VII + new)
 
-### Stage 6 — Left hand beyond first position
-*Mostly new (PDF gestured at positions/shifting). ~18–24 lessons.*
+### Stage 6 — Beyond first position — ✔ BUILT 2026-09-05, 30 lessons
+*Mostly new (PDF gestured at positions/shifting).* `stage-plans/stage-6-research.md` (21 passes
++ a re-verification pass) + `stage-6.md` (Movements A–H).
 
-- First-position map revisited; 4th-finger security; extensions & contractions.
-- **What a "position" is** — the location of the whole left hand, not a finger. Finger number
-  alone is never a complete pitch address.
-- **Shifting:** release thumb pressure, arm leads, guide / ghost notes, same-finger vs
-  new-finger shifts, shifting on the old bow vs the new bow, Classical vs Romantic portamento,
-  making shifts silent.
-- **Positions one at a time:** 3rd (the usual first shift — 1st finger goes where 3rd was),
-  2nd, **4th** (why K.216 uses it — it keeps a fast line on one string), 5th, 6th, 7th;
-  half position; a 1st-finger table per string per position.
-- **Double stops:** open+open → open+stopped → stopped+stopped; 3rds, 6ths, octaves, fingered
-  octaves, 10ths (reference); tuning the interval; the bow plane between two strings.
-- **Chords:** 3- and 4-note; breaking / rolling; the curved bridge makes sustained 4-string
-  contact impractical.
-- **Trills & finger action:** relaxed lift / drop, accurate base pitch before speed, trill from
-  above vs below, Baroque vs Classical starts, trill chains.
-- Ornament execution, physically (mordents, turns, grace notes).
-- **Harmonics:** natural (nodes — half / third / quarter points), artificial (touch-fourth).
-- Left-hand pizzicato; glissando as effect; finger substitution.
+- **A — what a position is, and the first shift (6):** a position = where the whole hand sits,
+  named by the 1st finger; half position; the four Galamian shift types + guide notes; shift
+  timing (steal it from the note before — Fischer/Galamian, cited); shift vs portamento vs
+  glissando + Classical/Romantic style; finger extensions & contractions (a bigger low/high
+  fingers), pivoting as REFERENCE.
+- **B — 3rd position (3):** the note map, the open-string octave self-check, reading `III`,
+  first fragments.
+- **C — 5th position (3):** the note map, the thumb-touches-the-body landmark, triangulating
+  1st/3rd/5th, the position ladder (Stage 8's scaffold, a new axis).
+- **D — 2nd and 4th position (3):** both landmark-free, found by ear or by un-shifting; `the-
+  full-fingerboard-map` (REFERENCE) — the whole 1–7 table + one long notated scale.
+- **E — double stops, stopped (5):** the technique ladder's new top rung (open+open,
+  open+stopped already existed); thirds, sixths, octaves; the wiggle-to-lock tuning method;
+  fingered octaves & tenths (REFERENCE, Ševčík Op.9).
+- **F — stopped chords (2):** the left-hand half of the Stage-5/K.216 chord debt — holding a
+  playable 3-/4-note stopped chord, triaging which notes to hold when it can't all be held.
+- **G — trills, harmonics, and the rest (5):** trill as finger action (base-knuckle motion);
+  natural harmonics (performed — the ½, ⅓, ¼ nodes); artificial harmonics (REFERENCE); left-hand
+  pizzicato (the `+` sign); finger substitution.
+- **H — 6th/7th+ and the position check (3):** 6th/7th REFERENCE (7th's 1st finger = the octave
+  harmonic node); the practice method (isolate the shift, practise silently, check by ear); the
+  position self-check (not a gate).
+- **Movement P (repertoire): deferred**, needs a verified PD source (Vivaldi A minor RV 356
+  is the lead candidate, Tier 2 below) before any tune slug is created.
 
 ### Stage 7 — Vibrato & expression
 *PDF Part VI (vibrato portion) + new. ~12–16 lessons.*

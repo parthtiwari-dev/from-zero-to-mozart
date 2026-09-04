@@ -13,7 +13,11 @@ Every section of the original 193-page PDF (`docs/source/original-violin-book.pd
 >   physics, non-chord tones, the K.216 first-note bridge). Build green (231 pages).
 > - **Part VI → Stage 5:** BUILT (2026-09-04). 36 lessons; the §62/§63 pasted-paragraph
 >   padding replaced with a real lesson + atlas card per stroke. 4 gate tunes deferred.
-> - **Parts VII–IX (Stages 6–9 + Vivaldi/Mozart modules): `todo`** (Phase 2–3).
+> - **Part VII (positions/shifting portion) → Stage 6: ✔ BUILT (2026-09-05).** 30 lessons —
+>   went far past the PDF's §64–§67, §73–§75 (a full 1st→3rd→5th→2nd→4th teaching order, the
+>   left-hand chord debt, natural + artificial harmonics, finger substitution). §68–§69
+>   (vibrato) and Part IX's Mozart-specific rows remain Stage 7 / the Mozart module.
+> - **Part VIII–IX (Stages 7–9 + Vivaldi/Mozart modules): `todo`** (Phase 2–3).
 
 Legend for target stage: see `CURRICULUM.md`.
 
@@ -143,18 +147,18 @@ PDF's dropped F♯ in the §59A G-major answer.
 | 113 | §61 Bow physics in plain language | Stage 5 — `how-the-bow-makes-sound`, `speed-weight-and-sounding-point`, `speed-not-pressure`, `the-five-lanes` (expanded far past the PDF's one paragraph) | **done** |
 | 114–119 | §62 Core strokes: détaché, legato, staccato, martelé, portato, spiccato | Stage 5 — a real lesson each (`detache`, `legato-and-slurs`, `staccato`, `martele`, `portato-and-colle`, `spiccato`) + `the-detache-family`, `hooked-bowing-and-retakes`, `slurred-crossings-and-bariolage` | **done** |
 | 120 | §63 Bowing atlas — 25 terms | Stage 5 — `the-bow-stroke-atlas` (~18 real cards, replacing the pasted-paragraph list) + `the-far-shore`, `colour-strokes` | **done** |
-| 121 | §64 Double stops — first safe progression | **Stage 6** (Stage 5 `rolling-a-chord-with-the-bow` does the open-string bow gesture) | todo |
-| 122 | §65 Chords and rolled chords | **Stage 6** (Stage 4 concept + Stage 5 `rolling-a-chord-with-the-bow` bow move) | partial |
-| 123 | §66 Trills and finger action | **Stage 6** | todo |
+| 121 | §64 Double stops — first safe progression | **Stage 6** Movement E (`double-stops-both-fingers-down`, `thirds`, `sixths`, `octaves`, `fingered-octaves-and-tenths`) | **done** |
+| 122 | §65 Chords and rolled chords | **Stage 6** Movement F (`holding-a-stopped-chord`, `which-notes-to-hold`) — the left-hand half; Stage 5 `rolling-a-chord-with-the-bow` is the bow half | **done** |
+| 123 | §66 Trills and finger action | **Stage 6** `the-trill-in-your-fingers` (G1) | **done** |
 | 124 | §67 Pizzicato | Stage 3 (term) + Stage 5 `pizzicato` (doing — right hand) | **done** |
 | 125 | §68 Vibrato — readiness gate | **Stage 7** | todo |
 | 126 | §69 Arm vibrato | **Stage 7** | todo |
 | 127 | §70 Wrist vibrato | **Stage 7** | todo |
 | 128 | §71 Finger vibrato | **Stage 7** (reference-tagged) | todo |
 | 129 | §72 6-week vibrato micro-plan | **Stage 7** | todo |
-| 130 | §73 What is a "position"? | **Stage 6** | todo |
-| 131 | §74 Third position | **Stage 6** | todo |
-| 132 | §75 Fourth position — why it matters for Mozart | **Stage 6** + Mozart module | todo |
+| 130 | §73 What is a "position"? | **Stage 6** `what-a-position-is` (A1) | **done** |
+| 131 | §74 Third position | **Stage 6** `third-position` (B1) | **done** |
+| 132 | §75 Fourth position — why it matters for Mozart | **Stage 6** `fourth-position` (D2); the K.216-specific angle still belongs to the Mozart module | done (Stage 6 half); todo (Mozart-specific) |
 | 133 | §76 Ševčík / Wohlfahrt / Kayser — why études exist | **Stage 9** + `REPERTOIRE.md` étude ladder | todo |
 
 > Note: v1 (Stages 0–5) takes **p113–120 and p124** from Part VI. The rest of Part VI is Phase 2–3.

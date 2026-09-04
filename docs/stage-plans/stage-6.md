@@ -100,7 +100,7 @@ lesson may restate a position's note map from memory, only copy that table.)*
 | F1 | `holding-a-stopped-chord` | the left-hand half of the Stage-5/K.216 chord debt: a playable stopped chord needs 3–4 different strings (`RULES.md` Mistake #3, now applied to *playing*, not just notating); shaping the hand to hold two or three fingers across adjacent strings while the bow rolls (`rolling-a-chord-with-the-bow`, Stage 5, recap) | research Pass 14; Stage 5 `rolling-a-chord-with-the-bow` |
 | F2 | `which-notes-to-hold` | triage when a chord truly can't be held whole: keep the bass and the melody top, treat an inner voice as a quick passing note in the roll — a real professional shortcut, not a cop-out | research Pass 14 |
 
-### Movement G — Trills, harmonics, and the rest (6, NOW except G4)
+### Movement G — Trills, harmonics, and the rest (5, NOW except G3)
 
 | # | Slug | Teaches | Cite |
 |---|---|---|---|
@@ -195,7 +195,17 @@ stages:
 
 ## Status
 
-**PLANNED 2026-09-05.** Research: `stage-6-research.md` (21 passes + a re-verification pass —
-see Pass 20 for the note-map corrections and Pass 21 for the extensions/contractions gap it
-found). This doc: the build list, 31 lessons across Movements A–H + a deferred Movement P.
-Next: build, movement by movement, per "Build order & wiring" above.
+**BUILT 2026-09-05 — 30 lessons.** Research: `stage-6-research.md` (21 passes + a
+re-verification pass — see Pass 20 for the note-map corrections and Pass 21 for the
+extensions/contractions gap it found). Built movement by movement per "Build order & wiring"
+above: **A** what a position is, and the first shift, 6 · **B** 3rd position, 3 · **C** 5th
+position, 3 · **D** 2nd and 4th position, 3 (+ `the-full-fingerboard-map` REFERENCE) · **E**
+double stops, stopped, 5 (+ `fingered-octaves-and-tenths` REFERENCE) · **F** stopped chords, 2
+· **G** trills, harmonics, and the rest, 5 (+ `artificial-harmonics` REFERENCE) · **H** 6th/7th+
+and the position check, 3 (+ `sixth-and-seventh-position` REFERENCE). Build green (329 pages),
+barcheck + label-count + tsc + lint clean. Every position note-map pitch verified against the
+Pass-20 table via a MIDI-pitch dump of its actual ABC, not eyeballed — this caught and fixed
+several real errors during the build itself (see stage-6-research.md's Pass 12 correction on
+double-stop finger pairing, plus multiple stray-accidental/wrong-octave slips in draft ABC).
+Movement P (repertoire) remains deferred pending a verified PD source. Next: Stage 7
+(vibrato).

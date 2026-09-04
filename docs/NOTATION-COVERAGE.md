@@ -161,6 +161,22 @@ and *planning* vocabulary a real part carries.
 | **editorial vs composer marks** — solid slur (composer) vs dotted/dashed slur (editor); `[ ]` brackets = editorial; "bowings above the staff = composer's, below = editor's" | `reading-a-bowing` (I3); recaps Stage 3 editions | taught |
 | **the détaché family / stroke names** — grand · accented · porté · lancé; martelé wedge/accent; spiccato/sautillé (from dots + tempo + era) | `the-detache-family` (D2), `martele` (E1), `spiccato` (F1), `the-bow-stroke-atlas` (H3) | taught (perform core, recognise rest) |
 
+## Beyond first position — performed (Stage 6)
+
+Stage 3 taught reading double stops/chords/harmonics/trills; Stage 6 performs them, plus the
+roman-numeral **position** reading (Stage 3 `finger-string-or-position`) becomes something the
+hand can actually do.
+
+| Symbol / notation | Lesson | Status |
+|---|---|---|
+| **roman numeral over a note = a position** (`III` = 3rd position) — the position half of Stage 3's finger/string/position ambiguity, now physical | `what-a-position-is` (A1), `reading-a-position-number` (B2) | taught (performed) |
+| **stopped double stops** (3rds, 6ths, octaves) — the stopped+stopped rung of the technique ladder | `double-stops-both-fingers-down`, `thirds`, `sixths`, `octaves` (Movement E) | taught (performed) |
+| **stopped 3-/4-note chords** — the left-hand shape, not just the bow roll | `holding-a-stopped-chord`, `which-notes-to-hold` (Movement F) | taught (performed) |
+| **trill `tr` + wavy line** — now the finger motion, not just the reading (Stage 3 `the-trill`) | `the-trill-in-your-fingers` (G1) | taught (performed) |
+| **natural harmonic (○ / open diamond)** — now producing it, not just reading it (Stage 3 `harmonics-on-the-page`) | `natural-harmonics` (G2) | taught (performed) |
+| **artificial harmonic (oval + diamond a 4th above)** — REFERENCE, mechanics only | `artificial-harmonics` (G3) | taught (REFERENCE) |
+| **left-hand pizzicato `+`** — now producing it, not just reading it (Stage 3 `arco-and-pizzicato`) | `left-hand-pizzicato` (G4) | taught (performed) |
+
 ## Reading fluency & the ear (Stage 8a)
 
 Stage 8 introduces **no new glyphs** — it makes the *reading* of what's already been taught
@@ -168,7 +184,7 @@ fluent, and builds the ear. The one place it revisits notation:
 
 | Symbol / notation | Lesson | Status |
 |---|---|---|
-| **stacked noteheads (double stop) at speed** — read the bottom note as the string level, one moving voice above; the four kinds (open+open, open+stopped, stopped+open readable now; stopped+stopped → Stage 6) | `reading-two-notes-at-once` (C3); recaps Stage 3 `beamed-notes-double-stops-and-vibrato` | taught (reading) |
+| **stacked noteheads (double stop) at speed** — read the bottom note as the string level, one moving voice above; the four kinds (open+open, open+stopped, stopped+open readable now; stopped+stopped performed in Stage 6, see `thirds`/`sixths`/`octaves`) | `reading-two-notes-at-once` (C3); recaps Stage 3 `beamed-notes-double-stops-and-vibrato` | taught (reading) |
 | **a lead sheet / chord chart** (chord names above a melody) — what a violinist does with one: melody, root, chord tone, or an arpeggiated sketch | `reading-a-chord-chart` (C4); recaps Stage 4 `reading-a-chord-symbol` | taught |
 | **an accidental in context** — read it as a half-step nudge from a known note, predict its resolution; bar-line reset; courtesy accidentals | `reading-a-chromatic-note` (C2); recaps Stage 1 `accidentals-inside-a-bar` | taught |
 | **the flat-key hand on the page** — a flat in the signature → low-1 hand; F / D minor / B♭ major | `reading-the-flat-keys` (C1) | taught |
