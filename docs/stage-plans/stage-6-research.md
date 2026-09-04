@@ -75,14 +75,16 @@ string. Moving the whole hand up the neck without changing which finger is "1st"
   major-third-ish distance higher (the exact interval varies slightly by string because of the
   half/whole step pattern, but the *shape* transfers directly).
 - **5th position**: the landmark changes character. The **thumb** slides forward until it
-  touches the **shoulder of the violin's body** (where the neck meets the upper bout) — a
+  touches the **body of the violin** (roughly where the neck meets the upper bout) — a
   touchable, repeatable physical reference, unlike 2nd/3rd/4th which have no such landmark and
-  rely purely on ear + muscle memory. 1st finger notes: G string → F, D string → C, A string →
-  G, E string → D.
+  rely purely on ear + muscle memory. 1st finger notes: G string → E, D string → B, A string →
+  F♯, E string → C♯.
 - **Higher positions (6th, 7th+)**: the hand keeps climbing past the shoulder onto the body
   itself; fingers cluster closer together (the frets-that-aren't-there get closer at the
-  octave), and the pinky in particular loses its comfortable curve and has to flatten. This
-  course treats 6th/7th as **REFERENCE**, not a performed skill — see the movement plan.
+  octave), and the pinky in particular loses its comfortable curve and has to flatten. **7th
+  position's 1st finger lands exactly on the octave harmonic** — the same pitch as the open
+  string, one octave up, on every string. This course treats 6th/7th as **REFERENCE**, not a
+  performed skill — see the movement plan.
 
 <Cite>Violinspiration "The Ultimate Guide to the Violin Positions"; violinlounge "Violin Half
 Position"; both cross-checked against the general convention taught in Whistler's *Introducing
@@ -251,29 +253,33 @@ Position — all notes, finger chart and exercises"; cross-checked against the D
 
 ## Pass 8 — 5th position in depth
 
-The note map (1st finger): **G string → F · D string → C · A string → G · E string → D.** The
-defining physical landmark — and the reason 5th is taught *before* 2nd/4th despite the bigger
-numeric jump — is that the **thumb touches the shoulder of the violin** (where the neck joins
-the body). That's a real, repeatable, *feel-able* reference point, unlike the positions
-between 1st and 5th, which have no comparable landmark and rely on the ear plus muscle memory
-built from repetition. Teaching 5th right after 3rd gives the student **two** reliable
-landmarks (the 3rd-position hand-frame copy, and the 5th-position thumb touch) to triangulate
-from before tackling the "in-between, no-landmark" positions (2nd, 4th).
+The note map (1st finger): **G string → E · D string → B · A string → F♯ · E string → C♯.**
+The defining physical landmark — and the reason 5th is taught *before* 2nd/4th despite the
+bigger numeric jump — is that the **thumb slides under the neck until the hand touches the
+body of the violin** (roughly where the neck joins the upper bout). That's a real, repeatable,
+*feel-able* reference point, unlike the positions between 1st and 5th, which have no
+comparable landmark and rely on the ear plus muscle memory built from repetition. Teaching 5th
+right after 3rd gives the student **two** reliable landmarks (the 3rd-position hand-frame
+copy, and the 5th-position thumb/body touch) to triangulate from before tackling the
+"in-between, no-landmark" positions (2nd, 4th).
 
-<Cite>Violinspiration "The Ultimate Guide to the Violin Positions" (thumb-under-neck /
-shoulder-touch landmark for 5th position); corroborated by the general "thumb touches the
-body" description repeated across multiple position-chart sources found in Pass 1's search.</Cite>
+<Cite>Violinspiration "The Ultimate Guide to the Violin Positions" and "Fifth Position on the
+Violin: All You Need to Know" (thumb-under-neck / body-touch landmark, note map); cross-checked
+against tunableapp.com's full 1st–7th position chart and, independently, against the rule that
+any two adjacent strings' 1st-finger notes in the same position must be a perfect 5th apart
+(they are, on all four strings, at every position in that chart — a self-consistency check run
+across the whole table during re-verification, Pass 20).</Cite>
 
 ## Pass 9 — 2nd and 4th position
 
-**2nd position** note map (1st finger): G string → B, D string → F, A string → C, E string →
-G. It sits between 1st and 3rd with no landmark of its own — you find it by ear, or by
-"un-shifting" partway back down from 3rd. Its main use: smoothing a line that would otherwise
-need an awkward string crossing, or reaching a note just outside 1st position's comfortable
-top without the bigger jump to 3rd.
+**2nd position** note map (1st finger): **G string → B♭, D string → F, A string → C, E
+string → G.** It sits between 1st and 3rd with no landmark of its own — you find it by ear, or
+by "un-shifting" partway back down from 3rd. Its main use: smoothing a line that would
+otherwise need an awkward string crossing, or reaching a note just outside 1st position's
+comfortable top without the bigger jump to 3rd.
 
-**4th position** note map (1st finger): G string → E, D string → B, A string → F♯/F, E string
-→ C. Also landmark-free; it sits between 3rd and 5th the same way 2nd sits between 1st and
+**4th position** note map (1st finger): **G string → D, D string → A, A string → E, E string
+→ B.** Also landmark-free; it sits between 3rd and 5th the same way 2nd sits between 1st and
 3rd, and is used for the same reason — smoothing, or reaching one note further than 3rd
 without a full jump to 5th.
 
@@ -282,10 +288,14 @@ Both are genuinely useful once the player has 1st/3rd/5th solid — this course 
 and both come up constantly once double stops and chords (Pass 13) start requiring "whichever
 position keeps this chord fingerable."
 
-<Cite>Note maps cross-checked against Violinspiration and Violin Lounge's position-chart
-series (Pass 7's sources, same chart family extended to 2nd/4th) and the general "no
-landmark, ear + muscle memory" framing repeated across those and the Broadbent School order
-article (Pass 2).</Cite>
+<Cite>Note maps verified against violinlounge.com's exact per-string chromatic-range listing
+for 2nd position ("G string: A♯/B♭, B, C…") and violinspiration.com's explicit 4th-position
+finger chart ("G string → D… the fourth position starts where the first position ends: you
+put your first finger where your fourth finger was, when placed in first position"), then
+cross-checked against tunableapp.com's full chart and the perfect-5th-between-adjacent-strings
+consistency rule (Pass 20). **This corrects an error caught during re-verification**: an
+earlier draft of this pass had the G-string 2nd-position note as B natural (should be B♭) and
+had swapped/approximated 4th- and 5th-position values against each other.</Cite>
 
 ## Pass 10 — 6th, 7th and higher (REFERENCE, not performed)
 
@@ -293,13 +303,20 @@ Past 5th position the hand keeps climbing onto the body of the violin itself; no
 closer together (an octave is a shorter physical distance the higher you go), and the **4th
 finger in particular loses its comfortable curved shape** and has to flatten to reach. Suzuki
 doesn't introduce 7th position until Book 7 — well past where this course's Intermediate gate
-sits. **Decision for this stage:** 6th/7th+ get a single REFERENCE lesson (what's up there,
-why it's hard, a card showing the note map) rather than a full performed unit — matching how
-Stage 5 treated the far-shore bow strokes (ricochet, fouetté) as recognise-not-perform. Full
-treatment is repertoire-module territory (Stage 9+), when an actual piece calls for it.
+sits. Note maps (1st finger), for the REFERENCE card: **6th position — G string → F, D string
+→ C, A string → G, E string → D. 7th position — G string → G, D string → D, A string → A, E
+string → E** (i.e. exactly one octave above the open string, on every string — the cleanest,
+most memorable landmark of any position, and the same node the 7th-partial natural harmonic
+sits on). **Decision for this stage:** 6th/7th+ get a single REFERENCE lesson (what's up
+there, why it's hard, a card showing the note map) rather than a full performed unit —
+matching how Stage 5 treated the far-shore bow strokes (ricochet, fouetté) as
+recognise-not-perform. Full treatment is repertoire-module territory (Stage 9+), when an
+actual piece calls for it.
 
 <Cite>Violinspiration "Ultimate Guide to the Violin Positions" (finger-clustering / pinky
-description for 6th+); Suzuki Book 7 = 7th position (Pass 2 sources).</Cite>
+description for 6th+); Suzuki Book 7 = 7th position (Pass 2 sources); violinlounge.com's
+"Violin Sixth Position" / "Violin Seventh Position" note charts and tunableapp.com's full
+1st–7th table, cross-checked (Pass 20).</Cite>
 
 ## Pass 11 — Reading position numbers vs finger numbers, fully resolved
 
@@ -518,34 +535,131 @@ functional-hearing system. What Stage 6 adds is a **new place to apply it**:
 No new Stage 6 ear lessons are needed; each position/double-stop/chord lesson's own "hear it /
 try it" beats should point back at the relevant Stage 8 lesson rather than duplicate it.
 
-## Pass 20 — Re-verification pass
+## Pass 20 — Re-verification pass (found and fixed real errors)
 
-Checked the whole draft above against itself and the existing docs for the two failure modes
-that have bitten this project before (`CLAUDE.md` "Mistakes to avoid" #2 octave errors, #10
-overclaiming):
+The user explicitly asked for a full re-verify and gap-check after the first draft of this
+document. That check found **genuine numeric errors**, not just gaps — worth recording exactly
+what was wrong and how it was caught, since that's the useful part for next time.
 
-- **Position note-maps** (Passes 7–9): cross-checked the 1st-finger note for every position on
-  every string against the interval pattern implied by 1st position's own known note map
-  (`docs/CURRICULUM.md` Stage 1) — e.g. 3rd position's D-string 1st finger = G matches "3rd
-  finger in 1st position on the D string = G," which is independently known to be correct from
-  the course's own built Stage 1 content. Internally consistent.
-- **The position-teaching-order correction** (Pass 2) is the one fact in this document that
-  actively **contradicts** something already written into `CLAUDE.md`. It's backed by two
-  independent secondary sources plus the Suzuki book-sequence cross-check, which is the same
-  evidentiary bar the project used to correct the Stage 8 Karpinski overstatement. Flagged
-  explicitly in the intro and in the summary handed to the user — **not** silently changed.
+**What was wrong.** The first draft's 4th- and 5th-position note maps (Passes 8–9) were
+muddled against each other: the values written under "5th position" were actually **6th**
+position's, and the values written under "4th position" were an imprecise approximation of
+**5th** position's (missing the sharps: `F` instead of `F♯`, `C` instead of `C♯`). The
+2nd-position G-string note was also wrong (`B` natural instead of `B♭`). All four came from
+synthesising AI-generated summaries of search results rather than reading an explicit table —
+exactly the failure mode `CLAUDE.md` Mistake #1's spirit warns about (a plausible-looking
+number that's never actually been checked against a real source).
+
+**How it was caught — two independent methods, not just "search harder":**
+
+1. **Re-fetched pages that give an explicit per-string chart** (violinspiration's dedicated
+   4th- and 5th-position pages, violinlounge's chromatic-range listings, tunableapp.com's full
+   1st–7th table) instead of trusting synthesised search snippets.
+2. **A self-consistency check derivable from music theory alone, independent of any source:**
+   within one position, the four strings' 1st-finger notes must be a **perfect fifth** apart
+   from each other, because the open strings themselves are a perfect fifth apart and a
+   position moves all four fingers by the same fixed offset. Run across the corrected 7-row ×
+   4-string table, every adjacent pair checks out at exactly 7 semitones. This method would
+   have caught the original error on its own even with no internet access — it's the same kind
+   of internal math check the project could apply to any future position/interval claim, and
+   worth keeping as standard practice for Stage 6 lesson-writing (the way `abc-barcheck.py`
+   checks bar sums mechanically, this is a mechanical check for position tables).
+
+**Corrected table** (1st finger, all positions, all strings — now cross-verified by 3
+independent sources plus the P5-consistency proof):
+
+| Position | G string | D string | A string | E string |
+|---|---|---|---|---|
+| Half | G♯/A♭ | D♯/E♭ | A♯/B♭ | F♮ |
+| 1st | A | E | B | F♯ |
+| 2nd | B♭ | F | C | G |
+| 3rd | C | G | D | A |
+| 4th | D | A | E | B |
+| 5th | E | B | F♯ | C♯ |
+| 6th | F | C | G | D |
+| 7th | G | D | A | E |
+
+**Other checks run, both clean:**
+
+- **The position-teaching-order correction** (Pass 2) still stands — re-confirmed against the
+  same two independent sources plus the Suzuki book-sequence cross-check as the first draft,
+  and it is *not* contradicted by anything found during this re-verify pass.
 - **No shruti/cents-style overclaiming** anywhere in this pass — nothing here touches
-  Hindustani theory, so Mistake #10 doesn't apply to Stage 6 directly; the ear-thread section
-  (Pass 19) only points back at Stage 8's existing, already-bounded sargam framing.
-- **One open verification gap, flagged honestly:** everything in this document is secondary
-  pedagogy-literature research, the same method used for Stages 2–5 and 8 — cross-referenced
-  facts, not first-hand playing or hearing. That's the same limitation flagged to the user this
-  session for Stage 8; it applies here too, and arguably more, since Stage 6 is entirely
-  physical/kinesthetic content that no amount of cross-referencing can substitute for a
-  teacher's eye on an actual hand. This is exactly why the accuracy conversation just had with
-  the user matters for this stage specifically — recommend the built lessons get a real
-  teacher's or the user's own hands-on check before being trusted at face value, more than any
-  prior stage.
+  Hindustani theory, so Mistake #10 doesn't apply directly; the ear-thread section (Pass 19)
+  only points back at Stage 8's existing, already-bounded sargam framing.
+- **One genuine gap found and filled: finger extensions and contractions.** The very first
+  master plan for this whole project (Phase-0 planning doc, before any stage was built) names
+  "4th-finger security; extensions/contractions" as explicit Stage 6 scope — and Pass 3's own
+  source material surfaced the terms "pivoting," "creeping fingering," "retarded shift" and
+  "half-shift" in passing (Modern Approaches) without ever explaining what they *are*. That's a
+  real miss, not a stylistic gap — extension/contraction is a named, standard intermediate
+  technique, distinct from a full-hand shift, and it belongs in this stage. **Added as Pass
+  21, below**, researched properly rather than left as a dangling citation.
+- **Everything else checked clean** on a second read against `LESSONS-FROM-MOZART.md` §2–3 and
+  the inheritance table — position fundamentals, all four intermediate positions plus
+  half/6th/7th, shifting mechanics/types/timing, portamento/glissando style, double stops,
+  fingered octaves, stopped chords, trills, natural + artificial harmonics, LH pizzicato,
+  glissando execution, finger substitution, practice method, and the ear-thread tie-in are all
+  covered. The one area intentionally left thin is **6th/7th position technique itself** and
+  **artificial harmonics** — both scoped as REFERENCE-only by design (Passes 10, 13, 16), not
+  an oversight.
+
+**One open verification gap, flagged honestly, unchanged by this pass:** everything in this
+document is secondary pedagogy-literature research (now cross-checked against multiple sources
+*and* independent music-theory math), not first-hand playing or hearing. That's the same
+limitation flagged to the user for Stage 8; it applies here too, and arguably more, since Stage
+6 is entirely physical/kinesthetic content that no amount of cross-referencing can fully
+substitute for a teacher's eye on an actual hand. Recommend the built lessons get a real
+teacher's or the user's own hands-on check before being trusted at face value, more than any
+prior stage.
+
+## Pass 21 — Finger extensions and contractions (the gap Pass 20 found)
+
+An **extension** is stretching a single finger forward or backward, beyond the interval it
+would normally cover in the current position's hand-frame, to reach one extra note **without
+moving the hand or the thumb.** A **contraction** is the reverse — pulling a finger back
+inward to reach a note that would otherwise need a downward shift. Both keep the thumb and
+palm anchored where they are; only the one finger's reach changes.
+
+- **This is not a new idea to the course — it's a bigger version of one already taught.**
+  Stage 1's low-2/high-2/low-1/high-3 vocabulary (`low-and-high-fingers`) *is* a small
+  extension: the finger moves a semitone off its "default" spot without the hand shifting.
+  Stage 6 generalises that same move to a **whole step or more**, and to any finger, in any
+  position — e.g. stretching the 4th finger forward to reach a note that would normally need a
+  shift up to the next position, then relaxing it back.
+- **Why it exists as a distinct skill from shifting:** a shift moves the *whole hand's*
+  reference point; an extension reaches *one* note past that reference point and springs back.
+  For a single passing note, an extension is often faster, quieter, and less disruptive to the
+  established position than shifting there and back for one note and returning.
+- **The physical execution:** the hand has to **release, not just stretch** — treated as tension
+  the same way Stage 0's `left-hand-frame` already teaches "no squeeze." A common image from
+  the pedagogy literature: think of the palm opening like a hand slowly opening around an
+  orange, or a fan spreading, rather than a rigid reach. Practise by first *imagining* the
+  target pitch, then feeling for it — the same audiate-then-place order Stage 8's
+  `hearing-it-first` already teaches, now aimed at a finger stretch instead of a whole phrase.
+- **Pivoting / "creeping fingering" / the "retarded" and "half" shift** (Galamian's terms,
+  also described as "pivoting or crawling" by Ruggiero Ricci) are all names for **combining** a
+  small shift with an extension or contraction — moving the hand only part of the way to a new
+  position while one finger (often the 1st) anchors the old position, letting the hand "creep"
+  up gradually rather than jumping the full interval in one shift. This is the more advanced
+  cousin of a plain extension, useful for smoothing a fast passage that would otherwise need
+  several separate small shifts in a row.
+- **Scope for this stage:** teach the **extension/contraction concept and a basic forward
+  4th-finger extension** as a performed skill (it's genuinely common, low-risk, and a direct
+  generalisation of Stage 1 content); treat **pivoting/creeping-fingering as a named
+  REFERENCE** concept (what it is, why virtuoso passages use it) rather than a drilled
+  technique — it's a refinement on shifting fluency this course's Intermediate-gate scope
+  doesn't need to demand.
+
+<Cite>Strings Magazine, "Extend Yourself: How to Practice Extensions, a Notoriously Tricky
+Technique" (search-result synthesis — direct fetch was blocked, so treat the practice-method
+detail as lower-confidence than the rest of this document; the *definition* of extension/
+contraction is corroborated independently by a second, separate search result); violinist.com
+forum thread "More about Shifting" and the-violin.com (pivoting/creeping-fingering, Galamian's
+"retarded shift"/"half-shift" terms, Ricci's "pivoting or crawling"); the original Phase-0
+project plan (extensions/contractions named as Stage 6 scope from the very first curriculum
+sketch, before any stage was built) as the reason this was flagged as a real gap rather than
+optional extra scope.</Cite>
 
 ---
 
@@ -556,7 +670,9 @@ and the "what's REFERENCE vs performed" calls are visible before `stage-6.md` lo
 
 - **Movement A — What a position is, and the first shift.** What a position is (Pass 1) ·
   half position · the four shift types + guide notes (Pass 4) · shift timing / how to practise
-  a shift (Pass 5) · silent shift vs portamento vs glissando + Classical/Romantic style (Pass 6).
+  a shift (Pass 5) · silent shift vs portamento vs glissando + Classical/Romantic style (Pass 6)
+  · finger extensions & contractions, the 4th-finger reach (Pass 21) · pivoting/creeping
+  fingering as a named REFERENCE.
 - **Movement B — 3rd position.** The note map + why it copies 1st position's hand-frame ·
   the open-string self-check · reading `III` (recaps + extends Stage 3 G3) · first 3rd-position
   repertoire fragments.
@@ -595,10 +711,14 @@ weight of this session's accuracy conversation):
 ## Sources
 
 - Violinspiration: "The Ultimate Guide to the Violin Positions," "How to Play in 3rd Position
-  on the Violin," "How to Play Double Stops on Violin," "Violin Harmonics Simplified," "Trills
-  on the Violin – An Easy Guide," "Free Violin Double Stops Chart."
-- Violin Lounge: "Violin Half Position," "Violin Third Position," "Shifting vs Glissando vs
-  Portamento on the Violin," "Easy Guide to Violin Harmonics."
+  on the Violin," "The Fourth Position on the Violin," "Fifth Position on the Violin," "How to
+  Play Double Stops on Violin," "Violin Harmonics Simplified," "Trills on the Violin – An Easy
+  Guide," "Free Violin Double Stops Chart."
+- Violin Lounge: "Violin Half Position," "Violin Second Position," "Violin Third Position,"
+  "Violin Sixth Position," "Violin Seventh Position," "Shifting vs Glissando vs Portamento on
+  the Violin," "Easy Guide to Violin Harmonics."
+- Tunableapp.com, "Violin Position Chart — 1st Through 7th Position" (the full cross-check
+  table used in the Pass 20 re-verification).
 - The Strad: "How to shift correctly on the violin," "Portamento, when used tastefully, can
   bring a piece to life" (Aaron Rosand), "3 simple trill exercises for players and teachers,"
   "7 ways to improve your trills."
