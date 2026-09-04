@@ -349,5 +349,7 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
     import("./the-baroque-bow-and-the-modern-bow.mdx"),
   // 5 — Movement P: the repertoire
   "stage-5-tone-and-strokes": () => import("./stage-5-tone-and-strokes.mdx"),
+  "tune-conquering-hero": () => import("./tune-conquering-hero.mdx"),
+  "tune-bach-musette": () => import("./tune-bach-musette.mdx"),
   "the-foundation-check": () => import("./the-foundation-check.mdx"),
 };

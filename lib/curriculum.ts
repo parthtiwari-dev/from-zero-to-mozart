@@ -475,14 +475,14 @@ export const LESSONS: Lesson[] = [
   { slug: "the-baroque-bow-and-the-modern-bow", title: "The Baroque bow and the modern bow", stage: 5, track: "bow", tag: "REFERENCE", published: P },
 
   // 5 · Movement P — the repertoire (also on /practice)
-  // The 4 real tunes below are DEFERRED pending verified PD melody sources (IMSLP),
-  // same as the Stage 1 pending tunes and Stage 3's Gossec — never transcribe a famous
-  // melody from memory (RULES.md #8, CLAUDE.md Mistakes to avoid #4).
   { slug: "stage-5-tone-and-strokes", title: "Tone and strokes to play", stage: 5, track: "repertoire", tag: "NOW", published: P, piece: { key: "G / D / A / C", position: "1st", skill: "the daily bow routine — son filé, détaché, slurred and martelé scales, the bowing-variation drill", inPdf: true } },
+  { slug: "tune-conquering-hero", title: "Handel — See, the Conqu'ring Hero Comes", stage: 5, track: "repertoire", tag: "NEXT", published: P, piece: { key: "G major", position: "1st", skill: "martelé and grand détaché in real music — the prepared bite with a purpose", inPdf: false } },
+  { slug: "tune-bach-musette", title: "Bach — Musette in D", stage: 5, track: "repertoire", tag: "NOW", published: P, piece: { key: "D major", position: "1st", skill: "the Foundation-gate piece — even détaché, string crossings, a drone dance, in tune", inPdf: false } },
+  // DEFERRED — need a verified PD first-position melody. tune-bach-air: source in hand
+  // (Mutopia LilyPond, Bach-Gesellschaft text) but needs a careful simplified arrangement.
+  // tune-gossec-gavotte: still scan-only (as since Stage 3). Never from memory (RULES.md #8).
   { slug: "tune-bach-air", title: "Bach — Air (opening)", stage: 5, track: "repertoire", tag: "NOW", piece: { key: "D major", position: "1st", skill: "legato and son filé — a seamless singing line, bow distribution", inPdf: false } },
-  { slug: "tune-gossec-gavotte", title: "Gossec — Gavotte", stage: 5, track: "repertoire", tag: "NEXT", piece: { key: "G major", position: "1st", skill: "the bow-stroke piece — détaché, staccato, retakes, hooked bows, slurs", inPdf: true } },
-  { slug: "tune-conquering-hero", title: "Handel — See, the Conqu'ring Hero Comes", stage: 5, track: "repertoire", tag: "NEXT", piece: { key: "G major", position: "1st", skill: "martelé and grand détaché in real music — the prepared bite with a purpose", inPdf: false } },
-  { slug: "tune-foundation-gate-piece", title: "The Foundation gate piece", stage: 5, track: "repertoire", tag: "NOW", piece: { key: "D major", position: "1st", skill: "everything at once — even détaché, a dynamic scheme, a clean crossing, in tune", inPdf: false } },
+  { slug: "tune-gossec-gavotte", title: "Gossec — Gavotte", stage: 5, track: "repertoire", tag: "NEXT", piece: { key: "D major", position: "1st", skill: "the détaché piece — détaché, staccato, retakes, hooked bows, slurs", inPdf: true } },
   { slug: "the-foundation-check", title: "The Foundation check", stage: 5, track: "reading", tag: "NOW", published: P },
 
   // ── Stage 9 — The repertoire journey ───────────────────────────

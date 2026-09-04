@@ -392,21 +392,31 @@ pickups).
   · `messa-di-voce` · `phrasing-with-the-bow` · `finding-a-tune-by-ear` (the play-by-ear payoff,
   `PRD.md` §3, `ear` track) · `the-baroque-bow-and-the-modern-bow` · `the-foundation-check`
   (rewrite — the 6 gate capabilities incl. the new **hear-a-tune-and-play-it-back** check).
-- **Movement P — the repertoire:** `stage-5-tone-and-strokes` **live** (son filé + détaché /
-  slurred / martelé scales + the bowing-variation drill). The 4 real tunes — `tune-bach-air`,
-  `tune-gossec-gavotte` (also the Stage 3 J5 deferral), `tune-conquering-hero`,
-  `tune-foundation-gate-piece` — are **DEFERRED** as roadmap entries: they need verified PD
-  melody sources (IMSLP), never a from-memory transcription (`RULES.md` #8, `CLAUDE.md`
-  Mistakes to avoid #4). Same handling as Stage 1's pending tunes.
+- **Movement P — the repertoire (3 of 5 live, 2026-09-04):**
+  - `stage-5-tone-and-strokes` — son filé + détaché / slurred / martelé scales + the
+    bowing-variation drill.
+  - **`tune-conquering-hero`** — Handel *"See, the Conqu'ring Hero Comes"*, G major, first
+    position. The martelé piece. Melody: Traditional Tune Archive ABC (after Manson 1854),
+    cross-checked against the Hymnary.org tune incipit (5·3·4·5·1 · 2·3·4·5·4 · 3·2·3·4·5).
+    A-strain (diatonic) + B-strain (chromatic, flagged as the harder half) + playthrough.
+  - **`tune-bach-musette`** — Bach, Musette in D BWV Anh. 126, D major, first position. The
+    **Foundation-gate piece**. Melody: the public-domain Frank Nordberg ABC (musicaviva.com)
+    after the Bach-Gesellschaft. **A-strain only** — the chromatic, octave-leaping B-strain is
+    keyboard-idiomatic and awkward on the violin; noted in-lesson as a Phase-2 piece.
+  - **DEFERRED — 2 of 5:** `tune-bach-air` (Bach Air BWV 1068 — verified Mutopia LilyPond
+    source *is in hand*, `scratchpad/bach_air_bmv_1068.ly`; the real line is florid, ranges
+    D4–B5, so it needs a careful, faithful simplified first-position arrangement — not from
+    memory) · `tune-gossec-gavotte` (still scan-only, as since Stage 3 — needs a non-Suzuki
+    first-position edition or a clean transcription). Both stay roadmap entries in
+    `curriculum.ts` (`RULES.md` #8).
 
 **Deleted:** `sautille-and-beyond.mdx`, `bow-effects.mdx`, `reading-bowings.mdx` (renamed/split).
 
 ### Still to do (Stage 5 loose ends)
-- **The 4 gate tunes** — transcribe from IMSLP, verify against ≥2 sources, publish. Bach *Air*
-  (opening, simplified, first-position D — **not** the "on the G string" transposition),
-  Gossec *Gavotte* (from *Rosine*, G, first position — **not** the copyrighted Suzuki
-  arrangement), Handel *"See the Conqu'ring Hero"* (first position), a Bach *Musette* / Handel
-  *Bourrée* gate piece. Keep a MusicXML source for each.
+- **2 remaining gate tunes:** `tune-bach-air` (source in hand — `scratchpad/bach_air_bmv_1068.ly`;
+  needs a faithful simplified first-position arrangement + heavy "simplified" flag) and
+  `tune-gossec-gavotte` (needs a clean non-Suzuki source). Verify against ≥2 sources, keep a
+  MusicXML/LilyPond source for each.
 - **Browser spot-check** the rest of the 36 (≈8 checked: `the-five-lanes`, `rolling-a-chord`,
   `hooked-bowing`, `speed-not-pressure`, `the-bow-stroke-atlas`, `bowing-a-passage-yourself`,
   `reading-a-bowing`, `stage-5-tone-and-strokes` — all render clean, labels aligned, no

@@ -130,9 +130,9 @@ Full map: `docs/CURRICULUM.md`. Repertoire/étude/scale spine: `docs/REPERTOIRE.
 (`RULES.md` #15): no new stages until every built lesson meets `RULES.md` 1–7 — research-first,
 then rebuild **stage by stage 0 → 5** to the six beats, every pitched example fully labelled,
 every concept lesson 2–4 play-arounds + real music. **Stages 0–5 are all built** (Stage 5:
-2026-09-04). **v1 = PDF Parts I–VI is done** (bar the 4 Stage-5 gate tunes + a few earlier
-deferred tunes — see NEXT SESSION). Phase 2 (Stage 6, shifting) begins next. Plan each stage
-with the user (`stage-plans/stage-N.md`).
+2026-09-04). **v1 = PDF Parts I–VI is done** (bar 2 Stage-5 gate tunes — Bach *Air*, Gossec
+*Gavotte* — and a few earlier deferred tunes; see NEXT SESSION). Phase 2 (Stage 6, shifting)
+begins next. Plan each stage with the user (`stage-plans/stage-N.md`).
 
 | Stage | State |
 |---|---|
@@ -141,7 +141,7 @@ with the user (`stage-plans/stage-N.md`).
 | **2 · Rhythm** | ✔ rebuilt — `stage-plans/stage-2.md`, Movements A–I, 33 skill lessons + 3 tunes. Added `RhythmTree` `<Diagram>` + `rhythmOnly` mode on `<NotatedExample>`. Deferred: 3 tunes (Pop Goes the Weasel / Jolly Good Fellow / Deck the Halls) pending sources. |
 | **3 · Score symbols** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-3-research.md` + `stage-3.md`, Movements A–J, **46 lessons** (42 skill + 4 tunes). 1 tune deferred (Gossec Gavotte). Details below. |
 | **4 · Scales & musicianship** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-4-research.md` (20 passes) + `stage-4.md` (4a/4b/4c, Movements A–P). **70 lessons** (63 concept + 7 repertoire). Build green (231 pages), lint + tsc clean. Owns the K.216 first-note debt — `the-first-note-of-mozart` (O2). |
-| **5 · The bow** | ✔ **BUILT 2026-09-04 — 36 lessons.** `stage-plans/stage-5-research.md` (15 passes) + `stage-5.md` (5a Tone 9 · 5b The strokes 16 · 5c Reading & shaping + the gate 10 · P 1). Build green (253 pages), lint + tsc + barcheck clean. **Play-by-ear thread runs through the stage** (`PRD.md` §3): `finding-a-tune-by-ear` + the Foundation check's new hear-and-play-back item. **4 gate tunes deferred** (Bach *Air*, Gossec *Gavotte*, Handel *Conqu'ring Hero*, a gate piece) — need verified PD sources. Then → **Foundation gate** (end of v1). |
+| **5 · The bow** | ✔ **BUILT 2026-09-04 — 38 lessons.** `stage-plans/stage-5-research.md` (15 passes) + `stage-5.md` (5a 9 · 5b 16 · 5c 10 · P 3). Build green (255 pages), lint + tsc + barcheck clean. **Play-by-ear thread runs through the stage** (`PRD.md` §3): `finding-a-tune-by-ear` + the Foundation check's new hear-and-play-back item. **Movement P: 3 of 5 live** — `stage-5-tone-and-strokes` + `tune-conquering-hero` (Handel, martelé) + `tune-bach-musette` (the gate piece). `tune-bach-air` + `tune-gossec-gavotte` still deferred (need clean first-position sources). Then → **Foundation gate** (end of v1). |
 
 **Stage 0–2 audit (`docs/stage-audit.md`, 2026-09-02):** every published lesson checked
 against `PRD.md` §7; 7 thin Stage-1 lessons deepened, 4 partial Stage-1 tunes completed, a
@@ -276,21 +276,22 @@ Research: `docs/stage-plans/stage-4-research.md` (20 passes + a re-verification 
 
 ---
 
-## NEXT SESSION — Stage 5 loose ends → Foundation gate wrap-up → viral-melody appendix → Phase 2
+## NEXT SESSION — Stage 5/4 loose ends → Phase 2 (Stage 6)
 
-**Stages 0–5 are all BUILT.** v1 (PDF Parts I–VI) is essentially complete — 253 pages, the
-Foundation gate is written (`the-foundation-check`). **Read `## Mistakes to avoid` below before
-writing a single lesson.**
+**Stages 0–5 are all BUILT.** v1 (PDF Parts I–VI) is essentially complete — 255 pages, the
+Foundation gate is written (`the-foundation-check`), the viral-melody appendix is researched.
+**Read `## Mistakes to avoid` below before writing a single lesson.**
 
 ### 1 — Stage 5 loose ends (small)
-- **The 4 deferred gate tunes** (`stage-plans/stage-5.md` §Status): transcribe from **IMSLP**,
-  verify against ≥2 sources, publish. Bach *Air* (BWV 1068 opening, simplified, first-position
-  D — **not** the "on the G string" transposition), Gossec *Gavotte* (from *Rosine*, G, first
-  position — **not** the copyrighted Suzuki arrangement; this also clears the Stage 3 J5
-  deferral), Handel *"See the Conqu'ring Hero Comes"* (first position), a Bach *Musette* /
-  Handel *Bourrée* gate piece. Keep a MusicXML source for each (`LESSONS-FROM-MOZART.md` §5).
-- **Browser spot-check** the rest of the 36 Stage-5 lessons (≈8 done). `docs/NOTATION-COVERAGE.md`
-  → add the Stage-5 bowing vocabulary. `docs/PDF-MAP.md` Part VI rows → done.
+- **2 remaining gate tunes** (`stage-plans/stage-5.md` §Status): `tune-bach-air` (Bach Air
+  BWV 1068 — verified Mutopia LilyPond source in `scratchpad/bach_air_bmv_1068.ly`; needs a
+  faithful **simplified** first-position arrangement, the real line is florid D4–B5) and
+  `tune-gossec-gavotte` (still scan-only — needs a non-Suzuki first-position source; also the
+  Stage 3 J5 deferral). Verify ≥2 sources; keep a MusicXML/LilyPond source. `tune-conquering-hero`
+  (Handel) + `tune-bach-musette` (the gate piece) are **done**.
+- **Browser spot-check** the rest of the ~10 unchecked Stage-5 lessons + the 2 new tunes (the
+  Chrome extension was disconnected this session). `docs/NOTATION-COVERAGE.md` Stage-5 section
+  and `docs/PDF-MAP.md` Part VI: **done**.
 - Minor polish noted in `stage-5.md` §Status (a stray "·" in `the-bow-stroke-atlas`; the
   16-note labelled scale in `stage-5-tone-and-strokes`).
 
@@ -299,21 +300,16 @@ writing a single lesson.**
   `tune-vivaldi-spring-theme` vs `source/vivaldi-spring-easy.pdf`; `tune-eine-kleine-nachtmusik`;
   `tune-aura-lee`.
 
-### 3 — The viral-melody research appendix (user's standing ask, 2026-09-03)
-Research the **best-sounding / most-recognisable / "viral" melodies**. Same discipline as
-Stage 3/4: **search ~10, write that section, repeat.** Append a curated, tagged list to
-`docs/REPERTOIRE.md` ("The best-sounding / viral melodies appendix — TO RESEARCH"). Four
-buckets: **film / TV / game** (Hedwig's, Married Life, He's a Pirate, Interstellar,
-Skyrim/Zelda/GoT, La La Land, Requiem for a Dream, My Heart Will Go On, Over the Rainbow);
-**famous classical openings** (Canon in D, Ave Maria ×2, Méditation, The Swan, Air on the G
-String, Salut d'Amour, Vivaldi Spring, Für Elise, Jesu Joy, Clair de Lune); **trad / fiddle**
-(Ashokan Farewell, Orange Blossom Special / Devil Went Down to Georgia as goals, Czardas,
-Irish session standards, Amazing Grace, Danny Boy, Scarborough Fair, Greensleeves,
-klezmer/Balkan); **pop hooks** (one-phrase songs — targets, flag the afternoon-easy ones). Tag
-each: **key · lowest position · the hook · first-position-playable now? · PD status or
-licensed-arrangement target · which stage's skill it fits.** Feeds `/practice` + the Tier-0/1
-song bank. Several overlap the Stage-5 gate tunes and the Stage-4 flagged tunes — do them
-together.
+### 3 — The viral-melody appendix — RESEARCHED (2026-09-04)
+`docs/REPERTOIRE.md` → "The best-sounding / viral melodies appendix — RESEARCHED" — 4 tagged
+tables (classical openings · trad/fiddle · film/TV/game · pop hooks) + a **"what to actually
+build next"** priority list. The verdict: the PD classical openings + trad tunes are the real
+payoff (a first-position player can play a recognisable chunk *now*); the viral film/pop hooks
+are almost all in copyright → stay `/practice` targets. **Top build candidates** (all PD, our
+own line): **Greensleeves** (E minor, Stage 4–5) · **Plaisir d'Amour** (Martini — *is* "Can't
+Help Falling in Love", C, Stage 5–6) · **Shenandoah** (D, son-filé, Stage 5) · **Bella Ciao**
+(A minor, Stage 4–5) · **Shchedryk** ("Carol of the Bells" melody, A minor, fast détaché,
+Stage 5) · the folk pool (Simple Gifts / Ash Grove / Loch Lomond).
 
 ### 4 — Phase 2 begins: Stage 6 (Shifting & the higher positions)
 The **Intermediate half.** Research-first (`stage-6-research.md`), plan with the user, build.
