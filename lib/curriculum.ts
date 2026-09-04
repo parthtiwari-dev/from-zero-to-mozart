@@ -531,6 +531,11 @@ export const LESSONS: Lesson[] = [
   { slug: "left-hand-pizzicato", title: "Left-hand pizzicato", stage: 6, track: "left-hand", tag: "NOW", published: P },
   { slug: "finger-substitution", title: "Finger substitution", stage: 6, track: "left-hand", tag: "NOW", published: P },
 
+  // Movement H — 6th/7th+ and the position check
+  { slug: "sixth-and-seventh-position", title: "Sixth and seventh position", stage: 6, track: "left-hand", tag: "REFERENCE", published: P },
+  { slug: "how-to-practise-a-position", title: "How to practise a position", stage: 6, track: "left-hand", tag: "NOW", published: P },
+  { slug: "the-position-check", title: "The position check", stage: 6, track: "reading", tag: "NOW", published: P },
+
   // ── Stage 8 — Sight-reading & ear training ─────────────────────
   //   Plan: docs/stage-plans/stage-8.md (research: stage-8-research.md, 22 passes).
   //   Built out of sequence (before Stage 6/7) — it carries the play-by-ear goal

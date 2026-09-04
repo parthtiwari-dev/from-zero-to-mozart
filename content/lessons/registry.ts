@@ -394,6 +394,12 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "artificial-harmonics": () => import("./artificial-harmonics.mdx"),
   "left-hand-pizzicato": () => import("./left-hand-pizzicato.mdx"),
   "finger-substitution": () => import("./finger-substitution.mdx"),
+  // Movement H — 6th/7th+ and the position check
+  "sixth-and-seventh-position": () =>
+    import("./sixth-and-seventh-position.mdx"),
+  "how-to-practise-a-position": () =>
+    import("./how-to-practise-a-position.mdx"),
+  "the-position-check": () => import("./the-position-check.mdx"),
 
   // Stage 8 — Sight-reading & ear training
   // 8a · Movement A — reading fluently
