@@ -298,7 +298,10 @@ Foundation gate is written (`the-foundation-check`), the viral-melody appendix i
 ### 2 — Stage 4 loose ends (still open from before)
 - **Verify three tune melodies** against a 2nd source (flagged in-lesson):
   `tune-vivaldi-spring-theme` vs `source/vivaldi-spring-easy.pdf`; `tune-eine-kleine-nachtmusik`;
-  `tune-aura-lee`.
+  `tune-aura-lee`. **Attempted 2026-09-04, source-blocked:** the Vivaldi PDF is a tab-layout
+  scan (pymupdf gives string/finger tokens, not an ordered melody); lead-sheet / musescore
+  sites 403 to WebFetch and the Chrome extension was down. All three lessons already carry
+  honest "simplified — verify" flags. Retry with the browser working, or find clean ABC.
 
 ### 3 — The viral-melody appendix — RESEARCHED (2026-09-04)
 `docs/REPERTOIRE.md` → "The best-sounding / viral melodies appendix — RESEARCHED" — 4 tagged
