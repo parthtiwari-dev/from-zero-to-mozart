@@ -48,12 +48,19 @@ export function describePitch(freq: number): PitchReading {
   };
 }
 
-/** Frequencies for the open strings, plus a few near them, for the drone. */
+/**
+ * Drone tonics. The four open strings (G/D/A/E) — kept at their real pitches so
+ * the tuning lesson still works — plus B and C, so the Stage 8 ear gym can set
+ * "home" for the drilled keys that aren't an open string (C major, B minor).
+ * Equal temperament, A4 = 440.
+ */
 export const DRONE_NOTES: { label: string; freq: number }[] = [
   { label: "G", freq: 196.0 },
   { label: "D", freq: 293.66 },
   { label: "A", freq: 440.0 },
   { label: "E", freq: 659.26 },
+  { label: "B", freq: 246.94 },
+  { label: "C", freq: 261.63 },
 ];
 
 /** A sustained, slightly warm drone: fundamental + a quiet octave. */

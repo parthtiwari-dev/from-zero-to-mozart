@@ -516,11 +516,11 @@ export const LESSONS: Lesson[] = [
   { slug: "reading-two-notes-at-once", title: "Reading two notes at once", stage: 8, track: "reading", tag: "NEXT", published: P },
   { slug: "reading-a-chord-chart", title: "Reading a chord chart", stage: 8, track: "reading", tag: "NEXT", published: P },
   // 8a · Movement D — what a good ear is
-  { slug: "what-a-good-ear-is", title: "What a good ear is", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "hearing-it-first", title: "Hearing it first", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "singing-is-not-optional", title: "Singing is not optional", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "finding-home", title: "Finding home", stage: 8, track: "ear", tag: "NOW" },
-  { slug: "the-hand-signs", title: "The hand signs", stage: 8, track: "ear", tag: "REFERENCE" },
+  { slug: "what-a-good-ear-is", title: "What a good ear is", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "hearing-it-first", title: "Hearing it first", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "singing-is-not-optional", title: "Singing is not optional", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "finding-home", title: "Finding home", stage: 8, track: "ear", tag: "NOW", published: P },
+  { slug: "the-hand-signs", title: "The hand signs", stage: 8, track: "ear", tag: "REFERENCE", published: P },
   // 8a · Movement E — the scale-degree gym (the core)
   { slug: "the-stable-three", title: "The stable three", stage: 8, track: "ear", tag: "NOW" },
   { slug: "the-tendency-tones", title: "The tendency tones", stage: 8, track: "ear", tag: "NOW" },

@@ -378,4 +378,11 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "reading-a-chromatic-note": () => import("./reading-a-chromatic-note.mdx"),
   "reading-two-notes-at-once": () => import("./reading-two-notes-at-once.mdx"),
   "reading-a-chord-chart": () => import("./reading-a-chord-chart.mdx"),
+
+  // 8a · Movement D — what a good ear is
+  "what-a-good-ear-is": () => import("./what-a-good-ear-is.mdx"),
+  "hearing-it-first": () => import("./hearing-it-first.mdx"),
+  "singing-is-not-optional": () => import("./singing-is-not-optional.mdx"),
+  "finding-home": () => import("./finding-home.mdx"),
+  "the-hand-signs": () => import("./the-hand-signs.mdx"),
 };
