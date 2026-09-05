@@ -574,6 +574,15 @@ export const LESSONS: Lesson[] = [
   { slug: "what-is-this-music-about", title: "What is this music about", stage: 7, track: "ear", tag: "NOW", published: P },
   { slug: "listening-and-copying", title: "Listening and copying", stage: 7, track: "ear", tag: "NOW", published: P },
 
+  // Movement F — playing in style, and the check
+  { slug: "playing-mozart-like-mozart", title: "Playing Mozart like Mozart", stage: 7, track: "ear", tag: "NOW", published: P },
+  { slug: "making-your-own-choices", title: "Making your own choices", stage: 7, track: "ear", tag: "NOW", published: P },
+  { slug: "the-expression-check", title: "The expression check", stage: 7, track: "ear", tag: "NOW", published: P },
+
+  // Movement P — repertoire (also on /practice)
+  { slug: "stage-7-vibrato-and-expression", title: "Vibrato and expression to play", stage: 7, track: "repertoire", tag: "NOW", published: P, piece: { key: "any", position: "1st", skill: "the daily vibrato + expression routine — the pulse ladder, start/stop, every finger, one phrase three ways", inPdf: true } },
+  { slug: "expression-in-a-tune-you-know", title: "Expression in a tune you know — Amazing Grace", stage: 7, track: "repertoire", tag: "NOW", published: P, piece: { key: "G major", position: "1st", skill: "making a set of expressive choices (vibrato, rubato, colour, character) and repeating them", inPdf: false } },
+
   // ── Stage 8 — Sight-reading & ear training ─────────────────────
   //   Plan: docs/stage-plans/stage-8.md (research: stage-8-research.md, 22 passes).
   //   Built out of sequence (before Stage 6/7) — it carries the play-by-ear goal

@@ -433,6 +433,16 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "tone-colour-as-a-choice": () => import("./tone-colour-as-a-choice.mdx"),
   "what-is-this-music-about": () => import("./what-is-this-music-about.mdx"),
   "listening-and-copying": () => import("./listening-and-copying.mdx"),
+  // Movement F — playing in style, and the check
+  "playing-mozart-like-mozart": () =>
+    import("./playing-mozart-like-mozart.mdx"),
+  "making-your-own-choices": () => import("./making-your-own-choices.mdx"),
+  "the-expression-check": () => import("./the-expression-check.mdx"),
+  // Movement P — repertoire
+  "stage-7-vibrato-and-expression": () =>
+    import("./stage-7-vibrato-and-expression.mdx"),
+  "expression-in-a-tune-you-know": () =>
+    import("./expression-in-a-tune-you-know.mdx"),
 
   // Stage 8 — Sight-reading & ear training
   // 8a · Movement A — reading fluently
