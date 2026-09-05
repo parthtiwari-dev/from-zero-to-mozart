@@ -226,22 +226,44 @@ much more (the ear thread, the physics, transposition, the modes, an accurate ra
 - **Movement P (repertoire): deferred**, needs a verified PD source (Vivaldi A minor RV 356
   is the lead candidate, Tier 2 below) before any tune slug is created.
 
-### Stage 7 — Vibrato & expression
-*PDF Part VI (vibrato portion) + new. ~12–16 lessons.*
+### Stage 7 — Vibrato & expression — ✔ BUILT 2026-09-06, 27 lessons
+*PDF Part VI §68–72 (vibrato) + a large new expression track. `stage-plans/stage-7-research.md`
+(9 fact-passes + an expression-scoping section) + `stage-7.md` (Movements A–F + P).*
 
-- **What vibrato is:** a controlled oscillation *below* the pitch and back to centre, for
-  expression; width vs speed; continuous vs terminal. **Not** a way to make an uncertain note
-  sound musical — learn the centre of the pitch first.
-- **Readiness gate:** in tune in first position, without tension. (Violinspiration's gate.)
-- **Types:** arm / forearm, wrist / hand, finger — the anatomy of each. Teachers differ on
-  which to learn first; this course teaches **arm and wrist**, no dogma.
-- **Preparation:** silent rocking away from the instrument, "polishing", metronome pulses
-  (1 → 2 → 3 → 4 per beat), all fingers, on every string, the "knock", ghost vibrato.
-- **A 6-week micro-plan** (from the PDF) + the honest caveat: vibrato often takes months.
-- **Integrating:** start and stop deliberately; vibrato on the long notes of an easy melody;
-  vary width & speed for character; keep the pitch centre.
-- **Expression more broadly:** phrasing (shape, direction, breath, arrival & departure notes),
-  dynamics as a line, agogics / rubato, tone colour, character words, listening & imitation.
+- **A — vibrato: what it is, and are you ready (4):** `what-vibrato-is` (the pedagogical cue
+  "roll back from the note" *and* the acoustic fact "both sides of the mean, perceived near
+  the mean" — both, labelled) · `is-your-hand-ready` (the readiness self-check, not a gate:
+  in-tune first position, relaxed hand, holds the violin without the left hand, has begun
+  shifting) · `vibrato-is-not-a-fix` (learn the centre of the pitch first; vibrato hides your
+  own errors) · `vibrato-used-to-be-an-ornament` (the history — Geminiani 1751 → L. Mozart
+  1756 → Spohr → New Grove → Kreisler → Auer 1921 — hedged to "selective and varied, not the
+  modern continuous default"; the Mozart-vs-Bruch preview).
+- **B — the motion, off the note (4):** `the-vibrato-pulse` · `arm-and-wrist` (the two motions,
+  the pivot of each, the genuine "which first" disagreement stated; `VibratoMotionDiagram`) ·
+  `polishing-the-string` · `finger-vibrato` (REFERENCE).
+- **C — building it on the string (5):** `the-pulse-ladder` (the metronome ladder + the
+  `pulses × BPM ÷ 60 = Hz` check) · `every-finger-every-string` · `starting-and-stopping`
+  (terminal / "late" vibrato) · `when-it-goes-wrong` (the fault catalogue) · `months-not-weeks`
+  (the 6-week plan, honestly captioned).
+- **D — vibrato in the music (4):** `vibrato-on-a-long-note` (the swell + the shimmer as one
+  gesture — Spohr 1832) · `width-speed-and-character` (the two independent dials; width tracks
+  the dynamic) · `keeping-the-centre` (don't drift the pitch or shake the bow; the drone
+  check) · `vibrato-through-a-shift` ("continuous" vibrato is minimally-interrupted vibrato).
+- **E — expression you haven't been taught yet (5):** `stealing-time` (rubato as an action —
+  steal and repay) · `the-agogic-accent` (stress by lengthening) · `tone-colour-as-a-choice`
+  (the lanes + sul tasto/pont./flautando as a character palette) · `what-is-this-music-about`
+  (character / affekt as the first question — C.P.E. Bach, Quantz) · `listening-and-copying`
+  (the mother-tongue method for expression).
+- **F — playing in style, and the check (3):** `playing-mozart-like-mozart` (the synthesis —
+  vibrato/portamento/rubato/articulation dialled Classical vs Romantic; "the era tells you
+  how") · `making-your-own-choices` (the 5 choices, written and repeated — `PRD.md` §3's
+  "Choose") · `the-expression-check` (self-audit, not a gate).
+- **P — repertoire (2):** `stage-7-vibrato-and-expression` (the daily set) ·
+  `expression-in-a-tune-you-know` (the whole E–F toolkit through *Amazing Grace*, the Stage-3
+  tune reused). `tune-shenandoah` deferred pending a ≥2-source PD melody.
+- **Beat-3 fix** (abcjs renders no vibrato/rubato/colour): `<NotatedExample>` shows *where*,
+  named reference recordings carry the *sound*, `VibratoMotionDiagram` does "see it", every
+  vibrato lesson states the limit plainly.
 
 ### Stage 8 — Sight-reading & ear training  →  **INTERMEDIATE GATE**
 *PDF Part VII (thin) + a large new ear-training track. **8a BUILT 2026-09-04 — 44 lessons** (`stage-plans/stage-8.md`, Movements A–H): A reading fluently 8 · B the sight-reading method 7 · C reading across contexts 4 · D what a good ear is 5 · E the scale-degree gym 6 (**the core** — functional/sargam ear training) · F hearing harmony 5 · G taking music down 5 · H playing by ear 4. Built out of sequence (position-independent, carries the play-by-ear goal). **8b** (positions at sight + the Intermediate gate) waits for Stage 6–7.*

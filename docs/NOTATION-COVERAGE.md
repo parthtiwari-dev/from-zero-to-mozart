@@ -177,6 +177,21 @@ hand can actually do.
 | **artificial harmonic (oval + diamond a 4th above)** — REFERENCE, mechanics only | `artificial-harmonics` (G3) | taught (REFERENCE) |
 | **left-hand pizzicato `+`** — now producing it, not just reading it (Stage 3 `arco-and-pizzicato`) | `left-hand-pizzicato` (G4) | taught (performed) |
 
+## Vibrato & expression — performed (Stage 7)
+
+Stage 7 introduces **almost no new glyphs** — vibrato has no notation at all (the point of
+`what-vibrato-is`), and the expression devices are mostly things the page *doesn't* mark. The
+few notation touch-points, all recapped from earlier stages and now *performed*:
+
+| Symbol / notation | Lesson | Status |
+|---|---|---|
+| **vibrato — no symbol** — a shimmer on a held note; never a notehead or a mark (the reading was flagged in Stage 2 `beamed-notes-double-stops-and-vibrato`) | `what-vibrato-is` (A1) and Movements A–D | taught (performed) |
+| **the wavy vibrato line** (rare — Spohr, Mendelssohn marked where to vibrate) | `vibrato-used-to-be-an-ornament` (A4) — as a historical note | taught (reading, historical) |
+| **agogic accent — no symbol** — stress by lengthening; often what a marked/stressed note in a Classical score really asks for | `the-agogic-accent` (E2) | taught (performed) |
+| **rubato — usually unmarked** — bending the time in a phrase with no *rubato* written; Stage 3 `bending-the-tempo` taught reading the word | `stealing-time` (E1) | taught (performed) |
+| **colour words** (*sul tasto*, *sul ponticello*, *flautando*, *con sordino*) — Stage 3 `the-colour-words` taught the terms; now a deliberate expressive choice | `tone-colour-as-a-choice` (E3) | taught (performed) |
+| **messa di voce `< >` on one note + vibrato** — the swell (Stage 5 `messa-di-voce`) and the shimmer growing together (Spohr 1832) | `vibrato-on-a-long-note` (D1) | taught (performed) |
+
 ## Reading fluency & the ear (Stage 8a)
 
 Stage 8 introduces **no new glyphs** — it makes the *reading* of what's already been taught
@@ -193,7 +208,8 @@ fluent, and builds the ear. The one place it revisits notation:
 ## Still to place
 
 - **Overdotting / notes inégales** — Stage 3 `non-legato-was-normal` touches the un-learning
-  of modern habit; the full inégales treatment is a Stage 7 / repertoire-module style topic.
+  of modern habit; Stage 7 `playing-mozart-like-mozart` folds it into the Classical-style
+  synthesis; the full inégales treatment is a repertoire-module style topic.
 - **8va/8vb/15ma/loco** — now taught in `slides-and-octave-signs` (G4); update the Pitch table
   row (was pointed at the old `editions-and-editorial-marks`).
 

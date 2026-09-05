@@ -15,9 +15,12 @@ Every section of the original 193-page PDF (`docs/source/original-violin-book.pd
 >   padding replaced with a real lesson + atlas card per stroke. 4 gate tunes deferred.
 > - **Part VII (positions/shifting portion) → Stage 6: ✔ BUILT (2026-09-05).** 30 lessons —
 >   went far past the PDF's §64–§67, §73–§75 (a full 1st→3rd→5th→2nd→4th teaching order, the
->   left-hand chord debt, natural + artificial harmonics, finger substitution). §68–§69
->   (vibrato) and Part IX's Mozart-specific rows remain Stage 7 / the Mozart module.
-> - **Part VIII–IX (Stages 7–9 + Vivaldi/Mozart modules): `todo`** (Phase 2–3).
+>   left-hand chord debt, natural + artificial harmonics, finger substitution).
+> - **Part VI §68–§72 (vibrato) → Stage 7: ✔ BUILT (2026-09-06).** 27 lessons — went far past
+>   the PDF's five vibrato pages into a full expression track (rubato, the agogic accent, tone
+>   colour, character/affekt, listening & imitation, playing in style). Part IX's
+>   Mozart-specific rows remain the Mozart module.
+> - **Stage 8b + Part VIII–IX (Vivaldi/Mozart modules) + Stage 9: `todo`** (Phase 2–3).
 
 Legend for target stage: see `CURRICULUM.md`.
 
@@ -151,17 +154,19 @@ PDF's dropped F♯ in the §59A G-major answer.
 | 122 | §65 Chords and rolled chords | **Stage 6** Movement F (`holding-a-stopped-chord`, `which-notes-to-hold`) — the left-hand half; Stage 5 `rolling-a-chord-with-the-bow` is the bow half | **done** |
 | 123 | §66 Trills and finger action | **Stage 6** `the-trill-in-your-fingers` (G1) | **done** |
 | 124 | §67 Pizzicato | Stage 3 (term) + Stage 5 `pizzicato` (doing — right hand) | **done** |
-| 125 | §68 Vibrato — readiness gate | **Stage 7** | todo |
-| 126 | §69 Arm vibrato | **Stage 7** | todo |
-| 127 | §70 Wrist vibrato | **Stage 7** | todo |
-| 128 | §71 Finger vibrato | **Stage 7** (reference-tagged) | todo |
-| 129 | §72 6-week vibrato micro-plan | **Stage 7** | todo |
+| 125 | §68 Vibrato — readiness gate | **Stage 7** `what-vibrato-is` (A1) + `is-your-hand-ready` (A2) + `vibrato-is-not-a-fix` (A3) | **done** |
+| 126 | §69 Arm vibrato | **Stage 7** `arm-and-wrist` (B2) + `the-vibrato-pulse` (B1) | **done** |
+| 127 | §70 Wrist vibrato | **Stage 7** `arm-and-wrist` (B2) — taught alongside arm, "which first" left open | **done** |
+| 128 | §71 Finger vibrato | **Stage 7** `finger-vibrato` (B4) — REFERENCE, as the PDF tags it | **done** |
+| 129 | §72 6-week vibrato micro-plan | **Stage 7** `months-not-weeks` (C5) + `the-pulse-ladder` (C1) + `stage-7-vibrato-and-expression` (P1) | **done** |
+| — | *(new — far past the PDF)* | Movement C `every-finger-every-string`, `starting-and-stopping`, `when-it-goes-wrong` · Movement D (vibrato in the music, 4) · Movement E (rubato, agogic accent, tone colour, character/affekt, listening & imitation, 5) · Movement F (`playing-mozart-like-mozart`, `making-your-own-choices`, `the-expression-check`) · Movement P `expression-in-a-tune-you-know` | **done** |
 | 130 | §73 What is a "position"? | **Stage 6** `what-a-position-is` (A1) | **done** |
 | 131 | §74 Third position | **Stage 6** `third-position` (B1) | **done** |
 | 132 | §75 Fourth position — why it matters for Mozart | **Stage 6** `fourth-position` (D2); the K.216-specific angle still belongs to the Mozart module | done (Stage 6 half); todo (Mozart-specific) |
 | 133 | §76 Ševčík / Wohlfahrt / Kayser — why études exist | **Stage 9** + `REPERTOIRE.md` étude ladder | todo |
 
-> Note: v1 (Stages 0–5) takes **p113–120 and p124** from Part VI. The rest of Part VI is Phase 2–3.
+> Note: v1 (Stages 0–5) takes **p113–120 and p124** from Part VI. **§64–67, §73–75 → Stage 6
+> (✔ BUILT 2026-09-05); §68–72 → Stage 7 (✔ BUILT 2026-09-06).** §76 (études) is Stage 9.
 
 ## Part VII — Sight-reading Course (p134–166)
 

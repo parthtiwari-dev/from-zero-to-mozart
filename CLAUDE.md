@@ -138,8 +138,11 @@ every concept lesson 2–4 play-arounds + real music. **Stages 0–5 are all bui
 2026-09-04). **v1 = PDF Parts I–VI is done** (bar 2 Stage-5 gate tunes — Bach *Air*, Gossec
 *Gavotte* — and a few earlier deferred tunes; see NEXT SESSION). **Stage 8a built out of
 sequence 2026-09-04** (44 lessons — it carries the play-by-ear goal and needs neither Stage 6
-nor 7). **Stage 6 (shifting & the higher positions) built 2026-09-05** (30 lessons). Phase 2
-continues with **Stage 7 (vibrato)**. Plan each stage with the user (`stage-plans/stage-N.md`).
+nor 7). **Stage 6 (shifting & the higher positions) built 2026-09-05** (30 lessons).
+**Stage 7 (vibrato & expression) built 2026-09-06** (27 lessons). Phase 2 now needs only
+**Stage 8b** (positions at sight + the Intermediate check — both its dependencies, Stages 6
+and 7, are built) → the **Intermediate gate**. Plan each stage with the user
+(`stage-plans/stage-N.md`).
 
 | Stage | State |
 |---|---|
@@ -150,6 +153,7 @@ continues with **Stage 7 (vibrato)**. Plan each stage with the user (`stage-plan
 | **4 · Scales & musicianship** | ✔ **BUILT 2026-09-03** — `stage-plans/stage-4-research.md` (20 passes) + `stage-4.md` (4a/4b/4c, Movements A–P). **70 lessons** (63 concept + 7 repertoire). Build green (231 pages), lint + tsc clean. Owns the K.216 first-note debt — `the-first-note-of-mozart` (O2). |
 | **5 · The bow** | ✔ **BUILT 2026-09-04 — 38 lessons.** `stage-plans/stage-5-research.md` (15 passes) + `stage-5.md` (5a 9 · 5b 16 · 5c 10 · P 3). Build green (255 pages), lint + tsc + barcheck clean. **Play-by-ear thread runs through the stage** (`PRD.md` §3): `finding-a-tune-by-ear` + the Foundation check's new hear-and-play-back item. **Movement P: 3 of 5 live** — `stage-5-tone-and-strokes` + `tune-conquering-hero` (Handel, martelé) + `tune-bach-musette` (the gate piece). `tune-bach-air` + `tune-gossec-gavotte` still deferred (need clean first-position sources). Then → **Foundation gate** (end of v1). |
 | **6 · Beyond first position** | ✔ **BUILT 2026-09-05 — 30 lessons.** `stage-plans/stage-6-research.md` (21 passes + a re-verification pass) + `stage-6.md` (Movements A–H). Build green (329 pages), barcheck + label-count + tsc + lint clean. **A** what a position is, and the first shift 6 · **B** 3rd position 3 · **C** 5th position 3 · **D** 2nd and 4th position 3 (+ `the-full-fingerboard-map` REFERENCE) · **E** double stops, stopped 5 (+ `fingered-octaves-and-tenths` REFERENCE) · **F** stopped chords 2 — pays the `LESSONS-FROM-MOZART.md` §2 chord debt · **G** trills, harmonics, and the rest 5 (+ `artificial-harmonics` REFERENCE) · **H** 6th/7th+ and the position check 3 (+ `sixth-and-seventh-position` REFERENCE). Position order corrected during research: 1st→3rd→5th→2nd→4th. Every fingering verified against the Pass-20 note-map table via a MIDI-pitch dump of its ABC — caught and fixed several real errors during the build (a double-stop finger-pairing correction, stray accidentals, wrong octaves). Movement P (repertoire) deferred, needs a verified PD source. |
+| **7 · Vibrato & expression** | ✔ **BUILT 2026-09-06 — 27 lessons.** `stage-plans/stage-7-research.md` (9 fact-passes + an expression-scoping section, one pass — the checkable surface is small) + `stage-7.md` (Movements A–F + P). Build green (356 pages), barcheck + tsc + lint clean. **A** vibrato: what it is + are you ready 4 · **B** the motion, off the note 4 (+ `finger-vibrato` REFERENCE) · **C** building it on the string 5 · **D** vibrato in the music 4 · **E** expression you haven't been taught — rubato/agogic accent/colour/character/imitation 5 · **F** playing in style + the check 3 · **P** 2 (`stage-7-vibrato-and-expression` + `expression-in-a-tune-you-know` = Amazing Grace reused). **Beat-3 fix** (abcjs renders no vibrato): `<NotatedExample>` shows *where*, named recordings carry the *sound*, `VibratoMotionDiagram` does "see it", every vibrato lesson states the limit. The `pulses × BPM ÷ 60 = Hz` check ran on every drill. Leopold Mozart "Of the Tremolo" quote verified → `LINEAGE-QUOTES.md`. `tune-shenandoah` deferred (no clean ≥2-source PD melody this session). Browser spot-check pending. |
 | **8 · Sight-reading & ear training** | ✔ **8a BUILT 2026-09-04 — 44 lessons.** `stage-plans/stage-8-research.md` (22 passes) + `stage-8.md` (Movements A–H). Built out of sequence (user's call) because it carries the play-by-ear goal and needs neither Stage 6 nor 7. Build green (299 pages), barcheck + label-count + tsc + lint clean. **A** reading fluently 8 · **B** the sight-reading method 7 (+ card ladder) · **C** reading across contexts 4 · **D** what a good ear is 5 · **E** the scale-degree gym 6 — *the core* · **F** hearing harmony 5 · **G** taking music down 5 (+ dictation ladder) · **H** playing by ear 4 (+ tune ladder). `DRONE_NOTES` gained B + C. **8b deferred** (positions at sight + the Intermediate check — needs Stage 6–7, both now built). Browser spot-check pending. |
 
 **Stage 0–2 audit (`docs/stage-audit.md`, 2026-09-02):** every published lesson checked
@@ -285,26 +289,45 @@ Research: `docs/stage-plans/stage-4-research.md` (20 passes + a re-verification 
 
 ---
 
-## NEXT SESSION — Stage 7 (vibrato) → browser spot-checks → Stage 5/8 loose ends
+## NEXT SESSION — Stage 8b (positions at sight + the Intermediate gate) → browser spot-checks → loose ends
 
-**Stages 0–6 built; Stage 8a built (44 lessons).** v1 (PDF Parts I–VI) complete; the Foundation
-gate is written; the ear gym / play-by-ear stage is live; the fingerboard is open (Stage 6, 30
-lessons, 2026-09-05). Build green at **329 pages**.
+**Stages 0–7 built; Stage 8a built (44 lessons).** v1 (PDF Parts I–VI) complete; the Foundation
+gate is written; the ear gym / play-by-ear stage is live; the fingerboard is open (Stage 6);
+the expressive layer is built (Stage 7, vibrato + rubato + colour + character). Build green at
+**356 pages**. **Only Stage 8b now stands between here and the Intermediate gate.**
 **Read `## Mistakes to avoid` below before writing a single lesson.**
 
-### 0 — Stage 6 follow-ups (just built, 2026-09-05)
-- **Browser spot-check the 30 Stage-6 lessons** (not yet done this session). Priority: the
-  stopped-chord and double-stop `<NotatedExample>` blocks (`holding-a-stopped-chord`,
-  `which-notes-to-hold`, `thirds`/`sixths`/`octaves`) render as playable rolled chords, not
-  broken/silent; the tied note in `finger-substitution` renders as one continuous note, not two
-  attacks; the 9-note full-neck scale in `the-full-fingerboard-map` fits without breaking R5
-  (no horizontal scroll on a single line) at mobile width.
-- **Movement P (repertoire) is still deferred** — needs a verified, ≥2-source-checked PD
-  arrangement (Vivaldi A minor RV 356 1st mvt is the lead candidate, `REPERTOIRE.md` Tier 2)
-  before any tune slug is created. Sourcing is its own task.
-- `docs/CURRICULUM.md` Stage 6, `docs/PDF-MAP.md`, `docs/THE-PATH.md` §6,
-  `docs/NOTATION-COVERAGE.md`: **not yet updated to "Stage 6 built"** — do this before starting
-  Stage 7, the same way every prior stage's build closed out its docs.
+### 0 — Stage 8b (the next build)
+- **Both dependencies are done** — Stage 6 (positions) and Stage 7 (vibrato). 8b can be
+  planned now: `stage-plans/stage-8.md` §"8b sketch" (`reading-a-shift`, `the-grade-4-line`,
+  `the-intermediate-check`, sight-reading card levels 11+). Research first
+  (`stage-8b-research.md` or fold into `stage-8-research.md`), then plan with the user, then
+  build — the same rhythm as every prior stage. Then the **Intermediate gate** closes and
+  Phase 2 is done.
+
+### 0b — Stage 7 follow-ups (just built, 2026-09-06)
+- **Browser spot-check the 27 Stage-7 lessons.** Priorities: `VibratoMotionDiagram` (the new
+  arm/wrist SVG in `components/Diagram.tsx`) renders cleanly at mobile width in `arm-and-wrist`;
+  the `<NotatedExample>` blocks with a single long note (`what-vibrato-is`, `arm-and-wrist`,
+  `width-speed-and-character`, `keeping-the-centre`, etc.) render left-aligned but readable and
+  don't look broken; the `rhythmOnly` pulse example in `the-vibrato-pulse` / `the-pulse-ladder`
+  shows counting syllables; the Amazing-Grace reuse in `expression-in-a-tune-you-know` plays.
+- **`tune-shenandoah` deferred** — no clean ≥2-source PD melody could be pulled through
+  WebFetch this session (traditionalsongs.org / michaelkravchuk / 8notes / bethsnotes all
+  either 403'd or only linked PDFs). `REPERTOIRE.md` still lists it as a "good build candidate"
+  (D major, first position, long lyrical notes). Source it, then add a `tune-shenandoah` slug
+  to Movement P. Any other new Stage-7 tune is deferred the same way.
+- Docs updated to "Stage 7 built": `CLAUDE.md`, `CURRICULUM.md`, `PDF-MAP.md` (§68–72),
+  `THE-PATH.md` §6, `NOTATION-COVERAGE.md`, `stage-7.md` §Status.
+
+### 0c — Stage 6 follow-ups (still open)
+- **Browser spot-check the 30 Stage-6 lessons** (not done yet). Priority: the stopped-chord /
+  double-stop `<NotatedExample>` blocks (`holding-a-stopped-chord`, `which-notes-to-hold`,
+  `thirds`/`sixths`/`octaves`) render as playable rolled chords, not broken/silent; the tied
+  note in `finger-substitution` renders as one continuous note; the 9-note full-neck scale in
+  `the-full-fingerboard-map` fits without horizontal scroll at mobile width.
+- **Stage 6 Movement P (repertoire) still deferred** — needs a verified, ≥2-source-checked PD
+  arrangement (Vivaldi A minor RV 356 1st mvt is the lead candidate, `REPERTOIRE.md` Tier 2).
 
 ### 1 — Stage 8a follow-ups
 - **Browser spot-check the 44 Stage-8 lessons** (Chrome extension was down that session).
@@ -316,9 +339,9 @@ lessons, 2026-09-05). Build green at **329 pages**.
   cards/keys over time.
 - `docs/PDF-MAP.md` Part VII, `docs/CURRICULUM.md` Stage 8, `docs/THE-PATH.md` §6,
   `docs/NOTATION-COVERAGE.md`: updated to "8a built".
-- **8b** (`reading-a-shift`, `the-grade-4-line`, `the-intermediate-check`, card levels 11+) can
-  now be planned — Stage 6 and 7 are its two remaining dependencies, and Stage 6 is done. Wait
-  for Stage 7 (vibrato) before starting 8b.
+- **8b** (`reading-a-shift`, `the-grade-4-line`, `the-intermediate-check`, card levels 11+):
+  both dependencies (Stages 6 and 7) are now built — 8b is the next stage to plan and build
+  (see §0 above).
 
 ### 2 — Stage 5 loose ends (small)
 - **2 remaining gate tunes** (`stage-plans/stage-5.md` §Status): `tune-bach-air` (Bach Air
@@ -352,7 +375,7 @@ Help Falling in Love", C, Stage 5–6) · **Shenandoah** (D, son-filé, Stage 5)
 (A minor, Stage 4–5) · **Shchedryk** ("Carol of the Bells" melody, A minor, fast détaché,
 Stage 5) · the folk pool (Simple Gifts / Ash Grove / Loch Lomond).
 
-### 5 — Phase 2 — **Stage 8a and Stage 6 are BUILT** (2026-09-04, 2026-09-05); **Stage 7 next**
+### 5 — Phase 2 — **Stages 6, 7 and 8a are BUILT**; only **Stage 8b** remains before the Intermediate gate
 Stage 8a done — 44 lessons, Movements A–H, `stage-plans/stage-8.md` §Status. The ear gym
 (Movement E) + play-by-ear (Movement H) are live; `DRONE_NOTES` now has B + C;
 `abc-barcheck.py` now checks label counts.
@@ -369,28 +392,27 @@ than eyeballed — see `stage-6.md` §Status and `stage-6-research.md`'s Pass-12
 the real errors this caught. Movement P (repertoire) still deferred — needs a verified PD
 source (`REPERTOIRE.md` Tier 2 has candidates) before any tune slug is created.
 
-**Stage 7 (Vibrato & expression) — RESEARCH DONE 2026-09-05.** `stage-7-research.md`, written
-in one pass (9 fact-passes + a large expression-scoping section) — no re-verify round needed
-because the checkable surface is small (rate, width, the three vibrato types, the readiness
-gate, the ornament→continuous history, one Leopold Mozart passage). The Leopold Mozart "Of the
-Tremolo" quote is verified and logged in `LINEAGE-QUOTES.md`. The stage's mechanical check
-(the Stage-6 Pass-20 analog) is `pulses per beat × BPM ÷ 60 = Hz` — run it on every drill with
-a metronome number. **4 decisions are flagged for the user before `stage-7.md` is written:**
-(1) the beat-3 substitute for the vibrato lessons — abcjs renders no vibrato; recommend
-`<NotatedExample>` for *where* + named reference recordings for the *sound* + 1–2 hand-motion
-`<Diagram>` SVGs, limit stated per lesson (the Stage-6 way); (2) "teach arm + wrist, whichever
-the student finds first; finger = REFERENCE" — the literature does not support picking one, so
-the lesson states the disagreement; (3) Movement P — build 1–2 "vibrato on a tune you already
-own" lessons reusing verified tunes + source Shenandoah, defer other new tunes; (4) scope
-~22 + P vs the old "~12–16" sketch. **Next action: get the user's calls on those 4, then write
-`stage-7.md`, then build.** Then **Stage 8b** → **Intermediate gate**.
+**Stage 7 (Vibrato & expression) — BUILT 2026-09-06, 27 lessons.** `stage-7-research.md`
+(9 fact-passes + an expression-scoping section, one pass — no re-verify round, the checkable
+surface is small) + `stage-7.md` (Movements A–F + P). Built movement by movement: A (what
+vibrato is + readiness, 4) → B (the motion off the note, 4 + `VibratoMotionDiagram`) → C
+(building it on the string, 5) → D (vibrato in the music, 4) → E (rubato / agogic accent /
+colour / character / imitation, 5) → F (playing in style + the check, 3) → P (2 — the daily
+set + Amazing Grace reused). **The 4 flagged decisions, resolved:** (1) beat-3 for vibrato =
+`<NotatedExample>` for *where* + named recordings for the *sound* + `VibratoMotionDiagram`,
+limit stated per lesson; (2) teach arm + wrist (whichever first), finger REFERENCE, the lesson
+states the disagreement; (3) Movement P = reuse verified tunes, `tune-shenandoah` deferred (no
+clean PD source this session); (4) no lesson cap (user: "all in depth") → 27. The `pulses ×
+BPM ÷ 60 = Hz` check ran on every drill. Leopold Mozart "Of the Tremolo" quote verified →
+`LINEAGE-QUOTES.md`. Build green (356 pages), barcheck + tsc + lint clean.
+**Next action: Stage 8b** (positions at sight + the Intermediate check) → **Intermediate gate**.
 
 **Deferred from earlier stages:** Stage 1's 4 tunes pending PD sources (song-of-the-wind,
 go-tell-aunt-rhody, long-long-ago, french-folk-song); Stage 2's 3 (Pop Goes the Weasel, Jolly
 Good Fellow, Deck the Halls); the 10 Stage-1 tunes to re-notate in true (not simplified)
 rhythm; `tune-gossec-gavotte` (now a Stage-5 gate tune — see part 2).
 
-## Mistakes to avoid (learned the hard way, Stages 1–6 — DO NOT repeat)
+## Mistakes to avoid (learned the hard way, Stages 1–7 — DO NOT repeat)
 
 1. **Bar sums & label counts.** Every `<NotatedExample>` with an explicit `M:` and `L:` — the
    notes in each bar must sum to the metre (abcjs renders a short/long bar **silently**). And
@@ -455,6 +477,27 @@ rhythm; `tune-gossec-gavotte` (now a Stage-5 gate tune — see part 2).
       don't trust the pitch spelling or notehead count by eye. This caught several real errors
       during Stage 6 (a stray flat, a wrong octave, a dropped note) that both `abc-barcheck.py`
       and a careful read-through missed.
+14. **Some subjects the playback engine simply cannot render** — vibrato, rubato, tone colour,
+    portamento. abcjs + soundfont play notes and rhythm, nothing else, and there is no notation
+    for vibrato at all. A whole class of Stage 7 lessons therefore *cannot* hit beat 3 ("hear
+    it, one-press example") the normal way. The Stage-7 resolution, decided in the research doc
+    up front rather than improvised per lesson: (a) `<NotatedExample>` shows *where* the
+    expressive event goes — a fully labelled long note in a phrase — playback gives only the
+    notes; (b) name a **specific reference recording** for the sound ("listen to [player] play
+    [piece], the [which] phrase" — not "listen to a recording"); (c) a `<Diagram>` for "see
+    it" where a motion can be drawn (`VibratoMotionDiagram`); (d) **state the limit in the
+    lesson**, the Stage-6 way. Do the same for any future subject the engine can't voice.
+15. **A metronome number in a drill is a practice speed or a performance speed — say which.**
+    Vibrato's check: `pulses per beat × BPM ÷ 60 = Hz`; a real vibrato is ~5–7 Hz, and every
+    practice drill sits below that by design (4/beat at 60 = 4 Hz). Run the arithmetic on every
+    drill that carries a tempo, and never let a practice endpoint ("week 6", "4 per beat") read
+    as "finished". (Analogous checks exist for any stage: bar sums for metre, P5-between-strings
+    for position note-maps, this for oscillation rates.)
+16. **A pitch that is an open string (G3, D4, A4, E5) is not reachable as a mid-finger stopped
+    note on the string below, in first position.** Twice this build a draft labelled "A4 =
+    high 2 on the D string" — but D-string high 2 is F♯4; A4 on the D string needs the 4th
+    finger. Same trap as Mistake #2: always recompute the ABC pitch from the string + finger in
+    the label, especially for "check it against the ringing open string" examples.
 
 ### Authoring notes
 
