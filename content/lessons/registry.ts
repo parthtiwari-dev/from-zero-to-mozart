@@ -414,6 +414,13 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "arm-and-wrist": () => import("./arm-and-wrist.mdx"),
   "polishing-the-string": () => import("./polishing-the-string.mdx"),
   "finger-vibrato": () => import("./finger-vibrato.mdx"),
+  // Movement C — building it on the string
+  "the-pulse-ladder": () => import("./the-pulse-ladder.mdx"),
+  "every-finger-every-string": () =>
+    import("./every-finger-every-string.mdx"),
+  "starting-and-stopping": () => import("./starting-and-stopping.mdx"),
+  "when-it-goes-wrong": () => import("./when-it-goes-wrong.mdx"),
+  "months-not-weeks": () => import("./months-not-weeks.mdx"),
 
   // Stage 8 — Sight-reading & ear training
   // 8a · Movement A — reading fluently
