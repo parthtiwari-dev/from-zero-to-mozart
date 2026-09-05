@@ -421,6 +421,12 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "starting-and-stopping": () => import("./starting-and-stopping.mdx"),
   "when-it-goes-wrong": () => import("./when-it-goes-wrong.mdx"),
   "months-not-weeks": () => import("./months-not-weeks.mdx"),
+  // Movement D — vibrato in the music
+  "vibrato-on-a-long-note": () => import("./vibrato-on-a-long-note.mdx"),
+  "width-speed-and-character": () =>
+    import("./width-speed-and-character.mdx"),
+  "keeping-the-centre": () => import("./keeping-the-centre.mdx"),
+  "vibrato-through-a-shift": () => import("./vibrato-through-a-shift.mdx"),
 
   // Stage 8 — Sight-reading & ear training
   // 8a · Movement A — reading fluently

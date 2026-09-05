@@ -561,6 +561,12 @@ export const LESSONS: Lesson[] = [
   { slug: "when-it-goes-wrong", title: "When it goes wrong", stage: 7, track: "left-hand", tag: "NOW", published: P },
   { slug: "months-not-weeks", title: "Months, not weeks", stage: 7, track: "left-hand", tag: "NOW", published: P },
 
+  // Movement D — vibrato in the music
+  { slug: "vibrato-on-a-long-note", title: "Vibrato on a long note", stage: 7, track: "left-hand", tag: "NOW", published: P },
+  { slug: "width-speed-and-character", title: "Width, speed, and character", stage: 7, track: "left-hand", tag: "NOW", published: P },
+  { slug: "keeping-the-centre", title: "Keeping the centre", stage: 7, track: "left-hand", tag: "NOW", published: P },
+  { slug: "vibrato-through-a-shift", title: "Vibrato through a shift", stage: 7, track: "left-hand", tag: "NOW", published: P },
+
   // ── Stage 8 — Sight-reading & ear training ─────────────────────
   //   Plan: docs/stage-plans/stage-8.md (research: stage-8-research.md, 22 passes).
   //   Built out of sequence (before Stage 6/7) — it carries the play-by-ear goal
