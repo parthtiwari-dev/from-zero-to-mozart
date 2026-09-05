@@ -34,6 +34,22 @@ mozarteum.at.
 - *He valued steady, assured, tasteful playing, free of gaudy effects and tricks that disguise
   poor technique.* — his stance on virtuosity/ornament. Source: stringsmagazine.com
   ("A Reexamination of Leopold Mozart's Famous Violin Pedagogy"); **paraphrase, close.**
+- *"The tremolo is an ornamentation which arises from Nature herself and which can be used
+  charmingly on a long note"* — Ch. XI "Of the Tremolo", on vibrato as the wave-like
+  undulation of a struck bell or slack string. Source: *Violinschule* (1756) Ch. XI, tr.
+  Knocker; **close paraphrase, well-attested across 3 secondary sources.**
+- *"...one makes a small movement with the whole hand; which, however, must not move sideways
+  but forwards toward the bridge and backwards toward the scroll."* — how to produce the
+  tremolo. Source: same, Ch. XI; **close-verified Knocker wording** (standingstones.com,
+  violinist.com discussion).
+- *"Performers there are who tremble consistently on each note as if they had the palsy."* —
+  the warning against constant vibrato. Source: same, Ch. XI; **quote as commonly cited** —
+  minor variants seen ("tremble upon every note", "the perpetual fever"); confirm exact
+  Knocker phrasing before it ships verbatim in Stage 7's `vibrato-used-to-be-an-ornament`.
+- *"The tremolo must only be used at places where nature herself would produce it."* — i.e. on
+  sustained notes and at closes. Source: same, Ch. XI; **close-verified.** He notates three
+  speeds (slow even / accelerating / rapid). Full sourcing: `stage-plans/stage-7-research.md`
+  Pass 9.
 
 ## Ivan Galamian — *Principles of Violin Playing and Teaching* (1962)
 
