@@ -427,6 +427,12 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
     import("./width-speed-and-character.mdx"),
   "keeping-the-centre": () => import("./keeping-the-centre.mdx"),
   "vibrato-through-a-shift": () => import("./vibrato-through-a-shift.mdx"),
+  // Movement E — expression you haven't been taught yet
+  "stealing-time": () => import("./stealing-time.mdx"),
+  "the-agogic-accent": () => import("./the-agogic-accent.mdx"),
+  "tone-colour-as-a-choice": () => import("./tone-colour-as-a-choice.mdx"),
+  "what-is-this-music-about": () => import("./what-is-this-music-about.mdx"),
+  "listening-and-copying": () => import("./listening-and-copying.mdx"),
 
   // Stage 8 — Sight-reading & ear training
   // 8a · Movement A — reading fluently

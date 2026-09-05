@@ -567,6 +567,13 @@ export const LESSONS: Lesson[] = [
   { slug: "keeping-the-centre", title: "Keeping the centre", stage: 7, track: "left-hand", tag: "NOW", published: P },
   { slug: "vibrato-through-a-shift", title: "Vibrato through a shift", stage: 7, track: "left-hand", tag: "NOW", published: P },
 
+  // Movement E — expression you haven't been taught yet
+  { slug: "stealing-time", title: "Stealing time", stage: 7, track: "ear", tag: "NOW", published: P },
+  { slug: "the-agogic-accent", title: "The agogic accent", stage: 7, track: "ear", tag: "NOW", published: P },
+  { slug: "tone-colour-as-a-choice", title: "Tone colour as a choice", stage: 7, track: "bow", tag: "NOW", published: P },
+  { slug: "what-is-this-music-about", title: "What is this music about", stage: 7, track: "ear", tag: "NOW", published: P },
+  { slug: "listening-and-copying", title: "Listening and copying", stage: 7, track: "ear", tag: "NOW", published: P },
+
   // ── Stage 8 — Sight-reading & ear training ─────────────────────
   //   Plan: docs/stage-plans/stage-8.md (research: stage-8-research.md, 22 passes).
   //   Built out of sequence (before Stage 6/7) — it carries the play-by-ear goal
