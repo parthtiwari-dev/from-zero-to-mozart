@@ -548,6 +548,12 @@ export const LESSONS: Lesson[] = [
   { slug: "vibrato-is-not-a-fix", title: "Vibrato is not a fix", stage: 7, track: "left-hand", tag: "NOW", published: P },
   { slug: "vibrato-used-to-be-an-ornament", title: "Vibrato used to be an ornament", stage: 7, track: "ear", tag: "NOW", published: P },
 
+  // Movement B — the motion, off the note
+  { slug: "the-vibrato-pulse", title: "The vibrato pulse", stage: 7, track: "left-hand", tag: "NOW", published: P },
+  { slug: "arm-and-wrist", title: "Arm and wrist", stage: 7, track: "left-hand", tag: "NOW", published: P },
+  { slug: "polishing-the-string", title: "Polishing the string", stage: 7, track: "left-hand", tag: "NOW", published: P },
+  { slug: "finger-vibrato", title: "Finger vibrato", stage: 7, track: "left-hand", tag: "REFERENCE", published: P },
+
   // ── Stage 8 — Sight-reading & ear training ─────────────────────
   //   Plan: docs/stage-plans/stage-8.md (research: stage-8-research.md, 22 passes).
   //   Built out of sequence (before Stage 6/7) — it carries the play-by-ear goal

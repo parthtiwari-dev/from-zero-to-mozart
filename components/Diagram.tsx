@@ -312,6 +312,54 @@ export function RhythmTree({
 
 // ─────────────────────────────────────────────────────────────────────────────
 
+export function VibratoMotionDiagram({
+  caption = "The two vibrato motions, seen from the side. Arm vibrato: the whole forearm and hand swing as a unit, pivoting at the elbow — a bigger motion, easier to feel first. Wrist vibrato: the forearm stays still and the hand rocks at the wrist, the base knuckles leading. Teachers disagree on which to learn first; this course teaches both.",
+}: {
+  caption?: string;
+}) {
+  return (
+    <Frame viewBox="-8 -10 540 250" caption={caption} maxW={560}>
+      {/* ── left panel: ARM vibrato ── */}
+      {/* string / neck */}
+      <path className="ink" fill="none" d="M14,44 H208" />
+      <text className="lbl dim" x="14" y="34" textAnchor="start">string</text>
+      {/* fingertip on the string */}
+      <circle className="ink" cx="118" cy="44" r="5" fill="none" />
+      {/* hand + forearm as one unit (drawn once, solid) */}
+      <path className="ink" fill="none" d="M118,44 L150,96 L206,182" />
+      {/* elbow pivot */}
+      <circle className="ink" cx="206" cy="182" r="4" fill="currentColor" />
+      <text className="lbl" x="206" y="200" textAnchor="middle">pivot: elbow</text>
+      {/* swing arc — the whole unit rocks */}
+      <path className="lead" fill="none" d="M92,26 A70,70 0 0 1 150,20" />
+      <path className="lead" fill="none" d="M92,26 l3,-9 M92,26 l9,-1" />
+      <path className="lead" fill="none" d="M150,20 l-9,-2 M150,20 l-2,9" />
+      <text className="lbl" x="66" y="70" textAnchor="middle">forearm</text>
+      <text className="lbl dim" x="66" y="84" textAnchor="middle">+ hand as one</text>
+      <text className="lbl" x="118" y="230" textAnchor="middle">arm vibrato</text>
+
+      {/* ── right panel: WRIST vibrato ── */}
+      <path className="ink" fill="none" d="M300,44 H494" />
+      <circle className="ink" cx="404" cy="44" r="5" fill="none" />
+      {/* forearm — heavier / static */}
+      <path className="ink" fill="none" strokeWidth="3" d="M436,96 L492,182" />
+      <text className="lbl dim" x="486" y="150" textAnchor="end">forearm still</text>
+      {/* hand — the part that moves */}
+      <path className="ink" fill="none" d="M404,44 L436,96" />
+      {/* wrist pivot */}
+      <circle className="ink" cx="436" cy="96" r="4" fill="currentColor" />
+      <text className="lbl" x="452" y="104" textAnchor="start">pivot: wrist</text>
+      {/* small rock arc at the hand only */}
+      <path className="lead" fill="none" d="M382,30 A44,44 0 0 1 424,26" />
+      <path className="lead" fill="none" d="M382,30 l3,-9 M382,30 l9,-1" />
+      <path className="lead" fill="none" d="M424,26 l-9,-2 M424,26 l-1,9" />
+      <text className="lbl" x="404" y="230" textAnchor="middle">wrist vibrato</text>
+    </Frame>
+  );
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+
 export function BowLanesDiagram({
   caption = "The five sounding points, bridge to fingerboard — each about a bow-hair wide. Nearer the bridge (1) is louder and fuller; nearer the fingerboard (5) is softer and flute-like. Start every open-string sound in lane 3.",
 }: {

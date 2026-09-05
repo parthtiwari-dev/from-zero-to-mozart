@@ -409,6 +409,11 @@ export const lessonModules: Record<string, () => Promise<MDXModule>> = {
   "vibrato-is-not-a-fix": () => import("./vibrato-is-not-a-fix.mdx"),
   "vibrato-used-to-be-an-ornament": () =>
     import("./vibrato-used-to-be-an-ornament.mdx"),
+  // Movement B — the motion, off the note
+  "the-vibrato-pulse": () => import("./the-vibrato-pulse.mdx"),
+  "arm-and-wrist": () => import("./arm-and-wrist.mdx"),
+  "polishing-the-string": () => import("./polishing-the-string.mdx"),
+  "finger-vibrato": () => import("./finger-vibrato.mdx"),
 
   // Stage 8 — Sight-reading & ear training
   // 8a · Movement A — reading fluently

@@ -11,6 +11,7 @@ import {
   BowLanesDiagram,
   RhythmTree,
   ViolinDiagram,
+  VibratoMotionDiagram,
 } from "@/components/Diagram";
 import { Cite, Margin } from "@/components/Margin";
 import { NotatedExample } from "@/components/NotatedExample";
@@ -42,6 +43,7 @@ const components: MDXComponents = {
   RhythmTree,
   TryThis,
   ViolinDiagram,
+  VibratoMotionDiagram,
 };
 
 export function useMDXComponents(): MDXComponents {
